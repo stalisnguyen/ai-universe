@@ -269,6 +269,55 @@ async function main() {
     console.log(`  ✅ TOTW: ${totw.name} (▲${totw.votesCount} upvotes)`);
   }
 
+  // Weekly update: refresh info for existing tools (runs once per week)
+  const lastWeeklyUpdate = data.lastWeeklyUpdate ? new Date(data.lastWeeklyUpdate) : null;
+  const oneWeekAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000);
+  const shouldUpdateWeekly = !lastWeeklyUpdate || lastWeeklyUpdate < oneWeekAgo;
+
+  if (shouldUpdateWeekly) {
+    console.log('\n🔄 Weekly refresh: updating existing tool info...');
+    // Focus on LLM and fast-moving categories
+    const toUpdate = data.tools.filter(t =>
+      ['llm', 'code', 'agent', 'video'].includes(t.category)
+    );
+    let updated = 0;
+    for (const tool of toUpdate) {
+      try {
+        const prompt = `Check the current pricing and latest model version for "${tool.name}" by ${tool.company} (${tool.link}).
+Return ONLY a JSON object with fields that have changed (leave out unchanged ones):
+{
+  "priceLabel": "...",
+  "shortDesc": "...",
+  "info": [{"label":"Models","value":"..."},{"label":"Context","value":"..."},{"label":"Released","value":"..."},{"label":"Pricing","value":"..."}]
+}
+If nothing significant has changed, return: {}`;
+
+        const result = await callClaude(
+          [{ role: 'user', content: prompt }],
+          'You are a concise AI tool data updater. Return only valid JSON, no markdown.',
+          true
+        );
+
+        const updates = JSON.parse(result.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim());
+        if (Object.keys(updates).length > 0) {
+          Object.assign(tool, updates);
+          updated++;
+          console.log(`  ✅ Updated: ${tool.name}`);
+        } else {
+          console.log(`  ➡ No changes: ${tool.name}`);
+        }
+        await new Promise(r => setTimeout(r, 800));
+      } catch(e) {
+        console.error(`  ❌ Failed updating ${tool.name}:`, e.message);
+      }
+    }
+    data.lastWeeklyUpdate = new Date().toISOString();
+    console.log(`  📊 Weekly refresh done — ${updated} tools updated`);
+  } else {
+    const daysUntilNext = Math.ceil((lastWeeklyUpdate.getTime() + 7*24*60*60*1000 - Date.now()) / (1000*60*60*24));
+    console.log(`\n⏭ Skipping weekly refresh (next in ${daysUntilNext} days)`);
+  }
+
   const newTools = await findNewTools(existingNames);
   console.log(`\n✨ Found ${newTools.length} potential new tools`);
 
