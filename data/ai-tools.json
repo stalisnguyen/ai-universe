@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-15T16:12:55.893Z",
+  "lastUpdated": "2026-03-15T16:34:41.428Z",
   "categories": [
     {
       "id": "llm",
@@ -195,7 +195,37 @@
           }
         ]
       },
-      "link": "https://claude.ai"
+      "link": "https://claude.ai",
+      "changelog": [
+        {
+          "version": "Claude Sonnet 4.6",
+          "date": "March 2026",
+          "changes": [
+            "New model: Sonnet 4.6 — default for Free and Pro users",
+            "1M token context window now in beta (tier 4+)",
+            "Claude Max plan launched at $100/mo for power users",
+            "Improved coding and agentic task performance"
+          ]
+        },
+        {
+          "version": "Claude Opus 4.6",
+          "date": "March 2026",
+          "changes": [
+            "Opus 4.6 available to Pro, Max, Team, Enterprise",
+            "Top scores on SWE-bench for autonomous coding",
+            "Extended thinking mode for complex reasoning"
+          ]
+        },
+        {
+          "version": "Claude 3.5 Sonnet",
+          "date": "October 2024",
+          "changes": [
+            "Computer use capability (beta)",
+            "Upgraded coding and instruction following",
+            "New Haiku 3.5 model released alongside"
+          ]
+        }
+      ]
     },
     {
       "id": "chatgpt",
@@ -331,7 +361,36 @@
           }
         ]
       },
-      "link": "https://chatgpt.com"
+      "link": "https://chatgpt.com",
+      "changelog": [
+        {
+          "version": "GPT-5.4",
+          "date": "March 2026",
+          "changes": [
+            "Unified general-purpose and coding model lines",
+            "Native computer use added for the first time",
+            "Configurable reasoning effort (dial up/down)"
+          ]
+        },
+        {
+          "version": "GPT-5",
+          "date": "Late 2025",
+          "changes": [
+            "400K token context window",
+            "Native multimodal: text, image, audio in one request",
+            "90%+ MMLU-Pro benchmark score"
+          ]
+        },
+        {
+          "version": "GPT-4o",
+          "date": "May 2024",
+          "changes": [
+            "Unified text, vision, and audio in single model",
+            "Real-time voice mode",
+            "Free tier access for all users"
+          ]
+        }
+      ]
     },
     {
       "id": "gemini",
@@ -467,7 +526,36 @@
           }
         ]
       },
-      "link": "https://gemini.google.com"
+      "link": "https://gemini.google.com",
+      "changelog": [
+        {
+          "version": "Gemini 3.1 Pro",
+          "date": "February 2026",
+          "changes": [
+            "77.1% on ARC-AGI-2 benchmark",
+            "Multimodal reasoning across text, images, audio, video, code",
+            "Available via Gemini API and Vertex AI"
+          ]
+        },
+        {
+          "version": "Gemini 3",
+          "date": "November 2025",
+          "changes": [
+            "Major capability leap over Gemini 2",
+            "1M token context window",
+            "Deep Think reasoning mode"
+          ]
+        },
+        {
+          "version": "Gemini 2.0 Flash",
+          "date": "Early 2025",
+          "changes": [
+            "Fastest Gemini model",
+            "Real-time streaming and tool use",
+            "Agentic capabilities improved"
+          ]
+        }
+      ]
     },
     {
       "id": "deepseek",
@@ -604,7 +692,28 @@
           }
         ]
       },
-      "link": "https://chat.deepseek.com"
+      "link": "https://chat.deepseek.com",
+      "changelog": [
+        {
+          "version": "DeepSeek R1",
+          "date": "January 2025",
+          "changes": [
+            "87.5% on AIME math benchmark",
+            "Open-source weights released publicly",
+            "$0.55/M input tokens — fraction of GPT-4o cost",
+            "Reasoning model matching o1 performance"
+          ]
+        },
+        {
+          "version": "DeepSeek V3",
+          "date": "December 2024",
+          "changes": [
+            "Mixture-of-Experts architecture",
+            "Strong coding performance",
+            "Free API tier available"
+          ]
+        }
+      ]
     },
     {
       "id": "midjourney",
@@ -3093,7 +3202,27 @@
           }
         ]
       },
-      "link": "https://x.ai/grok"
+      "link": "https://x.ai/grok",
+      "changelog": [
+        {
+          "version": "Grok 4.1 Fast",
+          "date": "2026",
+          "changes": [
+            "2M token context window — largest in xAI lineup",
+            "$0.20/M input tokens via API",
+            "Real-time X/Twitter data integration"
+          ]
+        },
+        {
+          "version": "Grok 3",
+          "date": "2025",
+          "changes": [
+            "Reasoning mode with extended thinking",
+            "DeepSearch: multi-step web research",
+            "Image generation built in"
+          ]
+        }
+      ]
     },
     {
       "id": "llama",
@@ -3226,7 +3355,37 @@
           }
         ]
       },
-      "link": "https://llama.meta.com"
+      "link": "https://llama.meta.com",
+      "changelog": [
+        {
+          "version": "Llama 4 Scout",
+          "date": "April 2025",
+          "changes": [
+            "10M token context window — largest of any model",
+            "Mixture-of-Experts: 17B active / 109B total params",
+            "Natively multimodal: text, image, video",
+            "200+ languages supported"
+          ]
+        },
+        {
+          "version": "Llama 4 Maverick",
+          "date": "April 2025",
+          "changes": [
+            "Higher capability variant of Llama 4",
+            "Competitive with GPT-4o on benchmarks",
+            "Open weights for self-hosting"
+          ]
+        },
+        {
+          "version": "Llama 3.1 405B",
+          "date": "July 2024",
+          "changes": [
+            "First open-source model competitive with GPT-4",
+            "128K context window",
+            "Released under Meta Llama 3.1 community license"
+          ]
+        }
+      ]
     },
     {
       "id": "mistral",
@@ -3359,7 +3518,27 @@
           }
         ]
       },
-      "link": "https://mistral.ai"
+      "link": "https://mistral.ai",
+      "changelog": [
+        {
+          "version": "DevStral",
+          "date": "2025",
+          "changes": [
+            "61.6% on SWE-bench Verified — beats GPT-4.1 and Gemini 2.5 Pro",
+            "Built specifically for coding with RL optimization",
+            "Available at 1/4 the price of competitors"
+          ]
+        },
+        {
+          "version": "Mistral Large 2",
+          "date": "2024",
+          "changes": [
+            "128K context window",
+            "Strong multilingual support",
+            "Function calling and JSON mode"
+          ]
+        }
+      ]
     },
     {
       "id": "copilot",
@@ -7260,7 +7439,27 @@
           }
         ]
       },
-      "link": "https://chatgpt.com"
+      "link": "https://chatgpt.com",
+      "changelog": [
+        {
+          "version": "GPT-5.4",
+          "date": "March 2026",
+          "changes": [
+            "Unified general + coding model in one",
+            "Native computer use capability",
+            "Best-in-class 90%+ MMLU-Pro score"
+          ]
+        },
+        {
+          "version": "GPT-5",
+          "date": "Late 2025",
+          "changes": [
+            "400K token context window (3x GPT-4o)",
+            "Configurable reasoning effort",
+            "Native multimodal input"
+          ]
+        }
+      ]
     }
   ]
 }
