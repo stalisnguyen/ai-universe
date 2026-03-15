@@ -1,11 +1,8 @@
-name: 🤖 Daily AI Data Update
+name: 🤖 Auto-update AI tools
 
 on:
-  # Run every day at 06:00 UTC (1PM Vietnam time)
   schedule:
-    - cron: '0 6 * * *'
-
-  # Allow manual trigger from GitHub UI
+    - cron: '0 6 * * *'  # 1PM Vietnam (UTC+7)
   workflow_dispatch:
     inputs:
       force_commit:
@@ -14,56 +11,34 @@ on:
         default: 'false'
 
 jobs:
-  update-data:
+  update:
     runs-on: ubuntu-latest
     permissions:
-      contents: write   # needed to push the updated JSON
+      contents: write
 
     steps:
-      - name: ⬇️ Checkout repo
+      - name: Checkout
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: ⚙️ Setup Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
-      - name: 🔍 Run data updater
+      - name: Run auto-update bot
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node scripts/fetch-data.js
 
-      - name: 📋 Show diff
+      - name: Commit changes
         run: |
-          git diff data/ai-tools.json || echo "No diff"
-
-      - name: 💾 Commit & push if changed
-        run: |
-          git config user.name  "AI Universe Bot"
-          git config user.email "bot@ai-universe.dev"
+          git config user.name "AI Universe Bot"
+          git config user.email "bot@ai-universe"
           git add data/ai-tools.json
-
-          # Check if there's anything staged
           if git diff --staged --quiet && [ "${{ github.event.inputs.force_commit }}" != "true" ]; then
-            echo "✅ No changes to commit — data is up to date"
+            echo "No changes to commit."
           else
-            TIMESTAMP=$(date -u '+%Y-%m-%d %H:%M UTC')
-            git commit -m "🤖 Auto-update AI data · $TIMESTAMP"
+            TOOL_COUNT=$(node -e "const d=require('./data/ai-tools.json'); console.log(d.tools.length)")
+            git commit -m "🤖 Auto-update · ${TOOL_COUNT} tools · $(date -u '+%Y-%m-%d %H:%M UTC')"
             git push
-            echo "🚀 Data pushed — Cloudflare Pages will redeploy automatically"
           fi
-
-      - name: 📊 Print summary
-        run: |
-          echo "=== Update Summary ==="
-          echo "Run time: $(date -u)"
-          echo "Tools in data:"
-          node -e "
-            const d = require('./data/ai-tools.json');
-            console.log('  Total tools:', d.tools.length);
-            console.log('  Last updated:', d.lastUpdated);
-            console.log('  Last checked:', d.lastChecked);
-            if (d.checkLog && d.checkLog.length > 0) {
-              console.log('  Changes found:', d.checkLog.length);
-            }
-          "
