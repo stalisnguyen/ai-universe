@@ -283,10 +283,10 @@ async function main() {
     let updated = 0;
     for (const tool of toUpdate) {
       try {
-        const prompt = `What is the current latest model version and pricing for "${tool.name}" by ${tool.company}?
+        const prompt = `What is the current latest model version and pricing for "${tool.name}" by ${tool.company}? Has anything changed recently?
 Reply with ONLY a JSON object, no explanation, no markdown:
-{"info":[{"label":"Models","value":"..."},{"label":"Context","value":"..."},{"label":"Released","value":"..."},{"label":"Pricing","value":"..."}]}
-If you don't know, reply with exactly: {}`;
+{"info":[{"label":"Models","value":"..."},{"label":"Context","value":"..."},{"label":"Released","value":"..."},{"label":"Pricing","value":"..."}],"newChangelog":{"version":"...","date":"Month YYYY","changes":["change 1","change 2"]}}
+The newChangelog field should only be included if there is genuinely a new update in the last few weeks. If nothing changed, reply with exactly: {}`;
 
         const result = await callClaude(
           [{ role: 'user', content: prompt }],
@@ -299,17 +299,30 @@ If you don't know, reply with exactly: {}`;
         if (!match) { console.log(`  ➡ No JSON: ${tool.name}`); continue; }
         const updates = JSON.parse(match[0]);
         if (Object.keys(updates).length > 0) {
-          Object.assign(tool, updates);
+          // Handle changelog separately
+          if (updates.newChangelog) {
+            if (!tool.changelog) tool.changelog = [];
+            // Prepend new entry, avoid duplicates
+            const exists = tool.changelog.some(c => c.version === updates.newChangelog.version);
+            if (!exists) tool.changelog.unshift(updates.newChangelog);
+            delete updates.newChangelog;
+          }
+          if (Object.keys(updates).length > 0) Object.assign(tool, updates);
           updated++;
           console.log(`  ✅ Updated: ${tool.name}`);
         } else {
           console.log(`  ➡ No changes: ${tool.name}`);
         }
-        // Longer delay to avoid rate limit
-        await new Promise(r => setTimeout(r, 4000));
+        // 12s delay to stay under rate limit
+        await new Promise(r => setTimeout(r, 12000));
       } catch(e) {
-        console.error(`  ❌ Failed updating ${tool.name}:`, e.message.slice(0, 80));
-        await new Promise(r => setTimeout(r, 4000));
+        if (e.message && e.message.includes('rate limit')) {
+          console.log(`  ⏳ Rate limited, waiting 65s...`);
+          await new Promise(r => setTimeout(r, 65000));
+        } else {
+          console.error(`  ❌ Failed updating ${tool.name}:`, e.message.slice(0, 80));
+          await new Promise(r => setTimeout(r, 12000));
+        }
       }
     }
     data.lastWeeklyUpdate = new Date().toISOString();
