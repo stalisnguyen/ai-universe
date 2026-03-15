@@ -1163,7 +1163,15 @@
   <div class="totw-card" id="totwCard" onclick="">
     <div class="totw-icon" id="totwIcon">⭐</div>
     <div style="flex:1">
-      <div class="totw-label">✦ Tool of the Week</div>
+      <div style="display:flex;align-items:center;gap:12px;margin-bottom:8px;flex-wrap:wrap">
+        <div class="totw-label" style="margin-bottom:0">✦ Tool of the Week</div>
+        <a id="totwSource" href="https://producthunt.com" target="_blank" onclick="event.stopPropagation()"
+          style="display:inline-flex;align-items:center;gap:6px;background:rgba(255,107,0,0.12);border:1px solid rgba(255,107,0,0.3);border-radius:100px;padding:4px 12px;font-family:'JetBrains Mono',monospace;font-size:0.65rem;color:#ff6b00;letter-spacing:0.08em;text-decoration:none;transition:all 0.2s"
+          onmouseover="this.style.background='rgba(255,107,0,0.2)'"
+          onmouseout="this.style.background='rgba(255,107,0,0.12)'">
+          🏆 <span id="totwRank">#1 on Product Hunt this week</span>
+        </a>
+      </div>
       <div class="totw-name" id="totwName">Loading...</div>
       <div class="totw-desc" id="totwDesc"></div>
       <div class="totw-meta" id="totwMeta"></div>
@@ -1490,6 +1498,8 @@ async function init() {
     const json = await res.json();
     categories = json.categories;
     aiData = json.tools;
+    // Load Product Hunt TOTW if available
+    if (json.totw) window._phTotw = json.totw;
     document.getElementById('totalCount').textContent = aiData.length + '+';
     // Update meta tags dynamically
     const count = aiData.length;
@@ -1521,6 +1531,39 @@ function showLoader(on) {
 // ── Tool of the Week ──────────────────────────────────────────────────────────
 function renderTotw() {
   if (!aiData.length) return;
+
+  // Check if we have Product Hunt data in JSON
+  const ph = window._phTotw;
+  if (ph) {
+    // Render from Product Hunt data
+    document.getElementById('totwIcon').textContent = ph.thumbnail || '🏆';
+    document.getElementById('totwName').textContent = ph.name;
+    document.getElementById('totwDesc').textContent = ph.tagline;
+    document.getElementById('totwMeta').innerHTML =
+      `<span class="tag">▲ ${ph.votesCount.toLocaleString()} upvotes</span>` +
+      (ph.topics||[]).slice(0,3).map(t=>`<span class="tag">${t}</span>`).join('');
+    document.getElementById('totwRank').textContent = `#${ph.rank} on Product Hunt this week`;
+    document.getElementById('totwSource').href = ph.url;
+    document.getElementById('totwBtn').textContent = 'View on Product Hunt →';
+    document.getElementById('totwBtn').onclick = (e) => { e.stopPropagation(); window.open(ph.url,'_blank'); };
+    document.getElementById('totwCard').onclick = () => window.open(ph.url,'_blank');
+
+    // Try to match with our catalog
+    const match = aiData.find(a =>
+      a.name.toLowerCase().includes(ph.name.toLowerCase()) ||
+      ph.name.toLowerCase().includes(a.name.toLowerCase())
+    );
+    if (match) {
+      document.getElementById('totwBtn').textContent = 'View Details →';
+      document.getElementById('totwBtn').onclick = (e) => { e.stopPropagation(); openModal(match.id); };
+      document.getElementById('totwCard').onclick = () => openModal(match.id);
+      const catColor = categories.find(c=>c.id===match.category)?.color || '#ff6b00';
+      document.getElementById('totwBtn').style.background = catColor;
+    }
+    return;
+  }
+
+  // Fallback: pick most voted in our catalog, or first hot tool
   let best = null, bestVotes = -1;
   aiData.forEach(ai => { const v = votes[ai.id]||0; if (v > bestVotes) { bestVotes = v; best = ai; } });
   if (!best || bestVotes === 0) best = aiData.find(a => a.badge === 'hot') || aiData[0];
@@ -1529,8 +1572,12 @@ function renderTotw() {
   document.getElementById('totwName').textContent = best.name;
   document.getElementById('totwDesc').textContent = best.shortDesc;
   document.getElementById('totwMeta').innerHTML = best.tags.map(t=>`<span class="tag">${t}</span>`).join('');
+  document.getElementById('totwRank').textContent = `Editor's Pick`;
+  document.getElementById('totwSource').href = '#';
   document.getElementById('totwCard').onclick = () => openModal(best.id);
+  document.getElementById('totwBtn').textContent = 'View Details →';
   document.getElementById('totwBtn').style.background = catColor;
+  document.getElementById('totwBtn').onclick = (e) => { e.stopPropagation(); openModal(best.id); };
 }
 
 // ── Categories & Filter ───────────────────────────────────────────────────────
