@@ -27,7 +27,7 @@ function callClaude(messages, system, useWebSearch = false) {
     }] : [];
 
     const body = JSON.stringify({
-      model: 'claude-opus-4-6',
+      model: 'claude-haiku-4-5-20251001',
       max_tokens: 8096,
       system,
       messages,
@@ -283,22 +283,21 @@ async function main() {
     let updated = 0;
     for (const tool of toUpdate) {
       try {
-        const prompt = `Check the current pricing and latest model version for "${tool.name}" by ${tool.company} (${tool.link}).
-Return ONLY a JSON object with fields that have changed (leave out unchanged ones):
-{
-  "priceLabel": "...",
-  "shortDesc": "...",
-  "info": [{"label":"Models","value":"..."},{"label":"Context","value":"..."},{"label":"Released","value":"..."},{"label":"Pricing","value":"..."}]
-}
-If nothing significant has changed, return: {}`;
+        const prompt = `What is the current latest model version and pricing for "${tool.name}" by ${tool.company}?
+Reply with ONLY a JSON object, no explanation, no markdown:
+{"info":[{"label":"Models","value":"..."},{"label":"Context","value":"..."},{"label":"Released","value":"..."},{"label":"Pricing","value":"..."}]}
+If you don't know, reply with exactly: {}`;
 
         const result = await callClaude(
           [{ role: 'user', content: prompt }],
-          'You are a concise AI tool data updater. Return only valid JSON, no markdown.',
+          'Reply with valid JSON only. No markdown, no backticks, no explanation. Start your response with { and end with }.',
           true
         );
 
-        const updates = JSON.parse(result.replace(/```json\n?/g, '').replace(/```\n?/g, '').trim());
+        // Strict JSON extraction
+        const match = result.match(/\{[\s\S]*\}/);
+        if (!match) { console.log(`  ➡ No JSON: ${tool.name}`); continue; }
+        const updates = JSON.parse(match[0]);
         if (Object.keys(updates).length > 0) {
           Object.assign(tool, updates);
           updated++;
@@ -306,9 +305,11 @@ If nothing significant has changed, return: {}`;
         } else {
           console.log(`  ➡ No changes: ${tool.name}`);
         }
-        await new Promise(r => setTimeout(r, 800));
+        // Longer delay to avoid rate limit
+        await new Promise(r => setTimeout(r, 4000));
       } catch(e) {
-        console.error(`  ❌ Failed updating ${tool.name}:`, e.message);
+        console.error(`  ❌ Failed updating ${tool.name}:`, e.message.slice(0, 80));
+        await new Promise(r => setTimeout(r, 4000));
       }
     }
     data.lastWeeklyUpdate = new Date().toISOString();
