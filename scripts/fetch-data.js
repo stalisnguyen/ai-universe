@@ -181,6 +181,77 @@ Return ONLY this JSON object (no markdown, no backticks):
   return parseJSON(text);
 }
 
+// ─── Product Hunt: fetch top AI tool of the week ─────────────────────────────
+
+function fetchProductHuntTotw() {
+  return new Promise((resolve) => {
+    const token = process.env.PRODUCT_HUNT_TOKEN;
+    if (!token) {
+      console.log('⚠ No PRODUCT_HUNT_TOKEN — skipping TOTW');
+      return resolve(null);
+    }
+
+    const weekAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000).toISOString();
+
+    const query = JSON.stringify({
+      query: `{
+        posts(order: VOTES, topic: "artificial-intelligence", postedAfter: "${weekAgo}", first: 5) {
+          edges {
+            node {
+              name
+              tagline
+              votesCount
+              url
+              thumbnail { url }
+              topics { edges { node { name } } }
+            }
+          }
+        }
+      }`
+    });
+
+    const options = {
+      hostname: 'api.producthunt.com',
+      path: '/v2/api/graphql',
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${token}`,
+        'Content-Length': Buffer.byteLength(query)
+      }
+    };
+
+    const req = https.request(options, res => {
+      let data = '';
+      res.on('data', c => data += c);
+      res.on('end', () => {
+        try {
+          const json = JSON.parse(data);
+          const edges = json?.data?.posts?.edges;
+          if (!edges || !edges.length) return resolve(null);
+          const top = edges[0].node;
+          resolve({
+            name: top.name,
+            tagline: top.tagline,
+            votesCount: top.votesCount,
+            url: top.url,
+            thumbnail: top.thumbnail?.url || null,
+            rank: 1,
+            topics: top.topics?.edges?.map(e => e.node.name).slice(0, 3) || [],
+            fetchedAt: new Date().toISOString()
+          });
+        } catch(e) {
+          console.error('PH parse error:', e.message);
+          resolve(null);
+        }
+      });
+    });
+    req.on('error', e => { console.error('PH error:', e.message); resolve(null); });
+    req.write(query);
+    req.end();
+  });
+}
+
 // ─── Main ────────────────────────────────────────────────────────────────────
 
 async function main() {
@@ -189,6 +260,14 @@ async function main() {
   const data = JSON.parse(fs.readFileSync(DATA_FILE, 'utf8'));
   const existingNames = data.tools.map(t => t.name);
   console.log(`📚 Existing tools: ${existingNames.length}`);
+
+  // Fetch Product Hunt TOTW
+  console.log('\n🏆 Fetching Product Hunt top AI tool of the week...');
+  const totw = await fetchProductHuntTotw();
+  if (totw) {
+    data.totw = totw;
+    console.log(`  ✅ TOTW: ${totw.name} (▲${totw.votesCount} upvotes)`);
+  }
 
   const newTools = await findNewTools(existingNames);
   console.log(`\n✨ Found ${newTools.length} potential new tools`);
