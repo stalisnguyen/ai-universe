@@ -4,17 +4,17 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AI Universe — Explore the World of Artificial Intelligence</title>
-<meta name="description" content="Browse and compare 51+ AI tools by category — LLM, Image, Video, Audio, Code, Search, Agent, Multimodal. Detailed guides, pricing, and side-by-side comparisons.">
+<meta name="description" content="Browse and compare 50+ AI tools by category — LLM, Image, Video, Audio, Code, Search, Agent, Multimodal. Detailed guides, pricing, and side-by-side comparisons.">
 <meta name="keywords" content="AI tools, artificial intelligence, ChatGPT, Claude, Midjourney, AI comparison, best AI 2026">
 <meta name="author" content="AI Universe">
 <meta property="og:title" content="AI Universe — Explore the World of AI">
-<meta property="og:description" content="Browse 51+ AI tools with detailed guides, pricing, and comparisons. Find the right AI for your needs.">
+<meta property="og:description" content="Browse 50+ AI tools with detailed guides, pricing, and comparisons. Find the right AI for your needs." id="ogDesc">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://stalisnguyen.github.io/ai-universe/">
 <meta property="og:image" content="https://stalisnguyen.github.io/ai-universe/og-image.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="AI Universe — Explore the World of AI">
-<meta name="twitter:description" content="Browse 51+ AI tools with detailed guides, pricing, and comparisons.">
+<meta name="twitter:description" content="Browse 50+ AI tools with detailed guides, pricing, and comparisons." id="twitterDesc">
 <link rel="canonical" href="https://stalisnguyen.github.io/ai-universe/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -1491,6 +1491,13 @@ async function init() {
     categories = json.categories;
     aiData = json.tools;
     document.getElementById('totalCount').textContent = aiData.length + '+';
+    // Update meta tags dynamically
+    const count = aiData.length;
+    const desc = `Browse and compare ${count}+ AI tools by category — LLM, Image, Video, Audio, Code, Search, Agent, Multimodal. Detailed guides, pricing, and side-by-side comparisons.`;
+    document.querySelector('meta[name="description"]').setAttribute('content', desc);
+    const shortDesc = `Browse ${count}+ AI tools with detailed guides, pricing, and comparisons. Find the right AI for your needs.`;
+    document.getElementById('ogDesc')?.setAttribute('content', shortDesc);
+    document.getElementById('twitterDesc')?.setAttribute('content', `Browse ${count}+ AI tools with detailed guides, pricing, and comparisons.`);
     if (json.lastUpdated) {
       const d = new Date(json.lastUpdated);
       document.getElementById('lastUpdatedLabel').textContent =
