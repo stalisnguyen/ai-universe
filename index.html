@@ -1089,7 +1089,91 @@
     transform: translateY(-2px);
   }
 
-  /* ── TOAST ── */
+  /* ── CHANGELOG ── */
+  .changelog-item {
+    display: flex; gap: 12px; align-items: flex-start;
+    padding: 10px 14px;
+    background: rgba(255,255,255,0.03);
+    border-left: 2px solid var(--accent);
+    border-radius: 0 10px 10px 0;
+    margin-bottom: 8px;
+  }
+  .changelog-version {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.65rem;
+    color: var(--accent);
+    background: rgba(0,245,196,0.1);
+    border: 1px solid rgba(0,245,196,0.2);
+    border-radius: 6px;
+    padding: 2px 8px;
+    white-space: nowrap;
+    flex-shrink: 0;
+    margin-top: 2px;
+  }
+  .changelog-body { flex: 1; }
+  .changelog-date {
+    font-size: 0.7rem;
+    color: var(--muted);
+    font-family: 'JetBrains Mono', monospace;
+    margin-bottom: 4px;
+  }
+  .changelog-changes {
+    list-style: none;
+    display: flex; flex-direction: column; gap: 4px;
+  }
+  .changelog-changes li {
+    font-size: 0.85rem;
+    color: #9ca3af;
+    display: flex; align-items: flex-start; gap: 8px;
+    line-height: 1.5;
+  }
+  .changelog-changes li::before {
+    content: '+';
+    color: var(--accent);
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+  /* ── CHANGELOG ── */
+  .changelog-entry {
+    position: relative;
+    padding: 16px 16px 16px 44px;
+    margin-bottom: 12px;
+    background: rgba(255,255,255,0.03);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+  }
+  .changelog-entry::before {
+    content: '';
+    position: absolute;
+    left: 16px; top: 22px;
+    width: 10px; height: 10px;
+    border-radius: 50%;
+    background: var(--accent);
+    box-shadow: 0 0 8px var(--accent);
+  }
+  .changelog-version {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.8rem; color: var(--accent);
+    font-weight: 600; margin-bottom: 2px;
+  }
+  .changelog-date {
+    font-size: 0.72rem; color: var(--muted);
+    margin-bottom: 10px; font-family: 'JetBrains Mono', monospace;
+  }
+  .changelog-changes { list-style: none; display: flex; flex-direction: column; gap: 6px; }
+  .changelog-changes li {
+    font-size: 0.875rem; color: #9ca3af;
+    display: flex; gap: 8px; align-items: flex-start; line-height: 1.5;
+  }
+  .changelog-changes li::before {
+    content: '→'; color: var(--accent2);
+    font-family: 'JetBrains Mono', monospace;
+    flex-shrink: 0; font-size: 0.8rem; margin-top: 1px;
+  }
+  .changelog-empty { text-align: center; padding: 40px 20px; color: var(--muted); font-size: 0.9rem; }
+  .changelog-empty .emoji { font-size: 2rem; display: block; margin-bottom: 10px; }
+
   .toast {
     position: fixed; bottom: 100px; left: 50%; transform: translateX(-50%) translateY(20px);
     background: var(--surface2);
@@ -1404,11 +1488,16 @@
         <button class="tab-btn" onclick="switchTab(this,'demo')">How to Use</button>
         <button class="tab-btn" onclick="switchTab(this,'pricing')">Pricing</button>
         <button class="tab-btn" onclick="switchTab(this,'prompt')">Prompts</button>
+        <button class="tab-btn" id="changelogTabBtn" onclick="switchTab(this,'changelog')" style="display:none">🆕 What's New</button>
       </div>
 
       <div class="tab-content active" id="tab-overview">
         <div class="info-grid" id="modalInfoGrid"></div>
         <p id="modalDesc" style="font-size:0.9rem;color:#9ca3af;line-height:1.7;"></p>
+        <div id="modalChangelog" style="display:none;margin-top:20px">
+          <div style="font-family:'JetBrains Mono',monospace;font-size:0.7rem;color:var(--accent);letter-spacing:0.15em;text-transform:uppercase;margin-bottom:12px">🆕 What's New</div>
+          <div id="modalChangelogList"></div>
+        </div>
       </div>
 
       <div class="tab-content" id="tab-features">
@@ -1426,6 +1515,10 @@
 
       <div class="tab-content" id="tab-prompt">
         <div id="modalPrompts"></div>
+      </div>
+
+      <div class="tab-content" id="tab-changelog">
+        <div id="modalChangelog"></div>
       </div>
 
       <div class="modal-actions">
@@ -1836,6 +1929,29 @@ function openModal(id) {
   document.getElementById('modalName').textContent = ai.name;
   document.getElementById('modalCompany').textContent = ai.company;
   document.getElementById('modalDesc').textContent = ai.fullDesc;
+
+  // Render changelog tab
+  const changelogTabBtn = document.getElementById('changelogTabBtn');
+  const changelogEl = document.getElementById('tab-changelog').querySelector('#modalChangelog') ||
+    document.querySelector('#tab-changelog');
+  if (ai.changelog && ai.changelog.length > 0) {
+    changelogTabBtn.style.display = '';
+    document.querySelector('#tab-changelog').innerHTML =
+      `<div id="modalChangelog">` +
+      ai.changelog.slice(0, 5).map(c => `
+        <div class="changelog-entry">
+          <div class="changelog-version">${c.version}</div>
+          <div class="changelog-date">${c.date}</div>
+          <ul class="changelog-changes">
+            ${c.changes.map(ch => `<li>${ch}</li>`).join('')}
+          </ul>
+        </div>`).join('') +
+      `</div>`;
+  } else {
+    changelogTabBtn.style.display = 'none';
+    document.querySelector('#tab-changelog').innerHTML =
+      `<div class="changelog-empty"><span class="emoji">🤖</span>Auto-updated weekly by bot — check back soon!</div>`;
+  }
   document.getElementById('modalPrimaryBtn').textContent = `Open ${ai.name} →`;
   document.getElementById('modalPrimaryBtn').onclick = ()=>window.open(ai.link,'_blank');
   document.getElementById('modalInfoGrid').innerHTML = ai.info.map(i=>`
