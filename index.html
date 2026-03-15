@@ -1536,7 +1536,10 @@ function renderTotw() {
   const ph = window._phTotw;
   if (ph) {
     // Render from Product Hunt data
-    document.getElementById('totwIcon').textContent = ph.thumbnail || '🏆';
+    const iconEl = document.getElementById('totwIcon');
+    if (ph.thumbnail && ph.thumbnail.startsWith('http')) {
+      iconEl.innerHTML = '<img src="' + ph.thumbnail + '" style="width:48px;height:48px;border-radius:10px;object-fit:cover" onerror="this.parentElement.textContent=\'🏆\'">';
+    } else { iconEl.textContent = '🏆'; }
     document.getElementById('totwName').textContent = ph.name;
     document.getElementById('totwDesc').textContent = ph.tagline;
     document.getElementById('totwMeta').innerHTML =
