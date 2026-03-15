@@ -28,6 +28,7 @@ jobs:
       - name: Run auto-update bot
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PRODUCT_HUNT_TOKEN: ${{ secrets.PRODUCT_HUNT_TOKEN }}
         run: node scripts/fetch-data.js
 
       - name: Commit changes
