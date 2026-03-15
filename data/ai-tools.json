@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-15T16:07:30.914Z",
+  "lastUpdated": "2026-03-15T16:12:55.893Z",
   "categories": [
     {
       "id": "llm",
@@ -70,29 +70,29 @@
       "price": "freemium",
       "priceLabel": "Freemium",
       "tags": [
-        "Text",
-        "Code",
-        "Analysis",
-        "Creative"
+        "Claude 4.6",
+        "Long Context",
+        "Coding",
+        "Analysis"
       ],
-      "shortDesc": "Safe, helpful, and highly capable LLM from Anthropic.",
+      "shortDesc": "Anthropic's flagship AI — Claude Sonnet 4.6 leads in coding, analysis, and long-context tasks.",
       "fullDesc": "Claude is a large language model developed by Anthropic with a focus on safety and usefulness. Claude 3.5 Sonnet is one of the most capable LLMs available, excelling at writing code, analyzing complex data, and generating creative content.",
       "info": [
         {
-          "label": "Latest version",
-          "value": "Claude 3.5 Sonnet"
+          "label": "Models",
+          "value": "Claude Sonnet 4.6, Opus 4.6, Haiku 4.5"
         },
         {
-          "label": "Context window",
-          "value": "200,000 tokens"
+          "label": "Context",
+          "value": "200K (1M beta)"
         },
         {
           "label": "Released",
-          "value": "2023"
+          "value": "2023, Claude 4.6 March 2026"
         },
         {
           "label": "Pricing",
-          "value": "Free / $20/mo (Pro)"
+          "value": "Free / $20/mo (Pro) / $100/mo (Max)"
         }
       ],
       "features": [
@@ -208,29 +208,29 @@
       "price": "freemium",
       "priceLabel": "Freemium",
       "tags": [
-        "Chat",
-        "DALL-E",
-        "Browsing",
-        "Plugins"
+        "GPT-5",
+        "Multimodal",
+        "Computer Use",
+        "Reasoning"
       ],
-      "shortDesc": "The world's most popular AI chatbot, powered by GPT-4o.",
+      "shortDesc": "The world's most popular AI chatbot — now powered by GPT-5 with 400K context and computer use.",
       "fullDesc": "ChatGPT by OpenAI is the most widely used AI conversation app in the world. GPT-4o unifies text, image, and voice processing in a single model for a seamless experience.",
       "info": [
         {
           "label": "Models",
-          "value": "GPT-4o, o1, o3"
+          "value": "GPT-5, GPT-5.4, o3, o4-mini"
         },
         {
           "label": "Context",
-          "value": "128K tokens"
+          "value": "400K tokens (GPT-5)"
         },
         {
           "label": "Released",
-          "value": "2022"
+          "value": "2022, GPT-5 March 2026"
         },
         {
           "label": "Pricing",
-          "value": "Free / $20/mo (Plus)"
+          "value": "Free / $20/mo (Plus) / $200/mo (Pro)"
         }
       ],
       "features": [
@@ -349,24 +349,24 @@
         "Multimodal",
         "Search"
       ],
-      "shortDesc": "Google's most powerful AI with a 1 million token context window.",
+      "shortDesc": "Google's multimodal AI — Gemini 3.1 Pro with 1M context, native video/audio, and Google Search built in.",
       "fullDesc": "Gemini 1.5 Pro by Google boasts a massive 1 million token context window — enough to process an entire codebase or novel in one go. It integrates deeply with the Google ecosystem including Gmail, Drive, and Docs.",
       "info": [
         {
           "label": "Models",
-          "value": "Gemini 1.5 Pro/Flash"
+          "value": "Gemini 3.1 Pro, Flash, Ultra"
         },
         {
           "label": "Context",
-          "value": "1,000,000 tokens"
+          "value": "1M tokens"
         },
         {
           "label": "Released",
-          "value": "2023"
+          "value": "2023, Gemini 3.1 Feb 2026"
         },
         {
           "label": "Pricing",
-          "value": "Free / $20/mo (Advanced)"
+          "value": "Free / $19.99/mo (Advanced)"
         }
       ],
       "features": [
@@ -485,24 +485,24 @@
         "Code",
         "Math"
       ],
-      "shortDesc": "Powerful open-source LLM from China — completely free to use.",
+      "shortDesc": "China's open-source reasoning powerhouse — DeepSeek R1 matches frontier models at a fraction of the cost.",
       "fullDesc": "DeepSeek V3 and DeepSeek-R1 caused a sensation by matching GPT-4 performance while being completely free and open-source. Particularly strong at math, code, and logical reasoning.",
       "info": [
         {
           "label": "Models",
-          "value": "DeepSeek V3, R1"
+          "value": "DeepSeek R1, V3"
         },
         {
           "label": "Context",
-          "value": "64K tokens"
+          "value": "128K tokens"
         },
         {
           "label": "Released",
-          "value": "2024"
+          "value": "2024, R1 Jan 2025"
         },
         {
           "label": "Pricing",
-          "value": "Completely free"
+          "value": "Free / API $0.55/M tokens"
         }
       ],
       "features": [
@@ -2979,24 +2979,24 @@
         "Uncensored",
         "Web search"
       ],
-      "shortDesc": "xAI's LLM with real-time X/Twitter data and deep reasoning — less filtered than alternatives.",
+      "shortDesc": "xAI's real-time AI with 2M token context — trained on X data with up-to-the-minute world knowledge.",
       "fullDesc": "Grok by xAI integrates directly with X (Twitter), giving it real-time access to trending topics and breaking news. Grok 3 features \"DeepSearch\" for thorough web research and a Think mode for extended reasoning. Known for being less restrictive on controversial topics.",
       "info": [
         {
-          "label": "Model",
-          "value": "Grok 4.1 / Grok 3"
+          "label": "Models",
+          "value": "Grok 4.1, Grok 4.1 Fast"
         },
         {
           "label": "Context",
-          "value": "2M tokens (Grok 4.1 Fast)"
+          "value": "2M tokens"
         },
         {
           "label": "Released",
-          "value": "2023"
+          "value": "2023, Grok 4.1 2026"
         },
         {
           "label": "Pricing",
-          "value": "Free / $22/mo (Premium+)"
+          "value": "Free (X Premium) / API available"
         }
       ],
       "features": [
@@ -3107,16 +3107,16 @@
       "priceLabel": "Free / Open Source",
       "tags": [
         "Open Source",
-        "Self-host",
-        "Meta",
-        "Free weights"
+        "10M Context",
+        "Multimodal",
+        "Self-hosted"
       ],
-      "shortDesc": "Meta's open-source LLM — free weights you can run locally or deploy anywhere.",
+      "shortDesc": "Meta's open-source LLM — Llama 4 Scout has the world's largest context window at 10M tokens.",
       "fullDesc": "Llama 4 by Meta is the most capable open-source LLM family, with models from 8B to 405B+ parameters. Because weights are freely downloadable, you can run Llama on your own hardware, fine-tune it on custom data, or deploy it in private infrastructure with zero data leaving your control.",
       "info": [
         {
-          "label": "Model",
-          "value": "Llama 4 Scout / Maverick"
+          "label": "Models",
+          "value": "Llama 4 Scout, Maverick"
         },
         {
           "label": "Context",
@@ -3124,11 +3124,11 @@
         },
         {
           "label": "Released",
-          "value": "2023 (Llama 4: 2025)"
+          "value": "Llama 4 April 2025"
         },
         {
           "label": "Pricing",
-          "value": "Free weights + hosted APIs"
+          "value": "Free & Open Source"
         }
       ],
       "features": [
@@ -3244,24 +3244,24 @@
         "Efficient",
         "API"
       ],
-      "shortDesc": "Fast, efficient European LLMs — best performance-per-dollar on the market.",
+      "shortDesc": "European open-weight AI — DevStral leads SWE-bench for coding, beating GPT-4.1 at 1/4 the price.",
       "fullDesc": "Mistral AI is a Paris-based AI lab producing some of the most efficient LLMs available. Mistral Medium 3.1 delivers performance close to GPT-4o at $0.40/1M tokens — 8x cheaper. Their open-weight models (Mistral 7B, Mixtral 8x7B) are widely used for local deployment.",
       "info": [
         {
           "label": "Models",
-          "value": "Mistral Medium 3.1, Large, Nemo"
+          "value": "Mistral Large, DevStral, Mixtral"
         },
         {
           "label": "Context",
           "value": "128K tokens"
         },
         {
-          "label": "Founded",
-          "value": "2023 (France)"
+          "label": "Released",
+          "value": "2023, DevStral 2025"
         },
         {
           "label": "Pricing",
-          "value": "Free trial / API from $0.10/1M"
+          "value": "Free tier / API from $0.07/M"
         }
       ],
       "features": [
@@ -7262,20 +7262,5 @@
       },
       "link": "https://chatgpt.com"
     }
-  ],
-  "totw": {
-    "name": "Visual Translate by Vozo",
-    "tagline": "Translate text in your videos without recreating visuals",
-    "votesCount": 690,
-    "url": "https://www.producthunt.com/products/vozo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
-    "thumbnail": "https://ph-files.imgix.net/beac91f0-5b0c-4702-a32d-8be887488c08.gif?auto=format",
-    "rank": 1,
-    "topics": [
-      "Productivity",
-      "SaaS",
-      "Artificial Intelligence"
-    ],
-    "fetchedAt": "2026-03-15T16:07:03.597Z"
-  },
-  "lastChecked": "2026-03-15T16:07:30.914Z"
+  ]
 }
