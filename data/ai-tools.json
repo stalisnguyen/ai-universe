@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-15T07:09:48.722Z",
+  "lastUpdated": "2026-03-15T15:37:14.248Z",
   "categories": [
     {
       "id": "llm",
@@ -6505,8 +6505,762 @@
         ]
       },
       "link": "https://notion.so/ai"
+    },
+    {
+      "id": "adobe-podcast",
+      "name": "Adobe Podcast",
+      "company": "Adobe",
+      "category": "audio",
+      "icon": "🎙️",
+      "badge": null,
+      "color": "#ff4444",
+      "price": "freemium",
+      "priceLabel": "Free / $13/mo",
+      "tags": [
+        "Podcast",
+        "Voice Enhancement",
+        "Transcription",
+        "Editing"
+      ],
+      "shortDesc": "AI-powered podcast recording and editing — remove noise, edit by text, enhance voice quality.",
+      "fullDesc": "Adobe Podcast uses AI to make podcast production effortless. Record, enhance, and edit audio directly in the browser. The AI automatically removes background noise, echo, and hum — turning any microphone into a studio-quality recording.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Audio editing & enhancement"
+        },
+        {
+          "label": "Released",
+          "value": "2023, updated 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Podcasters, content creators, educators"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free trial, $13/mo"
+        }
+      ],
+      "features": [
+        "Mic Check: AI analyzes your recording setup and gives real-time feedback",
+        "Enhance Speech: one-click removes noise, echo, and hum from any recording",
+        "Text-based audio editing — delete words in the transcript to cut audio",
+        "Studio-quality output from any consumer microphone",
+        "Background noise removal works in real-time or on uploaded files",
+        "Supports transcript export for show notes and captions",
+        "Integrates with Premiere Pro and Adobe Creative Cloud"
+      ],
+      "demo": [
+        {
+          "title": "Upload or record audio",
+          "desc": "Go to podcast.adobe.com, upload your audio file or record directly in the browser."
+        },
+        {
+          "title": "Enhance Speech",
+          "desc": "Click Enhance Speech — AI removes background noise and boosts voice clarity in seconds."
+        },
+        {
+          "title": "Edit by transcript",
+          "desc": "The audio is transcribed automatically. Delete words or sentences in the text to cut those sections from the audio."
+        },
+        {
+          "title": "Export",
+          "desc": "Download your enhanced audio as WAV or MP3, ready for publishing."
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Podcast cleanup",
+          "text": "Upload a raw podcast recording with background noise and fan hum — Enhance Speech will make it sound studio-quality in one click."
+        },
+        {
+          "label": "Interview editing",
+          "text": "Edit an interview by deleting filler words (\"um\", \"uh\", awkward pauses) directly in the auto-generated transcript."
+        }
+      ],
+      "pricing": {
+        "note": "Adobe Podcast offers a free tier with limited minutes. Full access requires an Adobe Creative Cloud subscription.",
+        "plans": [
+          {
+            "name": "Free",
+            "price": "$0",
+            "per": "/month",
+            "popular": false,
+            "color": "#00f5c4",
+            "features": [
+              "Enhance Speech (limited minutes)",
+              "Basic recording",
+              "Transcript export"
+            ]
+          },
+          {
+            "name": "Paid",
+            "price": "$13",
+            "per": "/month",
+            "popular": true,
+            "color": "#ff4444",
+            "features": [
+              "Unlimited Enhance Speech",
+              "Full audio editor",
+              "Adobe CC integration",
+              "Priority processing"
+            ]
+          }
+        ]
+      },
+      "link": "https://podcast.adobe.com"
+    },
+    {
+      "id": "ace-studio",
+      "name": "ACE Studio",
+      "company": "Dreamtonics",
+      "category": "audio",
+      "icon": "🎼",
+      "badge": "new",
+      "color": "#a855f7",
+      "price": "freemium",
+      "priceLabel": "Free / From $9.99/mo",
+      "tags": [
+        "AI Singing",
+        "Music Production",
+        "Voice Synthesis",
+        "DAW"
+      ],
+      "shortDesc": "Professional AI singing voice synthesizer — create studio-quality vocals from MIDI and lyrics.",
+      "fullDesc": "ACE Studio is an AI music production environment for creating realistic AI singing voices. Input MIDI notes and lyrics, choose a voice, and ACE generates expressive, human-like vocals. Version 2.0 includes AI Choir Voice Collections, VoiceMix, and full DAW integration via ACE Bridge plugin.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "AI singing voice synthesizer"
+        },
+        {
+          "label": "Released",
+          "value": "2024, v2.2.0 Jan 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Music producers, composers, content creators"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free tier, paid from $9.99/mo"
+        }
+      ],
+      "features": [
+        "AI Singing Voices: realistic, expressive vocals from MIDI + lyrics input",
+        "AI Choir Voice Collections (v2.2.0): pop/gospel, classical, world/folk styles",
+        "VoiceMix: blend multiple voice models to create entirely new AI voices",
+        "ACE Bridge DAW plugin for real-time MIDI control in your existing workflow",
+        "6 language support: English, Spanish, Japanese, Mandarin, Cantonese, Korean",
+        "Three Generative AI Kits: Inspire Me, Music Enhancer, Add a Layer",
+        "Partnership with EASTWEST Sounds for professional market integration"
+      ],
+      "demo": [
+        {
+          "title": "Create a new project",
+          "desc": "Open ACE Studio, create a new vocal track, and draw in MIDI notes on the piano roll."
+        },
+        {
+          "title": "Type your lyrics",
+          "desc": "Input lyrics into each note. ACE auto-assigns phonemes for natural pronunciation."
+        },
+        {
+          "title": "Choose a voice model",
+          "desc": "Select from the built-in voice library or use VoiceMix to blend voices."
+        },
+        {
+          "title": "Render & export",
+          "desc": "Render the vocal track and export as WAV for mixing in your DAW."
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Choir arrangement",
+          "text": "Drag and drop AI voices to build a 4-part gospel choir in seconds using the choir assembly feature."
+        },
+        {
+          "label": "Custom voice blend",
+          "text": "Use VoiceMix to blend a warm baritone with a bright tenor to create a unique voice character for your track."
+        }
+      ],
+      "pricing": {
+        "note": "ACE Studio has a free tier with limited voices. Monthly plans unlock premium voices and choir collections.",
+        "plans": [
+          {
+            "name": "Free",
+            "price": "$0",
+            "per": "/month",
+            "popular": false,
+            "color": "#00f5c4",
+            "features": [
+              "Basic voice library",
+              "Limited exports",
+              "ACE Bridge plugin"
+            ]
+          },
+          {
+            "name": "Pro",
+            "price": "$9.99",
+            "per": "/month",
+            "popular": true,
+            "color": "#a855f7",
+            "features": [
+              "Full voice library",
+              "AI Choir Collections",
+              "VoiceMix",
+              "Unlimited exports",
+              "EASTWEST integration"
+            ]
+          }
+        ]
+      },
+      "link": "https://acestudio.ai"
+    },
+    {
+      "id": "you-com",
+      "name": "You.com",
+      "company": "You.com Inc.",
+      "category": "search",
+      "icon": "🔭",
+      "badge": null,
+      "color": "#3b82f6",
+      "price": "freemium",
+      "priceLabel": "Free / $15/mo",
+      "tags": [
+        "AI Search",
+        "Research",
+        "Multi-model",
+        "Privacy"
+      ],
+      "shortDesc": "AI-powered search workspace — chat, research, code, and generate content all in one screen.",
+      "fullDesc": "You.com is a search engine reimagined as a workspace. Instead of returning links, it lets you chat with multiple AI models, generate content, search apps, and pull answers — all in one place. Switch between different AI modes (Research, Creative, Code) without changing tabs.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "AI search workspace"
+        },
+        {
+          "label": "Released",
+          "value": "2021, major 2025 update"
+        },
+        {
+          "label": "Best for",
+          "value": "Researchers, developers, content creators"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free tier, Pro $15/mo"
+        }
+      ],
+      "features": [
+        "Multi-AI access: switch between GPT-5, Claude, Gemini within one interface",
+        "Research mode: deep web search with citations and source verification",
+        "Code mode: specialized coding assistance with technical documentation search",
+        "Creative mode: writing and content generation with web grounding",
+        "Apps & integrations: search across specific platforms and tools",
+        "Privacy-focused: optional private browsing mode",
+        "Customizable AI modes tailored to your workflow"
+      ],
+      "demo": [
+        {
+          "title": "Go to you.com",
+          "desc": "Open you.com — the interface shows a chat-style search with mode options at the top."
+        },
+        {
+          "title": "Choose your mode",
+          "desc": "Select Research, Code, or Creative mode depending on your task."
+        },
+        {
+          "title": "Ask your question",
+          "desc": "Type naturally. You.com searches the web, synthesizes answers, and shows sources inline."
+        },
+        {
+          "title": "Switch AI models",
+          "desc": "Click the model selector to switch between GPT-5, Claude, or Gemini without leaving the page."
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Deep research",
+          "text": "Research the latest developments in solid-state batteries for EVs, citing peer-reviewed sources from the last 6 months."
+        },
+        {
+          "label": "Code with context",
+          "text": "Find the latest React 19 best practices for server components and write me a sample implementation."
+        }
+      ],
+      "pricing": {
+        "note": "You.com offers a generous free tier. Pro unlocks higher usage limits and priority access to premium models.",
+        "plans": [
+          {
+            "name": "Free",
+            "price": "$0",
+            "per": "/month",
+            "popular": false,
+            "color": "#00f5c4",
+            "features": [
+              "Unlimited searches",
+              "GPT-4o & Claude access",
+              "Basic research mode",
+              "Code mode"
+            ]
+          },
+          {
+            "name": "Pro",
+            "price": "$15",
+            "per": "/month",
+            "popular": true,
+            "color": "#3b82f6",
+            "features": [
+              "GPT-5 & Claude Opus access",
+              "Advanced research mode",
+              "Higher usage limits",
+              "Priority processing",
+              "No ads"
+            ]
+          }
+        ]
+      },
+      "link": "https://you.com"
+    },
+    {
+      "id": "consensus",
+      "name": "Consensus",
+      "company": "Consensus NLP Inc.",
+      "category": "search",
+      "icon": "🔬",
+      "badge": "new",
+      "color": "#10b981",
+      "price": "freemium",
+      "priceLabel": "Free / $9.99/mo",
+      "tags": [
+        "Academic Search",
+        "Research",
+        "Science",
+        "Citations"
+      ],
+      "shortDesc": "AI search engine for science — search 250M+ peer-reviewed papers and get evidence-based answers.",
+      "fullDesc": "Consensus is a specialized AI search engine that only pulls answers from peer-reviewed academic literature. Ask any research question and get synthesized, evidence-based answers with direct citations. Features a \"Consensus Meter\" showing how much the scientific community agrees on a topic.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Academic AI search engine"
+        },
+        {
+          "label": "Database",
+          "value": "250M+ peer-reviewed papers"
+        },
+        {
+          "label": "Best for",
+          "value": "Researchers, students, academics, doctors"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free tier, Premium $9.99/mo"
+        }
+      ],
+      "features": [
+        "250 million+ peer-reviewed papers indexed and searchable",
+        "Consensus Meter: shows scientific community agreement level on any topic",
+        "AI-synthesized answers with inline citations to source papers",
+        "No blog posts, news, or unverified sources — academic only",
+        "Saves hours of manual literature review",
+        "Ideal for medical, scientific, and policy research",
+        "Export citations in multiple formats (APA, MLA, BibTeX)"
+      ],
+      "demo": [
+        {
+          "title": "Go to consensus.app",
+          "desc": "Open consensus.app — designed specifically for academic research queries."
+        },
+        {
+          "title": "Ask a research question",
+          "desc": "Type a research question like \"Does intermittent fasting improve metabolic health?\" — not a keyword search."
+        },
+        {
+          "title": "Read the Consensus Meter",
+          "desc": "See what percentage of studies agree, disagree, or show mixed results on your question."
+        },
+        {
+          "title": "Dive into papers",
+          "desc": "Click any cited paper for the full abstract, methodology, and link to the original source."
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Medical evidence",
+          "text": "What does the scientific evidence say about omega-3 supplementation for cardiovascular health? Show me the Consensus Meter."
+        },
+        {
+          "label": "Policy research",
+          "text": "Find peer-reviewed studies on the effectiveness of carbon pricing policies on reducing emissions."
+        }
+      ],
+      "pricing": {
+        "note": "Free tier allows a limited number of searches per day. Premium unlocks unlimited searches and advanced features.",
+        "plans": [
+          {
+            "name": "Free",
+            "price": "$0",
+            "per": "/month",
+            "popular": false,
+            "color": "#00f5c4",
+            "features": [
+              "10 searches/day",
+              "Consensus Meter",
+              "Basic citation export",
+              "Abstract preview"
+            ]
+          },
+          {
+            "name": "Premium",
+            "price": "$9.99",
+            "per": "/month",
+            "popular": true,
+            "color": "#10b981",
+            "features": [
+              "Unlimited searches",
+              "Full paper access",
+              "All citation formats",
+              "Advanced filters",
+              "API access"
+            ]
+          }
+        ]
+      },
+      "link": "https://consensus.app"
+    },
+    {
+      "id": "veo-3",
+      "name": "Google Veo 3",
+      "company": "Google DeepMind",
+      "category": "video",
+      "icon": "🎬",
+      "badge": "hot",
+      "color": "#4285f4",
+      "price": "freemium",
+      "priceLabel": "Free / $19.99/mo",
+      "tags": [
+        "Text-to-Video",
+        "4K",
+        "Audio Sync",
+        "Cinematic"
+      ],
+      "shortDesc": "Google's flagship AI video generator — native 4K, synchronized audio, and best-in-class realism.",
+      "fullDesc": "Google Veo 3.1 is the current gold standard for AI video generation. Released January 2026, it produces native 4K video with synchronized audio directly from text prompts. Exceptional character consistency, realistic physics, and prompt adherence make it the top choice for cinematic content creation.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Text-to-video generation"
+        },
+        {
+          "label": "Released",
+          "value": "Veo 3.1, January 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Filmmakers, marketers, content creators"
+        },
+        {
+          "label": "Resolution",
+          "value": "Native 4K with vertical video support"
+        }
+      ],
+      "features": [
+        "Native 4K resolution output — production-ready quality",
+        "Synchronized audio generation: dialogue, SFX, ambient sound from prompt",
+        "Best-in-class character consistency across scenes",
+        "Ingredients-to-video: use multiple image references in one video",
+        "Available via Google Flow app and Gemini Advanced",
+        "Vertical video support for social media content",
+        "Realistic physics simulation and natural motion"
+      ],
+      "demo": [
+        {
+          "title": "Open Google Flow",
+          "desc": "Go to labs.google/flow — this is the primary interface for Veo video generation."
+        },
+        {
+          "title": "Write your prompt",
+          "desc": "Describe your scene in detail, including camera movement, lighting, and audio. Example: \"A chef in a Michelin-star kitchen plating a dish, close-up, warm lighting, sounds of sizzling.\""
+        },
+        {
+          "title": "Add reference images (optional)",
+          "desc": "Upload reference images to ground the model in your visual style — characters stay consistent."
+        },
+        {
+          "title": "Generate & download",
+          "desc": "Generation takes 2-5 minutes. Download your 4K video with native audio included."
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Cinematic product ad",
+          "text": "A luxury watch on a marble surface, water droplets falling in slow motion, macro lens, natural light from a window, subtle ambient sound of water."
+        },
+        {
+          "label": "Social content",
+          "text": "A golden retriever puppy playing in autumn leaves in a park, handheld camera feel, warm afternoon light, playful barking sounds — 9:16 vertical format."
+        }
+      ],
+      "pricing": {
+        "note": "Veo 3.1 is available through Gemini Advanced and Google Flow. The free tier in Google Flow has limited monthly credits.",
+        "plans": [
+          {
+            "name": "Google Flow Free",
+            "price": "$0",
+            "per": "/month",
+            "popular": false,
+            "color": "#00f5c4",
+            "features": [
+              "Limited monthly credits",
+              "Access to Veo 3.1",
+              "Up to 1080p output",
+              "Watermark on free tier"
+            ]
+          },
+          {
+            "name": "Gemini Advanced",
+            "price": "$19.99",
+            "per": "/month",
+            "popular": true,
+            "color": "#4285f4",
+            "features": [
+              "Full Veo 3.1 access",
+              "Native 4K output",
+              "No watermark",
+              "Google Workspace integration",
+              "Priority processing"
+            ]
+          }
+        ]
+      },
+      "link": "https://labs.google/flow"
+    },
+    {
+      "id": "sora-2",
+      "name": "Sora 2",
+      "company": "OpenAI",
+      "category": "video",
+      "icon": "🌀",
+      "badge": "hot",
+      "color": "#10a37f",
+      "price": "paid",
+      "priceLabel": "ChatGPT Plus/Pro",
+      "tags": [
+        "Text-to-Video",
+        "Cinematic",
+        "AI Director",
+        "Audio"
+      ],
+      "shortDesc": "OpenAI's AI video director — turns any prompt into a coherent, cinematic video sequence with audio.",
+      "fullDesc": "Sora 2 acts like an AI director with machine intuition — it has shot selection and narrative continuity sense that turns complex prompts into coherent cinematic sequences, audio included. Available to ChatGPT Plus and Pro subscribers in the US and Canada.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Text-to-video AI director"
+        },
+        {
+          "label": "Released",
+          "value": "Sora 2, 2025"
+        },
+        {
+          "label": "Best for",
+          "value": "Storytellers, filmmakers, creatives"
+        },
+        {
+          "label": "Access",
+          "value": "ChatGPT Plus ($20/mo) and Pro ($200/mo)"
+        }
+      ],
+      "features": [
+        "AI director intelligence: understands shot composition, continuity, and narrative",
+        "Native audio generation: sound effects, ambient noise, dialogue",
+        "Coherent multi-shot sequences from a single prompt",
+        "High-quality cinematic output with realistic motion",
+        "Available via ChatGPT and the Sora API",
+        "Seamlessly integrated into ChatGPT interface",
+        "API access for developers building video-powered applications"
+      ],
+      "demo": [
+        {
+          "title": "Open ChatGPT (Plus/Pro)",
+          "desc": "Go to sora.com or use the Sora tab in ChatGPT. Available in US and Canada."
+        },
+        {
+          "title": "Describe your scene",
+          "desc": "Write a detailed prompt as if directing a scene. Include camera angles, mood, and action."
+        },
+        {
+          "title": "Generate",
+          "desc": "Sora 2 produces a multi-shot, cinematic sequence with synchronized audio."
+        },
+        {
+          "title": "Iterate",
+          "desc": "Use follow-up prompts to adjust specific elements — \"make it more dramatic\" or \"change to golden hour lighting\"."
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Short film",
+          "text": "A lone astronaut discovers a small flower growing through the hull of an abandoned space station. Close-up on their gloved hand touching the petals. Silence, then soft orchestral music. Cinematic, emotional."
+        },
+        {
+          "label": "Brand story",
+          "text": "An artisan coffee roaster in an old warehouse at dawn, steam rising from fresh-roasted beans, warm amber light through dusty windows, the sound of beans tumbling in the drum."
+        }
+      ],
+      "pricing": {
+        "note": "Sora 2 is included in ChatGPT Plus and Pro plans. There is no standalone Sora subscription.",
+        "plans": [
+          {
+            "name": "ChatGPT Plus",
+            "price": "$20",
+            "per": "/month",
+            "popular": true,
+            "color": "#10a37f",
+            "features": [
+              "Sora 2 access",
+              "Limited video generation credits",
+              "GPT-5 access",
+              "All ChatGPT features"
+            ]
+          },
+          {
+            "name": "ChatGPT Pro",
+            "price": "$200",
+            "per": "/month",
+            "popular": false,
+            "color": "#7c6dfa",
+            "features": [
+              "Unlimited Sora 2 generations",
+              "Highest quality output",
+              "API access",
+              "Priority processing"
+            ]
+          }
+        ]
+      },
+      "link": "https://sora.com"
+    },
+    {
+      "id": "gpt5",
+      "name": "GPT-5",
+      "company": "OpenAI",
+      "category": "llm",
+      "icon": "⚡",
+      "badge": "hot",
+      "color": "#10a37f",
+      "price": "freemium",
+      "priceLabel": "Free / $20/mo",
+      "tags": [
+        "LLM",
+        "Multimodal",
+        "Reasoning",
+        "Computer Use"
+      ],
+      "shortDesc": "OpenAI's flagship 2026 model — 400K context, native multimodal, computer use, and configurable reasoning.",
+      "fullDesc": "GPT-5 represents a decisive leap over the GPT-4 era. Released throughout 2025 and into 2026, it features configurable reasoning effort, native multimodal input (text, image, audio), a 400K context window, and native computer use. The March 2026 GPT-5.4 release unified general-purpose and coding lines into a single flagship model.",
+      "info": [
+        {
+          "label": "Latest version",
+          "value": "GPT-5.4 (March 2026)"
+        },
+        {
+          "label": "Context window",
+          "value": "400K tokens"
+        },
+        {
+          "label": "Best for",
+          "value": "Complex reasoning, coding, multimodal tasks"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free tier via ChatGPT, API from $1.25/M tokens"
+        }
+      ],
+      "features": [
+        "Configurable reasoning effort — dial up compute for hard tasks, save on simple ones",
+        "Native multimodal: text, image, and audio in a single request",
+        "400K context window — process entire codebases or long documents",
+        "Computer use: natively interacts with applications and browsers",
+        "GPT-5.4 unifies general-purpose and coding model lines",
+        "90%+ MMLU-Pro score — among the highest in the industry",
+        "Available via ChatGPT, API, Azure OpenAI, and Microsoft Copilot"
+      ],
+      "demo": [
+        {
+          "title": "Access via ChatGPT",
+          "desc": "Go to chat.openai.com — GPT-5 is the default model for Plus and Pro subscribers."
+        },
+        {
+          "title": "Use reasoning mode",
+          "desc": "For complex problems, enable \"Thinking\" mode to have GPT-5 reason step-by-step before answering."
+        },
+        {
+          "title": "Upload files or images",
+          "desc": "Drag and drop images, PDFs, or documents directly into the chat for multimodal analysis."
+        },
+        {
+          "title": "Try computer use",
+          "desc": "Ask GPT-5 to browse a website, fill a form, or interact with an application autonomously."
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Deep reasoning",
+          "text": "Analyze the second-order economic effects of a 15% universal basic income funded by a wealth tax in a country with 60% service-sector employment. Use reasoning mode."
+        },
+        {
+          "label": "Multimodal analysis",
+          "text": "I'm attaching a screenshot of my analytics dashboard. Identify the 3 most important trends and suggest concrete actions for each."
+        }
+      ],
+      "pricing": {
+        "note": "GPT-5 is available free (limited) via ChatGPT. Full access requires Plus or Pro. API pricing is per token.",
+        "plans": [
+          {
+            "name": "Free",
+            "price": "$0",
+            "per": "/month",
+            "popular": false,
+            "color": "#00f5c4",
+            "features": [
+              "Limited GPT-5 access",
+              "Basic features",
+              "Web browsing included"
+            ]
+          },
+          {
+            "name": "Plus",
+            "price": "$20",
+            "per": "/month",
+            "popular": true,
+            "color": "#10a37f",
+            "features": [
+              "Full GPT-5 access",
+              "Sora 2 video",
+              "Advanced data analysis",
+              "5x more messages"
+            ]
+          },
+          {
+            "name": "Pro",
+            "price": "$200",
+            "per": "/month",
+            "popular": false,
+            "color": "#7c6dfa",
+            "features": [
+              "Unlimited GPT-5",
+              "o1 Pro reasoning",
+              "Advanced voice",
+              "Operator access"
+            ]
+          }
+        ]
+      },
+      "link": "https://chatgpt.com"
     }
-  ],
-  "lastChecked": "2026-03-15T07:09:48.722Z",
-  "checkLog": []
+  ]
 }
