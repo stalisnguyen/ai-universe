@@ -4,6 +4,18 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AI Universe — Explore the World of Artificial Intelligence</title>
+<meta name="description" content="Browse and compare 51+ AI tools by category — LLM, Image, Video, Audio, Code, Search, Agent, Multimodal. Detailed guides, pricing, and side-by-side comparisons.">
+<meta name="keywords" content="AI tools, artificial intelligence, ChatGPT, Claude, Midjourney, AI comparison, best AI 2026">
+<meta name="author" content="AI Universe">
+<meta property="og:title" content="AI Universe — Explore the World of AI">
+<meta property="og:description" content="Browse 51+ AI tools with detailed guides, pricing, and comparisons. Find the right AI for your needs.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://stalisnguyen.github.io/ai-universe/">
+<meta property="og:image" content="https://stalisnguyen.github.io/ai-universe/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AI Universe — Explore the World of AI">
+<meta name="twitter:description" content="Browse 51+ AI tools with detailed guides, pricing, and comparisons.">
+<link rel="canonical" href="https://stalisnguyen.github.io/ai-universe/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
@@ -771,6 +783,328 @@
     .hero-stats { gap: 24px; }
     .info-grid { grid-template-columns: 1fr; }
   }
+
+  /* ── TOOL OF THE WEEK ── */
+  .totw-wrap {
+    position: relative; z-index: 1;
+    max-width: 1300px; margin: 0 auto;
+    padding: 0 40px 60px;
+  }
+  .totw-card {
+    background: linear-gradient(135deg, rgba(0,245,196,0.06) 0%, rgba(124,109,250,0.06) 100%);
+    border: 1px solid rgba(0,245,196,0.2);
+    border-radius: 24px;
+    padding: 36px;
+    display: flex; gap: 32px; align-items: center;
+    cursor: pointer;
+    transition: all 0.3s;
+    position: relative; overflow: hidden;
+  }
+  .totw-card:hover { transform: translateY(-3px); box-shadow: 0 24px 60px rgba(0,245,196,0.1); }
+  .totw-card::before {
+    content: '';
+    position: absolute; inset: 0;
+    background: radial-gradient(ellipse at top left, rgba(0,245,196,0.08) 0%, transparent 60%);
+    pointer-events: none;
+  }
+  .totw-icon { font-size: 3.5rem; flex-shrink: 0; }
+  .totw-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.65rem;
+    color: var(--accent);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .totw-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    font-weight: 900;
+    margin-bottom: 8px;
+  }
+  .totw-desc { color: var(--muted); font-size: 0.95rem; line-height: 1.6; max-width: 520px; }
+  .totw-meta { display: flex; gap: 12px; margin-top: 16px; flex-wrap: wrap; }
+  .totw-cta {
+    margin-left: auto; flex-shrink: 0;
+    padding: 14px 28px;
+    background: var(--accent);
+    color: #000;
+    border: none; border-radius: 14px;
+    font-weight: 700; font-size: 0.9rem;
+    cursor: pointer; font-family: 'Outfit', sans-serif;
+    transition: opacity 0.2s;
+  }
+  .totw-cta:hover { opacity: 0.85; }
+
+  /* ── VOTE BUTTON ── */
+  .vote-btn {
+    display: flex; align-items: center; gap: 5px;
+    background: transparent;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 5px 10px;
+    color: var(--muted);
+    font-size: 0.75rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-family: 'Outfit', sans-serif;
+  }
+  .vote-btn:hover { border-color: #ff6b6b55; color: #ff6b6b; }
+  .vote-btn.voted { border-color: #ff6b6b; color: #ff6b6b; background: rgba(255,107,107,0.1); }
+  .vote-btn .heart { font-size: 0.85rem; transition: transform 0.2s; }
+  .vote-btn:hover .heart, .vote-btn.voted .heart { transform: scale(1.3); }
+
+  /* ── COMPARE CHECKBOX ── */
+  .compare-check {
+    position: absolute; top: 12px; left: 12px;
+    width: 22px; height: 22px;
+    border-radius: 6px;
+    border: 1.5px solid var(--border);
+    background: var(--surface);
+    cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 0.7rem;
+    transition: all 0.2s;
+    z-index: 5;
+    opacity: 0;
+    color: #000;
+  }
+  .ai-card:hover .compare-check { opacity: 1; }
+  .compare-check.checked { opacity: 1; background: var(--accent); border-color: var(--accent); }
+  .ai-card.in-compare { border-color: var(--accent) !important; }
+
+  /* ── FLOATING COMPARE BAR ── */
+  .compare-bar {
+    position: fixed; bottom: 28px; left: 50%; transform: translateX(-50%) translateY(120px);
+    background: var(--surface2);
+    border: 1px solid rgba(0,245,196,0.3);
+    border-radius: 20px;
+    padding: 14px 20px;
+    display: flex; align-items: center; gap: 16px;
+    z-index: 500;
+    transition: transform 0.4s cubic-bezier(0.34,1.56,0.64,1);
+    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+    white-space: nowrap;
+  }
+  .compare-bar.visible { transform: translateX(-50%) translateY(0); }
+  .compare-bar-items { display: flex; gap: 8px; align-items: center; }
+  .compare-chip {
+    display: flex; align-items: center; gap: 6px;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 6px 10px;
+    font-size: 0.8rem;
+  }
+  .compare-chip-remove {
+    cursor: pointer; color: var(--muted);
+    font-size: 0.7rem; transition: color 0.2s;
+  }
+  .compare-chip-remove:hover { color: var(--accent3); }
+  .compare-bar-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem; color: var(--muted);
+    letter-spacing: 0.08em;
+  }
+  .compare-go-btn {
+    padding: 8px 20px;
+    background: var(--accent); color: #000;
+    border: none; border-radius: 10px;
+    font-weight: 700; font-size: 0.85rem;
+    cursor: pointer; font-family: 'Outfit', sans-serif;
+    transition: opacity 0.2s;
+  }
+  .compare-go-btn:hover { opacity: 0.85; }
+  .compare-clear-btn {
+    background: transparent; border: none;
+    color: var(--muted); cursor: pointer;
+    font-size: 0.8rem; transition: color 0.2s;
+  }
+  .compare-clear-btn:hover { color: var(--accent3); }
+
+  /* ── COMPARISON MODAL ── */
+  .compare-modal-overlay {
+    position: fixed; inset: 0;
+    background: rgba(0,0,0,0.9);
+    backdrop-filter: blur(12px);
+    z-index: 2000;
+    display: flex; align-items: center; justify-content: center;
+    padding: 20px;
+    opacity: 0; pointer-events: none;
+    transition: opacity 0.3s;
+  }
+  .compare-modal-overlay.open { opacity: 1; pointer-events: all; }
+  .compare-modal {
+    background: var(--surface2);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 24px;
+    width: 100%; max-width: 1000px;
+    max-height: 88vh;
+    overflow-y: auto;
+    transform: scale(0.95);
+    transition: transform 0.3s;
+  }
+  .compare-modal-overlay.open .compare-modal { transform: scale(1); }
+  .compare-modal-header {
+    padding: 24px 28px;
+    border-bottom: 1px solid var(--border);
+    display: flex; align-items: center; justify-content: space-between;
+    position: sticky; top: 0; background: var(--surface2); z-index: 10;
+    border-radius: 24px 24px 0 0;
+  }
+  .compare-table-wrap { padding: 24px 28px; }
+  .compare-table { width: 100%; border-collapse: collapse; }
+  .compare-table th {
+    text-align: center; padding: 16px;
+    font-family: 'Playfair Display', serif;
+    font-size: 1rem; font-weight: 700;
+    border-bottom: 1px solid var(--border);
+    color: var(--text);
+    text-transform: none; letter-spacing: 0;
+  }
+  .compare-table th .th-icon { font-size: 1.5rem; display: block; margin-bottom: 6px; }
+  .compare-table th.row-label {
+    text-align: left;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem; color: var(--muted);
+    text-transform: uppercase; letter-spacing: 0.1em;
+    font-weight: 400;
+  }
+  .compare-table td {
+    text-align: center; padding: 14px 16px;
+    font-size: 0.875rem;
+    border-bottom: 1px solid rgba(255,255,255,0.04);
+    vertical-align: middle;
+  }
+  .compare-table td.row-label { text-align: left; }
+  .compare-table tr:hover td { background: rgba(255,255,255,0.02); }
+
+  /* ── QUIZ MODAL ── */
+  .quiz-overlay {
+    position: fixed; inset: 0;
+    background: rgba(0,0,0,0.92);
+    backdrop-filter: blur(16px);
+    z-index: 3000;
+    display: flex; align-items: center; justify-content: center;
+    padding: 20px;
+    opacity: 0; pointer-events: none;
+    transition: opacity 0.3s;
+  }
+  .quiz-overlay.open { opacity: 1; pointer-events: all; }
+  .quiz-modal {
+    background: var(--surface2);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 24px;
+    width: 100%; max-width: 560px;
+    padding: 36px;
+    transform: scale(0.95) translateY(20px);
+    transition: transform 0.3s;
+  }
+  .quiz-overlay.open .quiz-modal { transform: scale(1) translateY(0); }
+  .quiz-progress {
+    display: flex; gap: 6px; margin-bottom: 28px;
+  }
+  .quiz-progress-dot {
+    flex: 1; height: 3px; border-radius: 2px;
+    background: rgba(255,255,255,0.1);
+    transition: background 0.3s;
+  }
+  .quiz-progress-dot.done { background: var(--accent); }
+  .quiz-question {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem; font-weight: 800;
+    margin-bottom: 24px; line-height: 1.3;
+  }
+  .quiz-options { display: flex; flex-direction: column; gap: 10px; }
+  .quiz-option {
+    display: flex; align-items: center; gap: 14px;
+    padding: 14px 18px;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-align: left; font-family: 'Outfit', sans-serif;
+    font-size: 0.9rem; color: var(--text);
+  }
+  .quiz-option:hover { border-color: var(--accent); background: rgba(0,245,196,0.06); color: var(--accent); }
+  .quiz-option-icon { font-size: 1.3rem; flex-shrink: 0; }
+  .quiz-result {
+    display: none;
+    text-align: center;
+  }
+  .quiz-result.show { display: block; }
+  .quiz-result-icon { font-size: 4rem; margin-bottom: 16px; }
+  .quiz-result-label {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem; color: var(--accent);
+    letter-spacing: 0.2em; text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .quiz-result-name {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem; font-weight: 900; margin-bottom: 12px;
+  }
+  .quiz-result-desc { color: var(--muted); font-size: 0.9rem; line-height: 1.7; margin-bottom: 24px; }
+  .quiz-result-actions { display: flex; gap: 10px; justify-content: center; }
+  .quiz-restart {
+    padding: 10px 20px;
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--muted); border-radius: 12px;
+    cursor: pointer; font-family: 'Outfit', sans-serif;
+    transition: all 0.2s;
+  }
+  .quiz-restart:hover { color: var(--text); border-color: rgba(255,255,255,0.2); }
+
+  /* ── SHARE BTN ── */
+  .share-btn {
+    background: transparent; border: none;
+    color: var(--muted); cursor: pointer;
+    font-size: 0.8rem; padding: 4px 8px;
+    border-radius: 6px;
+    transition: all 0.2s;
+    display: flex; align-items: center; gap: 4px;
+  }
+  .share-btn:hover { color: var(--accent2); background: rgba(124,109,250,0.1); }
+
+  /* ── QUIZ CTA in hero ── */
+  .quiz-cta-btn {
+    display: inline-flex; align-items: center; gap: 8px;
+    margin-top: 32px;
+    padding: 14px 28px;
+    background: rgba(124,109,250,0.1);
+    border: 1px solid rgba(124,109,250,0.3);
+    border-radius: 100px;
+    color: var(--accent2);
+    font-size: 0.9rem; font-weight: 600;
+    cursor: pointer;
+    transition: all 0.25s;
+    font-family: 'Outfit', sans-serif;
+    animation: fadeUp 0.7s 0.4s ease both;
+  }
+  .quiz-cta-btn:hover {
+    background: rgba(124,109,250,0.2);
+    border-color: var(--accent2);
+    transform: translateY(-2px);
+  }
+
+  /* ── TOAST ── */
+  .toast {
+    position: fixed; bottom: 100px; left: 50%; transform: translateX(-50%) translateY(20px);
+    background: var(--surface2);
+    border: 1px solid rgba(0,245,196,0.3);
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-size: 0.85rem;
+    color: var(--accent);
+    font-family: 'JetBrains Mono', monospace;
+    z-index: 9999;
+    opacity: 0;
+    transition: all 0.3s;
+    pointer-events: none;
+  }
+  .toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
 </style>
 </head>
 <body>
@@ -782,6 +1116,7 @@
     <li><a href="#categories">Categories</a></li>
     <li><a href="#explore">Explore</a></li>
     <li><a href="#compare">Compare</a></li>
+    <li><a href="#" onclick="openQuiz();return false;" style="color:var(--accent2)">✦ Find My AI</a></li>
   </ul>
 </nav>
 
@@ -791,7 +1126,7 @@
   <div class="orb orb2"></div>
   <div class="orb orb3"></div>
 
-  <div class="hero-badge"><span id="lastUpdatedLabel">Updated 2025</span></div>
+  <div class="hero-badge"><span id="lastUpdatedLabel">Updated Mar 15, 2026</span></div>
   <h1>
     <span class="line1">Explore the</span>
     <span class="line2">AI Universe</span>
@@ -816,6 +1151,24 @@
   <div class="scroll-hint">
     <div class="scroll-line"></div>
     Scroll
+  </div>
+
+  <button class="quiz-cta-btn" onclick="openQuiz()">
+    ✦ Not sure which AI to use? Find out →
+  </button>
+</div>
+
+<!-- TOOL OF THE WEEK -->
+<div class="totw-wrap">
+  <div class="totw-card" id="totwCard" onclick="">
+    <div class="totw-icon" id="totwIcon">⭐</div>
+    <div style="flex:1">
+      <div class="totw-label">✦ Tool of the Week</div>
+      <div class="totw-name" id="totwName">Loading...</div>
+      <div class="totw-desc" id="totwDesc"></div>
+      <div class="totw-meta" id="totwMeta"></div>
+    </div>
+    <button class="totw-cta" id="totwBtn">Explore →</button>
   </div>
 </div>
 
@@ -869,27 +1222,27 @@
       </thead>
       <tbody>
         <tr>
-          <td><strong>Claude 3.5 Sonnet</strong></td>
+          <td><strong>Claude Sonnet 4.6</strong> <span style="font-size:0.7rem;color:var(--accent);font-family:'JetBrains Mono',monospace">NEW</span></td>
           <td>Anthropic</td>
           <td><span class="partial">〜</span></td>
           <td><span class="check">✓</span></td>
           <td><span class="check">✓</span></td>
           <td><span class="check">✓</span></td>
-          <td>200K tokens</td>
+          <td>200K (1M beta)</td>
           <td><span class="check">✓</span></td>
         </tr>
         <tr>
-          <td><strong>GPT-4o</strong></td>
+          <td><strong>GPT-5</strong> <span style="font-size:0.7rem;color:var(--accent);font-family:'JetBrains Mono',monospace">NEW</span></td>
           <td>OpenAI</td>
           <td><span class="partial">〜</span></td>
           <td><span class="check">✓</span></td>
           <td><span class="check">✓</span></td>
           <td><span class="check">✓</span></td>
-          <td>128K tokens</td>
+          <td>400K tokens</td>
           <td><span class="check">✓</span></td>
         </tr>
         <tr>
-          <td><strong>Gemini 1.5 Pro</strong></td>
+          <td><strong>Gemini 3.1 Pro</strong> <span style="font-size:0.7rem;color:var(--accent);font-family:'JetBrains Mono',monospace">NEW</span></td>
           <td>Google</td>
           <td><span class="partial">〜</span></td>
           <td><span class="check">✓</span></td>
@@ -899,43 +1252,43 @@
           <td><span class="check">✓</span></td>
         </tr>
         <tr>
-          <td><strong>Llama 3.1 405B</strong></td>
+          <td><strong>Llama 4 Scout</strong> <span style="font-size:0.7rem;color:var(--accent);font-family:'JetBrains Mono',monospace">NEW</span></td>
           <td>Meta</td>
           <td><span class="check">✓</span></td>
-          <td><span class="cross">✗</span></td>
+          <td><span class="check">✓</span></td>
           <td><span class="cross">✗</span></td>
           <td><span class="check">✓</span></td>
-          <td>128K tokens</td>
-          <td><span class="check">✓</span></td>
-        </tr>
-        <tr>
-          <td><strong>Mistral Large</strong></td>
-          <td>Mistral AI</td>
-          <td><span class="cross">✗</span></td>
-          <td><span class="cross">✗</span></td>
-          <td><span class="partial">〜</span></td>
-          <td><span class="check">✓</span></td>
-          <td>128K tokens</td>
+          <td>10M tokens 🔥</td>
           <td><span class="check">✓</span></td>
         </tr>
         <tr>
-          <td><strong>Grok 2</strong></td>
+          <td><strong>Grok 4.1 Fast</strong> <span style="font-size:0.7rem;color:var(--accent);font-family:'JetBrains Mono',monospace">NEW</span></td>
           <td>xAI</td>
           <td><span class="partial">〜</span></td>
           <td><span class="check">✓</span></td>
           <td><span class="check">✓</span></td>
           <td><span class="check">✓</span></td>
+          <td>2M tokens</td>
+          <td><span class="check">✓</span></td>
+        </tr>
+        <tr>
+          <td><strong>DeepSeek R1</strong></td>
+          <td>DeepSeek</td>
+          <td><span class="check">✓</span></td>
+          <td><span class="cross">✗</span></td>
+          <td><span class="partial">〜</span></td>
+          <td><span class="check">✓</span></td>
           <td>128K tokens</td>
           <td><span class="check">✓</span></td>
         </tr>
         <tr>
-          <td><strong>DeepSeek V3</strong></td>
-          <td>DeepSeek</td>
+          <td><strong>Mistral / DevStral</strong></td>
+          <td>Mistral AI</td>
+          <td><span class="partial">〜</span></td>
+          <td><span class="partial">〜</span></td>
+          <td><span class="partial">〜</span></td>
           <td><span class="check">✓</span></td>
-          <td><span class="cross">✗</span></td>
-          <td><span class="check">✓</span></td>
-          <td><span class="check">✓</span></td>
-          <td>64K tokens</td>
+          <td>128K tokens</td>
           <td><span class="check">✓</span></td>
         </tr>
         <tr>
@@ -955,7 +1308,8 @@
 
 <!-- FOOTER -->
 <footer>
-  <p>AI Universe — Data updated <span>2026</span> • Built with ❤️ for the AI community</p>
+  <p>AI Universe — Data updated <span id="footerYear"></span> • Built with ❤️ for the AI community</p>
+  <script>document.getElementById('footerYear').textContent = new Date().getFullYear();</script>
 </footer>
 
 <!-- LOADER -->
@@ -972,7 +1326,57 @@
   ⚠ Could not load latest data — showing cached version
 </div>
 
-<!-- MODAL -->
+<!-- TOAST -->
+<div class="toast" id="toast"></div>
+
+<!-- FLOATING COMPARE BAR -->
+<div class="compare-bar" id="compareBar">
+  <span class="compare-bar-label">Compare</span>
+  <div class="compare-bar-items" id="compareBarItems"></div>
+  <button class="compare-go-btn" onclick="openCompareModal()">Compare Now →</button>
+  <button class="compare-clear-btn" onclick="clearCompare()">✕ Clear</button>
+</div>
+
+<!-- COMPARISON MODAL -->
+<div class="compare-modal-overlay" id="compareModalOverlay" onclick="closeCompareModal(event)">
+  <div class="compare-modal">
+    <div class="compare-modal-header">
+      <div>
+        <div style="font-family:'JetBrains Mono',monospace;font-size:0.7rem;color:var(--accent);letter-spacing:0.15em;text-transform:uppercase;margin-bottom:4px">// Compare</div>
+        <div style="font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:800" id="compareModalTitle">Side-by-Side Comparison</div>
+      </div>
+      <button class="close-btn" onclick="document.getElementById('compareModalOverlay').classList.remove('open');document.body.style.overflow=''">✕</button>
+    </div>
+    <div class="compare-table-wrap">
+      <div id="compareTableContent"></div>
+    </div>
+  </div>
+</div>
+
+<!-- QUIZ MODAL -->
+<div class="quiz-overlay" id="quizOverlay" onclick="closeQuiz(event)">
+  <div class="quiz-modal">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:20px">
+      <div style="font-family:'JetBrains Mono',monospace;font-size:0.7rem;color:var(--accent2);letter-spacing:0.15em;text-transform:uppercase">✦ Find Your AI</div>
+      <button class="close-btn" onclick="document.getElementById('quizOverlay').classList.remove('open');document.body.style.overflow=''">✕</button>
+    </div>
+    <div class="quiz-progress" id="quizProgress"></div>
+    <div id="quizBody">
+      <div class="quiz-question" id="quizQuestion"></div>
+      <div class="quiz-options" id="quizOptions"></div>
+    </div>
+    <div class="quiz-result" id="quizResult">
+      <div class="quiz-result-icon" id="quizResultIcon"></div>
+      <div class="quiz-result-label">Best match for you</div>
+      <div class="quiz-result-name" id="quizResultName"></div>
+      <div class="quiz-result-desc" id="quizResultDesc"></div>
+      <div class="quiz-result-actions">
+        <button class="btn-primary" id="quizResultBtn" style="max-width:200px">View Details →</button>
+        <button class="quiz-restart" onclick="startQuiz()">↩ Restart</button>
+      </div>
+    </div>
+  </div>
+</div>
 <div class="modal-overlay" id="modalOverlay" onclick="closeModal(event)">
   <div class="modal" id="modal">
     <div class="modal-header">
@@ -1029,12 +1433,60 @@
 let activeCategory = 'all';
 let categories = [];
 let aiData = [];
+let votes = {};
+let userVoted = new Set();
+let compareList = [];
 
+const QUIZ = [
+  {
+    q: "What's your main goal?",
+    opts: [
+      { icon: '✍️', label: 'Write or brainstorm text', next: 1 },
+      { icon: '💻', label: 'Write or review code', next: 2 },
+      { icon: '🎨', label: 'Create images or visuals', next: 3 },
+      { icon: '🔍', label: 'Research & find information', result: 'perplexity' },
+      { icon: '🚀', label: 'Build a product or app', next: 4 },
+      { icon: '🎵', label: 'Generate audio or music', next: 5 },
+    ]
+  },
+  { q: 'What type of writing?', opts: [
+      { icon: '🧠', label: 'Long-form, nuanced thinking', result: 'claude' },
+      { icon: '💬', label: 'Quick chat & everyday tasks', result: 'chatgpt' },
+      { icon: '📊', label: 'Data analysis + spreadsheets', result: 'gpt-4o' },
+      { icon: '🌐', label: 'Up-to-date news & facts', result: 'grok' },
+  ]},
+  { q: 'How do you like to code?', opts: [
+      { icon: '🖥️', label: 'In my own editor (VS Code etc)', result: 'cursor' },
+      { icon: '☁️', label: 'In the browser / cloud', result: 'replit-agent' },
+      { icon: '🤖', label: 'AI writes the whole thing', result: 'claude-code' },
+      { icon: '⚡', label: 'GitHub Copilot autocomplete', result: 'github-copilot' },
+  ]},
+  { q: 'What style of image?', opts: [
+      { icon: '🎭', label: 'Artistic / cinematic / pro', result: 'midjourney' },
+      { icon: '⚡', label: 'Fast & realistic', result: 'flux' },
+      { icon: '🎨', label: 'Logo, icon, vector design', result: 'recraft' },
+      { icon: '✏️', label: 'Concept art & illustration', result: 'leonardo-ai' },
+  ]},
+  { q: 'What are you building?', opts: [
+      { icon: '🌐', label: 'Website or web app', result: 'v0' },
+      { icon: '⚡', label: 'Full-stack app fast', result: 'bolt-new' },
+      { icon: '✨', label: 'Beautiful UI with React', result: 'lovable' },
+      { icon: '🔗', label: 'Automation / workflows', result: 'n8n' },
+  ]},
+  { q: 'What type of audio?', opts: [
+      { icon: '🎤', label: 'Realistic voice / narration', result: 'elevenlabs' },
+      { icon: '🎵', label: 'Music & songs', result: 'suno' },
+  ]}
+];
+let quizHistory = [];
+
+// ── Init ──────────────────────────────────────────────────────────────────────
 async function init() {
+  loadVotes();
   showLoader(true);
   try {
     const res = await fetch('./data/ai-tools.json?v=' + Date.now());
-    if (!res.ok) throw new Error('Failed to load data');
+    if (!res.ok) throw new Error('Failed');
     const json = await res.json();
     categories = json.categories;
     aiData = json.tools;
@@ -1045,50 +1497,55 @@ async function init() {
         'Updated ' + d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
     }
   } catch(e) {
-    console.error('Data load error:', e);
     document.getElementById('loadError').style.display = 'block';
   }
   showLoader(false);
   renderCategoryCards();
   renderFilterBar();
-  renderAICards('all');
+  renderAICards();
+  renderTotw();
+  handleHashRoute();
 }
 
 function showLoader(on) {
   document.getElementById('pageLoader').style.display = on ? 'flex' : 'none';
 }
 
+// ── Tool of the Week ──────────────────────────────────────────────────────────
+function renderTotw() {
+  if (!aiData.length) return;
+  let best = null, bestVotes = -1;
+  aiData.forEach(ai => { const v = votes[ai.id]||0; if (v > bestVotes) { bestVotes = v; best = ai; } });
+  if (!best || bestVotes === 0) best = aiData.find(a => a.badge === 'hot') || aiData[0];
+  const catColor = categories.find(c=>c.id===best.category)?.color || '#00f5c4';
+  document.getElementById('totwIcon').textContent = best.icon;
+  document.getElementById('totwName').textContent = best.name;
+  document.getElementById('totwDesc').textContent = best.shortDesc;
+  document.getElementById('totwMeta').innerHTML = best.tags.map(t=>`<span class="tag">${t}</span>`).join('');
+  document.getElementById('totwCard').onclick = () => openModal(best.id);
+  document.getElementById('totwBtn').style.background = catColor;
+}
+
+// ── Categories & Filter ───────────────────────────────────────────────────────
 function renderCategoryCards() {
   const grid = document.getElementById('catGrid');
   const allCounts = {};
   aiData.forEach(a => { allCounts[a.category] = (allCounts[a.category]||0)+1; });
-
-  const allCard = `<div class="cat-card active" style="--cat-color:#00f5c4" onclick="selectCategory('all', this)">
-    <div class="cat-emoji">🌐</div>
-    <div class="cat-name">All</div>
-    <div class="cat-count">${aiData.length} models</div>
-  </div>`;
-
-  const catCards = categories.map(c => `
-    <div class="cat-card" style="--cat-color:${c.color}" onclick="selectCategory('${c.id}', this)">
-      <div class="cat-emoji">${c.emoji}</div>
-      <div class="cat-name">${c.name}</div>
-      <div class="cat-count">${allCounts[c.id]||0} models</div>
-    </div>
-  `).join('');
-
-  grid.innerHTML = allCard + catCards;
+  const allCard = `<div class="cat-card active" style="--cat-color:#00f5c4" onclick="selectCategory('all',this)">
+    <div class="cat-emoji">🌐</div><div class="cat-name">All</div>
+    <div class="cat-count">${aiData.length} models</div></div>`;
+  grid.innerHTML = allCard + categories.map(c=>`
+    <div class="cat-card" style="--cat-color:${c.color}" onclick="selectCategory('${c.id}',this)">
+      <div class="cat-emoji">${c.emoji}</div><div class="cat-name">${c.name}</div>
+      <div class="cat-count">${allCounts[c.id]||0} models</div></div>`).join('');
 }
 
 function renderFilterBar() {
   const bar = document.getElementById('filterBar');
-  const btns = [{ id:'all', name:'All', color:'#00f5c4' }, ...categories.map(c=>({id:c.id, name:c.name, color:c.color}))];
-  bar.innerHTML = btns.map(b => `
-    <button class="filter-btn ${b.id==='all'?'active':''}" onclick="filterByCategory('${b.id}', this)">
-      <span class="dot" style="background:${b.color}"></span>
-      ${b.name}
-    </button>
-  `).join('');
+  const btns = [{ id:'all', name:'All', color:'#00f5c4' }, ...categories.map(c=>({id:c.id,name:c.name,color:c.color}))];
+  bar.innerHTML = btns.map(b=>`
+    <button class="filter-btn ${b.id==='all'?'active':''}" onclick="filterByCategory('${b.id}',this)">
+      <span class="dot" style="background:${b.color}"></span>${b.name}</button>`).join('');
 }
 
 function selectCategory(catId, el) {
@@ -1096,9 +1553,9 @@ function selectCategory(catId, el) {
   el.classList.add('active');
   activeCategory = catId;
   filterCards();
-  document.querySelectorAll('#filterBar .filter-btn').forEach((btn,i) => {
-    const cats = ['all', ...categories.map(c=>c.id)];
-    btn.classList.toggle('active', cats[i] === catId);
+  document.querySelectorAll('#filterBar .filter-btn').forEach((btn,i)=>{
+    const cats = ['all',...categories.map(c=>c.id)];
+    btn.classList.toggle('active', cats[i]===catId);
   });
   document.getElementById('explore').scrollIntoView({behavior:'smooth'});
 }
@@ -1108,36 +1565,40 @@ function filterByCategory(catId, el) {
   el.classList.add('active');
   activeCategory = catId;
   filterCards();
-  document.querySelectorAll('#catGrid .cat-card').forEach((card, i) => {
-    const cats = ['all', ...categories.map(c=>c.id)];
-    card.classList.toggle('active', cats[i] === catId);
+  document.querySelectorAll('#catGrid .cat-card').forEach((card,i)=>{
+    const cats = ['all',...categories.map(c=>c.id)];
+    card.classList.toggle('active', cats[i]===catId);
   });
 }
 
 function filterCards() {
   const q = document.getElementById('searchInput').value.toLowerCase();
   document.querySelectorAll('.ai-card').forEach(card => {
-    const catMatch = activeCategory==='all' || card.dataset.category === activeCategory;
+    const catMatch = activeCategory==='all' || card.dataset.category===activeCategory;
     const searchMatch = !q || card.dataset.name.includes(q) || card.dataset.tags.includes(q) || card.dataset.company.includes(q);
     card.classList.toggle('hidden', !catMatch || !searchMatch);
   });
 }
 
-function renderAICards(cat) {
+// ── Render Cards ──────────────────────────────────────────────────────────────
+function renderAICards() {
   const grid = document.getElementById('aiGrid');
   grid.innerHTML = aiData.map(ai => {
     const catColor = categories.find(c=>c.id===ai.category)?.color || '#00f5c4';
-    return `
-    <div class="ai-card"
+    const voteCount = votes[ai.id] || 0;
+    const isVoted = userVoted.has(ai.id);
+    const inCompare = compareList.includes(ai.id);
+    return `<div class="ai-card ${inCompare?'in-compare':''}"
       style="--card-color:${catColor}"
-      data-category="${ai.category}"
+      data-id="${ai.id}" data-category="${ai.category}"
       data-name="${ai.name.toLowerCase()}"
       data-tags="${ai.tags.join(' ').toLowerCase()}"
       data-company="${ai.company.toLowerCase()}"
       onclick="openModal('${ai.id}')">
+      <div class="compare-check ${inCompare?'checked':''}" onclick="event.stopPropagation();toggleCompare('${ai.id}',this)">${inCompare?'✓':''}</div>
       <div class="card-header">
         <div class="card-icon">${ai.icon}</div>
-        ${ai.badge ? `<span class="card-badge ${ai.badge}">${ai.badge==='hot'?'🔥 Hot':ai.badge==='new'?'✨ New':'⭐ Pro'}</span>` : '<span></span>'}
+        ${ai.badge?`<span class="card-badge ${ai.badge}">${ai.badge==='hot'?'🔥 Hot':ai.badge==='new'?'✨ New':'⭐ Pro'}</span>`:'<span></span>'}
       </div>
       <div class="card-name">${ai.name}</div>
       <div class="card-company">${ai.company}</div>
@@ -1145,97 +1606,234 @@ function renderAICards(cat) {
       <div class="card-tags">${ai.tags.map(t=>`<span class="tag">${t}</span>`).join('')}</div>
       <div class="card-footer">
         <span class="card-price price-${ai.price}">${ai.priceLabel}</span>
-        <button class="demo-btn" style="--card-color:${catColor}">View details →</button>
+        <div style="display:flex;gap:6px;align-items:center">
+          <button class="vote-btn ${isVoted?'voted':''}" id="vote-${ai.id}" onclick="event.stopPropagation();vote('${ai.id}')">
+            <span class="heart">${isVoted?'❤️':'🤍'}</span>
+            <span id="vcount-${ai.id}">${voteCount}</span>
+          </button>
+          <button class="share-btn" onclick="event.stopPropagation();shareUrl('${ai.id}','${ai.name}')">⬆</button>
+          <button class="demo-btn" style="--card-color:${catColor}">View →</button>
+        </div>
       </div>
     </div>`;
   }).join('');
 }
 
-function openModal(id) {
-  const ai = aiData.find(a=>a.id===id);
-  if (!ai) return;
-  const catColor = categories.find(c=>c.id===ai.category)?.color || '#00f5c4';
+// ── Votes ─────────────────────────────────────────────────────────────────────
+function loadVotes() {
+  try {
+    votes = JSON.parse(localStorage.getItem('ai_votes')||'{}');
+    userVoted = new Set(JSON.parse(localStorage.getItem('ai_user_voted')||'[]'));
+  } catch(e) { votes={}; userVoted=new Set(); }
+}
+function saveVotes() {
+  localStorage.setItem('ai_votes', JSON.stringify(votes));
+  localStorage.setItem('ai_user_voted', JSON.stringify([...userVoted]));
+}
+function vote(id) {
+  if (userVoted.has(id)) { userVoted.delete(id); votes[id]=Math.max(0,(votes[id]||0)-1); }
+  else { userVoted.add(id); votes[id]=(votes[id]||0)+1; }
+  saveVotes();
+  const btn = document.getElementById('vote-'+id);
+  if (btn) {
+    const isVoted = userVoted.has(id);
+    btn.className = 'vote-btn'+(isVoted?' voted':'');
+    btn.querySelector('.heart').textContent = isVoted?'❤️':'🤍';
+    document.getElementById('vcount-'+id).textContent = votes[id]||0;
+  }
+  renderTotw();
+}
 
+// ── Compare ───────────────────────────────────────────────────────────────────
+function toggleCompare(id, el) {
+  const idx = compareList.indexOf(id);
+  if (idx > -1) {
+    compareList.splice(idx,1);
+    el.classList.remove('checked'); el.textContent='';
+    document.querySelector(`.ai-card[data-id="${id}"]`)?.classList.remove('in-compare');
+  } else {
+    if (compareList.length >= 3) { showToast('Max 3 tools to compare!'); return; }
+    compareList.push(id);
+    el.classList.add('checked'); el.textContent='✓';
+    document.querySelector(`.ai-card[data-id="${id}"]`)?.classList.add('in-compare');
+  }
+  updateCompareBar();
+}
+
+function updateCompareBar() {
+  const bar = document.getElementById('compareBar');
+  bar.classList.toggle('visible', compareList.length > 0);
+  document.getElementById('compareBarItems').innerHTML = compareList.map(id => {
+    const ai = aiData.find(a=>a.id===id); if (!ai) return '';
+    return `<div class="compare-chip">${ai.icon} ${ai.name}
+      <span class="compare-chip-remove" onclick="toggleCompare('${id}', document.querySelector('.ai-card[data-id=\\'${id}\\'] .compare-check'))">✕</span></div>`;
+  }).join('');
+}
+
+function clearCompare() {
+  compareList=[];
+  document.querySelectorAll('.compare-check').forEach(el=>{el.classList.remove('checked');el.textContent='';});
+  document.querySelectorAll('.ai-card').forEach(el=>el.classList.remove('in-compare'));
+  updateCompareBar();
+}
+
+function openCompareModal() {
+  if (compareList.length < 2) { showToast('Select at least 2 tools'); return; }
+  const tools = compareList.map(id=>aiData.find(a=>a.id===id)).filter(Boolean);
+  const rows = [
+    { label:'Category', fn: t=>categories.find(c=>c.id===t.category)?.name||t.category },
+    { label:'Price', fn: t=>t.priceLabel },
+    { label:'Best for', fn: t=>t.info?.find(i=>i.label==='Best for'||i.label==='Type')?.value||'—' },
+    { label:'Description', fn: t=>`<span style="font-size:0.8rem;color:var(--muted)">${t.shortDesc}</span>` },
+    { label:'Tags', fn: t=>t.tags.map(tag=>`<span class="tag">${tag}</span>`).join(' ') },
+  ];
+  const header = `<tr><th class="row-label"></th>${tools.map(t=>`<th><span class="th-icon">${t.icon}</span>${t.name}<br><span style="font-size:0.7rem;color:var(--muted);font-family:'JetBrains Mono',monospace;font-weight:400">${t.company}</span></th>`).join('')}</tr>`;
+  const body = rows.map(row=>`<tr><td class="row-label">${row.label}</td>${tools.map(t=>`<td>${row.fn(t)}</td>`).join('')}</tr>`).join('');
+  document.getElementById('compareModalTitle').textContent = tools.map(t=>t.name).join(' vs ');
+  document.getElementById('compareTableContent').innerHTML = `<table class="compare-table"><thead>${header}</thead><tbody>${body}</tbody></table>`;
+  document.getElementById('compareModalOverlay').classList.add('open');
+  document.body.style.overflow='hidden';
+}
+
+function closeCompareModal(e) {
+  if (e.target===document.getElementById('compareModalOverlay')) {
+    document.getElementById('compareModalOverlay').classList.remove('open');
+    document.body.style.overflow='';
+  }
+}
+
+// ── Quiz ──────────────────────────────────────────────────────────────────────
+function openQuiz() {
+  document.getElementById('quizOverlay').classList.add('open');
+  document.body.style.overflow='hidden';
+  startQuiz();
+}
+function closeQuiz(e) {
+  if (e.target===document.getElementById('quizOverlay')) {
+    document.getElementById('quizOverlay').classList.remove('open');
+    document.body.style.overflow='';
+  }
+}
+function startQuiz() {
+  quizHistory=[];
+  document.getElementById('quizResult').classList.remove('show');
+  document.getElementById('quizBody').style.display='block';
+  renderQuizStep(0);
+}
+function renderQuizStep(idx) {
+  const step = QUIZ[idx];
+  document.getElementById('quizProgress').innerHTML =
+    Array.from({length:3},(_,i)=>`<div class="quiz-progress-dot ${i<quizHistory.length?'done':''}"></div>`).join('');
+  document.getElementById('quizQuestion').textContent = step.q;
+  document.getElementById('quizOptions').innerHTML = step.opts.map((o,i)=>`
+    <button class="quiz-option" onclick="answerQuiz(${idx},${i})">
+      <span class="quiz-option-icon">${o.icon}</span>${o.label}</button>`).join('');
+}
+function answerQuiz(stepIdx, optIdx) {
+  const opt = QUIZ[stepIdx].opts[optIdx];
+  quizHistory.push(optIdx);
+  if (opt.result) showQuizResult(opt.result);
+  else if (opt.next !== undefined) renderQuizStep(opt.next);
+}
+function showQuizResult(toolId) {
+  const ai = aiData.find(a=>a.id===toolId) || aiData[0];
+  document.getElementById('quizBody').style.display='none';
+  document.getElementById('quizResult').classList.add('show');
+  document.getElementById('quizResultIcon').textContent = ai.icon;
+  document.getElementById('quizResultName').textContent = ai.name;
+  document.getElementById('quizResultDesc').textContent = ai.shortDesc;
+  document.getElementById('quizProgress').innerHTML = Array.from({length:3},()=>`<div class="quiz-progress-dot done"></div>`).join('');
+  document.getElementById('quizResultBtn').onclick = () => {
+    document.getElementById('quizOverlay').classList.remove('open');
+    document.body.style.overflow='';
+    openModal(ai.id);
+  };
+}
+
+// ── Share ─────────────────────────────────────────────────────────────────────
+function shareUrl(id, name) {
+  const url = window.location.origin + window.location.pathname + '#' + id;
+  if (navigator.share) navigator.share({ title: name+' — AI Universe', url });
+  else navigator.clipboard.writeText(url).then(()=>showToast('🔗 Link copied!'));
+}
+
+// ── Toast ─────────────────────────────────────────────────────────────────────
+function showToast(msg) {
+  const t = document.getElementById('toast');
+  t.textContent=msg; t.classList.add('show');
+  setTimeout(()=>t.classList.remove('show'),2500);
+}
+
+// ── Hash routing ──────────────────────────────────────────────────────────────
+function handleHashRoute() {
+  const hash = window.location.hash.replace('#','');
+  if (hash && aiData.find(a=>a.id===hash)) setTimeout(()=>openModal(hash),400);
+}
+window.addEventListener('hashchange', handleHashRoute);
+
+// ── Modal ─────────────────────────────────────────────────────────────────────
+function openModal(id) {
+  const ai = aiData.find(a=>a.id===id); if (!ai) return;
+  history.replaceState(null,'','#'+id);
   document.getElementById('modalIcon').textContent = ai.icon;
   document.getElementById('modalName').textContent = ai.name;
   document.getElementById('modalCompany').textContent = ai.company;
   document.getElementById('modalDesc').textContent = ai.fullDesc;
   document.getElementById('modalPrimaryBtn').textContent = `Open ${ai.name} →`;
-  document.getElementById('modalPrimaryBtn').onclick = () => window.open(ai.link, '_blank');
-
+  document.getElementById('modalPrimaryBtn').onclick = ()=>window.open(ai.link,'_blank');
   document.getElementById('modalInfoGrid').innerHTML = ai.info.map(i=>`
-    <div class="info-item">
-      <div class="info-label">${i.label}</div>
-      <div class="info-value">${i.value}</div>
-    </div>
-  `).join('');
-
+    <div class="info-item"><div class="info-label">${i.label}</div><div class="info-value">${i.value}</div></div>`).join('');
   document.getElementById('modalFeatureList').innerHTML = ai.features.map(f=>`<li>${f}</li>`).join('');
-
   document.getElementById('modalDemoSteps').innerHTML = ai.demo.map((s,idx)=>`
-    <div class="step">
-      <div class="step-num">${String(idx+1).padStart(2,'0')}</div>
-      <div class="step-body">
-        <div class="step-title">${s.title}</div>
-        <div class="step-desc">${s.desc}</div>
-        ${s.code ? `<div class="code-block">${s.code}</div>` : ''}
-      </div>
-    </div>
-  `).join('');
-
+    <div class="step"><div class="step-num">${String(idx+1).padStart(2,'0')}</div>
+    <div class="step-body"><div class="step-title">${s.title}</div>
+    <div class="step-desc">${s.desc}</div>${s.code?`<div class="code-block">${s.code}</div>`:''}</div></div>`).join('');
   document.getElementById('modalPrompts').innerHTML = ai.prompts.map(p=>`
     <div style="margin-bottom:16px">
       <div style="font-size:0.75rem;color:var(--muted);margin-bottom:8px;font-family:'JetBrains Mono',monospace;text-transform:uppercase;letter-spacing:0.1em">${p.label}</div>
-      <div class="prompt-example">${p.text}</div>
-    </div>
-  `).join('');
-
-  // Pricing tab
+      <div class="prompt-example">${p.text}</div></div>`).join('');
   if (ai.pricing) {
-    document.getElementById('modalPricingGrid').innerHTML = ai.pricing.plans.map(p => `
-      <div class="plan-card ${p.popular ? 'popular' : ''}" style="--plan-color:${p.color}">
-        ${p.popular ? `<div class="plan-badge" style="background:${p.color}">Most Popular</div>` : ''}
+    document.getElementById('modalPricingGrid').innerHTML = ai.pricing.plans.map(p=>`
+      <div class="plan-card ${p.popular?'popular':''}" style="--plan-color:${p.color}">
+        ${p.popular?`<div class="plan-badge" style="background:${p.color}">Most Popular</div>`:''}
         <div class="plan-name">${p.name}</div>
         <div class="plan-price">${p.price}</div>
         <div class="plan-price-sub">${p.per}</div>
-        <ul class="plan-features">
-          ${p.features.map(f=>`<li>${f}</li>`).join('')}
-        </ul>
-      </div>
-    `).join('');
+        <ul class="plan-features">${p.features.map(f=>`<li>${f}</li>`).join('')}</ul>
+      </div>`).join('');
     document.getElementById('modalPricingNote').textContent = ai.pricing.note;
   }
-
   switchTabById('overview');
   document.querySelectorAll('.tab-btn').forEach((b,i)=>b.classList.toggle('active',i===0));
-
   document.getElementById('modalOverlay').classList.add('open');
-  document.body.style.overflow = 'hidden';
+  document.body.style.overflow='hidden';
 }
 
 function switchTab(btn, tabId) {
   document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
-  btn.classList.add('active');
-  switchTabById(tabId);
+  btn.classList.add('active'); switchTabById(tabId);
 }
-
 function switchTabById(tabId) {
   document.querySelectorAll('.tab-content').forEach(t=>t.classList.remove('active'));
   document.getElementById('tab-'+tabId)?.classList.add('active');
 }
-
-function closeModal(e) {
-  if (e.target === document.getElementById('modalOverlay')) closeModalDirect();
-}
+function closeModal(e) { if(e.target===document.getElementById('modalOverlay')) closeModalDirect(); }
 function closeModalDirect() {
   document.getElementById('modalOverlay').classList.remove('open');
-  document.body.style.overflow = '';
+  document.body.style.overflow='';
+  history.replaceState(null,'',window.location.pathname);
 }
 
-document.addEventListener('keydown', e => { if (e.key==='Escape') closeModalDirect(); });
+document.addEventListener('keydown', e => {
+  if (e.key==='Escape') {
+    closeModalDirect();
+    document.getElementById('quizOverlay').classList.remove('open');
+    document.getElementById('compareModalOverlay').classList.remove('open');
+    document.body.style.overflow='';
+  }
+});
 
 init();
-
 </script>
 </body>
 </html>
