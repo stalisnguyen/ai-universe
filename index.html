@@ -1200,6 +1200,7 @@
     <li><a href="#categories">Categories</a></li>
     <li><a href="#explore">Explore</a></li>
     <li><a href="#compare">Compare</a></li>
+    <li><a href="#about">About</a></li>
     <li><a href="#" onclick="openQuiz();return false;" style="color:var(--accent2)">✦ Find My AI</a></li>
   </ul>
 </nav>
@@ -1395,6 +1396,53 @@
         </tr>
       </tbody>
     </table>
+  </div>
+</section>
+
+<!-- ABOUT SECTION -->
+<div class="divider"></div>
+<section id="about" style="max-width:900px">
+  <div class="section-label">// About</div>
+  <h2 class="section-title">What is AI Universe?</h2>
+
+  <p style="color:#9ca3af;font-size:1rem;line-height:1.8;margin-bottom:24px">
+    AI Universe started as a personal project — I kept too many tabs open trying to track what's new in AI, which tools are worth using, and how pricing compares. So I built one place to hold it all.
+  </p>
+
+  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px;margin-bottom:36px">
+    <div style="background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:22px">
+      <div style="font-size:1.5rem;margin-bottom:10px">🤖</div>
+      <div style="font-family:'Playfair Display',serif;font-weight:700;margin-bottom:6px">Always up to date</div>
+      <div style="font-size:0.875rem;color:var(--muted);line-height:1.6">A bot runs daily using Claude API and web search to find new tools, update pricing, and track model changes — so the catalog stays current without manual work.</div>
+    </div>
+    <div style="background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:22px">
+      <div style="font-size:1.5rem;margin-bottom:10px">🏆</div>
+      <div style="font-family:'Playfair Display',serif;font-weight:700;margin-bottom:6px">Tool of the Week</div>
+      <div style="font-size:0.875rem;color:var(--muted);line-height:1.6">Updated weekly from Product Hunt's top AI launches — no editorial bias, just what the community is actually excited about.</div>
+    </div>
+    <div style="background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:22px">
+      <div style="font-size:1.5rem;margin-bottom:10px">🔍</div>
+      <div style="font-family:'Playfair Display',serif;font-weight:700;margin-bottom:6px">Find the right tool</div>
+      <div style="font-size:0.875rem;color:var(--muted);line-height:1.6">Not sure which AI fits your needs? The "Find My AI" quiz asks 3 quick questions and points you to the best match — no fluff.</div>
+    </div>
+    <div style="background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:22px">
+      <div style="font-size:1.5rem;margin-bottom:10px">💸</div>
+      <div style="font-family:'Playfair Display',serif;font-weight:700;margin-bottom:6px">Free. No ads. No fluff.</div>
+      <div style="font-size:0.875rem;color:var(--muted);line-height:1.6">Hosted on GitHub Pages. No tracking, no ads, no affiliate links. Just a useful tool for anyone navigating the AI space.</div>
+    </div>
+  </div>
+
+  <div style="background:rgba(0,245,196,0.05);border:1px solid rgba(0,245,196,0.15);border-radius:16px;padding:24px;display:flex;align-items:center;gap:20px;flex-wrap:wrap">
+    <div style="flex:1;min-width:200px">
+      <div style="font-family:'JetBrains Mono',monospace;font-size:0.7rem;color:var(--accent);letter-spacing:0.15em;text-transform:uppercase;margin-bottom:6px">Open Source</div>
+      <div style="font-size:0.9rem;color:#9ca3af;line-height:1.6">The full source code is on GitHub. Feel free to fork it, contribute, or suggest a tool to add.</div>
+    </div>
+    <a href="https://github.com/stalisnguyen/ai-universe" target="_blank"
+      style="display:inline-flex;align-items:center;gap:8px;padding:10px 20px;background:var(--surface2);border:1px solid var(--border);border-radius:12px;color:var(--text);text-decoration:none;font-size:0.875rem;font-weight:500;transition:all 0.2s;white-space:nowrap"
+      onmouseover="this.style.borderColor='rgba(0,245,196,0.4)'"
+      onmouseout="this.style.borderColor='rgba(255,255,255,0.07)'">
+      ⭐ View on GitHub
+    </a>
   </div>
 </section>
 
