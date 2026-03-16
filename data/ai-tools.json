@@ -7746,19 +7746,19 @@
     }
   ],
   "totw": {
-    "name": "Visual Translate by Vozo",
-    "tagline": "Translate text in your videos without recreating visuals",
-    "votesCount": 690,
-    "url": "https://www.producthunt.com/products/vozo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
-    "thumbnail": "https://ph-files.imgix.net/beac91f0-5b0c-4702-a32d-8be887488c08.gif?auto=format",
+    "name": "Chronicle 2.0",
+    "tagline": "AI presentations without the AI slop",
+    "votesCount": 729,
+    "url": "https://www.producthunt.com/products/chronicle-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
+    "thumbnail": "https://ph-files.imgix.net/32f798e8-593b-4453-9806-6bbd9a04a244.png?auto=format",
     "rank": 1,
     "topics": [
       "Productivity",
-      "SaaS",
-      "Artificial Intelligence"
+      "Artificial Intelligence",
+      "Design"
     ],
-    "fetchedAt": "2026-03-15T16:36:44.283Z"
+    "fetchedAt": "2026-03-16T07:42:53.181Z"
   },
   "lastWeeklyUpdate": "2026-03-15T16:55:04.042Z",
-  "lastChecked": "2026-03-15T16:55:11.557Z"
+  "lastChecked": "2026-03-16T07:43:01.452Z"
 }
