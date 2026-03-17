@@ -7746,19 +7746,19 @@
     }
   ],
   "totw": {
-    "name": "Chronicle 2.0",
-    "tagline": "AI presentations without the AI slop",
-    "votesCount": 729,
-    "url": "https://www.producthunt.com/products/chronicle-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
-    "thumbnail": "https://ph-files.imgix.net/32f798e8-593b-4453-9806-6bbd9a04a244.png?auto=format",
+    "name": "Naoma AI Demo Agent",
+    "tagline": "The video AI demo agent for B2B SaaS for immediate demos",
+    "votesCount": 658,
+    "url": "https://www.producthunt.com/products/naoma?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
+    "thumbnail": "https://ph-files.imgix.net/9cf65627-cdeb-4434-90df-da1064018ee0.png?auto=format",
     "rank": 1,
     "topics": [
-      "Productivity",
+      "Marketing",
       "Artificial Intelligence",
-      "Design"
+      "YC Application"
     ],
-    "fetchedAt": "2026-03-16T07:42:53.181Z"
+    "fetchedAt": "2026-03-17T07:14:59.324Z"
   },
   "lastWeeklyUpdate": "2026-03-15T16:55:04.042Z",
-  "lastChecked": "2026-03-16T07:43:01.452Z"
+  "lastChecked": "2026-03-17T07:15:08.319Z"
 }
