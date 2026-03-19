@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-15T16:34:41.428Z",
+  "lastUpdated": "2026-03-19T09:01:50.070Z",
   "categories": [
     {
       "id": "llm",
@@ -7757,21 +7757,45 @@
       "Artificial Intelligence",
       "E-Commerce"
     ],
-    "fetchedAt": "2026-03-19T08:54:26.217Z"
+    "fetchedAt": "2026-03-19T09:01:27.138Z"
   },
   "lastWeeklyUpdate": "2026-03-15T16:55:04.042Z",
-  "lastChecked": "2026-03-19T08:54:50.324Z",
+  "lastChecked": "2026-03-19T09:01:50.070Z",
   "anthropicNews": [
     {
+      "date": "Mar 11, 2026",
+      "title": "Anthropic Launches The Anthropic Institute",
+      "summary": "<cite index=\"22-28\">Anthropic introduced \"The Anthropic Institute\", a new research arm focused on confronting the societal challenges AI can or will impose.</cite>",
+      "url": "https://www.eweek.com/news/anthropic-institute-launch-march-2026/"
+    },
+    {
+      "date": "Mar 17, 2026",
+      "title": "Claude Releases Persistent Agent Thread for Cowork",
+      "summary": "<cite index=\"3-3,3-4\">Claude releases a persistent agent thread for Pro and Max plans to manage tasks in Cowork from mobile and desktop.</cite>",
+      "url": "https://releasebot.io/updates/anthropic/claude"
+    },
+    {
       "date": "Mar 12, 2026",
-      "title": "Anthropic invests $100M into Claude Partner Network",
-      "summary": "Anthropic announced a $100 million investment to expand the Claude Partner Network program.",
+      "title": "Claude Adds Custom Charts and Visualizations",
+      "summary": "<cite index=\"3-8\">Claude can now create custom charts, diagrams and other visualizations in-line in its responses.</cite>",
+      "url": "https://releasebot.io/updates/anthropic/claude"
+    },
+    {
+      "date": "Feb 17, 2026",
+      "title": "Claude Sonnet 4.6 Released",
+      "summary": "<cite index=\"6-7,6-8\">Claude Sonnet 4.6, the latest balanced model combining speed and intelligence for everyday tasks, delivers improved agentic search performance while consuming fewer tokens.</cite>",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview"
+    },
+    {
+      "date": "Feb 5, 2026",
+      "title": "Claude Opus 4.6 Launched with 1M Token Context",
+      "summary": "<cite index=\"1-1,1-2\">On February 5, 2026, Anthropic officially launched Claude Opus 4.6 — its first major model release of the year with impressive capabilities.</cite>",
       "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Mar 11, 2026",
-      "title": "Introducing The Anthropic Institute",
-      "summary": "<cite index=\"5-1\">Anthropic introduced \"The Anthropic Institute\", a new research arm focused on confronting the societal challenges AI can or will impose.</cite>",
+      "date": "Jan 31, 2026",
+      "title": "Claude Cowork Research Preview Launched",
+      "summary": "<cite index=\"1-6\">Anthropic quietly launched Claude Cowork in a research preview at the end of January 2026.</cite>",
       "url": "https://www.anthropic.com/news"
     }
   ]
