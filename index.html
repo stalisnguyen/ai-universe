@@ -1226,13 +1226,18 @@
 <nav>
   <a class="nav-logo" href="#">AI<span>Universe</span></a>
   <ul class="nav-links">
-    <li><a href="#categories">Categories</a></li>
-    <li><a href="#explore">Explore</a></li>
-    <li><a href="#compare">Compare</a></li>
-    <li><a href="#anthropic-updates" style="color:#d282ff">✦ Anthropic</a></li>
-    <li><a href="#about">About</a></li>
-    <li><a href="#" onclick="openQuiz();return false;" style="color:var(--accent2)">✦ Find My AI</a></li>
+    <li><a href="#categories" data-i18n="navCategories">Categories</a></li>
+    <li><a href="#explore" data-i18n="navExplore">Explore</a></li>
+    <li><a href="#compare" data-i18n="navCompare">Compare</a></li>
+    <li><a href="#anthropic-updates" data-i18n="navAnthropic" style="color:#d282ff">✦ Anthropic</a></li>
+    <li><a href="#about" data-i18n="navAbout">About</a></li>
+    <li><a href="#" onclick="openQuiz();return false;" style="color:var(--accent2)" data-i18n="findMyAI">✦ Find My AI</a></li>
   </ul>
+  <div class="lang-switcher">
+    <button class="lang-btn active" onclick="setLang('en')" id="lang-en">EN</button>
+    <button class="lang-btn" onclick="setLang('vi')" id="lang-vi">VI</button>
+    <button class="lang-btn" onclick="setLang('zh')" id="lang-zh">ZH</button>
+  </div>
 </nav>
 
 <!-- HERO -->
@@ -1243,33 +1248,33 @@
 
   <div class="hero-badge"><span id="lastUpdatedLabel">Updated Mar 15, 2026</span></div>
   <h1>
-    <span class="line1">Explore the</span>
-    <span class="line2">AI Universe</span>
+    <span class="line1" data-i18n="heroLine1">Explore the</span>
+    <span class="line2" data-i18n="heroLine2">AI Universe</span>
   </h1>
-  <p class="hero-sub">Browse and compare AI models by category and function — with detailed usage guides and side-by-side feature comparisons.</p>
+  <p class="hero-sub"><span data-i18n="heroSub">Browse and compare AI models by category and function — with detailed usage guides and side-by-side feature comparisons.</span></p>
 
   <div class="hero-stats">
     <div class="stat">
       <div class="stat-num" id="totalCount">22+</div>
-      <div class="stat-label">AI Models</div>
+      <div class="stat-label" data-i18n="statModels">AI Models</div>
     </div>
     <div class="stat">
       <div class="stat-num">8</div>
-      <div class="stat-label">Categories</div>
+      <div class="stat-label" data-i18n="statCategories">Categories</div>
     </div>
     <div class="stat">
       <div class="stat-num">∞</div>
-      <div class="stat-label">Possibilities</div>
+      <div class="stat-label" data-i18n="statPossibilities">Possibilities</div>
     </div>
   </div>
 
   <div class="scroll-hint">
     <div class="scroll-line"></div>
-    Scroll
+    <span data-i18n="scroll">Scroll</span>
   </div>
 
   <button class="quiz-cta-btn" onclick="openQuiz()">
-    ✦ Not sure which AI to use? Find out →
+    <span data-i18n="quizCta">✦ Not sure which AI to use? Find out →</span>
   </button>
 </div>
 
@@ -1279,7 +1284,7 @@
     <div class="totw-icon" id="totwIcon">⭐</div>
     <div style="flex:1">
       <div style="display:flex;align-items:center;gap:12px;margin-bottom:8px;flex-wrap:wrap">
-        <div class="totw-label" style="margin-bottom:0">✦ Tool of the Week</div>
+        <div class="totw-label" style="margin-bottom:0"><span data-i18n="totw">✦ Tool of the Week</span></div>
         <a id="totwSource" href="https://producthunt.com" target="_blank" onclick="event.stopPropagation()"
           style="display:inline-flex;align-items:center;gap:6px;background:rgba(255,107,0,0.12);border:1px solid rgba(255,107,0,0.3);border-radius:100px;padding:4px 12px;font-family:'JetBrains Mono',monospace;font-size:0.65rem;color:#ff6b00;letter-spacing:0.08em;text-decoration:none;transition:all 0.2s"
           onmouseover="this.style.background='rgba(255,107,0,0.2)'"
@@ -1297,9 +1302,9 @@
 
 <!-- CATEGORIES SECTION -->
 <section id="categories">
-  <div class="section-label">// Categories</div>
-  <h2 class="section-title">Browse by Category</h2>
-  <p class="section-desc">Select a category to filter AI models and see relevant usage guides.</p>
+  <div class="section-label"><span data-i18n="secCatLabel">// Categories</span></div>
+  <h2 class="section-title"><span data-i18n="secCatTitle">Browse by Category</span></h2>
+  <p class="section-desc"><span data-i18n="secCatDesc">Select a category to filter AI models and see relevant usage guides.</span></p>
 
   <div class="cat-grid" id="catGrid"></div>
 </section>
@@ -1308,9 +1313,9 @@
 
 <!-- EXPLORE SECTION -->
 <section id="explore">
-  <div class="section-label">// Explore</div>
-  <h2 class="section-title">All AI Models</h2>
-  <p class="section-desc">Search and filter by your needs. Click any card to see a full breakdown and usage guide.</p>
+  <div class="section-label"><span data-i18n="secExploreLabel">// Explore</span></div>
+  <h2 class="section-title"><span data-i18n="secExploreTitle">All AI Models</span></h2>
+  <p class="section-desc"><span data-i18n="secExploreDesc">Search and filter by your needs. Click any card to see a full breakdown and usage guide.</span></p>
 
   <div class="search-wrap">
     <span class="search-icon">🔍</span>
@@ -1325,8 +1330,8 @@
 
 <!-- COMPARE SECTION -->
 <section id="compare">
-  <div class="section-label">// Compare</div>
-  <h2 class="section-title">Top LLMs Side by Side</h2>
+  <div class="section-label"><span data-i18n="secCompareLabel">// Compare</span></div>
+  <h2 class="section-title"><span data-i18n="secCompareTitle">Top LLMs Side by Side</span></h2>
   <p class="section-desc">A quick feature comparison of the most popular large language models available today.</p>
 
   <div class="compare-wrap">
@@ -1432,8 +1437,8 @@
 <!-- ANTHROPIC UPDATES -->
 <div class="divider"></div>
 <section id="anthropic-updates">
-  <div class="section-label">// Anthropic Updates</div>
-  <h2 class="section-title">Latest from Anthropic</h2>
+  <div class="section-label"><span data-i18n="secAnthropicLabel">// Anthropic Updates</span></div>
+  <h2 class="section-title"><span data-i18n="secAnthropicTitle">Latest from Anthropic</span></h2>
   <p class="section-desc">The newest Claude models, features, and announcements — updated daily by bot.</p>
   <div class="news-feed" id="newsFeed">
     <div style="color:var(--muted);font-size:0.875rem;padding:20px 0">Loading latest updates...</div>
@@ -1451,8 +1456,8 @@
 <!-- ABOUT SECTION -->
 <div class="divider"></div>
 <section id="about" style="max-width:900px">
-  <div class="section-label">// About</div>
-  <h2 class="section-title">What is AI Universe?</h2>
+  <div class="section-label"><span data-i18n="secAboutLabel">// About</span></div>
+  <h2 class="section-title"><span data-i18n="secAboutTitle">What is AI Universe?</span></h2>
 
   <p style="color:#9ca3af;font-size:1rem;line-height:1.8;margin-bottom:24px">
     AI Universe started as a personal project — I kept too many tabs open trying to track what's new in AI, which tools are worth using, and how pricing compares. So I built one place to hold it all.
@@ -1497,7 +1502,7 @@
 
 <!-- FOOTER -->
 <footer>
-  <p>AI Universe — Data updated <span id="footerYear"></span> • Built with ❤️ for the AI community</p>
+  <p><span data-i18n="footerText">AI Universe — Data updated</span> <span id="footerYear"></span> • <span data-i18n="footerBy">Built with ❤️ for the AI community</span></p>
   <script>document.getElementById('footerYear').textContent = new Date().getFullYear();</script>
 </footer>
 
@@ -1509,7 +1514,7 @@
     <span style="width:8px;height:8px;border-radius:50%;background:var(--accent);animation:pulse 1.2s 0.2s infinite"></span>
     <span style="width:8px;height:8px;border-radius:50%;background:var(--accent);animation:pulse 1.2s 0.4s infinite"></span>
   </div>
-  <div style="font-family:'JetBrains Mono',monospace;font-size:0.7rem;color:var(--muted);letter-spacing:0.1em">Loading latest data...</div>
+  <div style="font-family:'JetBrains Mono',monospace;font-size:0.7rem;color:var(--muted);letter-spacing:0.1em"><span data-i18n='loading'>Loading latest data...</span></div>
 </div>
 <div id="loadError" style="display:none;position:fixed;top:80px;left:50%;transform:translateX(-50%);background:#ff6b6b22;border:1px solid #ff6b6b44;border-radius:12px;padding:12px 20px;font-size:0.85rem;color:#ff6b6b;z-index:200;">
   ⚠ Could not load latest data — showing cached version
@@ -1522,8 +1527,8 @@
 <div class="compare-bar" id="compareBar">
   <span class="compare-bar-label">Compare</span>
   <div class="compare-bar-items" id="compareBarItems"></div>
-  <button class="compare-go-btn" onclick="openCompareModal()">Compare Now →</button>
-  <button class="compare-clear-btn" onclick="clearCompare()">✕ Clear</button>
+  <button class="compare-go-btn" onclick="openCompareModal()"><span data-i18n="compareNow">Compare Now →</span></button>
+  <button class="compare-clear-btn" onclick="clearCompare()"><span data-i18n="clear">✕ Clear</span></button>
 </div>
 
 <!-- COMPARISON MODAL -->
@@ -1580,11 +1585,11 @@
     </div>
     <div class="modal-body">
       <div class="modal-tabs">
-        <button class="tab-btn active" onclick="switchTab(this,'overview')">Overview</button>
-        <button class="tab-btn" onclick="switchTab(this,'features')">Features</button>
-        <button class="tab-btn" onclick="switchTab(this,'demo')">How to Use</button>
-        <button class="tab-btn" onclick="switchTab(this,'pricing')">Pricing</button>
-        <button class="tab-btn" onclick="switchTab(this,'prompt')">Prompts</button>
+        <button class="tab-btn active" onclick="switchTab(this,'overview')"><span data-i18n="tabOverview">Overview</span></button>
+        <button class="tab-btn" onclick="switchTab(this,'features')"><span data-i18n="tabFeatures">Features</span></button>
+        <button class="tab-btn" onclick="switchTab(this,'demo')"><span data-i18n="tabHowTo">How to Use</span></button>
+        <button class="tab-btn" onclick="switchTab(this,'pricing')"><span data-i18n="tabPricing">Pricing</span></button>
+        <button class="tab-btn" onclick="switchTab(this,'prompt')"><span data-i18n="tabPrompts">Prompts</span></button>
         <button class="tab-btn" id="changelogTabBtn" onclick="switchTab(this,'changelog')" style="display:none">🆕 What's New</button>
       </div>
 
@@ -1619,14 +1624,150 @@
       </div>
 
       <div class="modal-actions">
-        <button class="btn-primary" id="modalPrimaryBtn">Open →</button>
-        <button class="btn-secondary" onclick="closeModalDirect()">Close</button>
+        <button class="btn-primary" id="modalPrimaryBtn"><span data-i18n="openBtn">Open →</span></button>
+        <button class="btn-secondary" onclick="closeModalDirect()"><span data-i18n="closeBtn">Close</span></button>
       </div>
     </div>
   </div>
 </div>
 
 <script>
+
+
+
+// ── Get translated tool field ──────────────────────────────────────────────────
+function ti(tool, field) {
+  if (currentLang !== 'en' && tool.i18n?.[currentLang]?.[field]) {
+    return tool.i18n[currentLang][field];
+  }
+  return tool[field] || '';
+}
+
+// ── i18n ──────────────────────────────────────────────────────────────────────
+let currentLang = localStorage.getItem('ai_lang') || 'en';
+
+const TRANSLATIONS = {
+  en: {
+    navCategories: 'Categories', navExplore: 'Explore', navCompare: 'Compare',
+    navAnthropic: '✦ Anthropic', navAbout: 'About', findMyAI: '✦ Find My AI',
+    heroLine1: 'Explore the', heroLine2: 'AI Universe',
+    heroSub: 'Browse and compare AI models by category and function — with detailed usage guides and side-by-side feature comparisons.',
+    statModels: 'AI Models', statCategories: 'Categories', statPossibilities: 'Possibilities',
+    scroll: 'Scroll',
+    quizCta: '✦ Not sure which AI to use? Find out →',
+    totw: '✦ Tool of the Week',
+    secCatLabel: '// Categories', secCatTitle: 'Browse by Category',
+    secCatDesc: 'Select a category to filter AI models and see relevant usage guides.',
+    secExploreLabel: '// Explore', secExploreTitle: 'All AI Models',
+    secExploreDesc: 'Search and filter by your needs. Click any card to see a full breakdown and usage guide.',
+    secCompareLabel: '// Compare', secCompareTitle: 'Top LLMs Side by Side',
+    secAnthropicLabel: '// Anthropic Updates', secAnthropicTitle: 'Latest from Anthropic',
+    secAboutLabel: '// About', secAboutTitle: 'What is AI Universe?',
+    tabOverview: 'Overview', tabFeatures: 'Features', tabHowTo: 'How to Use',
+    tabPricing: 'Pricing', tabPrompts: 'Prompts', tabWhatsNew: "🆕 What's New",
+    compareNow: 'Compare Now →', clear: '✕ Clear',
+    openBtn: 'Open →', closeBtn: 'Close',
+    searchPlaceholder: 'Search AI models...',
+    footerText: 'AI Universe — Data updated',
+    footerBy: 'Built with ❤️ for the AI community',
+    editorPick: "Editor's Pick",
+    viewDetails: 'View Details →',
+    allModels: 'All', models: 'models',
+    quizTitle: t('quizTitle'),
+    compareWith: t('compareWith'),
+    upvotes: 'upvotes',
+    loading: 'Loading latest data...',
+  },
+  vi: {
+    navCategories: 'Danh mục', navExplore: 'Khám phá', navCompare: 'So sánh',
+    navAnthropic: '✦ Anthropic', navAbout: 'Giới thiệu', findMyAI: '✦ Tìm AI cho tôi',
+    heroLine1: 'Khám phá', heroLine2: 'AI Universe',
+    heroSub: 'Duyệt và so sánh các mô hình AI theo danh mục — với hướng dẫn sử dụng chi tiết và so sánh tính năng trực tiếp.',
+    statModels: 'Mô hình AI', statCategories: 'Danh mục', statPossibilities: 'Khả năng',
+    scroll: 'Cuộn xuống',
+    quizCta: '✦ Chưa biết dùng AI nào? Tìm ngay →',
+    totw: '✦ Công cụ tuần này',
+    secCatLabel: '// Danh mục', secCatTitle: 'Duyệt theo danh mục',
+    secCatDesc: 'Chọn danh mục để lọc các mô hình AI và xem hướng dẫn sử dụng liên quan.',
+    secExploreLabel: '// Khám phá', secExploreTitle: 'Tất cả mô hình AI',
+    secExploreDesc: 'Tìm kiếm và lọc theo nhu cầu. Click vào card để xem chi tiết đầy đủ.',
+    secCompareLabel: '// So sánh', secCompareTitle: 'So sánh LLM hàng đầu',
+    secAnthropicLabel: '// Tin tức Anthropic', secAnthropicTitle: 'Cập nhật mới nhất từ Anthropic',
+    secAboutLabel: '// Giới thiệu', secAboutTitle: 'AI Universe là gì?',
+    tabOverview: 'Tổng quan', tabFeatures: 'Tính năng', tabHowTo: 'Cách dùng',
+    tabPricing: 'Bảng giá', tabPrompts: 'Prompt mẫu', tabWhatsNew: '🆕 Mới nhất',
+    compareNow: 'So sánh ngay →', clear: '✕ Xóa',
+    openBtn: 'Mở →', closeBtn: 'Đóng',
+    searchPlaceholder: 'Tìm kiếm AI...',
+    footerText: 'AI Universe — Cập nhật',
+    footerBy: 'Xây dựng với ❤️ cho cộng đồng AI',
+    editorPick: 'Lựa chọn của editor',
+    viewDetails: 'Xem chi tiết →',
+    allModels: 'Tất cả', models: 'mô hình',
+    quizTitle: '✦ Tìm AI phù hợp',
+    compareWith: 'So sánh trực tiếp',
+    upvotes: 'upvotes',
+    loading: 'Đang tải dữ liệu...',
+  },
+  zh: {
+    navCategories: '分类', navExplore: '探索', navCompare: '比较',
+    navAnthropic: '✦ Anthropic', navAbout: '关于', findMyAI: '✦ 找到我的AI',
+    heroLine1: '探索', heroLine2: 'AI Universe',
+    heroSub: '按类别浏览和比较AI模型 — 提供详细的使用指南和并排功能比较。',
+    statModels: 'AI 模型', statCategories: '分类', statPossibilities: '可能性',
+    scroll: '向下滚动',
+    quizCta: '✦ 不确定用哪个AI？立即查找 →',
+    totw: '✦ 本周工具',
+    secCatLabel: '// 分类', secCatTitle: '按分类浏览',
+    secCatDesc: '选择分类来筛选AI模型并查看相关使用指南。',
+    secExploreLabel: '// 探索', secExploreTitle: '所有AI模型',
+    secExploreDesc: '根据您的需求搜索和筛选。点击卡片查看完整详情和使用指南。',
+    secCompareLabel: '// 比较', secCompareTitle: '顶级LLM对比',
+    secAnthropicLabel: '// Anthropic 动态', secAnthropicTitle: 'Anthropic 最新消息',
+    secAboutLabel: '// 关于', secAboutTitle: 'AI Universe 是什么？',
+    tabOverview: '概览', tabFeatures: '功能', tabHowTo: '使用方法',
+    tabPricing: '定价', tabPrompts: '提示词', tabWhatsNew: '🆕 最新动态',
+    compareNow: '立即比较 →', clear: '✕ 清除',
+    openBtn: '打开 →', closeBtn: '关闭',
+    searchPlaceholder: '搜索AI模型...',
+    footerText: 'AI Universe — 数据更新于',
+    footerBy: '用 ❤️ 为AI社区构建',
+    editorPick: '编辑推荐',
+    viewDetails: '查看详情 →',
+    allModels: '全部', models: '个模型',
+    quizTitle: '✦ 找到您的AI',
+    compareWith: '并排比较',
+    upvotes: '票',
+    loading: '正在加载最新数据...',
+  }
+};
+
+function t(key) {
+  return TRANSLATIONS[currentLang]?.[key] || TRANSLATIONS['en'][key] || key;
+}
+
+function setLang(lang) {
+  currentLang = lang;
+  localStorage.setItem('ai_lang', lang);
+  // Update active button
+  ['en','vi','zh'].forEach(l => {
+    document.getElementById('lang-'+l)?.classList.toggle('active', l === lang);
+  });
+  // Apply translations to all data-i18n elements
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.getAttribute('data-i18n');
+    if (el.tagName === 'INPUT') el.placeholder = t(key);
+    else el.textContent = t(key);
+  });
+  // Update search placeholder
+  const searchInput = document.getElementById('searchInput');
+  if (searchInput) searchInput.placeholder = t('searchPlaceholder');
+  // Re-render dynamic content
+  renderCategoryCards();
+  renderFilterBar();
+  renderAICards();
+  renderTotw();
+}
 
 let activeCategory = 'all';
 let categories = [];
@@ -1714,6 +1855,7 @@ async function init() {
   renderAICards();
   renderTotw();
   handleHashRoute();
+  setLang(currentLang);
 }
 
 function showLoader(on) {
@@ -1768,7 +1910,7 @@ function renderTotw() {
       ph.name.toLowerCase().includes(a.name.toLowerCase())
     );
     if (match) {
-      document.getElementById('totwBtn').textContent = 'View Details →';
+      document.getElementById('totwBtn').textContent = t('viewDetails');
       document.getElementById('totwBtn').onclick = (e) => { e.stopPropagation(); openModal(match.id); };
       document.getElementById('totwCard').onclick = () => openModal(match.id);
       const catColor = categories.find(c=>c.id===match.category)?.color || '#ff6b00';
@@ -1786,10 +1928,10 @@ function renderTotw() {
   document.getElementById('totwName').textContent = best.name;
   document.getElementById('totwDesc').textContent = best.shortDesc;
   document.getElementById('totwMeta').innerHTML = best.tags.map(t=>`<span class="tag">${t}</span>`).join('');
-  document.getElementById('totwRank').textContent = `Editor's Pick`;
+  document.getElementById('totwRank').textContent = t('editorPick');
   document.getElementById('totwSource').href = '#';
   document.getElementById('totwCard').onclick = () => openModal(best.id);
-  document.getElementById('totwBtn').textContent = 'View Details →';
+  document.getElementById('totwBtn').textContent = t('viewDetails');
   document.getElementById('totwBtn').style.background = catColor;
   document.getElementById('totwBtn').onclick = (e) => { e.stopPropagation(); openModal(best.id); };
 }
@@ -1800,12 +1942,12 @@ function renderCategoryCards() {
   const allCounts = {};
   aiData.forEach(a => { allCounts[a.category] = (allCounts[a.category]||0)+1; });
   const allCard = `<div class="cat-card active" style="--cat-color:#00f5c4" onclick="selectCategory('all',this)">
-    <div class="cat-emoji">🌐</div><div class="cat-name">All</div>
-    <div class="cat-count">${aiData.length} models</div></div>`;
+    <div class="cat-emoji">🌐</div><div class="cat-name">${t('allModels')}</div>
+    <div class="cat-count">${aiData.length} ${t('models')}</div></div>`;
   grid.innerHTML = allCard + categories.map(c=>`
     <div class="cat-card" style="--cat-color:${c.color}" onclick="selectCategory('${c.id}',this)">
       <div class="cat-emoji">${c.emoji}</div><div class="cat-name">${c.name}</div>
-      <div class="cat-count">${allCounts[c.id]||0} models</div></div>`).join('');
+      <div class="cat-count">${allCounts[c.id]||0} ${t('models')}</div></div>`).join('');
 }
 
 function renderFilterBar() {
@@ -1870,7 +2012,7 @@ function renderAICards() {
       </div>
       <div class="card-name">${ai.name}</div>
       <div class="card-company">${ai.company}</div>
-      <div class="card-desc">${ai.shortDesc}</div>
+      <div class="card-desc">${ti(ai,"shortDesc")}</div>
       <div class="card-tags">${ai.tags.map(t=>`<span class="tag">${t}</span>`).join('')}</div>
       <div class="card-footer">
         <span class="card-price price-${ai.price}">${ai.priceLabel}</span>
@@ -2046,7 +2188,7 @@ function openModal(id) {
   document.getElementById('modalIcon').textContent = ai.icon;
   document.getElementById('modalName').textContent = ai.name;
   document.getElementById('modalCompany').textContent = ai.company;
-  document.getElementById('modalDesc').textContent = ai.fullDesc;
+  document.getElementById('modalDesc').textContent = ti(ai,'fullDesc');
 
   // Render changelog tab
   const changelogTabBtn = document.getElementById('changelogTabBtn');
@@ -2070,7 +2212,7 @@ function openModal(id) {
     document.querySelector('#tab-changelog').innerHTML =
       `<div class="changelog-empty"><span class="emoji">🤖</span>Auto-updated weekly by bot — check back soon!</div>`;
   }
-  document.getElementById('modalPrimaryBtn').textContent = `Open ${ai.name} →`;
+  document.getElementById('modalPrimaryBtn').innerHTML = `${ai.name} <span data-i18n='openBtn'>${t('openBtn')}</span>`;
   document.getElementById('modalPrimaryBtn').onclick = ()=>window.open(ai.link,'_blank');
   document.getElementById('modalInfoGrid').innerHTML = ai.info.map(i=>`
     <div class="info-item"><div class="info-label">${i.label}</div><div class="info-value">${i.value}</div></div>`).join('');
