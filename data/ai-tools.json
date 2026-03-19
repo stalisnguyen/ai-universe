@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-19T10:47:32.901Z",
+  "lastUpdated": "2026-03-19T11:31:18.873Z",
   "categories": [
     {
       "id": "llm",
@@ -7992,46 +7992,46 @@
       "Artificial Intelligence",
       "E-Commerce"
     ],
-    "fetchedAt": "2026-03-19T10:47:10.344Z"
+    "fetchedAt": "2026-03-19T11:30:58.651Z"
   },
   "lastWeeklyUpdate": "2026-03-19T09:54:34.881Z",
   "anthropicNews": [
     {
-      "date": "Mar 18, 2026",
-      "title": "Anthropic releases largest multilingual AI study",
-      "summary": "<cite index=\"13-1,13-2\">Anthropic published findings from nearly 81,000 Claude.ai users in the largest and most multilingual qualitative study of its kind.</cite>",
-      "url": "https://www.anthropic.com/news"
+      "date": "Mar 17, 2026",
+      "title": "Claude persistent agent thread launches for Cowork",
+      "summary": "<cite index=\"2-3,2-4\">Persistent agent thread for Pro and Max plans enables task management in Cowork from mobile and desktop</cite>",
+      "url": "https://releasebot.io/updates/anthropic/claude"
     },
     {
       "date": "Mar 12, 2026",
-      "title": "Anthropic launches Claude Partner Network with $100M",
-      "summary": "<cite index=\"9-1\">Anthropic launched the Claude Partner Network with $100 million in 2026 funding, bringing major consulting firms into its enterprise channel.</cite>",
-      "url": "https://thenextweb.com/news/anthropic-commits-100m-to-claude-partner-network"
+      "title": "Claude adds custom charts and inline visualizations",
+      "summary": "<cite index=\"2-8\">Claude can create custom charts, diagrams and other visualizations in-line in responses</cite>",
+      "url": "https://releasebot.io/updates/anthropic/claude"
     },
     {
       "date": "Mar 9, 2026",
-      "title": "Anthropic releases Code Review tool for Claude Code",
-      "summary": "<cite index=\"14-2,14-9\">Anthropic launched Code Review in Claude Code, an AI tool designed to catch bugs in AI-generated code pull requests.</cite>",
+      "title": "Anthropic launches Claude Code Review tool",
+      "summary": "<cite index=\"25-5\">Code Review arrives to Claude for Teams and Enterprise customers in research preview</cite>",
       "url": "https://techcrunch.com/2026/03/09/anthropic-launches-code-review-tool-to-check-flood-of-ai-generated-code/"
     },
     {
-      "date": "Mar 5, 2026",
-      "title": "Anthropic publishes labor market AI impact research",
-      "summary": "<cite index=\"23-2,23-3\">Anthropic published a comprehensive economic research paper titled \"Labor market impacts of AI: A new measure and early evidence\" introducing a novel framework for measuring AI workforce interactions.</cite>",
-      "url": "https://creati.ai/ai-news/2026-03-06/anthropic-labor-market-research-ai-displacement-risk-limited-evidence/"
-    },
-    {
-      "date": "Mar 6, 2026",
-      "title": "Anthropic launches Marketplace for third-party software",
-      "summary": "<cite index=\"17-4,17-5\">Anthropic launched Anthropic Marketplace for corporate customers to purchase third-party software applications using Claude models without Anthropic taking a cut.</cite>",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-06/anthropic-unveils-amazon-inspired-marketplace-for-ai-software"
+      "date": "Mar 9, 2026",
+      "title": "Microsoft adds Claude Sonnet models to M365 Copilot",
+      "summary": "<cite index=\"4-1\">Microsoft making Anthropic's latest Claude Sonnet models available to M365 Copilot users</cite>",
+      "url": "https://en.wikipedia.org/wiki/Claude_(language_model)"
     },
     {
       "date": "Feb 17, 2026",
-      "title": "Anthropic releases Claude Sonnet 4.6 with 1M context",
-      "summary": "<cite index=\"13-4\">Sonnet 4.6 delivers frontier performance across coding, agents, and professional work at scale with a 1-million-token context window.</cite>",
+      "title": "Claude Sonnet 4.6 released with 1M token context",
+      "summary": "<cite index=\"20-2,20-3\">Most capable Sonnet model yet with full skills upgrade and 1M token context window in beta</cite>",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview"
+    },
+    {
+      "date": "Feb 5, 2026",
+      "title": "Claude Opus 4.6 released with 1M token context",
+      "summary": "<cite index=\"1-6,1-9\">Anthropic launches Claude Opus 4.6 with 1-million-token context window</cite>",
       "url": "https://www.anthropic.com/news"
     }
   ],
-  "lastChecked": "2026-03-19T10:47:32.901Z"
+  "lastChecked": "2026-03-19T11:31:18.873Z"
 }
