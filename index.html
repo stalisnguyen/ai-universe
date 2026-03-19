@@ -1174,6 +1174,35 @@
   .changelog-empty { text-align: center; padding: 40px 20px; color: var(--muted); font-size: 0.9rem; }
   .changelog-empty .emoji { font-size: 2rem; display: block; margin-bottom: 10px; }
 
+  /* ── ANTHROPIC NEWS ── */
+  .news-feed { display: flex; flex-direction: column; gap: 10px; }
+  .news-item {
+    display: flex; gap: 16px; align-items: flex-start;
+    padding: 16px 20px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+  .news-item:hover {
+    border-color: rgba(210,130,255,0.4);
+    background: rgba(210,130,255,0.04);
+    transform: translateX(4px);
+  }
+  .news-date {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.68rem; color: var(--muted);
+    white-space: nowrap; padding-top: 3px; min-width: 80px;
+  }
+  .news-dot {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: #d282ff; flex-shrink: 0; margin-top: 6px;
+    box-shadow: 0 0 8px rgba(210,130,255,0.5);
+  }
+  .news-title { font-weight: 600; font-size: 0.9rem; margin-bottom: 3px; color: var(--text); }
+  .news-summary { font-size: 0.8rem; color: var(--muted); line-height: 1.5; }
+
   .toast {
     position: fixed; bottom: 100px; left: 50%; transform: translateX(-50%) translateY(20px);
     background: var(--surface2);
@@ -1200,6 +1229,7 @@
     <li><a href="#categories">Categories</a></li>
     <li><a href="#explore">Explore</a></li>
     <li><a href="#compare">Compare</a></li>
+    <li><a href="#anthropic-updates" style="color:#d282ff">✦ Anthropic</a></li>
     <li><a href="#about">About</a></li>
     <li><a href="#" onclick="openQuiz();return false;" style="color:var(--accent2)">✦ Find My AI</a></li>
   </ul>
@@ -1396,6 +1426,25 @@
         </tr>
       </tbody>
     </table>
+  </div>
+</section>
+
+<!-- ANTHROPIC UPDATES -->
+<div class="divider"></div>
+<section id="anthropic-updates">
+  <div class="section-label">// Anthropic Updates</div>
+  <h2 class="section-title">Latest from Anthropic</h2>
+  <p class="section-desc">The newest Claude models, features, and announcements — updated daily by bot.</p>
+  <div class="news-feed" id="newsFeed">
+    <div style="color:var(--muted);font-size:0.875rem;padding:20px 0">Loading latest updates...</div>
+  </div>
+  <div style="margin-top:16px">
+    <a href="https://anthropic.com/news" target="_blank"
+      style="font-family:'JetBrains Mono',monospace;font-size:0.7rem;color:var(--muted);letter-spacing:0.08em;text-decoration:none;display:inline-flex;align-items:center;gap:6px;transition:color 0.2s"
+      onmouseover="this.style.color='#d282ff'"
+      onmouseout="this.style.color='var(--muted)'">
+      ↗ anthropic.com/news
+    </a>
   </div>
 </section>
 
@@ -1639,8 +1688,8 @@ async function init() {
     const json = await res.json();
     categories = json.categories;
     aiData = json.tools;
-    // Load Product Hunt TOTW if available
-    if (json.totw) window._phTotw = json.totw;
+    // Load Anthropic news if available
+    if (json.anthropicNews) renderNews(json.anthropicNews);
     document.getElementById('totalCount').textContent = aiData.length + '+';
     // Update meta tags dynamically
     const count = aiData.length;
@@ -1667,6 +1716,25 @@ async function init() {
 
 function showLoader(on) {
   document.getElementById('pageLoader').style.display = on ? 'flex' : 'none';
+}
+
+// ── Anthropic News ────────────────────────────────────────────────────────────
+function renderNews(news) {
+  const feed = document.getElementById('newsFeed');
+  if (!news || !news.length) {
+    feed.innerHTML = `<div style="color:var(--muted);font-size:0.875rem;padding:20px 0">No recent updates found — check back tomorrow!</div>`;
+    return;
+  }
+  feed.innerHTML = news.map(item => `
+    <a class="news-item" href="${item.url || 'https://anthropic.com/news'}" target="_blank">
+      <div class="news-dot"></div>
+      <div style="flex:1">
+        <div class="news-title">${item.title}</div>
+        <div class="news-summary">${item.summary}</div>
+      </div>
+      <div class="news-date">${item.date}</div>
+    </a>
+  `).join('');
 }
 
 // ── Tool of the Week ──────────────────────────────────────────────────────────
