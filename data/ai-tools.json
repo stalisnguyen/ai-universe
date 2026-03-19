@@ -7757,46 +7757,22 @@
       "Artificial Intelligence",
       "E-Commerce"
     ],
-    "fetchedAt": "2026-03-19T08:44:23.792Z"
+    "fetchedAt": "2026-03-19T08:54:26.217Z"
   },
   "lastWeeklyUpdate": "2026-03-15T16:55:04.042Z",
-  "lastChecked": "2026-03-19T08:44:42.637Z",
+  "lastChecked": "2026-03-19T08:54:50.324Z",
   "anthropicNews": [
     {
       "date": "Mar 12, 2026",
-      "title": "Anthropic invests $100M in Claude Partner Network",
-      "summary": "Anthropic announced $100 million investment into the Claude Partner Network program for partner organizations helping enterprises adopt Claude.",
+      "title": "Anthropic invests $100M into Claude Partner Network",
+      "summary": "Anthropic announced a $100 million investment to expand the Claude Partner Network program.",
       "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Mar 11, 2026",
-      "title": "Anthropic launches The Anthropic Institute",
-      "summary": "New research arm led by co-founder Jack Clark focused on societal challenges from AI, with interdisciplinary teams studying AI's impact on jobs, security, and society.",
-      "url": "https://www.eweek.com/news/anthropic-institute-launch-march-2026/"
-    },
-    {
-      "date": "Mar 6, 2026",
-      "title": "Claude Marketplace launches with third-party software",
-      "summary": "Anthropic launched e-commerce store enabling enterprises to purchase Claude-powered applications from six initial partners including Snowflake and GitLab.",
-      "url": "https://siliconangle.com/2026/03/06/anthropic-launches-claude-marketplace-third-party-cloud-services/"
-    },
-    {
-      "date": "Feb 25, 2026",
-      "title": "Anthropic acquires Vercept to enhance computer use",
-      "summary": "Anthropic acquired startup Vercept focused on perception and interaction in AI systems to improve Claude's computer use capabilities for spreadsheets and web forms.",
-      "url": "https://claudelog.com/claude-news/"
-    },
-    {
-      "date": "Feb 24, 2026",
-      "title": "Enterprise agents program with new plugins launches",
-      "summary": "Anthropic unveiled enterprise agents program with pre-built plugins for finance, legal, HR departments and new integrations including Gmail and DocuSign.",
-      "url": "https://techcrunch.com/2026/02/24/anthropic-launches-new-push-for-enterprise-agents-with-plugins-for-finance-engineering-and-design/"
-    },
-    {
-      "date": "Feb 17, 2026",
-      "title": "Claude Sonnet 4.6 released with enhanced capabilities",
-      "summary": "Most capable Sonnet model with full upgrades across coding, computer use, reasoning, and design; features 1M token context window in beta.",
-      "url": "https://www.anthropic.com/news/claude-sonnet-4-6"
+      "title": "Introducing The Anthropic Institute",
+      "summary": "<cite index=\"5-1\">Anthropic introduced \"The Anthropic Institute\", a new research arm focused on confronting the societal challenges AI can or will impose.</cite>",
+      "url": "https://www.anthropic.com/news"
     }
   ]
 }
