@@ -1688,6 +1688,8 @@ async function init() {
     const json = await res.json();
     categories = json.categories;
     aiData = json.tools;
+    // Load Product Hunt TOTW if available
+    if (json.totw) window._phTotw = json.totw;
     // Load Anthropic news if available
     if (json.anthropicNews) renderNews(json.anthropicNews);
     document.getElementById('totalCount').textContent = aiData.length + '+';
