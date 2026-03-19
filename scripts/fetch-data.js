@@ -112,9 +112,11 @@ Only include tools you are confident exist and are real. If nothing new found, r
   );
 
   try {
-    return parseJSON(text);
+    const match = text.match(/\[[\s\S]*\]/);
+    if (!match) return [];
+    return JSON.parse(match[0]);
   } catch (e) {
-    console.error('Failed to parse new tools list:', text);
+    console.error('Failed to parse new tools list:', e.message);
     return [];
   }
 }
