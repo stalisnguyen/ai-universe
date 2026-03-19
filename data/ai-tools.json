@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-19T09:01:50.070Z",
+  "lastUpdated": "2026-03-19T09:13:34.629Z",
   "categories": [
     {
       "id": "llm",
@@ -7757,45 +7757,45 @@
       "Artificial Intelligence",
       "E-Commerce"
     ],
-    "fetchedAt": "2026-03-19T09:01:27.138Z"
+    "fetchedAt": "2026-03-19T09:13:05.094Z"
   },
   "lastWeeklyUpdate": "2026-03-15T16:55:04.042Z",
-  "lastChecked": "2026-03-19T09:01:50.070Z",
+  "lastChecked": "2026-03-19T09:13:34.629Z",
   "anthropicNews": [
     {
-      "date": "Mar 11, 2026",
-      "title": "Anthropic Launches The Anthropic Institute",
-      "summary": "<cite index=\"22-28\">Anthropic introduced \"The Anthropic Institute\", a new research arm focused on confronting the societal challenges AI can or will impose.</cite>",
-      "url": "https://www.eweek.com/news/anthropic-institute-launch-march-2026/"
-    },
-    {
-      "date": "Mar 17, 2026",
-      "title": "Claude Releases Persistent Agent Thread for Cowork",
-      "summary": "<cite index=\"3-3,3-4\">Claude releases a persistent agent thread for Pro and Max plans to manage tasks in Cowork from mobile and desktop.</cite>",
-      "url": "https://releasebot.io/updates/anthropic/claude"
-    },
-    {
       "date": "Mar 12, 2026",
-      "title": "Claude Adds Custom Charts and Visualizations",
-      "summary": "<cite index=\"3-8\">Claude can now create custom charts, diagrams and other visualizations in-line in its responses.</cite>",
-      "url": "https://releasebot.io/updates/anthropic/claude"
+      "title": "Anthropic Invests $100M in Claude Partner Network",
+      "summary": "<cite index=\"9-1\">Claude Partner Network launched with formalization of consulting relationships including Accenture, Deloitte, Cognizant and Infosys</cite>.",
+      "url": "https://thenextweb.com/news/anthropic-commits-100m-to-claude-partner-network"
+    },
+    {
+      "date": "Mar 2026",
+      "title": "1M Token Context Window GA at Standard Pricing",
+      "summary": "<cite index=\"30-1,30-2\">1M token context window now generally available for Claude Opus 4.6 and Sonnet 4.6 at standard pricing with no beta header</cite>.",
+      "url": "https://releasebot.io/updates/anthropic"
     },
     {
       "date": "Feb 17, 2026",
-      "title": "Claude Sonnet 4.6 Released",
-      "summary": "<cite index=\"6-7,6-8\">Claude Sonnet 4.6, the latest balanced model combining speed and intelligence for everyday tasks, delivers improved agentic search performance while consuming fewer tokens.</cite>",
-      "url": "https://platform.claude.com/docs/en/release-notes/overview"
+      "title": "Claude Sonnet 4.6 Released with 1M Context",
+      "summary": "<cite index=\"2-15,2-16\">Most capable Sonnet model yet with full upgrade across coding, agents, work; features 1M token context window in beta</cite>.",
+      "url": "https://releasebot.io/updates/anthropic/claude"
     },
     {
       "date": "Feb 5, 2026",
-      "title": "Claude Opus 4.6 Launched with 1M Token Context",
-      "summary": "<cite index=\"1-1,1-2\">On February 5, 2026, Anthropic officially launched Claude Opus 4.6 — its first major model release of the year with impressive capabilities.</cite>",
-      "url": "https://www.anthropic.com/news"
+      "title": "Claude Opus 4.6 Launched with Agent Teams",
+      "summary": "<cite index=\"15-1\">Claude Opus 4.6 introduces million-token context window and automated agent coordination features</cite>.",
+      "url": "https://campustechnology.com/articles/2026/02/17/anthropics-new-ai-model-targets-coding-enterprise-work.aspx"
     },
     {
-      "date": "Jan 31, 2026",
-      "title": "Claude Cowork Research Preview Launched",
-      "summary": "<cite index=\"1-6\">Anthropic quietly launched Claude Cowork in a research preview at the end of January 2026.</cite>",
+      "date": "Mar 2026",
+      "title": "Claude Adds Custom Charts and Visualizations",
+      "summary": "<cite index=\"2-6,2-7\">Claude can now create custom charts, diagrams and other visualizations in-line in responses</cite>.",
+      "url": "https://releasebot.io/updates/anthropic/claude"
+    },
+    {
+      "date": "Feb 4, 2026",
+      "title": "Anthropic Commits to Ad-Free Claude Model",
+      "summary": "<cite index=\"3-1,3-2\">Claude will remain ad-free as advertising incentives incompatible with genuinely helpful AI assistant</cite>.",
       "url": "https://www.anthropic.com/news"
     }
   ]
