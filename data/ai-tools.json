@@ -7757,46 +7757,46 @@
       "Artificial Intelligence",
       "E-Commerce"
     ],
-    "fetchedAt": "2026-03-19T08:39:04.302Z"
+    "fetchedAt": "2026-03-19T08:44:23.792Z"
   },
   "lastWeeklyUpdate": "2026-03-15T16:55:04.042Z",
-  "lastChecked": "2026-03-19T08:39:25.990Z",
+  "lastChecked": "2026-03-19T08:44:42.637Z",
   "anthropicNews": [
     {
-      "date": "Mar 18, 2026",
-      "title": "DOD Challenges Anthropic Supply Chain Designation",
-      "summary": "<cite index=\"15-3\">The U.S. Department of Defense said Anthropic poses an \"unacceptable risk to national security\" in response to lawsuits challenging the supply-chain risk label</cite>.",
-      "url": "https://techcrunch.com/2026/03/18/dod-says-anthropics-red-lines-make-it-an-unacceptable-risk-to-national-security/"
-    },
-    {
       "date": "Mar 12, 2026",
-      "title": "Anthropic Invests $100M in Claude Partner Network",
-      "summary": "<cite index=\"20-10\">Anthropic invests $100 million into the Claude Partner Network</cite> to expand ecosystem partnerships.",
+      "title": "Anthropic invests $100M in Claude Partner Network",
+      "summary": "Anthropic announced $100 million investment into the Claude Partner Network program for partner organizations helping enterprises adopt Claude.",
       "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Mar 10, 2026",
-      "title": "Anthropic Opens Sydney Office in Asia-Pacific",
-      "summary": "Sydney becomes Anthropic's fourth office in the Asia-Pacific region, expanding international presence.",
-      "url": "https://www.anthropic.com/news"
+      "date": "Mar 11, 2026",
+      "title": "Anthropic launches The Anthropic Institute",
+      "summary": "New research arm led by co-founder Jack Clark focused on societal challenges from AI, with interdisciplinary teams studying AI's impact on jobs, security, and society.",
+      "url": "https://www.eweek.com/news/anthropic-institute-launch-march-2026/"
+    },
+    {
+      "date": "Mar 6, 2026",
+      "title": "Claude Marketplace launches with third-party software",
+      "summary": "Anthropic launched e-commerce store enabling enterprises to purchase Claude-powered applications from six initial partners including Snowflake and GitLab.",
+      "url": "https://siliconangle.com/2026/03/06/anthropic-launches-claude-marketplace-third-party-cloud-services/"
+    },
+    {
+      "date": "Feb 25, 2026",
+      "title": "Anthropic acquires Vercept to enhance computer use",
+      "summary": "Anthropic acquired startup Vercept focused on perception and interaction in AI systems to improve Claude's computer use capabilities for spreadsheets and web forms.",
+      "url": "https://claudelog.com/claude-news/"
     },
     {
       "date": "Feb 24, 2026",
-      "title": "Claude Cowork Integrations with Enterprise Tools",
-      "summary": "<cite index=\"9-10,9-11\">Claude Cowork now connects to Google Drive, Gmail, DocuSign and FactSet with customizable plugins across domains like financial analysis, engineering and human resources</cite>.",
-      "url": "https://www.cnbc.com/2026/02/24/anthropic-claude-cowork-office-worker.html"
+      "title": "Enterprise agents program with new plugins launches",
+      "summary": "Anthropic unveiled enterprise agents program with pre-built plugins for finance, legal, HR departments and new integrations including Gmail and DocuSign.",
+      "url": "https://techcrunch.com/2026/02/24/anthropic-launches-new-push-for-enterprise-agents-with-plugins-for-finance-engineering-and-design/"
     },
     {
       "date": "Feb 17, 2026",
-      "title": "Claude Sonnet 4.6 Launch - New Frontier Performance",
-      "summary": "<cite index=\"6-8\">Sonnet 4.6 delivers frontier performance across coding, agents, and professional work at scale</cite>.",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "Feb 5, 2026",
-      "title": "Claude Opus 4.6 Released with 1M Token Context",
-      "summary": "<cite index=\"2-1,2-2\">Anthropic officially launched Claude Opus 4.6, Anthropic's first major model release of the year with impressive capabilities</cite>.",
-      "url": "https://www.anthropic.com/news"
+      "title": "Claude Sonnet 4.6 released with enhanced capabilities",
+      "summary": "Most capable Sonnet model with full upgrades across coding, computer use, reasoning, and design; features 1M token context window in beta.",
+      "url": "https://www.anthropic.com/news/claude-sonnet-4-6"
     }
   ]
 }
