@@ -1232,10 +1232,25 @@
     <li><a href="#anthropic-updates" data-i18n="navAnthropic" style="color:#d282ff">✦ Anthropic</a></li>
     <li><a href="#about" data-i18n="navAbout">About</a></li>
     <li><a href="#" onclick="openQuiz();return false;" style="color:var(--accent2)" data-i18n="findMyAI">✦ Find My AI</a></li>
-    <li style="display:flex;align-items:center;gap:12px;margin-left:8px;padding-left:8px;border-left:1px solid var(--border)">
-      <button onclick="setLang('en')" id="lang-en" class="nav-lang-btn active">EN</button>
-      <button onclick="setLang('vi')" id="lang-vi" class="nav-lang-btn">VI</button>
-      <button onclick="setLang('zh')" id="lang-zh" class="nav-lang-btn">ZH</button>
+    <li style="position:relative" id="langDropdownWrap">
+      <a href="#" onclick="toggleLangDropdown();return false;" id="langDropdownTrigger"
+        style="display:flex;align-items:center;gap:5px">
+        <span id="langLabel">Language</span>
+        <span id="langArrow" style="font-size:0.5rem;opacity:0.4;transition:transform 0.2s;display:inline-block">▾</span>
+      </a>
+      <div id="langDropdown" class="lang-panel">
+        <div class="lang-panel-list">
+          <button onclick="setLang('en');closeLangDropdown()" id="lang-en" class="lang-panel-opt active">
+            English
+          </button>
+          <button onclick="setLang('vi');closeLangDropdown()" id="lang-vi" class="lang-panel-opt">
+            Tiếng Việt
+          </button>
+          <button onclick="setLang('zh');closeLangDropdown()" id="lang-zh" class="lang-panel-opt">
+            中文
+          </button>
+        </div>
+      </div>
     </li>
   </ul>
 
@@ -1636,14 +1651,6 @@
 
 
 
-// ── Get translated tool field ──────────────────────────────────────────────────
-function ti(tool, field) {
-  if (currentLang !== 'en' && tool.i18n?.[currentLang]?.[field]) {
-    return tool.i18n[currentLang][field];
-  }
-  return tool[field] || '';
-}
-
 // ── i18n ──────────────────────────────────────────────────────────────────────
 let currentLang = localStorage.getItem('ai_lang') || 'en';
 
@@ -1678,6 +1685,19 @@ const TRANSLATIONS = {
     compareWith: 'Side-by-Side Comparison',
     upvotes: 'upvotes',
     loading: 'Loading latest data...',
+    phWeek: 'on Product Hunt this week',
+    viewOnPH: 'View on Product Hunt →',
+    noNews: 'No recent updates — check back tomorrow!',
+    hotBadge: '🔥 Hot', newBadge: '✨ New', proBadge: '⭐ Pro',
+    viewBtn: 'View →',
+    heartCount: '', // no translation needed
+    compareTitle: 'Side-by-Side Comparison',
+    searchPH: 'Search AI models...',
+    catAllName: 'All',
+    tabWhatsNew: "🆕 What's New",
+    noChangelog: 'Auto-updated weekly by bot — check back soon!',
+    quizFindAI: '✦ 找到您的AI',
+    upvotes: 'upvotes',
   },
   vi: {
     navCategories: 'Danh mục', navExplore: 'Khám phá', navCompare: 'So sánh',
@@ -1709,6 +1729,18 @@ const TRANSLATIONS = {
     compareWith: 'So sánh trực tiếp',
     upvotes: 'upvotes',
     loading: 'Đang tải dữ liệu...',
+    phWeek: 'trên Product Hunt tuần này',
+    viewOnPH: 'Xem trên Product Hunt →',
+    noNews: 'Chưa có cập nhật mới — quay lại sau nhé!',
+    hotBadge: '🔥 Hot', newBadge: '✨ Mới', proBadge: '⭐ Pro',
+    viewBtn: 'Xem →',
+    compareTitle: 'So sánh trực tiếp',
+    searchPH: 'Tìm kiếm AI...',
+    catAllName: 'Tất cả',
+    tabWhatsNew: '🆕 Mới nhất',
+    noChangelog: 'Bot tự cập nhật hàng tuần — quay lại sau!',
+    quizFindAI: '✦ Tìm AI phù hợp',
+    upvotes: 'lượt vote',
   },
   zh: {
     navCategories: '分类', navExplore: '探索', navCompare: '比较',
@@ -1740,6 +1772,18 @@ const TRANSLATIONS = {
     compareWith: '并排比较',
     upvotes: '票',
     loading: '正在加载最新数据...',
+    phWeek: '本周 Product Hunt 榜首',
+    viewOnPH: '在 Product Hunt 查看 →',
+    noNews: '暂无最新动态 — 稍后再来！',
+    hotBadge: '🔥 热门', newBadge: '✨ 新', proBadge: '⭐ 精选',
+    viewBtn: '查看 →',
+    compareTitle: '并排比较',
+    searchPH: '搜索AI模型...',
+    catAllName: '全部',
+    tabWhatsNew: '🆕 最新动态',
+    noChangelog: '机器人每周自动更新 — 稍后再来！',
+    quizFindAI: '✦ 找到您的AI',
+    upvotes: '票',
   }
 };
 
@@ -1747,11 +1791,47 @@ function t(key) {
   return TRANSLATIONS[currentLang]?.[key] || TRANSLATIONS['en'][key] || key;
 }
 
+// ── Get translated tool field ──────────────────────────────────────────────────
+function ti(tool, field) {
+  if (currentLang !== 'en' && tool.i18n?.[currentLang]?.[field]) {
+    return tool.i18n[currentLang][field];
+  }
+  return tool[field] || '';
+}
+
+
+
+function toggleLangDropdown() {
+  const menu = document.getElementById('langDropdown');
+  const arrow = document.getElementById('langArrow');
+  const isOpen = menu.classList.contains('open');
+  menu.classList.toggle('open', !isOpen);
+  arrow.style.transform = isOpen ? '' : 'rotate(180deg)';
+  if (!isOpen) {
+    setTimeout(() => {
+      document.addEventListener('click', function handler(e) {
+        if (!document.getElementById('langDropdownWrap').contains(e.target)) {
+          closeLangDropdown();
+          document.removeEventListener('click', handler);
+        }
+      });
+    }, 10);
+  }
+}
+
+function closeLangDropdown() {
+  const menu = document.getElementById('langDropdown');
+  const arrow = document.getElementById('langArrow');
+  if (menu) menu.classList.remove('open');
+  if (arrow) arrow.style.transform = '';
+}
 
 function setLang(lang) {
   currentLang = lang;
   localStorage.setItem('ai_lang', lang);
-  // Update active lang button
+  // Update dropdown active state and label
+  const langNames = { en: 'Language', vi: 'Language', zh: 'Language' };
+  document.getElementById('langLabel').textContent = langNames[lang] || 'My Language';
   ['en','vi','zh'].forEach(l => {
     document.getElementById('lang-'+l)?.classList.toggle('active', l === lang);
   });
@@ -1763,7 +1843,7 @@ function setLang(lang) {
   });
   // Update search placeholder
   const searchInput = document.getElementById('searchInput');
-  if (searchInput) searchInput.placeholder = t('searchPlaceholder');
+  if (searchInput) searchInput.placeholder = t('searchPH');
   // Re-render dynamic content only if data is loaded
   if (typeof aiData !== 'undefined' && aiData.length > 0) {
     renderCategoryCards();
@@ -1780,47 +1860,47 @@ let votes = {};
 let userVoted = new Set();
 let compareList = [];
 
-const QUIZ = [
+function getQuiz() { return [
   {
-    q: "What's your main goal?",
+    q: currentLang==='vi' ? "Mục tiêu chính của bạn là gì?" : currentLang==='zh' ? "您的主要目标是什么？" : "What's your main goal?",
     opts: [
-      { icon: '✍️', label: 'Write or brainstorm text', next: 1 },
-      { icon: '💻', label: 'Write or review code', next: 2 },
-      { icon: '🎨', label: 'Create images or visuals', next: 3 },
-      { icon: '🔍', label: 'Research & find information', result: 'perplexity' },
-      { icon: '🚀', label: 'Build a product or app', next: 4 },
-      { icon: '🎵', label: 'Generate audio or music', next: 5 },
+      { icon: '✍️', label: currentLang==='vi'?'Viết hoặc brainstorm văn bản':currentLang==='zh'?'写作或头脑风暴':'Write or brainstorm text', next: 1 },
+      { icon: '💻', label: currentLang==='vi'?'Viết hoặc review code':currentLang==='zh'?'编写或审查代码':'Write or review code', next: 2 },
+      { icon: '🎨', label: currentLang==='vi'?'Tạo hình ảnh hoặc đồ họa':currentLang==='zh'?'创建图像或视觉内容':'Create images or visuals', next: 3 },
+      { icon: '🔍', label: currentLang==='vi'?'Nghiên cứu & tìm thông tin':currentLang==='zh'?'研究和查找信息':'Research & find information', result: 'perplexity' },
+      { icon: '🚀', label: currentLang==='vi'?'Xây dựng sản phẩm hoặc app':currentLang==='zh'?'构建产品或应用':'Build a product or app', next: 4 },
+      { icon: '🎵', label: currentLang==='vi'?'Tạo âm thanh hoặc nhạc':currentLang==='zh'?'生成音频或音乐':'Generate audio or music', next: 5 },
     ]
   },
-  { q: 'What type of writing?', opts: [
-      { icon: '🧠', label: 'Long-form, nuanced thinking', result: 'claude' },
-      { icon: '💬', label: 'Quick chat & everyday tasks', result: 'chatgpt' },
-      { icon: '📊', label: 'Data analysis + spreadsheets', result: 'gpt-4o' },
-      { icon: '🌐', label: 'Up-to-date news & facts', result: 'grok' },
+  { q: currentLang==='vi'?'Bạn cần loại văn bản nào?':currentLang==='zh'?'您需要什么类型的写作？':'What type of writing?', opts: [
+      { icon: '🧠', label: currentLang==='vi'?'Tư duy sâu, phân tích':currentLang==='zh'?'深度思考和分析':'Long-form, nuanced thinking', result: 'claude' },
+      { icon: '💬', label: currentLang==='vi'?'Chat nhanh & việc hàng ngày':currentLang==='zh'?'快速聊天和日常任务':'Quick chat & everyday tasks', result: 'chatgpt' },
+      { icon: '📊', label: currentLang==='vi'?'Phân tích dữ liệu':currentLang==='zh'?'数据分析':'Data analysis + spreadsheets', result: 'gpt-4o' },
+      { icon: '🌐', label: currentLang==='vi'?'Tin tức & sự kiện mới nhất':currentLang==='zh'?'最新新闻和事实':'Up-to-date news & facts', result: 'grok' },
   ]},
-  { q: 'How do you like to code?', opts: [
-      { icon: '🖥️', label: 'In my own editor (VS Code etc)', result: 'cursor' },
-      { icon: '☁️', label: 'In the browser / cloud', result: 'replit-agent' },
-      { icon: '🤖', label: 'AI writes the whole thing', result: 'claude-code' },
-      { icon: '⚡', label: 'GitHub Copilot autocomplete', result: 'github-copilot' },
+  { q: currentLang==='vi'?'Bạn thích code như thế nào?':currentLang==='zh'?'您喜欢如何编程？':'How do you like to code?', opts: [
+      { icon: '🖥️', label: currentLang==='vi'?'Trong editor của tôi (VS Code...)':currentLang==='zh'?'在我的编辑器中（VS Code等）':'In my own editor (VS Code etc)', result: 'cursor' },
+      { icon: '☁️', label: currentLang==='vi'?'Trên trình duyệt / cloud':currentLang==='zh'?'在浏览器/云端':'In the browser / cloud', result: 'replit-agent' },
+      { icon: '🤖', label: currentLang==='vi'?'AI tự viết hết cho tôi':currentLang==='zh'?'让AI完全代写':'AI writes the whole thing', result: 'claude-code' },
+      { icon: '⚡', label: currentLang==='vi'?'Tự động hoàn thành code':currentLang==='zh'?'GitHub Copilot自动补全':'GitHub Copilot autocomplete', result: 'github-copilot' },
   ]},
-  { q: 'What style of image?', opts: [
-      { icon: '🎭', label: 'Artistic / cinematic / pro', result: 'midjourney' },
-      { icon: '⚡', label: 'Fast & realistic', result: 'flux' },
-      { icon: '🎨', label: 'Logo, icon, vector design', result: 'recraft' },
-      { icon: '✏️', label: 'Concept art & illustration', result: 'leonardo-ai' },
+  { q: currentLang==='vi'?'Phong cách hình ảnh nào?':currentLang==='zh'?'您需要什么风格的图像？':'What style of image?', opts: [
+      { icon: '🎭', label: currentLang==='vi'?'Nghệ thuật / điện ảnh / pro':currentLang==='zh'?'艺术/电影/专业':'Artistic / cinematic / pro', result: 'midjourney' },
+      { icon: '⚡', label: currentLang==='vi'?'Nhanh & thực tế':currentLang==='zh'?'快速写实':'Fast & realistic', result: 'flux' },
+      { icon: '🎨', label: currentLang==='vi'?'Logo, icon, thiết kế vector':currentLang==='zh'?'Logo、图标、矢量设计':'Logo, icon, vector design', result: 'recraft' },
+      { icon: '✏️', label: currentLang==='vi'?'Concept art & minh họa':currentLang==='zh'?'概念艺术和插图':'Concept art & illustration', result: 'leonardo-ai' },
   ]},
-  { q: 'What are you building?', opts: [
-      { icon: '🌐', label: 'Website or web app', result: 'v0' },
-      { icon: '⚡', label: 'Full-stack app fast', result: 'bolt-new' },
-      { icon: '✨', label: 'Beautiful UI with React', result: 'lovable' },
-      { icon: '🔗', label: 'Automation / workflows', result: 'n8n' },
+  { q: currentLang==='vi'?'Bạn đang xây dựng gì?':currentLang==='zh'?'您在构建什么？':'What are you building?', opts: [
+      { icon: '🌐', label: currentLang==='vi'?'Website hoặc web app':currentLang==='zh'?'网站或网页应用':'Website or web app', result: 'v0' },
+      { icon: '⚡', label: currentLang==='vi'?'Full-stack app nhanh':currentLang==='zh'?'快速全栈应用':'Full-stack app fast', result: 'bolt-new' },
+      { icon: '✨', label: currentLang==='vi'?'UI đẹp với React':currentLang==='zh'?'精美的React界面':'Beautiful UI with React', result: 'lovable' },
+      { icon: '🔗', label: currentLang==='vi'?'Automation / workflows':currentLang==='zh'?'自动化/工作流':'Automation / workflows', result: 'n8n' },
   ]},
-  { q: 'What type of audio?', opts: [
-      { icon: '🎤', label: 'Realistic voice / narration', result: 'elevenlabs' },
-      { icon: '🎵', label: 'Music & songs', result: 'suno' },
+  { q: currentLang==='vi'?'Loại âm thanh nào?':currentLang==='zh'?'什么类型的音频？':'What type of audio?', opts: [
+      { icon: '🎤', label: currentLang==='vi'?'Giọng nói thực tế / thuyết minh':currentLang==='zh'?'逼真语音/旁白':'Realistic voice / narration', result: 'elevenlabs' },
+      { icon: '🎵', label: currentLang==='vi'?'Âm nhạc & bài hát':currentLang==='zh'?'音乐和歌曲':'Music & songs', result: 'suno' },
   ]}
-];
+];}
 let quizHistory = [];
 
 // ── Init ──────────────────────────────────────────────────────────────────────
@@ -1870,7 +1950,7 @@ function showLoader(on) {
 function renderNews(news) {
   const feed = document.getElementById('newsFeed');
   if (!news || !news.length) {
-    feed.innerHTML = `<div style="color:var(--muted);font-size:0.875rem;padding:20px 0">No recent updates found — check back tomorrow!</div>`;
+    feed.innerHTML = `<div style="color:var(--muted);font-size:0.875rem;padding:20px 0">${t('noNews')}</div>`;
     return;
   }
   feed.innerHTML = news.map(item => `
@@ -1902,9 +1982,9 @@ function renderTotw() {
     document.getElementById('totwMeta').innerHTML =
       `<span class="tag">▲ ${ph.votesCount.toLocaleString()} upvotes</span>` +
       (ph.topics||[]).slice(0,3).map(t=>`<span class="tag">${t}</span>`).join('');
-    document.getElementById('totwRank').textContent = `#${ph.rank} on Product Hunt this week`;
+    document.getElementById('totwRank').textContent = `#${ph.rank} ${t('phWeek')}`;
     document.getElementById('totwSource').href = ph.url;
-    document.getElementById('totwBtn').textContent = 'View on Product Hunt →';
+    document.getElementById('totwBtn').textContent = t('viewOnPH');
     document.getElementById('totwBtn').onclick = (e) => { e.stopPropagation(); window.open(ph.url,'_blank'); };
     document.getElementById('totwCard').onclick = () => window.open(ph.url,'_blank');
 
@@ -1946,7 +2026,7 @@ function renderCategoryCards() {
   const allCounts = {};
   aiData.forEach(a => { allCounts[a.category] = (allCounts[a.category]||0)+1; });
   const allCard = `<div class="cat-card active" style="--cat-color:#00f5c4" onclick="selectCategory('all',this)">
-    <div class="cat-emoji">🌐</div><div class="cat-name">${t('allModels')}</div>
+    <div class="cat-emoji">🌐</div><div class="cat-name">${t('catAllName')}</div>
     <div class="cat-count">${aiData.length} ${t('models')}</div></div>`;
   grid.innerHTML = allCard + categories.map(c=>`
     <div class="cat-card" style="--cat-color:${c.color}" onclick="selectCategory('${c.id}',this)">
@@ -2012,7 +2092,7 @@ function renderAICards() {
       <div class="compare-check ${inCompare?'checked':''}" onclick="event.stopPropagation();toggleCompare('${ai.id}',this)">${inCompare?'✓':''}</div>
       <div class="card-header">
         <div class="card-icon">${ai.icon}</div>
-        ${ai.badge?`<span class="card-badge ${ai.badge}">${ai.badge==='hot'?'🔥 Hot':ai.badge==='new'?'✨ New':'⭐ Pro'}</span>`:'<span></span>'}
+        ${ai.badge?`<span class="card-badge ${ai.badge}">${ai.badge==='hot'?t('hotBadge'):ai.badge==='new'?t('newBadge'):t('proBadge')}</span>`:'<span></span>'}
       </div>
       <div class="card-name">${ai.name}</div>
       <div class="card-company">${ai.company}</div>
@@ -2026,7 +2106,7 @@ function renderAICards() {
             <span id="vcount-${ai.id}">${voteCount}</span>
           </button>
           <button class="share-btn" onclick="event.stopPropagation();shareUrl('${ai.id}','${ai.name}')">⬆</button>
-          <button class="demo-btn" style="--card-color:${catColor}">View →</button>
+          <button class="demo-btn" style="--card-color:${catColor}">${t('viewBtn')}</button>
         </div>
       </div>
     </div>`;
@@ -2103,7 +2183,7 @@ function openCompareModal() {
   ];
   const header = `<tr><th class="row-label"></th>${tools.map(t=>`<th><span class="th-icon">${t.icon}</span>${t.name}<br><span style="font-size:0.7rem;color:var(--muted);font-family:'JetBrains Mono',monospace;font-weight:400">${t.company}</span></th>`).join('')}</tr>`;
   const body = rows.map(row=>`<tr><td class="row-label">${row.label}</td>${tools.map(t=>`<td>${row.fn(t)}</td>`).join('')}</tr>`).join('');
-  document.getElementById('compareModalTitle').textContent = tools.map(t=>t.name).join(' vs ');
+  document.getElementById('compareModalTitle').textContent = `${t('compareTitle')}: ${tools.map(tool=>tool.name).join(' vs ')}`;
   document.getElementById('compareTableContent').innerHTML = `<table class="compare-table"><thead>${header}</thead><tbody>${body}</tbody></table>`;
   document.getElementById('compareModalOverlay').classList.add('open');
   document.body.style.overflow='hidden';
@@ -2135,7 +2215,7 @@ function startQuiz() {
   renderQuizStep(0);
 }
 function renderQuizStep(idx) {
-  const step = QUIZ[idx];
+  const step = getQuiz()[idx];
   document.getElementById('quizProgress').innerHTML =
     Array.from({length:3},(_,i)=>`<div class="quiz-progress-dot ${i<quizHistory.length?'done':''}"></div>`).join('');
   document.getElementById('quizQuestion').textContent = step.q;
@@ -2144,7 +2224,7 @@ function renderQuizStep(idx) {
       <span class="quiz-option-icon">${o.icon}</span>${o.label}</button>`).join('');
 }
 function answerQuiz(stepIdx, optIdx) {
-  const opt = QUIZ[stepIdx].opts[optIdx];
+  const opt = getQuiz()[stepIdx].opts[optIdx];
   quizHistory.push(optIdx);
   if (opt.result) showQuizResult(opt.result);
   else if (opt.next !== undefined) renderQuizStep(opt.next);
@@ -2214,7 +2294,7 @@ function openModal(id) {
   } else {
     changelogTabBtn.style.display = 'none';
     document.querySelector('#tab-changelog').innerHTML =
-      `<div class="changelog-empty"><span class="emoji">🤖</span>Auto-updated weekly by bot — check back soon!</div>`;
+      `<div class="changelog-empty"><span class="emoji">🤖</span>${t("noChangelog")}</div>`;
   }
   document.getElementById('modalPrimaryBtn').innerHTML = `${ai.name} <span data-i18n='openBtn'>${t('openBtn')}</span>`;
   document.getElementById('modalPrimaryBtn').onclick = ()=>window.open(ai.link,'_blank');
