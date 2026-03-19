@@ -1673,8 +1673,8 @@ const TRANSLATIONS = {
     editorPick: "Editor's Pick",
     viewDetails: 'View Details →',
     allModels: 'All', models: 'models',
-    quizTitle: t('quizTitle'),
-    compareWith: t('compareWith'),
+    quizTitle: '✦ Find Your AI',
+    compareWith: 'Side-by-Side Comparison',
     upvotes: 'upvotes',
     loading: 'Loading latest data...',
   },
@@ -1762,11 +1762,13 @@ function setLang(lang) {
   // Update search placeholder
   const searchInput = document.getElementById('searchInput');
   if (searchInput) searchInput.placeholder = t('searchPlaceholder');
-  // Re-render dynamic content
-  renderCategoryCards();
-  renderFilterBar();
-  renderAICards();
-  renderTotw();
+  // Re-render dynamic content only if data is loaded
+  if (typeof aiData !== 'undefined' && aiData.length > 0) {
+    renderCategoryCards();
+    renderFilterBar();
+    renderAICards();
+    renderTotw();
+  }
 }
 
 let activeCategory = 'all';
@@ -1855,7 +1857,7 @@ async function init() {
   renderAICards();
   renderTotw();
   handleHashRoute();
-  setLang(currentLang);
+  setLang(currentLang); // Apply translations after data is loaded
 }
 
 function showLoader(on) {
