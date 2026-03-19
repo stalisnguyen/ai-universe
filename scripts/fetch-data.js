@@ -252,7 +252,41 @@ function fetchProductHuntTotw() {
   });
 }
 
-// ─── Main ────────────────────────────────────────────────────────────────────
+// ─── Fetch Anthropic News ─────────────────────────────────────────────────────
+
+async function fetchAnthropicNews() {
+  console.log('\n📰 Fetching latest Anthropic news...');
+  const prompt = `Search for the latest news and announcements from Anthropic in the last 30 days.
+Focus on: new Claude model releases, new features, pricing changes, research papers, product launches.
+Return ONLY a JSON array of up to 6 items, most recent first:
+[
+  {
+    "date": "Mar 15, 2026",
+    "title": "Short headline under 80 chars",
+    "summary": "One sentence summary under 120 chars",
+    "url": "https://anthropic.com/... or https://..."
+  }
+]
+Only include real, verifiable news. If nothing found, return [].`;
+
+  try {
+    const text = await callClaude(
+      [{ role: 'user', content: prompt }],
+      'Return valid JSON array only. No markdown, no backticks.',
+      true
+    );
+    const match = text.match(/\[[\s\S]*\]/);
+    if (!match) return [];
+    const news = JSON.parse(match[0]);
+    console.log(`  ✅ Found ${news.length} Anthropic updates`);
+    return news;
+  } catch(e) {
+    console.error('  ❌ Anthropic news fetch failed:', e.message.slice(0, 80));
+    return [];
+  }
+}
+
+
 
 async function main() {
   console.log('🤖 AI Universe Auto-Update Bot starting...\n');
@@ -330,6 +364,12 @@ The newChangelog field should only be included if there is genuinely a new updat
   } else {
     const daysUntilNext = Math.ceil((lastWeeklyUpdate.getTime() + 7*24*60*60*1000 - Date.now()) / (1000*60*60*24));
     console.log(`\n⏭ Skipping weekly refresh (next in ${daysUntilNext} days)`);
+  }
+
+  // Fetch Anthropic news
+  const anthropicNews = await fetchAnthropicNews();
+  if (anthropicNews.length > 0) {
+    data.anthropicNews = anthropicNews;
   }
 
   const newTools = await findNewTools(existingNames);
