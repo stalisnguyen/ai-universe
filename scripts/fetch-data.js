@@ -363,6 +363,46 @@ The newChangelog field should only be included if there is genuinely a new updat
     }
     data.lastWeeklyUpdate = new Date().toISOString();
     console.log(`  📊 Weekly refresh done — ${updated} tools updated`);
+
+    // ── Translate tool descriptions (VI + ZH) ────────────────────────────────
+    console.log('\n🌏 Translating tool descriptions...');
+    const toTranslate = data.tools.filter(t => !t.i18n || !t.i18n.vi || !t.i18n.zh).slice(0, 10); // 10 per week
+    let translated = 0;
+    for (const tool of toTranslate) {
+      try {
+        const prompt = `Translate these two fields for the AI tool "${tool.name}" into Vietnamese (vi) and Chinese Simplified (zh).
+shortDesc (original): "${tool.shortDesc}"
+fullDesc (original): "${tool.fullDesc}"
+
+Return ONLY this JSON (no markdown):
+{
+  "vi": {"shortDesc": "...", "fullDesc": "..."},
+  "zh": {"shortDesc": "...", "fullDesc": "..."}
+}
+Keep it natural and concise. Preserve technical terms like model names.`;
+
+        const result = await callClaude(
+          [{ role: 'user', content: prompt }],
+          'Return valid JSON only. No markdown, no backticks.',
+          false // no web search needed for translation
+        );
+        const match = result.match(/\{[\s\S]*\}/);
+        if (!match) continue;
+        const translations = JSON.parse(match[0]);
+        if (translations.vi && translations.zh) {
+          tool.i18n = { ...(tool.i18n || {}), ...translations };
+          translated++;
+          console.log(`  ✅ Translated: ${tool.name}`);
+        }
+        await new Promise(r => setTimeout(r, 3000));
+      } catch(e) {
+        console.error(`  ❌ Translation failed for ${tool.name}:`, e.message.slice(0, 60));
+        await new Promise(r => setTimeout(r, 3000));
+      }
+    }
+    console.log(`  🌏 Translation done — ${translated} tools translated (${toTranslate.length - translated} failed)`);
+    if (toTranslate.length === 0) console.log('  ✅ All tools already translated!');
+
   } else {
     const daysUntilNext = Math.ceil((lastWeeklyUpdate.getTime() + 7*24*60*60*1000 - Date.now()) / (1000*60*60*24));
     console.log(`\n⏭ Skipping weekly refresh (next in ${daysUntilNext} days)`);
