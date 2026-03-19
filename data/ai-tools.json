@@ -7757,8 +7757,46 @@
       "Artificial Intelligence",
       "E-Commerce"
     ],
-    "fetchedAt": "2026-03-19T07:08:25.196Z"
+    "fetchedAt": "2026-03-19T08:39:04.302Z"
   },
   "lastWeeklyUpdate": "2026-03-15T16:55:04.042Z",
-  "lastChecked": "2026-03-19T07:08:35.724Z"
+  "lastChecked": "2026-03-19T08:39:25.990Z",
+  "anthropicNews": [
+    {
+      "date": "Mar 18, 2026",
+      "title": "DOD Challenges Anthropic Supply Chain Designation",
+      "summary": "<cite index=\"15-3\">The U.S. Department of Defense said Anthropic poses an \"unacceptable risk to national security\" in response to lawsuits challenging the supply-chain risk label</cite>.",
+      "url": "https://techcrunch.com/2026/03/18/dod-says-anthropics-red-lines-make-it-an-unacceptable-risk-to-national-security/"
+    },
+    {
+      "date": "Mar 12, 2026",
+      "title": "Anthropic Invests $100M in Claude Partner Network",
+      "summary": "<cite index=\"20-10\">Anthropic invests $100 million into the Claude Partner Network</cite> to expand ecosystem partnerships.",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Mar 10, 2026",
+      "title": "Anthropic Opens Sydney Office in Asia-Pacific",
+      "summary": "Sydney becomes Anthropic's fourth office in the Asia-Pacific region, expanding international presence.",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Feb 24, 2026",
+      "title": "Claude Cowork Integrations with Enterprise Tools",
+      "summary": "<cite index=\"9-10,9-11\">Claude Cowork now connects to Google Drive, Gmail, DocuSign and FactSet with customizable plugins across domains like financial analysis, engineering and human resources</cite>.",
+      "url": "https://www.cnbc.com/2026/02/24/anthropic-claude-cowork-office-worker.html"
+    },
+    {
+      "date": "Feb 17, 2026",
+      "title": "Claude Sonnet 4.6 Launch - New Frontier Performance",
+      "summary": "<cite index=\"6-8\">Sonnet 4.6 delivers frontier performance across coding, agents, and professional work at scale</cite>.",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Feb 5, 2026",
+      "title": "Claude Opus 4.6 Released with 1M Token Context",
+      "summary": "<cite index=\"2-1,2-2\">Anthropic officially launched Claude Opus 4.6, Anthropic's first major model release of the year with impressive capabilities</cite>.",
+      "url": "https://www.anthropic.com/news"
+    }
+  ]
 }
