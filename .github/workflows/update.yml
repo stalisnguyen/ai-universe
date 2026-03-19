@@ -35,6 +35,7 @@ jobs:
         run: |
           git config user.name "AI Universe Bot"
           git config user.email "bot@ai-universe"
+          git pull --rebase origin main
           git add data/ai-tools.json
           if git diff --staged --quiet && [ "${{ github.event.inputs.force_commit }}" != "true" ]; then
             echo "No changes to commit."
