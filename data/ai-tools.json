@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-19T11:31:18.873Z",
+  "lastUpdated": "2026-03-20T07:06:29.699Z",
   "categories": [
     {
       "id": "llm",
@@ -7981,57 +7981,57 @@
     }
   ],
   "totw": {
-    "name": "MuleRun",
-    "tagline": "Raise an AI that actually learns how you work",
-    "votesCount": 590,
-    "url": "https://www.producthunt.com/products/mulerun?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
-    "thumbnail": "https://ph-files.imgix.net/43c7869c-2c8f-48d6-98ad-0e1ac6f32304.png?auto=format",
+    "name": "Stitch 2.0 by Google",
+    "tagline": "Vibe design beautiful production-ready UI in seconds",
+    "votesCount": 602,
+    "url": "https://www.producthunt.com/products/stitch-2-0-by-google-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
+    "thumbnail": "https://ph-files.imgix.net/c6fac898-ea13-44f9-bdb6-c55dc0a8ed6c.jpeg?auto=format",
     "rank": 1,
     "topics": [
-      "Productivity",
-      "Artificial Intelligence",
-      "E-Commerce"
+      "Design Tools",
+      "Prototyping",
+      "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-03-19T11:30:58.651Z"
+    "fetchedAt": "2026-03-20T07:06:08.476Z"
   },
   "lastWeeklyUpdate": "2026-03-19T09:54:34.881Z",
   "anthropicNews": [
     {
-      "date": "Mar 17, 2026",
-      "title": "Claude persistent agent thread launches for Cowork",
-      "summary": "<cite index=\"2-3,2-4\">Persistent agent thread for Pro and Max plans enables task management in Cowork from mobile and desktop</cite>",
-      "url": "https://releasebot.io/updates/anthropic/claude"
+      "date": "Mar 20, 2026",
+      "title": "Claude Code Channels launches Discord/Telegram integration",
+      "summary": "<cite index=\"7-3\">Claude Code now connects to Discord and Telegram, letting developers message Claude Code directly to write code on the go.</cite>",
+      "url": "https://venturebeat.com/orchestration/anthropic-just-shipped-an-openclaw-killer-called-claude-code-channels"
+    },
+    {
+      "date": "Mar 14, 2026",
+      "title": "1M token context window pricing simplified to standard rates",
+      "summary": "<cite index=\"23-3,23-4\">1-million-token context window for Opus 4.6 and Sonnet 4.6 now generally available at standard pricing, removing premium long-context rates.</cite>",
+      "url": "https://thenewstack.io/claude-million-token-pricing/"
     },
     {
       "date": "Mar 12, 2026",
-      "title": "Claude adds custom charts and inline visualizations",
-      "summary": "<cite index=\"2-8\">Claude can create custom charts, diagrams and other visualizations in-line in responses</cite>",
-      "url": "https://releasebot.io/updates/anthropic/claude"
+      "title": "Claude Partner Network announced with $100M investment",
+      "summary": "<cite index=\"3-2,3-3\">Anthropic announced the Claude Partner Network as a platform for helping large companies adopt Claude.</cite>",
+      "url": "https://aadhunik.ai/blog/claude-news-march-2026/"
     },
     {
-      "date": "Mar 9, 2026",
-      "title": "Anthropic launches Claude Code Review tool",
-      "summary": "<cite index=\"25-5\">Code Review arrives to Claude for Teams and Enterprise customers in research preview</cite>",
-      "url": "https://techcrunch.com/2026/03/09/anthropic-launches-code-review-tool-to-check-flood-of-ai-generated-code/"
-    },
-    {
-      "date": "Mar 9, 2026",
-      "title": "Microsoft adds Claude Sonnet models to M365 Copilot",
-      "summary": "<cite index=\"4-1\">Microsoft making Anthropic's latest Claude Sonnet models available to M365 Copilot users</cite>",
-      "url": "https://en.wikipedia.org/wiki/Claude_(language_model)"
+      "date": "Mar 13, 2026",
+      "title": "Double usage limits promotion through March 27",
+      "summary": "<cite index=\"4-1,4-2\">Anthropic doubled usage limits during off-peak hours from March 13-27 for Free, Pro, Max, and Team plans.</cite>",
+      "url": "https://www.androidheadlines.com/2026/03/claude-double-usage-limits-march-2026-promotion.html"
     },
     {
       "date": "Feb 17, 2026",
-      "title": "Claude Sonnet 4.6 released with 1M token context",
-      "summary": "<cite index=\"20-2,20-3\">Most capable Sonnet model yet with full skills upgrade and 1M token context window in beta</cite>",
-      "url": "https://platform.claude.com/docs/en/release-notes/overview"
+      "title": "Claude Sonnet 4.6 launched with 1M token context",
+      "summary": "<cite index=\"2-15,2-16\">Claude Sonnet 4.6 launched as the most capable Sonnet with full skill upgrades and 1M token context window in beta.</cite>",
+      "url": "https://www.cnbc.com/2026/02/17/anthropic-ai-claude-sonnet-4-6-default-free-pro.html"
     },
     {
       "date": "Feb 5, 2026",
-      "title": "Claude Opus 4.6 released with 1M token context",
-      "summary": "<cite index=\"1-6,1-9\">Anthropic launches Claude Opus 4.6 with 1-million-token context window</cite>",
-      "url": "https://www.anthropic.com/news"
+      "title": "Claude Opus 4.6 released with agent teams and 1M context",
+      "summary": "<cite index=\"13-3\">Opus 4.6 introduced 1M-token context window in beta and agent teams allowing multiple AI agents to coordinate on coding projects.</cite>",
+      "url": "https://campustechnology.com/articles/2026/02/17/anthropics-new-ai-model-targets-coding-enterprise-work.aspx"
     }
   ],
-  "lastChecked": "2026-03-19T11:31:18.873Z"
+  "lastChecked": "2026-03-20T07:06:29.699Z"
 }
