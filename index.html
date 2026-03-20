@@ -1240,15 +1240,15 @@
       </a>
       <div id="langDropdown" class="lang-panel">
         <div class="lang-panel-list">
-          <button onclick="setLang('en');closeLangDropdown()" id="lang-en" class="lang-panel-opt active">
+          <div onclick="setLang('en');closeLangDropdown()" id="lang-en" class="lang-panel-opt active">
             English
-          </button>
-          <button onclick="setLang('vi');closeLangDropdown()" id="lang-vi" class="lang-panel-opt">
+          </div>
+          <div onclick="setLang('vi');closeLangDropdown()" id="lang-vi" class="lang-panel-opt">
             Tiếng Việt
-          </button>
-          <button onclick="setLang('zh');closeLangDropdown()" id="lang-zh" class="lang-panel-opt">
+          </div>
+          <div onclick="setLang('zh');closeLangDropdown()" id="lang-zh" class="lang-panel-opt">
             中文
-          </button>
+          </div>
         </div>
       </div>
     </li>
@@ -1348,20 +1348,20 @@
 <section id="compare">
   <div class="section-label"><span data-i18n="secCompareLabel">// Compare</span></div>
   <h2 class="section-title"><span data-i18n="secCompareTitle">Top LLMs Side by Side</span></h2>
-  <p class="section-desc">A quick feature comparison of the most popular large language models available today.</p>
+  <p class="section-desc"><span data-i18n="compareDesc">A quick feature comparison of the most popular large language models available today.</span></p>
 
   <div class="compare-wrap">
     <table>
       <thead>
         <tr>
-          <th>Model</th>
-          <th>Company</th>
-          <th>Free Tier</th>
-          <th>Vision</th>
-          <th>Web Search</th>
-          <th>Code</th>
-          <th>Context</th>
-          <th>API</th>
+          <th data-i18n="thModel">Model</th>
+          <th data-i18n="thCompany">Company</th>
+          <th data-i18n="thFreeTier">Free Tier</th>
+          <th data-i18n="thVision">Vision</th>
+          <th data-i18n="thWebSearch">Web Search</th>
+          <th data-i18n="thCode">Code</th>
+          <th data-i18n="thContext">Context</th>
+          <th data-i18n="thAPI">API</th>
         </tr>
       </thead>
       <tbody>
@@ -1455,9 +1455,9 @@
 <section id="anthropic-updates">
   <div class="section-label"><span data-i18n="secAnthropicLabel">// Anthropic Updates</span></div>
   <h2 class="section-title"><span data-i18n="secAnthropicTitle">Latest from Anthropic</span></h2>
-  <p class="section-desc">The newest Claude models, features, and announcements — updated daily by bot.</p>
+  <p class="section-desc"><span data-i18n="anthropicDesc">The newest Claude models, features, and announcements — updated daily by bot.</span></p>
   <div class="news-feed" id="newsFeed">
-    <div style="color:var(--muted);font-size:0.875rem;padding:20px 0">Loading latest updates...</div>
+    <div style="color:var(--muted);font-size:0.875rem;padding:20px 0"><span data-i18n="loadingNews">Loading latest updates...</span></div>
   </div>
   <div style="margin-top:16px">
     <a href="https://anthropic.com/news" target="_blank"
@@ -1476,36 +1476,36 @@
   <h2 class="section-title"><span data-i18n="secAboutTitle">What is AI Universe?</span></h2>
 
   <p style="color:#9ca3af;font-size:1rem;line-height:1.8;margin-bottom:24px">
-    AI Universe started as a personal project — I kept too many tabs open trying to track what's new in AI, which tools are worth using, and how pricing compares. So I built one place to hold it all.
+    <span data-i18n="aboutDesc">AI Universe started as a personal project — I kept too many tabs open trying to track what's new in AI, which tools are worth using, and how pricing compares. So I built one place to hold it all.</span>
   </p>
 
   <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:14px;margin-bottom:36px">
     <div style="background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:22px">
       <div style="font-size:1.5rem;margin-bottom:10px">🤖</div>
-      <div style="font-family:'Playfair Display',serif;font-weight:700;margin-bottom:6px">Always up to date</div>
-      <div style="font-size:0.875rem;color:var(--muted);line-height:1.6">A bot runs daily using Claude API and web search to find new tools, update pricing, and track model changes — so the catalog stays current without manual work.</div>
+      <div style="font-family:'Playfair Display',serif;font-weight:700;margin-bottom:6px"><span data-i18n="about1Title">Always up to date</span></div>
+      <div style="font-size:0.875rem;color:var(--muted);line-height:1.6"><span data-i18n="about1Desc">A bot runs daily using Claude API and web search to find new tools, update pricing, and track model changes — so the catalog stays current without manual work.</span></div>
     </div>
     <div style="background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:22px">
       <div style="font-size:1.5rem;margin-bottom:10px">🏆</div>
-      <div style="font-family:'Playfair Display',serif;font-weight:700;margin-bottom:6px">Tool of the Week</div>
-      <div style="font-size:0.875rem;color:var(--muted);line-height:1.6">Updated weekly from Product Hunt's top AI launches — no editorial bias, just what the community is actually excited about.</div>
+      <div style="font-family:'Playfair Display',serif;font-weight:700;margin-bottom:6px"><span data-i18n="about2Title">Tool of the Week</span></div>
+      <div style="font-size:0.875rem;color:var(--muted);line-height:1.6"><span data-i18n="about2Desc">Updated weekly from Product Hunt's top AI launches — no editorial bias, just what the community is actually excited about.</span></div>
     </div>
     <div style="background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:22px">
       <div style="font-size:1.5rem;margin-bottom:10px">🔍</div>
-      <div style="font-family:'Playfair Display',serif;font-weight:700;margin-bottom:6px">Find the right tool</div>
-      <div style="font-size:0.875rem;color:var(--muted);line-height:1.6">Not sure which AI fits your needs? The "Find My AI" quiz asks 3 quick questions and points you to the best match — no fluff.</div>
+      <div style="font-family:'Playfair Display',serif;font-weight:700;margin-bottom:6px"><span data-i18n="about3Title">Find the right tool</span></div>
+      <div style="font-size:0.875rem;color:var(--muted);line-height:1.6"><span data-i18n="about3Desc">Not sure which AI fits your needs? The "Find My AI" quiz asks 3 quick questions and points you to the best match — no fluff.</span></div>
     </div>
     <div style="background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:22px">
       <div style="font-size:1.5rem;margin-bottom:10px">💸</div>
-      <div style="font-family:'Playfair Display',serif;font-weight:700;margin-bottom:6px">Free. No ads. No fluff.</div>
-      <div style="font-size:0.875rem;color:var(--muted);line-height:1.6">Hosted on GitHub Pages. No tracking, no ads, no affiliate links. Just a useful tool for anyone navigating the AI space.</div>
+      <div style="font-family:'Playfair Display',serif;font-weight:700;margin-bottom:6px"><span data-i18n="about4Title">Free. No ads. No fluff.</span></div>
+      <div style="font-size:0.875rem;color:var(--muted);line-height:1.6"><span data-i18n="about4Desc">Hosted on GitHub Pages. No tracking, no ads, no affiliate links. Just a useful tool for anyone navigating the AI space.</span></div>
     </div>
   </div>
 
   <div style="background:rgba(0,245,196,0.05);border:1px solid rgba(0,245,196,0.15);border-radius:16px;padding:24px;display:flex;align-items:center;gap:20px;flex-wrap:wrap">
     <div style="flex:1;min-width:200px">
       <div style="font-family:'JetBrains Mono',monospace;font-size:0.7rem;color:var(--accent);letter-spacing:0.15em;text-transform:uppercase;margin-bottom:6px">Open Source</div>
-      <div style="font-size:0.9rem;color:#9ca3af;line-height:1.6">The full source code is on GitHub. Feel free to fork it, contribute, or suggest a tool to add.</div>
+      <div style="font-size:0.9rem;color:#9ca3af;line-height:1.6"><span data-i18n="aboutOSDesc">The full source code is on GitHub. Feel free to fork it, contribute, or suggest a tool to add.</span></div>
     </div>
     <a href="https://github.com/stalisnguyen/ai-universe" target="_blank"
       style="display:inline-flex;align-items:center;gap:8px;padding:10px 20px;background:var(--surface2);border:1px solid var(--border);border-radius:12px;color:var(--text);text-decoration:none;font-size:0.875rem;font-weight:500;transition:all 0.2s;white-space:nowrap"
@@ -1684,7 +1684,7 @@ const TRANSLATIONS = {
     quizTitle: '✦ Find Your AI',
     compareWith: 'Side-by-Side Comparison',
     upvotes: 'upvotes',
-    loading: 'Loading latest data...',
+    compareDesc: 'A quick feature comparison of the most popular large language models available today.',
     phWeek: 'on Product Hunt this week',
     viewOnPH: 'View on Product Hunt →',
     noNews: 'No recent updates — check back tomorrow!',
@@ -1696,8 +1696,10 @@ const TRANSLATIONS = {
     catAllName: 'All',
     tabWhatsNew: "🆕 What's New",
     noChangelog: 'Auto-updated weekly by bot — check back soon!',
-    quizFindAI: '✦ 找到您的AI',
-    upvotes: 'upvotes',
+    quizFindAI: '✦ Find Your AI',
+    thModel: 'Model', thCompany: 'Company', thFreeTier: 'Free Tier',
+    thVision: 'Vision', thWebSearch: 'Web Search', thCode: 'Code',
+    thContext: 'Context', thAPI: 'API',
   },
   vi: {
     navCategories: 'Danh mục', navExplore: 'Khám phá', navCompare: 'So sánh',
@@ -1728,7 +1730,7 @@ const TRANSLATIONS = {
     quizTitle: '✦ Tìm AI phù hợp',
     compareWith: 'So sánh trực tiếp',
     upvotes: 'upvotes',
-    loading: 'Đang tải dữ liệu...',
+    compareDesc: 'So sánh nhanh các tính năng của các mô hình ngôn ngữ lớn phổ biến nhất hiện nay.',
     phWeek: 'trên Product Hunt tuần này',
     viewOnPH: 'Xem trên Product Hunt →',
     noNews: 'Chưa có cập nhật mới — quay lại sau nhé!',
@@ -1741,6 +1743,9 @@ const TRANSLATIONS = {
     noChangelog: 'Bot tự cập nhật hàng tuần — quay lại sau!',
     quizFindAI: '✦ Tìm AI phù hợp',
     upvotes: 'lượt vote',
+    thModel: 'Mô hình', thCompany: 'Công ty', thFreeTier: 'Miễn phí',
+    thVision: 'Hình ảnh', thWebSearch: 'Tìm web', thCode: 'Code',
+    thContext: 'Ngữ cảnh', thAPI: 'API',
   },
   zh: {
     navCategories: '分类', navExplore: '探索', navCompare: '比较',
@@ -1771,7 +1776,7 @@ const TRANSLATIONS = {
     quizTitle: '✦ 找到您的AI',
     compareWith: '并排比较',
     upvotes: '票',
-    loading: '正在加载最新数据...',
+    compareDesc: '当今最流行的大型语言模型功能快速对比。',
     phWeek: '本周 Product Hunt 榜首',
     viewOnPH: '在 Product Hunt 查看 →',
     noNews: '暂无最新动态 — 稍后再来！',
@@ -1784,6 +1789,9 @@ const TRANSLATIONS = {
     noChangelog: '机器人每周自动更新 — 稍后再来！',
     quizFindAI: '✦ 找到您的AI',
     upvotes: '票',
+    thModel: '模型', thCompany: '公司', thFreeTier: '免费版',
+    thVision: '图像', thWebSearch: '网络搜索', thCode: '代码',
+    thContext: '上下文', thAPI: 'API',
   }
 };
 
