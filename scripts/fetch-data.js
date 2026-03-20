@@ -403,6 +403,10 @@ Keep it natural and concise. Preserve technical terms like model names.`;
     console.log(`  🌏 Translation done — ${translated} tools translated (${toTranslate.length - translated} failed)`);
     if (toTranslate.length === 0) console.log('  ✅ All tools already translated!');
 
+    // Cooldown before next API calls
+    console.log('\n⏳ Cooling down 90s after weekly refresh...');
+    await new Promise(r => setTimeout(r, 90000));
+
   } else {
     const daysUntilNext = Math.ceil((lastWeeklyUpdate.getTime() + 7*24*60*60*1000 - Date.now()) / (1000*60*60*24));
     console.log(`\n⏭ Skipping weekly refresh (next in ${daysUntilNext} days)`);
