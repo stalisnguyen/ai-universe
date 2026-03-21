@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-20T10:48:54.800Z",
+  "lastUpdated": "2026-03-21T06:57:21.062Z",
   "categories": [
     {
       "id": "llm",
@@ -8370,7 +8370,7 @@
   "totw": {
     "name": "Stitch 2.0 by Google",
     "tagline": "Vibe design beautiful production-ready UI in seconds",
-    "votesCount": 617,
+    "votesCount": 659,
     "url": "https://www.producthunt.com/products/stitch-2-0-by-google-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/c6fac898-ea13-44f9-bdb6-c55dc0a8ed6c.jpeg?auto=format",
     "rank": 1,
@@ -8379,46 +8379,46 @@
       "Prototyping",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-03-20T10:29:20.858Z"
+    "fetchedAt": "2026-03-21T06:57:01.609Z"
   },
   "lastWeeklyUpdate": "2026-03-20T10:47:08.279Z",
   "anthropicNews": [
     {
-      "date": "Mar 19, 2026",
-      "title": "1M Token Context Window GA for Opus/Sonnet 4.6",
-      "summary": "1M context window now generally available at standard pricing with no beta header required; media cap increased to 600 images/PDFs.",
-      "url": "https://releasebot.io/updates/anthropic"
+      "date": "Mar 18, 2026",
+      "title": "Claude user study: 81,000 respondents share AI hopes and fears",
+      "summary": "<cite index=\"26-1,26-2\">Anthropic invited Claude.ai users to share how they use AI; nearly 81,000 people participated in the largest and most multilingual qualitative study of its kind.</cite>",
+      "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Mar 12, 2026",
-      "title": "Claude Partner Network Announced with $100M Investment",
-      "summary": "Anthropic launches $100M Partner Network platform to help large companies adopt Claude.",
-      "url": "https://aadhunik.ai/blog/claude-news-march-2026/"
+      "title": "Anthropic invests $100 million into Claude Partner Network",
+      "summary": "<cite index=\"8-1\">Anthropic announced its Claude Partner Network with $100 million in initial 2026 funding to support firms commercializing its AI.</cite>",
+      "url": "https://www.indexbox.io/blog/anthropic-launches-claude-partner-network-with-100m-2026-funding/"
+    },
+    {
+      "date": "Mar 11, 2026",
+      "title": "Introducing The Anthropic Institute for AI societal research",
+      "summary": "<cite index=\"16-3,16-4\">Anthropic introduced The Anthropic Institute, a new research arm focused on confronting societal challenges AI can impose, with co-founder Jack Clark as Head of Public Benefit.</cite>",
+      "url": "https://www.eweek.com/news/anthropic-institute-launch-march-2026/"
     },
     {
       "date": "Mar 14, 2026",
-      "title": "Double Usage Limits Promotion Through March 27",
-      "summary": "Anthropic doubles Claude usage limits during off-peak hours for all users through March 27, 2026.",
-      "url": "https://www.androidheadlines.com/2026/03/claude-double-usage-limits-march-2026-promotion.html"
+      "title": "1M token context window now GA at standard pricing",
+      "summary": "<cite index=\"21-1\">Anthropic removed long-context pricing surcharge for Claude Opus 4.6 and Sonnet 4.6, making 1-million-token context windows available at standard per-token rates.</cite>",
+      "url": "https://thenewstack.io/claude-million-token-pricing/"
     },
     {
       "date": "Feb 17, 2026",
-      "title": "Claude Sonnet 4.6 Released with 1M Token Context",
-      "summary": "New most capable Sonnet model with full skill upgrades across coding, computer use, and 1M token context in beta.",
-      "url": "https://www.cnbc.com/2026/02/17/anthropic-ai-claude-sonnet-4-6-default-free-pro.html"
+      "title": "Claude Sonnet 4.6 launches with frontier coding performance",
+      "summary": "<cite index=\"26-4\">Sonnet 4.6 delivers frontier performance across coding, agents, and professional work at scale.</cite>",
+      "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Feb 5, 2026",
-      "title": "Claude Opus 4.6 Launched with Million-Token Context",
-      "summary": "Anthropic releases Claude Opus 4.6 with 1M token context window beta, stronger coding, and agent team capabilities.",
-      "url": "https://www.bloomberg.com/news/articles/2026-02-05/anthropic-updates-ai-model-to-field-more-complex-financial-research"
-    },
-    {
-      "date": "Feb 16, 2026",
-      "title": "Anthropic Opens India Office in Bengaluru",
-      "summary": "Anthropic opens second Asia office in Bengaluru, India, led by Managing Director Irina Ghose.",
-      "url": "https://sacra.com/c/anthropic/"
+      "title": "Claude Opus 4.6 released with 1M token context window",
+      "summary": "<cite index=\"26-5,26-6\">Anthropic upgraded its smartest model, with Opus 4.6 being industry-leading across agentic coding, computer use, tool use, search, and finance.</cite>",
+      "url": "https://www.anthropic.com/news"
     }
   ],
-  "lastChecked": "2026-03-20T10:48:54.800Z"
+  "lastChecked": "2026-03-21T06:57:21.062Z"
 }
