@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-21T06:57:21.062Z",
+  "lastUpdated": "2026-03-22T07:01:29.343Z",
   "categories": [
     {
       "id": "llm",
@@ -8370,7 +8370,7 @@
   "totw": {
     "name": "Stitch 2.0 by Google",
     "tagline": "Vibe design beautiful production-ready UI in seconds",
-    "votesCount": 659,
+    "votesCount": 670,
     "url": "https://www.producthunt.com/products/stitch-2-0-by-google-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/c6fac898-ea13-44f9-bdb6-c55dc0a8ed6c.jpeg?auto=format",
     "rank": 1,
@@ -8379,46 +8379,46 @@
       "Prototyping",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-03-21T06:57:01.609Z"
+    "fetchedAt": "2026-03-22T07:01:08.200Z"
   },
   "lastWeeklyUpdate": "2026-03-20T10:47:08.279Z",
   "anthropicNews": [
     {
-      "date": "Mar 18, 2026",
-      "title": "Claude user study: 81,000 respondents share AI hopes and fears",
-      "summary": "<cite index=\"26-1,26-2\">Anthropic invited Claude.ai users to share how they use AI; nearly 81,000 people participated in the largest and most multilingual qualitative study of its kind.</cite>",
-      "url": "https://www.anthropic.com/news"
+      "date": "Mar 16, 2026",
+      "title": "Anthropic Removes Long-Context Pricing Premium",
+      "summary": "Claude Opus 4.6 and Sonnet 4.6 now available at standard pricing for full 1M-token context window.",
+      "url": "https://medium.com/@KlarBrief/anthropic-just-killed-the-long-context-premium-and-the-pricing-war-for-ai-infrastructure-got-real-dacb1c1b44b5"
     },
     {
-      "date": "Mar 12, 2026",
-      "title": "Anthropic invests $100 million into Claude Partner Network",
-      "summary": "<cite index=\"8-1\">Anthropic announced its Claude Partner Network with $100 million in initial 2026 funding to support firms commercializing its AI.</cite>",
-      "url": "https://www.indexbox.io/blog/anthropic-launches-claude-partner-network-with-100m-2026-funding/"
-    },
-    {
-      "date": "Mar 11, 2026",
-      "title": "Introducing The Anthropic Institute for AI societal research",
-      "summary": "<cite index=\"16-3,16-4\">Anthropic introduced The Anthropic Institute, a new research arm focused on confronting societal challenges AI can impose, with co-founder Jack Clark as Head of Public Benefit.</cite>",
-      "url": "https://www.eweek.com/news/anthropic-institute-launch-march-2026/"
+      "date": "Mar 20, 2026",
+      "title": "Claude Code Channels Launches on Discord & Telegram",
+      "summary": "Anthropic enables messaging Claude Code via Discord and Telegram for asynchronous autonomous task completion.",
+      "url": "https://venturebeat.com/orchestration/anthropic-just-shipped-an-openclaw-killer-called-claude-code-channels"
     },
     {
       "date": "Mar 14, 2026",
-      "title": "1M token context window now GA at standard pricing",
-      "summary": "<cite index=\"21-1\">Anthropic removed long-context pricing surcharge for Claude Opus 4.6 and Sonnet 4.6, making 1-million-token context windows available at standard per-token rates.</cite>",
-      "url": "https://thenewstack.io/claude-million-token-pricing/"
+      "title": "Anthropic Doubles Claude Usage Limits During Off-Peak Hours",
+      "summary": "Free and paid users get doubled message limits March 13-27 during off-peak hours across all plans.",
+      "url": "https://www.androidheadlines.com/2026/03/claude-double-usage-limits-march-2026-promotion.html"
+    },
+    {
+      "date": "Mar 12, 2026",
+      "title": "Anthropic Announces $100M Claude Partner Network",
+      "summary": "New partner network platform launched to help large enterprises adopt Claude AI models.",
+      "url": "https://aadhunik.ai/blog/claude-news-march-2026/"
     },
     {
       "date": "Feb 17, 2026",
-      "title": "Claude Sonnet 4.6 launches with frontier coding performance",
-      "summary": "<cite index=\"26-4\">Sonnet 4.6 delivers frontier performance across coding, agents, and professional work at scale.</cite>",
-      "url": "https://www.anthropic.com/news"
+      "title": "Claude Sonnet 4.6 Released with Enhanced Coding Skills",
+      "summary": "<cite index=\"20-1\">Claude Sonnet 4.6 released as new default model with better coding and computer use skills</cite>",
+      "url": "https://www.axios.com/2026/02/17/anthropic-new-claude-sonnet-faster-cheaper"
     },
     {
       "date": "Feb 5, 2026",
-      "title": "Claude Opus 4.6 released with 1M token context window",
-      "summary": "<cite index=\"26-5,26-6\">Anthropic upgraded its smartest model, with Opus 4.6 being industry-leading across agentic coding, computer use, tool use, search, and finance.</cite>",
-      "url": "https://www.anthropic.com/news"
+      "title": "Claude Opus 4.6 Launched with 1M Token Context Window",
+      "summary": "<cite index=\"12-1,12-2\">Anthropic upgraded smartest model; Opus 4.6 leads in agentic coding and finance tasks</cite>",
+      "url": "https://techcrunch.com/2026/02/05/anthropic-releases-opus-4-6-with-new-agent-teams/"
     }
   ],
-  "lastChecked": "2026-03-21T06:57:21.062Z"
+  "lastChecked": "2026-03-22T07:01:29.343Z"
 }
