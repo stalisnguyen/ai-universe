@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-23T07:23:36.702Z",
+  "lastUpdated": "2026-03-24T07:15:22.259Z",
   "categories": [
     {
       "id": "llm",
@@ -8370,7 +8370,7 @@
   "totw": {
     "name": "Stitch 2.0 by Google",
     "tagline": "Vibe design beautiful production-ready UI in seconds",
-    "votesCount": 687,
+    "votesCount": 722,
     "url": "https://www.producthunt.com/products/stitch-2-0-by-google-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/c6fac898-ea13-44f9-bdb6-c55dc0a8ed6c.jpeg?auto=format",
     "rank": 1,
@@ -8379,46 +8379,40 @@
       "Prototyping",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-03-23T07:23:18.214Z"
+    "fetchedAt": "2026-03-24T07:15:01.835Z"
   },
   "lastWeeklyUpdate": "2026-03-20T10:47:08.279Z",
   "anthropicNews": [
     {
-      "date": "Mar 12, 2026",
-      "title": "Anthropic Invests $100M in Claude Partner Network",
-      "summary": "Anthropic announces $100 million investment to support partnerships and expansion of Claude ecosystem.",
-      "url": "https://www.anthropic.com/news"
+      "date": "Mar 23, 2026",
+      "title": "Claude gains Mac computer control feature",
+      "summary": "<cite index=\"7-1,7-2\">Anthropic introduces the ability for Claude to control your Mac, arriving today.</cite>",
+      "url": "https://9to5mac.com/2026/03/23/anthropic-is-giving-claude-the-ability-to-use-your-mac-for-you/"
     },
     {
-      "date": "Mar 11, 2026",
-      "title": "Anthropic Launches The Anthropic Institute",
-      "summary": "New research arm focused on societal challenges from AI, led by co-founder Jack Clark.",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "Mar 17, 2026",
-      "title": "Claude Cowork Persistent Agent Thread for Mobile",
-      "summary": "Pro and Max users can now manage tasks via Claude Desktop, iOS, and Android.",
-      "url": "https://releasebot.io/updates/anthropic"
+      "date": "Mar 20, 2026",
+      "title": "Claude Code Channels enables Discord/Telegram access",
+      "summary": "<cite index=\"4-3\">Anthropic announced Claude Code Channels, allowing users to message Claude Code via Discord or Telegram to write code.</cite>",
+      "url": "https://venturebeat.com/orchestration/anthropic-just-shipped-an-openclaw-killer-called-claude-code-channels/"
     },
     {
       "date": "Mar 12, 2026",
-      "title": "Claude Adds Custom Charts and Inline Visualizations",
-      "summary": "Claude can now create custom charts, diagrams, and visualizations in response.",
-      "url": "https://releasebot.io/updates/anthropic"
+      "title": "Anthropic launches $100M Claude Partner Network",
+      "summary": "<cite index=\"8-2,8-3\">On March 12, the Claude Partner Network was announced by Anthropic as a platform for helping large companies adopt Claude.</cite>",
+      "url": "https://aadhunik.ai/blog/claude-news-march-2026/"
     },
     {
-      "date": "Mar 3, 2026",
-      "title": "Anthropic Removes 1M Token Pricing Surcharge",
-      "summary": "1-million-token context windows now available at standard per-token rates for Opus and Sonnet models.",
-      "url": "https://thenewstack.io/claude-million-token-pricing/"
+      "date": "Mar 9, 2026",
+      "title": "Code Review tool launched for Claude Code",
+      "summary": "<cite index=\"18-1\">Anthropic launched Code Review in Claude Code, a multi-agent system that analyzes AI-generated code and flags logic errors.</cite>",
+      "url": "https://techcrunch.com/2026/03/09/anthropic-launches-code-review-tool-to-check-flood-of-ai-generated-code/"
     },
     {
-      "date": "Feb 25, 2026",
-      "title": "Anthropic Acquires Vercept for Computer Use Enhancement",
-      "summary": "Acquisition to improve Claude's computer use capabilities and perception skills.",
-      "url": "https://claudelog.com/claude-news/"
+      "date": "Feb 17, 2026",
+      "title": "Claude Sonnet 4.6 and Opus 4.6 released",
+      "summary": "<cite index=\"3-15,3-16\">Anthropic launched Claude Sonnet 4.6 with full upgrade across coding, computer use, reasoning, with 1M token context window in beta.</cite>",
+      "url": "https://www.anthropic.com/news/claude-sonnet-4-6"
     }
   ],
-  "lastChecked": "2026-03-23T07:23:36.702Z"
+  "lastChecked": "2026-03-24T07:15:22.259Z"
 }
