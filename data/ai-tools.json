@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-24T07:15:22.259Z",
+  "lastUpdated": "2026-03-25T07:13:37.802Z",
   "categories": [
     {
       "id": "llm",
@@ -8370,7 +8370,7 @@
   "totw": {
     "name": "Stitch 2.0 by Google",
     "tagline": "Vibe design beautiful production-ready UI in seconds",
-    "votesCount": 722,
+    "votesCount": 756,
     "url": "https://www.producthunt.com/products/stitch-2-0-by-google-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/c6fac898-ea13-44f9-bdb6-c55dc0a8ed6c.jpeg?auto=format",
     "rank": 1,
@@ -8379,40 +8379,46 @@
       "Prototyping",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-03-24T07:15:01.835Z"
+    "fetchedAt": "2026-03-25T07:13:19.122Z"
   },
   "lastWeeklyUpdate": "2026-03-20T10:47:08.279Z",
   "anthropicNews": [
     {
-      "date": "Mar 23, 2026",
-      "title": "Claude gains Mac computer control feature",
-      "summary": "<cite index=\"7-1,7-2\">Anthropic introduces the ability for Claude to control your Mac, arriving today.</cite>",
-      "url": "https://9to5mac.com/2026/03/23/anthropic-is-giving-claude-the-ability-to-use-your-mac-for-you/"
-    },
-    {
-      "date": "Mar 20, 2026",
-      "title": "Claude Code Channels enables Discord/Telegram access",
-      "summary": "<cite index=\"4-3\">Anthropic announced Claude Code Channels, allowing users to message Claude Code via Discord or Telegram to write code.</cite>",
-      "url": "https://venturebeat.com/orchestration/anthropic-just-shipped-an-openclaw-killer-called-claude-code-channels/"
+      "date": "Mar 17, 2026",
+      "title": "Persistent Agent Thread Rollout for Cowork Pro/Max",
+      "summary": "<cite index=\"3-1,3-4,3-5\">Claude releases persistent agent thread for Pro and Max plan users to manage tasks in Cowork from mobile and desktop</cite>.",
+      "url": "https://releasebot.io/updates/anthropic/claude"
     },
     {
       "date": "Mar 12, 2026",
-      "title": "Anthropic launches $100M Claude Partner Network",
-      "summary": "<cite index=\"8-2,8-3\">On March 12, the Claude Partner Network was announced by Anthropic as a platform for helping large companies adopt Claude.</cite>",
-      "url": "https://aadhunik.ai/blog/claude-news-march-2026/"
+      "title": "Anthropic Invests $100M in Claude Partner Network",
+      "summary": "<cite index=\"12-2\">Anthropic invests $100 million into the Claude Partner Network</cite>.",
+      "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Mar 9, 2026",
-      "title": "Code Review tool launched for Claude Code",
-      "summary": "<cite index=\"18-1\">Anthropic launched Code Review in Claude Code, a multi-agent system that analyzes AI-generated code and flags logic errors.</cite>",
-      "url": "https://techcrunch.com/2026/03/09/anthropic-launches-code-review-tool-to-check-flood-of-ai-generated-code/"
+      "date": "Mar 12, 2026",
+      "title": "Claude Adds Custom Charts and Inline Visualizations",
+      "summary": "<cite index=\"3-7,3-8\">Anthropic announces Claude can now create custom charts and inline visualizations in responses</cite>.",
+      "url": "https://releasebot.io/updates/anthropic/claude"
     },
     {
-      "date": "Feb 17, 2026",
-      "title": "Claude Sonnet 4.6 and Opus 4.6 released",
-      "summary": "<cite index=\"3-15,3-16\">Anthropic launched Claude Sonnet 4.6 with full upgrade across coding, computer use, reasoning, with 1M token context window in beta.</cite>",
-      "url": "https://www.anthropic.com/news/claude-sonnet-4-6"
+      "date": "Mar 11, 2026",
+      "title": "The Anthropic Institute Launches",
+      "summary": "<cite index=\"12-2\">Anthropic introduces The Anthropic Institute</cite>.",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Feb 20, 2026",
+      "title": "Claude Code Security Discovers 500+ Zero-Day Vulnerabilities",
+      "summary": "<cite index=\"1-17,1-19\">Anthropic unveiled Claude Code Security for hunting zero-day vulnerabilities; found over 500 vulnerabilities in production open-source code</cite>.",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Feb 5, 2026",
+      "title": "Claude Opus 4.6 Released with 1M Token Context",
+      "summary": "<cite index=\"1-1,6-2\">Anthropic launched Claude Opus 4.6 with 1,000,000-token context window and improved multi-step reasoning</cite>.",
+      "url": "https://www.anthropic.com/news"
     }
   ],
-  "lastChecked": "2026-03-24T07:15:22.259Z"
+  "lastChecked": "2026-03-25T07:13:37.802Z"
 }
