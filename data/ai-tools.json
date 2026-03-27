@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-26T07:22:13.192Z",
+  "lastUpdated": "2026-03-27T07:20:41.128Z",
   "categories": [
     {
       "id": "llm",
@@ -8370,7 +8370,7 @@
   "totw": {
     "name": "Tobira.ai",
     "tagline": "A network where AI agents find deals for their humans",
-    "votesCount": 658,
+    "votesCount": 666,
     "url": "https://www.producthunt.com/products/tobira-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/c25c764d-4b7e-4964-bc05-1d2773a416c8.png?auto=format",
     "rank": 1,
@@ -8379,40 +8379,46 @@
       "Developer Tools",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-03-26T07:21:55.553Z"
+    "fetchedAt": "2026-03-27T07:20:25.691Z"
   },
   "lastWeeklyUpdate": "2026-03-20T10:47:08.279Z",
   "anthropicNews": [
     {
+      "date": "Mar 27, 2026",
+      "title": "Anthropic Considers IPO as Soon as October 2026",
+      "summary": "Anthropic exploring public offering plans as competition with OpenAI for IPO intensifies.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-27/claude-ai-maker-anthropic-said-to-weigh-ipo-as-soon-as-october"
+    },
+    {
+      "date": "Mar 26, 2026",
+      "title": "Claude Mythos Model Revealed in Data Leak",
+      "summary": "<cite index=\"16-1\">New model called \"Claude Mythos\" represents \"a step change\" in AI performance capability</cite>.",
+      "url": "https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/"
+    },
+    {
       "date": "Mar 25, 2026",
-      "title": "Anthropic releases world's largest AI attitudes study",
-      "summary": "Anthropic completed the largest multilingual qualitative study on AI attitudes based on 80,508 interviews across 159 countries and 70 languages",
-      "url": "https://dataconomy.com/2026/03/25/anthropic-releases-worlds-largest-study-on-global-ai-attitudes/"
-    },
-    {
-      "date": "Mar 24, 2026",
-      "title": "Claude Code adds 'auto mode' for autonomous execution",
-      "summary": "Anthropic's new 'auto mode' in research preview lets Claude decide which actions are safe to take on its own",
-      "url": "https://techcrunch.com/2026/03/24/anthropic-hands-claude-code-more-control-but-keeps-it-on-a-leash/"
-    },
-    {
-      "date": "Mar 24, 2026",
-      "title": "Claude Dispatch enables computer use agent tasks",
-      "summary": "Users can message Claude a task from a phone and the AI agent will complete it, including opening apps, navigating browsers and filling spreadsheets",
+      "title": "Claude Computer Use Feature Now Available for Pro/Max",
+      "summary": "<cite index=\"10-2\">Claude can now click, scroll and navigate web pages to complete tasks on user behalf</cite>.",
       "url": "https://www.cnbc.com/2026/03/24/anthropic-claude-ai-agent-use-computer-finish-tasks.html"
     },
     {
-      "date": "Mar 20, 2026",
-      "title": "Claude Code ships MCP channels and permission relays",
-      "summary": "Anthropic announced Claude Code Channels, enabling users to message Claude Code via Discord or Telegram while on the go",
-      "url": "https://venturebeat.com/orchestration/anthropic-just-shipped-an-openclaw-killer-called-claude-code-channels/"
+      "date": "Mar 14, 2026",
+      "title": "1M Token Context Window Pricing Now Standard",
+      "summary": "<cite index=\"21-2\">Million-token context now generally available with standard pricing replacing premium long-context rates</cite>.",
+      "url": "https://thenewstack.io/claude-million-token-pricing/"
     },
     {
-      "date": "Mar 05, 2026",
-      "title": "Anthropic publishes landmark labor market research",
-      "summary": "Anthropic published economic research on 'Labor market impacts of AI' introducing a novel framework for measuring how AI interacts with the workforce",
-      "url": "https://fortune.com/2026/03/06/ai-job-losses-report-anthropic-research-great-recession-for-white-collar-workers/"
+      "date": "Feb 17, 2026",
+      "title": "Claude Sonnet 4.6 Released with 1M Token Context",
+      "summary": "<cite index=\"4-21,4-22\">Most capable Sonnet model with full upgrade across coding and agent planning; 1M token context window in beta</cite>.",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Feb 5, 2026",
+      "title": "Claude Opus 4.6 Launched with Advanced Capabilities",
+      "summary": "<cite index=\"1-8,1-9\">Smartest model upgraded for agentic coding, computer use, and finance with industry-leading performance</cite>.",
+      "url": "https://www.anthropic.com/news"
     }
   ],
-  "lastChecked": "2026-03-26T07:22:13.192Z"
+  "lastChecked": "2026-03-27T07:20:41.128Z"
 }
