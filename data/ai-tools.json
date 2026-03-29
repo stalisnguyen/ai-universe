@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-28T07:27:44.292Z",
+  "lastUpdated": "2026-03-29T07:15:53.051Z",
   "categories": [
     {
       "id": "llm",
@@ -8563,7 +8563,7 @@
   "totw": {
     "name": "Tobira.ai",
     "tagline": "A network where AI agents find deals for their humans",
-    "votesCount": 678,
+    "votesCount": 681,
     "url": "https://www.producthunt.com/products/tobira-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/c25c764d-4b7e-4964-bc05-1d2773a416c8.png?auto=format",
     "rank": 1,
@@ -8572,46 +8572,46 @@
       "Developer Tools",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-03-28T07:08:25.098Z"
+    "fetchedAt": "2026-03-29T07:15:34.181Z"
   },
   "lastWeeklyUpdate": "2026-03-28T07:25:55.872Z",
   "anthropicNews": [
     {
       "date": "Mar 27, 2026",
-      "title": "Anthropic Leak Reveals New Model Claude Mythos",
-      "summary": "Anthropic confirmed testing new model Claude Mythos, \"the most capable we've built to date,\" representing a step change in reasoning and cybersecurity capabilities.",
+      "title": "Claude Mythos Model Leaked: Next-Gen AI with Step Change in Capabilities",
+      "summary": "Anthropic testing new Claude Mythos model after accidental data leak; described as most capable model built to date with exceptional cybersecurity risks.",
       "url": "https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/"
     },
     {
-      "date": "Mar 27, 2026",
-      "title": "Anthropic Considers IPO as Soon as October 2026",
-      "summary": "<cite index=\"8-3\">Anthropic is considering going public as soon as in October, with early discussions with Wall Street banks about potential listing.</cite>",
-      "url": "https://www.bloomberg.com/news/articles/2026-03-27/claude-ai-maker-anthropic-said-to-weigh-ipo-as-soon-as-october"
-    },
-    {
-      "date": "Mar 25, 2026",
-      "title": "Accenture Launches Cyber.AI with Claude Integration",
-      "summary": "<cite index=\"3-1\">Accenture launched Cyber.AI powered by Claude to help organizations transform cybersecurity operations from human-speed to AI-driven continuous capabilities.</cite>",
-      "url": "https://newsroom.accenture.com/news/2026/accenture-and-anthropic-team-to-help-organizations-secure-scale-ai-driven-cybersecurity-operations"
-    },
-    {
       "date": "Mar 26, 2026",
-      "title": "Anthropic Wins Preliminary Injunction vs. Pentagon",
-      "summary": "<cite index=\"2-1,2-3\">A federal judge granted Anthropic's request for preliminary injunction in its lawsuit against the Trump administration over the Pentagon's blacklisting and ban on using Claude models.</cite>",
+      "title": "Judge Blocks Trump Admin's Anthropic Supply Chain Risk Ban",
+      "summary": "Federal judge grants preliminary injunction against Defense Department's ban on Claude, calling it likely First Amendment retaliation.",
       "url": "https://www.cnbc.com/2026/03/26/anthropic-pentagon-dod-claude-court-ruling.html"
     },
     {
-      "date": "Mar 24, 2026",
-      "title": "Claude Gains Computer Use Capability via Dispatch",
-      "summary": "<cite index=\"7-1,7-2\">Claude can now use your computer to finish tasks with safeguards that minimize risk, accessible through the Dispatch feature in Claude Cowork.</cite>",
-      "url": "https://www.cnbc.com/2026/03/24/anthropic-claude-ai-agent-use-computer-finish-tasks.html"
+      "date": "Mar 25, 2026",
+      "title": "Claude Adds Computer Use in Cowork and Code for Pro/Max Users",
+      "summary": "Pro and Max plan users can now give Claude access to computer use capabilities for desktop automation and task completion.",
+      "url": "https://www.anthropic.com/"
     },
     {
-      "date": "Mar 20, 2026",
-      "title": "Claude Apps Adds Interactive Visualizations for Mobile",
-      "summary": "<cite index=\"4-4,4-5,4-6\">Claude Apps adds interactive apps in iOS and Android with live charts, diagrams, and shareable assets rendered visually in conversation.</cite>",
+      "date": "Mar 25, 2026",
+      "title": "Claude Mobile App Gets Interactive Apps for iOS and Android",
+      "summary": "Claude mobile app now supports fully interactive apps with live charts, diagrams, and shareable visual assets in conversations.",
       "url": "https://releasebot.io/updates/anthropic"
+    },
+    {
+      "date": "Mar 13, 2026",
+      "title": "1M Token Context Window Now at Standard Pricing for Opus/Sonnet",
+      "summary": "Anthropic removes long-context surcharges; 1M token context available at standard per-token rates for Opus 4.6 and Sonnet 4.6.",
+      "url": "https://thenewstack.io/claude-million-token-pricing/"
+    },
+    {
+      "date": "Feb 17, 2026",
+      "title": "Claude Sonnet 4.6 Launched: Best Model for Agents and Coding",
+      "summary": "New balanced model with improved agentic capabilities, coding performance, and 1M token context window in beta.",
+      "url": "https://releasebot.io/updates/anthropic/claude"
     }
   ],
-  "lastChecked": "2026-03-28T07:27:44.292Z"
+  "lastChecked": "2026-03-29T07:15:53.051Z"
 }
