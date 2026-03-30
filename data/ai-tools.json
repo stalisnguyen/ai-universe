@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-29T07:15:53.051Z",
+  "lastUpdated": "2026-03-30T07:55:45.341Z",
   "categories": [
     {
       "id": "llm",
@@ -8561,57 +8561,50 @@
     }
   ],
   "totw": {
-    "name": "Tobira.ai",
-    "tagline": "A network where AI agents find deals for their humans",
-    "votesCount": 681,
-    "url": "https://www.producthunt.com/products/tobira-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
-    "thumbnail": "https://ph-files.imgix.net/c25c764d-4b7e-4964-bc05-1d2773a416c8.png?auto=format",
+    "name": "Agentplace AI Agents",
+    "tagline": "Create specialized AI agents for real tasks and workflows",
+    "votesCount": 708,
+    "url": "https://www.producthunt.com/products/agentplace?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
+    "thumbnail": "https://ph-files.imgix.net/a2d767c5-498a-410b-8ef1-b7a9831f0b56.jpeg?auto=format",
     "rank": 1,
     "topics": [
       "Productivity",
-      "Developer Tools",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-03-29T07:15:34.181Z"
+    "fetchedAt": "2026-03-30T07:55:28.058Z"
   },
   "lastWeeklyUpdate": "2026-03-28T07:25:55.872Z",
   "anthropicNews": [
     {
-      "date": "Mar 27, 2026",
-      "title": "Claude Mythos Model Leaked: Next-Gen AI with Step Change in Capabilities",
-      "summary": "Anthropic testing new Claude Mythos model after accidental data leak; described as most capable model built to date with exceptional cybersecurity risks.",
+      "date": "Mar 26, 2026",
+      "title": "Claude Mythos model leaked, described as most capable ever",
+      "summary": "<cite index=\"6-2\">Claude Mythos represents a step change in AI performance and is the most capable Anthropic has built to date.</cite>",
       "url": "https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/"
     },
     {
+      "date": "Mar 27, 2026",
+      "title": "Anthropic throttles peak hour usage for all Claude plans",
+      "summary": "<cite index=\"20-3\">Anthropic limits sessions for users regardless of subscription level during peak weekday hours.</cite>",
+      "url": "https://gizmodo.com/anthropic-and-openai-just-gave-us-a-glimpse-into-the-future-of-model-pricing-2000739173"
+    },
+    {
+      "date": "Mar 11, 2026",
+      "title": "Anthropic launches Institute for societal AI impact research",
+      "summary": "<cite index=\"23-20,23-21\">Anthropic introduced The Anthropic Institute, a research arm focused on societal AI challenges, led by co-founder Jack Clark as Head of Public Benefit.</cite>",
+      "url": "https://www.eweek.com/news/anthropic-institute-launch-march-2026/"
+    },
+    {
+      "date": "Mar 9, 2026",
+      "title": "Microsoft integrates Claude Sonnet into Microsoft 365 Copilot",
+      "summary": "<cite index=\"4-1\">Microsoft announced it will make the latest Claude Sonnet model available to Microsoft 365 Copilot users.</cite>",
+      "url": "https://en.wikipedia.org/wiki/Claude_(language_model)"
+    },
+    {
       "date": "Mar 26, 2026",
-      "title": "Judge Blocks Trump Admin's Anthropic Supply Chain Risk Ban",
-      "summary": "Federal judge grants preliminary injunction against Defense Department's ban on Claude, calling it likely First Amendment retaliation.",
-      "url": "https://www.cnbc.com/2026/03/26/anthropic-pentagon-dod-claude-court-ruling.html"
-    },
-    {
-      "date": "Mar 25, 2026",
-      "title": "Claude Adds Computer Use in Cowork and Code for Pro/Max Users",
-      "summary": "Pro and Max plan users can now give Claude access to computer use capabilities for desktop automation and task completion.",
-      "url": "https://www.anthropic.com/"
-    },
-    {
-      "date": "Mar 25, 2026",
-      "title": "Claude Mobile App Gets Interactive Apps for iOS and Android",
-      "summary": "Claude mobile app now supports fully interactive apps with live charts, diagrams, and shareable visual assets in conversations.",
-      "url": "https://releasebot.io/updates/anthropic"
-    },
-    {
-      "date": "Mar 13, 2026",
-      "title": "1M Token Context Window Now at Standard Pricing for Opus/Sonnet",
-      "summary": "Anthropic removes long-context surcharges; 1M token context available at standard per-token rates for Opus 4.6 and Sonnet 4.6.",
-      "url": "https://thenewstack.io/claude-million-token-pricing/"
-    },
-    {
-      "date": "Feb 17, 2026",
-      "title": "Claude Sonnet 4.6 Launched: Best Model for Agents and Coding",
-      "summary": "New balanced model with improved agentic capabilities, coding performance, and 1M token context window in beta.",
-      "url": "https://releasebot.io/updates/anthropic/claude"
+      "title": "Claude Code adds Windows PowerShell support, faster startup",
+      "summary": "<cite index=\"2-1\">Claude Code adds Windows PowerShell preview, richer admin and MCP controls, faster startup and caching.</cite>",
+      "url": "https://releasebot.io/updates/anthropic/claude-code"
     }
   ],
-  "lastChecked": "2026-03-29T07:15:53.051Z"
+  "lastChecked": "2026-03-30T07:55:45.341Z"
 }
