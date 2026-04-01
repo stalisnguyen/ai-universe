@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-30T07:55:45.341Z",
+  "lastUpdated": "2026-04-01T07:45:57.275Z",
   "categories": [
     {
       "id": "llm",
@@ -8561,56 +8561,57 @@
     }
   ],
   "totw": {
-    "name": "Agentplace AI Agents",
-    "tagline": "Create specialized AI agents for real tasks and workflows",
-    "votesCount": 699,
-    "url": "https://www.producthunt.com/products/agentplace?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
-    "thumbnail": "https://ph-files.imgix.net/a2d767c5-498a-410b-8ef1-b7a9831f0b56.jpeg?auto=format",
+    "name": "Littlebird",
+    "tagline": "The AI assistant that already knows your work",
+    "votesCount": 693,
+    "url": "https://www.producthunt.com/products/littlebird?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
+    "thumbnail": "https://ph-files.imgix.net/b452bcf1-1bad-41dd-9dcf-92ed7cf31548.png?auto=format",
     "rank": 1,
     "topics": [
-      "Productivity",
-      "Artificial Intelligence"
+      "Meetings",
+      "Artificial Intelligence",
+      "Virtual Assistants"
     ],
-    "fetchedAt": "2026-03-31T07:40:25.162Z"
+    "fetchedAt": "2026-04-01T07:45:40.610Z"
   },
   "lastWeeklyUpdate": "2026-03-28T07:25:55.872Z",
   "anthropicNews": [
     {
       "date": "Mar 26, 2026",
-      "title": "Claude Mythos Model Accidentally Leaked via Data Exposure",
-      "summary": "<cite index=\"3-3\">Anthropic revealed a new AI model more capable than any released previously after a data leak exposed internal documents.</cite>",
+      "title": "Claude Mythos model revealed via data leak",
+      "summary": "Anthropic accidentally exposed details of Claude Mythos, its most powerful model yet, in unsecured files.",
       "url": "https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/"
     },
     {
       "date": "Mar 23, 2026",
-      "title": "Claude Launches Computer Use Feature in Research Preview",
-      "summary": "<cite index=\"4-13\">Computer use rolled out as a research preview for Pro and Max — Claude can open apps, click, type, and navigate your Mac screen.</cite>",
-      "url": "https://thenewstack.io/anthropic-march-2026-roundup/"
+      "title": "Claude gains computer use capability",
+      "summary": "Claude Code and Cowork now can use your computer to open files, run tools, and browse.",
+      "url": "https://www.engadget.com/ai/claude-code-and-cowork-can-now-use-your-computer-210000126.html"
     },
     {
-      "date": "Feb 17, 2026",
-      "title": "Sonnet 4.6 Released with Major Performance Upgrades",
-      "summary": "<cite index=\"2-21,2-22\">Launched most capable Sonnet model with full upgrade across coding, computer use, and long-context reasoning, featuring a 1M token context window in beta.</cite>",
-      "url": "https://releasebot.io/updates/anthropic/claude"
-    },
-    {
-      "date": "Feb 5, 2026",
-      "title": "Opus 4.6 Released: Industry-Leading Model for Enterprise",
-      "summary": "<cite index=\"6-8,6-9\">Anthropic upgraded its smartest model with stronger performance across agentic coding, computer use, tool use, search, and finance.</cite>",
+      "date": "Mar 18, 2026",
+      "title": "Anthropic releases AI user study with 81K participants",
+      "summary": "Large multilingual qualitative study exploring how Claude.ai users think about AI capabilities and risks.",
       "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Mar 15, 2026",
-      "title": "Million-Token Context Window Now at Standard Pricing",
-      "summary": "<cite index=\"25-3\">Anthropic removes long-context pricing surcharge for Claude Opus 4.6 and Sonnet 4.6, making 1-million-token context windows available at standard per-token rates.</cite>",
-      "url": "https://thenewstack.io/claude-million-token-pricing/"
+      "date": "Mar 12, 2026",
+      "title": "Anthropic invests $100M in Claude Partner Network",
+      "summary": "Company announces major investment to expand Claude's adoption among business partners.",
+      "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Mar 25, 2026",
-      "title": "Claude Code Hits Web and Mobile with 300% Growth",
-      "summary": "<cite index=\"4-13\">Claude Code hit web and mobile, letting developers kick off parallel coding workflows from Claude.ai on Anthropic-managed instances.</cite>",
-      "url": "https://thenewstack.io/anthropic-march-2026-roundup/"
+      "date": "Mar 11, 2026",
+      "title": "Anthropic Institute launched",
+      "summary": "New institute announced to advance AI safety, policy and societal impact research.",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Mar 10, 2026",
+      "title": "Anthropic opens Sydney office in Asia-Pacific",
+      "summary": "Fourth Asia-Pacific office established as company expands global presence.",
+      "url": "https://www.anthropic.com/news"
     }
   ],
-  "lastChecked": "2026-03-31T07:40:40.324Z"
+  "lastChecked": "2026-04-01T07:45:57.275Z"
 }
