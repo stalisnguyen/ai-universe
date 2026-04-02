@@ -8561,57 +8561,57 @@
     }
   ],
   "totw": {
-    "name": "Littlebird",
-    "tagline": "The AI assistant that already knows your work",
-    "votesCount": 693,
-    "url": "https://www.producthunt.com/products/littlebird?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
-    "thumbnail": "https://ph-files.imgix.net/b452bcf1-1bad-41dd-9dcf-92ed7cf31548.png?auto=format",
+    "name": "Notion MCP",
+    "tagline": "Your Notion workspace, inside every AI agent",
+    "votesCount": 481,
+    "url": "https://www.producthunt.com/products/notion-mcp?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
+    "thumbnail": "https://ph-files.imgix.net/9e4699b7-812e-4bd7-8bc8-1bff4a763153.jpeg?auto=format",
     "rank": 1,
     "topics": [
-      "Meetings",
+      "Productivity",
       "Artificial Intelligence",
-      "Virtual Assistants"
+      "Notion"
     ],
-    "fetchedAt": "2026-04-01T07:45:40.610Z"
+    "fetchedAt": "2026-04-02T07:25:03.764Z"
   },
   "lastWeeklyUpdate": "2026-03-28T07:25:55.872Z",
   "anthropicNews": [
     {
-      "date": "Mar 26, 2026",
-      "title": "Claude Mythos model revealed via data leak",
-      "summary": "Anthropic accidentally exposed details of Claude Mythos, its most powerful model yet, in unsecured files.",
+      "date": "Apr 1, 2026",
+      "title": "Claude Code Source Code Accidentally Released",
+      "summary": "Anthropic inadvertently leaked internal source code for Claude Code in a release, raising security concerns despite no customer data exposure.",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-01/anthropic-accidentally-releases-source-code-for-claude-ai-agent"
+    },
+    {
+      "date": "Mar 27, 2026",
+      "title": "Claude Mythos Model Leaked in Data Cache Incident",
+      "summary": "<cite index=\"12-7\">Anthropic is testing a new model called Claude Mythos representing \"a step change\" in AI performance and is \"the most capable we've built to date.\"</cite>",
       "url": "https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/"
     },
     {
-      "date": "Mar 23, 2026",
-      "title": "Claude gains computer use capability",
-      "summary": "Claude Code and Cowork now can use your computer to open files, run tools, and browse.",
-      "url": "https://www.engadget.com/ai/claude-code-and-cowork-can-now-use-your-computer-210000126.html"
-    },
-    {
-      "date": "Mar 18, 2026",
-      "title": "Anthropic releases AI user study with 81K participants",
-      "summary": "Large multilingual qualitative study exploring how Claude.ai users think about AI capabilities and risks.",
+      "date": "Feb 17, 2026",
+      "title": "Claude Sonnet 4.6 Launched with 1M Token Context",
+      "summary": "<cite index=\"1-7\">Sonnet 4.6 delivers frontier performance across coding, agents, and professional work at scale.</cite>",
       "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Mar 12, 2026",
-      "title": "Anthropic invests $100M in Claude Partner Network",
-      "summary": "Company announces major investment to expand Claude's adoption among business partners.",
+      "date": "Feb 5, 2026",
+      "title": "Claude Opus 4.6 Released with Major Upgrades",
+      "summary": "<cite index=\"1-9\">Opus 4.6 is an industry-leading model for agentic coding, computer use, tool use, search, and finance, often by wide margin.</cite>",
       "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Mar 11, 2026",
-      "title": "Anthropic Institute launched",
-      "summary": "New institute announced to advance AI safety, policy and societal impact research.",
+      "date": "Feb 4, 2026",
+      "title": "Claude to Remain Ad-Free Going Forward",
+      "summary": "<cite index=\"1-2\">Anthropic explains why advertising incentives are incompatible with a genuinely helpful AI assistant, and how it plans to expand access without compromising user trust.</cite>",
       "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Mar 10, 2026",
-      "title": "Anthropic opens Sydney office in Asia-Pacific",
-      "summary": "Fourth Asia-Pacific office established as company expands global presence.",
-      "url": "https://www.anthropic.com/news"
+      "date": "Jan 22, 2026",
+      "title": "New Claude Constitution Published with 23,000 Words",
+      "summary": "<cite index=\"2-1,2-4\">Anthropic published a new constitution for Claude describing its vision for the model's values and behavior as a holistic document explaining the context in which Claude operates.</cite>",
+      "url": "https://www.anthropic.com/news/claude-new-constitution"
     }
   ],
-  "lastChecked": "2026-04-01T07:45:57.275Z"
+  "lastChecked": "2026-04-02T07:25:20.232Z"
 }
