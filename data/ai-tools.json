@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-01T07:45:57.275Z",
+  "lastUpdated": "2026-04-03T07:22:32.152Z",
   "categories": [
     {
       "id": "llm",
@@ -8563,7 +8563,7 @@
   "totw": {
     "name": "Notion MCP",
     "tagline": "Your Notion workspace, inside every AI agent",
-    "votesCount": 481,
+    "votesCount": 478,
     "url": "https://www.producthunt.com/products/notion-mcp?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/9e4699b7-812e-4bd7-8bc8-1bff4a763153.jpeg?auto=format",
     "rank": 1,
@@ -8572,46 +8572,46 @@
       "Artificial Intelligence",
       "Notion"
     ],
-    "fetchedAt": "2026-04-02T07:25:03.764Z"
+    "fetchedAt": "2026-04-03T07:22:11.342Z"
   },
   "lastWeeklyUpdate": "2026-03-28T07:25:55.872Z",
   "anthropicNews": [
     {
-      "date": "Apr 1, 2026",
-      "title": "Claude Code Source Code Accidentally Released",
-      "summary": "Anthropic inadvertently leaked internal source code for Claude Code in a release, raising security concerns despite no customer data exposure.",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-01/anthropic-accidentally-releases-source-code-for-claude-ai-agent"
+      "date": "Mar 31, 2026",
+      "title": "Claude Code Source Code Leak in Release 2.1.88",
+      "summary": "<cite index=\"19-6\">~500,000 lines of code across 1,900 files were exposed in a Claude Code release</cite>, marking the second major security lapse in one week.",
+      "url": "https://fortune.com/2026/03/31/anthropic-source-code-claude-code-data-leak-second-security-lapse-days-after-accidentally-revealing-mythos/"
     },
     {
-      "date": "Mar 27, 2026",
-      "title": "Claude Mythos Model Leaked in Data Cache Incident",
-      "summary": "<cite index=\"12-7\">Anthropic is testing a new model called Claude Mythos representing \"a step change\" in AI performance and is \"the most capable we've built to date.\"</cite>",
+      "date": "Mar 26, 2026",
+      "title": "Claude Mythos Model Revealed in Data Leak",
+      "summary": "<cite index=\"12-3,12-4\">Anthropic revealed a new model called Claude Mythos that represents \"a step change\" in AI performance and the company believes poses unprecedented cybersecurity risks</cite>.",
       "url": "https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/"
     },
     {
+      "date": "Mar 26, 2026",
+      "title": "Federal Judge Grants Anthropic Injunction Against Trump Ban",
+      "summary": "<cite index=\"18-4\">US District Judge Rita F. Lin issued a preliminary injunction pausing the administration's plan to sever all ties with Anthropic</cite> after the DOD designated it a supply chain risk.",
+      "url": "https://www.bloomberg.com/news/articles/2026-03-26/anthropic-wins-court-order-blocking-trump-ban-on-use-of-ai-tool"
+    },
+    {
+      "date": "Mar 12, 2026",
+      "title": "Anthropic Invests $100M in Claude Partner Network",
+      "summary": "<cite index=\"11-1\">Anthropic announces investment of $100 million into the Claude Partner Network</cite> to expand enterprise adoption.",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Mar 5, 2026",
+      "title": "Anthropic Raises Max Output to 300K Tokens for Batches",
+      "summary": "<cite index=\"3-6,3-7\">Anthropic raised the max_tokens cap to 300k on the Message Batches API for Claude Opus 4.6 and Sonnet 4.6 for long-form content and code generation tasks</cite>.",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview"
+    },
+    {
       "date": "Feb 17, 2026",
-      "title": "Claude Sonnet 4.6 Launched with 1M Token Context",
-      "summary": "<cite index=\"1-7\">Sonnet 4.6 delivers frontier performance across coding, agents, and professional work at scale.</cite>",
+      "title": "Claude Sonnet 4.6 Released for Production Use",
+      "summary": "<cite index=\"6-7\">Sonnet 4.6 delivers frontier performance across coding, agents, and professional work at scale</cite> as Anthropic's balanced performance model.",
       "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "Feb 5, 2026",
-      "title": "Claude Opus 4.6 Released with Major Upgrades",
-      "summary": "<cite index=\"1-9\">Opus 4.6 is an industry-leading model for agentic coding, computer use, tool use, search, and finance, often by wide margin.</cite>",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "Feb 4, 2026",
-      "title": "Claude to Remain Ad-Free Going Forward",
-      "summary": "<cite index=\"1-2\">Anthropic explains why advertising incentives are incompatible with a genuinely helpful AI assistant, and how it plans to expand access without compromising user trust.</cite>",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "Jan 22, 2026",
-      "title": "New Claude Constitution Published with 23,000 Words",
-      "summary": "<cite index=\"2-1,2-4\">Anthropic published a new constitution for Claude describing its vision for the model's values and behavior as a holistic document explaining the context in which Claude operates.</cite>",
-      "url": "https://www.anthropic.com/news/claude-new-constitution"
     }
   ],
-  "lastChecked": "2026-04-02T07:25:20.232Z"
+  "lastChecked": "2026-04-03T07:22:32.152Z"
 }
