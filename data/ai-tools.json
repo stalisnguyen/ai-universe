@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-05T07:38:25.426Z",
+  "lastUpdated": "2026-04-06T07:57:03.337Z",
   "categories": [
     {
       "id": "llm",
@@ -8761,57 +8761,56 @@
     }
   ],
   "totw": {
-    "name": "Noiz Easter Voice",
-    "tagline": "Crack an Easter egg to generate an AI voice",
-    "votesCount": 479,
-    "url": "https://www.producthunt.com/products/noiz-studio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
-    "thumbnail": "https://ph-files.imgix.net/9e2393ae-8f49-438e-8c01-a9f0e0d485e6.jpeg?auto=format",
+    "name": "Influcio",
+    "tagline": "AI marketing Agent for result-driven influencer campaign",
+    "votesCount": 523,
+    "url": "https://www.producthunt.com/products/influcio-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
+    "thumbnail": "https://ph-files.imgix.net/2f580d68-f843-46a9-acc4-effa56ac2b4a.png?auto=format",
     "rank": 1,
     "topics": [
-      "Emoji",
-      "Artificial Intelligence",
-      "Audio"
+      "Marketing",
+      "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-04-05T07:18:33.088Z"
+    "fetchedAt": "2026-04-06T07:56:44.545Z"
   },
   "lastWeeklyUpdate": "2026-04-05T07:36:38.810Z",
   "anthropicNews": [
     {
-      "date": "Feb 17, 2026",
-      "title": "Claude Sonnet 4.6 launched with 1M token context",
-      "summary": "<cite index=\"1-6\">Sonnet 4.6 delivers frontier performance across coding, agents, and professional work at scale</cite>.",
-      "url": "https://www.anthropic.com/news"
+      "date": "Apr 02, 2026",
+      "title": "Anthropic acquires AI biotech startup Coefficient Bio",
+      "summary": "Anthropic acquired AI biotech startup Coefficient Bio for ~$400M to strengthen healthcare and life sciences tools.",
+      "url": "https://www.theinformation.com/topics/anthropic"
     },
     {
-      "date": "Feb 5, 2026",
-      "title": "Claude Opus 4.6 released with advanced capabilities",
-      "summary": "<cite index=\"1-8\">Across agentic coding, computer use, tool use, search, and finance, Opus 4.6 is an industry-leading model, often by wide margin</cite>.",
+      "date": "Mar 31, 2026",
+      "title": "Australian government and Anthropic sign AI safety MOU",
+      "summary": "Australia and Anthropic formalize partnership on AI safety research and collaboration.",
       "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "Feb 4, 2026",
-      "title": "Anthropic commits Claude will remain ad-free",
-      "summary": "<cite index=\"1-2\">Advertising incentives are incompatible with a genuinely helpful AI assistant, and how we plan to expand access without compromising user trust</cite>.",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "Mar 24, 2026",
-      "title": "Claude computer use capability now available",
-      "summary": "<cite index=\"5-11,5-12\">Claude can open files, run dev tools, point, click, and navigate to what's on your screen to perform tasks itself—with no setup required. Claude's new computer use capability makes Dispatch even more helpful by allowing it to use your computer on your behalf while you're away</cite>.",
-      "url": "https://www.cnbc.com/2026/03/24/anthropic-claude-ai-agent-use-computer-finish-tasks.html"
     },
     {
       "date": "Mar 26, 2026",
-      "title": "Claude Mythos model revealed in data leak",
-      "summary": "<cite index=\"9-1\">An Anthropic spokesperson said the new model represents 'a step change' in AI performance and is 'the most capable we've built to date.' The company said the model is currently being trialed by 'early access customers'</cite>.",
+      "title": "Claude Mythos testing revealed via accidental data leak",
+      "summary": "<cite index=\"5-2,5-3\">Anthropic disclosed testing of new AI model Claude Mythos, described as a \"step change\" in performance and the most capable built to date.</cite>",
       "url": "https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/"
     },
     {
-      "date": "Jan 22, 2026",
-      "title": "Anthropic publishes new constitution for Claude",
-      "summary": "<cite index=\"6-3,6-4\">Anthropic is publishing a new constitution for its AI model, Claude. It's a detailed description of Anthropic's vision for Claude's values and behavior; a holistic document that explains the context in which Claude operates and the kind of entity we would like Claude to be</cite>.",
-      "url": "https://www.anthropic.com/news/claude-new-constitution"
+      "date": "Mar 12, 2026",
+      "title": "Anthropic invests $100M into Claude Partner Network",
+      "summary": "Anthropic announces $100 million investment to expand Claude Partner Network ecosystem.",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Feb 17, 2026",
+      "title": "Claude Sonnet 4.6 released with frontier capabilities",
+      "summary": "<cite index=\"4-45\">Claude Sonnet 4.6 released on Feb 17, 2026, priced same as Sonnet 4.5.</cite>",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Feb 05, 2026",
+      "title": "Claude Opus 4.6 launched with 1M token context window",
+      "summary": "<cite index=\"4-42,4-43\">Claude Opus 4.6 released with agent team and Claude in PowerPoint features.</cite>",
+      "url": "https://www.anthropic.com/news"
     }
   ],
-  "lastChecked": "2026-04-05T07:38:25.426Z"
+  "lastChecked": "2026-04-06T07:57:03.337Z"
 }
