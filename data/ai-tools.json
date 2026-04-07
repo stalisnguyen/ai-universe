@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-06T07:57:03.337Z",
+  "lastUpdated": "2026-04-07T07:44:29.711Z",
   "categories": [
     {
       "id": "llm",
@@ -8763,7 +8763,7 @@
   "totw": {
     "name": "Influcio",
     "tagline": "AI marketing Agent for result-driven influencer campaign",
-    "votesCount": 523,
+    "votesCount": 533,
     "url": "https://www.producthunt.com/products/influcio-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/2f580d68-f843-46a9-acc4-effa56ac2b4a.png?auto=format",
     "rank": 1,
@@ -8771,46 +8771,46 @@
       "Marketing",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-04-06T07:56:44.545Z"
+    "fetchedAt": "2026-04-07T07:44:10.638Z"
   },
   "lastWeeklyUpdate": "2026-04-05T07:36:38.810Z",
   "anthropicNews": [
     {
-      "date": "Apr 02, 2026",
-      "title": "Anthropic acquires AI biotech startup Coefficient Bio",
-      "summary": "Anthropic acquired AI biotech startup Coefficient Bio for ~$400M to strengthen healthcare and life sciences tools.",
-      "url": "https://www.theinformation.com/topics/anthropic"
+      "date": "Apr 4, 2026",
+      "title": "Anthropic changes Claude Code pricing for third-party tools",
+      "summary": "Starting April 4, Claude Code subscribers must pay separately for third-party tools like OpenClaw instead of using subscriptions.",
+      "url": "https://techcrunch.com/2026/04/04/anthropic-says-claude-code-subscribers-will-need-to-pay-extra-for-openclaw-support/"
     },
     {
       "date": "Mar 31, 2026",
-      "title": "Australian government and Anthropic sign AI safety MOU",
-      "summary": "Australia and Anthropic formalize partnership on AI safety research and collaboration.",
+      "title": "Australian government and Anthropic sign MOU for AI safety",
+      "summary": "Anthropic and the Australian government announced a memorandum of understanding focused on AI safety and research collaboration.",
       "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Mar 26, 2026",
-      "title": "Claude Mythos testing revealed via accidental data leak",
-      "summary": "<cite index=\"5-2,5-3\">Anthropic disclosed testing of new AI model Claude Mythos, described as a \"step change\" in performance and the most capable built to date.</cite>",
+      "title": "Anthropic reveals Claude Mythos, most powerful AI model to date",
+      "summary": "<cite index=\"11-2,11-3\">Anthropic is developing and testing Claude Mythos, described as \"a step change\" in AI performance and \"the most capable we've built to date.\"</cite>",
       "url": "https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/"
     },
     {
       "date": "Mar 12, 2026",
-      "title": "Anthropic invests $100M into Claude Partner Network",
-      "summary": "Anthropic announces $100 million investment to expand Claude Partner Network ecosystem.",
+      "title": "Anthropic invests $100 million in Claude Partner Network",
+      "summary": "Anthropic announced a $100 million investment initiative to support and expand its Claude Partner Network ecosystem.",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Mar 11, 2026",
+      "title": "Anthropic launches The Anthropic Institute for AI research",
+      "summary": "Anthropic introduced The Anthropic Institute as a new division dedicated to AI safety and research initiatives.",
       "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Feb 17, 2026",
-      "title": "Claude Sonnet 4.6 released with frontier capabilities",
-      "summary": "<cite index=\"4-45\">Claude Sonnet 4.6 released on Feb 17, 2026, priced same as Sonnet 4.5.</cite>",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "Feb 05, 2026",
-      "title": "Claude Opus 4.6 launched with 1M token context window",
-      "summary": "<cite index=\"4-42,4-43\">Claude Opus 4.6 released with agent team and Claude in PowerPoint features.</cite>",
-      "url": "https://www.anthropic.com/news"
+      "title": "Claude Sonnet 4.6 released with enhanced capabilities",
+      "summary": "<cite index=\"4-21,4-22\">Anthropic launched Claude Sonnet 4.6 with upgrades across coding, computer use, and long-context reasoning, featuring a 1M token context window in beta.</cite>",
+      "url": "https://www.anthropic.com/news/introducing-claude-sonnet-4-6"
     }
   ],
-  "lastChecked": "2026-04-06T07:57:03.337Z"
+  "lastChecked": "2026-04-07T07:44:29.711Z"
 }
