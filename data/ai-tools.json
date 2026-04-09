@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-08T07:47:43.838Z",
+  "lastUpdated": "2026-04-09T07:50:11.885Z",
   "categories": [
     {
       "id": "llm",
@@ -8761,56 +8761,51 @@
     }
   ],
   "totw": {
-    "name": "Influcio",
-    "tagline": "AI marketing Agent for result-driven influencer campaign",
-    "votesCount": 530,
-    "url": "https://www.producthunt.com/products/influcio-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
-    "thumbnail": "https://ph-files.imgix.net/2f580d68-f843-46a9-acc4-effa56ac2b4a.png?auto=format",
+    "name": "NovaVoice",
+    "tagline": "Smart dictation, AI assistant, + app control via voice",
+    "votesCount": 564,
+    "url": "https://www.producthunt.com/products/novavoice?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
+    "thumbnail": "https://ph-files.imgix.net/b80faac0-f678-4432-b65f-7b9321d45065.png?auto=format",
     "rank": 1,
     "topics": [
-      "Marketing",
+      "Productivity",
+      "Writing",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-04-08T07:47:26.062Z"
+    "fetchedAt": "2026-04-09T07:49:55.376Z"
   },
   "lastWeeklyUpdate": "2026-04-05T07:36:38.810Z",
   "anthropicNews": [
     {
       "date": "Apr 7, 2026",
-      "title": "Claude Mythos Preview & Project Glasswing Launch",
-      "summary": "Anthropic announced Claude Mythos Preview with advanced cybersecurity capabilities and Project Glasswing initiative with major tech partners.",
+      "title": "Claude Mythos Preview and Project Glasswing announced",
+      "summary": "Anthropic unveils Claude Mythos, a specialized model for cybersecurity discovering thousands of zero-days.",
       "url": "https://red.anthropic.com/2026/mythos-preview/"
     },
     {
-      "date": "Apr 6, 2026",
-      "title": "Broadcom Expands Partnership with Google and Anthropic",
-      "summary": "Broadcom announced expanded computing capacity deal with Anthropic providing 3.5 gigawatts of Google AI processor access.",
-      "url": "https://www.cnbc.com/2026/04/06/broadcom-agrees-to-expanded-chip-deals-with-google-anthropic.html"
+      "date": "Apr 4, 2026",
+      "title": "Claude Code pricing change for third-party tools",
+      "summary": "Anthropic restricts Claude subscriptions from third-party agents like OpenClaw, requiring separate pay-as-you-go billing.",
+      "url": "https://techcrunch.com/2026/04/04/anthropic-says-claude-code-subscribers-will-need-to-pay-extra-for-openclaw-support/"
     },
     {
-      "date": "Mar 25, 2026",
-      "title": "Interactive Apps Launch for Claude Mobile",
-      "summary": "Claude iOS and Android apps now support interactive apps with live charts, diagrams, and shareable visuals in conversations.",
-      "url": "https://releasebot.io/updates/anthropic/claude"
+      "date": "Mar 31, 2026",
+      "title": "Economic Index research on Australia's Claude adoption",
+      "summary": "Anthropic publishes research findings on how Australia uses Claude across industries.",
+      "url": "https://www.anthropic.com/research"
     },
     {
-      "date": "Mar 23, 2026",
-      "title": "Computer Use Feature in Claude Cowork and Claude Code",
-      "summary": "Claude adds computer use capability to Cowork and Claude Code for Pro and Max users, enabling direct screen interaction.",
-      "url": "https://releasebot.io/updates/anthropic/claude"
+      "date": "Mar 11, 2026",
+      "title": "Anthropic Institute launched for AI societal impact research",
+      "summary": "New research institute led by Jack Clark studies AI's impact on jobs, security, law, and society.",
+      "url": "https://www.anthropic.com/news/the-anthropic-institute"
     },
     {
-      "date": "Feb 25, 2026",
-      "title": "Anthropic Acquires Vercept",
-      "summary": "Anthropic acquires Vercept to advance Claude's computer use capabilities and AI automation features.",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "Feb 17, 2026",
-      "title": "Claude Sonnet 4.6 Release with 1M Token Context",
-      "summary": "Sonnet 4.6 launches as most capable balanced model with improved coding and agent performance at same pricing.",
-      "url": "https://www.anthropic.com/news"
+      "date": "Mar 5, 2026",
+      "title": "AI labor market impact research framework published",
+      "summary": "<cite index=\"29-1,29-6\">Anthropic releases framework tracking AI's impact on jobs, identifying computer programmers as 75% exposed to automation</cite>.",
+      "url": "https://www.axios.com/2026/03/05/anthropic-ai-jobs-claude"
     }
   ],
-  "lastChecked": "2026-04-08T07:47:43.838Z"
+  "lastChecked": "2026-04-09T07:50:11.885Z"
 }
