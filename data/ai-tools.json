@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-09T07:50:11.885Z",
+  "lastUpdated": "2026-04-10T07:53:36.576Z",
   "categories": [
     {
       "id": "llm",
@@ -8761,51 +8761,57 @@
     }
   ],
   "totw": {
-    "name": "NovaVoice",
-    "tagline": "Smart dictation, AI assistant, + app control via voice",
-    "votesCount": 564,
-    "url": "https://www.producthunt.com/products/novavoice?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
-    "thumbnail": "https://ph-files.imgix.net/b80faac0-f678-4432-b65f-7b9321d45065.png?auto=format",
+    "name": "Brila",
+    "tagline": "One-page websites from real Google Maps reviews",
+    "votesCount": 1147,
+    "url": "https://www.producthunt.com/products/brila-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
+    "thumbnail": "https://ph-files.imgix.net/6e8a39c7-ec23-46e5-9962-0ad93d097fc0.png?auto=format",
     "rank": 1,
     "topics": [
-      "Productivity",
-      "Writing",
-      "Artificial Intelligence"
+      "Website Builder",
+      "Artificial Intelligence",
+      "Alpha"
     ],
-    "fetchedAt": "2026-04-09T07:49:55.376Z"
+    "fetchedAt": "2026-04-10T07:53:16.529Z"
   },
   "lastWeeklyUpdate": "2026-04-05T07:36:38.810Z",
   "anthropicNews": [
     {
+      "date": "Apr 9, 2026",
+      "title": "Claude Cowork now generally available for Mac/Windows",
+      "summary": "<cite index=\"10-1\">Claude Cowork for macOS and Windows is now generally available for all paid subscribers</cite>.",
+      "url": "https://9to5mac.com/2026/04/09/anthropic-scales-up-with-enterprise-features-for-claude-cowork-and-managed-agents/"
+    },
+    {
       "date": "Apr 7, 2026",
-      "title": "Claude Mythos Preview and Project Glasswing announced",
-      "summary": "Anthropic unveils Claude Mythos, a specialized model for cybersecurity discovering thousands of zero-days.",
+      "title": "Claude Mythos Preview launches for cybersecurity work",
+      "summary": "<cite index=\"6-1,6-2\">Claude Mythos Preview is a new general-purpose language model strikingly capable at computer security tasks</cite>.",
       "url": "https://red.anthropic.com/2026/mythos-preview/"
     },
     {
-      "date": "Apr 4, 2026",
-      "title": "Claude Code pricing change for third-party tools",
-      "summary": "Anthropic restricts Claude subscriptions from third-party agents like OpenClaw, requiring separate pay-as-you-go billing.",
-      "url": "https://techcrunch.com/2026/04/04/anthropic-says-claude-code-subscribers-will-need-to-pay-extra-for-openclaw-support/"
+      "date": "Apr 6, 2026",
+      "title": "Anthropic expands partnership with Google and Broadcom",
+      "summary": "<cite index=\"8-4,8-5\">Demand from Claude customers has accelerated in 2026 with run-rate revenue surpassing $30 billion</cite>.",
+      "url": "https://www.anthropic.com/news/google-broadcom-partnership-compute"
     },
     {
       "date": "Mar 31, 2026",
-      "title": "Economic Index research on Australia's Claude adoption",
-      "summary": "Anthropic publishes research findings on how Australia uses Claude across industries.",
-      "url": "https://www.anthropic.com/research"
+      "title": "Australian government signs AI safety MOU with Anthropic",
+      "summary": "Anthropic partnership focuses on AI safety and research collaboration with the Australian government.",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Mar 12, 2026",
+      "title": "Anthropic invests $100M into Claude Partner Network",
+      "summary": "Anthropic announces major investment to expand Claude partnership ecosystem.",
+      "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Mar 11, 2026",
-      "title": "Anthropic Institute launched for AI societal impact research",
-      "summary": "New research institute led by Jack Clark studies AI's impact on jobs, security, law, and society.",
-      "url": "https://www.anthropic.com/news/the-anthropic-institute"
-    },
-    {
-      "date": "Mar 5, 2026",
-      "title": "AI labor market impact research framework published",
-      "summary": "<cite index=\"29-1,29-6\">Anthropic releases framework tracking AI's impact on jobs, identifying computer programmers as 75% exposed to automation</cite>.",
-      "url": "https://www.axios.com/2026/03/05/anthropic-ai-jobs-claude"
+      "title": "Introducing The Anthropic Institute",
+      "summary": "Anthropic launches new institute to advance AI research and safety initiatives.",
+      "url": "https://www.anthropic.com/news"
     }
   ],
-  "lastChecked": "2026-04-09T07:50:11.885Z"
+  "lastChecked": "2026-04-10T07:53:36.576Z"
 }
