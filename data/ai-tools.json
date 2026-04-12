@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-10T07:53:36.576Z",
+  "lastUpdated": "2026-04-12T07:25:27.341Z",
   "categories": [
     {
       "id": "llm",
@@ -8763,7 +8763,7 @@
   "totw": {
     "name": "Brila",
     "tagline": "One-page websites from real Google Maps reviews",
-    "votesCount": 1147,
+    "votesCount": 1206,
     "url": "https://www.producthunt.com/products/brila-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/6e8a39c7-ec23-46e5-9962-0ad93d097fc0.png?auto=format",
     "rank": 1,
@@ -8772,46 +8772,46 @@
       "Artificial Intelligence",
       "Alpha"
     ],
-    "fetchedAt": "2026-04-10T07:53:16.529Z"
+    "fetchedAt": "2026-04-12T07:25:09.677Z"
   },
   "lastWeeklyUpdate": "2026-04-05T07:36:38.810Z",
   "anthropicNews": [
     {
       "date": "Apr 9, 2026",
-      "title": "Claude Cowork now generally available for Mac/Windows",
-      "summary": "<cite index=\"10-1\">Claude Cowork for macOS and Windows is now generally available for all paid subscribers</cite>.",
-      "url": "https://9to5mac.com/2026/04/09/anthropic-scales-up-with-enterprise-features-for-claude-cowork-and-managed-agents/"
+      "title": "Claude Mythos Preview launched with Project Glasswing",
+      "summary": "Anthropic released gated preview of frontier model excelling at cybersecurity, identifying thousands of zero-day vulnerabilities in major operating systems.",
+      "url": "https://anthropic.com/glasswing"
     },
     {
-      "date": "Apr 7, 2026",
-      "title": "Claude Mythos Preview launches for cybersecurity work",
-      "summary": "<cite index=\"6-1,6-2\">Claude Mythos Preview is a new general-purpose language model strikingly capable at computer security tasks</cite>.",
-      "url": "https://red.anthropic.com/2026/mythos-preview/"
+      "date": "Apr 9, 2026",
+      "title": "Claude Cowork goes generally available with new features",
+      "summary": "Claude Cowork desktop app released on macOS/Windows with analytics API, OpenTelemetry support, and role-based access controls.",
+      "url": "https://releasebot.io/updates/anthropic/claude"
     },
     {
-      "date": "Apr 6, 2026",
-      "title": "Anthropic expands partnership with Google and Broadcom",
-      "summary": "<cite index=\"8-4,8-5\">Demand from Claude customers has accelerated in 2026 with run-rate revenue surpassing $30 billion</cite>.",
-      "url": "https://www.anthropic.com/news/google-broadcom-partnership-compute"
+      "date": "Apr 4, 2026",
+      "title": "Anthropic restricts unlimited Claude access for AI agents",
+      "summary": "Users of third-party tools like OpenClaw must switch to pay-as-you-go pricing; Anthropic cites engineering constraints from unprecedented agent demand.",
+      "url": "https://techcrunch.com/2026/04/04/anthropic-says-claude-code-subscribers-will-need-to-pay-extra-for-openclaw-support/"
     },
     {
-      "date": "Mar 31, 2026",
-      "title": "Australian government signs AI safety MOU with Anthropic",
-      "summary": "Anthropic partnership focuses on AI safety and research collaboration with the Australian government.",
-      "url": "https://www.anthropic.com/news"
+      "date": "Feb 20, 2026",
+      "title": "Claude Code Security tool detects zero-day vulnerabilities",
+      "summary": "<cite index=\"1-17,1-19\">Claude Code Security uses reasoning-based scanning to find vulnerabilities, with Anthropic's red team discovering over 500 in production open-source code.</cite>",
+      "url": "https://anthropic.com/research"
     },
     {
-      "date": "Mar 12, 2026",
-      "title": "Anthropic invests $100M into Claude Partner Network",
-      "summary": "Anthropic announces major investment to expand Claude partnership ecosystem.",
-      "url": "https://www.anthropic.com/news"
+      "date": "Feb 17, 2026",
+      "title": "Claude Sonnet 4.6 released with 1M token context",
+      "summary": "<cite index=\"7-5,7-7\">Anthropic released Claude Sonnet 4.6, the new default model significantly closing gap with Opus 4.6.</cite>",
+      "url": "https://anthropic.com/news"
     },
     {
-      "date": "Mar 11, 2026",
-      "title": "Introducing The Anthropic Institute",
-      "summary": "Anthropic launches new institute to advance AI research and safety initiatives.",
-      "url": "https://www.anthropic.com/news"
+      "date": "Feb 5, 2026",
+      "title": "Claude Opus 4.6 launched with 1M token context window",
+      "summary": "<cite index=\"1-1\">Anthropic officially launched Claude Opus 4.6, a serious leap forward in capabilities.</cite>",
+      "url": "https://anthropic.com/news"
     }
   ],
-  "lastChecked": "2026-04-10T07:53:36.576Z"
+  "lastChecked": "2026-04-12T07:25:27.341Z"
 }
