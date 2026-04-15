@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-13T08:37:17.159Z",
+  "lastUpdated": "2026-04-15T08:00:30.924Z",
   "categories": [
     {
       "id": "llm",
@@ -8937,7 +8937,7 @@
   "totw": {
     "name": "Brila",
     "tagline": "One-page websites from real Google Maps reviews",
-    "votesCount": 1228,
+    "votesCount": 1246,
     "url": "https://www.producthunt.com/products/brila-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/6e8a39c7-ec23-46e5-9962-0ad93d097fc0.png?auto=format",
     "rank": 1,
@@ -8946,46 +8946,46 @@
       "Artificial Intelligence",
       "Alpha"
     ],
-    "fetchedAt": "2026-04-14T07:59:08.819Z"
+    "fetchedAt": "2026-04-15T08:00:14.707Z"
   },
   "lastWeeklyUpdate": "2026-04-13T08:35:28.952Z",
   "anthropicNews": [
     {
       "date": "Apr 7, 2026",
-      "title": "Claude Mythos Preview & Project Glasswing Launch",
-      "summary": "<cite index=\"9-9,18-1\">Anthropic announced Claude Mythos Preview, a new frontier model for defensive cybersecurity work as part of Project Glasswing, with invitation-only access</cite>.",
+      "title": "Anthropic Announces Claude Mythos Preview",
+      "summary": "<cite index=\"6-1,6-2\">Anthropic announced Claude Mythos Preview, a new general-purpose language model that performs strongly across the board and is strikingly capable at computer security tasks.</cite>",
       "url": "https://red.anthropic.com/2026/mythos-preview/"
     },
     {
-      "date": "Apr 9, 2026",
-      "title": "Claude Cowork GA with Analytics & Admin Controls",
-      "summary": "<cite index=\"2-3\">Claude Cowork is now generally available on macOS and Windows in the Claude Desktop app with expanded analytics, OpenTelemetry support, and role-based access controls for Enterprise plans</cite>.",
-      "url": "https://releasebot.io/updates/anthropic/claude"
+      "date": "Apr 14, 2026",
+      "title": "Claude Remains Ad-Free, Anthropic Commitment",
+      "summary": "<cite index=\"7-1,7-2\">Anthropic chose to keep Claude ad-free, explaining that advertising incentives are incompatible with a genuinely helpful AI assistant.</cite>",
+      "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Apr 1-8, 2026",
-      "title": "Claude Managed Agents Public Beta & ant CLI Launch",
-      "summary": "<cite index=\"4-1,17-10\">Anthropic launched Claude Managed Agents in public beta, a fully managed agent harness for running Claude as an autonomous agent with secure sandboxing, built-in tools, and server-sent event streaming</cite>.",
-      "url": "https://platform.claude.com/docs/en/release-notes/overview"
+      "date": "Apr 6, 2026",
+      "title": "Google & Broadcom Partnership Expansion",
+      "summary": "<cite index=\"15-1\">Anthropic expanded partnership with Google and Broadcom for multiple gigawatts of next-generation compute.</cite>",
+      "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Apr 4, 2026",
-      "title": "Anthropic Restricts Unlimited Claude Access for AI Agents",
-      "summary": "<cite index=\"21-3,21-4\">Anthropic shut down unlimited Claude access for AI agents like OpenClaw, pushing users to pay-as-you-go pricing or direct API key connections</cite>.",
-      "url": "https://www.pymnts.com/artificial-intelligence-2/2026/third-party-agents-lose-access-as-anthropic-tightens-claude-usage-rules/"
+      "date": "Mar 31, 2026",
+      "title": "Australian Government AI Safety MOU",
+      "summary": "<cite index=\"15-1\">Australian government and Anthropic signed MOU for AI safety and research.</cite>",
+      "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Feb 17, 2026",
-      "title": "Claude Sonnet 4.6 Released with 1M Context",
-      "summary": "<cite index=\"6-5,6-7\">Anthropic released Claude Sonnet 4.6, the new default for most users that significantly closes the gap with Claude Opus 4.6</cite>.",
-      "url": "https://anthropic.com/"
+      "date": "Mar 11, 2026",
+      "title": "Anthropic Institute Launched",
+      "summary": "<cite index=\"20-13,20-14\">Anthropic introduced The Anthropic Institute, a new research arm focused on confronting societal challenges AI can impose, with co-founder Jack Clark as Head of Public Benefit.</cite>",
+      "url": "https://www.eweek.com/news/anthropic-institute-launch-march-2026/"
     },
     {
-      "date": "Mar 5, 2026",
-      "title": "Economic Research on AI Labor Market Impacts",
-      "summary": "<cite index=\"35-2,35-3\">Anthropic published a comprehensive economic research paper introducing a novel framework for measuring how artificial intelligence interacts with the workforce</cite>.",
-      "url": "https://www.anthropic.com/research"
+      "date": "Mar 12, 2026",
+      "title": "Claude Partner Network Investment",
+      "summary": "<cite index=\"15-1\">Anthropic invested $100 million into the Claude Partner Network.</cite>",
+      "url": "https://www.anthropic.com/news"
     }
   ],
-  "lastChecked": "2026-04-14T07:59:28.045Z"
+  "lastChecked": "2026-04-15T08:00:30.924Z"
 }
