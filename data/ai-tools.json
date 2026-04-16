@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-15T08:00:30.924Z",
+  "lastUpdated": "2026-04-16T08:01:15.374Z",
   "categories": [
     {
       "id": "llm",
@@ -8932,60 +8932,157 @@
           "fullDesc": "GPT-5是对GPT-4时代的决定性超越，拥有400K token上下文、原生多模态输入、计算机使用能力和可配置推理。GPT-5.4将编程和通用模型合二为一。"
         }
       }
+    },
+    {
+      "id": "sunday-robots",
+      "name": "Sunday Robots",
+      "company": "Sunday",
+      "category": "agent",
+      "icon": "🤖",
+      "badge": "hot",
+      "color": "#FFFFFF",
+      "price": "paid",
+      "priceLabel": "Under $10,000 at scale (TBA)",
+      "tags": [
+        "home-robotics",
+        "autonomous-agent",
+        "household-ai",
+        "embodied-ai"
+      ],
+      "shortDesc": "AI-powered household robot that learns from real-world human demonstrations to handle everyday chores autonomously.",
+      "fullDesc": "Sunday Robots (Memo) is an autonomous household robot engineered to help families with chores like dishes, laundry, and tidying. Trained on 10 million real-world household episodes from 500+ homes using the proprietary Skill Capture Glove, Memo learns human movements and replicates them with precision. The robot combines a stable wheeled base with dual grippers and AI models (ACT-1 foundation) to perform complex, multi-step tasks in unpredictable home environments.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Autonomous household robot with AI foundation model"
+        },
+        {
+          "label": "Released",
+          "value": "November 2025 (Beta: Late 2026)"
+        },
+        {
+          "label": "Best for",
+          "value": "Families seeking autonomous assistance with household chores"
+        },
+        {
+          "label": "Pricing",
+          "value": "Currently ~$20,000 to manufacture; targeting sub-$10,000 at scale; not yet available for purchase"
+        }
+      ],
+      "features": [
+        "Trained on 10 million real-world household episodes from 500+ homes using proprietary Skill Capture Glove",
+        "ACT-1 foundation model using imitation learning and diffusion policy for dexterous manipulation",
+        "Autonomous operation without teleoperation; learns directly from human demonstrations",
+        "Multi-gripper design with precision control for handling fragile items like wine glasses",
+        "Wheeled base with telescoping spine reaching 7 feet; stable and safe for families with children",
+        "Can perform dishes, laundry, espresso-making, table clearing, and multi-step household tasks",
+        "Soft silicone-clad design with passive stability (remains stable during power loss)",
+        "Skill Transform pipeline converts human glove data to robot-compatible actions with 90% success rate"
+      ],
+      "demo": [
+        {
+          "title": "Table Clearing and Dishwashing",
+          "desc": "Memo autonomously clears dining tables of plates, cups, delicate wine glasses, and food scraps, then loads and runs the dishwasher",
+          "code": ""
+        },
+        {
+          "title": "Laundry Folding",
+          "desc": "Memo can handle piles of socks and perform laundry folding tasks with improving reliability",
+          "code": ""
+        },
+        {
+          "title": "Coffee Preparation",
+          "desc": "Memo pulls espresso shots from machines with precise force control to achieve proper crema",
+          "code": ""
+        }
+      ],
+      "prompts": [],
+      "pricing": {
+        "note": "Sunday Robots (Memo) is currently in pre-commercial beta phase. The company targets a retail price under $10,000 at scale, down from current ~$20,000 hand-assembly costs. Beta program (50 households) launches late 2026 on invitation-only basis; full consumer availability expected post-beta.",
+        "plans": [
+          {
+            "name": "Founding Family Beta",
+            "price": "Invite-only",
+            "per": "2026 launch",
+            "popular": true,
+            "color": "#1F2937",
+            "features": [
+              "Early access to Memo robot in your home",
+              "Direct support from Sunday team",
+              "Shape future robot capabilities",
+              "Help validate real-world performance"
+            ]
+          },
+          {
+            "name": "Future Consumer Release",
+            "price": "Under $10,000",
+            "per": "estimated at scale",
+            "popular": false,
+            "color": "#6B7280",
+            "features": [
+              "Full commercial robot unit",
+              "Autonomous household assistance",
+              "Ongoing AI model updates",
+              "Professional support (TBA)"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.sundayrobotics.ai"
     }
   ],
   "totw": {
-    "name": "Brila",
-    "tagline": "One-page websites from real Google Maps reviews",
-    "votesCount": 1246,
-    "url": "https://www.producthunt.com/products/brila-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
-    "thumbnail": "https://ph-files.imgix.net/6e8a39c7-ec23-46e5-9962-0ad93d097fc0.png?auto=format",
+    "name": "Fathom 3.0",
+    "tagline": "AI meeting notes: now bot-free, in ChatGPT & Claude + more",
+    "votesCount": 534,
+    "url": "https://www.producthunt.com/products/fathom?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
+    "thumbnail": "https://ph-files.imgix.net/fac29de4-dc17-44af-8996-a93a8180305d.png?auto=format",
     "rank": 1,
     "topics": [
-      "Website Builder",
-      "Artificial Intelligence",
-      "Alpha"
+      "Productivity",
+      "Meetings",
+      "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-04-15T08:00:14.707Z"
+    "fetchedAt": "2026-04-16T07:59:57.288Z"
   },
   "lastWeeklyUpdate": "2026-04-13T08:35:28.952Z",
   "anthropicNews": [
     {
-      "date": "Apr 7, 2026",
-      "title": "Anthropic Announces Claude Mythos Preview",
-      "summary": "<cite index=\"6-1,6-2\">Anthropic announced Claude Mythos Preview, a new general-purpose language model that performs strongly across the board and is strikingly capable at computer security tasks.</cite>",
-      "url": "https://red.anthropic.com/2026/mythos-preview/"
+      "date": "Apr 15, 2026",
+      "title": "Claude Opus 4.7 Launch & AI Design Tool Announcement",
+      "summary": "<cite index=\"7-1,7-2\">Anthropic is set to launch Claude Opus 4.7 alongside a new AI design tool for websites and presentations</cite>.",
+      "url": "https://dataconomy.com/2026/04/15/anthropic-to-launch-claude-opus-4-7-this-week/"
     },
     {
       "date": "Apr 14, 2026",
-      "title": "Claude Remains Ad-Free, Anthropic Commitment",
-      "summary": "<cite index=\"7-1,7-2\">Anthropic chose to keep Claude ad-free, explaining that advertising incentives are incompatible with a genuinely helpful AI assistant.</cite>",
+      "title": "Claude Code Desktop App & Routines Feature Released",
+      "summary": "<cite index=\"9-1\">Anthropic released a complete redesign of Claude Code desktop app and launched Routines in research preview</cite>.",
+      "url": "https://venturebeat.com/orchestration/we-tested-anthropics-redesigned-claude-code-desktop-app-and-routines-heres-what-enterprises-should-know"
+    },
+    {
+      "date": "Apr 13, 2026",
+      "title": "Claude Mythos Preview Restricted Access with Cybersecurity Focus",
+      "summary": "<cite index=\"6-1,6-2\">Anthropic introduced Claude Mythos Preview, its most advanced AI model, but will not release it publicly</cite>.",
+      "url": "https://www.infoq.com/news/2026/04/anthropic-claude-mythos/"
+    },
+    {
+      "date": "Apr 09, 2026",
+      "title": "Claude Cowork Reaches General Availability with Enterprise Features",
+      "summary": "<cite index=\"16-2\">Claude Cowork is now generally available on macOS and Windows with expanded analytics and role-based access controls</cite>.",
+      "url": "https://releasebot.io/updates/anthropic/claude"
+    },
+    {
+      "date": "Apr 14, 2026",
+      "title": "Claude Joins Ad-Free Business Model & Trust Commitment",
+      "summary": "<cite index=\"2-1,2-2\">Claude will remain ad-free as advertising incentives are incompatible with a genuinely helpful AI assistant</cite>.",
       "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Apr 6, 2026",
-      "title": "Google & Broadcom Partnership Expansion",
-      "summary": "<cite index=\"15-1\">Anthropic expanded partnership with Google and Broadcom for multiple gigawatts of next-generation compute.</cite>",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "Mar 31, 2026",
-      "title": "Australian Government AI Safety MOU",
-      "summary": "<cite index=\"15-1\">Australian government and Anthropic signed MOU for AI safety and research.</cite>",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "Mar 11, 2026",
-      "title": "Anthropic Institute Launched",
-      "summary": "<cite index=\"20-13,20-14\">Anthropic introduced The Anthropic Institute, a new research arm focused on confronting societal challenges AI can impose, with co-founder Jack Clark as Head of Public Benefit.</cite>",
-      "url": "https://www.eweek.com/news/anthropic-institute-launch-march-2026/"
-    },
-    {
-      "date": "Mar 12, 2026",
-      "title": "Claude Partner Network Investment",
-      "summary": "<cite index=\"15-1\">Anthropic invested $100 million into the Claude Partner Network.</cite>",
-      "url": "https://www.anthropic.com/news"
+      "date": "Mar 28, 2026",
+      "title": "Advisor Tool Public Beta & Cost-Effective Agentic Workloads",
+      "summary": "<cite index=\"3-10,3-11\">Anthropic launched the advisor tool in public beta pairing a faster executor model with higher-intelligence advisor for strategic guidance</cite>.",
+      "url": "https://releasebot.io/updates/anthropic"
     }
   ],
-  "lastChecked": "2026-04-15T08:00:30.924Z"
+  "lastChecked": "2026-04-16T08:01:15.374Z"
 }
