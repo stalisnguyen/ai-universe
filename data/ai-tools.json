@@ -9034,7 +9034,7 @@
   "totw": {
     "name": "Fathom 3.0",
     "tagline": "AI meeting notes: now bot-free, in ChatGPT & Claude + more",
-    "votesCount": 534,
+    "votesCount": 589,
     "url": "https://www.producthunt.com/products/fathom?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/fac29de4-dc17-44af-8996-a93a8180305d.png?auto=format",
     "rank": 1,
@@ -9043,46 +9043,46 @@
       "Meetings",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-04-16T07:59:57.288Z"
+    "fetchedAt": "2026-04-17T08:00:33.543Z"
   },
   "lastWeeklyUpdate": "2026-04-13T08:35:28.952Z",
   "anthropicNews": [
     {
-      "date": "Apr 15, 2026",
-      "title": "Claude Opus 4.7 Launch & AI Design Tool Announcement",
-      "summary": "<cite index=\"7-1,7-2\">Anthropic is set to launch Claude Opus 4.7 alongside a new AI design tool for websites and presentations</cite>.",
-      "url": "https://dataconomy.com/2026/04/15/anthropic-to-launch-claude-opus-4-7-this-week/"
+      "date": "Apr 16, 2026",
+      "title": "Claude Opus 4.7 Released with Enhanced Coding & Vision",
+      "summary": "Anthropic released Claude Opus 4.7, a meaningful upgrade to its flagship AI model with better coding, sharper vision and a new ability to double-check its own work.",
+      "url": "https://www.axios.com/2026/04/16/anthropic-claude-opus-model-mythos"
     },
     {
-      "date": "Apr 14, 2026",
-      "title": "Claude Code Desktop App & Routines Feature Released",
-      "summary": "<cite index=\"9-1\">Anthropic released a complete redesign of Claude Code desktop app and launched Routines in research preview</cite>.",
-      "url": "https://venturebeat.com/orchestration/we-tested-anthropics-redesigned-claude-code-desktop-app-and-routines-heres-what-enterprises-should-know"
-    },
-    {
-      "date": "Apr 13, 2026",
-      "title": "Claude Mythos Preview Restricted Access with Cybersecurity Focus",
-      "summary": "<cite index=\"6-1,6-2\">Anthropic introduced Claude Mythos Preview, its most advanced AI model, but will not release it publicly</cite>.",
-      "url": "https://www.infoq.com/news/2026/04/anthropic-claude-mythos/"
-    },
-    {
-      "date": "Apr 09, 2026",
-      "title": "Claude Cowork Reaches General Availability with Enterprise Features",
-      "summary": "<cite index=\"16-2\">Claude Cowork is now generally available on macOS and Windows with expanded analytics and role-based access controls</cite>.",
+      "date": "Apr 9, 2026",
+      "title": "Claude Cowork Now Generally Available on macOS & Windows",
+      "summary": "Claude Cowork is now generally available on macOS and Windows in the Claude Desktop app, with expanded analytics, OpenTelemetry support, and role-based access controls for Enterprise plans.",
       "url": "https://releasebot.io/updates/anthropic/claude"
     },
     {
-      "date": "Apr 14, 2026",
-      "title": "Claude Joins Ad-Free Business Model & Trust Commitment",
-      "summary": "<cite index=\"2-1,2-2\">Claude will remain ad-free as advertising incentives are incompatible with a genuinely helpful AI assistant</cite>.",
-      "url": "https://www.anthropic.com/news"
+      "date": "Apr 7, 2026",
+      "title": "Project Glasswing: Claude Mythos Preview Launched with Cybersecurity Focus",
+      "summary": "Anthropic officially unveiled its most advanced AI model to date, Claude Mythos Preview, alongside a massive industry defensive coalition called Project Glasswing.",
+      "url": "https://jailbreakai.substack.com/p/claude-mythos-inside-anthropics-most"
     },
     {
-      "date": "Mar 28, 2026",
-      "title": "Advisor Tool Public Beta & Cost-Effective Agentic Workloads",
-      "summary": "<cite index=\"3-10,3-11\">Anthropic launched the advisor tool in public beta pairing a faster executor model with higher-intelligence advisor for strategic guidance</cite>.",
-      "url": "https://releasebot.io/updates/anthropic"
+      "date": "Apr 6, 2026",
+      "title": "Anthropic Expands Partnership with Google & Broadcom for Computing",
+      "summary": "Broadcom signed an expanded deal with Anthropic that will give the AI startup access to about 3.5 gigawatts worth of computing capacity drawing on Google's AI processors.",
+      "url": "https://www.cnbc.com/2026/04/06/broadcom-agrees-to-expanded-chip-deals-with-google-anthropic.html"
+    },
+    {
+      "date": "Feb 17, 2026",
+      "title": "Claude Sonnet 4.6 Launched with 1M Token Context Window",
+      "summary": "Anthropic launched its most capable Sonnet model yet, with a full upgrade of the model's skills across coding, computer use, long-context reasoning, agent planning, knowledge work, and design.",
+      "url": "https://releasebot.io/updates/anthropic/claude"
+    },
+    {
+      "date": "Feb 4, 2026",
+      "title": "Claude Helps NASA's Perseverance Rover Travel on Mars",
+      "summary": "Claude helped NASA's Perseverance rover travel four hundred meters on Mars.",
+      "url": "https://www.anthropic.com/"
     }
   ],
-  "lastChecked": "2026-04-16T08:01:15.374Z"
+  "lastChecked": "2026-04-17T08:00:50.722Z"
 }
