@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-16T08:01:15.374Z",
+  "lastUpdated": "2026-04-18T07:22:23.463Z",
   "categories": [
     {
       "id": "llm",
@@ -9029,12 +9029,245 @@
         ]
       },
       "link": "https://www.sundayrobotics.ai"
+    },
+    {
+      "id": "livedocs",
+      "name": "Livedocs",
+      "company": "Livedocs",
+      "category": "data-analytics",
+      "icon": "📊",
+      "badge": null,
+      "color": "#3B82F6",
+      "price": "freemium",
+      "priceLabel": "Free / From $30/mo",
+      "tags": [
+        "AI Data Analysis",
+        "SQL + Python",
+        "Reactive Notebooks",
+        "Data Visualization"
+      ],
+      "shortDesc": "AI-native IDE combining SQL, Python, and natural language for instant data insights.",
+      "fullDesc": "Livedocs is a modern notebook platform that transforms raw data into actionable insights using AI. Unlike traditional notebooks, cells automatically re-run when dependencies change, and users can analyze data through SQL, Python, or natural language queries, then publish interactive dashboards without coding.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "AI-Native Data Analysis IDE"
+        },
+        {
+          "label": "Released",
+          "value": "2022"
+        },
+        {
+          "label": "Best for",
+          "value": "Data analysts, engineers, and non-technical teams needing instant insights"
+        },
+        {
+          "label": "Pricing",
+          "value": "Freemium: $0-$30+ per workspace/month"
+        }
+      ],
+      "features": [
+        "AI agent that understands data context and generates SQL/Python code automatically",
+        "Reactive notebooks with dependency tracking like spreadsheets",
+        "Real-time collaboration with team members in shared workspaces",
+        "Built-in SQL, Python, and chart creation in a single IDE",
+        "Publish interactive dashboards and shareable apps without deployment code",
+        "Connect live data from databases, APIs, and services like Stripe and Google Analytics",
+        "Natural language interface to ask questions and get charts instantly",
+        "Terminal access and machine learning capabilities for advanced analysis"
+      ],
+      "demo": [
+        {
+          "title": "Upload Data",
+          "desc": "Drop a CSV, Excel file, or connect your database to start analysis",
+          "code": ""
+        },
+        {
+          "title": "Ask Questions",
+          "desc": "Use natural language to query your data without writing SQL",
+          "code": "How much is our support spend per customer?"
+        },
+        {
+          "title": "Get Insights",
+          "desc": "AI generates charts, metrics, and explanations automatically",
+          "code": ""
+        },
+        {
+          "title": "Share Results",
+          "desc": "Publish interactive dashboards as shareable apps for your team",
+          "code": ""
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Data Analysis",
+          "text": "Analyze quarterly sales data to identify growth patterns and forecast next quarter's revenue"
+        },
+        {
+          "label": "Customer Insights",
+          "text": "Segment customers by behavior, lifetime value, and engagement patterns"
+        },
+        {
+          "label": "Business Metrics",
+          "text": "Identify customers at risk of churn and analyze which factors drive retention"
+        },
+        {
+          "label": "Data Cleaning",
+          "text": "Clean and standardize messy data, remove duplicates, and fill missing values"
+        }
+      ],
+      "pricing": {
+        "note": "Livedocs offers a generous free tier with AI credits and limited compute. Pro plan adds more resources and team members. Enterprise custom pricing available for on-premise deployment.",
+        "plans": [
+          {
+            "name": "Free",
+            "price": "$0",
+            "per": "forever",
+            "popular": false,
+            "color": "#E5E7EB",
+            "features": [
+              "Unlimited notebooks and apps",
+              "$10 monthly AI credits",
+              "8 GB RAM, 2 vCPU",
+              "Email and Discord support",
+              "Livedocs Anywhere local use"
+            ]
+          },
+          {
+            "name": "Pro",
+            "price": "$30",
+            "per": "per month per workspace",
+            "popular": true,
+            "color": "#3B82F6",
+            "features": [
+              "32 GB RAM, 4 vCPU",
+              "Unlimited members",
+              "Real-time collaboration",
+              "Scheduled runs and terminal access",
+              "Data integrations (Snowflake, BigQuery, Databricks)"
+            ]
+          },
+          {
+            "name": "Enterprise",
+            "price": "Custom",
+            "per": "contact sales",
+            "popular": false,
+            "color": "#1F2937",
+            "features": [
+              "On-premise deployment",
+              "SSO and custom authentication",
+              "Dedicated support and onboarding",
+              "Custom machine profiles",
+              "Data project consulting"
+            ]
+          }
+        ]
+      },
+      "link": "https://livedocs.ai/"
+    },
+    {
+      "id": "primitive",
+      "name": "Primitive",
+      "company": "Primitive",
+      "category": "agent",
+      "icon": "🤖",
+      "badge": "new",
+      "color": "#2563EB",
+      "price": "paid",
+      "priceLabel": "Enterprise / Custom Pricing",
+      "tags": [
+        "financial services",
+        "AI agents",
+        "governance",
+        "banking automation"
+      ],
+      "shortDesc": "AI agent operating system for regulated financial institutions with enterprise governance and compliance.",
+      "fullDesc": "Primitive is an enterprise AI agent operating system purpose-built for regulated financial institutions to create, deploy, and govern agentic execution at scale. It provides bank-grade controls, third-party integrations, and measurable ROI frameworks to move AI from pilots to production workloads. The platform is designed for operations teams seeking to deploy accountable, auditable AI agents across banking workflows.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Agent Operating System"
+        },
+        {
+          "label": "Released",
+          "value": "April 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Financial institutions deploying AI agents at enterprise scale"
+        },
+        {
+          "label": "Pricing",
+          "value": "Enterprise pricing via design partner program"
+        }
+      ],
+      "features": [
+        "The Engine Room component connects AI agents directly to enterprise systems without replacing existing infrastructure",
+        "The Assembler rapidly builds production-ready agents from use cases in approximately 90 days",
+        "The Control Tower delivers comprehensive governance through logging, tracing, and compliance validation",
+        "Pre-built agent templates for commercial lending, operations, risk/compliance, and regulatory oversight",
+        "Agent Capital framework and Return on Agent Capital (ROAC) metrics for quantifying AI value",
+        "MX partnership enables AI-native Growth Agent for deposit identification and personalized banking campaigns",
+        "Third-party agent orchestration with unified governance across internal and external agents",
+        "Auditable decision trails and performance measurement with bank-grade compliance standards"
+      ],
+      "demo": [
+        {
+          "title": "Initialize Agent",
+          "desc": "Start with a use case definition and business objective for your banking operation",
+          "code": null
+        },
+        {
+          "title": "Assemble Production Agent",
+          "desc": "The Assembler builds and validates your agent over approximately 90 days with guardrails",
+          "code": null
+        },
+        {
+          "title": "Deploy and Govern",
+          "desc": "Deploy via Engine Room with real-time monitoring through Control Tower governance dashboard",
+          "code": null
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Deposit Operations",
+          "text": "Identify customers likely to increase deposits based on transaction data and life-stage inference, execute personalized retention campaigns with automated workflows"
+        },
+        {
+          "label": "Compliance Monitoring",
+          "text": "Monitor all agent actions for regulatory compliance, log decision reasoning, and generate audit trails for independent validation"
+        },
+        {
+          "label": "Lending Operations",
+          "text": "Automate commercial lending workflows with agent-driven underwriting assessment, document processing, and approval routing"
+        }
+      ],
+      "pricing": {
+        "note": "Primitive operates as an enterprise platform with seed funding from Fin Capital and Pelion Venture Partners. Pricing is available through a limited Design Partner Program for regulated financial institutions transitioning from AI pilots to production.",
+        "plans": [
+          {
+            "name": "Design Partner Program",
+            "price": "Custom",
+            "per": "year",
+            "popular": true,
+            "color": "#2563EB",
+            "features": [
+              "Access to Engine Room integration layer",
+              "Agent Assembler with 90-day production timeline",
+              "Control Tower governance and compliance dashboard",
+              "Pre-built agent templates",
+              "Dedicated support and implementation"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.primitive.ai/"
     }
   ],
   "totw": {
     "name": "Fathom 3.0",
     "tagline": "AI meeting notes: now bot-free, in ChatGPT & Claude + more",
-    "votesCount": 589,
+    "votesCount": 648,
     "url": "https://www.producthunt.com/products/fathom?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/fac29de4-dc17-44af-8996-a93a8180305d.png?auto=format",
     "rank": 1,
@@ -9043,46 +9276,46 @@
       "Meetings",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-04-17T08:00:33.543Z"
+    "fetchedAt": "2026-04-18T07:21:09.561Z"
   },
   "lastWeeklyUpdate": "2026-04-13T08:35:28.952Z",
   "anthropicNews": [
     {
+      "date": "Apr 17, 2026",
+      "title": "Claude Design launches for visual creation",
+      "summary": "<cite index=\"3-1\">Anthropic announced Claude Design, a new experimental product for creating visuals like prototypes, slides, and one-pagers using Claude.</cite>",
+      "url": "https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/"
+    },
+    {
       "date": "Apr 16, 2026",
-      "title": "Claude Opus 4.7 Released with Enhanced Coding & Vision",
-      "summary": "Anthropic released Claude Opus 4.7, a meaningful upgrade to its flagship AI model with better coding, sharper vision and a new ability to double-check its own work.",
-      "url": "https://www.axios.com/2026/04/16/anthropic-claude-opus-model-mythos"
+      "title": "Claude Opus 4.7 released with stronger coding",
+      "summary": "<cite index=\"6-6\">Claude Opus 4.7 is better at software engineering, following instructions, completing real-world work and is its most powerful generally available model.</cite>",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Apr 14, 2026",
+      "title": "Project Glasswing cybersecurity initiative launched",
+      "summary": "<cite index=\"1-1,1-6\">Anthropic announced Claude Mythos Preview and launched Project Glasswing, an effort to use Mythos Preview to help secure the world's most critical software.</cite>",
+      "url": "https://red.anthropic.com/2026/mythos-preview/"
     },
     {
       "date": "Apr 9, 2026",
-      "title": "Claude Cowork Now Generally Available on macOS & Windows",
-      "summary": "Claude Cowork is now generally available on macOS and Windows in the Claude Desktop app, with expanded analytics, OpenTelemetry support, and role-based access controls for Enterprise plans.",
-      "url": "https://releasebot.io/updates/anthropic/claude"
+      "title": "Claude Managed Agents released in public beta",
+      "summary": "<cite index=\"17-15\">Claude Managed Agents provides developers with out-of-the-box infrastructure enabling enterprises to launch agents 10 times faster.</cite>",
+      "url": "https://aibusiness.com/agentic-ai/new-anthropic-tool-speeds-ai-agent-development-enterprises"
     },
     {
-      "date": "Apr 7, 2026",
-      "title": "Project Glasswing: Claude Mythos Preview Launched with Cybersecurity Focus",
-      "summary": "Anthropic officially unveiled its most advanced AI model to date, Claude Mythos Preview, alongside a massive industry defensive coalition called Project Glasswing.",
-      "url": "https://jailbreakai.substack.com/p/claude-mythos-inside-anthropics-most"
+      "date": "Mar 31, 2026",
+      "title": "Anthropic expands Google and Broadcom partnership",
+      "summary": "<cite index=\"13-2\">Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute.</cite>",
+      "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Apr 6, 2026",
-      "title": "Anthropic Expands Partnership with Google & Broadcom for Computing",
-      "summary": "Broadcom signed an expanded deal with Anthropic that will give the AI startup access to about 3.5 gigawatts worth of computing capacity drawing on Google's AI processors.",
-      "url": "https://www.cnbc.com/2026/04/06/broadcom-agrees-to-expanded-chip-deals-with-google-anthropic.html"
-    },
-    {
-      "date": "Feb 17, 2026",
-      "title": "Claude Sonnet 4.6 Launched with 1M Token Context Window",
-      "summary": "Anthropic launched its most capable Sonnet model yet, with a full upgrade of the model's skills across coding, computer use, long-context reasoning, agent planning, knowledge work, and design.",
-      "url": "https://releasebot.io/updates/anthropic/claude"
-    },
-    {
-      "date": "Feb 4, 2026",
-      "title": "Claude Helps NASA's Perseverance Rover Travel on Mars",
-      "summary": "Claude helped NASA's Perseverance rover travel four hundred meters on Mars.",
-      "url": "https://www.anthropic.com/"
+      "date": "Mar 11, 2026",
+      "title": "The Anthropic Institute launched for AI safety",
+      "summary": "<cite index=\"25-1,25-3,25-4\">Anthropic launched The Anthropic Institute, a new effort to confront the most significant challenges powerful AI will pose, drawing on research to provide information for transition to more powerful AI systems.</cite>",
+      "url": "https://www.anthropic.com/news/the-anthropic-institute"
     }
   ],
-  "lastChecked": "2026-04-17T08:00:50.722Z"
+  "lastChecked": "2026-04-18T07:22:23.463Z"
 }
