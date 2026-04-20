@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-19T07:42:35.213Z",
+  "lastUpdated": "2026-04-20T08:23:34.213Z",
   "categories": [
     {
       "id": "llm",
@@ -9520,7 +9520,7 @@
   "totw": {
     "name": "Fathom 3.0",
     "tagline": "AI meeting notes: now bot-free, in ChatGPT & Claude + more",
-    "votesCount": 657,
+    "votesCount": 662,
     "url": "https://www.producthunt.com/products/fathom?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/fac29de4-dc17-44af-8996-a93a8180305d.png?auto=format",
     "rank": 1,
@@ -9529,46 +9529,46 @@
       "Meetings",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-04-19T07:41:15.669Z"
+    "fetchedAt": "2026-04-20T08:22:19.922Z"
   },
   "lastWeeklyUpdate": "2026-04-13T08:35:28.952Z",
   "anthropicNews": [
     {
-      "date": "Apr 18, 2026",
-      "title": "Project Glasswing: AI model finds thousands of zero-day vulnerabilities",
-      "summary": "Anthropic announced Claude Mythos Preview identified thousands of critical zero-day vulnerabilities in major operating systems and web browsers.",
-      "url": "https://www.anthropic.com/glasswing"
+      "date": "Apr 16, 2026",
+      "title": "Claude Opus 4.7 Released with Better Coding & Higher Vision",
+      "summary": "<cite index=\"3-25\">Anthropic released Claude Opus 4.7 with 3× higher vision resolution and improved instruction following for advanced coding tasks</cite>.",
+      "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Apr 17, 2026",
-      "title": "Anthropic launches Claude Design for creating visuals",
-      "summary": "New experimental product lets users create prototypes, slides, and one-pagers using Claude.",
+      "title": "Claude Design Launches as New Product for Creating Visuals",
+      "summary": "<cite index=\"9-1\">Anthropic launched Claude Design, an experimental product for creating prototypes, slides, one-pagers, and other visuals using Claude</cite>.",
       "url": "https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/"
     },
     {
-      "date": "Apr 16, 2026",
-      "title": "Claude Opus 4.7 released with better coding and vision",
-      "summary": "<cite index=\"12-1\">Anthropic released Claude Opus 4.7, a meaningful upgrade with better coding, sharper vision and a new ability to double-check its own work.</cite> <cite index=\"21-2\">Pricing remains the same as Opus 4.6: $5 per million input tokens and $25 per million output tokens.</cite>",
-      "url": "https://platform.claude.com/docs/en/release-notes/overview"
-    },
-    {
-      "date": "Apr 15, 2026",
-      "title": "Claude Code redesigned with parallel sessions and remote control",
-      "summary": "Claude Code desktop app update brings new sidebar for managing multiple sessions, drag-and-drop layout, and Mac remote control capabilities.",
-      "url": "https://www.macrumors.com/2026/04/15/anthropic-rebuilds-claude-code-desktop-app/"
-    },
-    {
       "date": "Apr 14, 2026",
-      "title": "Vas Narasimhan appointed to Anthropic Board of Directors",
-      "summary": "Novartis CEO and physician-scientist appointed through Anthropic's Long-Term Benefit Trust governance mechanism.",
-      "url": "https://anthropic.com/news"
+      "title": "Claude to Remain Ad-Free; Advertising Rejected",
+      "summary": "<cite index=\"1-1,1-2\">Anthropic confirmed Claude will remain ad-free as advertising incentives are incompatible with a genuinely helpful AI assistant</cite>.",
+      "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Apr 6, 2026",
-      "title": "Anthropic partnership with Google and Broadcom for multi-gigawatt compute",
-      "summary": "Infrastructure expansion to support frontier model training and deployment at scale with capacity launching in 2027.",
-      "url": "https://claudelog.com/claude-news/"
+      "title": "Anthropic Partners Google & Broadcom for Multi-Gigawatt Compute",
+      "summary": "<cite index=\"3-3,3-4\">Anthropic announced a multi-gigawatt TPU infrastructure partnership with Google and Broadcom, significantly expanding compute access for frontier model training</cite>.",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Mar 31, 2026",
+      "title": "Anthropic Signs AI Safety MOU with Australian Government",
+      "summary": "<cite index=\"3-1,3-7\">Anthropic announced a Memorandum of Understanding with the Australian Government including AUD$3M in API credits for research institutions and establishing a Sydney office</cite>.",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Mar 12, 2026",
+      "title": "Anthropic Launches Claude Partner Network with $100M Investment",
+      "summary": "<cite index=\"3-10,3-12\">Anthropic launched the Claude Partner Network with $100M investment, with launch partners including Accenture, Cognizant, Deloitte, and Infosys</cite>.",
+      "url": "https://www.anthropic.com/news"
     }
   ],
-  "lastChecked": "2026-04-19T07:42:35.213Z"
+  "lastChecked": "2026-04-20T08:23:34.213Z"
 }
