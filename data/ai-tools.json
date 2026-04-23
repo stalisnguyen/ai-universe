@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-22T08:01:56.040Z",
+  "lastUpdated": "2026-04-23T08:08:32.822Z",
   "categories": [
     {
       "id": "llm",
@@ -9829,12 +9829,393 @@
           "fullDesc": "Poke 是一个以消息为中心的 AI 助手，通过熟悉的文本界面为日常用户带来 AI 代理功能。它可以处理日历管理、电子邮件提醒、健康追踪、智能家居控制、照片编辑和自定义自动化任务，通过纯文本对话完成，专为不具备技术背景但希望实现任务自动化而不需要学习终端命令或安装新应用的用户设计。"
         }
       }
+    },
+    {
+      "id": "noiz-ai",
+      "name": "Noiz AI",
+      "company": "Noiz AI",
+      "category": "audio",
+      "icon": "🎙️",
+      "badge": "new",
+      "color": "#6C5CE7",
+      "price": "freemium",
+      "priceLabel": "Free / From $2.90/mo",
+      "tags": [
+        "text-to-speech",
+        "voice-cloning",
+        "audio-generation",
+        "dubbing"
+      ],
+      "shortDesc": "AI audio studio for generating expressive voices, music, and sound effects from text.",
+      "fullDesc": "Noiz AI is an all-in-one audio creation platform that unites voice design, dubbing, and intelligent storytelling. From a single line of text, users can generate expressive voices, background music, and sound effects. The platform serves creators, podcasters, filmmakers, and developers seeking to produce lifelike audio content without fragmentation across multiple tools.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Text-to-Speech, Voice Cloning, Audio Generation"
+        },
+        {
+          "label": "Released",
+          "value": "January 2025"
+        },
+        {
+          "label": "Best for",
+          "value": "Podcasters, filmmakers, educators, content creators, video localization"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free plan available; paid plans start at $2.90/month"
+        }
+      ],
+      "features": [
+        "Generate expressive, emotionally-rich text-to-speech voices with 1000+ voices in 140 languages",
+        "Voice cloning from just seconds of audio to create custom AI voice models",
+        "Emotional TTS with emoji-based controls for tone, inflection, and nuance",
+        "Automated audio generation including background music and sound effects from text prompts",
+        "AI audio enhancement with noise reduction, voice clarity, and echo removal",
+        "Multilingual dubbing with realistic lip-sync and voice characteristic preservation",
+        "Developer-ready APIs for integration into apps and platforms",
+        "Support for voice design, character voices, and watermark-free exports"
+      ],
+      "demo": [
+        {
+          "title": "Generate Expressive Voiceover",
+          "desc": "Input text and select from voice library or clone a custom voice. Use emoji controls to guide emotion, tone, and delivery. Generate and download the audio in seconds.",
+          "code": "Write your script → Select voice → Add emoji emotion cues → Generate → Download"
+        },
+        {
+          "title": "Create Complete Audio Scenes",
+          "desc": "Describe a scene or soundscape in text. Noiz generates dialogue, background music, and sound effects layered together in one seamless audio file.",
+          "code": "A gentle rain patters while a calm voice narrates a story with ambient fireplace sounds"
+        },
+        {
+          "title": "Clean and Enhance Recordings",
+          "desc": "Upload noisy audio or video files. AI removes background noise, enhances speech clarity, and preserves natural speaker tone with one click.",
+          "code": "Upload audio → Click Enhance Audio → Download clean professional result"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Podcast Intro",
+          "text": "Generate a warm, energetic podcast intro voiceover with 500 credits. Use a professional male voice with slight enthusiasm and natural pacing."
+        },
+        {
+          "label": "Audiobook Narration",
+          "text": "Create an emotionally expressive female narrator voice for a fantasy audiobook chapter. Include soft breathing, natural pauses, and dramatic emphasis on key dialogue."
+        },
+        {
+          "label": "Video Dubbing",
+          "text": "Dub a 3-minute marketing video into Spanish using AI voice cloning. Preserve the original speaker's tone and maintain realistic lip-sync."
+        },
+        {
+          "label": "Ambient Soundscape",
+          "text": "Generate a sleep meditation background: soft rain sounds mixed with brown noise, distant thunder every 45 seconds, and gentle fireplace crackle."
+        }
+      ],
+      "pricing": {
+        "note": "Noiz offers a free plan with limited credits, plus flexible subscription tiers based on monthly credit allowance. Plans include features like priority processing, unlimited voice cloning, and watermark-free exports.",
+        "plans": [
+          {
+            "name": "Free Plan",
+            "price": "Free",
+            "per": "forever",
+            "popular": false,
+            "color": "#E8E8E8",
+            "features": [
+              "Limited monthly credits",
+              "Access to voice library",
+              "Basic text-to-speech generation",
+              "Standard processing speed"
+            ]
+          },
+          {
+            "name": "Starter",
+            "price": "$2.90",
+            "per": "per month",
+            "popular": false,
+            "color": "#6C5CE7",
+            "features": [
+              "150,000 credits per month",
+              "2,000 daily bonus credits",
+              "TTS and dubbing access",
+              "Standard processing speed"
+            ]
+          },
+          {
+            "name": "Creator",
+            "price": "$8.90",
+            "per": "per month",
+            "popular": true,
+            "color": "#6C5CE7",
+            "features": [
+              "500,000 credits per month",
+              "2,000 daily bonus credits",
+              "Priority TTS and dubbing speed",
+              "Unlimited voice cloning",
+              "Watermark-free exports"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.producthunt.com/products/noiz-studio"
+    },
+    {
+      "id": "claude-design",
+      "name": "Claude Design",
+      "company": "Anthropic",
+      "category": "design",
+      "icon": "✏️",
+      "badge": "new",
+      "color": "#000000",
+      "price": "freemium",
+      "priceLabel": "Included with Claude Pro/Max/Team/Enterprise",
+      "tags": [
+        "AI design",
+        "prototyping",
+        "visual design",
+        "no-code"
+      ],
+      "shortDesc": "AI tool that turns text prompts into interactive prototypes and presentations.",
+      "fullDesc": "<cite index=\"6-12\">Claude Design is a new Anthropic Labs product that lets you collaborate with Claude to create polished visual work like designs, prototypes, slides, one-pagers, and more.</cite> <cite index=\"2-5\">It is aimed at empowering company founders, product managers, and marketers to create professional designs and prototypes without needing a deep background in design.</cite> <cite index=\"6-13\">Claude Design is powered by Claude Opus 4.7 and is available in research preview for Claude Pro, Max, Team, and Enterprise subscribers.</cite>",
+      "info": [
+        {
+          "label": "Type",
+          "value": "AI Design & Prototyping Tool"
+        },
+        {
+          "label": "Released",
+          "value": "April 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Rapid prototyping, presentations, non-designers"
+        },
+        {
+          "label": "Pricing",
+          "value": "Included with Claude subscription"
+        }
+      ],
+      "features": [
+        "<cite index=\"1-4,1-5\">Ask for a signup page, pricing screen, or pitch slide, and Claude Design generates a first draft, which users can refine through chat-style instructions, in-canvas comments, direct edits, or custom sliders.</cite>",
+        "<cite index=\"6-2,6-3\">Claude builds a design system for your team by reading your codebase and design files, automatically applying your colors, typography, and components to every project.</cite>",
+        "<cite index=\"5-3,5-4\">Users can start from a text prompt, upload images and documents in various formats, point Claude at their codebase, or use a web capture tool to grab elements directly from a live website.</cite>",
+        "<cite index=\"5-6,5-7\">When a design is ready to build, Claude packages everything into a handoff bundle that can be passed to Claude Code, creating a closed loop from exploration to prototype to production code.</cite>",
+        "<cite index=\"8-14\">Designs can be shared as an internal URL within an organization, saved as a folder, or exported to Canva, PDF, PPTX, or standalone HTML files.</cite>",
+        "<cite index=\"3-11\">Users can select an on-screen element and leave a comment for Claude, which immediately begins working on it.</cite>",
+        "<cite index=\"2-8\">Claude Design provides features that allow multiple team members to access and edit the design together.</cite>",
+        "<cite index=\"4-11\">It supports tasks like wireframing, prototyping and animation while maintaining alignment with brand guidelines.</cite>"
+      ],
+      "demo": [
+        {
+          "title": "Create from Prompt",
+          "desc": "Describe your design idea in natural language",
+          "code": "Design a landing page for a productivity app with a hero section, features list, and call-to-action button"
+        },
+        {
+          "title": "Refine with Comments",
+          "desc": "Click on design elements to add targeted inline comments for Claude to address",
+          "code": "Make the hero headline larger and add a dark mode toggle in the top right"
+        },
+        {
+          "title": "Export to Production",
+          "desc": "Export your design as HTML, PDF, PPTX, or send to Canva for further refinement",
+          "code": "Export as HTML for development handoff"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Web Design",
+          "text": "Create a clean landing page for a SaaS product with pricing tiers, testimonials, and a sign-up form"
+        },
+        {
+          "label": "Presentation",
+          "text": "Design a pitch deck for a Series A funding round with 12 slides covering problem, solution, market, and financials"
+        },
+        {
+          "label": "Mobile App",
+          "text": "Design an iOS app interface for a habit tracking app with onboarding, dashboard, and habit detail screens"
+        },
+        {
+          "label": "Internal Tool",
+          "text": "Design an internal tool for our ops team to review and approve content submissions"
+        },
+        {
+          "label": "Marketing Asset",
+          "text": "Create a social media infographic comparing our product features to the top 3 competitors"
+        }
+      ],
+      "pricing": {
+        "note": "<cite index=\"6-13\">Claude Design is available in research preview for Claude Pro, Max, Team, and Enterprise subscribers.</cite> It is included as part of existing Claude subscription plans.",
+        "plans": [
+          {
+            "name": "Claude Pro",
+            "price": "$20",
+            "per": "per month",
+            "popular": false,
+            "color": "#000000",
+            "features": [
+              "Access to Claude Design",
+              "Claude Opus 4.7 model",
+              "Higher usage limits"
+            ]
+          },
+          {
+            "name": "Claude Max",
+            "price": "$40",
+            "per": "per month",
+            "popular": true,
+            "color": "#000000",
+            "features": [
+              "Access to Claude Design",
+              "Claude Opus 4.7 model",
+              "Maximum usage limits",
+              "Priority support"
+            ]
+          },
+          {
+            "name": "Claude Team",
+            "price": "Custom",
+            "per": "per month",
+            "popular": false,
+            "color": "#000000",
+            "features": [
+              "Team collaboration features",
+              "Access to Claude Design",
+              "Shared design systems",
+              "Admin controls"
+            ]
+          },
+          {
+            "name": "Claude Enterprise",
+            "price": "Custom",
+            "per": "per year",
+            "popular": false,
+            "color": "#000000",
+            "features": [
+              "Full team collaboration",
+              "Advanced security",
+              "Dedicated support",
+              "Custom integrations"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.anthropic.com/claude-design"
+    },
+    {
+      "id": "gpt-rosalind",
+      "name": "GPT-Rosalind",
+      "company": "OpenAI",
+      "category": "llm",
+      "icon": "🧬",
+      "badge": "new",
+      "color": "#10A37F",
+      "price": "freemium",
+      "priceLabel": "Enterprise Access Required",
+      "tags": [
+        "Life Sciences",
+        "Drug Discovery",
+        "Biology Research",
+        "Frontier Reasoning"
+      ],
+      "shortDesc": "<cite index=\"1-1\">OpenAI's frontier reasoning model built to accelerate drug discovery, genomics analysis, protein reasoning, and scientific research workflows.</cite>",
+      "fullDesc": "<cite index=\"2-2\">GPT-Rosalind is designed for advanced biological reasoning, scientific tool use, and multi-step workflows such as target discovery, target validation, genomics interpretation, pathway analysis, literature synthesis, and hypothesis generation.</cite> <cite index=\"2-3\">The model is currently most useful for early discovery work, especially target biology, mechanism understanding, literature synthesis, and omics interpretation.</cite> <cite index=\"1-5\">OpenAI is working with leading pharmaceutical, biotechnology, and research customers, as well as life sciences technology organizations, to apply GPT-Rosalind across workflows that drive discovery.</cite>",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Frontier Reasoning Model for Life Sciences"
+        },
+        {
+          "label": "Released",
+          "value": "April 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Drug discovery, protein engineering, genomics analysis, hypothesis generation"
+        },
+        {
+          "label": "Pricing",
+          "value": "Research preview for eligible Enterprise customers"
+        }
+      ],
+      "features": [
+        "<cite index=\"4-1\">Synthesizes evidence, generates biological hypotheses, and plans experiments—tasks that have traditionally required years of expert human synthesis.</cite>",
+        "<cite index=\"1-9\">Evaluates core reasoning across scientific subdomains, including chemical reaction mechanisms; protein structure, mutation effects, and interactions; and phylogenetic interpretation of DNA sequences.</cite>",
+        "<cite index=\"4-3\">Fine-tuned for deeper understanding across genomics, protein engineering, and chemistry.</cite>",
+        "<cite index=\"1-18\">Includes a freely accessible Life Sciences research plugin for Codex, helping scientists connect models to over 50 scientific tools and data sources.</cite>",
+        "<cite index=\"2-10\">Delivers enterprise-grade security controls and Regulated Workspaces with BAAs, SOC 2 Type 2 and HIPAA-aligned standards.</cite>",
+        "<cite index=\"1-10\">Supports real research workflows by interpreting experimental outputs, identifying expert-relevant patterns, and synthesizing external information to design follow-up experiments.</cite>",
+        "<cite index=\"4-6\">Outperformed comparison models on CloningQA—a task requiring end-to-end design of reagents for molecular cloning protocols.</cite>",
+        "<cite index=\"2-11\">OpenAI does not train on customer data.</cite>"
+      ],
+      "demo": [
+        {
+          "title": "Literature Synthesis",
+          "desc": "Analyze complex scientific literature and identify connections across research domains",
+          "code": "Synthesize findings from papers on protein folding and suggest novel therapeutic targets"
+        },
+        {
+          "title": "Hypothesis Generation",
+          "desc": "Generate testable biological hypotheses from incomplete data and experimental results",
+          "code": "Based on gene expression data, suggest mechanistic pathways and validation experiments"
+        },
+        {
+          "title": "Experimental Design",
+          "desc": "Plan multi-step research workflows and molecular cloning protocols",
+          "code": "Design reagent combinations for CRISPR-based genome editing experiments"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Drug Target Discovery",
+          "text": "Analyze these genomic variants associated with disease X and suggest potential therapeutic targets with supporting evidence from the literature"
+        },
+        {
+          "label": "Protein Engineering",
+          "text": "Design mutations to improve the stability and activity of this protein variant for therapeutic use"
+        },
+        {
+          "label": "Pathway Analysis",
+          "text": "Map the interaction networks between these genes and identify key regulatory nodes"
+        }
+      ],
+      "pricing": {
+        "note": "<cite index=\"2-4,2-5\">GPT-Rosalind is currently available to eligible U.S. customers with Enterprise agreements. Organizations must have legitimate biology research use cases and meet safety and compliance requirements.</cite>",
+        "plans": [
+          {
+            "name": "Research Preview (Enterprise)",
+            "price": "Custom",
+            "per": "contact sales",
+            "popular": true,
+            "color": "#10A37F",
+            "features": [
+              "Access via ChatGPT Enterprise and Codex",
+              "Trusted access program with qualification review",
+              "Enterprise-grade security controls",
+              "No consumption of existing enterprise credits during preview"
+            ]
+          },
+          {
+            "name": "Life Sciences Plugin (Free)",
+            "price": "Free",
+            "per": "forever",
+            "popular": false,
+            "color": "#E5E5E5",
+            "features": [
+              "50+ integrated scientific tools and databases",
+              "Compatible with mainline OpenAI models",
+              "Literature and sequence analysis capabilities",
+              "Available to all Codex users"
+            ]
+          }
+        ]
+      },
+      "link": "https://openai.com"
     }
   ],
   "totw": {
     "name": "Dune",
     "tagline": "Context-aware Mac keypad to automate workflows + meetings",
-    "votesCount": 568,
+    "votesCount": 582,
     "url": "https://www.producthunt.com/products/dune-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/56eb5fd7-684a-4fe5-aa2a-5333fd5b579b.jpeg?auto=format",
     "rank": 1,
@@ -9843,46 +10224,46 @@
       "Artificial Intelligence",
       "Development"
     ],
-    "fetchedAt": "2026-04-22T08:01:21.493Z"
+    "fetchedAt": "2026-04-23T08:06:48.173Z"
   },
   "lastWeeklyUpdate": "2026-04-21T08:18:04.123Z",
   "anthropicNews": [
     {
-      "date": "Apr 21, 2026",
-      "title": "Anthropic secures $5B from Amazon, commits $100B AWS spend",
-      "summary": "Amazon invests additional $5 billion in Anthropic with 5GW compute agreement",
-      "url": "https://www.anthropic.com/news/anthropic-amazon-compute"
+      "date": "Apr 22, 2026",
+      "title": "Anthropic tests removing Claude Code from Pro plan",
+      "summary": "<cite index=\"5-18\">Anthropic removed Claude Code from its Pro subscription plan, testing with a small number of users</cite>.",
+      "url": "https://www.theregister.com/2026/04/22/anthropic_removes_claude_code_pro/"
     },
     {
       "date": "Apr 17, 2026",
-      "title": "Claude Design launches for visual content creation",
-      "summary": "New Anthropic Labs product enables Claude-powered design prototyping and slides",
+      "title": "Anthropic launches Claude Design visual creation tool",
+      "summary": "<cite index=\"2-1\">Anthropic launched Claude Design, an experimental product for creating visuals like prototypes, slides, and one-pagers using Claude</cite>.",
       "url": "https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/"
     },
     {
       "date": "Apr 16, 2026",
-      "title": "Claude Opus 4.7 released with improved coding and vision",
-      "summary": "New flagship model with high-resolution images and stronger agentic capabilities",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "Apr 14, 2026",
-      "title": "Anthropic appoints Vas Narasimhan to Board of Directors",
-      "summary": "Long-Term Benefit Trust appoints new board member for governance oversight",
-      "url": "https://www.anthropic.com/news"
+      "title": "Claude Opus 4.7 released with improved coding",
+      "summary": "<cite index=\"7-7,7-8\">Claude Opus 4.7 is now generally available with improvements in software engineering and complex, long-running coding tasks</cite>.",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7"
     },
     {
       "date": "Apr 7, 2026",
-      "title": "Claude Mythos Preview announced with cybersecurity focus",
-      "summary": "New frontier model excels at computer security; Project Glasswing cybersecurity initiative launched",
+      "title": "Claude Mythos Preview released for cybersecurity",
+      "summary": "<cite index=\"13-17\">Anthropic announced Claude Mythos Preview would be made available to 11 companies for finding and fixing cybersecurity vulnerabilities</cite>.",
       "url": "https://red.anthropic.com/2026/mythos-preview/"
     },
     {
       "date": "Apr 6, 2026",
-      "title": "Anthropic expands Google Cloud TPU and infrastructure partnership",
-      "summary": "Anthropic scales foundation model development with expanded Google Cloud services",
-      "url": "https://www.googlecloudpresscorner.com/2026-04-06-Anthropic-Expands-Use-of-Google-Cloud-and-TPUs"
+      "title": "Anthropic announces multi-gigawatt TPU partnership",
+      "summary": "<cite index=\"4-3,4-4\">Anthropic announced a multi-gigawatt TPU infrastructure partnership with Google and Broadcom, significantly expanding compute access for model training and deployment</cite>.",
+      "url": "https://anthropic.com"
+    },
+    {
+      "date": "Mar 31, 2026",
+      "title": "Anthropic MOU with Australian government for AI research",
+      "summary": "<cite index=\"4-7\">Anthropic announced a Memorandum of Understanding with the Australian Government providing AUD$3M in Claude API credits to four institutions supporting AI safety and medical research</cite>.",
+      "url": "https://anthropic.com"
     }
   ],
-  "lastChecked": "2026-04-22T08:01:56.040Z"
+  "lastChecked": "2026-04-23T08:08:32.822Z"
 }
