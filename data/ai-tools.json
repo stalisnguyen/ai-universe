@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-23T08:08:32.822Z",
+  "lastUpdated": "2026-04-24T08:16:54.278Z",
   "categories": [
     {
       "id": "llm",
@@ -10215,7 +10215,7 @@
   "totw": {
     "name": "Dune",
     "tagline": "Context-aware Mac keypad to automate workflows + meetings",
-    "votesCount": 582,
+    "votesCount": 584,
     "url": "https://www.producthunt.com/products/dune-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/56eb5fd7-684a-4fe5-aa2a-5333fd5b579b.jpeg?auto=format",
     "rank": 1,
@@ -10224,46 +10224,46 @@
       "Artificial Intelligence",
       "Development"
     ],
-    "fetchedAt": "2026-04-23T08:06:48.173Z"
+    "fetchedAt": "2026-04-24T08:15:45.036Z"
   },
   "lastWeeklyUpdate": "2026-04-21T08:18:04.123Z",
   "anthropicNews": [
     {
       "date": "Apr 22, 2026",
-      "title": "Anthropic tests removing Claude Code from Pro plan",
-      "summary": "<cite index=\"5-18\">Anthropic removed Claude Code from its Pro subscription plan, testing with a small number of users</cite>.",
+      "title": "Anthropic Testing Claude Code Removal from Pro Plan",
+      "summary": "<cite index=\"5-17\">Anthropic has removed Claude Code from its Pro subscription plan, though the company says it's only a test for a small number of users</cite>.",
       "url": "https://www.theregister.com/2026/04/22/anthropic_removes_claude_code_pro/"
     },
     {
+      "date": "Apr 20, 2026",
+      "title": "Amazon Invests Up to $25B in Anthropic",
+      "summary": "<cite index=\"7-1\">Amazon has agreed to invest up to $25 billion in Anthropic, on top of the $8 billion already invested, as part of an expanded agreement to build out AI infrastructure</cite>.",
+      "url": "https://www.cnbc.com/2026/04/20/amazon-invest-up-to-25-billion-in-anthropic-part-of-ai-infrastructure.html"
+    },
+    {
       "date": "Apr 17, 2026",
-      "title": "Anthropic launches Claude Design visual creation tool",
-      "summary": "<cite index=\"2-1\">Anthropic launched Claude Design, an experimental product for creating visuals like prototypes, slides, and one-pagers using Claude</cite>.",
+      "title": "Anthropic Launches Claude Design Product",
+      "summary": "<cite index=\"2-1\">Anthropic launched Claude Design, a new experimental product that lets users create visuals like prototypes, slides, one-pagers, and more using Claude</cite>.",
       "url": "https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/"
     },
     {
-      "date": "Apr 16, 2026",
-      "title": "Claude Opus 4.7 released with improved coding",
-      "summary": "<cite index=\"7-7,7-8\">Claude Opus 4.7 is now generally available with improvements in software engineering and complex, long-running coding tasks</cite>.",
-      "url": "https://www.anthropic.com/news/claude-opus-4-7"
+      "date": "Apr 15, 2026",
+      "title": "Anthropic Adjusts Enterprise Edition Pricing",
+      "summary": "<cite index=\"19-1\">Anthropic confirmed a pricing adjustment for its Claude enterprise edition, charging users a monthly fee of $20 per user, plus costs based on compute capacity used</cite>.",
+      "url": "https://www.gurufocus.com/news/8795305/anthropic-adjusts-pricing-model-for-claude-enterprise-edition"
+    },
+    {
+      "date": "Apr 14, 2026",
+      "title": "Claude Remains Ad-Free, Expanding Without Compromise",
+      "summary": "<cite index=\"1-1,1-2\">Anthropic announced Claude will remain ad-free, explaining why advertising incentives are incompatible with a genuinely helpful AI assistant</cite>.",
+      "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Apr 7, 2026",
-      "title": "Claude Mythos Preview released for cybersecurity",
-      "summary": "<cite index=\"13-17\">Anthropic announced Claude Mythos Preview would be made available to 11 companies for finding and fixing cybersecurity vulnerabilities</cite>.",
+      "title": "Claude Mythos Preview & Project Glasswing Launched",
+      "summary": "<cite index=\"4-1,4-2,4-6\">Anthropic announced Claude Mythos Preview, a new general-purpose language model strikingly capable at computer security tasks, and launched Project Glasswing to help secure critical software</cite>.",
       "url": "https://red.anthropic.com/2026/mythos-preview/"
-    },
-    {
-      "date": "Apr 6, 2026",
-      "title": "Anthropic announces multi-gigawatt TPU partnership",
-      "summary": "<cite index=\"4-3,4-4\">Anthropic announced a multi-gigawatt TPU infrastructure partnership with Google and Broadcom, significantly expanding compute access for model training and deployment</cite>.",
-      "url": "https://anthropic.com"
-    },
-    {
-      "date": "Mar 31, 2026",
-      "title": "Anthropic MOU with Australian government for AI research",
-      "summary": "<cite index=\"4-7\">Anthropic announced a Memorandum of Understanding with the Australian Government providing AUD$3M in Claude API credits to four institutions supporting AI safety and medical research</cite>.",
-      "url": "https://anthropic.com"
     }
   ],
-  "lastChecked": "2026-04-23T08:08:32.822Z"
+  "lastChecked": "2026-04-24T08:16:54.278Z"
 }
