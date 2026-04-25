@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-24T08:16:54.278Z",
+  "lastUpdated": "2026-04-25T07:42:04.280Z",
   "categories": [
     {
       "id": "llm",
@@ -10210,12 +10210,109 @@
         ]
       },
       "link": "https://openai.com"
+    },
+    {
+      "id": "mangrovegs",
+      "name": "MangroveGS",
+      "company": "University of Geneva",
+      "category": "medical-research",
+      "icon": "🧬",
+      "badge": "hot",
+      "color": "#E63946",
+      "price": "free",
+      "priceLabel": "Research Tool",
+      "tags": [
+        "Cancer prediction",
+        "Gene signatures",
+        "Metastasis detection",
+        "Personalized medicine"
+      ],
+      "shortDesc": "AI system that predicts cancer metastasis risk from gene expression patterns with 80% accuracy.",
+      "fullDesc": "<cite index=\"1-4\">MangroveGS studies complex gene activity patterns to calculate the chances of a tumour spreading to other parts of the body.</cite> <cite index=\"2-7\">The tool points toward more precise care: sparing low-risk patients from aggressive therapies while making sure high-risk patients are monitored and treated more intensively.</cite> <cite index=\"2-11,2-12\">Currently, MangroveGS is a research tool, not a standard clinical test, and the Geneva team's findings will need to be confirmed in larger groups of patients and across more cancer types.</cite>",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Machine Learning Model for Cancer Prediction"
+        },
+        {
+          "label": "Released",
+          "value": "2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Cancer metastasis risk prediction and personalized treatment planning"
+        },
+        {
+          "label": "Pricing",
+          "value": "Research tool (Academic use)"
+        }
+      ],
+      "features": [
+        "<cite index=\"2-19\">Exploits dozens, even hundreds, of gene signatures simultaneously.</cite>",
+        "<cite index=\"2-21\">Achieves nearly 80% accuracy in predicting whether colon cancer would metastasize or recur.</cite>",
+        "<cite index=\"1-13\">Gene signatures identified in colon cancer can help predict the risk of metastasis in stomach, lung, and breast cancers.</cite>",
+        "<cite index=\"6-10\">Processes RNA sequencing data from tumor samples and provides a metastasis risk score through a secure platform.</cite>",
+        "<cite index=\"1-11\">Designed to remain effective even if there are changes in the genes.</cite>",
+        "<cite index=\"1-15\">Doctors only need access to the tumour tissue sample to analyse gene activity and calculate metastasis risk.</cite>",
+        "<cite index=\"2-14\">Gene signatures could point scientists toward new drug targets—genes or pathways that, if blocked, might prevent cancer cells from spreading.</cite>"
+      ],
+      "demo": [
+        {
+          "title": "Sample Analysis",
+          "desc": "Tumor tissue sample is collected from patient",
+          "code": "RNA sequencing performed on tumor cells"
+        },
+        {
+          "title": "Gene Expression Processing",
+          "desc": "MangroveGS analyzes complex patterns across hundreds of genes",
+          "code": "Gene signature integration and pattern matching"
+        },
+        {
+          "title": "Risk Score Generation",
+          "desc": "Model produces metastasis risk prediction with confidence score",
+          "code": "Secure platform delivers results to clinical team"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Clinical Use Case",
+          "text": "Analyze this colon tumor sample to predict whether the cancer is likely to metastasize and identify appropriate treatment intensity"
+        },
+        {
+          "label": "Research Application",
+          "text": "Cross-validate gene signatures from colon cancer in breast cancer samples to assess metastatic potential"
+        },
+        {
+          "label": "Risk Stratification",
+          "text": "Generate metastasis risk scores for low-risk and high-risk patient cohorts to guide personalized treatment decisions"
+        }
+      ],
+      "pricing": {
+        "note": "<cite index=\"2-11,2-12\">MangroveGS is currently a research tool being validated for clinical use, with findings requiring confirmation in larger patient studies.</cite>",
+        "plans": [
+          {
+            "name": "Research Access",
+            "price": "Contact",
+            "per": "Custom",
+            "popular": true,
+            "color": "#E63946",
+            "features": [
+              "Gene expression analysis",
+              "Metastasis risk prediction",
+              "Multi-cancer applicability",
+              "Secure data platform",
+              "Academic collaboration"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.unige.ch"
     }
   ],
   "totw": {
     "name": "Dune",
     "tagline": "Context-aware Mac keypad to automate workflows + meetings",
-    "votesCount": 584,
+    "votesCount": 588,
     "url": "https://www.producthunt.com/products/dune-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/56eb5fd7-684a-4fe5-aa2a-5333fd5b579b.jpeg?auto=format",
     "rank": 1,
@@ -10224,46 +10321,46 @@
       "Artificial Intelligence",
       "Development"
     ],
-    "fetchedAt": "2026-04-24T08:15:45.036Z"
+    "fetchedAt": "2026-04-25T07:40:35.598Z"
   },
   "lastWeeklyUpdate": "2026-04-21T08:18:04.123Z",
   "anthropicNews": [
     {
-      "date": "Apr 22, 2026",
-      "title": "Anthropic Testing Claude Code Removal from Pro Plan",
-      "summary": "<cite index=\"5-17\">Anthropic has removed Claude Code from its Pro subscription plan, though the company says it's only a test for a small number of users</cite>.",
-      "url": "https://www.theregister.com/2026/04/22/anthropic_removes_claude_code_pro/"
-    },
-    {
-      "date": "Apr 20, 2026",
-      "title": "Amazon Invests Up to $25B in Anthropic",
-      "summary": "<cite index=\"7-1\">Amazon has agreed to invest up to $25 billion in Anthropic, on top of the $8 billion already invested, as part of an expanded agreement to build out AI infrastructure</cite>.",
-      "url": "https://www.cnbc.com/2026/04/20/amazon-invest-up-to-25-billion-in-anthropic-part-of-ai-infrastructure.html"
-    },
-    {
-      "date": "Apr 17, 2026",
-      "title": "Anthropic Launches Claude Design Product",
-      "summary": "<cite index=\"2-1\">Anthropic launched Claude Design, a new experimental product that lets users create visuals like prototypes, slides, one-pagers, and more using Claude</cite>.",
-      "url": "https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/"
-    },
-    {
-      "date": "Apr 15, 2026",
-      "title": "Anthropic Adjusts Enterprise Edition Pricing",
-      "summary": "<cite index=\"19-1\">Anthropic confirmed a pricing adjustment for its Claude enterprise edition, charging users a monthly fee of $20 per user, plus costs based on compute capacity used</cite>.",
-      "url": "https://www.gurufocus.com/news/8795305/anthropic-adjusts-pricing-model-for-claude-enterprise-edition"
-    },
-    {
-      "date": "Apr 14, 2026",
-      "title": "Claude Remains Ad-Free, Expanding Without Compromise",
-      "summary": "<cite index=\"1-1,1-2\">Anthropic announced Claude will remain ad-free, explaining why advertising incentives are incompatible with a genuinely helpful AI assistant</cite>.",
+      "date": "Apr 24, 2026",
+      "title": "Claude remains ad-free amid expansion plans",
+      "summary": "Anthropic reaffirms Claude will not display ads while explaining strategy to expand access without compromising user trust.",
       "url": "https://www.anthropic.com/news"
     },
     {
+      "date": "Apr 21, 2026",
+      "title": "Claude Code temporarily removed from Pro plan (reversed)",
+      "summary": "Anthropic briefly removed Claude Code from $20 Pro plan but reversed within 24 hours after user backlash.",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Apr 16, 2026",
+      "title": "Claude Opus 4.7 released with improved coding and vision",
+      "summary": "<cite index=\"16-1\">Anthropic released Claude Opus 4.7 with better coding, sharper vision and new ability to double-check its own work.</cite>",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Apr 14, 2026",
+      "title": "Vas Narasimhan appointed to Anthropic board",
+      "summary": "<cite index=\"10-2,10-14\">Anthropic appointed Novartis CEO Vas Narasimhan to its Board of Directors, bringing healthcare and AI expertise.</cite>",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Apr 6, 2026",
+      "title": "Anthropic secures $100B+ compute deal with Amazon",
+      "summary": "<cite index=\"7-2,7-7\">Anthropic secured up to 5GW of capacity with Amazon, committing over $100 billion over next ten years to AWS technologies.</cite>",
+      "url": "https://www.anthropic.com/news/anthropic-amazon-compute"
+    },
+    {
       "date": "Apr 7, 2026",
-      "title": "Claude Mythos Preview & Project Glasswing Launched",
-      "summary": "<cite index=\"4-1,4-2,4-6\">Anthropic announced Claude Mythos Preview, a new general-purpose language model strikingly capable at computer security tasks, and launched Project Glasswing to help secure critical software</cite>.",
+      "title": "Claude Mythos Preview security initiative launches",
+      "summary": "<cite index=\"5-2,5-3,5-4\">Anthropic announced Claude Mythos Preview model with exceptional computer security capabilities and launched Project Glasswing to help secure critical software.</cite>",
       "url": "https://red.anthropic.com/2026/mythos-preview/"
     }
   ],
-  "lastChecked": "2026-04-24T08:16:54.278Z"
+  "lastChecked": "2026-04-25T07:42:04.280Z"
 }
