@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-25T07:42:04.280Z",
+  "lastUpdated": "2026-04-26T07:50:42.427Z",
   "categories": [
     {
       "id": "llm",
@@ -10307,12 +10307,161 @@
         ]
       },
       "link": "https://www.unige.ch"
+    },
+    {
+      "id": "gemma-4",
+      "name": "Gemma 4",
+      "company": "Google",
+      "category": "llm",
+      "icon": "🧠",
+      "badge": "new",
+      "color": "#4285F4",
+      "price": "free",
+      "priceLabel": "Free (Apache 2.0)",
+      "tags": [
+        "open-source",
+        "multimodal",
+        "reasoning",
+        "edge-optimized"
+      ],
+      "shortDesc": "Google's most capable open-source LLM family with native multimodal support and advanced reasoning for edge-to-enterprise deployment.",
+      "fullDesc": "Gemma 4 is Google DeepMind's most intelligent open model family, built from Gemini 3 research. Available in four sizes (E2B, E4B, 26B MoE, 31B Dense), it delivers frontier-level reasoning and agentic capabilities with native support for text, images, video, and audio. Designed for developers building privacy-first applications, on-device AI agents, and enterprise workflows requiring complete data sovereignty.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Open-Source Language Model (Multimodal)"
+        },
+        {
+          "label": "Released",
+          "value": "April 2, 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "On-device agents, agentic workflows, coding, edge deployment, reasoning-heavy tasks"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free under Apache 2.0 license (no restrictions)"
+        }
+      ],
+      "features": [
+        "Four model sizes (E2B 2B, E4B 4B, 26B MoE with 3.8B active, 31B Dense) optimized for devices to servers",
+        "Native multimodal input: text, images (variable resolution), video, audio on small models",
+        "Extended context windows: 128K tokens (E2B/E4B), 256K tokens (26B/31B)",
+        "Built-in reasoning with configurable thinking modes for step-by-step problem solving",
+        "Native function calling and structured output support for autonomous agents",
+        "Strong coding performance with code generation, completion, and correction",
+        "Multilingual support for 140+ languages with variable aspect ratio image processing",
+        "Apache 2.0 licensed for unrestricted commercial use, fine-tuning, and deployment"
+      ],
+      "demo": [
+        {
+          "title": "Quick Start with Ollama",
+          "desc": "Run Gemma 4 locally on any device using Ollama with a single command",
+          "code": "ollama run gemma4"
+        },
+        {
+          "title": "Web Interface",
+          "desc": "Try Gemma 4 models instantly in Google AI Studio without installation",
+          "code": "Visit https://aistudio.google.com"
+        },
+        {
+          "title": "Edge Deployment",
+          "desc": "Access E2B and E4B models through Google AI Edge Gallery for on-device testing",
+          "code": "Download from Google AI Edge Gallery"
+        },
+        {
+          "title": "Python Integration",
+          "desc": "Use with LiteRT-LM for optimized mobile and edge deployment",
+          "code": "litert-lm run gemma-4-e2b"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Reasoning Task",
+          "text": "Think step-by-step about this problem before answering: How would you design a system to detect fraudulent transactions in a real-time payment system?"
+        },
+        {
+          "label": "Code Generation",
+          "text": "Write a Python function that implements a binary search algorithm with detailed comments explaining each step."
+        },
+        {
+          "label": "Agentic Task",
+          "text": "You are a research assistant. Use the search_papers() function to find recent papers on transformer optimization, then summarize the top 3 findings."
+        },
+        {
+          "label": "Multimodal Analysis",
+          "text": "Analyze this document image and extract all key information: dates, names, amounts, and action items."
+        }
+      ],
+      "pricing": {
+        "note": "Gemma 4 is released under Apache 2.0 with no commercial restrictions. Download weights from Hugging Face or Kaggle for self-hosted deployment, or use managed services like Google Cloud, Vertex AI, or cloud endpoints.",
+        "plans": [
+          {
+            "name": "Self-Hosted (Free)",
+            "price": "$0",
+            "per": "forever",
+            "popular": true,
+            "color": "#34A853",
+            "features": [
+              "Download open weights from Hugging Face/Kaggle",
+              "Run locally on your own infrastructure",
+              "Full commercial use rights",
+              "No usage limits or restrictions",
+              "Fine-tune for private data"
+            ]
+          },
+          {
+            "name": "Google AI Studio (Free)",
+            "price": "$0",
+            "per": "forever",
+            "popular": false,
+            "color": "#4285F4",
+            "features": [
+              "Browser-based playground (31B, 26B MoE)",
+              "No setup required",
+              "Quick prototyping",
+              "Export code samples",
+              "Limited requests"
+            ]
+          },
+          {
+            "name": "Google Cloud (Pay-as-you-go)",
+            "price": "Variable",
+            "per": "per request",
+            "popular": false,
+            "color": "#EA4335",
+            "features": [
+              "Managed deployment on Vertex AI",
+              "Enterprise security & compliance",
+              "Sovereign Cloud options",
+              "TPU/GPU acceleration",
+              "Production SLAs"
+            ]
+          },
+          {
+            "name": "On-Device (Free)",
+            "price": "$0",
+            "per": "forever",
+            "popular": false,
+            "color": "#FBBC04",
+            "features": [
+              "E2B/E4B optimized for phones/edge",
+              "Offline execution",
+              "No data leaves device",
+              "LiteRT-LM acceleration",
+              "Battery-efficient inference"
+            ]
+          }
+        ]
+      },
+      "link": "https://blog.google/innovation-and-ai/technology/ai/"
     }
   ],
   "totw": {
     "name": "Dune",
     "tagline": "Context-aware Mac keypad to automate workflows + meetings",
-    "votesCount": 588,
+    "votesCount": 590,
     "url": "https://www.producthunt.com/products/dune-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/56eb5fd7-684a-4fe5-aa2a-5333fd5b579b.jpeg?auto=format",
     "rank": 1,
@@ -10321,46 +10470,46 @@
       "Artificial Intelligence",
       "Development"
     ],
-    "fetchedAt": "2026-04-25T07:40:35.598Z"
+    "fetchedAt": "2026-04-26T07:49:22.733Z"
   },
   "lastWeeklyUpdate": "2026-04-21T08:18:04.123Z",
   "anthropicNews": [
     {
       "date": "Apr 24, 2026",
-      "title": "Claude remains ad-free amid expansion plans",
-      "summary": "Anthropic reaffirms Claude will not display ads while explaining strategy to expand access without compromising user trust.",
+      "title": "Anthropic and NEC collaborate on Japan AI workforce",
+      "summary": "Anthropic partners with NEC to build Japan's largest AI engineering workforce.",
       "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Apr 21, 2026",
-      "title": "Claude Code temporarily removed from Pro plan (reversed)",
-      "summary": "Anthropic briefly removed Claude Code from $20 Pro plan but reversed within 24 hours after user backlash.",
+      "date": "Apr 20, 2026",
+      "title": "Anthropic and Amazon expand compute collaboration",
+      "summary": "<cite index=\"12-7\">Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute.</cite>",
       "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Apr 17, 2026",
+      "title": "Claude Design launched by Anthropic Labs",
+      "summary": "<cite index=\"5-1\">Anthropic launched Claude Design, an experimental product for creating visuals like prototypes, slides, and one-pagers using Claude.</cite>",
+      "url": "https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/"
     },
     {
       "date": "Apr 16, 2026",
-      "title": "Claude Opus 4.7 released with improved coding and vision",
-      "summary": "<cite index=\"16-1\">Anthropic released Claude Opus 4.7 with better coding, sharper vision and new ability to double-check its own work.</cite>",
-      "url": "https://www.anthropic.com/news"
+      "title": "Claude Opus 4.7 released with improved coding",
+      "summary": "<cite index=\"3-7,3-8\">Claude Opus 4.7 is now generally available, showing improvements in software engineering and complex coding tasks, as well as better vision.</cite>",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7"
     },
     {
       "date": "Apr 14, 2026",
-      "title": "Vas Narasimhan appointed to Anthropic board",
-      "summary": "<cite index=\"10-2,10-14\">Anthropic appointed Novartis CEO Vas Narasimhan to its Board of Directors, bringing healthcare and AI expertise.</cite>",
+      "title": "Vas Narasimhan appointed to Anthropic Board",
+      "summary": "<cite index=\"8-2,8-14\">Anthropic appointed Vas Narasimhan, CEO of Novartis and trained physician-scientist, to its Board of Directors.</cite>",
       "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Apr 6, 2026",
-      "title": "Anthropic secures $100B+ compute deal with Amazon",
-      "summary": "<cite index=\"7-2,7-7\">Anthropic secured up to 5GW of capacity with Amazon, committing over $100 billion over next ten years to AWS technologies.</cite>",
-      "url": "https://www.anthropic.com/news/anthropic-amazon-compute"
-    },
-    {
       "date": "Apr 7, 2026",
-      "title": "Claude Mythos Preview security initiative launches",
-      "summary": "<cite index=\"5-2,5-3,5-4\">Anthropic announced Claude Mythos Preview model with exceptional computer security capabilities and launched Project Glasswing to help secure critical software.</cite>",
-      "url": "https://red.anthropic.com/2026/mythos-preview/"
+      "title": "Google/Broadcom TPU partnership announced",
+      "summary": "<cite index=\"7-9,7-10\">Anthropic secured 3.5 gigawatts of next-generation TPU capacity, one of the largest single compute commitments in AI history.</cite>",
+      "url": "https://www.anthropic.com/news"
     }
   ],
-  "lastChecked": "2026-04-25T07:42:04.280Z"
+  "lastChecked": "2026-04-26T07:50:42.427Z"
 }
