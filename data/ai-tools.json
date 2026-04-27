@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-26T07:50:42.427Z",
+  "lastUpdated": "2026-04-27T08:38:58.460Z",
   "categories": [
     {
       "id": "llm",
@@ -10456,60 +10456,185 @@
         ]
       },
       "link": "https://blog.google/innovation-and-ai/technology/ai/"
+    },
+    {
+      "id": "fiber-ai",
+      "name": "Fiber AI",
+      "company": "Fiber AI",
+      "category": "agent",
+      "icon": "🤖",
+      "badge": "hot",
+      "color": "#003366",
+      "price": "paid",
+      "priceLabel": "From $300/mo",
+      "tags": [
+        "AI SDR",
+        "sales automation",
+        "prospecting",
+        "data API"
+      ],
+      "shortDesc": "AI-powered SDR that automates outbound sales prospecting with hyper-personalized messaging and 80% open rates.",
+      "fullDesc": "Fiber AI is an autonomous AI Sales Development Representative that automates outbound prospecting, personalized messaging, and meeting booking for B2B sales teams. It combines intelligent automation with data from 50+ sources including LinkedIn, Crunchbase, and BuiltWith to help teams generate pipeline at scale with minimal manual effort.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "AI Sales Agent / Sales Automation Platform"
+        },
+        {
+          "label": "Released",
+          "value": "2023 (Y Combinator S23)"
+        },
+        {
+          "label": "Best for",
+          "value": "Sales teams, SDRs, BDRs, and B2B companies focused on outbound prospecting"
+        },
+        {
+          "label": "Pricing",
+          "value": "Custom pricing starting at $300/month; no free tier available"
+        }
+      ],
+      "features": [
+        "Autonomous AI SDR that identifies target accounts, crafts personalized emails, and books meetings without manual intervention",
+        "Access to 40M+ companies, 850M+ professionals, and 32M+ job listings with continuous real-time data updates",
+        "AI-powered hyper-personalized email generation tailored to prospect industry, role, and company context",
+        "Advanced lead targeting with firmographic and intent data filtering, including hiring trends and fundraising signals",
+        "Four-layer bounce detection and email verification with automatic invalid contact removal for clean outreach lists",
+        "Email warmup and deliverability optimization to prevent spam folder placement and improve sender reputation",
+        "API access for integration into existing sales stacks and CRM systems",
+        "Real-time analytics and automated follow-up management across outreach campaigns"
+      ],
+      "demo": [
+        {
+          "title": "Create Target Audience",
+          "desc": "Search the database of 40M+ companies with advanced filters for hiring trends, company size, and industry."
+        },
+        {
+          "title": "Personalize Outreach",
+          "desc": "Let AI generate custom email copy based on prospect data. System enriches leads with company context automatically."
+        },
+        {
+          "title": "Automate Follow-ups",
+          "desc": "System tracks opens and responses, automatically follows up with non-responders on a customizable schedule."
+        },
+        {
+          "title": "Book Meetings",
+          "desc": "Qualified prospects receive personalized meeting request with optimized scheduling links."
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Lead targeting",
+          "text": "Find software startup CTOs in California with 20-50 employees who recently raised Series A funding"
+        },
+        {
+          "label": "Outreach research",
+          "text": "Research VP Sales at mid-market SaaS companies implementing new AI tools in their tech stack"
+        },
+        {
+          "label": "Campaign launch",
+          "text": "Create personalized outreach sequence targeting product managers at companies using specific cloud vendors"
+        }
+      ],
+      "pricing": {
+        "note": "Fiber AI uses custom pricing based on team size, outreach volume, and required features. Tiered plans available with discounts for annual billing (up to 17% savings).",
+        "plans": [
+          {
+            "name": "Starter",
+            "price": "$300",
+            "per": "per month",
+            "popular": false,
+            "color": "#E8F4F8",
+            "features": [
+              "Access to core prospecting database",
+              "Limited outreach credits",
+              "Basic email personalization"
+            ]
+          },
+          {
+            "name": "Growth",
+            "price": "Custom",
+            "per": "per month",
+            "popular": true,
+            "color": "#003366",
+            "features": [
+              "Unlimited prospect searches",
+              "Advanced AI personalization",
+              "API access for integrations",
+              "Dedicated support",
+              "Higher outreach volume"
+            ]
+          },
+          {
+            "name": "Enterprise",
+            "price": "Custom",
+            "per": "per month",
+            "popular": false,
+            "color": "#001F3F",
+            "features": [
+              "All Growth features included",
+              "Custom API endpoints",
+              "White-label options",
+              "Advanced filtering and automation",
+              "Account manager support"
+            ]
+          }
+        ]
+      },
+      "link": "https://fiberai.co"
     }
   ],
   "totw": {
-    "name": "Dune",
-    "tagline": "Context-aware Mac keypad to automate workflows + meetings",
-    "votesCount": 590,
-    "url": "https://www.producthunt.com/products/dune-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
-    "thumbnail": "https://ph-files.imgix.net/56eb5fd7-684a-4fe5-aa2a-5333fd5b579b.jpeg?auto=format",
+    "name": "Ask Product Hunt AI",
+    "tagline": "Find the right product, just ask",
+    "votesCount": 540,
+    "url": "https://www.producthunt.com/products/producthunt?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
+    "thumbnail": "https://ph-files.imgix.net/d618ea86-70ae-4d12-8ec2-0ed78c723ddf.png?auto=format",
     "rank": 1,
     "topics": [
       "Productivity",
       "Artificial Intelligence",
-      "Development"
+      "Product Hunt"
     ],
-    "fetchedAt": "2026-04-26T07:49:22.733Z"
+    "fetchedAt": "2026-04-27T08:38:12.735Z"
   },
   "lastWeeklyUpdate": "2026-04-21T08:18:04.123Z",
   "anthropicNews": [
     {
       "date": "Apr 24, 2026",
-      "title": "Anthropic and NEC collaborate on Japan AI workforce",
-      "summary": "Anthropic partners with NEC to build Japan's largest AI engineering workforce.",
+      "title": "Anthropic and NEC collaborate on AI workforce",
+      "summary": "<cite index=\"15-1\">Anthropic and NEC collaborate to build Japan's largest AI engineering workforce</cite>.",
       "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Apr 20, 2026",
       "title": "Anthropic and Amazon expand compute collaboration",
-      "summary": "<cite index=\"12-7\">Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute.</cite>",
+      "summary": "<cite index=\"15-1\">Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute</cite>.",
       "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Apr 17, 2026",
-      "title": "Claude Design launched by Anthropic Labs",
-      "summary": "<cite index=\"5-1\">Anthropic launched Claude Design, an experimental product for creating visuals like prototypes, slides, and one-pagers using Claude.</cite>",
+      "title": "Claude Design by Anthropic Labs launches",
+      "summary": "<cite index=\"4-1\">Anthropic launches Claude Design, a new experimental product that lets users create visuals like prototypes, slides, one-pagers, and more using Claude</cite>.",
       "url": "https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/"
     },
     {
       "date": "Apr 16, 2026",
-      "title": "Claude Opus 4.7 released with improved coding",
-      "summary": "<cite index=\"3-7,3-8\">Claude Opus 4.7 is now generally available, showing improvements in software engineering and complex coding tasks, as well as better vision.</cite>",
+      "title": "Claude Opus 4.7 released with enhanced coding",
+      "summary": "<cite index=\"3-6,3-7,3-8\">Claude launches Opus 4.7, with stronger coding, better long-running software tasks and higher-resolution vision. Opus 4.7 shows improvements in software engineering and complex, long-running coding tasks, as well as better vision</cite>.",
       "url": "https://www.anthropic.com/news/claude-opus-4-7"
     },
     {
-      "date": "Apr 14, 2026",
-      "title": "Vas Narasimhan appointed to Anthropic Board",
-      "summary": "<cite index=\"8-2,8-14\">Anthropic appointed Vas Narasimhan, CEO of Novartis and trained physician-scientist, to its Board of Directors.</cite>",
-      "url": "https://www.anthropic.com/news"
+      "date": "Apr 7, 2026",
+      "title": "Claude Mythos Preview announced for cybersecurity",
+      "summary": "<cite index=\"7-2,7-3\">Claude Mythos Preview can identify and exploit software vulnerabilities with unprecedented accuracy. This model performs strongly across the board, but it is strikingly capable at computer security tasks</cite>.",
+      "url": "https://red.anthropic.com/2026/mythos-preview/"
     },
     {
-      "date": "Apr 7, 2026",
+      "date": "Apr 6, 2026",
       "title": "Google/Broadcom TPU partnership announced",
-      "summary": "<cite index=\"7-9,7-10\">Anthropic secured 3.5 gigawatts of next-generation TPU capacity, one of the largest single compute commitments in AI history.</cite>",
+      "summary": "<cite index=\"6-16,6-17\">Anthropic announced a multi-gigawatt TPU infrastructure partnership with Google and Broadcom, with capacity launching in 2027. The deal significantly expands Anthropic's compute access</cite>.",
       "url": "https://www.anthropic.com/news"
     }
   ],
-  "lastChecked": "2026-04-26T07:50:42.427Z"
+  "lastChecked": "2026-04-27T08:38:58.460Z"
 }
