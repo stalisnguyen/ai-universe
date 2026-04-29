@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-28T08:54:17.490Z",
+  "lastUpdated": "2026-04-29T08:31:07.074Z",
   "categories": [
     {
       "id": "llm",
@@ -11157,12 +11157,131 @@
         ]
       },
       "link": "https://superdesign.dev"
+    },
+    {
+      "id": "cloudflare-mesh",
+      "name": "Cloudflare Mesh",
+      "company": "Cloudflare",
+      "category": "networking",
+      "icon": "🔗",
+      "badge": "new",
+      "color": "#F6821F",
+      "price": "freemium",
+      "priceLabel": "Free / Enterprise",
+      "tags": [
+        "Private Networking",
+        "AI Agents",
+        "Zero Trust",
+        "Multi-Cloud"
+      ],
+      "shortDesc": "Secure private networking solution for AI agents and infrastructure without exposing to public internet.",
+      "fullDesc": "Cloudflare Mesh is a private networking fabric that enables AI agents, humans, and multicloud infrastructure to communicate securely over private IPs without public internet exposure. It provides agents with distinct identities and granular access controls while integrating with Cloudflare Workers, Workers VPC, and the Agents SDK for end-to-end lifecycle management.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Private Networking Infrastructure"
+        },
+        {
+          "label": "Released",
+          "value": "April 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Securing AI agents accessing private databases, APIs, and staging environments"
+        },
+        {
+          "label": "Pricing",
+          "value": "Core features free; enterprise plans available"
+        }
+      ],
+      "features": [
+        "Five-minute setup wizard for zero-networking-expertise configuration",
+        "Bidirectional many-to-many networking between devices, servers, and agents",
+        "Post-quantum encrypted connections routed through Cloudflare's global network",
+        "Integration with Cloudflare Workers VPC for agents accessing private infrastructure",
+        "Distinct agent identity framework for granular security policies",
+        "Zero Trust enforcement with automatic Gateway policies and device posture checks",
+        "Support for TCP, UDP, and ICMP traffic with subnet routing via CIDR",
+        "High availability with active-passive failover for production deployments"
+      ],
+      "demo": [
+        {
+          "title": "Create Mesh Node",
+          "desc": "Set up first Mesh node through dashboard wizard with provisioning complete in minutes",
+          "code": "Go to Networking > Mesh > Add a node in Cloudflare dashboard"
+        },
+        {
+          "title": "Connect Client Device",
+          "desc": "Install Cloudflare One Client and authenticate to join the mesh network automatically",
+          "code": "Download Cloudflare One Client and login with team credentials"
+        },
+        {
+          "title": "Test Private Connectivity",
+          "desc": "Verify agent or device can reach other mesh participants by private IP without public endpoints",
+          "code": "ping <MESH-IP> or curl tcp://<MESH-IP>:<PORT>"
+        },
+        {
+          "title": "Configure Mesh Binding",
+          "desc": "Bind Workers VPC to Mesh network to grant agents access to private databases and APIs",
+          "code": "Add mesh network binding in Cloudflare Workers VPC configuration"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Setup",
+          "text": "Set up a secure private network for my AI coding agent to query a staging database"
+        },
+        {
+          "label": "Access Control",
+          "text": "Create policies allowing agent read access to test database but blocking production financial records"
+        },
+        {
+          "label": "Multi-Cloud",
+          "text": "Connect VPCs from AWS and GCP into a unified private fabric for agent coordination"
+        },
+        {
+          "label": "Monitoring",
+          "text": "View agent traffic logs and identity-based access patterns in Gateway activity logs"
+        }
+      ],
+      "pricing": {
+        "note": "Cloudflare Mesh is provided as core functionality within Cloudflare One/Zero Trust deployments. Core mesh features are available free to existing Cloudflare One customers. Enterprise pricing available for advanced governance and scale requirements.",
+        "plans": [
+          {
+            "name": "Free",
+            "price": "$0",
+            "per": "forever",
+            "popular": true,
+            "color": "#F6821F",
+            "features": [
+              "Unlimited mesh nodes (up to 50 per account)",
+              "Client-to-client connectivity without infrastructure",
+              "Basic subnet routing with CIDR support",
+              "Access to dashboard with setup wizard and diagnostics"
+            ]
+          },
+          {
+            "name": "Cloudflare One Pro/Business",
+            "price": "Contact sales",
+            "per": "per month",
+            "popular": false,
+            "color": "#F6821F",
+            "features": [
+              "Advanced Gateway policies and DNS filtering",
+              "SSH/RDP session management via Access for Infrastructure",
+              "CASB for SaaS security integration",
+              "Priority support and SLA guarantees"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.cloudflare.com/"
     }
   ],
   "totw": {
     "name": "Ask Product Hunt AI",
     "tagline": "Find the right product, just ask",
-    "votesCount": 542,
+    "votesCount": 547,
     "url": "https://www.producthunt.com/products/producthunt?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/d618ea86-70ae-4d12-8ec2-0ed78c723ddf.png?auto=format",
     "rank": 1,
@@ -11171,46 +11290,46 @@
       "Artificial Intelligence",
       "Product Hunt"
     ],
-    "fetchedAt": "2026-04-28T08:36:39.309Z"
+    "fetchedAt": "2026-04-29T08:29:22.690Z"
   },
   "lastWeeklyUpdate": "2026-04-28T08:50:35.476Z",
   "anthropicNews": [
     {
-      "date": "Apr 22, 2026",
-      "title": "Claude Opus 4.7 Now Generally Available",
-      "summary": "<cite index=\"5-6,5-8\">Claude Opus 4.7 is now available with improvements in software engineering and complex, long-running coding tasks, as well as better vision</cite>.",
-      "url": "https://www.anthropic.com/news/claude-opus-4-7"
+      "date": "Apr 24, 2026",
+      "title": "Google invests $10B in Anthropic with $30B conditional",
+      "summary": "<cite index=\"29-3\">Google will invest $10 billion in Anthropic with another $30 billion potentially to follow.</cite>",
+      "url": "https://www.bloomberg.com/news/articles/2026-04-24/google-plans-to-invest-up-to-40-billion-in-anthropic"
+    },
+    {
+      "date": "Apr 23, 2026",
+      "title": "Anthropic introduces Managed Agents for long-horizon work",
+      "summary": "<cite index=\"22-1,22-8\">Anthropic introduces Managed Agents, emphasizing durable state, safer tool access, and faster startup for reliable long-running tasks.</cite>",
+      "url": "https://releasebot.io/updates/anthropic"
     },
     {
       "date": "Apr 17, 2026",
-      "title": "Claude Design Launched by Anthropic Labs",
-      "summary": "<cite index=\"6-1\">Anthropic launched Claude Design, a new experimental product that lets users create visuals like prototypes, slides, one-pagers, and more using Claude</cite>.",
-      "url": "https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/"
+      "title": "Anthropic launches Claude Design visual creation tool",
+      "summary": "<cite index=\"25-1\">Anthropic launched Claude Design, letting users create visuals like prototypes, slides, one-pagers, and more using Claude.</cite>",
+      "url": "https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals"
     },
     {
-      "date": "Apr 20, 2026",
-      "title": "Anthropic and Amazon Expand 5 Gigawatt Compute Deal",
-      "summary": "<cite index=\"2-6\">Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute</cite>.",
-      "url": "https://www.anthropic.com/news"
+      "date": "Apr 16, 2026",
+      "title": "Claude Opus 4.7 released with better coding and vision",
+      "summary": "<cite index=\"6-2,6-8\">Opus 4.7 is a notable improvement on Opus 4.6 in advanced software engineering with substantially better vision at greater image resolution.</cite>",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7"
     },
     {
       "date": "Apr 7, 2026",
-      "title": "Claude Mythos Preview & Project Glasswing Announced",
-      "summary": "<cite index=\"3-2,3-3,3-4\">Anthropic announced Claude Mythos Preview, a new general-purpose language model that performs strongly at computer security tasks, and launched Project Glasswing to use Mythos Preview to help secure critical software</cite>.",
-      "url": "https://red.anthropic.com/2026/mythos-preview/"
+      "title": "Claude Mythos Preview announced with Project Glasswing",
+      "summary": "<cite index=\"4-2,4-3,4-4\">Claude Mythos Preview announced, strikingly capable at computer security tasks, launching Project Glasswing to help secure critical software.</cite>",
+      "url": "https://red.anthropic.com/2026/mythos-preview"
     },
     {
       "date": "Apr 6, 2026",
-      "title": "Anthropic Expands Google and Broadcom Partnership",
-      "summary": "<cite index=\"2-6\">Anthropic expands partnership with Google and Broadcom for multiple gigawatts of next-generation compute</cite>.",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "Apr 1, 2026",
-      "title": "Claude Managed Agents Launched in Public Beta",
-      "summary": "<cite index=\"10-14,10-15\">Claude Managed Agents in public beta is a fully managed agent harness for running Claude as an autonomous agent with secure sandboxing and built-in tools</cite>.",
-      "url": "https://platform.claude.com/docs/en/release-notes/overview"
+      "title": "Anthropic expands Google Cloud and TPU partnership",
+      "summary": "<cite index=\"27-9,27-10,27-11\">Anthropic secured 3.5 gigawatts of next-generation TPU capacity with delivery starting in 2027, one of largest compute commitments in AI history.</cite>",
+      "url": "https://www.googlecloudpresscorner.com/2026-04-06-Anthropic-Expands-Use-of-Google-Cloud-and-TPUs"
     }
   ],
-  "lastChecked": "2026-04-28T08:54:17.490Z"
+  "lastChecked": "2026-04-29T08:31:07.074Z"
 }
