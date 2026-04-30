@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-29T08:31:07.074Z",
+  "lastUpdated": "2026-04-30T08:33:58.390Z",
   "categories": [
     {
       "id": "llm",
@@ -11276,60 +11276,453 @@
         ]
       },
       "link": "https://www.cloudflare.com/"
+    },
+    {
+      "id": "mercury-2",
+      "name": "Mercury 2",
+      "company": "Inception Labs",
+      "category": "reasoning-llm",
+      "icon": "⚡",
+      "badge": "hot",
+      "color": "#0066FF",
+      "price": "paid",
+      "priceLabel": "$0.25/M input, $0.75/M output tokens",
+      "tags": [
+        "diffusion-based",
+        "reasoning",
+        "ultra-fast",
+        "production-ready"
+      ],
+      "shortDesc": "World's fastest reasoning LLM using diffusion-based architecture for 5x faster inference.",
+      "fullDesc": "Mercury 2 is a diffusion-based reasoning language model that generates multiple tokens in parallel instead of sequentially, achieving over 1,000 tokens per second. Built for production AI workloads including agent loops, real-time voice, search systems, and coding assistants where latency is critical. Offers 128K context window, native tool use, and structured JSON output at a fraction of the cost of competing models.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Diffusion-based Reasoning LLM"
+        },
+        {
+          "label": "Released",
+          "value": "March 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Real-time AI agents, voice assistants, coding workflows, search systems"
+        },
+        {
+          "label": "Pricing",
+          "value": "Pay-per-token: $0.25/M input tokens, $0.75/M output tokens"
+        }
+      ],
+      "features": [
+        "Parallel token generation enabling >1,000 tokens/second throughput on NVIDIA GPUs",
+        "Diffusion-based architecture for 5x faster reasoning than competing speed-optimized models",
+        "128K token context window supporting extended conversations and documents",
+        "Native tool use and schema-aligned JSON output for structured agent orchestration",
+        "Tunable reasoning levels for flexible reasoning depth configuration",
+        "OpenAI API compatible for seamless integration into existing workflows",
+        "In-generation error correction and iterative refinement capabilities",
+        "Production-grade reliability optimized for low-latency enterprise applications"
+      ],
+      "demo": [
+        {
+          "title": "Code Generation with Speed",
+          "desc": "Use Mercury 2 in an IDE to generate code completions and refactoring suggestions with sub-100ms latency.",
+          "code": "curl https://api.inceptionlabs.ai/v1/messages -H 'Authorization: Bearer YOUR_API_KEY' -d '{\"model\": \"mercury-2\", \"messages\": [{\"role\": \"user\", \"content\": \"Refactor this function to be more efficient\"}]}'"
+        },
+        {
+          "title": "Real-time Voice Assistant",
+          "desc": "Process natural language requests and generate responses fast enough for conversational voice interaction.",
+          "code": "Integrate Mercury 2 via Inception API for voice agent text generation with <2 second end-to-end latency"
+        },
+        {
+          "title": "Agent Loop Optimization",
+          "desc": "Execute multi-step agentic workflows where each reasoning step completes in milliseconds.",
+          "code": "Chain Mercury 2 API calls for agent reasoning loops without compounding latency penalties"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Code Refactoring",
+          "text": "Refactor this Python function for better performance and readability, show intermediate improvements"
+        },
+        {
+          "label": "Complex Problem Solving",
+          "text": "Break down this multi-step problem and solve it progressively, refining the approach at each stage"
+        },
+        {
+          "label": "Real-time Search",
+          "text": "Search my knowledge base for information about X and summarize the most relevant findings instantly"
+        },
+        {
+          "label": "Voice Assistant",
+          "text": "Generate a natural conversational response to the user query with proper context awareness"
+        }
+      ],
+      "pricing": {
+        "note": "Mercury 2 uses a token-based pricing model optimized for high-volume production workloads. Blended rate (3:1 input/output ratio) is approximately $0.38 per million tokens, making it significantly cheaper than Claude 4.5 Haiku and GPT-5 Mini for reasoning tasks.",
+        "plans": [
+          {
+            "name": "Pay-as-you-go",
+            "price": "$0.25",
+            "per": "per 1M input tokens",
+            "popular": true,
+            "color": "#0066FF",
+            "features": [
+              "Full Mercury 2 model access",
+              "128K context window",
+              "Native tool use and JSON output",
+              "OpenAI API compatibility",
+              "Production-grade SLAs"
+            ]
+          },
+          {
+            "name": "Output Tokens",
+            "price": "$0.75",
+            "per": "per 1M output tokens",
+            "popular": true,
+            "color": "#0066FF",
+            "features": [
+              "Blended rate of $0.38/1M tokens (3:1 ratio)",
+              "Optimized for high-volume inference",
+              "Enterprise support available",
+              "Custom integration assistance",
+              "Volume discounts negotiable"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.inceptionlabs.ai/blog/introducing-mercury-2"
+    },
+    {
+      "id": "perplexity-comet-browser",
+      "name": "Perplexity Comet Browser",
+      "company": "Perplexity",
+      "category": "search",
+      "icon": "🌠",
+      "badge": "hot",
+      "color": "#2D5BFF",
+      "price": "freemium",
+      "priceLabel": "Free / From $20/mo",
+      "tags": [
+        "AI browser",
+        "agentic browsing",
+        "AI assistant",
+        "productivity"
+      ],
+      "shortDesc": "AI-native Chromium browser with built-in assistant for intelligent browsing and task automation.",
+      "fullDesc": "Perplexity Comet is an agentic AI browser that integrates search, summarization, and automation directly into the browsing experience. Built on Chromium and powered by Perplexity's AI engine, it allows users to search naturally, summarize content, manage tasks, and automate workflows across tabs without switching apps. Designed for professionals and knowledge workers seeking a more intelligent, productive browsing experience.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "AI-native web browser"
+        },
+        {
+          "label": "Released",
+          "value": "July 2025"
+        },
+        {
+          "label": "Best for",
+          "value": "Professionals, researchers, and productivity-focused users"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free with paid plans for premium features"
+        }
+      ],
+      "features": [
+        "Agentic AI assistant integrated into every browsing action with summarization and task automation",
+        "Natural language search and conversational interface for full questions without Boolean logic",
+        "Cross-tab context awareness to synthesize information from multiple open pages",
+        "Built-in automation for form filling, scheduling, shopping, and email management",
+        "Chrome extension compatibility and easy data import from Chrome",
+        "Multi-language support with contextual understanding of any language content",
+        "Cited answers from real-time sources matching Perplexity's search engine results",
+        "Desktop and mobile availability on macOS, Windows, iOS, and Android"
+      ],
+      "demo": [
+        {
+          "title": "Quick Search & Summarization",
+          "desc": "Ask Comet a full-sentence question naturally and receive structured, cited answers instantly",
+          "code": "What are the top AI ML certifications in 2026?"
+        },
+        {
+          "title": "Page Content Analysis",
+          "desc": "Highlight or ask about page content including videos, blogs, and PDFs for immediate summarization",
+          "code": "Summarize this article and tell me the key takeaways"
+        },
+        {
+          "title": "Multi-Tab Workflows",
+          "desc": "Ask Comet to extract data from one tab and populate it into another across multiple pages",
+          "code": "Get the product names and prices from this page and add them to my spreadsheet"
+        },
+        {
+          "title": "Task Automation",
+          "desc": "Delegate repetitive tasks like booking, shopping, and email management through natural prompts",
+          "code": "Find me flights to New York on April 15 under $500 with one stop maximum"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Research",
+          "text": "Summarize the latest trends in AI-powered browsing and compare three major AI browsers"
+        },
+        {
+          "label": "Productivity",
+          "text": "Help me find a flight to JFK on April 11 based on my usual travel preferences"
+        },
+        {
+          "label": "Content Analysis",
+          "text": "Extract all product recommendations from this article and organize them in a spreadsheet"
+        },
+        {
+          "label": "Shopping",
+          "text": "Find stickers on Etsy that match my previous purchases and save the links"
+        },
+        {
+          "label": "Email Management",
+          "text": "Find all unanswered emails in my inbox and draft responses for follow-ups"
+        }
+      ],
+      "pricing": {
+        "note": "Comet browser is free for all Perplexity account holders with no subscription fee or regional restrictions. Premium AI features and higher usage limits unlock through Perplexity subscription plans.",
+        "plans": [
+          {
+            "name": "Free",
+            "price": "Free",
+            "per": "forever",
+            "popular": false,
+            "color": "#E8EAFF",
+            "features": [
+              "Basic AI-powered search and browsing",
+              "Comet Assistant with limited tasks",
+              "5 Pro Searches per day",
+              "Chrome extension support",
+              "Basic tab management"
+            ]
+          },
+          {
+            "name": "Pro",
+            "price": "$20",
+            "per": "per month",
+            "popular": false,
+            "color": "#5B7BFF",
+            "features": [
+              "Unlimited Pro Searches",
+              "Advanced AI features and models",
+              "Deeper automation capabilities",
+              "Extended daily usage limits",
+              "Priority access to new features"
+            ]
+          },
+          {
+            "name": "Max",
+            "price": "$200",
+            "per": "per month",
+            "popular": true,
+            "color": "#2D5BFF",
+            "features": [
+              "Fastest AI models (Opus 4.6 default)",
+              "Early access to all new Comet features",
+              "Unlimited usage with no restrictions",
+              "Advanced browser agent reasoning",
+              "Priority support and dedicated infrastructure"
+            ]
+          },
+          {
+            "name": "Comet Plus",
+            "price": "$5",
+            "per": "per month",
+            "popular": false,
+            "color": "#7B9FFF",
+            "features": [
+              "Access to premium publisher content",
+              "Works with any main plan (Free, Pro, or Max)",
+              "Enhanced content quality and sources",
+              "Exclusive research materials"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.perplexity.ai/comet"
+    },
+    {
+      "id": "orkes-conductor",
+      "name": "Orkes Conductor",
+      "company": "Orkes",
+      "category": "workflow-orchestration",
+      "icon": "⚙️",
+      "badge": "pro",
+      "color": "#4F46E5",
+      "price": "freemium",
+      "priceLabel": "Free / Enterprise (Custom Pricing)",
+      "tags": [
+        "workflow orchestration",
+        "microservices",
+        "AI agents",
+        "distributed systems"
+      ],
+      "shortDesc": "Enterprise workflow orchestration platform for distributed systems and AI agents at scale.",
+      "fullDesc": "Orkes Conductor is an enterprise-grade orchestration platform built on Netflix's open-source Conductor. It enables teams to build, deploy, and manage complex distributed workflows and AI agents with built-in reliability, observability, and security. Designed for enterprises managing mission-critical workflows across microservices, APIs, and generative AI systems.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Workflow Orchestration & AI Agent Runtime"
+        },
+        {
+          "label": "Released",
+          "value": "2022"
+        },
+        {
+          "label": "Best for",
+          "value": "Enterprise teams building distributed workflows, AI agents, and microservices orchestration"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free Developer Edition; Enterprise with cluster-based pricing (no per-execution limits)"
+        }
+      ],
+      "features": [
+        "Visual workflow builder with drag-and-drop interface for designing complex workflows without coding",
+        "Native agentic orchestration with LLM integration, prompt templates, and vector database support",
+        "Multi-language support for workers (Java, Python, Go, JavaScript, etc.) deployed anywhere",
+        "Built-in system tasks for HTTP, events, AI inference, database operations, and human-in-the-loop workflows",
+        "Declarative operators (Switch, Fork/Join, Do While loops) for control flow without imperative code",
+        "Enterprise security with SOC 2 Type II certification, SSO, RBAC, and secret variable management",
+        "High-availability execution with fault tolerance, automatic retries, and canary/A-B testing capabilities",
+        "Flexible deployment: Orkes Cloud, customer-hosted in your cloud account, or Docker-based local development"
+      ],
+      "demo": [
+        {
+          "title": "Start a Workflow via Java SDK",
+          "desc": "Initialize the Orkes API client and start a workflow execution by calling the StartWorkflow method",
+          "code": "ApiClient client = new ApiClient();\nclient.setBasePath(\"https://api.orkes.io\");\nclient.setApiKey(\"YOUR_API_KEY\");\nWorkflowApi api = new WorkflowApi(client);\nStartWorkflowRequest request = new StartWorkflowRequest();\nStartWorkflowResponse response = api.startWorkflow(request);"
+        },
+        {
+          "title": "Build a Workflow with Visual Editor",
+          "desc": "Use Orkes UI to drag and drop tasks, configure parameters, define control flow with operators, and visualize execution paths",
+          "code": null
+        },
+        {
+          "title": "Orchestrate AI Agents",
+          "desc": "Define multi-agent workflows that blend structured processes with LLM-driven decisions, tool usage, and human approval checkpoints",
+          "code": null
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Workflow Design",
+          "text": "Create a workflow that calls an LLM to generate a response, then routes it to human approval if confidence is below threshold"
+        },
+        {
+          "label": "Error Handling",
+          "text": "Define a workflow with automatic retry logic on HTTP timeouts and fallback to alternative microservice if primary fails"
+        },
+        {
+          "label": "AI Integration",
+          "text": "Build an agentic workflow that orchestrates multiple AI agents to research data, generate insights, and produce a report"
+        }
+      ],
+      "pricing": {
+        "note": "Orkes offers a free Developer Edition for prototyping and testing. Enterprise plans use cluster-based pricing with unlimited executions, no per-workflow costs, and flexible deployment options.",
+        "plans": [
+          {
+            "name": "Developer Edition",
+            "price": "Free",
+            "per": "forever",
+            "popular": false,
+            "color": "#E5E7EB",
+            "features": [
+              "Browser-based sandbox environment",
+              "Most core Conductor features",
+              "Not suitable for production",
+              "Limited scalability and variable performance"
+            ]
+          },
+          {
+            "name": "Orkes Cloud",
+            "price": "Custom",
+            "per": "per month",
+            "popular": true,
+            "color": "#4F46E5",
+            "features": [
+              "Fully managed hosted clusters",
+              "Enterprise security (SOC 2 Type II)",
+              "Role-based access controls and SSO",
+              "Unlimited task and workflow executions",
+              "Multi-environment support (prod, staging, dev)"
+            ]
+          },
+          {
+            "name": "Customer Hosted",
+            "price": "Custom",
+            "per": "per month",
+            "popular": false,
+            "color": "#6B7280",
+            "features": [
+              "Self-managed clusters in your cloud account",
+              "Data and compute remain in your ecosystem",
+              "Full control over infrastructure",
+              "Enterprise support included",
+              "Available on AWS, Azure, GCP"
+            ]
+          }
+        ]
+      },
+      "link": "https://orkes.io/conductor"
     }
   ],
   "totw": {
-    "name": "Ask Product Hunt AI",
-    "tagline": "Find the right product, just ask",
-    "votesCount": 547,
-    "url": "https://www.producthunt.com/products/producthunt?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
-    "thumbnail": "https://ph-files.imgix.net/d618ea86-70ae-4d12-8ec2-0ed78c723ddf.png?auto=format",
+    "name": "Plurai",
+    "tagline": "Vibe-train evals and guardrails tailored to your use case",
+    "votesCount": 636,
+    "url": "https://www.producthunt.com/products/plurai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
+    "thumbnail": "https://ph-files.imgix.net/e87131be-1490-4ed2-a291-5f91da603996.png?auto=format",
     "rank": 1,
     "topics": [
-      "Productivity",
-      "Artificial Intelligence",
-      "Product Hunt"
+      "API",
+      "Developer Tools",
+      "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-04-29T08:29:22.690Z"
+    "fetchedAt": "2026-04-30T08:32:26.259Z"
   },
   "lastWeeklyUpdate": "2026-04-28T08:50:35.476Z",
   "anthropicNews": [
     {
-      "date": "Apr 24, 2026",
-      "title": "Google invests $10B in Anthropic with $30B conditional",
-      "summary": "<cite index=\"29-3\">Google will invest $10 billion in Anthropic with another $30 billion potentially to follow.</cite>",
-      "url": "https://www.bloomberg.com/news/articles/2026-04-24/google-plans-to-invest-up-to-40-billion-in-anthropic"
-    },
-    {
-      "date": "Apr 23, 2026",
-      "title": "Anthropic introduces Managed Agents for long-horizon work",
-      "summary": "<cite index=\"22-1,22-8\">Anthropic introduces Managed Agents, emphasizing durable state, safer tool access, and faster startup for reliable long-running tasks.</cite>",
-      "url": "https://releasebot.io/updates/anthropic"
-    },
-    {
-      "date": "Apr 17, 2026",
-      "title": "Anthropic launches Claude Design visual creation tool",
-      "summary": "<cite index=\"25-1\">Anthropic launched Claude Design, letting users create visuals like prototypes, slides, one-pagers, and more using Claude.</cite>",
-      "url": "https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals"
+      "date": "Apr 27, 2026",
+      "title": "Claude will remain ad-free",
+      "summary": "<cite index=\"2-1,2-2\">Anthropic announced Claude will remain ad-free and explained why advertising incentives are incompatible with a helpful AI assistant</cite>",
+      "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Apr 16, 2026",
-      "title": "Claude Opus 4.7 released with better coding and vision",
-      "summary": "<cite index=\"6-2,6-8\">Opus 4.7 is a notable improvement on Opus 4.6 in advanced software engineering with substantially better vision at greater image resolution.</cite>",
-      "url": "https://www.anthropic.com/news/claude-opus-4-7"
+      "title": "Claude Opus 4.7 released with new tokenizer",
+      "summary": "<cite index=\"10-1\">Anthropic released Claude Opus 4.7, described as its best generally available offering</cite>",
+      "url": "https://www.anthropic.com/claude/opus"
     },
     {
-      "date": "Apr 7, 2026",
-      "title": "Claude Mythos Preview announced with Project Glasswing",
-      "summary": "<cite index=\"4-2,4-3,4-4\">Claude Mythos Preview announced, strikingly capable at computer security tasks, launching Project Glasswing to help secure critical software.</cite>",
-      "url": "https://red.anthropic.com/2026/mythos-preview"
+      "date": "Apr 14, 2026",
+      "title": "Claude Mythos Preview unveiled with cybersecurity focus",
+      "summary": "<cite index=\"1-1,1-2\">Anthropic announced Claude Mythos Preview, a new general-purpose model strikingly capable at computer security tasks</cite>",
+      "url": "https://red.anthropic.com/2026/mythos-preview/"
     },
     {
-      "date": "Apr 6, 2026",
-      "title": "Anthropic expands Google Cloud and TPU partnership",
-      "summary": "<cite index=\"27-9,27-10,27-11\">Anthropic secured 3.5 gigawatts of next-generation TPU capacity with delivery starting in 2027, one of largest compute commitments in AI history.</cite>",
-      "url": "https://www.googlecloudpresscorner.com/2026-04-06-Anthropic-Expands-Use-of-Google-Cloud-and-TPUs"
+      "date": "Apr 17, 2026",
+      "title": "Claude Design launched for visual content creation",
+      "summary": "<cite index=\"7-1\">Anthropic launched Claude Design, an experimental product letting users create visuals like prototypes, slides, and one-pagers</cite>",
+      "url": "https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/"
+    },
+    {
+      "date": "Apr 20, 2026",
+      "title": "Anthropic and Amazon expand compute collaboration",
+      "summary": "<cite index=\"2-6\">Anthropic and Amazon expanded their collaboration for up to 5 gigawatts of new compute</cite>",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Apr 4, 2026",
+      "title": "Anthropic restricts third-party framework billing access",
+      "summary": "<cite index=\"11-30,11-31\">Anthropic blocked Claude Pro and Max subscribers from using third-party AI agent frameworks like OpenClaw, requiring separate API billing</cite>",
+      "url": "https://kingy.ai/ai/usage-based-billing-no-flat-rate-why-anthropics-2026-pricing-shift-changes-everything-for-claude-users/"
     }
   ],
-  "lastChecked": "2026-04-29T08:31:07.074Z"
+  "lastChecked": "2026-04-30T08:33:58.390Z"
 }
