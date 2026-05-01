@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-30T08:33:58.390Z",
+  "lastUpdated": "2026-05-01T08:23:29.588Z",
   "categories": [
     {
       "id": "llm",
@@ -11669,12 +11669,425 @@
         ]
       },
       "link": "https://orkes.io/conductor"
+    },
+    {
+      "id": "microsoft-mai-models",
+      "name": "Microsoft MAI Models",
+      "company": "Microsoft",
+      "category": "multimodal",
+      "icon": "🤖",
+      "badge": "hot",
+      "color": "#0078D4",
+      "price": "paid",
+      "priceLabel": "From $0.36/hour (transcription)",
+      "tags": [
+        "transcription",
+        "voice-generation",
+        "image-generation",
+        "enterprise"
+      ],
+      "shortDesc": "Microsoft's suite of in-house multimodal AI models for transcription, voice, and image generation.",
+      "fullDesc": "Microsoft MAI Models is a collection of proprietary AI models including MAI-Transcribe-1 for speech-to-text, MAI-Voice-1 for high-fidelity voice synthesis, and MAI-Image-2 for text-to-image generation. Designed for enterprise developers, these models emphasize speed, cost-efficiency, and integration with Microsoft Foundry and Azure services.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Multimodal AI Model Suite (Speech-to-Text, Text-to-Speech, Text-to-Image)"
+        },
+        {
+          "label": "Released",
+          "value": "August 2025 (Voice-1), March 2026 (Image-2), April 2026 (Transcribe-1)"
+        },
+        {
+          "label": "Best for",
+          "value": "Enterprise developers, content creation, accessibility, call center automation, voice agents, creative workflows"
+        },
+        {
+          "label": "Pricing",
+          "value": "Usage-based: Transcription $0.36/hour, Voice $22/million characters, Image $5-33/million tokens"
+        }
+      ],
+      "features": [
+        "MAI-Transcribe-1: Speech-to-text transcription across 25 languages with 2.5x faster batch processing than Azure Fast",
+        "MAI-Voice-1: Generates 60 seconds of natural, expressive audio in under one second with custom voice creation",
+        "MAI-Image-2: Top-3 ranked text-to-image model with 2x faster generation and photorealistic quality",
+        "Enterprise-grade security with Azure RBAC, Managed Identity, and compliance controls through Foundry",
+        "Integrated with Microsoft products: Copilot, Bing, PowerPoint, Teams, and Azure Speech services",
+        "Agent-first design optimized for embedding in AI agents and multi-step workflows",
+        "Responsible AI built-in with rigorous red-teaming and safe deployment guardrails"
+      ],
+      "demo": [
+        {
+          "title": "Get Started with MAI Playground",
+          "desc": "Access all three models through MAI Playground (US users) for testing and evaluation without waitlist.",
+          "code": "# Visit https://playground.microsoft.com/mai to test models interactively"
+        },
+        {
+          "title": "Deploy in Microsoft Foundry",
+          "desc": "Deploy MAI models in your Azure environment using the Foundry portal or Azure CLI for production use.",
+          "code": "az cognitiveservices account deployment create --name <ACCOUNT_NAME> --resource-group <RESOURCE_GROUP> --deployment-name <DEPLOYMENT_NAME> --model-name MAI-Transcribe-1"
+        },
+        {
+          "title": "Generate Speech from Text",
+          "desc": "Use MAI-Voice-1 to create expressive audio with custom voice options through Azure Speech services.",
+          "code": "# Example: Create audio narration with MAI-Voice-1\n# Accepts SSML input for precise control over voice expression and timing"
+        },
+        {
+          "title": "Transcribe Audio Content",
+          "desc": "Convert speech from MP3, WAV, or FLAC files to text in 25 languages with enterprise-grade accuracy.",
+          "code": "# MAI-Transcribe-1 accepts files up to 200MB\n# Achieves 3.9% word error rate with advanced audio handling"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Image Generation",
+          "text": "Create a photorealistic product image of a luxury watch with natural lighting, accurate reflections, and a minimalist background for e-commerce"
+        },
+        {
+          "label": "Voice Synthesis",
+          "text": "Generate a corporate podcast narration with a professional male voice that conveys authority and warmth for financial services content"
+        },
+        {
+          "label": "Transcription",
+          "text": "Transcribe a customer service call with background noise and overlapping speakers for quality assurance and compliance documentation"
+        },
+        {
+          "label": "Creative Design",
+          "text": "Generate marketing social media graphics with text overlays, product imagery, and brand-accurate color schemes for campaign automation"
+        }
+      ],
+      "pricing": {
+        "note": "Microsoft MAI Models use transparent usage-based pricing through Microsoft Foundry, with competitive rates positioned to reduce costs versus competitor offerings from OpenAI and Google.",
+        "plans": [
+          {
+            "name": "MAI-Transcribe-1",
+            "price": "$0.36",
+            "per": "per hour",
+            "popular": false,
+            "color": "#0078D4",
+            "features": [
+              "25 languages with FLEURS benchmark leadership",
+              "2.5x faster batch processing than Azure Fast",
+              "3.9% word error rate on real-world audio",
+              "Streaming, diarization coming soon"
+            ]
+          },
+          {
+            "name": "MAI-Voice-1",
+            "price": "$22",
+            "per": "per million characters",
+            "popular": true,
+            "color": "#0078D4",
+            "features": [
+              "60 seconds of audio in under 1 second",
+              "Natural expressive speech with emotion",
+              "Custom voice creation from short audio samples",
+              "Speaker identity preservation for long-form"
+            ]
+          },
+          {
+            "name": "MAI-Image-2",
+            "price": "$5 text / $33 image",
+            "per": "per million tokens",
+            "popular": false,
+            "color": "#0078D4",
+            "features": [
+              "Top-3 Arena.ai leaderboard ranking",
+              "2x faster generation than predecessor",
+              "Natural lighting and accurate skin tones",
+              "Clear in-image text and complex layouts"
+            ]
+          },
+          {
+            "name": "MAI-Image-2-Efficient",
+            "price": "$5 text / $19.50 image",
+            "per": "per million tokens",
+            "popular": false,
+            "color": "#0078D4",
+            "features": [
+              "41% cheaper than MAI-Image-2",
+              "22% faster generation speed",
+              "4x GPU throughput efficiency",
+              "Production-ready quality at lower cost"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.microsoft.com/"
+    },
+    {
+      "id": "granola",
+      "name": "Granola",
+      "company": "Granola AI",
+      "category": "agent",
+      "icon": "📝",
+      "badge": null,
+      "color": "#6B6B6B",
+      "price": "freemium",
+      "priceLabel": "Free / From $14/user/mo",
+      "tags": [
+        "meeting notes",
+        "bot-free",
+        "AI transcription",
+        "human-AI hybrid"
+      ],
+      "shortDesc": "Bot-free AI notepad that transcribes meetings and enhances your notes without visible participants.",
+      "fullDesc": "Granola is a privacy-first meeting notepad that captures device audio directly without joining calls as a bot. You jot notes during meetings, and Granola's AI enhances them with structured summaries, action items, and decisions. It's designed for professionals who want natural conversations without visible recording bots altering meeting dynamics.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "AI Meeting Assistant / Notepad"
+        },
+        {
+          "label": "Released",
+          "value": "2024"
+        },
+        {
+          "label": "Best for",
+          "value": "Professionals, consultants, VCs, leaders managing back-to-back meetings"
+        },
+        {
+          "label": "Pricing",
+          "value": "Basic (free, 30-day history), Business ($14/user/mo), Enterprise ($35+/user/mo)"
+        }
+      ],
+      "features": [
+        "Bot-free device audio capture with no visible participant joining calls",
+        "Human-AI hybrid approach: you take notes, AI enhances with context from transcript",
+        "AI-powered Recipes for generating PRDs, coaching feedback, and follow-up emails",
+        "Cross-meeting AI chat to search and query across multiple meetings",
+        "Real-time transcription powered by Deepgram, AssemblyAI, GPT-4o, and Claude",
+        "Team collaboration with shared folders, workspaces, and granular access controls",
+        "CRM integrations (Slack, Notion, HubSpot, Attio, Affinity, Zapier) on Business plan",
+        "Privacy-first design: no audio files stored, SOC 2 Type 2 certified"
+      ],
+      "demo": [
+        {
+          "title": "Start a meeting",
+          "desc": "Download the desktop app (Mac/Windows) or iOS app and launch Granola. Manually start recording for your meeting.",
+          "code": ""
+        },
+        {
+          "title": "Take notes during meeting",
+          "desc": "While the meeting runs, jot quick keywords or bullet points about important moments. Granola captures audio silently in the background.",
+          "code": ""
+        },
+        {
+          "title": "Enhance notes post-meeting",
+          "desc": "After the call ends, click 'Enhance Notes' and Granola generates structured summaries, action items, and key decisions. Your notes stay in black, AI additions in gray.",
+          "code": ""
+        },
+        {
+          "title": "Chat with your meetings",
+          "desc": "Use AI chat to ask questions about what was said, search across multiple meetings, or apply Recipes to generate follow-ups and coaching feedback.",
+          "code": ""
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Meeting Debrief",
+          "text": "What were the top 3 action items discussed and who owns each one?"
+        },
+        {
+          "label": "Sales Analysis",
+          "text": "What pricing concerns came up and what were the customer's main objections?"
+        },
+        {
+          "label": "Coaching",
+          "text": "Coach me: Did I listen actively or interrupt too much during this meeting?"
+        },
+        {
+          "label": "Leadership",
+          "text": "Cross-meeting query: What feedback have enterprise customers mentioned about our onboarding process?"
+        }
+      ],
+      "pricing": {
+        "note": "Granola restructured pricing in 2026 to three tiers. The free Basic plan includes core AI features but limits history to 30 days. Business and Enterprise add unlimited history, advanced AI models, and team integrations.",
+        "plans": [
+          {
+            "name": "Basic (Free)",
+            "price": "$0",
+            "per": "forever",
+            "popular": false,
+            "color": "#E8E8E8",
+            "features": [
+              "AI-enhanced meeting notes with decisions and action items",
+              "Custom templates and shared folders",
+              "Multi-language support (10+ languages)",
+              "30-day rolling history window",
+              "AI chat within meetings",
+              "No visible bot participant"
+            ]
+          },
+          {
+            "name": "Business",
+            "price": "$14",
+            "per": "per user per month",
+            "popular": true,
+            "color": "#4A4A4A",
+            "features": [
+              "Unlimited meeting history and searchable archives",
+              "Advanced AI models for complex reasoning",
+              "CRM integrations (Slack, Notion, HubSpot, Attio, Affinity, Zapier)",
+              "Team workspaces with granular access controls",
+              "MCP (Model Context Protocol) integration",
+              "Cross-meeting AI intelligence"
+            ]
+          },
+          {
+            "name": "Enterprise",
+            "price": "$35",
+            "per": "per user per month",
+            "popular": false,
+            "color": "#2D2D2D",
+            "features": [
+              "All Business features",
+              "SSO (50+ users) with Okta, Azure AD, Google Workspace",
+              "Organization-wide model training opt-out by default",
+              "Priority support with dedicated contact",
+              "Public API access for custom integrations",
+              "Heads Up feature for meeting participant notifications",
+              "SOC 2 Type 2 certification (completed July 2025)"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.granola.ai/"
+    },
+    {
+      "id": "gumloop",
+      "name": "Gumloop",
+      "company": "Gumloop",
+      "category": "agent",
+      "icon": "🤖",
+      "badge": "hot",
+      "color": "#7C3AED",
+      "price": "freemium",
+      "priceLabel": "Free plan / From $37/mo",
+      "tags": [
+        "AI automation",
+        "No-code workflows",
+        "Enterprise agents",
+        "Drag-and-drop builder"
+      ],
+      "shortDesc": "AI-native automation platform for building complex workflows without coding.",
+      "fullDesc": "Gumloop is an AI-powered workflow automation platform that lets teams build intelligent agents and complex automations using a visual, drag-and-drop interface. It combines traditional automation with built-in AI models like GPT-4, Claude, and Gemini to enable businesses of all sizes—from solopreneurs to enterprises like Shopify and Instacart—to automate repetitive tasks, data processing, and decision-making workflows without writing code.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "AI Automation Platform / Agent Builder"
+        },
+        {
+          "label": "Released",
+          "value": "2023 (as AgentHub, rebranded May 2023)"
+        },
+        {
+          "label": "Best for",
+          "value": "Marketing teams, sales operations, customer support, data enrichment, complex batch workflows"
+        },
+        {
+          "label": "Pricing",
+          "value": "Freemium: Free plan with 5K credits/month; Pro from $37/mo; Enterprise with custom pricing"
+        }
+      ],
+      "features": [
+        "Visual drag-and-drop workflow builder with 100+ pre-built nodes and 130+ integrations",
+        "Built-in access to AI models (GPT-4, Claude, Gemini) without requiring personal API keys",
+        "AI-driven decision making and conditional logic within automation flows",
+        "Web scraping and browser automation via Chrome extension for data extraction",
+        "Team collaboration with role-based access control, audit logs, and permission management",
+        "Slack, Teams, and email integration for agent interaction like co-workers",
+        "Credit-based pricing for flexible scaling of AI processing and automation volume",
+        "SOC 2 Type II and GDPR compliance with zero-data retention agreements for third-party AI models"
+      ],
+      "demo": [
+        {
+          "title": "Create a Simple Workflow",
+          "desc": "Start with a pre-built template or drag components onto a canvas—add triggers (webhook, email, schedule), integration steps (connect to Salesforce, Slack, Google Sheets), and AI analysis nodes to process data"
+        },
+        {
+          "title": "Set Up AI Decision Logic",
+          "desc": "Use an AI step to categorize, score, or analyze data, then create conditional branches (if AI returns X, do Y) to route data to different destinations"
+        },
+        {
+          "title": "Deploy and Monitor",
+          "desc": "Test workflows in sandbox mode with step-level visibility, deploy live, and track execution logs through a single analytics layer to monitor performance"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Lead Research & Outreach",
+          "text": "Build a workflow that researches a company domain, extracts key details, analyzes their positioning, and drafts a personalized cold email"
+        },
+        {
+          "label": "Social Media Analysis",
+          "text": "Automate sentiment analysis of social media comments, categorize feedback by urgency, and generate AI-powered reports to share with stakeholders via Slack"
+        },
+        {
+          "label": "Invoice Processing",
+          "text": "Listen for PDF attachments in emails, extract invoice data using AI, structure it, and write clean records to a database or Google Sheet"
+        },
+        {
+          "label": "CRM & Sales Automation",
+          "text": "Read prospect data from Apollo or Salesforce, conduct AI research for deeper insights, score leads, and automatically draft personalized demo emails"
+        },
+        {
+          "label": "Support Ticket Automation",
+          "text": "Connect to Zendesk, use AI to categorize tickets by priority, flag critical issues, identify support patterns, and generate weekly summary reports"
+        }
+      ],
+      "pricing": {
+        "note": "Gumloop uses a credit-based model where AI processing and automation complexity determine cost. Simple workflows are affordable; batch processing, enrichment, and multiple AI steps increase credit consumption rapidly. Free plan includes 5K credits/month, sufficient for 50-100 AI-heavy executions.",
+        "plans": [
+          {
+            "name": "Free",
+            "price": "Free",
+            "per": "forever",
+            "popular": false,
+            "color": "#E5E7EB",
+            "features": [
+              "5,000 credits per month",
+              "1 seat",
+              "2 concurrent workflow runs",
+              "14-day free trial access to all features"
+            ]
+          },
+          {
+            "name": "Pro",
+            "price": "$37",
+            "per": "per month",
+            "popular": true,
+            "color": "#7C3AED",
+            "features": [
+              "20,000+ credits per month",
+              "Unlimited seats and teams",
+              "5 concurrent workflow runs",
+              "25 concurrent agent interactions",
+              "Team usage analytics"
+            ]
+          },
+          {
+            "name": "Enterprise",
+            "price": "Custom",
+            "per": "per month",
+            "popular": false,
+            "color": "#1F2937",
+            "features": [
+              "Custom credit allocation",
+              "Role-based access control (RBAC)",
+              "SCIM/SAML support",
+              "Admin dashboard with audit logs",
+              "Optional Gumstack (observability add-on)"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.gumloop.com/"
     }
   ],
   "totw": {
     "name": "Plurai",
     "tagline": "Vibe-train evals and guardrails tailored to your use case",
-    "votesCount": 636,
+    "votesCount": 681,
     "url": "https://www.producthunt.com/products/plurai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/e87131be-1490-4ed2-a291-5f91da603996.png?auto=format",
     "rank": 1,
@@ -11683,46 +12096,46 @@
       "Developer Tools",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-04-30T08:32:26.259Z"
+    "fetchedAt": "2026-05-01T08:22:17.915Z"
   },
   "lastWeeklyUpdate": "2026-04-28T08:50:35.476Z",
   "anthropicNews": [
     {
       "date": "Apr 27, 2026",
       "title": "Claude will remain ad-free",
-      "summary": "<cite index=\"2-1,2-2\">Anthropic announced Claude will remain ad-free and explained why advertising incentives are incompatible with a helpful AI assistant</cite>",
+      "summary": "Anthropic reaffirms commitment to keeping Claude free of advertising to maintain user trust.",
       "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "Apr 16, 2026",
-      "title": "Claude Opus 4.7 released with new tokenizer",
-      "summary": "<cite index=\"10-1\">Anthropic released Claude Opus 4.7, described as its best generally available offering</cite>",
-      "url": "https://www.anthropic.com/claude/opus"
-    },
-    {
-      "date": "Apr 14, 2026",
-      "title": "Claude Mythos Preview unveiled with cybersecurity focus",
-      "summary": "<cite index=\"1-1,1-2\">Anthropic announced Claude Mythos Preview, a new general-purpose model strikingly capable at computer security tasks</cite>",
-      "url": "https://red.anthropic.com/2026/mythos-preview/"
-    },
-    {
-      "date": "Apr 17, 2026",
-      "title": "Claude Design launched for visual content creation",
-      "summary": "<cite index=\"7-1\">Anthropic launched Claude Design, an experimental product letting users create visuals like prototypes, slides, and one-pagers</cite>",
-      "url": "https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/"
     },
     {
       "date": "Apr 20, 2026",
-      "title": "Anthropic and Amazon expand compute collaboration",
-      "summary": "<cite index=\"2-6\">Anthropic and Amazon expanded their collaboration for up to 5 gigawatts of new compute</cite>",
+      "title": "Anthropic and Amazon expand collaboration for compute",
+      "summary": "Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute.",
       "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Apr 4, 2026",
-      "title": "Anthropic restricts third-party framework billing access",
-      "summary": "<cite index=\"11-30,11-31\">Anthropic blocked Claude Pro and Max subscribers from using third-party AI agent frameworks like OpenClaw, requiring separate API billing</cite>",
-      "url": "https://kingy.ai/ai/usage-based-billing-no-flat-rate-why-anthropics-2026-pricing-shift-changes-everything-for-claude-users/"
+      "date": "Apr 17, 2026",
+      "title": "Introducing Claude Design by Anthropic Labs",
+      "summary": "Anthropic launched Claude Design, a new experimental product that lets users create visuals like prototypes, slides, one-pagers, and more using Claude.",
+      "url": "https://anthropic.com/news/claude-design"
+    },
+    {
+      "date": "Apr 16, 2026",
+      "title": "Claude Opus 4.7 released with enhanced coding",
+      "summary": "Claude Opus 4.7 is better at software engineering and is Anthropic's most powerful generally available model.",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7"
+    },
+    {
+      "date": "Apr 28, 2026",
+      "title": "Claude connectors for creative platforms",
+      "summary": "Anthropic introduces connectors linking Claude with Blender, Autodesk Fusion, Adobe Creative Cloud, and other creative software.",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Apr 29, 2026",
+      "title": "Claude Managed Agents now in public beta",
+      "summary": "Claude Managed Agents in public beta provides a fully managed agent harness for running Claude as an autonomous agent.",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview"
     }
   ],
-  "lastChecked": "2026-04-30T08:33:58.390Z"
+  "lastChecked": "2026-05-01T08:23:29.588Z"
 }
