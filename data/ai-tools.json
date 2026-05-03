@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-02T07:56:07.663Z",
+  "lastUpdated": "2026-05-03T08:10:29.395Z",
   "categories": [
     {
       "id": "llm",
@@ -12082,12 +12082,136 @@
         ]
       },
       "link": "https://www.gumloop.com/"
+    },
+    {
+      "id": "avoca",
+      "name": "Avoca",
+      "company": "Avoca",
+      "category": "agent",
+      "icon": "☎️",
+      "badge": "hot",
+      "color": "#0066CC",
+      "price": "paid",
+      "priceLabel": "Custom pricing",
+      "tags": [
+        "voice-ai",
+        "home-services",
+        "call-automation",
+        "lead-booking"
+      ],
+      "shortDesc": "24/7 AI voice agents for home services that answer calls and book jobs automatically.",
+      "fullDesc": "Avoca is an AI-powered communications platform purpose-built for service businesses including HVAC, plumbing, and electrical companies. It handles inbound calls, appointment scheduling, outbound campaigns, and customer follow-ups through conversational AI agents that integrate directly with CRM systems like ServiceTitan. Designed for SMBs facing the challenge of missed calls and high CSR turnover.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "AI Voice Agent & Workflow Automation"
+        },
+        {
+          "label": "Released",
+          "value": "2023"
+        },
+        {
+          "label": "Best for",
+          "value": "Home services & field service businesses"
+        },
+        {
+          "label": "Pricing",
+          "value": "Custom enterprise pricing; surpassed 8-figures ARR in 2025"
+        }
+      ],
+      "features": [
+        "24/7 AI voice agent answers calls within seconds and books jobs directly into CRM systems",
+        "Inbound lead capture with instant responses, often within 30 seconds of submission",
+        "Outbound campaign automation that intelligently scales based on technician capacity and scheduling",
+        "Real-time call coaching and AI-powered summaries for agent training and performance improvement",
+        "Native CRM integrations with ServiceTitan, Nexstar, and Clover for seamless workflow",
+        "Multi-channel outreach including voice, SMS, email, and chat across the customer journey",
+        "Estimate follow-up automation that revives dormant quotes and re-engages past customers",
+        "Advanced analytics and real-time performance metrics with actionable insights dashboard"
+      ],
+      "demo": [
+        {
+          "title": "Inbound Call Handling",
+          "desc": "Customer calls during business hours or after-hours, Avoca answers immediately, qualifies the need, and books the appointment directly into the CRM without human intervention.",
+          "code": ""
+        },
+        {
+          "title": "Outbound Campaign",
+          "desc": "Avoca runs automated SMS and call campaigns to existing customers for maintenance tune-ups or follow-ups on outstanding estimates, automatically scheduling jobs based on available capacity.",
+          "code": ""
+        },
+        {
+          "title": "Speed-to-Lead",
+          "desc": "When a customer submits a lead form through Google LSA or other source, Avoca contacts them within 30 seconds, qualifies their need, and confirms a service appointment.",
+          "code": ""
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Service Booking",
+          "text": "Hi Sarah, time for your annual AC tune-up! We have openings this week. Interested?"
+        },
+        {
+          "label": "Estimate Follow-up",
+          "text": "Hi Mike, just checking in on that estimate we sent for your electrical panel upgrade. Do you have any questions about the quote?"
+        },
+        {
+          "label": "Seasonal Campaign",
+          "text": "With winter approaching, now is the perfect time to schedule your furnace inspection to ensure it's ready for the cold months ahead."
+        }
+      ],
+      "pricing": {
+        "note": "Avoca uses custom enterprise pricing based on call volume and business size. The company surpassed eight figures in annual recurring revenue in 2025 and is on track to book $1 billion in jobs in 2026.",
+        "plans": [
+          {
+            "name": "Starter",
+            "price": "Custom",
+            "per": "per month",
+            "popular": false,
+            "color": "#0066CC",
+            "features": [
+              "Inbound call handling",
+              "Basic CRM integration",
+              "Standard analytics dashboard"
+            ]
+          },
+          {
+            "name": "Professional",
+            "price": "Custom",
+            "per": "per month",
+            "popular": true,
+            "color": "#0066CC",
+            "features": [
+              "24/7 inbound and outbound automation",
+              "Multi-channel campaigns (SMS, calls, email)",
+              "Advanced CRM integrations",
+              "Real-time call coaching",
+              "Dedicated customer success"
+            ]
+          },
+          {
+            "name": "Enterprise",
+            "price": "Custom",
+            "per": "per month",
+            "popular": false,
+            "color": "#0066CC",
+            "features": [
+              "All Professional features",
+              "Custom API integrations",
+              "White-label options",
+              "Dedicated infrastructure",
+              "Advanced compliance & security (SOC 2)"
+            ]
+          }
+        ]
+      },
+      "link": "https://avoca.ai"
     }
   ],
   "totw": {
     "name": "Plurai",
     "tagline": "Vibe-train evals and guardrails tailored to your use case",
-    "votesCount": 692,
+    "votesCount": 695,
     "url": "https://www.producthunt.com/products/plurai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/e87131be-1490-4ed2-a291-5f91da603996.png?auto=format",
     "rank": 1,
@@ -12096,46 +12220,46 @@
       "Developer Tools",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-05-02T07:54:37.008Z"
+    "fetchedAt": "2026-05-03T08:09:21.975Z"
   },
   "lastWeeklyUpdate": "2026-04-28T08:50:35.476Z",
   "anthropicNews": [
     {
-      "date": "May 1, 2026",
-      "title": "Claude Security launched for enterprise vulnerability scanning",
-      "summary": "<cite index=\"12-15,12-16,12-17\">Claude Security, specialized in scanning source code for vulnerabilities, is available immediately to all Claude Enterprise customers via the Claude.ai sidebar or at claude.ai/security.</cite>",
-      "url": "https://www.heise.de/en/news/Claude-Security-Anthropic-launches-vulnerability-scanner-for-businesses-11279045.html"
+      "date": "Apr 16, 2026",
+      "title": "Claude Opus 4.7 released with new tokenizer",
+      "summary": "<cite index=\"9-8\">Claude Opus 4.7 launched as the most capable generally available model for complex reasoning and agentic coding</cite>.",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview"
     },
     {
-      "date": "April 17, 2026",
-      "title": "Claude Design launches for visual content creation",
-      "summary": "<cite index=\"15-1\">Claude Design is a new Anthropic Labs product that lets users collaborate with Claude to create polished visual work like designs, prototypes, slides, and one-pagers.</cite>",
-      "url": "https://www.anthropic.com/news"
+      "date": "Apr 17, 2026",
+      "title": "Claude Design product launches in research preview",
+      "summary": "<cite index=\"22-3,22-4\">Claude Design lets users create visuals like prototypes, slides, one-pagers designed to help founders and product managers without design background</cite>.",
+      "url": "https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/"
     },
     {
-      "date": "April 16, 2026",
-      "title": "Claude Opus 4.7 released with improved coding and vision",
-      "summary": "<cite index=\"9-1\">Claude Opus 4.7, a meaningful upgrade to Anthropic's flagship AI model, features better coding, sharper vision and improved ability to double-check its own work.</cite>",
-      "url": "https://www.cnbc.com/2026/04/16/anthropic-claude-opus-4-7-model-mythos.html"
-    },
-    {
-      "date": "April 7, 2026",
-      "title": "Claude Mythos Preview launches for cybersecurity with Project Glasswing",
-      "summary": "<cite index=\"4-1\">Anthropic announced a preview of Claude Mythos would be made available to 11 companies and organizations to find and fix cybersecurity vulnerabilities.</cite>",
+      "date": "Apr 7, 2026",
+      "title": "Claude Mythos Preview announced for cybersecurity",
+      "summary": "<cite index=\"2-1\">Anthropic announced Claude Mythos Preview available to 11 companies and organizations to find and fix cybersecurity vulnerabilities</cite>.",
       "url": "https://red.anthropic.com/2026/mythos-preview/"
     },
     {
-      "date": "April 15, 2026",
-      "title": "Enterprise pricing shifted to usage-based model",
-      "summary": "<cite index=\"36-3\">Anthropic shifted Claude Enterprise subscriptions from a flat fee of up to $200 per user per month to a usage-based model charging $20 per user plus additional computing use.</cite>",
-      "url": "https://gizmodo.com/anthropic-is-jacking-up-the-price-for-power-users-amid-complaints-its-model-is-getting-worse-2000746923"
+      "date": "Apr 4, 2026",
+      "title": "Anthropic shifts enterprise pricing to usage-based model",
+      "summary": "<cite index=\"13-13,13-14\">Anthropic blocked Claude Pro and Max subscribers from using flat-rate plans with third-party agent frameworks including OpenClaw</cite>.",
+      "url": "https://www.theregister.com/2026/04/16/anthropic_ejects_bundled_tokens_enterprise/"
     },
     {
-      "date": "February 5, 2026",
-      "title": "Claude Opus 4.6 released with 1M token context window",
-      "summary": "<cite index=\"1-1,1-15\">Anthropic launched Claude Opus 4.6 with a 1-million-token context window, the largest of any commercially available model.</cite>",
-      "url": "https://fazal-sec.medium.com/anthropics-explosive-start-to-2026-everything-claude-has-launched-and-why-it-s-shaking-up-the-668788c2c9de"
+      "date": "May 2026",
+      "title": "Claude Code updates with smarter model picking",
+      "summary": "<cite index=\"1-1\">Claude Code releases broad update with smarter model picking, project purge tools, stronger permission handling, improved OAuth login</cite>.",
+      "url": "https://releasebot.io/updates/anthropic/claude-code"
+    },
+    {
+      "date": "Apr 2026",
+      "title": "Claude Managed Agents launches in public beta",
+      "summary": "<cite index=\"9-14,9-15\">Claude Managed Agents launched in public beta as a fully managed agent harness for running Claude as an autonomous agent with secure sandboxing</cite>.",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview"
     }
   ],
-  "lastChecked": "2026-05-02T07:56:07.663Z"
+  "lastChecked": "2026-05-03T08:10:29.395Z"
 }
