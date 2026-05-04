@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-03T08:10:29.395Z",
+  "lastUpdated": "2026-05-04T08:40:19.531Z",
   "categories": [
     {
       "id": "llm",
@@ -12211,7 +12211,7 @@
   "totw": {
     "name": "Plurai",
     "tagline": "Vibe-train evals and guardrails tailored to your use case",
-    "votesCount": 695,
+    "votesCount": 703,
     "url": "https://www.producthunt.com/products/plurai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/e87131be-1490-4ed2-a291-5f91da603996.png?auto=format",
     "rank": 1,
@@ -12220,46 +12220,40 @@
       "Developer Tools",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-05-03T08:09:21.975Z"
+    "fetchedAt": "2026-05-04T08:39:41.850Z"
   },
   "lastWeeklyUpdate": "2026-04-28T08:50:35.476Z",
   "anthropicNews": [
     {
-      "date": "Apr 16, 2026",
-      "title": "Claude Opus 4.7 released with new tokenizer",
-      "summary": "<cite index=\"9-8\">Claude Opus 4.7 launched as the most capable generally available model for complex reasoning and agentic coding</cite>.",
-      "url": "https://platform.claude.com/docs/en/release-notes/overview"
+      "date": "Apr 20, 2026",
+      "title": "Anthropic and Amazon expand collaboration for up to 5GW compute",
+      "summary": "<cite index=\"6-6\">Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute</cite>",
+      "url": "https://anthropic.com/news"
     },
     {
       "date": "Apr 17, 2026",
-      "title": "Claude Design product launches in research preview",
-      "summary": "<cite index=\"22-3,22-4\">Claude Design lets users create visuals like prototypes, slides, one-pagers designed to help founders and product managers without design background</cite>.",
+      "title": "Claude Design product launch for visual creation",
+      "summary": "<cite index=\"4-1,4-2\">Anthropic announced it's launching Claude Design, a new experimental product that lets users create visuals like prototypes, slides, one-pagers, and more using Claude</cite>",
       "url": "https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/"
+    },
+    {
+      "date": "Apr 16, 2026",
+      "title": "Claude Opus 4.7 release with enhanced coding and vision",
+      "summary": "<cite index=\"8-1\">Anthropic released Claude Opus 4.7, a meaningful upgrade with better coding, sharper vision and a new ability to double-check its own work</cite>",
+      "url": "https://www.axios.com/2026/04/16/anthropic-claude-opus-model-mythos"
     },
     {
       "date": "Apr 7, 2026",
       "title": "Claude Mythos Preview announced for cybersecurity",
-      "summary": "<cite index=\"2-1\">Anthropic announced Claude Mythos Preview available to 11 companies and organizations to find and fix cybersecurity vulnerabilities</cite>.",
+      "summary": "<cite index=\"2-1\">Anthropic announced a preview of Claude Mythos would be made available to 11 companies and organizations to find and fix cybersecurity vulnerabilities</cite>",
       "url": "https://red.anthropic.com/2026/mythos-preview/"
     },
     {
-      "date": "Apr 4, 2026",
-      "title": "Anthropic shifts enterprise pricing to usage-based model",
-      "summary": "<cite index=\"13-13,13-14\">Anthropic blocked Claude Pro and Max subscribers from using flat-rate plans with third-party agent frameworks including OpenClaw</cite>.",
-      "url": "https://www.theregister.com/2026/04/16/anthropic_ejects_bundled_tokens_enterprise/"
-    },
-    {
       "date": "May 2026",
-      "title": "Claude Code updates with smarter model picking",
-      "summary": "<cite index=\"1-1\">Claude Code releases broad update with smarter model picking, project purge tools, stronger permission handling, improved OAuth login</cite>.",
-      "url": "https://releasebot.io/updates/anthropic/claude-code"
-    },
-    {
-      "date": "Apr 2026",
-      "title": "Claude Managed Agents launches in public beta",
-      "summary": "<cite index=\"9-14,9-15\">Claude Managed Agents launched in public beta as a fully managed agent harness for running Claude as an autonomous agent with secure sandboxing</cite>.",
-      "url": "https://platform.claude.com/docs/en/release-notes/overview"
+      "title": "Claude Design connectors for creative tools",
+      "summary": "<cite index=\"22-16\">Anthropic expands Claude for creative work with new connectors for Blender, Adobe, Autodesk, Ableton, Splice, and more</cite>",
+      "url": "https://releasebot.io/updates/anthropic"
     }
   ],
-  "lastChecked": "2026-05-03T08:10:29.395Z"
+  "lastChecked": "2026-05-04T08:40:19.531Z"
 }
