@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-04T08:40:19.531Z",
+  "lastUpdated": "2026-05-05T08:22:40.144Z",
   "categories": [
     {
       "id": "llm",
@@ -12211,7 +12211,7 @@
   "totw": {
     "name": "Plurai",
     "tagline": "Vibe-train evals and guardrails tailored to your use case",
-    "votesCount": 703,
+    "votesCount": 712,
     "url": "https://www.producthunt.com/products/plurai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/e87131be-1490-4ed2-a291-5f91da603996.png?auto=format",
     "rank": 1,
@@ -12220,40 +12220,46 @@
       "Developer Tools",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-05-04T08:39:41.850Z"
+    "fetchedAt": "2026-05-05T08:21:36.836Z"
   },
   "lastWeeklyUpdate": "2026-04-28T08:50:35.476Z",
   "anthropicNews": [
     {
+      "date": "May 4, 2026",
+      "title": "Claude will remain ad-free",
+      "summary": "Anthropic commits to keeping Claude advertisement-free and explains incompatibility with helpful AI assistant principles.",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Apr 28, 2026",
+      "title": "Claude connectors for creative tools launch",
+      "summary": "Claude now integrates with Blender, Adobe Creative Cloud, Fusion, Ableton, and other creative platforms.",
+      "url": "https://www.testingcatalog.com/anthropic-rolls-out-claude-connectors-for-creative-platforms/"
+    },
+    {
       "date": "Apr 20, 2026",
-      "title": "Anthropic and Amazon expand collaboration for up to 5GW compute",
-      "summary": "<cite index=\"6-6\">Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute</cite>",
-      "url": "https://anthropic.com/news"
+      "title": "Amazon-Anthropic expand compute partnership to 5 gigawatts",
+      "summary": "Anthropic and Amazon Web Services deepen collaboration for new compute infrastructure expansion.",
+      "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Apr 17, 2026",
-      "title": "Claude Design product launch for visual creation",
-      "summary": "<cite index=\"4-1,4-2\">Anthropic announced it's launching Claude Design, a new experimental product that lets users create visuals like prototypes, slides, one-pagers, and more using Claude</cite>",
-      "url": "https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/"
-    },
-    {
-      "date": "Apr 16, 2026",
-      "title": "Claude Opus 4.7 release with enhanced coding and vision",
-      "summary": "<cite index=\"8-1\">Anthropic released Claude Opus 4.7, a meaningful upgrade with better coding, sharper vision and a new ability to double-check its own work</cite>",
-      "url": "https://www.axios.com/2026/04/16/anthropic-claude-opus-model-mythos"
+      "title": "Introducing Claude Design by Anthropic Labs",
+      "summary": "<cite index=\"5-1\">Anthropic launched Claude Design, a new experimental product for creating visuals like prototypes, slides, one-pagers, and more using Claude.</cite>",
+      "url": "https://www.anthropic.com/news/claude-design"
     },
     {
       "date": "Apr 7, 2026",
-      "title": "Claude Mythos Preview announced for cybersecurity",
-      "summary": "<cite index=\"2-1\">Anthropic announced a preview of Claude Mythos would be made available to 11 companies and organizations to find and fix cybersecurity vulnerabilities</cite>",
+      "title": "Claude Mythos Preview & Project Glasswing announced",
+      "summary": "<cite index=\"7-2,7-3,7-4\">Claude Mythos Preview is a new general-purpose language model strikingly capable at computer security tasks. Project Glasswing uses Mythos Preview to help secure critical software.</cite>",
       "url": "https://red.anthropic.com/2026/mythos-preview/"
     },
     {
-      "date": "May 2026",
-      "title": "Claude Design connectors for creative tools",
-      "summary": "<cite index=\"22-16\">Anthropic expands Claude for creative work with new connectors for Blender, Adobe, Autodesk, Ableton, Splice, and more</cite>",
-      "url": "https://releasebot.io/updates/anthropic"
+      "date": "Apr 16, 2026",
+      "title": "Claude Opus 4.7 released with improved coding & vision",
+      "summary": "<cite index=\"4-1,4-2,4-21,4-22\">Opus 4.7 has substantially better vision and higher-resolution image processing. It is available across all Claude products with same Opus 4.6 pricing: $5/$25 per million tokens.</cite>",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7"
     }
   ],
-  "lastChecked": "2026-05-04T08:40:19.531Z"
+  "lastChecked": "2026-05-05T08:22:40.144Z"
 }
