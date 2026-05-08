@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-05T08:22:40.144Z",
+  "lastUpdated": "2026-05-08T08:10:29.966Z",
   "categories": [
     {
       "id": "llm",
@@ -80,19 +80,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "Claude Opus 4.7 (flagship), Claude Sonnet 4.6 (balanced), Claude Haiku 4.5 (fastest)"
+          "value": "<cite index=\"1-13,1-14\">Latest: Claude Opus 4.7 (most capable generally available model)</cite>. <cite index=\"13-3\">Other current recommended models: Claude Opus 4.6, Claude Sonnet 4.6, and Claude Haiku 4.5</cite>"
         },
         {
           "label": "Context",
-          "value": "1M tokens at standard pricing"
+          "value": "<cite index=\"9-9\">Claude Opus 4.7 supports 1M token context window with 128k max output tokens</cite>"
         },
         {
           "label": "Released",
-          "value": "Opus 4.7 released April 16, 2026"
+          "value": "<cite index=\"7-1,7-2\">Claude Opus 4.7 is now generally available (released in May 2026)</cite>"
         },
         {
           "label": "Pricing",
-          "value": "Opus 4.7/4.6: $5/$25 per million tokens; Sonnet 4.6: $3/$15; Haiku 4.5: $1/$5"
+          "value": "<cite index=\"30-28\">Opus 4.7: $5 per million input tokens and $25 per million output tokens</cite>. <cite index=\"16-1\">Sonnet 4.6: $3/$15 per million tokens; Haiku 4.5: $1/$5 per million tokens</cite>"
         }
       ],
       "features": [
@@ -329,19 +329,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "<cite index=\"3-4\">GPT-5.3 Instant and GPT-5.5 Thinking as the main flagship models</cite>; <cite index=\"19-1\">GPT-5.5 launched on April 23, 2026 and is now the top model on Plus, Pro, Business, and Enterprise</cite>; <cite index=\"6-21\">gpt-5.5-pro available at $30 per 1M input tokens and $180 per 1M output tokens</cite>"
+          "value": "GPT-5.5 Instant (default), GPT-5.5 Thinking (reasoning), GPT-5.5 Pro (highest capability)"
         },
         {
           "label": "Context",
-          "value": "<cite index=\"2-24\">Newer models like GPT-5 and beyond support much longer conversations (100K+ tokens)</cite>; <cite index=\"6-19\">gpt-5.5 will soon be available with a 1M context window</cite>"
+          "value": "GPT-5.5 supports up to 1M token context window on Pro ($200) and Enterprise tiers; standard tiers have lower limits"
         },
         {
           "label": "Released",
-          "value": "<cite index=\"3-10\">GPT-5.5 went live in the API on April 24, 2026</cite>; <cite index=\"3-27\">ChatGPT Images 2.0 launched April 21, 2026</cite>"
+          "value": "GPT-5.5 released April 23, 2026; GPT-5.5 Instant rolled out May 5, 2026"
         },
         {
           "label": "Pricing",
-          "value": "<cite index=\"3-2,3-3\">Free at $0 with ads, Go is $8 per month, Plus is $20, Pro $100 launched April 9, and Pro $200</cite>; <cite index=\"6-19\">gpt-5.5 available in API at $5 per 1M input tokens and $30 per 1M output tokens</cite>; <cite index=\"3-11\">GPT-5.5 is roughly 2x the per-token cost of GPT-5.4</cite>"
+          "value": "Free ($0), Go ($8/mo), Plus ($20/mo), Pro $100/mo (April 9, 2026), Pro $200/mo, Business ($20-25/seat), Enterprise (custom)"
         }
       ],
       "features": [
@@ -444,6 +444,19 @@
       },
       "link": "https://chatgpt.com",
       "changelog": [
+        {
+          "version": "GPT-5.5 Instant",
+          "date": "May 2026",
+          "changes": [
+            "GPT-5.5 Instant deployed as new default model for all users",
+            "52.5% fewer hallucinated claims and 37.3% fewer inaccurate statements vs GPT-5.3",
+            "Enhanced personalization from past chats, files, and Gmail (Plus/Pro users)",
+            "Memory sources feature shows what context was used to personalize responses",
+            "Reduced gratuitous emoji usage and more concise response formatting",
+            "Fast answers feature for quick information-seeking queries",
+            "Model selection and thinking effort controls added to composer/model picker"
+          ]
+        },
         {
           "version": "GPT-5.5",
           "date": "April 2026",
@@ -564,19 +577,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "Latest: Gemini 3.1 Pro ($2.00/$12.00 per 1M input/output tokens for standard context). Also available: Gemini 3.1 Flash-Lite ($0.25/$1.50), Gemini 3 Flash, Gemini 2.5 Pro/Flash/Flash-Lite, and Gemini 2.0 Flash-Lite"
+          "value": "<cite index=\"10-11\">Gemini 3.1 Pro (current flagship)</cite>; <cite index=\"9-1\">Gemini 3.1 Flash-Lite ($0.25/$1.50 per 1M tokens)</cite>; <cite index=\"10-18,10-20\">Gemini 2.5 Pro and Flash (legacy)</cite>"
         },
         {
           "label": "Context",
-          "value": "Gemini 3.1 Pro: 1M token standard context window, 2M token extended. Pricing increases to $4.00/$18.00 per 1M above 200K context tokens"
+          "value": "<cite index=\"10-5\">2M-token context window</cite>"
         },
         {
           "label": "Released",
-          "value": "Gemini 3.1 Pro: February 19, 2026. Gemini 3.1 Flash-Lite: March 3, 2026"
+          "value": "<cite index=\"7-3\">Gemini 3.1 series released in 2026; Gemini 2.5 family also available</cite>"
         },
         {
           "label": "Pricing",
-          "value": "Gemini 3.1 Pro: $2/$12 per 1M (up to 200K context), $4/$18 per 1M (above 200K). Gemini 3.1 Flash-Lite: $0.25/$1.50. Gemini 3 Flash: $0.50/$3.00. Batch mode available with 50% discount"
+          "value": "<cite index=\"10-5\">Gemini 3.1 Pro: $2.00/$12.00 per 1M tokens (up to 200K context), $4.00/$18.00 above</cite>; <cite index=\"9-1\">Gemini 3.1 Flash-Lite: $0.25/$1.50 per 1M tokens</cite>; <cite index=\"10-18\">Gemini 2.5 Pro: $1.25/$10.00 per 1M tokens</cite>"
         }
       ],
       "features": [
@@ -679,6 +692,15 @@
       },
       "link": "https://gemini.google.com",
       "changelog": [
+        {
+          "version": "3.1 Pro & 3.1 Flash-Lite",
+          "date": "May 2026",
+          "changes": [
+            "<cite index=\"11-1\">Google AI Pro and Ultra subscribers now get increased usage limits in Google AI Studio</cite>",
+            "<cite index=\"13-2\">Gemini 3.1 upgrade enables complex, multi-step voice commands in Google Home</cite>",
+            "<cite index=\"18-10,18-11\">File Search updated to support multimodal search with native image embedding and search</cite>"
+          ]
+        },
         {
           "version": "3.1 Series + Updates",
           "date": "April 2026",
@@ -800,19 +822,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "<cite index=\"8-1\">DeepSeek V4 ships in two variants: V4-Pro (1.6 trillion parameters) and V4-Flash (284 billion parameters)</cite>"
+          "value": "<cite index=\"4-9,4-10\">DeepSeek V4 Flash and V4 Pro are mixture-of-experts models with context windows of 1 million tokens each</cite>"
         },
         {
           "label": "Context",
-          "value": "<cite index=\"4-7\">Both V4 Flash and V4 Pro have context windows of 1 million tokens</cite>"
+          "value": "<cite index=\"4-10\">1 million tokens</cite>"
         },
         {
           "label": "Released",
-          "value": "<cite index=\"5-19\">April 24, 2026</cite> (preview release)"
+          "value": "<cite index=\"4-9\">April 24, 2026</cite>"
         },
         {
           "label": "Pricing",
-          "value": "<cite index=\"4-17,4-18\">V4-Flash: $0.14 per million input tokens, $0.28 per million output tokens. V4-Pro: $0.145 per million input tokens, $3.48 per million output tokens</cite>. <cite index=\"1-2\">V4-Pro is currently offered at a 75% discount, valid until 2026/05/05</cite>, bringing <cite index=\"10-7,10-8\">input costs for cache misses to $0.435 and output pricing to $0.87</cite>"
+          "value": "<cite index=\"4-20,4-21\">V4 Flash: $0.14 per million input tokens and $0.28 per million output tokens. V4 Pro: $0.145 per million input tokens and $3.48 per million output tokens</cite>. <cite index=\"1-2\">The deepseek-v4-pro model is currently offered at a 75% discount, extended until 2026/05/31</cite>"
         }
       ],
       "features": [
@@ -1430,19 +1452,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "Sora 2 and Sora 2 Pro (discontinuing)"
+          "value": "<cite index=\"2-3\">Sora 2 is OpenAI's flagship video and audio generation model</cite>. <cite index=\"5-5\">Available in two versions: Sora 2 (standard, up to 720p) and Sora 2 Pro (premium, up to 1024p via API or 1080p via subscriptions)</cite>"
         },
         {
           "label": "Context",
-          "value": "Sora 2 Pro released March 23, 2026"
+          "value": "<cite index=\"1-7\">Sora 2 can generate videos lasting 15 to 25 seconds</cite>. <cite index=\"2-13\">It is capable of creating sophisticated background soundscapes, speech, and sound effects with high realism</cite>"
         },
         {
           "label": "Released",
-          "value": "September 30, 2025 (Sora 2)"
+          "value": "<cite index=\"3-1\">Released March 23, 2026</cite>"
         },
         {
           "label": "Pricing",
-          "value": "ChatGPT Plus $20/month (720p, 5s max) or Pro $200/month (1080p, 20s max). API: Sora 2 $0.10/sec (720p), Sora 2 Pro $0.30-0.50/sec (1024p). DISCONTINUING: App April 26 2026, API September 24 2026"
+          "value": "<cite index=\"5-2,5-3\">API pricing: Sora 2 costs $0.10/second for 720p videos. Sora 2 Pro costs $0.30/second for 720p or $0.50/second for 1024p</cite>. <cite index=\"5-18\">ChatGPT Plus subscription ($20/month with unlimited 480p access) or ChatGPT Pro subscription ($200/month for 10,000 credits up to 1080p)</cite>"
         }
       ],
       "features": [
@@ -1579,19 +1601,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "<cite index=\"11-19\">Gen-4.5 is the world's best video model</cite>. <cite index=\"19-9\">Runway's recent progress centers on new model generations and better directing tools—especially Gen‑3 Alpha, Gen‑3 Alpha Turbo, and the newer Gen‑4 line</cite>."
+          "value": "<cite index=\"11-10,11-22\">Gen-4.5 is the world's best video model</cite>. <cite index=\"5-22\">The current model lineup includes Gen-4, Gen-4.5, Gen-4 Turbo, and more</cite>. <cite index=\"11-5,11-6\">All of the world's best models are now available inside Runway, including Kling 3.0, Kling 2.6 Pro, Kling 2.5 Turbo Pro, WAN2.2 Animate, GPT-Image-1.5, Sora 2 Pro and many more</cite>"
         },
         {
           "label": "Context",
-          "value": "<cite index=\"8-5,8-6\">Runway uses the Gen-3 Alpha Model, a collaborative effort from a cross-disciplinary team, which enables users to create realistic and expressive visuals</cite>. <cite index=\"11-20\">Gen-4.5 is now available for all paid plans</cite>."
+          "value": "<cite index=\"5-35,5-36\">Runway is a multi-model marketplace where one subscription gives access to Runway, Google Veo, Kling, Seedance, FLUX, and Seedream models simultaneously</cite>. <cite index=\"5-27,5-28\">At $12–$15/month, Standard unlocks Gen-4.5, Veo 3.1, Kling 3.0 Pro, watermark removal, and upscaling, with identical model access across Pro and Unlimited tiers</cite>"
         },
         {
           "label": "Released",
-          "value": "<cite index=\"11-19\">Gen-4.5 was introduced as the world's best video model</cite>. <cite index=\"14-15,14-17\">Gen-4.5 supports both text-to-video and image-to-video generation modes, with durations from 2-10 seconds</cite>."
+          "value": "<cite index=\"11-10\">Gen-4.5 was introduced December 11, 2025</cite>. <cite index=\"11-5,11-6\">Third-party models including Kling 3.0 and Sora 2 Pro became available February 20, 2026</cite>"
         },
         {
           "label": "Pricing",
-          "value": "<cite index=\"3-1\">The 2026 price drop from $15 to $12 makes this a no-brainer for semi-regular users</cite>. <cite index=\"10-1\">Runway pricing ranges from $0 to $95 per month as of April 2026</cite>. <cite index=\"8-20,8-21\">The Pro plan costs $28/month and the Unlimited Plan costs $78/month</cite>."
+          "value": "<cite index=\"4-1\">The 2026 price dropped from $15 to $12 for Standard</cite>. <cite index=\"5-6\">Paid plans start at $12/mo</cite>. <cite index=\"5-42\">Pro costs $35/user/month (monthly) or $28/user/month (annual) with 2,250 credits/month</cite>. <cite index=\"9-2,9-3,9-4\">Gen-4/Gen-3 Alpha costs 10–12 credits per second, Gen-4 Turbo costs 5 credits per second, and 4K upscaling costs 2 credits per second</cite>"
         }
       ],
       "features": [
@@ -1693,6 +1715,15 @@
         }
       },
       "changelog": [
+        {
+          "version": "Gen-4.5 and Third-Party Models Integration",
+          "date": "February 2026",
+          "changes": [
+            "<cite index=\"11-8\">Gen-4.5 Image to Video now allows supplying a first frame image alongside text prompt (January 21, 2026)</cite>",
+            "<cite index=\"11-5,11-6\">Multiple third-party models added including Kling 3.0, Kling 2.6 Pro, WAN2.2 Animate, GPT-Image-1.5, and Sora 2 Pro (February 20, 2026)</cite>",
+            "<cite index=\"4-24\">Extended Clip Generation now supports clips up to 18 seconds, increased from 16 seconds in late 2025</cite>"
+          ]
+        },
         {
           "version": "Seedance 2.0 & Gen-4.5 Updates",
           "date": "April 2026",
@@ -2027,19 +2058,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "Composer 2 (proprietary, Kimi K2.5 base with Cursor continued pre-training), Claude Sonnet/Opus, GPT-4o, Gemini, Cursor Tab model"
+          "value": "<cite index=\"1-14\">Cursor integrates generative models from Anthropic, OpenAI and others</cite>. <cite index=\"2-1,2-3\">Cursor 3 is the third major version of the AI coding tool built by Anysphere, launched on April 2, 2026</cite>"
         },
         {
           "label": "Context",
-          "value": "Cursor 3 supports parallel agents, multi-repo execution, local-to-cloud agent handoff, design mode for UI feedback"
+          "value": "<cite index=\"1-12\">Cursor is a fork of Visual Studio Code that integrates AI-assisted software development capabilities directly into the editor</cite>"
         },
         {
           "label": "Released",
-          "value": "Cursor 3.0 on April 2, 2026; Latest 3.2 on April 24, 2026"
+          "value": "<cite index=\"2-3\">Cursor 3 launched on April 2, 2026 with a completely rebuilt interface built around parallel AI agents</cite>"
         },
         {
           "label": "Pricing",
-          "value": "Free (Hobby), Pro $20/month, Pro+ $60/month, Ultra $200/month, Teams $40/user/month"
+          "value": "<cite index=\"7-1\">As of April 2026, pricing includes a new Pro+ tier at $60/month, which sits between Pro and Ultra as the recommended plan for developers who frequently hit Pro's usage caps</cite>. <cite index=\"7-28,7-29,7-30,7-31\">Pro is $20/month for professional developers, Pro+ is $60/month for heavy Agent users, Ultra is $200/month for individuals who live inside Agent mode, and Teams is $40/user/month</cite>"
         }
       ],
       "features": [
@@ -2142,6 +2173,15 @@
       },
       "changelog": [
         {
+          "version": "3.3",
+          "date": "May 2026",
+          "changes": [
+            "<cite index=\"11-3,11-4\">Context usage breakdown: you can now see a breakdown of your agent's context usage to diagnose context issues and improve setup across rules, skills, MCPs, and subagents</cite>",
+            "<cite index=\"11-1,11-5,11-6\">Enterprise admin updates including new system for model controls, updated spend management, usage analytics, and ability to set granular allow or blocklists at the model and provider level</cite>",
+            "<cite index=\"11-12,11-13,11-14,11-15\">Team marketplace updates allowing admins to create a team marketplace without connecting a repository first, with ability to add and configure install behavior for first-party plugins that bundle capabilities like MCP servers, skills, subagents, rules, and hooks</cite>"
+          ]
+        },
+        {
           "version": "3.0-3.2",
           "date": "April 2026",
           "changes": [
@@ -2217,19 +2257,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "GPT-5.5, GPT-5.4, GPT-5.3-Codex, GPT-4.1, GPT-5 mini, Claude Opus 4.7 (Pro+ only), Gemini 2.5 Pro, Gemini 3 Flash, Gemini 3.1 Pro"
+          "value": "<cite index=\"2-1\">GPT-4.1 and GPT-5 mini are included models</cite>. Available models include GPT-5.5, GPT-5.4, Gemini 2.5 Pro, Gemini 3.1 Pro, and Claude Opus 4.7 (Pro+ only). <cite index=\"17-19,17-20\">Opus models are no longer available in Pro plans. Opus 4.7 remains available in Pro+ plans</cite>."
         },
         {
           "label": "Context",
-          "value": "Copilot Pro: $10/month with $10 AI Credits; Copilot Pro+: $39/month with $39 AI Credits; Copilot Business: $19/user/month; Copilot Enterprise: Custom pricing. Transitioning to token-based usage billing starting June 1, 2026."
+          "value": "<cite index=\"2-9,2-10\">When you use Copilot, the interaction consumes tokens: input tokens (what's sent to the model), output tokens (what the model generates), and cached tokens (context the model reuses or stores). Each token is priced based on the model used, and the total is converted into AI credits, where 1 AI credit = $0.01 USD</cite>."
         },
         {
           "label": "Released",
-          "value": "Latest models and pricing structure updates April 2026; Usage-based billing transition June 1, 2026"
+          "value": "<cite index=\"1-9\">All GitHub Copilot plans will transition to usage-based billing on June 1, 2026</cite>."
         },
         {
           "label": "Pricing",
-          "value": "Copilot Free (limited features); Copilot Pro $10/month; Copilot Pro+ $39/month; Copilot Business $19/user/month; Copilot Enterprise (custom). Moving from request-based to AI Credits based on token consumption ($0.01 per credit)"
+          "value": "<cite index=\"1-1\">Copilot Pro: $10/month, including $10 in monthly AI Credits · Copilot Pro+: $39/month, including $39 in monthly AI Credits</cite>. <cite index=\"1-7\">Copilot Business: $19/user/month, including $19 in monthly AI Credits</cite>. <cite index=\"1-21\">Plan prices aren't changing</cite>."
         }
       ],
       "features": [
@@ -2331,6 +2371,18 @@
         }
       },
       "changelog": [
+        {
+          "version": "v1.0.42 & v1.116-v1.119",
+          "date": "May 2026",
+          "changes": [
+            "<cite index=\"14-2\">Copilot can now search by meaning in any workspace and run grep-style queries across GitHub repos and orgs</cite>",
+            "<cite index=\"14-6\">Chronicle tracks your chat interactions in a local database so you can search past sessions, recall recent work, and get personalized workflow tips</cite>",
+            "<cite index=\"14-7\">Smarter prompt caching, deferred tool loading, and new agentic tools reduce token usage on every request</cite>",
+            "<cite index=\"14-10\">Copilot Business and Enterprise users can link their own API keys to use those models directly in VS Code chat</cite>",
+            "<cite index=\"1-2\">Users on a monthly Pro or Pro+ plan will automatically migrate to usage-based billing on June 1, 2026</cite>",
+            "<cite index=\"17-19,17-20\">Opus models are no longer available in Pro plans. Opus 4.7 remains available in Pro+ plans</cite>"
+          ]
+        },
         {
           "version": "April 2026 Update",
           "date": "April 2026",
@@ -2538,19 +2590,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "<cite index=\"4-11\">Devin 2.0</cite>"
+          "value": "Devin 2.0 (latest version)"
         },
         {
           "label": "Context",
-          "value": "<cite index=\"4-13\">Generally available with features aimed at making collaboration between developers and Devin's autonomous agent smoother and more productive</cite>"
+          "value": "Autonomous AI software engineer agent with interactive cloud-based IDE"
         },
         {
           "label": "Released",
-          "value": "<cite index=\"4-14\">Available starting at $20 per month (previously $500), billed at $2.25 per Agent Compute Unit</cite>"
+          "value": "December 2025 (Devin 2.0)"
         },
         {
           "label": "Pricing",
-          "value": "<cite index=\"8-1\">Core (pay-as-you-go starting at $20 with ACUs at $2.25 each), Team ($500/month with 250 ACUs included at $2.00 each), and Enterprise (custom pricing with VPC deployment and SAML SSO)</cite>"
+          "value": "Core: $20/month with pay-as-you-go ACU billing at $2.25 per ACU; Team: $500/month with 250 ACUs at $2.00 each; Enterprise: custom pricing"
         }
       ],
       "features": [
@@ -2834,19 +2886,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "Agent 4 (latest, released March 2026)"
+          "value": "<cite index=\"14-24,14-25\">Claude Opus 4.7 powering Power mode (Lite, Economy, Power, and Turbo modes available)</cite>"
         },
         {
           "label": "Context",
-          "value": "Autonomous AI coding agent with 10x more autonomy than Agent 3, can run 200+ minutes, auto-testing and debugging capabilities"
+          "value": "<cite index=\"14-27,14-28\">Simplified Agent mode selector with Lite, Economy, and Power modes in toolbar</cite>"
         },
         {
           "label": "Released",
-          "value": "March 19, 2026"
+          "value": "<cite index=\"15-1\">Agent v2 (February 2025), Agent 3 (September 2025)</cite>; <cite index=\"14-1\">Latest updates including Claude Opus 4.7 in April 2026</cite>"
         },
         {
           "label": "Pricing",
-          "value": "Starter: Free (limited daily credits); Core: $20-25/month ($25/month included credits); Pro: $100/month for up to 15 builders; Enterprise: custom. Effort-based pricing model where simple tasks cost less than $0.25, complex tasks may cost more."
+          "value": "<cite index=\"5-2\">Replit Core: $20/month with $20 in monthly credits</cite>; <cite index=\"5-3\">Replit Pro: $100/month for up to 15 builders</cite>; <cite index=\"3-5,3-6,3-7\">Simple tasks cost less than $0.25, complex tasks may cost more with effort-based pricing</cite>"
         }
       ],
       "features": [
@@ -2993,19 +3045,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "<cite index=\"11-27,11-28\">GPT-5.5 is now available in Codex as OpenAI's newest frontier model for complex coding, computer use, knowledge work, and research workflows and is the recommended choice for most Codex tasks</cite>. Also available: <cite index=\"3-2\">GPT-5.4-mini for lighter coding tasks</cite>, <cite index=\"3-3\">GPT-5.3-codex-spark in research preview for ChatGPT Pro subscribers</cite>, and <cite index=\"3-5,3-14\">GPT-5.4 for coding and agentic tasks</cite>"
+          "value": "GPT-5.5 (frontier model for complex coding), GPT-5.4 (general-purpose), GPT-5.4-mini (faster/lower-cost), GPT-5.3-Codex-Spark (research preview)"
         },
         {
           "label": "Context",
-          "value": "<cite index=\"6-1\">Codex is included in ChatGPT Plus ($20/mo), Pro ($200/mo), Business ($30/user/mo), Edu, and Enterprise</cite>. <cite index=\"2-5\">On average, Codex costs ~$100-$200/developer per month</cite>"
+          "value": "Included in ChatGPT Plus ($20/month), Pro ($200/month), Business ($20/user/month annual), Edu, and Enterprise plans. API pricing: token-based rates (credits per million tokens)"
         },
         {
           "label": "Released",
-          "value": "<cite index=\"11-27\">GPT-5.5 is now available in Codex</cite> (announced April 24, 2026). Prior: <cite index=\"20-15\">GPT-5.2-Codex released for all Codex surfaces for paid ChatGPT users</cite>"
+          "value": "GPT-5.5 available in Codex (May 2026); GPT-5.4 with 1M context window support; GPT-5.3-Codex released to Responses API; token-based pricing transitioned April 2, 2026"
         },
         {
           "label": "Pricing",
-          "value": "<cite index=\"1-27,1-28\">As of April 2nd, pricing moved to API token-based rates. Credits remain the core pricing unit, but usage is based on tokens consumed</cite>. <cite index=\"1-20\">Pro $100 users get 2x Codex usage through May 31, 2026</cite>"
+          "value": "ChatGPT Plus: $20/month (included); Pro: $200/month with 2x Codex usage through May 31, 2026; Business: $20/seat/year; API: pay-per-token model; Additional credits available for overages"
         }
       ],
       "features": [
@@ -3105,6 +3157,17 @@
       },
       "changelog": [
         {
+          "version": "May 2026",
+          "date": "May 2026",
+          "changes": [
+            "GPT-5.5 released as newest frontier model for complex coding and agentic workflows",
+            "Double Codex usage promotion for Pro $100/month tier through May 31, 2026",
+            "Pay-as-you-go pricing for teams via Codex-only seats on ChatGPT Business and Enterprise",
+            "ChatGPT Business annual pricing lowered from $25 to $20 per seat",
+            "Computer use with background agents on macOS and browser integration features"
+          ]
+        },
+        {
           "version": "April 2026",
           "date": "April 2026",
           "changes": [
@@ -3161,19 +3224,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "Claude Sonnet 4.6 (default), Claude Haiku 4.5 (quick edits), Claude Opus 4.6 (complex reasoning)"
+          "value": "<cite index=\"2-17\">Claude (Opus 4.6 with lighter or deeper AI reasoning options)</cite>"
         },
         {
           "label": "Context",
-          "value": "Full-stack development in browser with WebContainers, supports React, Node.js, Next.js, and most JavaScript frameworks"
+          "value": "<cite index=\"2-21\">Bolt.new integrates the latest AI models with StackBlitz's WebContainers, an in-browser development environment</cite>"
         },
         {
           "label": "Released",
-          "value": "October 4, 2024; Bolt V2 with Cloud features October 2025"
+          "value": "<cite index=\"2-20\">Bolt v2 released in October 2025</cite>"
         },
         {
           "label": "Pricing",
-          "value": "Free (1M tokens/month, 300K daily cap); Pro $20-25/month (token-based model); Teams and Enterprise available"
+          "value": "<cite index=\"4-9\">Free, Pro, Teams, and Enterprise tiers</cite>; <cite index=\"5-19\">Pro plans start at approximately $20 per month</cite>"
         }
       ],
       "features": [
@@ -3271,6 +3334,17 @@
       },
       "changelog": [
         {
+          "version": "2.0 (2026 Updates)",
+          "date": "2026",
+          "changes": [
+            "<cite index=\"2-15\">Team Templates: Turn existing projects into reusable starters to standardize structure and speed up new builds</cite>",
+            "<cite index=\"2-16\">Editable Netlify URLs: Change your published site URL without redeploying or rebuilding</cite>",
+            "<cite index=\"2-17\">Opus 4.6 model upgrade: Choose lighter or deeper AI reasoning to balance speed, cost, and output quality, and save context in claude.md</cite>",
+            "<cite index=\"2-18\">Figma import: Drop Figma designs directly into chat to build with visual reference in real time</cite>",
+            "<cite index=\"2-19\">AI image editing: Edit specific parts of images directly inside the chat interface with Nano Banana</cite>"
+          ]
+        },
+        {
           "version": "April 2026 Update",
           "date": "April 2026",
           "changes": [
@@ -3337,19 +3411,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "<cite index=\"34-28\">v0 uses multiple proprietary AI models (Mini, Pro, and Max) fine-tuned specifically for React and frontend code generation</cite>"
+          "value": "v0 Mini, v0 Pro, v0 Max - proprietary AI models fine-tuned for React and frontend code generation"
         },
         {
           "label": "Context",
-          "value": "<cite index=\"26-1\">v0-1.5-md supports 128K token context while v0-1.5-lg supports 512K token context</cite>"
+          "value": "v0-1.5-md and v0-1.5-lg models; context window up to 128K tokens"
         },
         {
           "label": "Released",
-          "value": "<cite index=\"34-3\">The February 2026 update added Git integration, a VS Code-style editor, database connectivity, and agentic workflows</cite>"
+          "value": "v0 generally available since 2024; latest major update February 2026"
         },
         {
           "label": "Pricing",
-          "value": "<cite index=\"4-2\">v0 offers a Free plan at $0/month, Premium at $20/month, Team at $30/user/month, Business at $100/user/month, and Enterprise with custom pricing</cite>"
+          "value": "Free ($0/month with $5 credits), Premium ($20/month), Team ($30/user/month), Business ($100/user/month), Enterprise (custom); Token costs: Mini $1/$5, Pro $3/$15, Max $5/$25 per 1M tokens"
         }
       ],
       "features": [
@@ -3447,6 +3521,19 @@
         }
       },
       "changelog": [
+        {
+          "version": "February 2026 Update",
+          "date": "February 2026",
+          "changes": [
+            "Added Git integration with VS Code-style editor for native GitHub workflows",
+            "Introduced sandbox-based runtime that imports GitHub repos and auto-pulls environment variables",
+            "Added database connectivity with Snowflake and AWS integrations for data apps",
+            "Enabled agentic workflows for end-to-end app creation",
+            "Added pull request generation and merge-to-deploy capabilities",
+            "Introduced Business plan tier ($100/user/month) between Team and Enterprise",
+            "Launched new Enterprise page with SOC2 compliance, SAML SSO, and audit logs"
+          ]
+        },
         {},
         {
           "version": "February 2026",
@@ -3492,19 +3579,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "<cite index=\"5-28\">GPT-4o, Claude 3.5 Sonnet, and Codeium's own models</cite>; <cite index=\"12-16\">GPT-5.1 and GPT-5.1-Codex are now available</cite>; <cite index=\"12-12\">Gemini 3 Pro is available</cite>; <cite index=\"14-18\">GPT-5.2 is now available</cite>"
+          "value": "SWE-1, SWE-1.5, SWE-1-mini, Claude Sonnet 4.6, GPT-5.2, Gemini 3 Pro, Adaptive model router"
         },
         {
           "label": "Context",
-          "value": "Not publicly specified in documentation"
+          "value": "Fast Context (SWE-grep) for 10x faster code retrieval, Codemaps for AI-annotated visual navigation, Cascade agentic assistant"
         },
         {
           "label": "Released",
-          "value": "<cite index=\"6-30\">Windsurf launched in late 2024</cite>; <cite index=\"7-6\">Full company rebranding from Codeium to Windsurf was completed in April 2025</cite>"
+          "value": "Latest stable version v2.0.61 (April 17, 2026)"
         },
         {
           "label": "Pricing",
-          "value": "<cite index=\"5-2\">Free (generous credits), Pro at $15/month (more credits), Pro Ultimate at $60/month (unlimited), and Teams at $30/user/month</cite>"
+          "value": "Free ($0), Pro ($15-20/mo), Pro Plus ($35/mo), Max ($200/mo), Teams ($25-40/user/mo), Enterprise (custom). Pricing models recently changed from credit-based to quota-based system."
         }
       ],
       "features": [
@@ -3601,6 +3688,18 @@
       },
       "changelog": [
         {
+          "version": "v2.0.61+",
+          "date": "April 2026",
+          "changes": [
+            "GPT-5.2 model added with 0x credit promotion for limited time",
+            "Devin Cloud integration for task delegation to cloud agents",
+            "Adaptive model router improvements with bug fixes and quota restoration",
+            "Refined Browser with toolbar integration and Cascade tool",
+            "Improved .gitignore and .codeiumignore handling",
+            "Stability improvements for remote extensions (WSL, SSH, Dev Containers)"
+          ]
+        },
+        {
           "version": "2.0.61",
           "date": "April 2026",
           "changes": [
@@ -3662,19 +3761,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "Manus 1.6 Max, Manus 1.6, Manus 1.6 Lite (in Agent Mode); Chat Mode also available"
+          "value": "Manus 1.6 Lite, Manus 1.6, Manus 1.6 Max"
         },
         {
           "label": "Context",
-          "value": "Credit-based pricing model; developed by Butterfly Effect (Monica.im team), now part of Meta (pending regulatory reversal)"
+          "value": "Credit-based system; Free tier (300 daily refresh) + Pro ($20-$200/month) + Team ($20+/seat/month)"
         },
         {
           "label": "Released",
-          "value": "March 6, 2025"
+          "value": "Manus 1.6 Max released December 15, 2025; Manus beta launched March 6, 2025"
         },
         {
           "label": "Pricing",
-          "value": "Free tier with 300 daily refresh credits; Standard $20/mo (4,000 credits); Customizable $40/mo (8,000 credits); Extended $200/mo (40,000 credits); Team plans start at $39/seat"
+          "value": "Free ($0/month, 300 daily credits); Pro Standard ($20/month, 4,000 credits); Pro Customizable ($40/month, 8,000 credits); Pro Extended ($200/month, 40,000 credits); Team ($20+/seat/month with 2-member minimum)"
         }
       ],
       "features": [
@@ -3809,19 +3908,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "<cite index=\"8-32\">Works with Anthropic (Claude), OpenAI (GPT), Google (Gemini), and local models via Ollama</cite>"
+          "value": "Compatible with Claude, DeepSeek, OpenAI GPT models, and local models via Ollama or similar"
         },
         {
           "label": "Context",
-          "value": "<cite index=\"2-1\">Free and open-source autonomous artificial intelligence agent that can execute tasks via large language models (LLMs), using messaging platforms as its main user interface</cite>"
+          "value": "Free and open-source AI assistant running locally on your own devices, accessible via WhatsApp, Telegram, Discord, Slack, Signal, iMessage and 20+ other messaging platforms"
         },
         {
           "label": "Released",
-          "value": "<cite index=\"2-2\">First published in November 2025 under the name Clawdbot</cite>; <cite index=\"5-14\">Latest version v2026.4.25 released April 27, 2026</cite>"
+          "value": "Originally November 2025 as Clawdbot; renamed to OpenClaw January 30, 2026"
         },
         {
           "label": "Pricing",
-          "value": "<cite index=\"4-19\">Software itself is open-source and free under the MIT license</cite>; <cite index=\"4-21\">OpenClaw Cloud available at $59.00/month</cite>"
+          "value": "Software is free (MIT license). OpenClaw Cloud managed service: $59/month ($29.50 first month). Self-hosting costs vary: $0 with free models to $200+/month with premium models"
         }
       ],
       "features": [
@@ -3932,6 +4031,17 @@
       },
       "changelog": [
         {
+          "version": "2026.5.7",
+          "date": "May 2026",
+          "changes": [
+            "Release/plugin publishing: retry transient ClawHub CLI dependency install failures",
+            "Keep preview-passing plugins publishable when one preview cell flakes",
+            "Verify every expected ClawHub package version after publish for faster maintenance releases",
+            "OpenAI: support openai/chat-latest as explicit direct API-key model override",
+            "Cron CLI: include computed status in cron list and cron show JSON output"
+          ]
+        },
+        {
           "version": "2026.4.25",
           "date": "April 2026",
           "changes": [
@@ -3989,19 +4099,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "<cite index=\"1-5\">Grok 4.20</cite> is the latest flagship. <cite index=\"3-2,3-3\">Grok 4.1 Fast at $0.20/M input and $0.50/M output tokens is recommended for most developers; Grok 4 at $3.00/M input and $15.00/M output tokens serves frontier reasoning workloads.</cite> <cite index=\"16-2\">Grok 4.3 Beta is available for SuperGrok Heavy subscribers at $300/month.</cite>"
+          "value": "<cite index=\"4-30\">Grok 4.3 is the new flagship as of April 30, 2026, Grok 4.20 stays in service as the long-context option, and Grok 4.1 Fast is still the cheap workhorse</cite>"
         },
         {
           "label": "Context",
-          "value": "<cite index=\"3-4\">Grok 4.1 Fast has 2 million token context window</cite>, while <cite index=\"6-21\">Grok 4 supports 256K tokens</cite>."
+          "value": "<cite index=\"13-5\">Grok 4.3 features a 1M token context window</cite>"
         },
         {
           "label": "Released",
-          "value": "<cite index=\"7-1,7-2\">Grok 4.2 was released in March 2026 with the lowest hallucination rate on the market, strict prompt adherence, and advanced agentic capabilities including multi-agent support.</cite> <cite index=\"16-4\">Grok 4.3 Beta dropped April 17 for SuperGrok Heavy users.</cite>"
+          "value": "<cite index=\"4-30\">Grok 4.3 was released April 30, 2026</cite>"
         },
         {
           "label": "Pricing",
-          "value": "Subscription: <cite index=\"3-6\">SuperGrok runs $30/month with access to Grok 4 and full 2M context window</cite>; <cite index=\"16-2\">SuperGrok Heavy is $300/month for Grok 4.3 Beta access</cite>. API: <cite index=\"3-2,3-3\">Grok 4.1 Fast at $0.20/M input and $0.50/M output tokens; Grok 4 at $3.00/M input and $15.00/M output tokens</cite>. <cite index=\"11-28\">Agent tools pricing dropped by up to 50% to no more than $5 per 1000 successful calls.</cite>"
+          "value": "<cite index=\"4-7\">Grok 4.3 API pricing is $1.25 / $2.50 per million tokens with a 1 million token context</cite>. <cite index=\"4-4,4-5,4-6\">SuperGrok Lite at $10/month launched March 25, 2026; SuperGrok costs $30/month or $300/year; X Premium+ at $40/month bundles Grok with X platform perks; SuperGrok Heavy at $300/month is the only consumer plan with full Grok 4.3 access today</cite>"
         }
       ],
       "features": [
@@ -4100,6 +4210,16 @@
       },
       "link": "https://x.ai/grok",
       "changelog": [
+        {
+          "version": "Grok 4.3 + Voice Updates",
+          "date": "May 2026",
+          "changes": [
+            "<cite index=\"13-2,13-3\">Grok 4.3 is now fully available via the API as of May 6, 2026</cite>",
+            "<cite index=\"11-1,11-2\">xAI now supports grok-voice-think-fast-1.0 with the Voice Agent API as of May 3, 2026</cite>",
+            "<cite index=\"11-5,11-6\">xAI introduced Custom Voices and a new Voice Library, letting users clone a voice from a short recording; custom voices work across Grok Text to Speech and Voice Agent APIs with no extra charge</cite>",
+            "<cite index=\"13-3\">Eight legacy models will be retired on May 15, 2026, at 12:00 PM PT</cite>"
+          ]
+        },
         {
           "version": "Grok 4.3 Beta",
           "date": "April 2026",
@@ -4214,19 +4334,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "Llama 4 Maverick (17B active/400B total), Llama 4 Scout (17B active/109B total); Llama 3.1, Llama 3.2, Llama 3.3; Llama 4 Behemoth (288B active, still in training)"
+          "value": "Llama 4 Scout (17B active params, 16 experts) and Llama 4 Maverick (17B active params, 128 experts); Llama 4 Behemoth (288B active params, 16 experts) still training"
         },
         {
           "label": "Context",
-          "value": "Scout: 10M tokens; Maverick: 1M tokens; Llama 3.1: 16K tokens"
+          "value": "Llama 4 Scout: 10M tokens; Llama 4 Maverick: varies; Llama 3.1 405B: 128K tokens"
         },
         {
           "label": "Released",
-          "value": "Llama 4 Scout & Maverick: April 5, 2025; Llama 3.1: July 23, 2024"
+          "value": "Llama 4 Scout and Maverick released April 2025 (open-weight); Llama 4 Behemoth still in training as of April 2026"
         },
         {
           "label": "Pricing",
-          "value": "Llama 4 Maverick: $0.19/Mtok (distributed inference), $0.30-$0.49/Mtok (single host); Open-weight models free to download/self-host; Llama 3.1 8B: $0.02 input/$0.05 output per Mtok via API partners"
+          "value": "Llama 4 Maverick: $0.19/M tokens (distributed inference) or $0.30-$0.49/M tokens (single host); open-source models available for self-hosting at zero per-token API cost"
         }
       ],
       "features": [
@@ -4327,6 +4447,15 @@
       "link": "https://llama.meta.com",
       "changelog": [
         {
+          "version": "Llama API Launch",
+          "date": "May 2026",
+          "changes": [
+            "Llama API launched in limited preview with one-click API key creation and interactive playgrounds",
+            "Compatible with OpenAI SDK for easy application conversion",
+            "Includes Python and Typescript SDKs for developers"
+          ]
+        },
+        {
           "version": "Muse Spark",
           "date": "April 2026",
           "changes": [
@@ -4417,19 +4546,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "<cite index=\"7-5\">Mistral Small 4 at $0.15/M input, Voxtral TTS beating ElevenLabs at 73% less cost, and Large 3</cite>. <cite index=\"11-39,11-40\">Mistral Small 4 is a hybrid model optimized for general chat, coding, agentic tasks, and complex reasoning. Its architecture supports both text and image inputs.</cite>"
+          "value": "<cite index=\"26-6\">Mistral Medium 3.5 (frontier-class multimodal model optimized for agentic and coding use cases, with adjustable reasoning)</cite>; <cite index=\"2-12\">Mistral Large 3 with 41B active and 675B total parameters</cite>; <cite index=\"9-2\">Mistral Small 4</cite>"
         },
         {
           "label": "Context",
-          "value": "<cite index=\"11-44\">256k context window, supporting long-form interactions and document analysis</cite>. <cite index=\"4-10\">Mistral Medium 3 supports a context window of up to 131K tokens.</cite>"
+          "value": "<cite index=\"9-30\">Mistral Large 3: 256,000 tokens</cite>; <cite index=\"20-3\">Mistral Small 4: 262,144 token context window</cite>"
         },
         {
           "label": "Released",
-          "value": "<cite index=\"11-37\">Mistral Small 4 is a unified model combining fast instructing, deep reasoning, and multimodal chat</cite>, released March 2026. <cite index=\"6-44\">Voxtral TTS is the state-of-the-art text-to-speech model with zero-shot voice cloning, multilingual support, and real-time streaming.</cite>"
+          "value": "<cite index=\"26-6\">Mistral Medium 3.5 released April 29, 2026</cite>; <cite index=\"5-1\">Mistral Large 3 released December 2, 2025</cite>; <cite index=\"9-2\">Mistral Small 4 launched in March 2026</cite>"
         },
         {
           "label": "Pricing",
-          "value": "<cite index=\"5-1\">Large 3 at $2/$6, Medium 3 $1/$3, Small 3.1 $0.20/$0.60 per 1M tokens</cite>. <cite index=\"11-1\">Voxtral TTS is available now via API at $0.016 per 1k characters.</cite>"
+          "value": "<cite index=\"14-6\">Mistral Large 3: $0.50/M input tokens</cite>; <cite index=\"14-12\">Mistral Small 4: $0.15/M input tokens</cite>; <cite index=\"13-1\">Input pricing starts from $0.10 per 1M tokens</cite>"
         }
       ],
       "features": [
@@ -4530,6 +4659,15 @@
       "link": "https://mistral.ai",
       "changelog": [
         {
+          "version": "Medium 3.5",
+          "date": "April 2026",
+          "changes": [
+            "<cite index=\"25-7,25-8\">Remote coding agents for Vibe platform that run in the cloud asynchronously and in parallel</cite>",
+            "<cite index=\"25-29,25-30\">Consolidated chat, reasoning, coding, and agentic functions within a single system, replacing Medium 3.1, Magistral, and Devstral 2</cite>",
+            "<cite index=\"25-33\">Scores 77.6% on SWE-Bench Verified</cite>"
+          ]
+        },
+        {
           "version": "Small 4 & Voxtral TTS",
           "date": "March 2026",
           "changes": [
@@ -4614,19 +4752,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "GPT-5.2 (latest available in Copilot Chat), OpenAI models, Anthropic Claude Sonnet (Frontier)"
+          "value": "Microsoft 365 Copilot uses advanced AI models through Azure OpenAI Service, including GPT-series models. As of early 2026, <cite index=\"9-18\">GPT-5.5 was released April 23, 2026</cite>. <cite index=\"19-11,19-12\">Anthropic Claude models are now enabled within Microsoft 365 Copilot experiences in Word, Excel, and PowerPoint on by default for eligible tenants</cite>."
         },
         {
           "label": "Context",
-          "value": "Microsoft 365 Copilot Chat available at no additional cost with eligible Microsoft 365 subscription; Full Microsoft 365 Copilot (Word, Excel, PowerPoint, Outlook, Teams) requires paid add-on license"
+          "value": "<cite index=\"3-1,3-2\">Copilot Business starts from $18/user/month (promotional annual rate through June 2026), with standard pricing at $21/user/month. The enterprise plan is $30/user/month</cite>. <cite index=\"4-19,4-20,4-21\">Copilot Pro for individuals costs $20 per user per month with priority access to latest models, 100 image boosts per day, and integration with web and desktop versions of Office apps</cite>."
         },
         {
           "label": "Released",
-          "value": "Copilot Chat: Included with qualifying Microsoft 365 plans (no cost). Full Microsoft 365 Copilot: Available as add-on license"
+          "value": "<cite index=\"13-1\">Microsoft 365 E7: The Frontier Suite became generally available on May 1, 2026</cite>. <cite index=\"20-9\">Cowork is now available on iOS and Android</cite>."
         },
         {
           "label": "Pricing",
-          "value": "Copilot Business: $18/user/month (promotional through June 30, 2026); $21/user/month standard. Copilot Enterprise: $30/user/month. Microsoft 365 E7 (includes Copilot): $99/user/month (launching May 1, 2026). Copilot Pro (individuals): $20/user/month"
+          "value": "<cite index=\"3-14\">Copilot Pro for individuals is $20/user/month</cite>. <cite index=\"3-5,3-6,3-7\">Microsoft 365 Copilot Business starts at $18 per user, per month (paid annually) under a promotional offer running until June 30, 2026, with standard price $21 per user, per month, and a monthly option at $25.20 per user, per month</cite>. <cite index=\"3-3\">Enterprise pricing is $30 per user, per month, billed annually</cite>."
         }
       ],
       "features": [
@@ -4735,6 +4873,22 @@
         }
       },
       "changelog": [
+        {
+          "version": "May 2026",
+          "date": "May 2026",
+          "changes": [
+            "GPT-5.5 model released April 23, 2026 with priority access for Copilot Pro users",
+            "Anthropic Claude models enabled by default in Word, Excel, and PowerPoint for eligible M365 Copilot users",
+            "Copilot Chat now supports voice input across mobile, desktop and web in Outlook, Word and PowerPoint",
+            "Copilot Chat integrated into Teams chats, channels, and meetings with mobile support coming soon",
+            "Copilot Cowork expanded to iOS and Android platforms for task delegation on-the-go",
+            "Microsoft 365 E7 (Frontier Suite) with Agent 365 became generally available May 1, 2026",
+            "Egnyte connector integration for secure file collaboration",
+            "Access to shared mailboxes in Copilot Chat for team-based conversations",
+            "Excel Copilot adds Plan mode for complex changes, Python support, and new model options",
+            "Auto-generated AI summaries for Teams meetings without requiring transcript storage"
+          ]
+        },
         {
           "version": "April 2026 Release",
           "date": "April 2026",
@@ -5229,19 +5383,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "Kling 3.0 (released April 24, 2026) with native 4K output, Kling 3.0 Omni, Kling 2.6 Pro, Kling Video O1, Kling Image O1"
+          "value": "Kling 3.0 (latest), Kling 3.0 Omni (O3), Kling 2.6, Kling Video O1, Kling Image O1"
         },
         {
           "label": "Context",
-          "value": "Kling 3.0 is the latest flagship model featuring unified multimodal architecture, native 4K video generation, extended 15-second clip length, Chain-of-Thought reasoning, multi-shot scene logic with character consistency, and native multilingual audio (English, Chinese, Japanese, Spanish)"
+          "value": "Multi-modal Visual Language (MVL) architecture supporting text-to-video, image-to-video, native 4K output, multilingual audio generation, motion control, and multi-shot scene generation"
         },
         {
           "label": "Released",
-          "value": "Kling 3.0 launched April 24, 2026; prior versions: Kling 3.0 beta in February 2026, Kling 2.6 Pro in December 2025"
+          "value": "Kling 3.0 released February 5, 2026; Kling 2.6 released December 3, 2025"
         },
         {
           "label": "Pricing",
-          "value": "Free tier ($0, 66 credits/day), Standard ($6.99-$10/month, 660 credits), Pro ($25.99-$37/month, 3,000 credits), Premier ($64.99-$92/month, 8,000 credits), Ultra ($180/month, 26,000 credits)"
+          "value": "Free: 66 credits/day; Standard: $6.99/month (660 credits); Pro: $25.99-$29.99/month (3,000 credits); Premier: $64.99/month (8,000 credits); Ultra: $180/month (26,000 credits). API: $0.084-$0.168/second depending on mode"
         }
       ],
       "features": [
@@ -5387,19 +5541,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "<cite index=\"4-4\">Available in five versions via API—Veo 2, Veo 3, Veo 3 Fast, Veo 3.1 (latest), and Veo 3.1 Fast (latest)</cite>. Latest is <cite index=\"10-1\">Veo 3.1 Lite, released March 31, 2026</cite>."
+          "value": "<cite index=\"1-4\">Veo 3.1 (latest), and Veo 3.1 Fast (latest)</cite>, with <cite index=\"10-1,10-5\">Veo 3.1 Lite released March 31, 2026</cite>"
         },
         {
           "label": "Context",
-          "value": "<cite index=\"4-7\">Text-to-Video Generation: Generate videos from text descriptions with up to 8 seconds per generation · Image-to-Video Animation: Animate static images into videos with realistic motion and physics · Native Audio Support: Veo 3, Veo 3.1, and their Fast variants include native audio generation synchronized with video content · HD Quality Output: Up to 1080p resolution for Ultra subscribers, 720p for Pro users, with professional-grade video quality</cite>. <cite index=\"15-5,15-6\">The headline feature of Veo 3.1 is 4K resolution output at 3840x2160 pixels. This makes Veo 3.1 the first mainstream AI video generation model to support true 4K output, surpassing competitors like OpenAI's Sora 2 which caps at 1080p</cite>."
+          "value": "<cite index=\"1-3\">An advanced AI video generation model developed by Google DeepMind that creates high-quality videos from text prompts or images</cite>. <cite index=\"2-16\">Generates up to 1080p video with native audio including dialogue, sound effects, and ambient sound</cite>. <cite index=\"1-12\">Each Veo generation creates an 8-second video maximum</cite>"
         },
         {
           "label": "Released",
-          "value": "<cite index=\"4-14\">Veo 3.1 (Oct 2025) improves on Veo 3 with: richer native audio including natural conversations and sound effects, better image-to-video with simultaneous audio generation, enhanced realism and character consistency, and improved narrative control with better cinematic style understanding</cite>. <cite index=\"14-17,14-18\">Veo 3.1 Lite, Google's most cost-effective video model. This model empowers developers to build high-volume video applications, at less than 50% of the cost of Veo 3.1 Fast, but with the same speed</cite>."
+          "value": "<cite index=\"2-16\">Veo 3.1 is the latest version</cite>. <cite index=\"10-1,10-5\">Veo 3.1 Lite was released March 31, 2026</cite>"
         },
         {
           "label": "Pricing",
-          "value": "<cite index=\"3-11,3-12\">Google AI Ultra is a comprehensive AI subscription that includes much more than just Veo 3: Veo 3 video generation — Google's most advanced video AI with native audio. As of 2026, Google AI Ultra is priced at $249.99 per month</cite>. <cite index=\"5-12\">Google AI Pro ($19.99/month) gives access to Veo 2 and Veo 3.1 Fast at 720p</cite>. <cite index=\"4-1\">Prices range from $0.10/second (Vertex AI/fal.ai/Replicate for Veo 3.1 Fast without audio) to $0.50/second (Vertex AI/fal.ai/Replicate for Veo 2)</cite>."
+          "value": "<cite index=\"8-2\">Subscription access ranges from $7.99/month (Google AI Plus) to $249.99/month (Google AI Ultra)</cite>. <cite index=\"8-1\">API pricing starts at $0.15/second for the Fast model and $0.40/second for Standard quality, both including audio generation</cite>. <cite index=\"17-10\">Veo 3.1 Lite costs less than 50% of Veo 3.1 Fast with the same speed</cite>"
         }
       ],
       "features": [
@@ -5490,6 +5644,15 @@
       },
       "changelog": [
         {
+          "version": "3.1 Lite",
+          "date": "March 2026",
+          "changes": [
+            "New Veo 3.1 Lite model released - most cost-effective video generation at less than 50% cost of Veo 3.1 Fast",
+            "Veo 3.1 Fast pricing reduced effective April 7, 2026",
+            "Veo 3.1 Lite supports Text-to-Video and Image-to-Video with flexible framing (16:9 and 9:16) and 720p/1080p resolutions"
+          ]
+        },
+        {
           "version": "Veo 4 and Veo 3.1 Lite",
           "date": "April 2026",
           "changes": [
@@ -5562,19 +5725,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "<cite index=\"12-1\">Ray3.14 is the most professional and powerful model, now with native 1080p video generation</cite>"
+          "value": "Ray3.14 (primary model with native 1080p), Ray3 Modify (video-to-video editing), also supports third-party models like Veo 3 and Kling"
         },
         {
           "label": "Context",
-          "value": "<cite index=\"7-5\">Luma AI has pivoted into a multimodal creative agents platform that orchestrates Luma's own models alongside third-party ones like Veo 3, Kling, Nano Banana, and ElevenLabs</cite>"
+          "value": "Dream Machine is Luma AI's text-to-video and image-to-video platform supporting up to 15-second single generations, extendable to 5 minutes via chaining, with Ray3.14 offering 4x faster generation and 3x cheaper costs"
         },
         {
           "label": "Released",
-          "value": "<cite index=\"7-8\">Plans are split into individual tiers (Plus, Pro, Ultra) and business tiers (Team, Enterprise)</cite>"
+          "value": "Ray3.14 released with native 1080p in 2026; Ray3 Modify announced December 2025; Modify with Instructions feature rolled out in late 2025"
         },
         {
           "label": "Pricing",
-          "value": "<cite index=\"5-2\">Paid plans start from $23.99/mo</cite>. <cite index=\"7-15\">Pro offers 4x Plus usage and Ultra offers 15x</cite>. <cite index=\"7-10\">Annual billing saves up to 20%</cite>"
+          "value": "Plus/Standard: $9.99/month (120 credits); Pro: $49.99/month (400 credits); Ultra: Higher tier available; Free tier with limited daily credits; Enterprise available; Annual billing saves up to 20%"
         }
       ],
       "features": [
@@ -5683,6 +5846,16 @@
       },
       "changelog": [
         {
+          "version": "Ray3.14 with Native 1080p",
+          "date": "May 2026",
+          "changes": [
+            "Ray3.14 model now supports native 1080p video generation",
+            "4x faster generation and 3x cheaper compared to previous model versions",
+            "Improved motion consistency for Modify Video feature",
+            "Best quality and stability performance yet with enhanced physics understanding"
+          ]
+        },
+        {
           "version": "Ray3.14",
           "date": "March 2026",
           "changes": [
@@ -5714,19 +5887,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "Avatar III, Avatar IV, Avatar V (launched April 2026)"
+          "value": "Avatar III, Avatar IV, Avatar V (latest - launched April 2026)"
         },
         {
           "label": "Context",
-          "value": "HeyGen is an AI video generation platform offering 230+ avatars in 140+ languages. Avatar V is the latest advanced avatar model generating digital twins from 15-second recordings."
+          "value": "HeyGen offers five pricing tiers: Free ($0/mo, 3 videos/month), Creator ($29/mo or $24/mo annually), Pro ($99/mo or $82/mo annually), Business ($149/mo + $20/seat or ~$119/mo annually), and Enterprise (custom). Credits-based system for premium features."
         },
         {
           "label": "Released",
-          "value": "Avatar V: April 2026; Seedance 2.0 integration: April 2026"
+          "value": "Avatar V released April 8, 2026. Multiple January-April 2026 updates including new plans (January), Premium Credits rebranding (February), Brand Systems (March), and credit system overhaul (April)"
         },
         {
           "label": "Pricing",
-          "value": "Free: $0/mo (3 videos/month, watermarked); Creator: $29/mo ($24/mo annual) with 200 Premium Credits; Pro: $99/mo ($79/mo annual) with 2,000 Premium Credits; Business: $149/mo base + $20/seat with 1,000+ Premium Credits shared; Enterprise: Custom pricing"
+          "value": "Free: $0/mo (3 videos, watermarked); Creator: $29/mo ($24/mo annual); Pro: $99/mo ($82/mo annual); Business: $149/mo + $20/seat (or ~$119/mo annual); Enterprise: custom pricing. Premium Credits required for Avatar IV/V, video translation, Video Agent."
         }
       ],
       "features": [
@@ -5895,19 +6068,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "<cite index=\"6-13,6-17\">Pika 2.5, Pika 2.2, Turbo, Pro, and Pikaformance</cite>"
+          "value": "<cite index=\"3-4,3-11\">Pika 2.5 is the latest main model with physics-based interactions and synchronized audio generation</cite>, plus <cite index=\"3-21\">Turbo for speed and Pro variants</cite>"
         },
         {
           "label": "Context",
-          "value": "<cite index=\"27-3,27-4\">Four subscription tiers: free (80 monthly credits), $8/month (700 credits), $28/month (2,300 credits), and $76/month (6,000 credits). Features include Pikaffects, Pikascenes, Pikatwists, Pikadditions, Pikaswaps, Pikaframes, Pika 2.5 text/image-to-video, and Pikaformance</cite>"
+          "value": "<cite index=\"3-13,3-15\">Supports text-to-video, image-to-video, and video-to-video transformations, generating videos up to 10 seconds long at up to 1080p resolution with creative effects</cite>"
         },
         {
           "label": "Released",
-          "value": "<cite index=\"28-1\">Pika 2.2 released in February 2025</cite>. <cite index=\"23-2,23-3\">Pikaformance model now available on web with hyper-real expressions synced to any sound</cite>"
+          "value": "<cite index=\"14-1,14-15\">Pika 2.5 represents a major update introducing physics-aware interactions</cite>; <cite index=\"3-11\">the model is currently the active platform engine</cite>"
         },
         {
           "label": "Pricing",
-          "value": "<cite index=\"7-1\">Plans starting at $8/month with a usable free tier</cite>"
+          "value": "<cite index=\"3-5,3-20\">Free tier with 80 monthly credits; paid plans: Standard at $8/month (annual) with 700 credits, Pro at $28/month with 2,300 credits, and Fancy at $76/month with 6,000 credits</cite>"
         }
       ],
       "features": [
@@ -6017,6 +6190,7 @@
         }
       },
       "changelog": [
+        {},
         {
           "version": "PikaStream 1.0",
           "date": "April 2026",
@@ -6309,19 +6483,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "<cite index=\"18-3\">Lovable has a chat mode agent</cite> and <cite index=\"11-12\">supports local MCP servers</cite>. <cite index=\"11-11\">Lovable desktop is now available as a native app for macOS, with Windows support coming soon.</cite>"
+          "value": "<cite index=\"16-1,16-3\">Claude Opus 4.7</cite>"
         },
         {
           "label": "Context",
-          "value": "<cite index=\"18-2\">Lovable lets you build production ready apps and websites by chatting with AI.</cite>"
+          "value": "<cite index=\"7-7,7-8\">AI-powered app builder that turns natural language prompts into fully functional, full-stack web applications</cite>"
         },
         {
           "label": "Released",
-          "value": "<cite index=\"18-1\">Lovable 2.0 includes product updates for AI and no-code app building.</cite>"
+          "value": "<cite index=\"7-8\">Founded in 2024</cite>"
         },
         {
           "label": "Pricing",
-          "value": "<cite index=\"8-17,8-19,8-22\">Free ($0/month): 5 daily credits. Pro ($25/month): 100 monthly credits + 5 daily credits. Business ($50/month): 100 monthly credits + SSO and team workspace.</cite>"
+          "value": "<cite index=\"7-1,7-2,7-3\">Free to $50 per month as of May 2026, with plans including Free, Pro at $25/month, and Business at $50/month. Enterprise pricing is available on request</cite>"
         }
       ],
       "features": [
@@ -6432,6 +6606,16 @@
       },
       "changelog": [
         {
+          "version": "Opus 4.7 Support & Mobile Launch",
+          "date": "May 2026",
+          "changes": [
+            "<cite index=\"16-1,16-3\">Added support for Claude Opus 4.7</cite>",
+            "<cite index=\"16-2\">Credits effectively consumed less through April 30th</cite>",
+            "<cite index=\"12-3\">Lovable now available on iOS and Android</cite>",
+            "<cite index=\"16-8,16-9,16-10\">MCP server Research Preview released allowing developers to create, iterate and deploy apps directly from terminal or AI agents</cite>"
+          ]
+        },
+        {
           "version": "Lovable with Claude Opus 4.7 + Desktop App",
           "date": "April 2026",
           "changes": [
@@ -6480,19 +6664,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "n8n 2.17.7 (latest stable), n8n 2.18.3 (pre-release)"
+          "value": "<cite index=\"13-24,13-25\">Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.</cite>"
         },
         {
           "label": "Context",
-          "value": "n8n is a fair-code workflow automation platform with 400+ integrations, visual editor, AI capabilities, and code nodes"
+          "value": "<cite index=\"3-13\">The Starter plan costs €24/month for 2,500 executions, Pro is €60/month for 10,000 executions, and Business is €800/month with SSO and 40,000 executions.</cite> <cite index=\"3-9\">n8n offers a 100% free self-hosted option (Community Edition) with unlimited executions and access to every integration in the catalog.</cite>"
         },
         {
           "label": "Released",
-          "value": "2.17.7 - April 24, 2026"
+          "value": "<cite index=\"12-22\">Release date: 2026-05-07</cite>"
         },
         {
           "label": "Pricing",
-          "value": "Free self-hosted Community Edition (unlimited executions); Cloud: €20–24/month Starter (2,500 executions), €50–60/month Pro (10,000 executions), €800/month Business (40,000 executions); Enterprise custom pricing"
+          "value": "<cite index=\"3-13\">Starter: €24/month (2,500 executions), Pro: €60/month (10,000 executions), Business: €800/month (40,000 executions)</cite>; <cite index=\"3-9\">Free self-hosted Community Edition with unlimited executions</cite>"
         }
       ],
       "features": [
@@ -6604,6 +6788,13 @@
       },
       "changelog": [
         {
+          "version": "Latest",
+          "date": "May 2026",
+          "changes": [
+            "<cite index=\"11-2\">Fixes wide range of core, editor, AI Builder, and node issues, improving workflow stability, publishing, credentials, scheduling, and execution handling</cite>"
+          ]
+        },
+        {
           "version": "2.17.7",
           "date": "April 2026",
           "changes": [
@@ -6670,19 +6861,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "Claude Opus 4.7 (latest), Claude Opus 4.6, Claude Sonnet 4.6, Claude Haiku 4.5"
+          "value": "Claude Code runs on Claude Opus 4.7, Claude Sonnet 4.6, and Claude Haiku 4.5. Latest: Claude Opus 4.7"
         },
         {
           "label": "Context",
-          "value": "1 million tokens at standard pricing"
+          "value": "Up to 1M tokens (Opus 4.7/Sonnet 4.6), 200K on Team plans"
         },
         {
           "label": "Released",
-          "value": "Opus 4.7 released April 2026"
+          "value": "Claude Opus 4.7 released April 16, 2026"
         },
         {
           "label": "Pricing",
-          "value": "Pro: $20/month (includes Claude Code), Max 5x: $100/month, Max 20x: $200/month, Team Premium: $100/seat/month (5-seat minimum), API: $5 input / $25 output per million tokens (Opus 4.7)"
+          "value": "Claude Code is included with: Pro ($20/month), Max ($100 or $200/month), Team Standard/Premium ($25-$150/user/month), Enterprise (custom). API pricing: Opus 4.7 at $5/$25 per million tokens (input/output)"
         }
       ],
       "features": [
@@ -6780,6 +6971,18 @@
         }
       },
       "changelog": [
+        {
+          "version": "2.1.131",
+          "date": "May 2026",
+          "changes": [
+            "Doubled Claude Code 5-hour limit for Pro, Max, Enterprise customers (as of May 6, 2026)",
+            "Removed peak-hour throttling restrictions",
+            "Raised API rate limits for Claude Opus models",
+            "Fixed VS Code extension activation on Windows",
+            "Added --plugin-url flag for fetching plugin archives",
+            "Auto mode research preview with safety classifier for permission handling"
+          ]
+        },
         {
           "version": "2.1.116+",
           "date": "April 2026",
@@ -6956,19 +7159,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "Latest: Qwen3.6-Max-Preview (Apr 20, 2026) - proprietary flagship; Qwen3.6-27B (Apr 22, 2026) - dense open-weight; Qwen3.6-35B-A3B (Apr 16, 2026) - sparse MoE; Qwen3.6-Plus (Apr 2, 2026); Qwen3.5 series (Feb 2026) with up to 397B parameters"
+          "value": "<cite index=\"5-1,10-2\">Latest flagship: Qwen3.6-Max-Preview (April 2026)</cite>. <cite index=\"24-1\">Qwen3.6-Plus and Qwen3.5-Omni released April 2026 as proprietary</cite>. <cite index=\"1-1,1-3\">Open-weight models: Qwen3.6-27B (April 22), Qwen3.6-35B-A3B (April 16), Qwen3.5 series (February 2026)</cite>"
         },
         {
           "label": "Context",
-          "value": "Qwen3.6-Max-Preview: 256K tokens; Qwen3.6-27B: Not specified; Qwen3.6-Plus: 1M tokens; Qwen3.5 series: 200+ languages supported"
+          "value": "<cite index=\"25-23\">Qwen3.6-Max-Preview: 256K token context window</cite>. <cite index=\"1-8\">Qwen3.5 supports 201 languages and dialects</cite>"
         },
         {
           "label": "Released",
-          "value": "Qwen3.6-Max-Preview (Apr 20, 2026); Qwen3.6-27B (Apr 22, 2026); Qwen3.6-35B-A3B (Apr 16, 2026); Qwen3.6-Plus (Apr 2, 2026)"
+          "value": "<cite index=\"5-1\">Qwen3.6-Max-Preview: April 17, 2026</cite>. <cite index=\"1-1\">Qwen3.6-27B: April 22, 2026</cite>. <cite index=\"1-3\">Qwen3.5: February 16, 2026</cite>"
         },
         {
           "label": "Pricing",
-          "value": "<cite index=\"25-12\">Qwen3.6-Plus: 2 yuan (~$0.29)/M input, 12 yuan/M output tokens</cite>; <cite index=\"17-6\">Input token prices from $0.033/M to $1.04/M and output tokens from $0.13/M to $4.16/M</cite>; <cite index=\"4-18\">DashScope API starts at $0.01/M input tokens for smallest model and $0.78/M for Qwen3 Max</cite>"
+          "value": "<cite index=\"20-1\">Input tokens: $0.033/M (Qwen-Turbo) to $1.04/M (Qwen-Max). Output tokens: $0.13/M to $4.16/M</cite>. <cite index=\"19-2\">Qwen3.6-Plus: $0.325/M input, $1.95/M output</cite>. <cite index=\"20-19\">Free tier: 1M tokens/month on Qwen3-Plus and smaller models</cite>"
         }
       ],
       "features": [
@@ -7078,6 +7281,16 @@
         }
       },
       "changelog": [
+        {
+          "version": "Qwen3.6-27B & Qwen3.6-Max-Preview",
+          "date": "April 2026",
+          "changes": [
+            "<cite index=\"1-1\">Qwen3.6-27B released April 22 as first dense open-weight model outperforming larger MoE models on coding benchmarks</cite>",
+            "<cite index=\"4-18\">Introduces Thinking Preservation feature for retaining reasoning traces across conversations</cite>",
+            "<cite index=\"5-1\">Qwen3.6-Max-Preview released April 17 as next proprietary flagship model with improved agentic coding</cite>",
+            "<cite index=\"28-9\">Max-Preview shows significant improvements: SkillsBench +9.9, SciCode +6.3, Terminal-Bench 2.0 +3.8 over Qwen3.6-Plus</cite>"
+          ]
+        },
         {
           "version": "Qwen3.6 Series",
           "date": "April 2026",
@@ -7428,19 +7641,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "<cite index=\"16-1,16-22\">Express-2 avatars which move and talk like professional speakers with facial expressions, perfect lip sync, and natural hand and body gestures</cite>. Also includes access to <cite index=\"15-4\">Sora 2 and Veo 3.1 integrations</cite> for video generation."
+          "value": "<cite index=\"2-6,11-26\">Veo 3.1, Veo 3.1 Fast, and Sora 2 available in AI Playground</cite>"
         },
         {
           "label": "Context",
-          "value": "<cite index=\"9-7,9-8\">Synthesia is an AI-powered video generation platform that specializes in creating avatar-based video content. It uses AI avatars that speak your script in over 160 languages.</cite>"
+          "value": "<cite index=\"2-4,2-5\">AI Playground introduced in 2026 as a dedicated workspace allowing users to experiment with the latest generative AI models directly within Synthesia</cite>"
         },
         {
           "label": "Released",
-          "value": "<cite index=\"16-19\">Synthesia 3.0 was announced as their AI video platform reimagined for the future of video</cite>, with releases occurring throughout 2025-2026."
+          "value": "Early 2026"
         },
         {
           "label": "Pricing",
-          "value": "<cite index=\"8-7,8-8\">Plans now starting from $18/month (annual billing). Starter: $29/month (monthly) or $18/month (annual); Creator: $89/month (monthly) or $64/month (annual)</cite>. <cite index=\"10-32\">Creator tier includes 120 minutes of video per year</cite>. <cite index=\"8-9\">Enterprise is custom pricing (contact sales)</cite>."
+          "value": "<cite index=\"10-7,10-8\">Free plan available; Starter from $29/month ($18/month annual); Creator $89/month ($64/month annual); Enterprise custom pricing</cite>"
         }
       ],
       "features": [
@@ -7552,6 +7765,15 @@
       },
       "changelog": [
         {
+          "version": "AI Playground & Speech Features",
+          "date": "Early 2026",
+          "changes": [
+            "<cite index=\"11-2,11-3,11-4\">Speech regeneration feature allowing users to regenerate voiceover and control voice speed</cite>",
+            "<cite index=\"2-9,2-10,2-11\">Enhanced PowerPoint-to-video workflow allowing uploads of presentations with automatic conversion of speaker notes to scripts</cite>",
+            "<cite index=\"2-4,2-5,2-6,2-7\">AI Playground across all plan tiers for experimenting with Veo 3.1, Veo 3.1 Fast, and Sora 2 video generation</cite>"
+          ]
+        },
+        {
           "version": "Synthesia 3.0",
           "date": "October 2025",
           "changes": [
@@ -7609,19 +7831,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "<cite index=\"26-1\">Claude 3.7 Sonnet, GPT-4o, DeepSeek R1, and Gemini 2.5 Pro</cite>"
+          "value": "<cite index=\"10-11\">Claude 3.5 Sonnet, Claude 3.7 Sonnet, GPT-4o, DeepSeek R1, and DeepSeek Chat V3</cite>"
         },
         {
           "label": "Context",
-          "value": "<cite index=\"26-1\">AI-first IDE built on a VS Code fork with Builder Mode (autonomous project generation), Chat Mode (conversational assistant)</cite>"
+          "value": "Trae IDE built by ByteDance with support for VS Code extensions and Model Context Protocol (MCP) for custom integrations"
         },
         {
           "label": "Released",
-          "value": "<cite index=\"16-8\">January 20, 2025</cite>"
+          "value": "<cite index=\"15-8\">January 20, 2025</cite>"
         },
         {
           "label": "Pricing",
-          "value": "<cite index=\"26-2,26-3,26-21\">Free tier available. Lite at $3/month. Pro at $10/mo. Token-based pricing since February 2026</cite>"
+          "value": "<cite index=\"2-25,2-26,2-27,2-28\">Free tier available. Lite at $3/month. Pro at $10/mo. Token-based pricing since February 2026.</cite>"
         }
       ],
       "features": [
@@ -7692,6 +7914,7 @@
         }
       },
       "changelog": [
+        {},
         {
           "version": "2.0",
           "date": "July 2025",
@@ -7725,19 +7948,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "GPT-5.5 (latest as of April 24, 2026), with automatic model selection or manual choice"
+          "value": "Claude Sonnet 4 (default); Sonnet 4.5, Opus 4.5, Gemini 2.5 Pro, Gemini 3 Pro, GPT-5 (on Builder+ plans)"
         },
         {
           "label": "Context",
-          "value": "AI-powered no-code app builder enabling creation of full-stack web applications using natural language prompts; acquired by Wix for $80 million in June 2025"
+          "value": "AI app builder generating full-stack web/mobile apps from natural language prompts with database, authentication, and hosting bundled"
         },
         {
           "label": "Released",
-          "value": "Founded early 2025; acquired June 2025; continues as standalone Wix product"
+          "value": "Originally independent; acquired by Wix June 2025 for $80M"
         },
         {
           "label": "Pricing",
-          "value": "Free ($0), Starter ($16-20/month), Builder ($40-50/month), Pro ($80-100/month), Elite ($160-200/month); 20% discount with annual billing"
+          "value": "Free ($0): 25 message credits/month; Starter ($16-20/month): 100 message credits; Builder ($40-50/month): 200 message credits; Pro ($80-100/month): 500 message credits; Elite ($160-200/month)"
         }
       ],
       "features": [
@@ -8195,19 +8418,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "Free, Core, Pro, Teams, Enterprise"
+          "value": "Make is a no-code/low-code automation platform (not a traditional model-based service). The platform itself is the product - currently rebranded as 'Make' (formerly Integromat). Android app version: 2.0.8 (updated March 2026)"
         },
         {
           "label": "Context",
-          "value": "Make (formerly Integromat) is a visual automation and integration platform for connecting 3,000+ cloud applications without coding, rebranded from Integromat to Make in 2022"
+          "value": "Make is a cloud-based visual automation platform with 3,000+ app integrations. Features include scenario builder, AI agents, Make Grid (real-time visualization), advanced data transformation, webhooks, and native AI model support (GPT, Claude, Gemini). Owned by Celonis since 2020, rebranded to 'Make' in 2022."
         },
         {
           "label": "Released",
-          "value": "Rebranded as Make in 2022; continuously updated with latest release notes from March 2026"
+          "value": "Original product: Integromat (bootstrapped in Prague, Czech Republic). Rebranded: 2022 as 'Make'. Latest updates: March-May 2026, including Make Code App, enhanced navigation, Make AI Toolkit, and Make Grid enhancements"
         },
         {
           "label": "Pricing",
-          "value": "Free: 1,000 credits/month; Core: $9/month (10,000 credits); Pro: $16/month (10,000 credits); Teams: $29/month (10,000 credits); Enterprise: Custom pricing. Annual billing offers ~15% savings."
+          "value": "Free: 1,000 credits/month. Core: $9/month (10,000 credits). Pro: $16/month (10,000 credits). Teams: $29/month (10,000 credits). All pricing monthly. Extra credits cost 25% more than included plan credits. Custom pricing available for Enterprise. Pricing adjusted November 6, 2025 with changes to extra credit costs and AI provider connections."
         }
       ],
       "features": [
@@ -8317,6 +8540,18 @@
         }
       },
       "changelog": [
+        {
+          "version": "2.0.8",
+          "date": "March 2026",
+          "changes": [
+            "Enhanced navigation with redesigned interface for streamlined access to tools",
+            "Make Code App launched with JavaScript and Python IDE, secure testing, and code sharing for paid plan users",
+            "Make AI Toolkit simplified with automatic scenario creation for module tools",
+            "Make Grid expanded with public beta featuring auto-generated visual map for real-time automation management",
+            "Latest AI model updates for OpenAI and Gemini",
+            "Bug fixes including resolved issues with webhook queue processing and scenario execution"
+          ]
+        },
         {
           "version": "April 2026 Release",
           "date": "April 2026",
@@ -8960,19 +9195,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "<cite index=\"3-13\">Veo 3.1 (latest), Veo 3.1 Fast (latest), Veo 3.1 Lite (most cost-effective)</cite>"
+          "value": "<cite index=\"2-4\">Veo 3, Veo 3 Fast, Veo 3.1 (latest), and Veo 3.1 Fast (latest)</cite>. Additionally, <cite index=\"4-1\">Veo 3.1 Lite was released March 31, 2026</cite>."
         },
         {
           "label": "Context",
-          "value": "<cite index=\"1-4\">Native audio generation, cinematic-quality output, realistic physics simulation, and unprecedented prompt adherence</cite>"
+          "value": "<cite index=\"2-3\">Google Veo is an advanced AI video generation model developed by Google DeepMind that creates high-quality videos from text prompts or images.</cite> <cite index=\"18-7\">The models generate richer native audio, from natural conversations to synchronized sound effects, and offer greater narrative control with an improved understanding of cinematic styles.</cite>"
         },
         {
           "label": "Released",
-          "value": "<cite index=\"7-4\">Veo 3.1 Lite released March 31, 2026</cite>"
+          "value": "<cite index=\"13-31\">Veo 3.1 and 3.1 Fast models were released in public preview</cite>, with <cite index=\"18-2\">Veo 3.1 and Veo 3.1 Fast released in paid preview in the Gemini API</cite> in October 2025. <cite index=\"4-1\">Veo 3.1 Lite was released March 31, 2026.</cite>"
         },
         {
           "label": "Pricing",
-          "value": "<cite index=\"1-12\">Google AI Ultra: $249.99/month</cite>; <cite index=\"1-9\">Vertex AI: approximately $0.35–0.50/second</cite>; <cite index=\"7-1\">Veo 3.1 Lite: approximately $0.05/second</cite>; <cite index=\"16-14\">Google Vids free tier: 10 monthly generations</cite>"
+          "value": "<cite index=\"1-1\">Veo 3 with full access costs $249.99/month through Google AI Ultra.</cite> <cite index=\"1-2\">Developer access via Vertex AI costs approximately $0.35–0.50 per second of generated video.</cite> <cite index=\"8-1\">Google AI Pro is $19.99/month; Google AI Ultra is $249.99/month.</cite> <cite index=\"16-2\">Any person with a standard Google account can now generate high-quality video clips using Veo 3.1 at no cost.</cite>"
         }
       ],
       "features": [
@@ -9056,6 +9291,15 @@
         }
       },
       "changelog": [
+        {
+          "version": "Veo 3.1 with enhancements",
+          "date": "April 2026",
+          "changes": [
+            "<cite index=\"20-17,20-18\">Improvements to Veo 3.1 Ingredients to Video capability with native vertical outputs for portrait mode and state-of-the-art upscaling to 1080p and 4K resolution</cite>",
+            "<cite index=\"16-2,16-8\">Free Veo 3.1 video generation for all Google account holders through Google Vids, plus AI music composition powered by Lyria 3 and AI avatars</cite>",
+            "<cite index=\"4-1\">Veo 3.1 Lite released as Google's most cost-effective video model with less than 50% the cost of Veo 3.1 Fast</cite>"
+          ]
+        },
         {
           "version": "Veo 3.1 Lite",
           "date": "March 2026",
@@ -9275,19 +9519,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "<cite index=\"11-1\">GPT-5.5 and GPT-5.5 Pro are now available in the API as of April 24, 2026</cite>. <cite index=\"7-3\">GPT-5.5 supports a 1M-token context window in the API and a 400K-token context window in Codex</cite>."
+          "value": "GPT-5.5, GPT-5.5 Pro, GPT-5.5 Instant, GPT-5.5 Thinking (also GPT-5.4 and earlier available)"
         },
         {
           "label": "Context",
-          "value": "<cite index=\"8-3\">1,050,000 token context window, maximum output of 128,000 tokens</cite>"
+          "value": "1,050,000 tokens (922K input, 128K output)"
         },
         {
           "label": "Released",
-          "value": "<cite index=\"15-1\">GPT-5.5 was released by OpenAI on April 23, 2026</cite>"
+          "value": "April 23, 2026 (GPT-5.5); May 5, 2026 (GPT-5.5 Instant)"
         },
         {
           "label": "Pricing",
-          "value": "<cite index=\"11-11\">gpt-5.5 is available in the Responses and Chat Completions APIs at $5 per 1M input tokens and $30 per 1M output tokens</cite>. <cite index=\"11-13\">gpt-5.5-pro is priced at $30 per 1M input tokens and $180 per 1M output tokens</cite>"
+          "value": "GPT-5.5: $5/M input, $30/M output tokens; GPT-5.5 Pro: $30/M input, $180/M output tokens; Batch/Flex: 50% discount; Priority: 2.5x standard rate"
         }
       ],
       "features": [
@@ -9373,6 +9617,17 @@
       "link": "https://chatgpt.com",
       "changelog": [
         {
+          "version": "GPT-5.5 Instant",
+          "date": "May 2026",
+          "changes": [
+            "Replaced GPT-5.3 Instant as default model with improved accuracy (52.5% fewer hallucinated claims on high-stakes prompts)",
+            "Enhanced context usage from past chats, files, and Gmail with faster search capability",
+            "30.2% fewer words and 29.2% fewer lines in responses with reduced gratuitous emoji usage",
+            "37.3% reduction in inaccurate claims on challenging conversations",
+            "Better visual reasoning, math, and science capabilities"
+          ]
+        },
+        {
           "version": "GPT-5.5",
           "date": "April 2026",
           "changes": [
@@ -9441,19 +9696,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "<cite index=\"2-3,2-4\">Memo - a wheeled home robot trained on millions of real chores, designed to safely clear tables, load dishwashers and fold laundry</cite>"
+          "value": "<cite index=\"10-1\">Memo - wheeled home robot powered by the ACT-1 foundation model</cite>"
         },
         {
           "label": "Context",
-          "value": "<cite index=\"11-1,11-9,11-10,11-11\">Memo can collect dishes and delicate wine glasses, load dishwashers, pull espresso shots, and fold laundry</cite>. <cite index=\"6-1\">Powered by the ACT-1 foundation model</cite>."
+          "value": "<cite index=\"2-18\">A household humanoid robot that helps with tasks like laundry and clearing the table</cite>. <cite index=\"7-7\">Trained on around 10 million chore \"episodes\" from more than 500 homes with emphasis on zero-shot generalization</cite>"
         },
         {
           "label": "Released",
-          "value": "<cite index=\"1-31\">Not yet available for purchase; beta testing will occur in 2026 with production at scale to follow</cite>. <cite index=\"13-12\">Beta program rolling out this Fall</cite>."
+          "value": "<cite index=\"1-11\">Memo will not be available for purchase until after beta testing completion in 2026</cite>. <cite index=\"4-28\">Beta deliveries starting in just months</cite>"
         },
         {
           "label": "Pricing",
-          "value": "<cite index=\"2-1\">Building a single Memo costs roughly $20,000 today, with a target future retail price under $10,000 once manufactured at scale</cite>. <cite index=\"1-1\">Large-scale manufacturing in the next phase will meaningfully reduce costs by at least 50%</cite>."
+          "value": "<cite index=\"7-1\">Hand-built prototype costs roughly $20,000 today, targeting future retail price under $10,000 once manufactured at scale</cite>. <cite index=\"1-1\">Large-scale manufacturing will meaningfully reduce costs by at least 50%</cite>"
         }
       ],
       "features": [
@@ -9517,6 +9772,14 @@
       },
       "link": "https://www.sundayrobotics.ai",
       "changelog": [
+        {
+          "version": "Series B Funding Round",
+          "date": "March 2026",
+          "changes": [
+            "<cite index=\"2-15\">Raised $165 million at $1.15 billion valuation in Series B round led by Coatue Management</cite>",
+            "<cite index=\"4-6,4-28\">Focus entirely on deployment with Beta deliveries starting in just months</cite>"
+          ]
+        },
         {
           "version": "Series B Funding Announcement",
           "date": "March 2026",
@@ -9940,19 +10203,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "<cite index=\"12-15\">Poke leverages a variety of AI models to power its capabilities, allowing it to work across different platforms and providers</cite>"
+          "value": "Poke uses multiple AI models from different providers rather than being tied to one ecosystem, selecting the best model for each specific task"
         },
         {
           "label": "Context",
-          "value": "<cite index=\"4-1\">Connects to tools like Gmail, Google Calendar, Outlook, Notion, Linear, GitHub, Oura, Strava, Vercel, and more</cite>. <cite index=\"11-12\">Can help with everyday needs like daily planning, managing your calendar, tracking your health and fitness, controlling your smart home, editing your photos, and more, all via text message</cite>"
+          "value": "Poke is a text-first AI assistant accessible via iMessage, SMS, Telegram, and WhatsApp that integrates with email, calendar, and files to help with everyday tasks like calendar management, health tracking, smart home control, and photo editing"
         },
         {
           "label": "Released",
-          "value": "<cite index=\"12-1\">Poke launched publicly in March 2026</cite>"
+          "value": "Publicly launched in March 2026"
         },
         {
           "label": "Pricing",
-          "value": "<cite index=\"4-2\">Users can get started for free, while heavier real-time usage can lead to personalized paid pricing</cite>. <cite index=\"20-10\">During beta, users reportedly negotiated pricing directly with the AI agent itself, landing somewhere between $10 and $30 per month</cite>"
+          "value": "Free to start; usage-based pricing for real-time automations. During beta, users negotiated personalized pricing ranging from $0-$30/month based on usage patterns"
         }
       ],
       "features": [
@@ -10064,6 +10327,17 @@
       },
       "link": "https://poke.ai",
       "changelog": [
+        {
+          "version": "Latest Updates",
+          "date": "April 2026",
+          "changes": [
+            "Expanded to $300 million valuation with additional $10 million funding (April 2026)",
+            "User base grew 10x in recent months",
+            "Added Telegram support as alternative to WhatsApp",
+            "Launched table and chart visualization capabilities",
+            "Expanded marketing website to multiple languages including Spanish, Japanese, Chinese, French, German, Portuguese, and Italian"
+          ]
+        },
         {
           "version": "Public Launch",
           "date": "March 2026",
@@ -10634,19 +10908,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "<cite index=\"16-23\">Effective 2B (E2B), Effective 4B (E4B), 26B Mixture of Experts (MoE) and 31B Dense</cite>"
+          "value": "<cite index=\"6-6\">Gemma 4 is available in four distinct sizes: E2B, E4B, 26B A4B, and 31B</cite>"
         },
         {
           "label": "Context",
-          "value": "<cite index=\"9-27\">Small models feature a 128K context window, while the medium models support 256K</cite>"
+          "value": "<cite index=\"6-4\">256K token context window</cite>"
         },
         {
           "label": "Released",
-          "value": "<cite index=\"3-1\">April 2, 2026</cite>"
+          "value": "<cite index=\"4-1\">Gemma 4 31B Instruct was released on April 2, 2026</cite> and <cite index=\"1-1\">Gemma 4 26B A4B Instruct was released on April 3, 2026</cite>"
         },
         {
           "label": "Pricing",
-          "value": "<cite index=\"3-2\">31B: $0.130 per million input tokens and $0.380 per million output tokens</cite>; <cite index=\"1-2\">26B A4B: $0.060 per million input tokens and $0.330 per million output tokens</cite>"
+          "value": "<cite index=\"4-2\">Gemma 4 31B: $0.130 per million input tokens and $0.380 per million output tokens</cite>; <cite index=\"1-2\">Gemma 4 26B A4B: $0.060 per million input tokens and $0.300 per million output tokens</cite>"
         }
       ],
       "features": [
@@ -10762,6 +11036,14 @@
       },
       "link": "https://blog.google/innovation-and-ai/technology/ai/",
       "changelog": [
+        {
+          "version": "v0.23.1 (Ollama)",
+          "date": "May 2026",
+          "changes": [
+            "<cite index=\"15-13,15-14\">Gemma 4 MTP speculative decoding is now supported on Macs, providing over a 2x speed increase for the Gemma 4 31B model on coding tasks</cite>",
+            "<cite index=\"14-12\">Gemma 4 GGUFs updated with Google's official chat template fixes for improved tool-calling</cite>"
+          ]
+        },
         {
           "version": "Gemma 4",
           "date": "April 2026",
@@ -11040,7 +11322,17 @@
           }
         ]
       },
-      "link": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026"
+      "link": "https://huggingface.co/CohereLabs/cohere-transcribe-03-2026",
+      "i18n": {
+        "vi": {
+          "shortDesc": "<cite index=\"1-2\">Mô hình ASR Conformer trọng số mở chuyển đổi âm thanh nói thành văn bản trên 14 ngôn ngữ được hỗ trợ.</cite>",
+          "fullDesc": "<cite index=\"14-3,14-4\">Cohere Transcribe là tiêu chuẩn mới nhất cho độ chính xác nhận dạng tiếng Anh, dẫn đầu Bảng xếp hạng ASR mở HuggingFace với tỷ lệ lỗi từ trung bình chỉ 5,42%.</cite> <cite index=\"1-5\">Transcribe chuyển đổi dữ liệu âm thanh của doanh nghiệp bạn thành văn bản chính xác để tìm kiếm, phân tích và tự động hóa.</cite> <cite index=\"4-3\">Mô hình sao chép dành riêng này được huấn luyện từ đầu để hỗ trợ 14 ngôn ngữ quan trọng cho doanh nghiệp, đạt được độ chính xác tối tân trong khi duy trì hiệu suất cao, với thông lượng ngoại tuyến cao gấp ba lần các đối thủ cùng kích thước.</cite>"
+        },
+        "zh": {
+          "shortDesc": "<cite index=\"1-2\">开放权重 Conformer ASR 模型，支持 14 种语言的语音音频转文本。</cite>",
+          "fullDesc": "<cite index=\"14-3,14-4\">Cohere Transcribe 是英文语音识别精度的最新标准，在 HuggingFace 开放 ASR 排行榜中领先，平均字错率仅为 5.42%。</cite> <cite index=\"1-5\">Transcribe 将您企业的音频数据转换为精确文本，用于搜索、分析和自动化。</cite> <cite index=\"4-3\">这款专用转录模型从零开始训练，支持 14 种企业关键语言，在保持高效率的同时实现了最先进的精度，离线吞吐量是同等规模竞争对手的三倍。</cite>"
+        }
+      }
     },
     {
       "id": "superdesign",
@@ -11156,7 +11448,17 @@
           }
         ]
       },
-      "link": "https://superdesign.dev"
+      "link": "https://superdesign.dev",
+      "i18n": {
+        "vi": {
+          "shortDesc": "Công cụ AI thiết kế tạo mã UI sẵn sàng cho sản xuất từ ngôn ngữ tự nhiên trong IDE của bạn.",
+          "fullDesc": "Superdesign là một công cụ AI thiết kế mã nguồn mở tích hợp trực tiếp vào VS Code và các IDE tương thích (Cursor, Windsurf, Claude Code) để tạo các thành phần UI, mockup và wireframe từ các lệnh ngôn ngữ tự nhiên. Nó tạo ra nhiều biến thể thiết kế song song và cung cấp mã React sẵn sàng cho sản xuất, Tailwind CSS và HTML—tất cả mà không cần rời khỏi trình soạn thảo hoặc tải lên đám mây."
+        },
+        "zh": {
+          "shortDesc": "AI 设计代理，在您的 IDE 中从自然语言生成可用于生产的 UI 代码。",
+          "fullDesc": "Superdesign 是一个开源 AI 设计代理，直接集成到 VS Code 和兼容 IDE（Cursor、Windsurf、Claude Code）中，可从自然语言提示生成 UI 组件、原型和线框图。它并行生成多个设计变体，并提供生产就绪的 React 代码、Tailwind CSS 和 HTML——所有这一切都无需��开编辑器或上传到云端。"
+        }
+      }
     },
     {
       "id": "cloudflare-mesh",
@@ -11275,7 +11577,17 @@
           }
         ]
       },
-      "link": "https://www.cloudflare.com/"
+      "link": "https://www.cloudflare.com/",
+      "i18n": {
+        "vi": {
+          "shortDesc": "Giải pháp mạng riêng an toàn cho các tác nhân AI và cơ sở hạ tầng mà không phơi bày ra internet công cộng.",
+          "fullDesc": "Cloudflare Mesh là một fabric mạng riêng cho phép các tác nhân AI, con người và cơ sở hạ tầng đa đám mây giao tiếp an toàn qua các IP riêng mà không phải đối mặt với internet công cộng. Nó cung cấp cho các tác nhân các danh tính riêng biệt và các điều khiển truy cập chi tiết trong khi tích hợp với Cloudflare Workers, Workers VPC và Agents SDK để quản lý vòng đời end-to-end."
+        },
+        "zh": {
+          "shortDesc": "为AI代理和基础设施提供安全的私有网络解决方案，无需暴露到公网。",
+          "fullDesc": "Cloudflare Mesh是一个私有网络架构，使AI代理、人员和多云基础设施能够通过私有IP安全通信，无需公网暴露。它为代理提供独特的身份和细粒度访问控制，同时与Cloudflare Workers、Workers VPC和Agents SDK集成，以实现端到端的生命周期管理。"
+        }
+      }
     },
     {
       "id": "mercury-2",
@@ -11391,7 +11703,17 @@
           }
         ]
       },
-      "link": "https://www.inceptionlabs.ai/blog/introducing-mercury-2"
+      "link": "https://www.inceptionlabs.ai/blog/introducing-mercury-2",
+      "i18n": {
+        "vi": {
+          "shortDesc": "LLM suy luận nhanh nhất thế giới sử dụng kiến trúc khuếch tán để suy luận 5x nhanh hơn.",
+          "fullDesc": "Mercury 2 là một mô hình ngôn ngữ suy luận dựa trên khuếch tán tạo ra nhiều token song song thay vì tuần tự, đạt được hơn 1.000 token mỗi giây. Được xây dựng cho các khối lượng công việc AI sản xuất bao gồm vòng lặp tác nhân, giọng nói thực tế, hệ thống tìm kiếm và trợ lý mã hóa nơi độ trễ là rất quan trọng. Cung cấp cửa sổ ngữ cảnh 128K, sử dụng công cụ gốc và đầu ra JSON có cấu trúc với chi phí chỉ là một phần của các mô hình cạnh tranh."
+        },
+        "zh": {
+          "shortDesc": "世界上最快的推理大语言模型，采用扩散架构实现5倍推理速度提升。",
+          "fullDesc": "Mercury 2 是一个基于扩散的推理语言模型，它并行生成多个令牌而非顺序生成，实现每秒超过1,000个令牌的速度。为包括代理循环、实时语音、搜索系统和代码助手等生产级AI工作负载而构建，这些应用中延迟至关重要。提供128K上下文窗口、原生工具使用和结构化JSON输出，成本仅为竞争模型的一小部分。"
+        }
+      }
     },
     {
       "id": "perplexity-comet-browser",
@@ -11543,7 +11865,17 @@
           }
         ]
       },
-      "link": "https://www.perplexity.ai/comet"
+      "link": "https://www.perplexity.ai/comet",
+      "i18n": {
+        "vi": {
+          "shortDesc": "Trình duyệt Chromium hỗ trợ AI với trợ lý tích hợp để duyệt web thông minh và tự động hóa tác vụ.",
+          "fullDesc": "Perplexity Comet là một trình duyệt AI đại lý tích hợp tìm kiếm, tóm tắt và tự động hóa trực tiếp vào trải nghiệm duyệt web. Được xây dựng trên nền Chromium và được hỗ trợ bởi công cụ AI của Perplexity, nó cho phép người dùng tìm kiếm một cách tự nhiên, tóm tắt nội dung, quản lý tác vụ và tự động hóa quy trình công việc trên các tab mà không cần chuyển ứng dụng. Được thiết kế cho các chuyên gia và nhân viên kiến thức muốn có trải nghiệm duyệt web thông minh và hiệu quả hơn."
+        },
+        "zh": {
+          "shortDesc": "具有内置助手的AI原生Chromium浏览器，提供智能浏览和任务自动化。",
+          "fullDesc": "Perplexity Comet是一款代理AI浏览器，将搜索、总结和自动化功能直接集成到浏览体验中。基于Chromium构建，由Perplexity的AI引擎驱动，它允���用户自然搜索、总结内容、管理任务和跨标签页自动化工作流程，无需切换应用。专为寻求更智能、更高效浏览体验的专业人士和知识工作者而设计。"
+        }
+      }
     },
     {
       "id": "orkes-conductor",
@@ -11668,7 +12000,17 @@
           }
         ]
       },
-      "link": "https://orkes.io/conductor"
+      "link": "https://orkes.io/conductor",
+      "i18n": {
+        "vi": {
+          "shortDesc": "Nền tảng điều phối quy trình công việc cho các hệ thống phân tán và các agent AI quy mô lớn.",
+          "fullDesc": "Orkes Conductor là nền tảng điều phối cấp doanh nghiệp được xây dựng trên Conductor mã nguồn mở của Netflix. Nó cho phép các đội xây dựng, triển khai và quản lý các quy trình công việc phân tán phức tạp và các agent AI với độ tin cậy, khả năng quan sát và bảo mật tích hợp sẵn. Được thiết kế cho các doanh nghiệp quản lý các quy trình công việc quan trọng trên các microservices, APIs và hệ thống AI tạo sinh."
+        },
+        "zh": {
+          "shortDesc": "用于分布式系统和大规模AI代理的企业级工作流编排平台。",
+          "fullDesc": "Orkes Conductor是建立在Netflix开源Conductor基础上的企业级编排平台。它使团队能够构建、部署和管理复杂的分布式工作流和AI代理，具有内置的可靠性、可观测性和安全性。专为管理跨微服务、API和生成式AI系统的关键业务工作流的企业而设计。"
+        }
+      }
     },
     {
       "id": "microsoft-mai-models",
@@ -11812,7 +12154,17 @@
           }
         ]
       },
-      "link": "https://www.microsoft.com/"
+      "link": "https://www.microsoft.com/",
+      "i18n": {
+        "vi": {
+          "shortDesc": "Bộ suite các mô hình AI đa phương thức của Microsoft cho chuyên ghi âm, xử lý giọng nói và tạo hình ảnh.",
+          "fullDesc": "Microsoft MAI Models là một tập hợp các mô hình AI độc quyền bao gồm MAI-Transcribe-1 cho chuyển đổi giọng nói thành văn bản, MAI-Voice-1 cho tổng hợp giọng nói độ trung thực cao, và MAI-Image-2 cho tạo hình ảnh từ văn bản. Được thiết kế cho các nhà phát triển doanh nghiệp, các mô hình này nhấn mạnh tốc độ, hiệu quả chi phí và khả năng tích hợp với Microsoft Foundry và các dịch vụ Azure."
+        },
+        "zh": {
+          "shortDesc": "Microsoft 内部多模态 AI 模型套件，用于语音转录、语音合成和图像生成。",
+          "fullDesc": "Microsoft MAI Models 是一系列专有 AI 模型的集合，包括用于语音转文本的 MAI-Transcribe-1、用于高保真语音合成的 MAI-Voice-1 和用于文本生成图像的 MAI-Image-2。这些模型专为企业开发人员设计，强调速度、成本效益以及与 Microsoft Foundry �� Azure 服务的集成。"
+        }
+      }
     },
     {
       "id": "granola",
@@ -11834,20 +12186,20 @@
       "fullDesc": "Granola is a privacy-first meeting notepad that captures device audio directly without joining calls as a bot. You jot notes during meetings, and Granola's AI enhances them with structured summaries, action items, and decisions. It's designed for professionals who want natural conversations without visible recording bots altering meeting dynamics.",
       "info": [
         {
-          "label": "Type",
-          "value": "AI Meeting Assistant / Notepad"
+          "label": "Models",
+          "value": "Not applicable - Granola is a meeting transcription/notes tool, not an LLM. Uses GPT-4o and Claude for note enhancement"
+        },
+        {
+          "label": "Context",
+          "value": "Desktop app (Mac/Windows). Captures system audio without meeting bots. Transcribes and generates structured meeting notes"
         },
         {
           "label": "Released",
-          "value": "2024"
-        },
-        {
-          "label": "Best for",
-          "value": "Professionals, consultants, VCs, leaders managing back-to-back meetings"
+          "value": "Current version: 7.162.4 (as of April 27, 2026)"
         },
         {
           "label": "Pricing",
-          "value": "Basic (free, 30-day history), Business ($14/user/mo), Enterprise ($35+/user/mo)"
+          "value": "Free/Basic (limited history), Individual ($18/user/month), Business ($14/user/month), Enterprise ($35/user/month)"
         }
       ],
       "features": [
@@ -11951,7 +12303,30 @@
           }
         ]
       },
-      "link": "https://www.granola.ai/"
+      "link": "https://www.granola.ai/",
+      "changelog": [
+        {
+          "version": "7.162.4",
+          "date": "April 2026",
+          "changes": [
+            "Improved sharing permissions - collaborators no longer bumped from editor when access changes",
+            "Reorganized folder sidebar with 'Add folder' prompt moved inside folders",
+            "Updated chat header and suggestions with cleaner icons and lighter colors",
+            "Enhanced enhanced notes transition to not interrupt user typing",
+            "Increased API key limits from 5 to 25 per workspace/user"
+          ]
+        }
+      ],
+      "i18n": {
+        "vi": {
+          "shortDesc": "Notepad AI không có bot giúp ghi âm cuộc họp và cải thiện ghi chú mà không có người tham gia hiển thị.",
+          "fullDesc": "Granola là một notepad cuộc họp ưu tiên bảo mật, ghi lại âm thanh thiết bị trực tiếp mà không cần tham gia cuộc gọi dưới dạng bot. Bạn ghi chú trong cuộc họp, và AI của Granola sẽ cải thiện chúng bằng cách tổng hợp có cấu trúc, các mục hành động và quyết định. Nó được thiết kế cho các chuyên gia muốn có những cuộc trò chuyện tự nhiên mà không có bot ghi âm hiển thị làm thay đổi động lực cuộc họp."
+        },
+        "zh": {
+          "shortDesc": "无机器人AI记事本，可转录会议并改进笔记，不显示参与者。",
+          "fullDesc": "Granola是一款隐私优先的会议记事本，可直接捕获设备音频，无需以机器人身份加入通话。您在会议期间进行记录，Granola的AI会通过结构化摘要、行动项和决策来增强您的笔记。它专为希望进行自然对话而不受可见录音机器人干扰的专业人士而设计。"
+        }
+      }
     },
     {
       "id": "gumloop",
@@ -11973,20 +12348,20 @@
       "fullDesc": "Gumloop is an AI-powered workflow automation platform that lets teams build intelligent agents and complex automations using a visual, drag-and-drop interface. It combines traditional automation with built-in AI models like GPT-4, Claude, and Gemini to enable businesses of all sizes—from solopreneurs to enterprises like Shopify and Instacart—to automate repetitive tasks, data processing, and decision-making workflows without writing code.",
       "info": [
         {
-          "label": "Type",
-          "value": "AI Automation Platform / Agent Builder"
+          "label": "Models",
+          "value": "GPT-5, Claude 4, Claude 4 Opus, Claude 3.5 Haiku, GPT-4.1 Nano, GPT-4.1, Gemini 2.5 Flash (access varies by plan)"
+        },
+        {
+          "label": "Context",
+          "value": "AI automation platform with drag-and-drop workflow builder, agents with autonomous reasoning capabilities, and integrations with 115+ pre-built blocks"
         },
         {
           "label": "Released",
-          "value": "2023 (as AgentHub, rebranded May 2023)"
-        },
-        {
-          "label": "Best for",
-          "value": "Marketing teams, sales operations, customer support, data enrichment, complex batch workflows"
+          "value": "Founded 2024 (Y Combinator W24), latest major version 7.5.0 released March 9, 2026"
         },
         {
           "label": "Pricing",
-          "value": "Freemium: Free plan with 5K credits/month; Pro from $37/mo; Enterprise with custom pricing"
+          "value": "Free: 2,000 credits/month; Pro: $37/month for 10,000+ credits with unlimited seats and collaborative features; Enterprise: Custom pricing"
         }
       ],
       "features": [
@@ -12081,7 +12456,31 @@
           }
         ]
       },
-      "link": "https://www.gumloop.com/"
+      "link": "https://www.gumloop.com/",
+      "changelog": [
+        {
+          "version": "7.5.0",
+          "date": "March 2026",
+          "changes": [
+            "Solo and Team plans unified into single Pro plan with same price",
+            "Collaborative features added: shared credits, shared ownership of Agents and Workflows, no seat limits",
+            "Agents now support triggers to connect with external applications",
+            "Added Outlook calendar MCP for creating and updating events",
+            "Salesforce now supports report tools, Google Ads includes conversion metrics",
+            "Notion search now supports pagination"
+          ]
+        }
+      ],
+      "i18n": {
+        "vi": {
+          "shortDesc": "Nền tảng tự động hóa được thiết kế cho AI, dùng để xây dựng các quy trình phức tạp mà không cần viết code.",
+          "fullDesc": "Gumloop là nền tảng tự động hóa quy trình được hỗ trợ bởi AI, cho phép các đội ngũ xây dựng các agent thông minh và tự động hóa phức tạp bằng giao diện kéo và thả trực quan. Nó kết hợp tự động hóa truyền thống với các mô hình AI tích hợp như GPT-4, Claude và Gemini để giúp các doanh nghiệp mọi quy mô—từ các nhà khởi nghiệp độc lập đến các doanh nghiệp lớn như Shopify và Instacart—tự động hóa các tác vụ lặp đi lặp lại, xử lý dữ liệu và quy trình ra quyết định mà không cần viết code."
+        },
+        "zh": {
+          "shortDesc": "AI原生自动化平台，用于构建复杂工作流，无需编码。",
+          "fullDesc": "Gumloop是一个由AI驱动的工作流自动化平台，允许团队使用可视化拖放界面构建智能代理和复杂自动化。它将传统自动化与内���AI模型（如GPT-4、Claude和Gemini）相结合，使各种规模的企业——从个人创业者到Shopify和Instacart等大型企业——能够自动化重复性任务、数据处理和决策工作流，而无需编写代码。"
+        }
+      }
     },
     {
       "id": "avoca",
@@ -12103,20 +12502,20 @@
       "fullDesc": "Avoca is an AI-powered communications platform purpose-built for service businesses including HVAC, plumbing, and electrical companies. It handles inbound calls, appointment scheduling, outbound campaigns, and customer follow-ups through conversational AI agents that integrate directly with CRM systems like ServiceTitan. Designed for SMBs facing the challenge of missed calls and high CSR turnover.",
       "info": [
         {
-          "label": "Type",
-          "value": "AI Voice Agent & Workflow Automation"
+          "label": "Models",
+          "value": "<cite index=\"14-6,14-7\">Avoca builds AI agents for service businesses, handling chat, email, voice calls, and SMS across the entire customer journey. The platform helps operators across HVAC, plumbing, automotive, moving, and other service industries capture every lead and convert more demand.</cite>"
+        },
+        {
+          "label": "Context",
+          "value": "<cite index=\"14-5\">Avoca powers 24/7 call handling, scheduling, custom marketing campaigns, and customer follow-ups for service businesses.</cite> <cite index=\"18-4\">Avoca has established partnerships with ServiceTitan, Nexstar Network, and Clover.</cite>"
         },
         {
           "label": "Released",
-          "value": "2023"
-        },
-        {
-          "label": "Best for",
-          "value": "Home services & field service businesses"
+          "value": "<cite index=\"14-2\">On April 27, 2026, Avoca announced it has raised more than $125 million across Seed, Series A, and Series B funding at a $1 billion valuation.</cite>"
         },
         {
           "label": "Pricing",
-          "value": "Custom enterprise pricing; surpassed 8-figures ARR in 2025"
+          "value": "<cite index=\"4-1,4-2\">Avoca does not publish pricing. You must book a demo and go through a sales process for custom quotes.</cite>"
         }
       ],
       "features": [
@@ -12205,61 +12604,174 @@
           }
         ]
       },
-      "link": "https://avoca.ai"
+      "link": "https://avoca.ai",
+      "changelog": [
+        {
+          "version": "Series B Funding Round",
+          "date": "April 2026",
+          "changes": [
+            "<cite index=\"9-6\">Avoca reached a $1B valuation after raising more than $125M across its seed, Series A, and Series B</cite>",
+            "<cite index=\"13-6\">The company is on track to book $1 billion in jobs for its customers in 2026</cite>",
+            "<cite index=\"9-39\">The company has grown from roughly its first 10 customers to more than 800</cite>"
+          ]
+        }
+      ],
+      "i18n": {
+        "vi": {
+          "shortDesc": "Tác nhân AI thoại 24/7 cho các dịch vụ gia đình giúp trả lời cuộc gọi và đặt lịch công việc tự động.",
+          "fullDesc": "Avoca là một nền tảng truyền thông được hỗ trợ bởi AI, được thiết kế đặc biệt cho các doanh nghiệp dịch vụ bao gồm HVAC, lắp ống nước và điện. Nó xử lý các cuộc gọi đến, lên lịch cuộc hẹn, các chiến dịch gửi đi và theo dõi khách hàng thông qua các tác nhân AI hội thoại tích hợp trực tiếp với các hệ thống CRM như ServiceTitan. Được thiết kế cho các doanh nghiệp vừa và nhỏ đối mặt với thách thức bỏ lỡ cuộc gọi và tỷ lệ chuyên đổi CSR cao."
+        },
+        "zh": {
+          "shortDesc": "用于家庭服务的24/7 AI语音智能体，自动接听电话和预订工作。",
+          "fullDesc": "Avoca是一个AI驱动的通讯平台，专门为HVAC、水暖和电气公司等服务业务而构建。它通过可与ServiceTitan等CRM系统直接集成的对话AI智能体来处理来电、预约安排、外呼活动和客户跟进。专为面临漏接电话和客服人员流失率高挑战的中小企业设计。"
+        }
+      }
+    },
+    {
+      "id": "genesis-ai--gene-26-5",
+      "name": "Genesis AI (GENE-26.5)",
+      "company": "Genesis AI",
+      "category": "agent",
+      "icon": "🤖",
+      "badge": "hot",
+      "color": "#1a1a2e",
+      "price": "paid",
+      "priceLabel": "Contact for pricing",
+      "tags": [
+        "robotics",
+        "foundation model",
+        "dexterous manipulation",
+        "full-stack"
+      ],
+      "shortDesc": "Foundation model enabling general-purpose robots to perform human-level physical manipulation tasks.",
+      "fullDesc": "GENE-26.5 is a robotic foundation model paired with human-scale dexterous robotic hands and a proprietary data engine to enable robots to perform complex, long-horizon physical tasks with human-level dexterity. The full-stack system combines advanced AI with custom hardware and data collection gloves to overcome the robotics data bottleneck, enabling applications in cooking, lab automation, wire harnessing, and other precision work.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Robotics Foundation Model"
+        },
+        {
+          "label": "Released",
+          "value": "May 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Manufacturing, logistics, pharmaceuticals, lab automation, industrial manipulation"
+        },
+        {
+          "label": "Pricing",
+          "value": "Enterprise engagements typically 3-5 years; contact sales"
+        }
+      ],
+      "features": [
+        "Human-level dexterous manipulation with five-fingered robotic hands matching human form and function",
+        "Advanced AI foundation model absorbing massive amounts of data and environmental variations for generalization",
+        "Proprietary data engine with sensor-equipped glove enabling 100x cheaper data collection than traditional methods",
+        "High-fidelity simulation system running 430,000x faster than real-time for rapid model iteration",
+        "Long-horizon task planning supporting complex multi-step procedures like 20-step cooking processes",
+        "Cross-platform compatibility enabling deployment across different robot hardware systems",
+        "Tacile-sensing electronic skin in data collection glove for precise motion and pressure capture"
+      ],
+      "demo": [
+        {
+          "title": "Cooking complex meals",
+          "desc": "Robot performs 20-step meal preparation including chopping, egg cracking, and two-hand coordination",
+          "code": ""
+        },
+        {
+          "title": "Laboratory automation",
+          "desc": "High-precision lab experiments with delicate instrumentation including pipetting and liquid transfer",
+          "code": ""
+        },
+        {
+          "title": "Dexterous object manipulation",
+          "desc": "Multi-object grasping with single-handed coordination of four distinct objects of varying sizes",
+          "code": ""
+        },
+        {
+          "title": "Wire harnessing",
+          "desc": "Complex electronics task of arranging and securing wires into organized bundles",
+          "code": ""
+        },
+        {
+          "title": "Fine motor tasks",
+          "desc": "Solving Rubik's Cube and playing piano demonstrating precise coordination of 20+ joints",
+          "code": ""
+        }
+      ],
+      "prompts": [],
+      "pricing": {
+        "note": "Genesis AI targets enterprise customers with multi-year engagements. Pricing is customized based on deployment requirements and use cases. Early deployments with select partners expected mid-2026.",
+        "plans": [
+          {
+            "name": "Enterprise Deployment",
+            "price": "Custom",
+            "per": "3-5 year engagement",
+            "popular": true,
+            "color": "#1a1a2e",
+            "features": [
+              "Custom GENE-26.5 model deployment",
+              "Integration with client hardware systems",
+              "On-site training and support",
+              "Model fine-tuning for specific tasks"
+            ]
+          }
+        ]
+      },
+      "link": "https://techcrunch.com/2026/05/06/khosla-backed-robotics-startup-genesis-ai-has-gone-full-stack-demo-shows/"
     }
   ],
   "totw": {
-    "name": "Plurai",
-    "tagline": "Vibe-train evals and guardrails tailored to your use case",
-    "votesCount": 712,
-    "url": "https://www.producthunt.com/products/plurai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
-    "thumbnail": "https://ph-files.imgix.net/e87131be-1490-4ed2-a291-5f91da603996.png?auto=format",
+    "name": "Kanwas",
+    "tagline": "An open-source brain for your team",
+    "votesCount": 484,
+    "url": "https://www.producthunt.com/products/kanwas?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
+    "thumbnail": "https://ph-files.imgix.net/e4a685d6-1b32-49fb-810f-ec28ddd4674c.png?auto=format",
     "rank": 1,
     "topics": [
-      "API",
-      "Developer Tools",
+      "Productivity",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-05-05T08:21:36.836Z"
+    "fetchedAt": "2026-05-08T07:51:00.830Z"
   },
-  "lastWeeklyUpdate": "2026-04-28T08:50:35.476Z",
+  "lastWeeklyUpdate": "2026-05-08T08:06:08.987Z",
   "anthropicNews": [
     {
+      "date": "May 6, 2026",
+      "title": "SpaceX Compute Deal Boosts Claude Capacity",
+      "summary": "Anthropic signs agreement with SpaceX for Colossus 1 datacenter, gaining 300MW capacity (220K NVIDIA GPUs) within one month.",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-06/anthropic-inks-computing-deal-with-spacex-to-meet-ai-demand"
+    },
+    {
+      "date": "May 5, 2026",
+      "title": "10 Finance Agent Templates & Microsoft 365 Integration",
+      "summary": "Anthropic launches 10 pre-built financial service templates and full MS 365 integration for Excel, PowerPoint, Word, Outlook.",
+      "url": "https://letsdatascience.com/news/anthropic-launches-ten-finance-agent-templates-for-claude-6516f048"
+    },
+    {
       "date": "May 4, 2026",
-      "title": "Claude will remain ad-free",
-      "summary": "Anthropic commits to keeping Claude advertisement-free and explains incompatibility with helpful AI assistant principles.",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "Apr 28, 2026",
-      "title": "Claude connectors for creative tools launch",
-      "summary": "Claude now integrates with Blender, Adobe Creative Cloud, Fusion, Ableton, and other creative platforms.",
-      "url": "https://www.testingcatalog.com/anthropic-rolls-out-claude-connectors-for-creative-platforms/"
-    },
-    {
-      "date": "Apr 20, 2026",
-      "title": "Amazon-Anthropic expand compute partnership to 5 gigawatts",
-      "summary": "Anthropic and Amazon Web Services deepen collaboration for new compute infrastructure expansion.",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "Apr 17, 2026",
-      "title": "Introducing Claude Design by Anthropic Labs",
-      "summary": "<cite index=\"5-1\">Anthropic launched Claude Design, a new experimental product for creating visuals like prototypes, slides, one-pagers, and more using Claude.</cite>",
-      "url": "https://www.anthropic.com/news/claude-design"
-    },
-    {
-      "date": "Apr 7, 2026",
-      "title": "Claude Mythos Preview & Project Glasswing announced",
-      "summary": "<cite index=\"7-2,7-3,7-4\">Claude Mythos Preview is a new general-purpose language model strikingly capable at computer security tasks. Project Glasswing uses Mythos Preview to help secure critical software.</cite>",
-      "url": "https://red.anthropic.com/2026/mythos-preview/"
-    },
-    {
-      "date": "Apr 16, 2026",
-      "title": "Claude Opus 4.7 released with improved coding & vision",
-      "summary": "<cite index=\"4-1,4-2,4-21,4-22\">Opus 4.7 has substantially better vision and higher-resolution image processing. It is available across all Claude products with same Opus 4.6 pricing: $5/$25 per million tokens.</cite>",
+      "title": "Claude Opus 4.7 Released; Claude Remains Ad-Free",
+      "summary": "<cite index=\"4-17,4-18\">Claude Opus 4.7 is available across all Claude products with pricing unchanged at $5 input, $25 output per million tokens</cite>.",
       "url": "https://www.anthropic.com/news/claude-opus-4-7"
+    },
+    {
+      "date": "May 4, 2026",
+      "title": "$1.5B Enterprise AI Joint Venture Announced",
+      "summary": "Anthropic builds new enterprise AI services firm with Blackstone, Hellman & Friedman, Goldman Sachs for Wall Street deployment.",
+      "url": "https://fortune.com/2026/05/05/anthropic-wall-street-financial-services-agents-jamie-dimon/"
+    },
+    {
+      "date": "April 17, 2026",
+      "title": "Claude Design Tool Launch by Anthropic Labs",
+      "summary": "<cite index=\"26-6,26-7\">Claude Design is Anthropic's new AI design tool powered by Claude Opus 4.7, letting users generate prototypes and presentations through conversation</cite>.",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "April 20, 2026",
+      "title": "Amazon Collaboration Expands to 5GW New Compute",
+      "summary": "<cite index=\"12-1\">Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute capacity</cite>.",
+      "url": "https://www.anthropic.com/news"
     }
   ],
-  "lastChecked": "2026-05-05T08:22:40.144Z"
+  "lastChecked": "2026-05-08T08:10:29.966Z"
 }
