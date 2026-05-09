@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-08T08:10:29.966Z",
+  "lastUpdated": "2026-05-09T08:06:08.228Z",
   "categories": [
     {
       "id": "llm",
@@ -12724,7 +12724,7 @@
   "totw": {
     "name": "Kanwas",
     "tagline": "An open-source brain for your team",
-    "votesCount": 484,
+    "votesCount": 488,
     "url": "https://www.producthunt.com/products/kanwas?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/e4a685d6-1b32-49fb-810f-ec28ddd4674c.png?auto=format",
     "rank": 1,
@@ -12732,46 +12732,46 @@
       "Productivity",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-05-08T07:51:00.830Z"
+    "fetchedAt": "2026-05-09T08:05:06.017Z"
   },
   "lastWeeklyUpdate": "2026-05-08T08:06:08.987Z",
   "anthropicNews": [
     {
       "date": "May 6, 2026",
-      "title": "SpaceX Compute Deal Boosts Claude Capacity",
-      "summary": "Anthropic signs agreement with SpaceX for Colossus 1 datacenter, gaining 300MW capacity (220K NVIDIA GPUs) within one month.",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-06/anthropic-inks-computing-deal-with-spacex-to-meet-ai-demand"
+      "title": "Anthropic increases Claude Code and API rate limits",
+      "summary": "<cite index=\"1-1\">Anthropic doubled Claude Code rate limits for Pro, Max, Team, and Enterprise plans</cite>, effective immediately.",
+      "url": "https://releasebot.io/updates/anthropic"
+    },
+    {
+      "date": "May 6, 2026",
+      "title": "Anthropic partners with SpaceX for compute capacity",
+      "summary": "<cite index=\"3-8\">Anthropic gains access to 300+ megawatts from SpaceX (220,000+ Nvidia GPUs)</cite> to support surging Claude demand.",
+      "url": "https://www.axios.com/2026/05/06/anthropic-spacex-elon-musk-compute"
     },
     {
       "date": "May 5, 2026",
-      "title": "10 Finance Agent Templates & Microsoft 365 Integration",
-      "summary": "Anthropic launches 10 pre-built financial service templates and full MS 365 integration for Excel, PowerPoint, Word, Outlook.",
-      "url": "https://letsdatascience.com/news/anthropic-launches-ten-finance-agent-templates-for-claude-6516f048"
-    },
-    {
-      "date": "May 4, 2026",
-      "title": "Claude Opus 4.7 Released; Claude Remains Ad-Free",
-      "summary": "<cite index=\"4-17,4-18\">Claude Opus 4.7 is available across all Claude products with pricing unchanged at $5 input, $25 output per million tokens</cite>.",
-      "url": "https://www.anthropic.com/news/claude-opus-4-7"
-    },
-    {
-      "date": "May 4, 2026",
-      "title": "$1.5B Enterprise AI Joint Venture Announced",
-      "summary": "Anthropic builds new enterprise AI services firm with Blackstone, Hellman & Friedman, Goldman Sachs for Wall Street deployment.",
+      "title": "Claude Opus 4.7 announced for financial services",
+      "summary": "<cite index=\"4-4\">Anthropic debuted Claude Opus 4.7, its most capable model for financial work yet</cite>, with new agents for banks.",
       "url": "https://fortune.com/2026/05/05/anthropic-wall-street-financial-services-agents-jamie-dimon/"
     },
     {
-      "date": "April 17, 2026",
-      "title": "Claude Design Tool Launch by Anthropic Labs",
-      "summary": "<cite index=\"26-6,26-7\">Claude Design is Anthropic's new AI design tool powered by Claude Opus 4.7, letting users generate prototypes and presentations through conversation</cite>.",
-      "url": "https://www.anthropic.com/news"
+      "date": "May 5, 2026",
+      "title": "Claude Security released in public beta",
+      "summary": "<cite index=\"12-2,12-3\">Claude Security released in public beta for enterprises, bringing code vulnerability scanning and fixes with Opus 4.7</cite>.",
+      "url": "https://releasebot.io/updates/anthropic/claude"
     },
     {
-      "date": "April 20, 2026",
-      "title": "Amazon Collaboration Expands to 5GW New Compute",
-      "summary": "<cite index=\"12-1\">Anthropic and Amazon expand collaboration for up to 5 gigawatts of new compute capacity</cite>.",
+      "date": "May 6, 2026",
+      "title": "Claude Managed Agents adds multi-agent orchestration",
+      "summary": "<cite index=\"12-1\">Claude Managed Agents launches dreaming in research preview with self-improving memory</cite> for agentic workflows.",
+      "url": "https://releasebot.io/updates/anthropic/claude"
+    },
+    {
+      "date": "May 4, 2026",
+      "title": "Anthropic and Blackstone form new enterprise venture",
+      "summary": "<cite index=\"2-1\">Anthropic is building new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs</cite>.",
       "url": "https://www.anthropic.com/news"
     }
   ],
-  "lastChecked": "2026-05-08T08:10:29.966Z"
+  "lastChecked": "2026-05-09T08:06:08.228Z"
 }
