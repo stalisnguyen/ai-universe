@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-09T08:06:08.228Z",
+  "lastUpdated": "2026-05-10T08:20:06.902Z",
   "categories": [
     {
       "id": "llm",
@@ -12719,12 +12719,119 @@
         ]
       },
       "link": "https://techcrunch.com/2026/05/06/khosla-backed-robotics-startup-genesis-ai-has-gone-full-stack-demo-shows/"
+    },
+    {
+      "id": "alphaevolve",
+      "name": "AlphaEvolve",
+      "company": "Google DeepMind",
+      "category": "code",
+      "icon": "🧬",
+      "badge": "hot",
+      "color": "#4285F4",
+      "price": "freemium",
+      "priceLabel": "Early Access Program",
+      "tags": [
+        "algorithm optimization",
+        "code generation",
+        "evolutionary AI",
+        "mathematical discovery"
+      ],
+      "shortDesc": "Gemini-powered coding agent that autonomously discovers and optimizes complex algorithms.",
+      "fullDesc": "AlphaEvolve is a Gemini-powered evolutionary algorithm agent that iteratively discovers optimized algorithms for complex problems. It combines large language models with automated evaluation and evolutionary frameworks to generate, test, and refine code solutions. Available through Google Cloud's Early Access Program for solving domain-specific optimization challenges in data centers, drug discovery, chip design, and mathematical research.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "AI Coding Agent"
+        },
+        {
+          "label": "Released",
+          "value": "May 2025"
+        },
+        {
+          "label": "Best for",
+          "value": "Algorithm optimization, mathematical discovery, scientific research"
+        },
+        {
+          "label": "Pricing",
+          "value": "Early Access via Google Cloud"
+        }
+      ],
+      "features": [
+        "Ensemble LLM architecture using Gemini Flash for breadth and Gemini Pro for depth of exploration",
+        "Evolutionary algorithm framework that iteratively mutates, evaluates, and selects optimal code solutions",
+        "Automated verification system that tests changes against user-defined evaluation functions",
+        "Hardware-level optimization capability including Verilog circuit rewrites and GPU kernel improvements",
+        "Multi-domain applicability across mathematics, physics, biology, and infrastructure optimization",
+        "State-of-the-art performance on open problems including 75% success rate on 50+ mathematical challenges",
+        "Infrastructure integration with data center scheduling, TPU design, and AI model training optimization",
+        "Collaborative human-AI interface for expert-guided algorithm discovery"
+      ],
+      "demo": [
+        {
+          "title": "Problem Definition",
+          "desc": "Define your optimization problem with an evaluation function that measures solution quality using scalar metrics",
+          "code": "def evaluate_solution(algorithm_output):\n  return {'efficiency': score, 'correctness': validity}"
+        },
+        {
+          "title": "Seed Algorithm",
+          "desc": "Provide an initial compile-ready code solution as the starting point for evolution",
+          "code": "def baseline_algorithm(input_data):\n  # Your initial algorithm implementation\n  return result"
+        },
+        {
+          "title": "Mutation & Evolution",
+          "desc": "AlphaEvolve generates code mutations using Gemini models and selects the best performers for next iteration",
+          "code": "# AlphaEvolve automatically iterates:\n# Mutation -> Evaluation -> Selection -> Loop"
+        },
+        {
+          "title": "Optimized Result",
+          "desc": "Receive an evolved algorithm that significantly outperforms the baseline on your evaluation metrics",
+          "code": "# Result: Algorithm with 23-32% speedup or novel discoveries"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Data Center Optimization",
+          "text": "Improve task scheduling heuristics for cluster resource allocation to maximize compute resource utilization"
+        },
+        {
+          "label": "Matrix Operations",
+          "text": "Discover more efficient algorithms for multiplying matrices of specific dimensions"
+        },
+        {
+          "label": "Scientific Simulation",
+          "text": "Optimize molecular simulation algorithms for drug discovery and protein stability prediction"
+        },
+        {
+          "label": "Hardware Design",
+          "text": "Refine arithmetic circuits and GPU kernels to reduce computation time and energy consumption"
+        }
+      ],
+      "pricing": {
+        "note": "AlphaEvolve is currently available through Google Cloud's Early Access Program. Academic researchers and enterprise customers can apply for access. Pricing details are determined on a case-by-case basis through Google Cloud.",
+        "plans": [
+          {
+            "name": "Early Access Program",
+            "price": "Contact for pricing",
+            "per": "custom",
+            "popular": true,
+            "color": "#4285F4",
+            "features": [
+              "Access to AlphaEvolve Service API",
+              "Ensemble Gemini models (Flash + Pro)",
+              "Custom evaluation function support",
+              "Automated algorithm discovery and optimization",
+              "Dedicated Google Cloud support"
+            ]
+          }
+        ]
+      },
+      "link": "https://cloud.google.com/products/ai-machine-learning/alphaevolve"
     }
   ],
   "totw": {
     "name": "Kanwas",
     "tagline": "An open-source brain for your team",
-    "votesCount": 488,
+    "votesCount": 496,
     "url": "https://www.producthunt.com/products/kanwas?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/e4a685d6-1b32-49fb-810f-ec28ddd4674c.png?auto=format",
     "rank": 1,
@@ -12732,46 +12839,46 @@
       "Productivity",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-05-09T08:05:06.017Z"
+    "fetchedAt": "2026-05-10T08:19:14.052Z"
   },
   "lastWeeklyUpdate": "2026-05-08T08:06:08.987Z",
   "anthropicNews": [
     {
       "date": "May 6, 2026",
-      "title": "Anthropic increases Claude Code and API rate limits",
-      "summary": "<cite index=\"1-1\">Anthropic doubled Claude Code rate limits for Pro, Max, Team, and Enterprise plans</cite>, effective immediately.",
+      "title": "Anthropic expands Claude usage limits with SpaceX compute deal",
+      "summary": "<cite index=\"1-1\">Anthropic doubles Pro, Max, Team, and Enterprise rate limits and removes peak-hour reductions powered by SpaceX compute capacity.</cite>",
       "url": "https://releasebot.io/updates/anthropic"
     },
     {
-      "date": "May 6, 2026",
-      "title": "Anthropic partners with SpaceX for compute capacity",
-      "summary": "<cite index=\"3-8\">Anthropic gains access to 300+ megawatts from SpaceX (220,000+ Nvidia GPUs)</cite> to support surging Claude demand.",
-      "url": "https://www.axios.com/2026/05/06/anthropic-spacex-elon-musk-compute"
-    },
-    {
       "date": "May 5, 2026",
-      "title": "Claude Opus 4.7 announced for financial services",
-      "summary": "<cite index=\"4-4\">Anthropic debuted Claude Opus 4.7, its most capable model for financial work yet</cite>, with new agents for banks.",
-      "url": "https://fortune.com/2026/05/05/anthropic-wall-street-financial-services-agents-jamie-dimon/"
-    },
-    {
-      "date": "May 5, 2026",
-      "title": "Claude Security released in public beta",
-      "summary": "<cite index=\"12-2,12-3\">Claude Security released in public beta for enterprises, bringing code vulnerability scanning and fixes with Opus 4.7</cite>.",
-      "url": "https://releasebot.io/updates/anthropic/claude"
+      "title": "Claude Opus 4.7 launches with financial AI agents suite",
+      "summary": "<cite index=\"3-4\">Anthropic debuts Claude Opus 4.7 and launches pre-built AI agents for financial services.</cite>",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7"
     },
     {
       "date": "May 6, 2026",
-      "title": "Claude Managed Agents adds multi-agent orchestration",
-      "summary": "<cite index=\"12-1\">Claude Managed Agents launches dreaming in research preview with self-improving memory</cite> for agentic workflows.",
+      "title": "Claude Code desktop redesign enables parallel task execution",
+      "summary": "<cite index=\"12-1\">Claude Code desktop app redesigned with session sidebar, drag-and-drop workspace, and integrated terminal.</cite>",
       "url": "https://releasebot.io/updates/anthropic/claude"
+    },
+    {
+      "date": "May 8, 2026",
+      "title": "Anthropic inks $1.8 billion computing deal with Akamai",
+      "summary": "<cite index=\"5-1\">Anthropic signs seven-year cloud computing deal with Akamai to meet surging AI demand.</cite>",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-08/anthropic-inks-1-8-billion-computing-deal-with-akamai"
     },
     {
       "date": "May 4, 2026",
-      "title": "Anthropic and Blackstone form new enterprise venture",
-      "summary": "<cite index=\"2-1\">Anthropic is building new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs</cite>.",
+      "title": "Anthropic forms joint venture with Blackstone and Goldman Sachs",
+      "summary": "Anthropic builds new enterprise AI services company with Blackstone, Hellman & Friedman, and Goldman Sachs.",
       "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "May 6, 2026",
+      "title": "Claude Security enters public beta with vulnerability scanning",
+      "summary": "<cite index=\"12-12,12-13\">Claude Security in public beta for Enterprise customers with code vulnerability scanning, proposed fixes, and scheduled scans.</cite>",
+      "url": "https://releasebot.io/updates/anthropic/claude"
     }
   ],
-  "lastChecked": "2026-05-09T08:06:08.228Z"
+  "lastChecked": "2026-05-10T08:20:06.902Z"
 }
