@@ -12938,46 +12938,46 @@
       "Productivity",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-05-11T09:55:52.141Z"
+    "fetchedAt": "2026-05-12T08:50:04.505Z"
   },
   "lastWeeklyUpdate": "2026-05-08T08:06:08.987Z",
   "anthropicNews": [
     {
+      "date": "May 10, 2026",
+      "title": "AI training on fictional narratives influences model behavior",
+      "summary": "Anthropic research reveals internet portrayals of AI affect model alignment; Claude Haiku 4.5+ never engages in blackmail during testing.",
+      "url": "https://techcrunch.com/2026/05/10/anthropic-says-evil-portrayals-of-ai-were-responsible-for-claudes-blackmail-attempts/"
+    },
+    {
       "date": "May 6, 2026",
-      "title": "SpaceX Compute Deal & Rate Limit Increases",
-      "summary": "<cite index=\"7-12,7-13\">Anthropic signed agreement with SpaceX for Colossus 1 compute capacity with 300 megawatts of new capacity and 220,000 NVIDIA GPUs</cite>.",
-      "url": "https://anthropic.com"
+      "title": "Anthropic doubles Claude Code limits, signs SpaceX compute deal",
+      "summary": "<cite index=\"2-1\">Anthropic expands Claude Code and Claude API usage limits, doubling Pro, Max, Team, and seat-based Enterprise rate limits, with 300+ megawatts of new capacity from SpaceX.</cite>",
+      "url": "https://releasebot.io/updates/anthropic"
+    },
+    {
+      "date": "May 6, 2026",
+      "title": "Finance agent templates and Microsoft 365 integration launch",
+      "summary": "<cite index=\"11-7,11-8\">Ten ready-to-run agent templates for financial services work ship as plugins in Claude Cowork and Claude Code, enabling teams to deploy real financial work in days.</cite>",
+      "url": "https://anthropic.com/news"
+    },
+    {
+      "date": "May 4, 2026",
+      "title": "Anthropic launches enterprise AI services joint venture",
+      "summary": "<cite index=\"29-3,29-4\">Anthropic announced a joint venture with Blackstone, Hellman & Friedman, and Goldman Sachs to deploy enterprise AI services.</cite>",
+      "url": "https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services/"
     },
     {
       "date": "Apr 16, 2026",
-      "title": "Claude Opus 4.7 Model Release",
-      "summary": "<cite index=\"12-25,12-26,12-27\">Claude Opus 4.7 launched with improvements in software engineering, long-running coding tasks, and higher-resolution vision</cite>.",
-      "url": "https://anthropic.com"
-    },
-    {
-      "date": "May 7, 2026",
-      "title": "Claude Design Product Launch",
-      "summary": "<cite index=\"12-1\">Claude Design launched as new Anthropic Labs product for collaborating with Claude to create visual outputs like designs, prototypes, and slides</cite>.",
-      "url": "https://anthropic.com"
-    },
-    {
-      "date": "May 6, 2026",
-      "title": "Claude Managed Agents: Dreaming Feature",
-      "summary": "<cite index=\"13-6,13-7\">Dreaming feature released in research preview to extend Claude's memory by reviewing past sessions to find patterns and help agents self-improve</cite>.",
-      "url": "https://anthropic.com"
-    },
-    {
-      "date": "May 5, 2026",
-      "title": "Financial Services AI Agents & Opus 4.7",
-      "summary": "<cite index=\"14-2\">Anthropic launched suite of pre-built AI agents for banks and debuted Claude Opus 4.7 as most capable model for financial work</cite>.",
-      "url": "https://fortune.com"
+      "title": "Claude Opus 4.7 released with stronger coding and vision",
+      "summary": "<cite index=\"4-18\">Opus 4.7 shows improvements in software engineering and complex coding tasks, plus better vision with higher resolution images.</cite>",
+      "url": "https://anthropic.com/news"
     },
     {
       "date": "Apr 7, 2026",
-      "title": "Claude Mythos Preview & Project Glasswing",
-      "summary": "<cite index=\"3-1,3-2\">Claude Mythos Preview announced as new general-purpose model strikingly capable at computer security tasks</cite>.",
-      "url": "https://red.anthropic.com"
+      "title": "Claude Mythos Preview announces Project Glasswing cybersecurity initiative",
+      "summary": "<cite index=\"1-1,1-2,1-6\">Anthropic announced Claude Mythos Preview, a new model strikingly capable at computer security, launching Project Glasswing to secure critical software.</cite>",
+      "url": "https://red.anthropic.com/2026/mythos-preview/"
     }
   ],
-  "lastChecked": "2026-05-11T09:57:07.875Z"
+  "lastChecked": "2026-05-12T08:50:22.297Z"
 }
