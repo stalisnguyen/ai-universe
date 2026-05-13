@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T09:57:07.875Z",
+  "lastUpdated": "2026-05-13T08:55:00.688Z",
   "categories": [
     {
       "id": "llm",
@@ -12925,59 +12925,327 @@
         ]
       },
       "link": "https://pit.company"
+    },
+    {
+      "id": "kimi-code-k2-6",
+      "name": "Kimi Code K2.6",
+      "company": "Moonshot AI",
+      "category": "code",
+      "icon": "🚀",
+      "badge": "new",
+      "color": "#2563EB",
+      "price": "freemium",
+      "priceLabel": "Free / From $19/mo",
+      "tags": [
+        "code-generation",
+        "ai-agent",
+        "multimodal",
+        "open-source"
+      ],
+      "shortDesc": "Open-source multimodal AI model for coding, design, and autonomous agent orchestration.",
+      "fullDesc": "Kimi Code K2.6 is Moonshot AI's next-generation open-weight model designed for long-horizon coding, coding-driven UI/UX generation, and multi-agent orchestration. It handles complex end-to-end coding tasks across Python, Rust, and Go, and can convert prompts and visual inputs into production-ready interfaces with agent swarm architecture scaling to hundreds of parallel sub-agents.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Open-weight LLM (1T parameters, MoE architecture)"
+        },
+        {
+          "label": "Released",
+          "value": "April 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Full-stack coding, frontend design, autonomous agents, multi-step automation"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free tier / API at $0.60/M input, $2.50/M output tokens"
+        }
+      ],
+      "features": [
+        "Native multimodal support for text, images, and video input with thinking and non-thinking modes",
+        "256K token context window enabling long-context coding and document analysis",
+        "Agent swarm architecture supporting up to 300 parallel coordinated sub-agents for autonomous task decomposition",
+        "End-to-end full-stack coding across Python, Rust, and Go with debugging and refactoring capabilities",
+        "Visual code generation transforming design mockups and prompts into production-ready interfaces",
+        "Multi-step tool calling with 300+ parallel tool execution for complex workflows",
+        "OpenAI and Anthropic-compatible API for seamless integration",
+        "Open-weight model available for self-hosting via vLLM, SGLang, and KTransformers"
+      ],
+      "demo": [
+        {
+          "title": "API Integration",
+          "desc": "Call Kimi K2.6 via OpenAI-compatible API",
+          "code": "curl https://api.moonshot.ai/v1/chat/completions -H \"Authorization: Bearer $API_KEY\" -d '{\"model\": \"kimi-k2.6\", \"messages\": [{\"role\": \"user\", \"content\": \"Generate a React component\"}]}'"
+        },
+        {
+          "title": "CLI Usage",
+          "desc": "Use Kimi Code CLI for terminal-based coding assistance",
+          "code": "kimi code 'Build a full-stack todo app with authentication and database'"
+        },
+        {
+          "title": "UI Generation",
+          "desc": "Convert design prompt to production-ready website",
+          "code": "Prompt: Design a modern SaaS landing page with hero section, pricing table, and CTA buttons"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Frontend Development",
+          "text": "Generate a React component for a product card with image, title, price, and add-to-cart button with Tailwind CSS styling"
+        },
+        {
+          "label": "Full-Stack Development",
+          "text": "Build a complete Node.js API with Express, PostgreSQL database, authentication, and CRUD operations for a blog system"
+        },
+        {
+          "label": "Code Analysis",
+          "text": "Analyze this 10,000 line codebase and provide optimization recommendations for performance and maintainability"
+        },
+        {
+          "label": "Autonomous Automation",
+          "text": "Create an agent workflow that scrapes competitor pricing, analyzes market trends, and generates a competitive analysis report"
+        }
+      ],
+      "pricing": {
+        "note": "Kimi K2.6 is accessible through multiple pricing paths: free web chat, membership plans, API token billing, and open-source self-hosting. Membership plans include K2.6 access with agent credits and Kimi Code tools.",
+        "plans": [
+          {
+            "name": "Free Chat",
+            "price": "$0",
+            "per": "forever",
+            "popular": false,
+            "color": "#10B981",
+            "features": [
+              "Access to Kimi K2.6 in web chat interface",
+              "Limited agent credits",
+              "Basic research and code tools"
+            ]
+          },
+          {
+            "name": "Moderato",
+            "price": "$19",
+            "per": "per month",
+            "popular": false,
+            "color": "#3B82F6",
+            "features": [
+              "K2.6 in Kimi chat interface with agent credits",
+              "Kimi Code access and credits",
+              "Deep Research capability",
+              "Slides and Websites tools included"
+            ]
+          },
+          {
+            "name": "Allegretto",
+            "price": "$39",
+            "per": "per month",
+            "popular": false,
+            "color": "#8B5CF6",
+            "features": [
+              "Agent Swarm with up to 300 parallel sub-agents",
+              "More Kimi Code credits",
+              "Kimi Claw cloud deployment",
+              "Larger Professional Data quotas"
+            ]
+          },
+          {
+            "name": "API Token Billing",
+            "price": "$0.60",
+            "per": "per million input tokens",
+            "popular": true,
+            "color": "#F59E0B",
+            "features": [
+              "Pay-per-use token-based billing",
+              "OpenAI-compatible API",
+              "256K context window",
+              "Multimodal input support"
+            ]
+          },
+          {
+            "name": "Self-Hosted",
+            "price": "$0",
+            "per": "forever",
+            "popular": false,
+            "color": "#06B6D4",
+            "features": [
+              "Open-weight model on HuggingFace",
+              "Modified MIT License",
+              "Deploy with vLLM or SGLang",
+              "Full infrastructure control"
+            ]
+          }
+        ]
+      },
+      "link": "https://kimi.moonshot.cn"
+    },
+    {
+      "id": "listen-labs",
+      "name": "Listen Labs",
+      "company": "Listen Labs",
+      "category": "research",
+      "icon": "🎤",
+      "badge": "pro",
+      "color": "#1E90FF",
+      "price": "paid",
+      "priceLabel": "From $3,000/project",
+      "tags": [
+        "qualitative research",
+        "customer interviews",
+        "AI moderation",
+        "market research"
+      ],
+      "shortDesc": "AI-powered research platform that automates customer interviews and delivers insights in hours.",
+      "fullDesc": "Listen Labs is an AI-driven customer research platform that conducts personalized interviews at scale, replacing traditional surveys and focus groups. The platform automatically recruits participants, moderates AI conversations, analyzes responses, and generates executive-ready reports with insights, personas, and themes—all in hours instead of weeks.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Qualitative Research Platform"
+        },
+        {
+          "label": "Released",
+          "value": "2021"
+        },
+        {
+          "label": "Best for",
+          "value": "Enterprises needing large-scale customer research, concept testing, and brand research"
+        },
+        {
+          "label": "Pricing",
+          "value": "Custom enterprise pricing, starting around $3,000 per project"
+        }
+      ],
+      "features": [
+        "AI-moderated interviews across video, audio, and text channels with adaptive follow-up questions",
+        "Automated participant recruitment from 30M+ global panel or integration with third-party providers",
+        "Real-time transcription and translation in 50+ languages for international research",
+        "Intelligent analysis generating key themes, personas, and executive-ready reports automatically",
+        "Support for diverse stimuli including videos, images, Figma prototypes, and landing pages",
+        "Advanced fraud detection reducing invalid responses from 20% to nearly zero",
+        "Research Agent for segmented analysis, significance testing, and stakeholder deliverables",
+        "Integration with Claude, Notion, Figma, and other MCP-compatible tools via Listen MCP"
+      ],
+      "demo": [
+        {
+          "title": "Set Research Question",
+          "desc": "Define your research objective in natural language"
+        },
+        {
+          "title": "AI Generates Discussion Guide",
+          "desc": "The platform automatically creates an interview guide in seconds"
+        },
+        {
+          "title": "Recruit Participants",
+          "desc": "Listen finds and qualifies the right participants from its 30M+ network"
+        },
+        {
+          "title": "Conduct AI Interviews",
+          "desc": "AI interviewer conducts personalized conversations, asking follow-up questions"
+        },
+        {
+          "title": "Analyze Results",
+          "desc": "Platform automatically identifies themes, personas, and generates insights"
+        },
+        {
+          "title": "Generate Report",
+          "desc": "Receive executive-ready report with highlight reels and slide decks in hours"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Product Testing",
+          "text": "Test a new product concept with 100+ customers and understand their reactions, concerns, and likelihood to purchase"
+        },
+        {
+          "label": "Brand Research",
+          "text": "Explore how different audience segments perceive your brand compared to competitors"
+        },
+        {
+          "label": "Usability Testing",
+          "text": "Conduct screen-share walkthroughs to identify friction points and usability issues in your product"
+        },
+        {
+          "label": "Creative Testing",
+          "text": "Validate messaging, ads, and visuals to understand emotional impact across different demographics"
+        },
+        {
+          "label": "International Research",
+          "text": "Conduct simultaneous studies in native languages across multiple global markets"
+        }
+      ],
+      "pricing": {
+        "note": "Listen Labs operates on an enterprise-level, custom pricing model with project-based costs. Pricing does not include participant incentives, which are billed separately.",
+        "plans": [
+          {
+            "name": "Custom Enterprise",
+            "price": "Custom",
+            "per": "per project",
+            "popular": true,
+            "color": "#1E90FF",
+            "features": [
+              "AI-moderated interviews at scale",
+              "Unlimited participant recruitment from 30M+ panel",
+              "Multilingual research support (50+ languages)",
+              "Automated analysis and reporting",
+              "Research Agent for advanced analysis"
+            ]
+          }
+        ]
+      },
+      "link": "https://listen-labs.com"
     }
   ],
   "totw": {
-    "name": "Kanwas",
-    "tagline": "An open-source brain for your team",
-    "votesCount": 496,
-    "url": "https://www.producthunt.com/products/kanwas?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
-    "thumbnail": "https://ph-files.imgix.net/e4a685d6-1b32-49fb-810f-ec28ddd4674c.png?auto=format",
+    "name": "FlowMarket",
+    "tagline": "A social network of AI agents generating B2B deals",
+    "votesCount": 497,
+    "url": "https://www.producthunt.com/products/flowmarket-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
+    "thumbnail": "https://ph-files.imgix.net/a6f8e653-be2e-4aff-b85c-e79eff824864.png?auto=format",
     "rank": 1,
     "topics": [
-      "Productivity",
+      "Sales",
+      "Marketing",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-05-12T08:50:04.505Z"
+    "fetchedAt": "2026-05-13T08:54:11.491Z"
   },
   "lastWeeklyUpdate": "2026-05-08T08:06:08.987Z",
   "anthropicNews": [
     {
-      "date": "May 10, 2026",
-      "title": "AI training on fictional narratives influences model behavior",
-      "summary": "Anthropic research reveals internet portrayals of AI affect model alignment; Claude Haiku 4.5+ never engages in blackmail during testing.",
-      "url": "https://techcrunch.com/2026/05/10/anthropic-says-evil-portrayals-of-ai-were-responsible-for-claudes-blackmail-attempts/"
+      "date": "May 12, 2026",
+      "title": "SAP embeds Claude across enterprise AI platform",
+      "summary": "<cite index=\"7-2\">SAP will embed Claude across SAP's AI-enabled solution portfolio, powered by Joule and Joule agents.</cite>",
+      "url": "https://news.sap.com/2026/05/sap-anthropic-to-bring-claude-sap-business-ai-platform/"
     },
     {
       "date": "May 6, 2026",
-      "title": "Anthropic doubles Claude Code limits, signs SpaceX compute deal",
-      "summary": "<cite index=\"2-1\">Anthropic expands Claude Code and Claude API usage limits, doubling Pro, Max, Team, and seat-based Enterprise rate limits, with 300+ megawatts of new capacity from SpaceX.</cite>",
+      "title": "Claude Platform now available on AWS with full API features",
+      "summary": "<cite index=\"1-12\">Claude Platform on AWS brings the Claude API to Anthropic-managed infrastructure with AWS billing and IAM authentication.</cite>",
       "url": "https://releasebot.io/updates/anthropic"
     },
     {
       "date": "May 6, 2026",
-      "title": "Finance agent templates and Microsoft 365 integration launch",
-      "summary": "<cite index=\"11-7,11-8\">Ten ready-to-run agent templates for financial services work ship as plugins in Claude Cowork and Claude Code, enabling teams to deploy real financial work in days.</cite>",
-      "url": "https://anthropic.com/news"
+      "title": "Anthropic partners with SpaceX for 300MW compute capacity",
+      "summary": "<cite index=\"1-7,1-8\">Anthropic signed agreement with SpaceX to use all compute capacity at Colossus 1 data center, providing 300 megawatts of new capacity within the month.</cite>",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "May 6, 2026",
+      "title": "Claude Code usage limits doubled; new agent features released",
+      "summary": "<cite index=\"2-2\">Anthropic doubled Claude Code five hour limit for Pro, Max, Enterprise customers.</cite>",
+      "url": "https://simonwillison.net/2026/May/6/code-w-claude-2026/"
+    },
+    {
+      "date": "May 5, 2026",
+      "title": "Full Microsoft 365 integration and financial agents launched",
+      "summary": "<cite index=\"9-1\">Claude now functions as a single agent across Excel, PowerPoint, Word, and Outlook, carrying context across all four applications simultaneously.</cite>",
+      "url": "https://fortune.com/2026/05/05/anthropic-wall-street-financial-services-agents-jamie-dimon/"
     },
     {
       "date": "May 4, 2026",
-      "title": "Anthropic launches enterprise AI services joint venture",
-      "summary": "<cite index=\"29-3,29-4\">Anthropic announced a joint venture with Blackstone, Hellman & Friedman, and Goldman Sachs to deploy enterprise AI services.</cite>",
-      "url": "https://techcrunch.com/2026/05/04/anthropic-and-openai-are-both-launching-joint-ventures-for-enterprise-ai-services/"
-    },
-    {
-      "date": "Apr 16, 2026",
-      "title": "Claude Opus 4.7 released with stronger coding and vision",
-      "summary": "<cite index=\"4-18\">Opus 4.7 shows improvements in software engineering and complex coding tasks, plus better vision with higher resolution images.</cite>",
-      "url": "https://anthropic.com/news"
-    },
-    {
-      "date": "Apr 7, 2026",
-      "title": "Claude Mythos Preview announces Project Glasswing cybersecurity initiative",
-      "summary": "<cite index=\"1-1,1-2,1-6\">Anthropic announced Claude Mythos Preview, a new model strikingly capable at computer security, launching Project Glasswing to secure critical software.</cite>",
-      "url": "https://red.anthropic.com/2026/mythos-preview/"
+      "title": "Claude Opus 4.7 released with enhanced vision and coding",
+      "summary": "<cite index=\"6-3,6-4\">Opus 4.7 has substantially better vision and is more tasteful and creative, producing higher-quality interfaces, slides, and docs.</cite>",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7"
     }
   ],
-  "lastChecked": "2026-05-12T08:50:22.297Z"
+  "lastChecked": "2026-05-13T08:55:00.688Z"
 }
