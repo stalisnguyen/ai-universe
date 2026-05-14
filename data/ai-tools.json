@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-13T08:55:00.688Z",
+  "lastUpdated": "2026-05-14T08:48:19.179Z",
   "categories": [
     {
       "id": "llm",
@@ -13192,60 +13192,158 @@
         ]
       },
       "link": "https://listen-labs.com"
+    },
+    {
+      "id": "nvidia-ising",
+      "name": "NVIDIA Ising",
+      "company": "NVIDIA",
+      "category": "quantum",
+      "icon": "⚛️",
+      "badge": "new",
+      "color": "#76B900",
+      "price": "free",
+      "priceLabel": "Free / Open Source",
+      "tags": [
+        "quantum computing",
+        "error correction",
+        "calibration",
+        "open source"
+      ],
+      "shortDesc": "Open-source AI models for quantum processor calibration and error correction.",
+      "fullDesc": "NVIDIA Ising is the world's first family of open-source AI models designed to solve quantum computing's two biggest bottlenecks: processor calibration and error correction. It includes vision language models and 3D CNN architectures that reduce calibration time from days to hours and deliver 2.5x faster and 3x more accurate error correction than traditional approaches. Built for researchers and enterprises, it integrates seamlessly with NVIDIA's quantum software and hardware ecosystem.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Open-source AI Model Family"
+        },
+        {
+          "label": "Released",
+          "value": "April 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Quantum processor developers, researchers, and enterprises"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free (Apache-2.0 open source license)"
+        }
+      ],
+      "features": [
+        "Ising Calibration: 35B parameter vision-language model for automating quantum processor tuning with agentic workflows",
+        "Ising Decoding: Dual 3D CNN variants optimized for speed or accuracy in real-time quantum error correction",
+        "Pre-trained models available with fine-tuning frameworks and deployment workflows",
+        "2.5x faster performance and 3x higher accuracy compared to pyMatching and traditional decoders",
+        "Integrated with CUDA-Q for hybrid quantum-classical computing and NVQLink for QPU-GPU interconnection",
+        "Local deployment capability protecting proprietary quantum data and supporting on-site customization",
+        "Comprehensive toolkit including training data, workflow cookbook, and NIM microservices",
+        "Outperforms Gemini 3.1 Pro, Claude Opus 4.6, and GPT 5.4 on QCalEval quantum calibration benchmark"
+      ],
+      "demo": [
+        {
+          "title": "Access NVIDIA Ising Models",
+          "desc": "Models are available on GitHub, Hugging Face, and build.nvidia.com for immediate deployment and fine-tuning.",
+          "code": "git clone https://github.com/NVIDIA/Ising && cd Ising"
+        },
+        {
+          "title": "Deploy with NIM Microservices",
+          "desc": "Use NVIDIA NIM microservices to integrate Ising into your quantum infrastructure with minimal setup.",
+          "code": "nvidia-nim --model ising-calibration-1"
+        },
+        {
+          "title": "Fine-tune for Your Hardware",
+          "desc": "Customize Ising models for your specific quantum processor noise models and characteristics using provided frameworks.",
+          "code": "python fine_tune.py --model ising-decoding --dataset your_qpu_data"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Quantum Calibration",
+          "text": "Interpret quantum processor measurement data and recommend optimal calibration parameters to achieve target performance specifications within acceptable operating ranges."
+        },
+        {
+          "label": "Error Correction",
+          "text": "Process quantum error syndromes in real-time to determine optimal correction actions that minimize logical error rates while maintaining low latency for continuous quantum operation."
+        },
+        {
+          "label": "Hardware Optimization",
+          "text": "Analyze QPU experimental results across multiple qubit types including superconducting qubits, ion traps, neutral atoms, quantum dots, and improve system performance through adaptive calibration."
+        }
+      ],
+      "pricing": {
+        "note": "NVIDIA Ising is released as open-source software under the Apache 2.0 license at no cost, making it accessible to quantum researchers and enterprises globally.",
+        "plans": [
+          {
+            "name": "Open Source",
+            "price": "Free",
+            "per": "forever",
+            "popular": true,
+            "color": "#76B900",
+            "features": [
+              "Full access to Ising Calibration and Ising Decoding models",
+              "Pre-trained model weights and training frameworks",
+              "GitHub, Hugging Face, and build.nvidia.com hosting",
+              "Local deployment and fine-tuning capabilities",
+              "NVIDIA NIM microservices for integration"
+            ]
+          }
+        ]
+      },
+      "link": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Launches-Ising-the-Worlds-First-Open-AI-Models-to-Accelerate-the-Path-to-Useful-Quantum-Computers/"
     }
   ],
   "totw": {
-    "name": "FlowMarket",
-    "tagline": "A social network of AI agents generating B2B deals",
-    "votesCount": 497,
-    "url": "https://www.producthunt.com/products/flowmarket-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
-    "thumbnail": "https://ph-files.imgix.net/a6f8e653-be2e-4aff-b85c-e79eff824864.png?auto=format",
+    "name": "Monid 2.0",
+    "tagline": "OpenRouter for agent tools",
+    "votesCount": 480,
+    "url": "https://www.producthunt.com/products/monid?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
+    "thumbnail": "https://ph-files.imgix.net/a1760f0d-d140-447f-8050-ce9cee137b9c.jpeg?auto=format",
     "rank": 1,
     "topics": [
-      "Sales",
-      "Marketing",
-      "Artificial Intelligence"
+      "Developer Tools",
+      "Artificial Intelligence",
+      "YC Application"
     ],
-    "fetchedAt": "2026-05-13T08:54:11.491Z"
+    "fetchedAt": "2026-05-14T08:47:21.973Z"
   },
   "lastWeeklyUpdate": "2026-05-08T08:06:08.987Z",
   "anthropicNews": [
     {
-      "date": "May 12, 2026",
-      "title": "SAP embeds Claude across enterprise AI platform",
-      "summary": "<cite index=\"7-2\">SAP will embed Claude across SAP's AI-enabled solution portfolio, powered by Joule and Joule agents.</cite>",
-      "url": "https://news.sap.com/2026/05/sap-anthropic-to-bring-claude-sap-business-ai-platform/"
-    },
-    {
-      "date": "May 6, 2026",
-      "title": "Claude Platform now available on AWS with full API features",
-      "summary": "<cite index=\"1-12\">Claude Platform on AWS brings the Claude API to Anthropic-managed infrastructure with AWS billing and IAM authentication.</cite>",
-      "url": "https://releasebot.io/updates/anthropic"
-    },
-    {
-      "date": "May 6, 2026",
-      "title": "Anthropic partners with SpaceX for 300MW compute capacity",
-      "summary": "<cite index=\"1-7,1-8\">Anthropic signed agreement with SpaceX to use all compute capacity at Colossus 1 data center, providing 300 megawatts of new capacity within the month.</cite>",
+      "date": "May 14, 2026",
+      "title": "Claude Design launched for visual design collaboration",
+      "summary": "<cite index=\"11-1\">New Anthropic Labs product lets users collaborate with Claude to create polished visual work like designs, prototypes, slides, one-pagers, and more</cite>",
       "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "May 6, 2026",
-      "title": "Claude Code usage limits doubled; new agent features released",
-      "summary": "<cite index=\"2-2\">Anthropic doubled Claude Code five hour limit for Pro, Max, Enterprise customers.</cite>",
-      "url": "https://simonwillison.net/2026/May/6/code-w-claude-2026/"
+      "date": "May 12, 2026",
+      "title": "Claude Platform on AWS now generally available",
+      "summary": "<cite index=\"12-3,12-4\">Full Claude API brought to AWS with native authentication, billing, and access to Messages API, Files API, Message Batches API, Claude Managed Agents, Agent Skills, code execution, and tool use</cite>",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "May 11, 2026",
+      "title": "Claude releases legal MCP connectors and practice-area plugins",
+      "summary": "<cite index=\"12-2\">20+ new legal MCP connectors and 12 practice-area plugins expand how law firms and in-house teams work across research, contracts, discovery, matter management, and legal aid</cite>",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "May 8, 2026",
+      "title": "Code with Claude 2026 event announces new agent features",
+      "summary": "<cite index=\"13-22\">Multi-agent orchestration, Dreaming for agent memory improvement, and Outcomes feature for specifying and achieving goals announced at developer event</cite>",
+      "url": "https://every.to/chain-of-thought/inside-anthropic-s-2026-developer-conference"
     },
     {
       "date": "May 5, 2026",
-      "title": "Full Microsoft 365 integration and financial agents launched",
-      "summary": "<cite index=\"9-1\">Claude now functions as a single agent across Excel, PowerPoint, Word, and Outlook, carrying context across all four applications simultaneously.</cite>",
-      "url": "https://fortune.com/2026/05/05/anthropic-wall-street-financial-services-agents-jamie-dimon/"
+      "title": "Anthropic launches $1.5B financial services joint venture",
+      "summary": "<cite index=\"18-8,18-9\">Partnership with Goldman Sachs and Blackstone launches firm aimed at speeding adoption of Claude AI across companies, deploying Anthropic's model directly inside businesses</cite>",
+      "url": "https://www.cnbc.com/2026/05/04/anthropic-goldman-blackstone-ai-venture.html"
     },
     {
       "date": "May 4, 2026",
-      "title": "Claude Opus 4.7 released with enhanced vision and coding",
-      "summary": "<cite index=\"6-3,6-4\">Opus 4.7 has substantially better vision and is more tasteful and creative, producing higher-quality interfaces, slides, and docs.</cite>",
+      "title": "Claude Opus 4.7 released with improved coding and vision",
+      "summary": "<cite index=\"2-4,2-5\">Model brings substantially better vision at higher resolution and is more tasteful and creative when completing professional tasks, producing higher-quality interfaces, slides, and docs</cite>",
       "url": "https://www.anthropic.com/news/claude-opus-4-7"
     }
   ],
-  "lastChecked": "2026-05-13T08:55:00.688Z"
+  "lastChecked": "2026-05-14T08:48:19.179Z"
 }
