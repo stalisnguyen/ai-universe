@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-15T09:39:15.221Z",
+  "lastUpdated": "2026-05-16T08:15:17.075Z",
   "categories": [
     {
       "id": "llm",
@@ -13729,12 +13729,146 @@
         ]
       },
       "link": "https://ineffable.ai"
+    },
+    {
+      "id": "accio-work",
+      "name": "Accio Work",
+      "company": "Alibaba",
+      "category": "agent",
+      "icon": "🤖",
+      "badge": "new",
+      "color": "#FF6B35",
+      "price": "freemium",
+      "priceLabel": "Free with paid plans for advanced features",
+      "tags": [
+        "enterprise-agents",
+        "b2b-automation",
+        "no-code",
+        "sourcing"
+      ],
+      "shortDesc": "Plug-and-play enterprise AI agent platform for SMEs to automate sourcing, compliance, and global commerce operations.",
+      "fullDesc": "Accio Work is a no-code enterprise AI agent platform by Alibaba International, launched in March 2026, that deploys specialized teams of autonomous agents to handle end-to-end business operations. It enables SMEs and solo founders to automate compliance across 100+ markets, conduct supplier negotiations, manage marketing campaigns, and coordinate logistics without requiring technical setup or coding expertise.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Enterprise AI Agent Platform"
+        },
+        {
+          "label": "Released",
+          "value": "March 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "SMEs, solo entrepreneurs, cross-border e-commerce"
+        },
+        {
+          "label": "Pricing",
+          "value": "Freemium with tiered paid plans"
+        }
+      ],
+      "features": [
+        "Multi-agent orchestration assembles specialized teams that work in parallel on complex business tasks",
+        "Automated compliance handling for VAT filing, tax refunds, and customs documentation across 100+ markets",
+        "Autonomous supplier negotiation and RFQ generation with real-time supplier matching",
+        "Local-first architecture keeps sensitive data on your device while routing LLM requests through secure gateways",
+        "Support for multiple LLMs including Gemini, GPT-4o, Claude, and Qwen with per-agent model selection",
+        "Skills marketplace to create, install, and share reusable agent capabilities for specific workflows",
+        "Messaging platform integration with Telegram, Discord, WeChat, DingTalk, and Lark for direct communication",
+        "Scheduled automations for recurring tasks with cron-like natural language or UI-based scheduling"
+      ],
+      "demo": [
+        {
+          "title": "Setting Up Your First Agent",
+          "desc": "Create a custom agent by defining its role, capabilities, and which LLM model to use. Assign it specific skills from the marketplace or build custom ones for specialized tasks.",
+          "code": "Create compliance agent to handle VAT filings across UK, EU, and US markets"
+        },
+        {
+          "title": "Sourcing Automation",
+          "desc": "Deploy a sourcing agent that generates RFQs, identifies qualified suppliers from Alibaba's network, and conducts multi-round price negotiations automatically.",
+          "code": "Find suppliers for ergonomic office chairs with MOQ under 100 units"
+        },
+        {
+          "title": "Building an Online Store",
+          "desc": "Use agent teams to research products, analyze market trends, source suppliers, and design a complete online storefront from research to go-live.",
+          "code": "Create and launch dropshipping store for sustainable home products"
+        },
+        {
+          "title": "Scheduled Operations Monitoring",
+          "desc": "Set up automated tasks that run on a schedule, such as daily competitor analysis, inventory checks, or performance reports delivered to Slack or Telegram.",
+          "code": "Schedule daily market trend report delivery to team Slack channel"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Sourcing",
+          "text": "Find suppliers for minimalist leather wallets with custom engraving capability. Check pricing for 500+ unit orders and compile supplier comparison with lead times."
+        },
+        {
+          "label": "Compliance",
+          "text": "Generate VAT filing documents for my EU sales last quarter across France, Germany, and Spain. Calculate tax refund eligibility and prepare customs declarations."
+        },
+        {
+          "label": "Market Research",
+          "text": "Analyze trending product categories in fitness accessories for next 6 months. Identify top-performing products, competitor pricing, and untapped niches."
+        },
+        {
+          "label": "Automation",
+          "text": "Set up a daily report that checks our product inventory levels across all listings and alerts me via Telegram if any SKU drops below 50 units."
+        }
+      ],
+      "pricing": {
+        "note": "Accio Work operates on a freemium model with a generous free tier for individual users and teams. Paid plans unlock advanced features, higher automation limits, and premium model access. Early adopters received special promotional access including 2-week unlimited model usage.",
+        "plans": [
+          {
+            "name": "Free",
+            "price": "$0",
+            "per": "forever",
+            "popular": false,
+            "color": "#F5F5F5",
+            "features": [
+              "Create and manage basic AI agents",
+              "Access to basic skills and integrations",
+              "Limited scheduled automations",
+              "Community support"
+            ]
+          },
+          {
+            "name": "Pro",
+            "price": "Custom",
+            "per": "per month",
+            "popular": true,
+            "color": "#FF6B35",
+            "features": [
+              "Unlimited agents and automations",
+              "Advanced skills and custom skill creation",
+              "Priority LLM model routing",
+              "Enhanced browser control and integrations",
+              "Priority email support"
+            ]
+          },
+          {
+            "name": "Enterprise",
+            "price": "Custom",
+            "per": "per month",
+            "popular": false,
+            "color": "#2C3E50",
+            "features": [
+              "Dedicated account management",
+              "Custom security and data sovereignty options",
+              "On-premise deployment available",
+              "SLA guarantees and 24/7 support",
+              "Custom integrations and white-label options"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.accio.com"
     }
   ],
   "totw": {
     "name": "Spellar 3.0",
     "tagline": "AI Meeting companion with cross-meeting memory",
-    "votesCount": 502,
+    "votesCount": 526,
     "url": "https://www.producthunt.com/products/spellar?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/06ff0df7-631d-44e8-8951-92f5147a43fe.gif?auto=format",
     "rank": 1,
@@ -13743,46 +13877,46 @@
       "Meetings",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-05-15T09:19:56.146Z"
+    "fetchedAt": "2026-05-16T08:14:12.817Z"
   },
   "lastWeeklyUpdate": "2026-05-15T09:36:04.855Z",
   "anthropicNews": [
     {
+      "date": "May 14, 2026",
+      "title": "Anthropic introduces 12 new legal plugins for law firms",
+      "summary": "<cite index=\"10-1\">Anthropic unveiled 12 new AI tools for specific practice areas including corporate, regulatory, and employment law.</cite>",
+      "url": "https://news.bloomberglaw.com/legal-ops-and-tech/anthropic-pushes-deeper-into-legal-work-with-claude-updates"
+    },
+    {
+      "date": "May 14, 2026",
+      "title": "Gates Foundation partnership: $200 million for AI global development",
+      "summary": "<cite index=\"12-3,12-4\">Partnership spans agriculture improvements, skills records, career guidance, and K-12 educational tools across the US and sub-Saharan Africa.</cite>",
+      "url": "https://www.anthropic.com/news/gates-foundation-partnership"
+    },
+    {
       "date": "May 13, 2026",
-      "title": "Claude Code weekly limits increase by 50% through July 13",
-      "summary": "<cite index=\"8-1\">Anthropic raises Claude Code weekly limits by 50% through July 13 for Pro, Max, Team and Enterprise</cite>.",
-      "url": "https://twitter.com/ClaudeDevs"
+      "title": "Claude for Small Business launches with tool integrations",
+      "summary": "<cite index=\"2-11\">Claude for Small Business brings Claude into tools like QuickBooks, PayPal, HubSpot with ready-to-run workflows.</cite>",
+      "url": "https://www.anthropic.com/news/claude-for-small-business"
     },
     {
-      "date": "May 11, 2026",
-      "title": "Claude Platform now available on AWS with full API features",
-      "summary": "<cite index=\"1-19,1-20\">Claude Platform on AWS brings the full Claude API feature set to AWS customers with managed agents, code execution, web tools, skills, prompt caching, and new models</cite>.",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "May 6, 2026",
-      "title": "Anthropic partners with SpaceX Colossus for compute, doubles usage limits",
-      "summary": "<cite index=\"5-17\">Anthropic partners with SpaceX to use all of the capacity of their Colossus data center</cite>.",
-      "url": "https://www.anthropic.com/news"
+      "date": "May 14, 2026",
+      "title": "Subscription billing changes: Agent SDK credits introduced",
+      "summary": "<cite index=\"28-4,28-6\">Starting June 15, third-party agent usage draws from separate monthly credits: $20 for Pro, $100 for Max 5x, $200 for Max 20x.</cite>",
+      "url": "https://zed.dev/blog/anthropic-subscription-changes"
     },
     {
       "date": "May 6, 2026",
-      "title": "Claude for Small Business launches with ready-to-run workflows",
-      "summary": "<cite index=\"6-4,6-5\">Claude for Small Business includes prebuilt agentic workflows and connectors in QuickBooks, PayPal, HubSpot, Canva, DocuSign, Google Workspace and Microsoft 365, handling payroll planning, invoice chasing, month-end reconciliation and sales campaigns</cite>.",
-      "url": "https://www.anthropic.com/news"
+      "title": "Claude Code rate limits doubled for Pro/Max/Enterprise",
+      "summary": "<cite index=\"7-2\">Anthropic doubled Claude Code five-hour limit for Pro, Max, and Enterprise customers.</cite>",
+      "url": "https://simonwillison.net/2026/May/6/code-w-claude-2026/"
     },
     {
-      "date": "May 4, 2026",
-      "title": "Claude Opus 4.7 released with stronger coding and vision",
-      "summary": "<cite index=\"12-30,12-31,12-32\">Claude Opus 4.7 is now generally available with improvements in software engineering, complex long-running coding tasks, and better vision allowing it to see images in higher resolution</cite>.",
-      "url": "https://www.anthropic.com/news/claude-opus-4-7"
-    },
-    {
-      "date": "May 4, 2026",
-      "title": "Anthropic launches agents for financial services sector",
-      "summary": "<cite index=\"20-2,20-3\">Anthropic expands footprint in financial services with pre-built AI agents for banks and Claude Opus 4.7, announced at company's invite-only financial services briefing</cite>.",
-      "url": "https://fortune.com/2026/05/05/anthropic-wall-street-financial-services-agents-jamie-dimon/"
+      "date": "May 6, 2026",
+      "title": "Claude Platform on AWS goes general availability",
+      "summary": "<cite index=\"4-25\">Claude Opus 4.7, Sonnet 4.6, and Haiku 4.5 available on Claude Platform on AWS with managed agents and code execution.</cite>",
+      "url": "https://releasebot.io/updates/anthropic/claude"
     }
   ],
-  "lastChecked": "2026-05-15T09:39:15.221Z"
+  "lastChecked": "2026-05-16T08:15:17.075Z"
 }
