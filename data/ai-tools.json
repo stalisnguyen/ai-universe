@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-16T08:15:17.075Z",
+  "lastUpdated": "2026-05-17T08:31:29.056Z",
   "categories": [
     {
       "id": "llm",
@@ -13863,12 +13863,497 @@
         ]
       },
       "link": "https://www.accio.com"
+    },
+    {
+      "id": "sierra",
+      "name": "Sierra",
+      "company": "Sierra (founded by Bret Taylor and Clay Bavor)",
+      "category": "agent",
+      "icon": "🤖",
+      "badge": "hot",
+      "color": "#1f2937",
+      "price": "paid",
+      "priceLabel": "Custom Enterprise Pricing (Starting ~$150K/year)",
+      "tags": [
+        "Customer Service",
+        "Voice & Chat",
+        "Enterprise AI",
+        "Action-Taking Agents"
+      ],
+      "shortDesc": "Enterprise Agent OS for autonomous customer service across chat, voice, and email with action execution.",
+      "fullDesc": "Sierra is an Agent Operating System built for enterprises to deploy AI agents that handle customer service autonomously across multiple channels. Agents can process transactions, manage returns, update systems, and resolve issues without human intervention. The platform serves Fortune 50 companies including WeightWatchers, SiriusXM, and Sonos.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Agent Operating System (Agent OS)"
+        },
+        {
+          "label": "Released",
+          "value": "Early 2024"
+        },
+        {
+          "label": "Best for",
+          "value": "Large enterprises automating high-volume customer service"
+        },
+        {
+          "label": "Pricing",
+          "value": "Custom enterprise contracts, outcome-based pricing model"
+        }
+      ],
+      "features": [
+        "Multi-channel deployment across chat, voice, SMS, WhatsApp, email, and ChatGPT integration",
+        "Agent Data Platform for persistent memory and personalized customer context across interactions",
+        "Agent Studio 2.0 with no-code journey builder and collaborative Workspaces for team-based development",
+        "Agent SDK with composable skills and developer tools for complex workflow automation",
+        "Constellation of 15+ AI models (OpenAI, Anthropic, Meta) routed intelligently by task complexity",
+        "PCI-DSS Level 1 payment processing and multi-factor authentication within conversations",
+        "Ghostwriter self-service agent builder using natural language, SOPs, and transcripts",
+        "Explorer analytics engine with continuous improvement recommendations and anomaly detection"
+      ],
+      "demo": [
+        {
+          "title": "Build an Agent with Agent Studio",
+          "desc": "Define customer journeys in plain English, configure knowledge sources, and deploy across channels without code",
+          "code": ""
+        },
+        {
+          "title": "Deploy Multi-Channel Support",
+          "desc": "Route customer conversations through voice, chat, or email with unified brand voice and system access",
+          "code": ""
+        },
+        {
+          "title": "Process Complex Transactions",
+          "desc": "Agents authenticate users, retrieve account data, process returns, and update CRM records autonomously",
+          "code": ""
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Support Resolution",
+          "text": "Build an agent that handles subscription cancellations with retention offers personalized to customer history"
+        },
+        {
+          "label": "Transaction Processing",
+          "text": "Create an agent that processes returns, calculates refunds, and updates inventory in real-time"
+        },
+        {
+          "label": "Voice Automation",
+          "text": "Deploy a voice agent that authenticates callers and resolves billing inquiries without transfers"
+        }
+      ],
+      "pricing": {
+        "note": "Sierra uses outcome-based pricing with no public rate card. Estimates based on enterprise contracts suggest $150K-350K annually depending on volume, integrations, and professional services.",
+        "plans": [
+          {
+            "name": "Enterprise (Custom)",
+            "price": "Contact Sales",
+            "per": "custom",
+            "popular": true,
+            "color": "#1f2937",
+            "features": [
+              "Custom conversation volume and interaction limits",
+              "Dedicated implementation and CSM team",
+              "Multi-system integrations and API access",
+              "Agent optimization and performance consulting",
+              "Priority support and voice channel capability"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.sierraai.com"
+    },
+    {
+      "id": "runware",
+      "name": "Runware",
+      "company": "Runware",
+      "category": "multimodal",
+      "icon": "⚡",
+      "badge": "hot",
+      "color": "#00D9FF",
+      "price": "freemium",
+      "priceLabel": "Pay-per-use / Custom Enterprise",
+      "tags": [
+        "API",
+        "image generation",
+        "video generation",
+        "fast inference"
+      ],
+      "shortDesc": "Unified AI API for image, video, audio, and text generation at up to 90% lower cost.",
+      "fullDesc": "Runware is a developer-focused platform offering a single unified API for accessing 400K+ generative AI models. It powers image generation, video synthesis, audio creation, 3D generation, and LLM tasks through its proprietary Sonic Inference Engine, delivering sub-second inference speeds with transparent pay-per-use pricing. Built for startups, enterprises, and creative professionals who need fast, affordable AI media generation without complex infrastructure.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "AI Inference API / Multimodal Generation Platform"
+        },
+        {
+          "label": "Released",
+          "value": "2023"
+        },
+        {
+          "label": "Best for",
+          "value": "Developers building AI-powered products, content creators, enterprises needing high-throughput media generation"
+        },
+        {
+          "label": "Pricing",
+          "value": "Pay-per-use, starting at $0.0006/image; custom enterprise plans available"
+        }
+      ],
+      "features": [
+        "Access to 400K+ preloaded AI models including FLUX, Stable Diffusion, Kling, and custom LoRAs",
+        "Sub-second image generation and rapid video processing via Sonic Inference Engine custom hardware",
+        "Text-to-image, image-to-image, inpainting, outpainting, and ControlNet parameter control",
+        "Video generation from text or images at 62% lower cost than competitors",
+        "Audio synthesis, 3D asset generation, and LLM inference through single unified API endpoint",
+        "Commercial usage rights included for official models; upload and run custom fine-tuned models",
+        "Interactive Playground for testing models before integration with real-time cost preview",
+        "REST API and WebSocket support with consistent request/response patterns across all modalities"
+      ],
+      "demo": [
+        {
+          "title": "Generate an image with text prompt",
+          "desc": "Create a high-quality image from natural language description using FLUX model",
+          "code": "curl -X POST https://api.runware.ai/v1 \\\n  -H 'Content-Type: application/json' \\\n  -H 'Authorization: Bearer YOUR_API_KEY' \\\n  -d '[{\"taskType\": \"imageInference\", \"taskUUID\": \"unique-id\", \"positivePrompt\": \"A golden retriever in a park\", \"model\": \"runware:400@1\", \"width\": 1024, \"height\": 1024}]'"
+        },
+        {
+          "title": "Generate video from text",
+          "desc": "Create AI video at ultra-low cost using supported video generation models",
+          "code": "{\"taskType\": \"videoInference\", \"taskUUID\": \"unique-id\", \"positivePrompt\": \"A person walking through a forest\", \"model\": \"kling-video\", \"duration\": 5}"
+        },
+        {
+          "title": "Test in Playground",
+          "desc": "Experiment with any model instantly on Runware website before API integration",
+          "code": "Visit https://www.runware.ai and use the interactive Playground interface"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Image Generation",
+          "text": "A serene landscape with mountains, crystal-clear lake, and sunset lighting, cinematic quality, 4K resolution"
+        },
+        {
+          "label": "Video Generation",
+          "text": "A futuristic spaceship flying through an asteroid field with dynamic camera movements and explosions"
+        },
+        {
+          "label": "Advanced Control",
+          "text": "A portrait of a woman in the style of oil painting, using FLUX model with ControlNet guidance and LoRA styling"
+        }
+      ],
+      "pricing": {
+        "note": "Runware uses transparent, on-demand pay-per-use pricing that varies by model and parameters like resolution and quality. No minimum commitments or hidden fees; account balance never expires.",
+        "plans": [
+          {
+            "name": "Pay-Per-Use (Freemium)",
+            "price": "From $0.0006",
+            "per": "per image",
+            "popular": true,
+            "color": "#00D9FF",
+            "features": [
+              "400K+ AI models access",
+              "No credit card required to start",
+              "Free test credits included",
+              "Real-time cost tracking",
+              "Transparent pricing with no hidden fees"
+            ]
+          },
+          {
+            "name": "Enterprise",
+            "price": "Custom",
+            "per": "custom pricing",
+            "popular": false,
+            "color": "#0099CC",
+            "features": [
+              "Dedicated infrastructure and capacity",
+              "Custom SLAs and priority routing",
+              "Volume-based pricing discounts",
+              "High-throughput production support",
+              "Direct sales and technical support"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.runware.ai"
+    },
+    {
+      "id": "oboe",
+      "name": "Oboe",
+      "company": "Oboe",
+      "category": "education",
+      "icon": "🎓",
+      "badge": "hot",
+      "color": "#6366F1",
+      "price": "freemium",
+      "priceLabel": "Free / From $15/mo",
+      "tags": [
+        "AI Learning",
+        "Course Generation",
+        "Personalized",
+        "Multi-format"
+      ],
+      "shortDesc": "AI-powered learning platform that generates personalized courses on any topic.",
+      "fullDesc": "Oboe is an AI-native learning platform that instantly creates tailored educational courses from simple prompts, offering multiple content formats including articles, podcasts, lectures, games, and quizzes. Built by the Anchor co-founders, it uses multi-agent architecture to generate high-quality, personalized learning experiences that adapt to individual preferences and learning styles. Ideal for lifelong learners, students, and professionals seeking on-demand education across any subject.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "AI Learning Platform"
+        },
+        {
+          "label": "Released",
+          "value": "September 2025"
+        },
+        {
+          "label": "Best for",
+          "value": "Just-in-time learning, curious learners, students"
+        },
+        {
+          "label": "Pricing",
+          "value": "Freemium with paid tiers at $15-40/month"
+        }
+      ],
+      "features": [
+        "Instant course generation from prompts across any topic",
+        "Multiple learning formats: articles, podcasts, lectures, games, quizzes",
+        "AI-generated audio content with natural text-to-speech narration",
+        "Personalized recommendations adapting to user interests and activity",
+        "Multi-agent fact-checking to verify and audit generated content",
+        "Progress tracking with mastery heat maps and spaced repetition",
+        "Lightweight course designs with interactive flashcards and assessments"
+      ],
+      "demo": [
+        {
+          "title": "Enter Learning Goal",
+          "desc": "Type a topic or learning objective into the prompt box",
+          "code": "Learn how photosynthesis works"
+        },
+        {
+          "title": "AI Generates Course",
+          "desc": "System creates personalized course with multiple content formats in seconds"
+        },
+        {
+          "title": "Choose Learning Format",
+          "desc": "Select from deep dive article, podcast, lecture, quiz, or game format"
+        },
+        {
+          "title": "Explore & Master",
+          "desc": "Use flashcards, quizzes, and follow recommendations to deepen knowledge"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Academic",
+          "text": "Create a high school biology course on ATP: The Cell's Energy Currency with diagrams and misconceptions section"
+        },
+        {
+          "label": "Professional",
+          "text": "How interest rates work and their impact on personal finance"
+        },
+        {
+          "label": "Casual Learning",
+          "text": "The economic and cultural impact of the Silk Road on modern commerce"
+        },
+        {
+          "label": "Skill Building",
+          "text": "Prepare me to pass the ServSafe culinary exam with practical scenarios"
+        }
+      ],
+      "pricing": {
+        "note": "Oboe recently shifted to unlimited free course generation following Series A funding. Previously offered tiered limits; now emphasizes freemium model with premium features in paid tiers.",
+        "plans": [
+          {
+            "name": "Free",
+            "price": "$0",
+            "per": "forever",
+            "popular": true,
+            "color": "#E0E7FF",
+            "features": [
+              "Unlimited course generation",
+              "Access to all learning formats",
+              "Personalized recommendations",
+              "Basic progress tracking"
+            ]
+          },
+          {
+            "name": "Plus",
+            "price": "$15",
+            "per": "per month",
+            "popular": false,
+            "color": "#6366F1",
+            "features": [
+              "Everything in Free",
+              "Advanced analytics and insights",
+              "Priority content updates",
+              "Early access to new features"
+            ]
+          },
+          {
+            "name": "Pro",
+            "price": "$40",
+            "per": "per month",
+            "popular": false,
+            "color": "#4F46E5",
+            "features": [
+              "Everything in Plus",
+              "Institutional licensing",
+              "Custom course branding",
+              "Advanced API access"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.oboe.ai"
+    },
+    {
+      "id": "parallel-web-systems",
+      "name": "Parallel Web Systems",
+      "company": "Parallel Web Systems",
+      "category": "search",
+      "icon": "🔍",
+      "badge": "hot",
+      "color": "#0066FF",
+      "price": "freemium",
+      "priceLabel": "Free ($0.005 per search request) / Paid",
+      "tags": [
+        "web search",
+        "research api",
+        "ai agents",
+        "data extraction"
+      ],
+      "shortDesc": "Web search and research APIs built for AI agents with structured outputs and citations.",
+      "fullDesc": "Parallel Web Systems provides purpose-built web search and research APIs designed specifically for AI agents and autonomous systems. The platform enables agents to perform real-time web searches, extract structured data, and conduct deep research tasks with verifiable citations and minimal hallucinations. Built for enterprises and AI developers who need accurate, reliable web data at predictable costs.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "API Infrastructure"
+        },
+        {
+          "label": "Released",
+          "value": "2024"
+        },
+        {
+          "label": "Best for",
+          "value": "AI agents, research workflows, data enrichment, enterprise automation"
+        },
+        {
+          "label": "Pricing",
+          "value": "Pay-as-you-go per API call ($0.005-$10 per 1000 requests)"
+        }
+      ],
+      "features": [
+        "Real-time web search API returning ranked URLs with token-optimized excerpts for AI consumption",
+        "Research API for deep dives into topics with fact extraction and citations to reduce hallucinations",
+        "Data extraction API converting unstructured web content into structured JSON/CSV formats",
+        "Chat API integration for interactive chat applications with web context",
+        "Monitor API for continuous tracking of web changes and new events",
+        "MCP (Model Context Protocol) server integration with Claude Code and other AI tools",
+        "SOC2 Type II certified for enterprise security and compliance",
+        "Pre-built integrations with LangChain, AutoGPT, CrewAI, and other agent frameworks"
+      ],
+      "demo": [
+        {
+          "title": "Basic Search Query",
+          "desc": "Query the web search API to find current information about a topic with ranked results and compressed excerpts optimized for AI processing.",
+          "code": "curl -X POST https://api.parallel.ai/search -H 'Authorization: Bearer YOUR_API_KEY' -d '{\"query\": \"latest AI agent frameworks 2026\"}'"
+        },
+        {
+          "title": "Extract Page Content",
+          "desc": "Extract full page content from specific URLs and convert to structured data format for downstream processing.",
+          "code": "curl -X POST https://api.parallel.ai/extract -H 'Authorization: Bearer YOUR_API_KEY' -d '{\"url\": \"https://example.com\", \"objective\": \"extract product details\"}'"
+        },
+        {
+          "title": "Research with Citations",
+          "desc": "Conduct deep research on a topic with the Task API, returning comprehensive findings with cited sources.",
+          "code": "curl -X POST https://api.parallel.ai/task -H 'Authorization: Bearer YOUR_API_KEY' -d '{\"query\": \"competitive analysis of web search APIs\", \"processor\": \"base\"}'"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Financial Analysis",
+          "text": "Search for latest earnings reports, analyst ratings, and market sentiment for [company]. Extract key metrics and provide cited sources for investment decision-making."
+        },
+        {
+          "label": "Legal Research",
+          "text": "Find case law, regulations, and precedents related to [legal topic]. Extract relevant sections and provide full citations for litigation research."
+        },
+        {
+          "label": "Competitive Intelligence",
+          "text": "Monitor and extract information about [competitor] including product launches, pricing changes, and market positioning. Track changes over specified frequency."
+        },
+        {
+          "label": "Content Generation",
+          "text": "Search for current information, trends, and sources on [topic]. Provide structured data with citations for accurate content creation."
+        },
+        {
+          "label": "Sales Intelligence",
+          "text": "Extract company information, key contacts, news, and financial data for [target account] from public web sources with verifiable citations."
+        }
+      ],
+      "pricing": {
+        "note": "Parallel uses pay-as-you-go pricing per API request with transparent, predictable costs. Offers 16,000 free search requests for getting started. No token-based pricing—you always know exact costs before running queries.",
+        "plans": [
+          {
+            "name": "Free Tier",
+            "price": "Free",
+            "per": "forever",
+            "popular": false,
+            "color": "#E8F0FE",
+            "features": [
+              "16,000 free search requests",
+              "10 results per request",
+              "Access to Search API",
+              "Perfect for development and testing"
+            ]
+          },
+          {
+            "name": "Search API",
+            "price": "$0.005",
+            "per": "per request",
+            "popular": false,
+            "color": "#0066FF",
+            "features": [
+              "10 page results + excerpts",
+              "< 5 second latency",
+              "600 requests/minute rate limit",
+              "SOC2 certified infrastructure",
+              "$0.001 per additional page extracted"
+            ]
+          },
+          {
+            "name": "Extract API",
+            "price": "$1",
+            "per": "per 1K results",
+            "popular": true,
+            "color": "#0066FF",
+            "features": [
+              "Full webpage content extraction",
+              "1-3 second latency (cached)",
+              "60-90 second latency (live)",
+              "Structured data conversion",
+              "Ideal for data enrichment"
+            ]
+          },
+          {
+            "name": "Research API (Lite/Base)",
+            "price": "$3-$10",
+            "per": "per 1K requests",
+            "popular": false,
+            "color": "#0066FF",
+            "features": [
+              "Deep research with citations",
+              "Lite: narrow entity/domain queries",
+              "Base: wide topic area queries",
+              "Hourly/Daily/Weekly monitoring",
+              "Structured JSON outputs"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.parallel.com"
     }
   ],
   "totw": {
     "name": "Spellar 3.0",
     "tagline": "AI Meeting companion with cross-meeting memory",
-    "votesCount": 526,
+    "votesCount": 539,
     "url": "https://www.producthunt.com/products/spellar?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/06ff0df7-631d-44e8-8951-92f5147a43fe.gif?auto=format",
     "rank": 1,
@@ -13877,46 +14362,46 @@
       "Meetings",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-05-16T08:14:12.817Z"
+    "fetchedAt": "2026-05-17T08:29:51.272Z"
   },
   "lastWeeklyUpdate": "2026-05-15T09:36:04.855Z",
   "anthropicNews": [
     {
       "date": "May 14, 2026",
-      "title": "Anthropic introduces 12 new legal plugins for law firms",
-      "summary": "<cite index=\"10-1\">Anthropic unveiled 12 new AI tools for specific practice areas including corporate, regulatory, and employment law.</cite>",
-      "url": "https://news.bloomberglaw.com/legal-ops-and-tech/anthropic-pushes-deeper-into-legal-work-with-claude-updates"
-    },
-    {
-      "date": "May 14, 2026",
-      "title": "Gates Foundation partnership: $200 million for AI global development",
-      "summary": "<cite index=\"12-3,12-4\">Partnership spans agriculture improvements, skills records, career guidance, and K-12 educational tools across the US and sub-Saharan Africa.</cite>",
+      "title": "Anthropic forms $200M partnership with Gates Foundation",
+      "summary": "<cite index=\"12-3\">Anthropic is making agriculture-specific improvements to Claude and releasing tools as public goods</cite>",
       "url": "https://www.anthropic.com/news/gates-foundation-partnership"
     },
     {
+      "date": "May 14, 2026",
+      "title": "PwC expands partnership, deploys Claude enterprise-wide",
+      "summary": "<cite index=\"5-4,5-8\">PwC will roll out Claude Code and Cowork to hundreds of thousands of professionals globally</cite>",
+      "url": "https://www.anthropic.com/news/pwc-expanded-partnership"
+    },
+    {
       "date": "May 13, 2026",
-      "title": "Claude for Small Business launches with tool integrations",
-      "summary": "<cite index=\"2-11\">Claude for Small Business brings Claude into tools like QuickBooks, PayPal, HubSpot with ready-to-run workflows.</cite>",
+      "title": "Claude for Small Business launches with integrated workflows",
+      "summary": "<cite index=\"6-16,6-20\">Claude for Small Business puts Claude inside tools like QuickBooks, PayPal, HubSpot, and Canva with ready-to-run workflows</cite>",
       "url": "https://www.anthropic.com/news/claude-for-small-business"
     },
     {
-      "date": "May 14, 2026",
-      "title": "Subscription billing changes: Agent SDK credits introduced",
-      "summary": "<cite index=\"28-4,28-6\">Starting June 15, third-party agent usage draws from separate monthly credits: $20 for Pro, $100 for Max 5x, $200 for Max 20x.</cite>",
-      "url": "https://zed.dev/blog/anthropic-subscription-changes"
+      "date": "May 6, 2026",
+      "title": "Claude rate limits increased, SpaceX Colossus deal announced",
+      "summary": "<cite index=\"9-2\">Anthropic doubled Claude Code five-hour limit for Pro, Max, Enterprise customers</cite>",
+      "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "May 6, 2026",
-      "title": "Claude Code rate limits doubled for Pro/Max/Enterprise",
-      "summary": "<cite index=\"7-2\">Anthropic doubled Claude Code five-hour limit for Pro, Max, and Enterprise customers.</cite>",
-      "url": "https://simonwillison.net/2026/May/6/code-w-claude-2026/"
+      "date": "May 4, 2026",
+      "title": "Claude Opus 4.7 released with vision improvements",
+      "summary": "<cite index=\"8-3,8-4\">Opus 4.7 has substantially better vision capabilities and produces higher-quality interfaces and documents</cite>",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7"
     },
     {
-      "date": "May 6, 2026",
-      "title": "Claude Platform on AWS goes general availability",
-      "summary": "<cite index=\"4-25\">Claude Opus 4.7, Sonnet 4.6, and Haiku 4.5 available on Claude Platform on AWS with managed agents and code execution.</cite>",
-      "url": "https://releasebot.io/updates/anthropic/claude"
+      "date": "May 3, 2026",
+      "title": "Claude releases 20+ legal MCP connectors and plugins",
+      "summary": "<cite index=\"4-16,4-17\">Claude released legal MCP connectors and practice-area plugins expanding workflow support for law firms</cite>",
+      "url": "https://www.anthropic.com/news"
     }
   ],
-  "lastChecked": "2026-05-16T08:15:17.075Z"
+  "lastChecked": "2026-05-17T08:31:29.056Z"
 }
