@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-17T08:31:29.056Z",
+  "lastUpdated": "2026-05-18T10:21:41.652Z",
   "categories": [
     {
       "id": "llm",
@@ -14351,57 +14351,57 @@
     }
   ],
   "totw": {
-    "name": "Spellar 3.0",
-    "tagline": "AI Meeting companion with cross-meeting memory",
-    "votesCount": 539,
-    "url": "https://www.producthunt.com/products/spellar?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
-    "thumbnail": "https://ph-files.imgix.net/06ff0df7-631d-44e8-8951-92f5147a43fe.gif?auto=format",
+    "name": "OpenHuman",
+    "tagline": "An open source AI harness built with the human in mind",
+    "votesCount": 583,
+    "url": "https://www.producthunt.com/products/openhuman?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
+    "thumbnail": "https://ph-files.imgix.net/918b11cd-52e9-4f01-8f82-de1b756957cd.png?auto=format",
     "rank": 1,
     "topics": [
       "Productivity",
-      "Meetings",
+      "Open Source",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-05-17T08:29:51.272Z"
+    "fetchedAt": "2026-05-18T10:20:35.358Z"
   },
   "lastWeeklyUpdate": "2026-05-15T09:36:04.855Z",
   "anthropicNews": [
     {
       "date": "May 14, 2026",
       "title": "Anthropic forms $200M partnership with Gates Foundation",
-      "summary": "<cite index=\"12-3\">Anthropic is making agriculture-specific improvements to Claude and releasing tools as public goods</cite>",
-      "url": "https://www.anthropic.com/news/gates-foundation-partnership"
-    },
-    {
-      "date": "May 14, 2026",
-      "title": "PwC expands partnership, deploys Claude enterprise-wide",
-      "summary": "<cite index=\"5-4,5-8\">PwC will roll out Claude Code and Cowork to hundreds of thousands of professionals globally</cite>",
-      "url": "https://www.anthropic.com/news/pwc-expanded-partnership"
+      "summary": "Major new strategic partnership between Anthropic and the Gates Foundation to advance AI development and global impact initiatives.",
+      "url": "https://www.anthropic.com/news"
     },
     {
       "date": "May 13, 2026",
-      "title": "Claude for Small Business launches with integrated workflows",
-      "summary": "<cite index=\"6-16,6-20\">Claude for Small Business puts Claude inside tools like QuickBooks, PayPal, HubSpot, and Canva with ready-to-run workflows</cite>",
+      "title": "Introducing Claude for Small Business",
+      "summary": "New product suite with AI connectors for QuickBooks, PayPal, HubSpot, Canva, Docusign, Google Workspace, and Microsoft 365.",
       "url": "https://www.anthropic.com/news/claude-for-small-business"
     },
     {
-      "date": "May 6, 2026",
-      "title": "Claude rate limits increased, SpaceX Colossus deal announced",
-      "summary": "<cite index=\"9-2\">Anthropic doubled Claude Code five-hour limit for Pro, Max, Enterprise customers</cite>",
-      "url": "https://www.anthropic.com/news"
+      "date": "May 5, 2026",
+      "title": "Agents for financial services with Microsoft 365 integration",
+      "summary": "Launch of pre-built AI agents for Wall Street banks with full Microsoft 365 integration across Excel, PowerPoint, Word, and Outlook.",
+      "url": "https://fortune.com/2026/05/05/anthropic-wall-street-financial-services-agents-jamie-dimon/"
     },
     {
       "date": "May 4, 2026",
-      "title": "Claude Opus 4.7 released with vision improvements",
-      "summary": "<cite index=\"8-3,8-4\">Opus 4.7 has substantially better vision capabilities and produces higher-quality interfaces and documents</cite>",
+      "title": "Claude Opus 4.7 released with new capabilities",
+      "summary": "New flagship model with better vision resolution, improved reasoning, and stronger agentic coding performance across benchmarks.",
       "url": "https://www.anthropic.com/news/claude-opus-4-7"
     },
     {
-      "date": "May 3, 2026",
-      "title": "Claude releases 20+ legal MCP connectors and plugins",
-      "summary": "<cite index=\"4-16,4-17\">Claude released legal MCP connectors and practice-area plugins expanding workflow support for law firms</cite>",
+      "date": "April 27, 2026",
+      "title": "Anthropic opens Sydney office in Australia expansion",
+      "summary": "Anthropic names Theo Hourmouzis as General Manager of Australia & New Zealand and officially opens Sydney headquarters.",
       "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "April 17, 2026",
+      "title": "Claude Design launched for creating visuals",
+      "summary": "New experimental Anthropic Labs product enabling users to create prototypes, slides, and designs using Claude with design system support.",
+      "url": "https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/"
     }
   ],
-  "lastChecked": "2026-05-17T08:31:29.056Z"
+  "lastChecked": "2026-05-18T10:21:41.652Z"
 }
