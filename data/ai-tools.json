@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19T10:00:16.765Z",
+  "lastUpdated": "2026-05-20T09:50:49.656Z",
   "categories": [
     {
       "id": "llm",
@@ -14353,7 +14353,7 @@
   "totw": {
     "name": "OpenHuman",
     "tagline": "An open source AI harness built with the human in mind",
-    "votesCount": 606,
+    "votesCount": 612,
     "url": "https://www.producthunt.com/products/openhuman?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/918b11cd-52e9-4f01-8f82-de1b756957cd.png?auto=format",
     "rank": 1,
@@ -14362,46 +14362,40 @@
       "Open Source",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-05-19T09:59:46.316Z"
+    "fetchedAt": "2026-05-20T09:49:46.248Z"
   },
   "lastWeeklyUpdate": "2026-05-15T09:36:04.855Z",
   "anthropicNews": [
     {
       "date": "May 14, 2026",
-      "title": "Claude remains ad-free",
-      "summary": "Anthropic commits to keeping Claude ad-free, explaining why advertising incentives conflict with helpful AI.",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "May 14, 2026",
-      "title": "$200M partnership with Gates Foundation",
-      "summary": "Anthropic commits $200M over 4 years for AI in global health, life sciences, education, and economic mobility.",
-      "url": "https://www.anthropic.com/news/gates-foundation-partnership"
-    },
-    {
-      "date": "May 14, 2026",
-      "title": "PwC deploys Claude for enterprise transformation",
-      "summary": "PwC expands partnership with Anthropic to deploy Claude Code and Cowork across hundreds of thousands of professionals.",
+      "title": "PwC expands partnership with Anthropic for enterprise AI",
+      "summary": "PwC deploys Claude Code and Cowork across hundreds of thousands of professionals.",
       "url": "https://www.anthropic.com/news/pwc-expanded-partnership"
     },
     {
       "date": "May 13, 2026",
-      "title": "Claude Code weekly limits increased 50%",
-      "summary": "Anthropic raises Claude Code weekly limits by 50% through July 13 for all Pro, Max, Team plans.",
-      "url": "https://www.anthropic.com/news"
+      "title": "Claude for Small Business launched",
+      "summary": "<cite index=\"6-16\">Package of connectors and ready-to-run workflows put Claude inside tools small businesses depend on</cite>.",
+      "url": "https://www.anthropic.com/news/claude-for-small-business"
     },
     {
-      "date": "May 13, 2026",
-      "title": "Claude for Small Business launched",
-      "summary": "<cite index=\"3-22,3-23\">Claude for Small Business brings Claude into tools like QuickBooks, PayPal, HubSpot with ready-to-run workflows for payroll, invoicing, sales, marketing, and month-end close.</cite>",
-      "url": "https://www.anthropic.com/news"
+      "date": "May 14, 2026",
+      "title": "Anthropic partners with Gates Foundation for $200M commitment",
+      "summary": "<cite index=\"10-1\">$200 million in grant funding, Claude usage credits, and technical support for programs in global health, life sciences, education, and economic mobility</cite>.",
+      "url": "https://www.anthropic.com/news/gates-foundation-partnership"
     },
     {
       "date": "May 6, 2026",
-      "title": "Claude Opus 4.7 released with improved vision",
-      "summary": "<cite index=\"6-4,6-5\">Claude Opus 4.7 has substantially better vision and is more tasteful when completing professional tasks, producing higher-quality interfaces and docs.</cite>",
+      "title": "Code w/ Claude 2026 developer event, agent features released",
+      "summary": "<cite index=\"8-4\">Five features shipped: Dreaming, Outcomes, multi-agent orchestration, Claude Finance with 10 pre-built agents, and Add-ins</cite>.",
+      "url": "https://www.anthropic.com/"
+    },
+    {
+      "date": "April 16, 2026",
+      "title": "Claude Opus 4.7 released",
+      "summary": "<cite index=\"7-17,7-18\">Available across all Claude products and APIs, pricing remains same as Opus 4.6</cite>.",
       "url": "https://www.anthropic.com/news/claude-opus-4-7"
     }
   ],
-  "lastChecked": "2026-05-19T10:00:16.765Z"
+  "lastChecked": "2026-05-20T09:50:49.656Z"
 }
