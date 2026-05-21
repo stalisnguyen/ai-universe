@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T09:50:49.656Z",
+  "lastUpdated": "2026-05-21T09:58:33.039Z",
   "categories": [
     {
       "id": "llm",
@@ -14353,7 +14353,7 @@
   "totw": {
     "name": "OpenHuman",
     "tagline": "An open source AI harness built with the human in mind",
-    "votesCount": 612,
+    "votesCount": 616,
     "url": "https://www.producthunt.com/products/openhuman?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/918b11cd-52e9-4f01-8f82-de1b756957cd.png?auto=format",
     "rank": 1,
@@ -14362,40 +14362,46 @@
       "Open Source",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-05-20T09:49:46.248Z"
+    "fetchedAt": "2026-05-21T09:57:00.942Z"
   },
   "lastWeeklyUpdate": "2026-05-15T09:36:04.855Z",
   "anthropicNews": [
     {
+      "date": "May 19, 2026",
+      "title": "KPMG Integrates Claude Across 276,000+ Workforce",
+      "summary": "KPMG and Anthropic announce global alliance with Claude embedded in Digital Gateway platform for all employees.",
+      "url": "https://kpmg.com/us/en/media/news/kpmg-anthropic-global-alliance.html"
+    },
+    {
+      "date": "May 18, 2026",
+      "title": "Anthropic Acquires Stainless",
+      "summary": "Anthropic acquires Stainless, a leader in SDKs and MCP server tooling for AI development.",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
       "date": "May 14, 2026",
-      "title": "PwC expands partnership with Anthropic for enterprise AI",
-      "summary": "PwC deploys Claude Code and Cowork across hundreds of thousands of professionals.",
+      "title": "PwC Expands Strategic Alliance with Anthropic",
+      "summary": "<cite index=\"5-5,5-8,5-9\">Anthropic and PwC announce expanded partnership with Claude Code and Cowork rollout, joint Center of Excellence, and program to train 30,000 professionals.</cite>",
       "url": "https://www.anthropic.com/news/pwc-expanded-partnership"
     },
     {
       "date": "May 13, 2026",
-      "title": "Claude for Small Business launched",
-      "summary": "<cite index=\"6-16\">Package of connectors and ready-to-run workflows put Claude inside tools small businesses depend on</cite>.",
+      "title": "Claude for Small Business Launches",
+      "summary": "<cite index=\"6-16,6-20\">Anthropic launches Claude for Small Business with connectors for QuickBooks, PayPal, HubSpot, Canva, Docusign, Google Workspace, and Microsoft 365.</cite>",
       "url": "https://www.anthropic.com/news/claude-for-small-business"
     },
     {
-      "date": "May 14, 2026",
-      "title": "Anthropic partners with Gates Foundation for $200M commitment",
-      "summary": "<cite index=\"10-1\">$200 million in grant funding, Claude usage credits, and technical support for programs in global health, life sciences, education, and economic mobility</cite>.",
-      "url": "https://www.anthropic.com/news/gates-foundation-partnership"
-    },
-    {
       "date": "May 6, 2026",
-      "title": "Code w/ Claude 2026 developer event, agent features released",
-      "summary": "<cite index=\"8-4\">Five features shipped: Dreaming, Outcomes, multi-agent orchestration, Claude Finance with 10 pre-built agents, and Add-ins</cite>.",
-      "url": "https://www.anthropic.com/"
+      "title": "Code with Claude 2026 Conference Announces Updates",
+      "summary": "<cite index=\"10-14,10-15,10-16\">Anthropic announces increased rate limits for Claude Code, doubled five-hour limit for Pro/Max/Enterprise customers, and SpaceX Colossus data center partnership.</cite>",
+      "url": "https://www.anthropic.com/news"
     },
     {
       "date": "April 16, 2026",
-      "title": "Claude Opus 4.7 released",
-      "summary": "<cite index=\"7-17,7-18\">Available across all Claude products and APIs, pricing remains same as Opus 4.6</cite>.",
+      "title": "Claude Opus 4.7 Released with Safeguards",
+      "summary": "<cite index=\"14-3,14-5\">Claude Opus 4.7 released as most powerful generally available model with cybersecurity safeguards blocking high-risk requests.</cite>",
       "url": "https://www.anthropic.com/news/claude-opus-4-7"
     }
   ],
-  "lastChecked": "2026-05-20T09:50:49.656Z"
+  "lastChecked": "2026-05-21T09:58:33.039Z"
 }
