@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-22T10:03:12.693Z",
+  "lastUpdated": "2026-05-23T08:29:12.599Z",
   "categories": [
     {
       "id": "llm",
@@ -14684,12 +14684,247 @@
           "fullDesc": "Parallel Web Systems提供专为AI代理和自主系统设计的网络搜索和研究API。该平台使代理能够执行实时网络搜索、提取结构化数据，并通过可验证的引文和最少幻觉进行深度研究任务。为需要准确、可靠网络数据且成本可预测的企业和AI开发者而构建。"
         }
       }
+    },
+    {
+      "id": "google-antigravity-2-0",
+      "name": "Google Antigravity 2.0",
+      "company": "Google",
+      "category": "agent",
+      "icon": "🚀",
+      "badge": "new",
+      "color": "#4285F4",
+      "price": "freemium",
+      "priceLabel": "Free / From $20/mo",
+      "tags": [
+        "agentic-coding",
+        "agent-orchestration",
+        "developer-tools",
+        "multi-agent"
+      ],
+      "shortDesc": "Agent-first development platform with multi-agent orchestration, desktop app, CLI, and SDK.",
+      "fullDesc": "<cite index=\"2-10\">Google Antigravity is an agent-first development platform for developers to take an idea and turn it into a production-ready app.</cite> <cite index=\"1-1\">The company unveiled Antigravity 2.0 with an updated desktop app, a CLI tool, and an SDK for custom workflows.</cite> <cite index=\"1-4,1-5\">The desktop app allows users to orchestrate multiple agents and execute tasks simultaneously, design custom subagent workflows and schedule tasks that can automatically run in the background.</cite>",
+      "info": [
+        {
+          "label": "Type",
+          "value": "<cite index=\"2-10\">Agent-first development platform</cite>"
+        },
+        {
+          "label": "Released",
+          "value": "<cite index=\"8-3\">May 2026</cite>"
+        },
+        {
+          "label": "Best for",
+          "value": "<cite index=\"9-9\">Managing complex tasks, orchestrating agents to refactor code, generate unit tests, or scaffold service components</cite>"
+        },
+        {
+          "label": "Pricing",
+          "value": "<cite index=\"10-34,10-35\">Three pricing layers with compute-based billing instead of daily prompt limits</cite>"
+        }
+      ],
+      "features": [
+        "<cite index=\"1-4\">Orchestrate multiple agents and execute tasks simultaneously</cite>",
+        "<cite index=\"1-5\">Design custom subagent workflows and schedule tasks that automatically run in the background</cite>",
+        "<cite index=\"2-15\">Antigravity CLI delivers a lightweight, high-velocity product surface for creating new agents instantly without a graphical user interface</cite>",
+        "<cite index=\"2-17,2-18\">SDK provides programmatic access to the agent harness and lets you define custom agent behaviors and host them on your infrastructure of choice</cite>",
+        "<cite index=\"1-8\">Native voice command support</cite>",
+        "<cite index=\"1-6\">Integrates projects with Google AI Studio, Android, and Firebase</cite>",
+        "<cite index=\"6-4\">Built-in cross-platform terminal sandboxing, credential masking, and hardened Git policies</cite>",
+        "<cite index=\"1-7\">Powered by Gemini 3.5 Flash model, co-developed using Antigravity</cite>"
+      ],
+      "demo": [
+        {
+          "title": "Multi-Agent Orchestration",
+          "desc": "<cite index=\"8-12\">Act as a central hub where you orchestrate multiple AI agents running in parallel, spin up dynamic subagents for split workflows, and schedule tasks to run in the background</cite>",
+          "code": ""
+        },
+        {
+          "title": "Parallel Agent Execution",
+          "desc": "<cite index=\"8-7,8-8,8-9\">Live demo showed Antigravity 2.0's army of parallel agents build a working operating system core from scratch with token cost under $1,000, then ran a live Doom clone coded directly on top of that OS</cite>",
+          "code": ""
+        },
+        {
+          "title": "CLI Usage",
+          "desc": "<cite index=\"8-31,8-32\">Terminal-native CLI lets you build and run agents without ever touching a GUI, optimized for tmux users</cite>",
+          "code": "agy create agent-name"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Code Refactoring",
+          "text": "Refactor this legacy Python module to use async/await patterns across all I/O operations"
+        },
+        {
+          "label": "Test Generation",
+          "text": "Generate comprehensive unit tests with 90%+ coverage for this TypeScript service"
+        },
+        {
+          "label": "System Design",
+          "text": "Build a microservice architecture for a real-time collaborative document editor"
+        }
+      ],
+      "pricing": {
+        "note": "<cite index=\"10-34,10-35\">Google restructured pricing with three tiers using compute-based billing instead of daily prompt limits, meaning complex tasks consume more quota than simple prompts</cite>",
+        "plans": [
+          {
+            "name": "Free",
+            "price": "$0",
+            "per": "forever",
+            "popular": false,
+            "color": "#5F6368",
+            "features": [
+              "Basic agent creation",
+              "Limited compute quota",
+              "Desktop and CLI access"
+            ]
+          },
+          {
+            "name": "Pro",
+            "price": "$20",
+            "per": "per month",
+            "popular": false,
+            "color": "#4285F4",
+            "features": [
+              "Increased compute quota",
+              "Multi-agent orchestration",
+              "Custom subagents",
+              "Background task scheduling"
+            ]
+          },
+          {
+            "name": "AI Ultra",
+            "price": "$100",
+            "per": "per month",
+            "popular": true,
+            "color": "#FBBC04",
+            "features": [
+              "<cite index=\"10-40\">Realistic minimum to avoid hitting quota limits with heavy multi-agent parallel workflows</cite>",
+              "Full agent capabilities",
+              "Managed Agents API access",
+              "Enterprise security and compliance"
+            ]
+          }
+        ]
+      },
+      "link": "https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements/"
+    },
+    {
+      "id": "google-pics",
+      "name": "Google Pics",
+      "company": "Google",
+      "category": "image",
+      "icon": "🎨",
+      "badge": "new",
+      "color": "#4285F4",
+      "price": "freemium",
+      "priceLabel": "Free with Google Workspace subscription",
+      "tags": [
+        "AI design",
+        "image generation",
+        "Workspace integration",
+        "collaborative editing"
+      ],
+      "shortDesc": "AI-powered design and image generation tool built into Google Workspace for creating professional visuals from text prompts.",
+      "fullDesc": "Google Pics is an AI-powered design and image-generation app integrated into Google Workspace that enables users to create social media graphics, invitations, marketing materials, and mockups using simple text prompts. The tool combines Nano Banana 2 image generation with Gemini-powered editing that allows users to modify specific elements without regenerating entire designs, making it accessible to everyone from educators to small business owners.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "AI Design & Image Generation Tool"
+        },
+        {
+          "label": "Released",
+          "value": "May 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Social media graphics, invitations, marketing materials, business presentations"
+        },
+        {
+          "label": "Pricing",
+          "value": "Included with Google AI Ultra subscription (rolling out summer 2026)"
+        }
+      ],
+      "features": [
+        "Generate professional graphics and designs from simple text prompts without design experience",
+        "Edit specific image elements by clicking and commenting, similar to Google Docs feedback",
+        "Object segmentation to move, resize, or transform individual elements in generated images",
+        "Text editing and translation tools that preserve font style and aesthetics",
+        "Native integration with Google Workspace apps including Docs, Slides, and Drive",
+        "Collaborative canvases with shared editing and simultaneous user collaboration",
+        "Manual direct editing of text and elements without requiring new prompts",
+        "Download, copy, print, and share designs directly from the tool"
+      ],
+      "demo": [
+        {
+          "title": "Generate from prompt",
+          "desc": "Enter a text prompt describing the design you want to create",
+          "code": "Create a professional birthday party invitation with blue and gold colors"
+        },
+        {
+          "title": "Edit specific elements",
+          "desc": "Click on any element in the generated design and leave a comment to request changes",
+          "code": "Change the party time from 3 PM to 5 PM"
+        },
+        {
+          "title": "Collaborate and share",
+          "desc": "Share the canvas with teammates for simultaneous editing and feedback",
+          "code": "Share design canvas with marketing team for approval"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Social Media Graphics",
+          "text": "Create an Instagram post for a coffee shop summer promotion with vibrant colors and modern fonts"
+        },
+        {
+          "label": "Event Invitations",
+          "text": "Design a wedding invitation with elegant floral borders and gold accents"
+        },
+        {
+          "label": "Marketing Materials",
+          "text": "Generate a professional product flyer for a tech startup with minimalist design"
+        },
+        {
+          "label": "Educational Content",
+          "text": "Create a classroom poster about the water cycle with colorful illustrations"
+        }
+      ],
+      "pricing": {
+        "note": "Google Pics is included with Google AI Ultra and Google AI Pro subscriptions. Initially launching to limited testers, with broader rollout to Google AI Ultra subscribers in summer 2026.",
+        "plans": [
+          {
+            "name": "Google AI Ultra",
+            "price": "Included",
+            "per": "per month",
+            "popular": true,
+            "color": "#4285F4",
+            "features": [
+              "Full access to Google Pics",
+              "Unlimited design generation and editing",
+              "Team collaboration features",
+              "Workspace integration"
+            ]
+          },
+          {
+            "name": "Google AI Pro",
+            "price": "Included",
+            "per": "per month",
+            "popular": false,
+            "color": "#34A853",
+            "features": [
+              "Access to Google Pics",
+              "Design generation and basic editing",
+              "Workspace integration"
+            ]
+          }
+        ]
+      },
+      "link": "https://techcrunch.com/2026/05/19/ai-design-tools-are-the-next-big-battleground-and-google-is-going-all-in-at-io-2026/"
     }
   ],
   "totw": {
     "name": "StoreClaw",
     "tagline": "Grow your store profits with agents that know how to sell",
-    "votesCount": 655,
+    "votesCount": 687,
     "url": "https://www.producthunt.com/products/storeclaw?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/407049a2-0be3-4b8d-a7c0-4fc5b9754db2.png?auto=format",
     "rank": 1,
@@ -14698,46 +14933,46 @@
       "E-Commerce",
       "Marketing automation"
     ],
-    "fetchedAt": "2026-05-22T09:42:12.058Z"
+    "fetchedAt": "2026-05-23T08:28:03.370Z"
   },
   "lastWeeklyUpdate": "2026-05-22T09:59:53.812Z",
   "anthropicNews": [
     {
       "date": "May 19, 2026",
-      "title": "Claude remains ad-free, announces ad-free commitment",
-      "summary": "Anthropic formally commits to keeping Claude ad-free and explains why advertising is incompatible with helpful AI.",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "May 18, 2026",
-      "title": "Anthropic acquires Stainless for SDK and MCP tools",
-      "summary": "Anthropic acquires Stainless, a leader in SDKs and Model Context Protocol server tooling.",
+      "title": "KPMG integrates Claude across 276,000+ employees",
+      "summary": "KPMG and Anthropic announce strategic alliance integrating Claude into KPMG's Digital Gateway platform for enterprise workforce.",
       "url": "https://www.anthropic.com/news"
     },
     {
       "date": "May 14, 2026",
-      "title": "Anthropic forms $200M partnership with Gates Foundation",
-      "summary": "Strategic $200 million partnership announced to expand AI access and impact globally.",
-      "url": "https://www.anthropic.com/news"
+      "title": "Anthropic partners with Gates Foundation for $200M commitment",
+      "summary": "Four-year partnership providing grant funding, Claude credits, and support for health, life sciences, education, and economic mobility programs.",
+      "url": "https://www.anthropic.com/news/gates-foundation-partnership"
     },
     {
       "date": "May 13, 2026",
-      "title": "Claude for Small Business launches with pre-built workflows",
-      "summary": "<cite index=\"2-15\">Claude for Small Business brings Claude into tools like QuickBooks, PayPal, HubSpot with ready-to-run workflows</cite>.",
+      "title": "Claude for Small Business launched with 15 integrated workflows",
+      "summary": "New product with connectors for QuickBooks, PayPal, HubSpot, and other tools automating payroll, invoicing, sales, and financial tasks.",
       "url": "https://www.anthropic.com/news"
     },
     {
       "date": "May 6, 2026",
-      "title": "Code with Claude 2026: Managed Agents features launch",
-      "summary": "<cite index=\"5-6\">Anthropic shipped managed-agent multi-agent orchestration, Claude Code routines, advisor tool, and CI auto-fix capabilities</cite>.",
+      "title": "Anthropic announces SpaceX Colossus supercluster compute deal",
+      "summary": "Agreement to allocate all capacity in SpaceX's Colossus supercluster to Claude, doubling rate limits and removing peak-hour restrictions.",
       "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "April 16, 2026",
-      "title": "Claude Opus 4.7 released with improved reasoning",
-      "summary": "<cite index=\"3-4\">Claude Opus 4.7 shows better results than Opus 4.6 across a range of benchmarks</cite>.",
+      "date": "Apr 16, 2026",
+      "title": "Claude Opus 4.7 released with 3x vision resolution improvement",
+      "summary": "Latest flagship model with stronger coding, high-resolution vision (2576px), and cybersecurity safeguards; same $5/$25 pricing as Opus 4.6.",
       "url": "https://www.anthropic.com/news/claude-opus-4-7"
+    },
+    {
+      "date": "May 7, 2026",
+      "title": "Research: Claude translates AI thoughts into human-readable text",
+      "summary": "New interpretability study trains Claude to convert internal numerical representations into understandable explanations.",
+      "url": "https://www.anthropic.com/research"
     }
   ],
-  "lastChecked": "2026-05-22T10:03:12.693Z"
+  "lastChecked": "2026-05-23T08:29:12.599Z"
 }
