@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-23T08:29:12.599Z",
+  "lastUpdated": "2026-05-24T08:41:59.239Z",
   "categories": [
     {
       "id": "llm",
@@ -14919,12 +14919,231 @@
         ]
       },
       "link": "https://techcrunch.com/2026/05/19/ai-design-tools-are-the-next-big-battleground-and-google-is-going-all-in-at-io-2026/"
+    },
+    {
+      "id": "palo-alto-networks-prisma-airs-3-0",
+      "name": "Palo Alto Networks Prisma AIRS 3.0",
+      "company": "Palo Alto Networks",
+      "category": "security",
+      "icon": "🛡️",
+      "badge": "new",
+      "color": "#EC1C24",
+      "price": "paid",
+      "priceLabel": "Enterprise Pricing",
+      "tags": [
+        "AI Security",
+        "Agent Protection",
+        "Runtime Security",
+        "Agentic AI"
+      ],
+      "shortDesc": "Comprehensive AI security platform securing autonomous agents, apps, models and data end-to-end.",
+      "fullDesc": "<cite index=\"2-2\">Palo Alto Networks has advanced its AI security platform with Prisma AIRS 3.0, securing the agentic AI lifecycle and enabling enterprises to move from observation to safe autonomous execution.</cite> <cite index=\"2-5\">Prisma AIRS 3.0 closes this gap, providing visibility and securing agents from design to runtime as they execute complex tasks independently.</cite> It's designed for enterprises rapidly deploying autonomous AI systems who need comprehensive visibility and governance across cloud, SaaS, and endpoint environments.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Enterprise AI Security Platform"
+        },
+        {
+          "label": "Released",
+          "value": "March 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Enterprise AI governance, agentic AI security, autonomous agent orchestration"
+        },
+        {
+          "label": "Pricing",
+          "value": "Enterprise (quote-based), no public free tier"
+        }
+      ],
+      "features": [
+        "<cite index=\"3-11\">Organizations can now instantly inventory AI agents, models, and connections across their entire environment.</cite>",
+        "<cite index=\"5-27\">Agent Artifact Scanning extends model scanning to agent artifacts, analyzing agent code, MCP servers, as well as skills for unsafe permissions, hidden vulnerabilities and indirect injection paths.</cite>",
+        "<cite index=\"5-28\">Agent Red Teaming builds on AI Red Teaming with a multiagent architecture that simulates real adversaries, testing how agents behave under conditions, such as tool misuse and manipulated inputs.</cite>",
+        "<cite index=\"5-29\">Agent Posture Management continuously assesses risk on agents operating across 12 different agentic SaaS and Cloud platforms, providing a real-time understanding of exposure as systems evolve.</cite>",
+        "<cite index=\"14-5\">It secures your next-generation AI applications, AI models, and AI datasets from network threats such as prompt injections, sensitive data leakage, insecure output (for example, malware and URLs), and model DoS attacks.</cite>",
+        "<cite index=\"12-29\">It prevents 30+ prompt injection and jailbreak techniques, scans for 1,000+ sensitive data patterns, discovers AI agents across cloud/SaaS/endpoints, assigns agent identities with RBAC and audit trails, runs red team simulations, and filters 8 categories of toxic content.</cite>",
+        "<cite index=\"14-11\">AI Runtime API secures your AI applications, AI data, and AI agents by embedding Security-as-Code directly into your source code.</cite>",
+        "<cite index=\"5-1\">Mapping enterprise agents across cloud and SaaS environments, endpoint agents (including vibe coding agents) running on developer systems and browser-based agents.</cite>"
+      ],
+      "demo": [
+        {
+          "title": "Agent Discovery Scan",
+          "desc": "System inventories all AI agents across cloud, SaaS, and endpoint environments with full visibility into agent capabilities and connections.",
+          "code": ""
+        },
+        {
+          "title": "Artifact Security Assessment",
+          "desc": "Platform analyzes agent code, MCP servers, and skills for vulnerabilities, unsafe permissions, and injection attack paths before deployment.",
+          "code": ""
+        },
+        {
+          "title": "Automated Red Team Simulation",
+          "desc": "Multi-agent red teaming architecture tests autonomous behavior against tool misuse, prompt injection, and adversarial inputs in real-world scenarios.",
+          "code": ""
+        },
+        {
+          "title": "Runtime Threat Detection",
+          "desc": "Real-time monitoring detects and blocks prompt injections, malicious code, sensitive data leakage, and toxic content in agent communications.",
+          "code": ""
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Security Assessment",
+          "text": "Audit our AI agents for unmanaged identities, excessive permissions, and runtime behavior risks across our cloud and SaaS platforms"
+        },
+        {
+          "label": "Governance Setup",
+          "text": "Configure RBAC policies and audit trails for agent access across our infrastructure with automated compliance reporting"
+        },
+        {
+          "label": "Threat Simulation",
+          "text": "Run red team exercises against our agents to test resilience to prompt injection, data exfiltration, and tool misuse attacks"
+        }
+      ],
+      "pricing": {
+        "note": "<cite index=\"12-2\">Pricing and deployment complexity target enterprise.</cite> Custom enterprise pricing based on deployment size and agent complexity.",
+        "plans": [
+          {
+            "name": "Enterprise Plan",
+            "price": "Custom",
+            "per": "per month",
+            "popular": true,
+            "color": "#EC1C24",
+            "features": [
+              "Unlimited agent discovery and monitoring",
+              "Agent artifact scanning and red teaming",
+              "Agent posture management across 12+ platforms",
+              "Runtime security with prompt injection prevention",
+              "SaaS and on-premises deployment options"
+            ]
+          }
+        ]
+      },
+      "link": "https://paloaltonetworks.com"
+    },
+    {
+      "id": "alteryx-agent-studio",
+      "name": "Alteryx Agent Studio",
+      "company": "Alteryx",
+      "category": "agent",
+      "icon": "🤖",
+      "badge": "new",
+      "color": "#1F4788",
+      "price": "paid",
+      "priceLabel": "Enterprise (Custom)",
+      "tags": [
+        "agentic-ai",
+        "business-logic",
+        "workflow-automation",
+        "data-analytics"
+      ],
+      "shortDesc": "Transform data workflows into governed AI agents that connect business logic with LLMs.",
+      "fullDesc": "<cite index=\"13-2\">Agent Studio allows teams to package trusted datasets and business logic into reusable agents within Alteryx One</cite>. <cite index=\"13-1\">It enables organizations to turn data-to-insight workflows into agent-driven systems, with an MCP Server that extends those agents into enterprise applications such as Slack and Microsoft Teams, as well as AI agents and LLMs like Claude and OpenAI</cite>. Built for business analysts to operationalize analytics and agentic automation at scale.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Agentic Automation Platform"
+        },
+        {
+          "label": "Released",
+          "value": "May 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Enterprise teams building governed AI agents for analytics and business operations"
+        },
+        {
+          "label": "Pricing",
+          "value": "Custom enterprise pricing; part of Alteryx One platform"
+        }
+      ],
+      "features": [
+        "<cite index=\"13-2\">Package trusted datasets and business logic into reusable agents within Alteryx One</cite>",
+        "<cite index=\"13-2\">Connect agents to enterprise applications like Slack, Microsoft Teams, Claude, and OpenAI</cite>",
+        "<cite index=\"11-9\">Model Context Protocol Server integration for connecting agents to business applications and AI agents</cite>",
+        "<cite index=\"11-10\">Automatic version control, ownership management, and metadata certification for governance</cite>",
+        "<cite index=\"11-11\">Live Query and enterprise connectors for data access in BigQuery, Databricks, and Snowflake without data movement</cite>",
+        "<cite index=\"18-19\">Empowers business analysts to connect data, logic and governance with AI without coding</cite>",
+        "<cite index=\"13-4,13-5\">Delivers consistent, reliable outcomes with AI that is visible, understandable, repeatable, and auditable</cite>",
+        "<cite index=\"12-17,12-18\">Allows information workers to define governed datasets and business logic that are executed in response to queries using in-place analytics on data platforms</cite>"
+      ],
+      "demo": [
+        {
+          "title": "Create an Agent",
+          "desc": "Define datasets and business logic rules in Alteryx One that will power your AI agent",
+          "code": null
+        },
+        {
+          "title": "Package for Deployment",
+          "desc": "Convert your workflow and logic into a reusable agent via Agent Studio",
+          "code": null
+        },
+        {
+          "title": "Connect to Applications",
+          "desc": "Use the MCP Server to connect your agent to Slack, Teams, or LLMs like Claude and OpenAI",
+          "code": null
+        },
+        {
+          "title": "Query and Execute",
+          "desc": "Users ask questions in their tools; the agent runs predefined workflows on governed data",
+          "code": null
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Sales Analytics Query",
+          "text": "What were our Q2 revenue figures by region and product line, and how do they compare to Q1?"
+        },
+        {
+          "label": "Compliance Check",
+          "text": "Run a compliance audit on all transactions over $50,000 from the last 30 days"
+        },
+        {
+          "label": "Operational Workflow",
+          "text": "Generate a daily supply chain alert if inventory falls below 20% of optimal stock levels"
+        }
+      ],
+      "pricing": {
+        "note": "<cite index=\"9-3\">Agent Studio is part of the Alteryx One platform, with Designer starting around $5,195 per user per year</cite>. Custom enterprise pricing is required; contact sales for specific quotes.",
+        "plans": [
+          {
+            "name": "Alteryx One (Agent Studio Included)",
+            "price": "Custom",
+            "per": "per year",
+            "popular": true,
+            "color": "#1F4788",
+            "features": [
+              "Agent Studio for creating governed AI agents",
+              "Alteryx Designer Desktop and Cloud access",
+              "MCP Server integration for enterprise applications",
+              "Governed datasets and business logic packaging",
+              "Enterprise connectors and Live Query support"
+            ]
+          },
+          {
+            "name": "Enterprise Add-ons",
+            "price": "Custom",
+            "per": "per year",
+            "popular": false,
+            "color": "#4B7BA7",
+            "features": [
+              "Intelligence Suite (machine learning and predictive analytics)",
+              "Premium data connectors",
+              "Professional services and custom training",
+              "Advanced governance and compliance features"
+            ]
+          }
+        ]
+      },
+      "link": "https://alteryx.com"
     }
   ],
   "totw": {
     "name": "StoreClaw",
     "tagline": "Grow your store profits with agents that know how to sell",
-    "votesCount": 687,
+    "votesCount": 719,
     "url": "https://www.producthunt.com/products/storeclaw?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/407049a2-0be3-4b8d-a7c0-4fc5b9754db2.png?auto=format",
     "rank": 1,
@@ -14933,46 +15152,46 @@
       "E-Commerce",
       "Marketing automation"
     ],
-    "fetchedAt": "2026-05-23T08:28:03.370Z"
+    "fetchedAt": "2026-05-24T08:40:50.577Z"
   },
   "lastWeeklyUpdate": "2026-05-22T09:59:53.812Z",
   "anthropicNews": [
     {
       "date": "May 19, 2026",
-      "title": "KPMG integrates Claude across 276,000+ employees",
-      "summary": "KPMG and Anthropic announce strategic alliance integrating Claude into KPMG's Digital Gateway platform for enterprise workforce.",
-      "url": "https://www.anthropic.com/news"
+      "title": "KPMG integrates Claude across 276K workforce globally",
+      "summary": "KPMG announces global alliance embedding Claude into Digital Gateway platform for all 276,000+ employees with focus on tax, legal, and private equity.",
+      "url": "https://www.anthropic.com/news/anthropic-kpmg"
     },
     {
       "date": "May 14, 2026",
-      "title": "Anthropic partners with Gates Foundation for $200M commitment",
-      "summary": "Four-year partnership providing grant funding, Claude credits, and support for health, life sciences, education, and economic mobility programs.",
-      "url": "https://www.anthropic.com/news/gates-foundation-partnership"
+      "title": "PwC expands Claude deployment to hundreds of thousands",
+      "summary": "PwC expands strategic alliance to deploy Claude Code and Cowork globally with training for 30,000 professionals and new finance business group.",
+      "url": "https://www.anthropic.com/news/pwc-expanded-partnership"
     },
     {
       "date": "May 13, 2026",
-      "title": "Claude for Small Business launched with 15 integrated workflows",
-      "summary": "New product with connectors for QuickBooks, PayPal, HubSpot, and other tools automating payroll, invoicing, sales, and financial tasks.",
-      "url": "https://www.anthropic.com/news"
+      "title": "Claude for Small Business launches with workflow integrations",
+      "summary": "<cite index=\"4-1\">Claude for Small Business integrates with QuickBooks, PayPal, HubSpot, Canva, Docusign, Google Workspace, and Microsoft 365</cite>.",
+      "url": "https://www.anthropic.com/news/claude-for-small-business"
     },
     {
       "date": "May 6, 2026",
-      "title": "Anthropic announces SpaceX Colossus supercluster compute deal",
-      "summary": "Agreement to allocate all capacity in SpaceX's Colossus supercluster to Claude, doubling rate limits and removing peak-hour restrictions.",
+      "title": "Claude Code rate limits doubled; SpaceX compute partnership",
+      "summary": "<cite index=\"7-2\">Doubling Claude Code five hour limit for Pro, Max, Enterprise customers</cite> and announcing Colossus data center partnership.",
+      "url": "https://simonwillison.net/2026/May/6/code-w-claude-2026/"
+    },
+    {
+      "date": "April 16, 2026",
+      "title": "Claude Opus 4.7 released with safety guardrails",
+      "summary": "<cite index=\"12-4\">Claude Opus 4.7 is better at software engineering, following instructions, completing real-world work and is its most powerful generally available model</cite>.",
+      "url": "https://www.cnbc.com/2026/04/16/anthropic-claude-opus-4-7-model-mythos.html"
+    },
+    {
+      "date": "May 2, 2026",
+      "title": "Claude Security public beta expands cybersecurity capabilities",
+      "summary": "<cite index=\"4-14\">Claude Security in public beta helps scan codebases, triage vulnerabilities, and generate fixes for eligible security teams</cite>.",
       "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "Apr 16, 2026",
-      "title": "Claude Opus 4.7 released with 3x vision resolution improvement",
-      "summary": "Latest flagship model with stronger coding, high-resolution vision (2576px), and cybersecurity safeguards; same $5/$25 pricing as Opus 4.6.",
-      "url": "https://www.anthropic.com/news/claude-opus-4-7"
-    },
-    {
-      "date": "May 7, 2026",
-      "title": "Research: Claude translates AI thoughts into human-readable text",
-      "summary": "New interpretability study trains Claude to convert internal numerical representations into understandable explanations.",
-      "url": "https://www.anthropic.com/research"
     }
   ],
-  "lastChecked": "2026-05-23T08:29:12.599Z"
+  "lastChecked": "2026-05-24T08:41:59.239Z"
 }
