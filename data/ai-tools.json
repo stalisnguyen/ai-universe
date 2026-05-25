@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T08:41:59.239Z",
+  "lastUpdated": "2026-05-25T10:25:21.330Z",
   "categories": [
     {
       "id": "llm",
@@ -15138,12 +15138,126 @@
         ]
       },
       "link": "https://alteryx.com"
+    },
+    {
+      "id": "spotify-personal-podcasts",
+      "name": "Spotify Personal Podcasts",
+      "company": "Spotify",
+      "category": "audio",
+      "icon": "🎙️",
+      "badge": "new",
+      "color": "#1DB954",
+      "price": "freemium",
+      "priceLabel": "Included with Premium / Additional credits available",
+      "tags": [
+        "AI audio generation",
+        "podcast creation",
+        "personalization",
+        "daily briefings"
+      ],
+      "shortDesc": "AI-powered tool to generate custom podcasts based on your interests and listening habits.",
+      "fullDesc": "Spotify Personal Podcasts allows users to generate AI-created audio episodes directly within Spotify by providing custom prompts based on their interests and listening habits. Users can create daily or weekly briefings, deep dives on specific topics, or one-off explainers with custom voices, PDFs, links, and personal context. The feature rolls out to Premium subscribers in the U.S. with monthly credits, with an option to purchase additional credits for more generations.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "AI Audio Generation & Podcast Creation"
+        },
+        {
+          "label": "Released",
+          "value": "May 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Creating personalized audio briefings, daily news digests, topic explainers, and private podcast episodes"
+        },
+        {
+          "label": "Pricing",
+          "value": "Included with Spotify Premium; monthly credits included with option to purchase additional"
+        }
+      ],
+      "features": [
+        "Generate custom podcasts from natural language prompts describing interests or topics",
+        "Schedule recurring daily or weekly audio briefings on topics of your choice",
+        "Create one-off podcast episodes for learning specific subjects or topics",
+        "Supply source material including links, PDFs, text, and personal notes for content generation",
+        "Select from custom voices and audio styles for personalization",
+        "Private library storage with no public access to generated episodes",
+        "Integration with Desktop Studio app that connects to calendar, inbox, and notes for context",
+        "Mobile and desktop creation directly within Spotify app with no coding required"
+      ],
+      "demo": [
+        {
+          "title": "Create a Daily City Brief",
+          "desc": "Request a daily briefing that combines local updates with concert recommendations for artists you follow",
+          "code": "Share my daily city updates, and tell me about local concerts from artists I love"
+        },
+        {
+          "title": "Generate a Topic Explainer",
+          "desc": "Request a quick audio explainer on a complex subject you want to understand",
+          "code": "Help me understand economics in five minutes"
+        },
+        {
+          "title": "Build a Study Guide Podcast",
+          "desc": "Create an audio summary of class notes before an exam",
+          "code": "Create a podcast summarizing my recent class notes to help me study for tomorrow's exam"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Daily Briefing",
+          "text": "Share my daily city updates, and tell me about local concerts from artists I love"
+        },
+        {
+          "label": "Topic Explainer",
+          "text": "Help me understand economics in five minutes"
+        },
+        {
+          "label": "Study Material",
+          "text": "Create a podcast that summarizes my class notes for tomorrow's exam"
+        },
+        {
+          "label": "Travel Planning",
+          "text": "Create a daily audio brief combining my schedule, travel bookings, and local restaurant recommendations"
+        }
+      ],
+      "pricing": {
+        "note": "Personal Podcasts is included with Spotify Premium subscriptions and comes with a monthly allocation of credits for podcast generation. Additional credits can be purchased for users who exceed their monthly limit.",
+        "plans": [
+          {
+            "name": "Spotify Premium (Personal Podcasts Included)",
+            "price": "$11.99",
+            "per": "per month",
+            "popular": true,
+            "color": "#1DB954",
+            "features": [
+              "Monthly credits for podcast generation",
+              "Custom voice selection and audio personalization",
+              "Private library storage with device sync",
+              "Desktop Studio app access for advanced features",
+              "Source material integration (PDFs, links, text)"
+            ]
+          },
+          {
+            "name": "Additional Credits",
+            "price": "Variable",
+            "per": "per credit purchase",
+            "popular": false,
+            "color": "#191414",
+            "features": [
+              "Extra podcast generation capacity",
+              "Available for Premium subscribers only",
+              "Flexible purchasing as needed"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.spotify.com"
     }
   ],
   "totw": {
     "name": "StoreClaw",
     "tagline": "Grow your store profits with agents that know how to sell",
-    "votesCount": 719,
+    "votesCount": 780,
     "url": "https://www.producthunt.com/products/storeclaw?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/407049a2-0be3-4b8d-a7c0-4fc5b9754db2.png?auto=format",
     "rank": 1,
@@ -15152,46 +15266,46 @@
       "E-Commerce",
       "Marketing automation"
     ],
-    "fetchedAt": "2026-05-24T08:40:50.577Z"
+    "fetchedAt": "2026-05-25T10:24:33.378Z"
   },
   "lastWeeklyUpdate": "2026-05-22T09:59:53.812Z",
   "anthropicNews": [
     {
+      "date": "May 23, 2026",
+      "title": "Claude releases 20+ legal MCP connectors and plugins",
+      "summary": "<cite index=\"3-1\">Claude releases 20+ new legal MCP connectors and 12 practice-area plugins, expanding how law firms and in-house teams work across research, contracts, discovery, matter management, and legal aid.</cite>",
+      "url": "https://releasebot.io/updates/anthropic/claude"
+    },
+    {
       "date": "May 19, 2026",
-      "title": "KPMG integrates Claude across 276K workforce globally",
-      "summary": "KPMG announces global alliance embedding Claude into Digital Gateway platform for all 276,000+ employees with focus on tax, legal, and private equity.",
-      "url": "https://www.anthropic.com/news/anthropic-kpmg"
+      "title": "KPMG integrates Claude across 276,000+ employees",
+      "summary": "<cite index=\"8-1,8-2\">KPMG and Anthropic announced KPMG Digital Gateway Powered by Claude, bringing Anthropic's frontier AI directly into KPMG's client delivery platform with access to 276,000+ global workforce.</cite>",
+      "url": "https://kpmg.com/us/en/media/news/kpmg-anthropic-global-alliance.html"
+    },
+    {
+      "date": "May 19, 2026",
+      "title": "Claude Design launches for visual collaboration",
+      "summary": "<cite index=\"11-1\">Claude Design is a new Anthropic Labs product that lets you collaborate with Claude to create polished visual work like designs, prototypes, slides, one-pagers, and more.</cite>",
+      "url": "https://www.anthropic.com/news"
     },
     {
       "date": "May 14, 2026",
-      "title": "PwC expands Claude deployment to hundreds of thousands",
-      "summary": "PwC expands strategic alliance to deploy Claude Code and Cowork globally with training for 30,000 professionals and new finance business group.",
+      "title": "PwC deploys Claude to 276,000+ professionals",
+      "summary": "<cite index=\"6-8,6-9\">PwC will roll out Claude Code and Cowork starting with U.S. teams and expanding toward a global workforce of hundreds of thousands of professionals, establishing a joint Center of Excellence and training 30,000 PwC professionals on Claude.</cite>",
       "url": "https://www.anthropic.com/news/pwc-expanded-partnership"
     },
     {
       "date": "May 13, 2026",
-      "title": "Claude for Small Business launches with workflow integrations",
-      "summary": "<cite index=\"4-1\">Claude for Small Business integrates with QuickBooks, PayPal, HubSpot, Canva, Docusign, Google Workspace, and Microsoft 365</cite>.",
+      "title": "Claude for Small Business launched with integrations",
+      "summary": "<cite index=\"5-16,5-20\">Claude for Small Business puts Claude inside the tools small businesses depend on: Intuit Quickbooks, PayPal, HubSpot, Canva, Docusign, Google Workspace, and Microsoft 365.</cite>",
       "url": "https://www.anthropic.com/news/claude-for-small-business"
     },
     {
       "date": "May 6, 2026",
-      "title": "Claude Code rate limits doubled; SpaceX compute partnership",
-      "summary": "<cite index=\"7-2\">Doubling Claude Code five hour limit for Pro, Max, Enterprise customers</cite> and announcing Colossus data center partnership.",
-      "url": "https://simonwillison.net/2026/May/6/code-w-claude-2026/"
-    },
-    {
-      "date": "April 16, 2026",
-      "title": "Claude Opus 4.7 released with safety guardrails",
-      "summary": "<cite index=\"12-4\">Claude Opus 4.7 is better at software engineering, following instructions, completing real-world work and is its most powerful generally available model</cite>.",
-      "url": "https://www.cnbc.com/2026/04/16/anthropic-claude-opus-4-7-model-mythos.html"
-    },
-    {
-      "date": "May 2, 2026",
-      "title": "Claude Security public beta expands cybersecurity capabilities",
-      "summary": "<cite index=\"4-14\">Claude Security in public beta helps scan codebases, triage vulnerabilities, and generate fixes for eligible security teams</cite>.",
-      "url": "https://www.anthropic.com/news"
+      "title": "Code with Claude developer conference with SpaceX deal",
+      "summary": "<cite index=\"12-11\">Anthropic announced a deal with SpaceX to allocate all of the capacity in the latter's Colossus supercluster to Claude.</cite>",
+      "url": "https://www.infoq.com/news/2026/05/code-with-claude/"
     }
   ],
-  "lastChecked": "2026-05-24T08:41:59.239Z"
+  "lastChecked": "2026-05-25T10:25:21.330Z"
 }
