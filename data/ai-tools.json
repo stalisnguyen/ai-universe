@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-25T10:25:21.330Z",
+  "lastUpdated": "2026-05-26T10:14:12.653Z",
   "categories": [
     {
       "id": "llm",
@@ -15252,12 +15252,345 @@
         ]
       },
       "link": "https://www.spotify.com"
+    },
+    {
+      "id": "muse-spark",
+      "name": "Muse Spark",
+      "company": "Meta",
+      "category": "multimodal",
+      "icon": "✨",
+      "badge": "hot",
+      "color": "#0A66C2",
+      "price": "free",
+      "priceLabel": "Free",
+      "tags": [
+        "multimodal",
+        "reasoning",
+        "health AI",
+        "personal superintelligence"
+      ],
+      "shortDesc": "Meta's frontier reasoning model with multimodal input and consumer-focused AI for health, shopping, and agentic tasks.",
+      "fullDesc": "Muse Spark is Meta's first model from Meta Superintelligence Labs, a natively multimodal reasoning model designed for complex problem-solving across text, images, and audio. Built from a ground-up rebuild of Meta's AI stack, it excels in health reasoning, visual understanding, and multimodal tasks while powering the Meta AI assistant across Meta's app ecosystem. The model introduces Contemplating mode for parallel multi-agent reasoning and supports tool use, visual chain-of-thought, and test-time reasoning.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Multimodal Reasoning Model"
+        },
+        {
+          "label": "Released",
+          "value": "April 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Health queries, multimodal reasoning, visual understanding, consumer applications"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free via Meta AI app and meta.ai; private preview API for select partners"
+        }
+      ],
+      "features": [
+        "Natively multimodal—accepts text, images, and audio inputs with text output",
+        "Visual chain-of-thought reasoning for step-by-step image problem-solving",
+        "Contemplating mode orchestrates multiple agents in parallel for complex reasoning",
+        "Test-time reasoning—model thinks before answering using optimized reasoning tokens",
+        "Tool use and multi-agent orchestration built into core architecture",
+        "10x compute efficiency compared to Llama 4 Maverick with superior capability",
+        "Health specialization via curation with over 1,000 physicians",
+        "Integrated into Meta AI app, meta.ai website, with rollout to WhatsApp, Instagram, Facebook, Messenger, and Ray-Ban AI glasses"
+      ],
+      "demo": [
+        {
+          "title": "Health Query with Visual Analysis",
+          "desc": "Upload a nutrition label or food image and ask Muse Spark to identify nutritional content and provide health insights",
+          "code": "Ask: 'What's the protein content in this snack?'"
+        },
+        {
+          "title": "Multimodal Problem-Solving",
+          "desc": "Point camera at a household appliance or landmark and get real-time identification and troubleshooting guidance",
+          "code": "Ask: 'What's wrong with this leaking faucet?'"
+        },
+        {
+          "title": "Multi-Agent Task Orchestration",
+          "desc": "Request complex planning that spawns parallel sub-agents to handle different aspects simultaneously",
+          "code": "Ask: 'Plan a family trip to Florida with activities for kids and compare Orlando vs. the Keys'"
+        },
+        {
+          "title": "Shopping Mode",
+          "desc": "Snap product photos to compare alternatives and get personalized recommendations from Meta's ecosystem content",
+          "code": "Ask: 'How does this compare to similar products?'"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Health & Wellness",
+          "text": "Analyze this photo of a medication bottle and explain what it's used for, common side effects, and whether it has drug interactions with [other medications]. Include disclaimers that this is not medical advice."
+        },
+        {
+          "label": "Visual Understanding",
+          "text": "Look at this architectural diagram and explain the key components, how they interact, and identify potential weak points in the design."
+        },
+        {
+          "label": "Shopping & Recommendations",
+          "text": "I'm looking for a new pair of running shoes. Here's a photo of my current pair. Can you find similar styles on Meta's creator marketplace and rank them by comfort and durability reviews?"
+        },
+        {
+          "label": "Complex Multi-Step Problem",
+          "text": "I need to reorganize my home office for better productivity. Analyze this photo of my current setup, then simultaneously: 1) Suggest furniture arrangements, 2) Identify ergonomic issues, 3) Find suitable furniture on Meta-connected retailers."
+        },
+        {
+          "label": "Chart & Data Analysis",
+          "text": "Upload a chart from a research paper and explain the key findings, methodology, and implications in simple terms."
+        }
+      ],
+      "pricing": {
+        "note": "Muse Spark is free through the Meta AI app and meta.ai website for all users with Meta accounts. A private preview API is available to select enterprise partners; public API pricing has not been announced but is expected to be competitively priced.",
+        "plans": [
+          {
+            "name": "Consumer Free",
+            "price": "Free",
+            "per": "forever",
+            "popular": true,
+            "color": "#0A66C2",
+            "features": [
+              "Unlimited access via Meta AI app and meta.ai",
+              "Multimodal input (text, image, audio)",
+              "Instant and Thinking modes",
+              "Contemplating mode (rolling out)",
+              "Requires Meta account (Facebook/Instagram login)"
+            ]
+          },
+          {
+            "name": "Enterprise API (Private Preview)",
+            "price": "Invitation-only",
+            "per": "contact sales",
+            "popular": false,
+            "color": "#0A66C2",
+            "features": [
+              "Private preview available to select partners",
+              "Priority support",
+              "Custom integration support",
+              "Pricing to be announced"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.meta.ai/"
+    },
+    {
+      "id": "gemini-spark",
+      "name": "Gemini Spark",
+      "company": "Google",
+      "category": "agent",
+      "icon": "⚡",
+      "badge": "new",
+      "color": "#4285F4",
+      "price": "paid",
+      "priceLabel": "$99.99/month",
+      "tags": [
+        "AI agent",
+        "productivity",
+        "automation",
+        "task execution"
+      ],
+      "shortDesc": "<cite index=\"1-3\">A 24/7 AI agent that helps you navigate your digital life and takes action on your behalf</cite>.",
+      "fullDesc": "<cite index=\"6-9\">Gemini Spark runs continuously on Google Cloud virtual machines and takes actions across your apps — even when your device is off.</cite> <cite index=\"5-4,5-6\">It connects natively with Google apps like Gmail, Calendar, Drive, Docs, Sheets, Slides, YouTube, and Google Maps, and can help you take action across your entire digital workspace.</cite> <cite index=\"5-24,5-25,5-26\">Designed to be an accessible AI agent for everyone, you interact with it using regular conversation, and no technical expertise is required.</cite>",
+      "info": [
+        {
+          "label": "Type",
+          "value": "AI Agent"
+        },
+        {
+          "label": "Released",
+          "value": "May 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Google Workspace users needing persistent automation and multi-step task execution"
+        },
+        {
+          "label": "Pricing",
+          "value": "<cite index=\"2-26\">$99.99/month (AI Ultra plan)</cite>"
+        }
+      ],
+      "features": [
+        "<cite index=\"5-17,5-18\">Takes proactive action on your behalf and completes multi-step tasks across applications rather than just answering questions</cite>",
+        "<cite index=\"5-39,5-40,5-41\">Works in the background 24/7, operating autonomously but always under your direction and checking before taking major actions</cite>",
+        "<cite index=\"5-4\">Connects natively with Gmail, Calendar, Drive, Docs, Sheets, Slides, YouTube, and Google Maps</cite>",
+        "<cite index=\"6-3\">Can now execute tasks in third-party apps like Canva, OpenTable, and Instacart via MCP integration</cite>",
+        "<cite index=\"5-32,5-33\">Uses Personal Intelligence to connect the dots across your digital ecosystem and take action where it matters most</cite>",
+        "<cite index=\"5-3\">Runs on Gemini 3.5 Flash and Antigravity</cite>",
+        "<cite index=\"7-7\">Connects to Workspace tools through structured API integrations rather than screen-reading</cite>"
+      ],
+      "demo": [
+        {
+          "title": "Automated Email Management",
+          "desc": "<cite index=\"5-21,5-22\">Can draft replies, sort incoming messages based on priority, or extract action items from long threads for email management</cite>",
+          "code": "When I receive an email inquiring about my services, automatically extract the client's name and requested date, then log the lead in a tracking sheet"
+        },
+        {
+          "title": "Weekly Email Summary",
+          "desc": "Scan inbox and provide priority-sorted action items with calendar blocks",
+          "code": "Every Monday at 9:00 AM, scan my inbox and review emails from the past week, give me a recap of important updates with a prioritized to-do list"
+        },
+        {
+          "title": "Lead Tracking Workflow",
+          "desc": "<cite index=\"5-28,5-29\">Extract client information from inquiries and automatically create organization structures</cite>",
+          "code": "Extract client details from photography service inquiries and create a new Google Drive folder named after the client"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Task Automation",
+          "text": "Help me find and track interior design internships in New Orleans for this summer"
+        },
+        {
+          "label": "Information Synthesis",
+          "text": "Keep an eye on my industry subscriptions and summarize critical themes for the week"
+        },
+        {
+          "label": "Organization",
+          "text": "Turn messy email chains into a master plan for group planning and logistics"
+        }
+      ],
+      "pricing": {
+        "note": "<cite index=\"2-4\">Google created a new AI Ultra tier at $99.99 with Spark included, while keeping AI Pro at $19.99 for users who don't need agentic features</cite>. <cite index=\"5-1\">Currently rolling out to trusted testers and available for Google AI Ultra subscribers over 18 in the United States</cite>.",
+        "plans": [
+          {
+            "name": "Google AI Ultra",
+            "price": "$99.99",
+            "per": "per month",
+            "popular": true,
+            "color": "#4285F4",
+            "features": [
+              "<cite index=\"1-3\">Gemini Spark access with 24/7 agent capabilities</cite>",
+              "<cite index=\"3-10\">1M token context window and access to Gemini 3.1 Pro model</cite>",
+              "<cite index=\"3-14\">Video generation with Veo 3.1 and Deep Research</cite>",
+              "<cite index=\"1-2\">20X higher usage limit than Pro plan</cite>",
+              "<cite index=\"3-5\">20TB storage across Google Drive, Gmail, and Google Photos</cite>"
+            ]
+          },
+          {
+            "name": "Google AI Ultra Premium",
+            "price": "$199.99",
+            "per": "per month",
+            "popular": false,
+            "color": "#1967D2",
+            "features": [
+              "<cite index=\"1-3\">Gemini Spark with deepest usage quotas</cite>",
+              "<cite index=\"2-18\">4x more compute than AI Ultra</cite>",
+              "<cite index=\"3-9\">20TB+ storage</cite>",
+              "Priority access to newest AI innovations",
+              "Research-preview tools"
+            ]
+          }
+        ]
+      },
+      "link": "https://gemini.google.com/"
+    },
+    {
+      "id": "universal-cart",
+      "name": "Universal Cart",
+      "company": "Google",
+      "category": "shopping",
+      "icon": "🛒",
+      "badge": "new",
+      "color": "#4285F4",
+      "price": "free",
+      "priceLabel": "Free",
+      "tags": [
+        "agentic shopping",
+        "deal tracking",
+        "multi-retailer",
+        "AI-powered"
+      ],
+      "shortDesc": "AI-powered shopping cart that aggregates products across Google services with intelligent deal tracking.",
+      "fullDesc": "Universal Cart is an agentic shopping hub that lets users add products from Google Search, Gemini, YouTube, and Gmail into a single intelligent cart. The tool uses Gemini AI to track deals, monitor price drops, identify product incompatibilities, and surface loyalty perks while enabling seamless checkout via Google Pay across partner merchants.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Agentic Shopping Platform"
+        },
+        {
+          "label": "Released",
+          "value": "May 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Cross-retailer shopping with deal tracking and smart recommendations"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free for all users"
+        }
+      ],
+      "features": [
+        "Add products from Search, Gemini, YouTube, and Gmail into a unified shopping cart",
+        "Automatically finds deals, tracks price drops, and alerts when items are back in stock",
+        "Identifies product incompatibilities and suggests compatible alternatives",
+        "Integrates with Google Wallet to surface loyalty perks and hidden savings opportunities",
+        "One-tap checkout with Google Pay at partner retailers including Nike, Sephora, Target, Walmart",
+        "Seamlessly transfer items to merchant websites to complete purchases",
+        "Works across multiple devices and shopping sessions throughout the day"
+      ],
+      "demo": [
+        {
+          "title": "Adding Items from Multiple Services",
+          "desc": "Users can add products while browsing Google Search, chatting with Gemini, watching YouTube videos, or reading Gmail emails"
+        },
+        {
+          "title": "Smart Product Analysis",
+          "desc": "When building a custom PC, Universal Cart analyzes parts from multiple retailers, flags incompatibilities like processor/motherboard mismatches, and suggests alternatives"
+        },
+        {
+          "title": "Deal Discovery in Background",
+          "desc": "While you browse elsewhere, Universal Cart continuously monitors prices, tracks deals, displays price history, and notifies when out-of-stock items are available again"
+        },
+        {
+          "title": "One-Tap Checkout",
+          "desc": "When ready to purchase, users can checkout with Google Pay in a few taps across participating merchants or transfer cart to merchant's website"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Shopping Assistance",
+          "text": "Add these PC components to my Universal Cart and check for compatibility issues"
+        },
+        {
+          "label": "Deal Finding",
+          "text": "Find me the best deals on the items in my Universal Cart across all retailers"
+        },
+        {
+          "label": "Smart Recommendations",
+          "text": "What loyalty rewards can I use to save more on my cart purchases?"
+        }
+      ],
+      "pricing": {
+        "note": "Universal Cart is completely free for all users. No subscription or premium tier required.",
+        "plans": [
+          {
+            "name": "Free",
+            "price": "Free",
+            "per": "forever",
+            "popular": true,
+            "color": "#4285F4",
+            "features": [
+              "Unified shopping cart across all Google services",
+              "AI-powered deal tracking and price monitoring",
+              "Product compatibility checking",
+              "Loyalty perks integration",
+              "Google Pay one-tap checkout"
+            ]
+          }
+        ]
+      },
+      "link": "https://support.google.com/websearch"
     }
   ],
   "totw": {
     "name": "StoreClaw",
     "tagline": "Grow your store profits with agents that know how to sell",
-    "votesCount": 780,
+    "votesCount": 804,
     "url": "https://www.producthunt.com/products/storeclaw?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/407049a2-0be3-4b8d-a7c0-4fc5b9754db2.png?auto=format",
     "rank": 1,
@@ -15266,46 +15599,46 @@
       "E-Commerce",
       "Marketing automation"
     ],
-    "fetchedAt": "2026-05-25T10:24:33.378Z"
+    "fetchedAt": "2026-05-26T10:12:28.424Z"
   },
   "lastWeeklyUpdate": "2026-05-22T09:59:53.812Z",
   "anthropicNews": [
     {
-      "date": "May 23, 2026",
-      "title": "Claude releases 20+ legal MCP connectors and plugins",
-      "summary": "<cite index=\"3-1\">Claude releases 20+ new legal MCP connectors and 12 practice-area plugins, expanding how law firms and in-house teams work across research, contracts, discovery, matter management, and legal aid.</cite>",
-      "url": "https://releasebot.io/updates/anthropic/claude"
+      "date": "May 22, 2026",
+      "title": "Project Glasswing finds 10,000+ critical vulnerabilities",
+      "summary": "Claude Mythos Preview identified over 10k high/critical-severity flaws across 50 partner organizations in one month of deployment.",
+      "url": "https://www.anthropic.com/research/glasswing-initial-update"
     },
     {
       "date": "May 19, 2026",
-      "title": "KPMG integrates Claude across 276,000+ employees",
-      "summary": "<cite index=\"8-1,8-2\">KPMG and Anthropic announced KPMG Digital Gateway Powered by Claude, bringing Anthropic's frontier AI directly into KPMG's client delivery platform with access to 276,000+ global workforce.</cite>",
+      "title": "KPMG expands Claude deployment to 276,000+ employees",
+      "summary": "KPMG integrates Claude across Digital Gateway platform for tax, private equity, and cybersecurity work via global alliance.",
       "url": "https://kpmg.com/us/en/media/news/kpmg-anthropic-global-alliance.html"
     },
     {
-      "date": "May 19, 2026",
-      "title": "Claude Design launches for visual collaboration",
-      "summary": "<cite index=\"11-1\">Claude Design is a new Anthropic Labs product that lets you collaborate with Claude to create polished visual work like designs, prototypes, slides, one-pagers, and more.</cite>",
-      "url": "https://www.anthropic.com/news"
+      "date": "May 18, 2026",
+      "title": "Anthropic acquires Stainless for $300M+ in developer tooling deal",
+      "summary": "Anthropic acquires SDK and MCP server tooling leader Stainless to strengthen Claude's ability to connect to external systems.",
+      "url": "https://www.anthropic.com/news/anthropic-acquires-stainless"
     },
     {
       "date": "May 14, 2026",
-      "title": "PwC deploys Claude to 276,000+ professionals",
-      "summary": "<cite index=\"6-8,6-9\">PwC will roll out Claude Code and Cowork starting with U.S. teams and expanding toward a global workforce of hundreds of thousands of professionals, establishing a joint Center of Excellence and training 30,000 PwC professionals on Claude.</cite>",
+      "title": "PwC expands Claude deployment across hundreds of thousands of staff",
+      "summary": "PwC announces expanded alliance with Anthropic, rolling out Claude Code and Cowork plus training 30,000 professionals.",
       "url": "https://www.anthropic.com/news/pwc-expanded-partnership"
     },
     {
-      "date": "May 13, 2026",
-      "title": "Claude for Small Business launched with integrations",
-      "summary": "<cite index=\"5-16,5-20\">Claude for Small Business puts Claude inside the tools small businesses depend on: Intuit Quickbooks, PayPal, HubSpot, Canva, Docusign, Google Workspace, and Microsoft 365.</cite>",
-      "url": "https://www.anthropic.com/news/claude-for-small-business"
+      "date": "May 12, 2026",
+      "title": "Claude launches 20+ legal connectors and 12 practice-area plugins",
+      "summary": "Anthropic releases comprehensive Claude for Legal with MCP integrations to law firm tools and specialized legal workflow plugins.",
+      "url": "https://claude.com/blog/claude-for-the-legal-industry"
     },
     {
       "date": "May 6, 2026",
-      "title": "Code with Claude developer conference with SpaceX deal",
-      "summary": "<cite index=\"12-11\">Anthropic announced a deal with SpaceX to allocate all of the capacity in the latter's Colossus supercluster to Claude.</cite>",
-      "url": "https://www.infoq.com/news/2026/05/code-with-claude/"
+      "title": "Code with Claude developer conference announces Managed Agents upgrades",
+      "summary": "Anthropic showcases Claude Code updates including dreaming feature, multiagent orchestration, and higher API usage limits.",
+      "url": "https://www.anthropic.com/news/code-with-claude-2026-recap"
     }
   ],
-  "lastChecked": "2026-05-25T10:25:21.330Z"
+  "lastChecked": "2026-05-26T10:14:12.653Z"
 }
