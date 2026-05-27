@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-26T10:14:12.653Z",
+  "lastUpdated": "2026-05-27T10:12:20.279Z",
   "categories": [
     {
       "id": "llm",
@@ -15585,60 +15585,276 @@
         ]
       },
       "link": "https://support.google.com/websearch"
+    },
+    {
+      "id": "webmcp",
+      "name": "WebMCP",
+      "company": "Google",
+      "category": "agent",
+      "icon": "🌐",
+      "badge": "new",
+      "color": "#EA4335",
+      "price": "free",
+      "priceLabel": "Free",
+      "tags": [
+        "web-standard",
+        "browser-api",
+        "agent-tools",
+        "AI-integration"
+      ],
+      "shortDesc": "Web standard enabling AI agents to interact with websites through structured tools.",
+      "fullDesc": "WebMCP (Web Model Context Protocol) is a proposed open web standard that allows websites to expose structured, callable tools to AI agents running in the browser. Developed collaboratively by Google and Microsoft, it replaces fragile screen scraping with explicit tool contracts. Ideal for web developers building agent-ready applications and organizations deploying AI automation at scale.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Web Standard / Browser API"
+        },
+        {
+          "label": "Released",
+          "value": "February 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Web developers making sites agent-ready, agentic AI deployments"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free, open standard"
+        }
+      ],
+      "features": [
+        "Declarative API for exposing HTML forms as structured tools without JavaScript",
+        "Imperative API using navigator.modelContext for complex, dynamic JavaScript-based interactions",
+        "Browser-native tool discovery mechanism enabling AI agents to locate available capabilities",
+        "JSON Schema definitions for explicit input/output contracts reducing agent hallucination",
+        "Permission-first security model requiring user confirmation before sensitive actions",
+        "Support for state management allowing agents to understand current page context",
+        "Chrome DevTools extension for inspecting, testing, and monitoring registered tools",
+        "Progressive enhancement capability allowing gradual adoption alongside existing websites"
+      ],
+      "demo": [
+        {
+          "title": "Register Imperative Tool",
+          "desc": "Define a complex JavaScript tool with parameters and handler logic",
+          "code": "navigator.modelContext.registerTool({\n  name: 'search_products',\n  description: 'Search product catalog',\n  inputSchema: { type: 'object', properties: { query: { type: 'string' } } },\n  handler: async (input) => { /* search logic */ }\n});"
+        },
+        {
+          "title": "Declare HTML Form Tool",
+          "desc": "Annotate an existing HTML form to expose it as a structured tool",
+          "code": "<form data-tool-name=\"book_flight\" data-tool-description=\"Book a flight\">\n  <input name=\"destination\" required>\n  <input name=\"date\" type=\"date\" required>\n  <button type=\"submit\">Book</button>\n</form>"
+        },
+        {
+          "title": "Agent Invocation",
+          "desc": "AI agent discovers and calls the tool with natural language",
+          "code": "User: \"Help me book a flight to New York tomorrow\"\nAgent: [detects 'book_flight' tool] → executes with {destination: 'New York', date: tomorrow}"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Form Automation",
+          "text": "I need to fill out a support ticket form with my issue description and contact information. Can you help me submit it?"
+        },
+        {
+          "label": "E-commerce Workflow",
+          "text": "Search for blue wireless headphones under $100, add the best option to my cart, and proceed to checkout."
+        },
+        {
+          "label": "Booking Task",
+          "text": "Find available appointments for next Tuesday and book the 2 PM slot with my preferred location."
+        }
+      ],
+      "pricing": {
+        "note": "WebMCP is an open web standard maintained through W3C community processes. All specifications, APIs, and tooling are available free of charge. Implementation is supported by Google and Microsoft with cross-browser adoption planned.",
+        "plans": [
+          {
+            "name": "Free Standard",
+            "price": "$0",
+            "per": "forever",
+            "popular": true,
+            "color": "#EA4335",
+            "features": [
+              "Full access to Declarative and Imperative APIs",
+              "Chrome early preview program participation",
+              "DevTools extension for testing and debugging",
+              "Access to documentation and example implementations"
+            ]
+          }
+        ]
+      },
+      "link": "https://developer.chrome.com/docs/ai/webmcp"
+    },
+    {
+      "id": "project-glasswing",
+      "name": "Project Glasswing",
+      "company": "Anthropic",
+      "category": "security",
+      "icon": "🔐",
+      "badge": "hot",
+      "color": "#662E9B",
+      "price": "free",
+      "priceLabel": "Free (invitation-only, up to $100M in credits)",
+      "tags": [
+        "vulnerability detection",
+        "cybersecurity",
+        "AI agent",
+        "code analysis"
+      ],
+      "shortDesc": "AI-powered initiative to identify and fix critical vulnerabilities in essential software infrastructure.",
+      "fullDesc": "Project Glasswing is Anthropic's controlled-access program that uses Claude Mythos Preview to autonomously discover and remediate undiscovered vulnerabilities in critical software at scale. The initiative provides vetted organizations with access to advanced AI security capabilities through a structured partner program, enabling defenders to secure the world's most critical infrastructure before AI capabilities can be weaponized for attacks.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "AI Security Initiative"
+        },
+        {
+          "label": "Released",
+          "value": "April 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Critical infrastructure security, vulnerability research, enterprise security teams"
+        },
+        {
+          "label": "Pricing",
+          "value": "Invitation-only; Anthropic provides up to $100M in usage credits to 50+ partner organizations"
+        }
+      ],
+      "features": [
+        "Autonomous vulnerability discovery in critical software systems and infrastructure",
+        "Advanced exploit chain creation by linking multiple vulnerabilities together",
+        "Zero-day vulnerability identification across operating systems and browsers",
+        "Support for both first-party software and open-source project scanning",
+        "Tiered access program with organizational verification and continuous monitoring",
+        "Integration with coordinated vulnerability disclosure processes",
+        "Fraud detection and financial transaction security capabilities",
+        "$4M in direct donations to open-source security organizations"
+      ],
+      "demo": [
+        {
+          "title": "Vulnerability Detection",
+          "desc": "Claude Mythos Preview scans critical software codebases and autonomously identifies high- and critical-severity vulnerabilities, including zero-days that had been unfixed for years.",
+          "code": "Scan codebase for security vulnerabilities and provide detailed exploit paths"
+        },
+        {
+          "title": "Exploit Chain Analysis",
+          "desc": "The model analyzes relationships between multiple vulnerabilities and chains them together to demonstrate complex attack vectors that bypass multiple security layers.",
+          "code": "Identify and chain related vulnerabilities into coordinated attacks"
+        },
+        {
+          "title": "Patch Development",
+          "desc": "Mythos Preview assists in developing and validating security patches for discovered vulnerabilities across various software systems.",
+          "code": "Generate patches and validate fixes for identified security issues"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Security Analysis",
+          "text": "Analyze this codebase for potential security vulnerabilities, focusing on authentication, data validation, and access control mechanisms"
+        },
+        {
+          "label": "Vulnerability Research",
+          "text": "Identify undiscovered vulnerabilities in this widely-used open source library that has not been previously flagged by automated testing tools"
+        },
+        {
+          "label": "Exploit Development",
+          "text": "Determine if multiple identified vulnerabilities can be chained together to create a more severe attack vector"
+        }
+      ],
+      "pricing": {
+        "note": "Project Glasswing operates as an invitation-only program with no public release planned. Anthropic provides significant financial commitments through usage credits and direct funding to support critical infrastructure security work across partner organizations and open-source projects.",
+        "plans": [
+          {
+            "name": "Partner Tier 1 - Security Research Support",
+            "price": "Free",
+            "per": "month",
+            "popular": false,
+            "color": "#8B5CF6",
+            "features": [
+              "General security research support",
+              "Vulnerability documentation assistance",
+              "CTF and security challenge help"
+            ]
+          },
+          {
+            "name": "Partner Tier 2 - Offensive Security",
+            "price": "Free",
+            "per": "month",
+            "popular": true,
+            "color": "#662E9B",
+            "features": [
+              "Penetration testing support",
+              "Malware analysis capabilities",
+              "Offensive security methodology"
+            ]
+          },
+          {
+            "name": "Partner Tier 3 - Advanced Red Team",
+            "price": "Free",
+            "per": "month",
+            "popular": false,
+            "color": "#5A189A",
+            "features": [
+              "Full-scope adversary simulation",
+              "Advanced red team support",
+              "Reserved for organizations with rigorous oversight"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.anthropic.com/project/glasswing"
     }
   ],
   "totw": {
-    "name": "StoreClaw",
-    "tagline": "Grow your store profits with agents that know how to sell",
-    "votesCount": 804,
-    "url": "https://www.producthunt.com/products/storeclaw?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
-    "thumbnail": "https://ph-files.imgix.net/407049a2-0be3-4b8d-a7c0-4fc5b9754db2.png?auto=format",
+    "name": "Unabyss",
+    "tagline": "MCP-native self-updating context layer for your AI",
+    "votesCount": 682,
+    "url": "https://www.producthunt.com/products/unabyss?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
+    "thumbnail": "https://ph-files.imgix.net/c35d380b-1508-44ae-a273-b0bea7db4969.gif?auto=format",
     "rank": 1,
     "topics": [
-      "Artificial Intelligence",
-      "E-Commerce",
-      "Marketing automation"
+      "Productivity",
+      "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-05-26T10:12:28.424Z"
+    "fetchedAt": "2026-05-27T10:10:49.952Z"
   },
   "lastWeeklyUpdate": "2026-05-22T09:59:53.812Z",
   "anthropicNews": [
     {
       "date": "May 22, 2026",
-      "title": "Project Glasswing finds 10,000+ critical vulnerabilities",
-      "summary": "Claude Mythos Preview identified over 10k high/critical-severity flaws across 50 partner organizations in one month of deployment.",
-      "url": "https://www.anthropic.com/research/glasswing-initial-update"
+      "title": "Project Glasswing expands with Claude Security public beta",
+      "summary": "<cite index=\"2-2\">Anthropic expanded Project Glasswing with Claude Security in public beta and new cyber verification tools for eligible security teams.</cite>",
+      "url": "https://www.anthropic.com/news/project-glasswing-update"
     },
     {
       "date": "May 19, 2026",
-      "title": "KPMG expands Claude deployment to 276,000+ employees",
-      "summary": "KPMG integrates Claude across Digital Gateway platform for tax, private equity, and cybersecurity work via global alliance.",
-      "url": "https://kpmg.com/us/en/media/news/kpmg-anthropic-global-alliance.html"
+      "title": "Code with Claude developer conference in London",
+      "summary": "<cite index=\"6-4\">Anthropic's two-day event for software developers in London kicked off on May 19.</cite>",
+      "url": "https://www.anthropic.com/news"
     },
     {
       "date": "May 18, 2026",
-      "title": "Anthropic acquires Stainless for $300M+ in developer tooling deal",
-      "summary": "Anthropic acquires SDK and MCP server tooling leader Stainless to strengthen Claude's ability to connect to external systems.",
-      "url": "https://www.anthropic.com/news/anthropic-acquires-stainless"
+      "title": "Anthropic acquires Stainless for SDK and MCP tooling",
+      "summary": "<cite index=\"15-15,15-16\">Anthropic acquired Stainless on May 18, 2026. Stainless builds tooling for generating client SDKs and MCP servers.</cite>",
+      "url": "https://www.anthropic.com/news"
     },
     {
       "date": "May 14, 2026",
-      "title": "PwC expands Claude deployment across hundreds of thousands of staff",
-      "summary": "PwC announces expanded alliance with Anthropic, rolling out Claude Code and Cowork plus training 30,000 professionals.",
-      "url": "https://www.anthropic.com/news/pwc-expanded-partnership"
+      "title": "Anthropic forms $200M partnership with Gates Foundation",
+      "summary": "<cite index=\"16-1\">Anthropic partnered with the Gates Foundation to commit $200 million in grant funding, Claude usage credits, and technical support.</cite>",
+      "url": "https://www.anthropic.com/news/gates-foundation-partnership"
     },
     {
-      "date": "May 12, 2026",
-      "title": "Claude launches 20+ legal connectors and 12 practice-area plugins",
-      "summary": "Anthropic releases comprehensive Claude for Legal with MCP integrations to law firm tools and specialized legal workflow plugins.",
-      "url": "https://claude.com/blog/claude-for-the-legal-industry"
+      "date": "May 13, 2026",
+      "title": "Claude for Small Business launched with business tool connectors",
+      "summary": "<cite index=\"5-7\">Claude for Small Business puts Claude to work inside tools small business owners already use: Intuit Quickbooks, PayPal, HubSpot, Canva, Docusign, Google Workspace, and Microsoft 365.</cite>",
+      "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "May 6, 2026",
-      "title": "Code with Claude developer conference announces Managed Agents upgrades",
-      "summary": "Anthropic showcases Claude Code updates including dreaming feature, multiagent orchestration, and higher API usage limits.",
-      "url": "https://www.anthropic.com/news/code-with-claude-2026-recap"
+      "date": "May 4, 2026",
+      "title": "Claude Opus 4.7 released with improved vision and coding",
+      "summary": "<cite index=\"1-16,1-18\">Claude launched Opus 4.7 with stronger coding, better long-running software tasks and higher-resolution vision.</cite>",
+      "url": "https://www.anthropic.com/news"
     }
   ],
-  "lastChecked": "2026-05-26T10:14:12.653Z"
+  "lastChecked": "2026-05-27T10:12:20.279Z"
 }
