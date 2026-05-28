@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-27T10:12:20.279Z",
+  "lastUpdated": "2026-05-28T10:19:58.919Z",
   "categories": [
     {
       "id": "llm",
@@ -15805,56 +15805,57 @@
     }
   ],
   "totw": {
-    "name": "Unabyss",
-    "tagline": "MCP-native self-updating context layer for your AI",
-    "votesCount": 682,
-    "url": "https://www.producthunt.com/products/unabyss?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
-    "thumbnail": "https://ph-files.imgix.net/c35d380b-1508-44ae-a273-b0bea7db4969.gif?auto=format",
+    "name": "Brew ",
+    "tagline": "Like Claude design for email marketing",
+    "votesCount": 727,
+    "url": "https://www.producthunt.com/products/brew-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
+    "thumbnail": "https://ph-files.imgix.net/a805620c-ee33-47e2-973d-5d6ea3f646a3.gif?auto=format",
     "rank": 1,
     "topics": [
-      "Productivity",
+      "Design Tools",
+      "Email Marketing",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-05-27T10:10:49.952Z"
+    "fetchedAt": "2026-05-28T10:18:58.848Z"
   },
   "lastWeeklyUpdate": "2026-05-22T09:59:53.812Z",
   "anthropicNews": [
     {
-      "date": "May 22, 2026",
-      "title": "Project Glasswing expands with Claude Security public beta",
-      "summary": "<cite index=\"2-2\">Anthropic expanded Project Glasswing with Claude Security in public beta and new cyber verification tools for eligible security teams.</cite>",
-      "url": "https://www.anthropic.com/news/project-glasswing-update"
-    },
-    {
-      "date": "May 19, 2026",
-      "title": "Code with Claude developer conference in London",
-      "summary": "<cite index=\"6-4\">Anthropic's two-day event for software developers in London kicked off on May 19.</cite>",
+      "date": "May 26, 2026",
+      "title": "Anthropic Appoints Korea Representative Director",
+      "summary": "Anthropic names KiYoung Choi as Representative Director ahead of Seoul office opening.",
       "url": "https://www.anthropic.com/news"
     },
     {
       "date": "May 18, 2026",
-      "title": "Anthropic acquires Stainless for SDK and MCP tooling",
-      "summary": "<cite index=\"15-15,15-16\">Anthropic acquired Stainless on May 18, 2026. Stainless builds tooling for generating client SDKs and MCP servers.</cite>",
+      "title": "Anthropic Acquires Stainless",
+      "summary": "Anthropic completes acquisition of Stainless to strengthen infrastructure capabilities.",
       "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "May 14, 2026",
-      "title": "Anthropic forms $200M partnership with Gates Foundation",
-      "summary": "<cite index=\"16-1\">Anthropic partnered with the Gates Foundation to commit $200 million in grant funding, Claude usage credits, and technical support.</cite>",
-      "url": "https://www.anthropic.com/news/gates-foundation-partnership"
     },
     {
       "date": "May 13, 2026",
-      "title": "Claude for Small Business launched with business tool connectors",
-      "summary": "<cite index=\"5-7\">Claude for Small Business puts Claude to work inside tools small business owners already use: Intuit Quickbooks, PayPal, HubSpot, Canva, Docusign, Google Workspace, and Microsoft 365.</cite>",
+      "title": "Claude for Small Business Launch",
+      "summary": "<cite index=\"24-1,28-7\">Anthropic launches Claude for Small Business with 15 pre-built agentic workflows across finance, operations, sales, marketing, HR and customer service.</cite>",
+      "url": "https://techcrunch.com/2026/05/13/anthropic-courts-a-new-kind-of-customer-small-business-owners/"
+    },
+    {
+      "date": "May 8, 2026",
+      "title": "Claude Opus 4.7 Release",
+      "summary": "<cite index=\"6-6\">Claude Opus 4.7 achieves 87.6% on SWE-Bench Verified (up 13 points from Opus 4.6) with 3x higher resolution image input at same price.</cite>",
+      "url": "https://www.anthropic.com/news/claude-opus-4-7"
+    },
+    {
+      "date": "May 6, 2026",
+      "title": "Code with Claude 2026 Conference",
+      "summary": "<cite index=\"3-1\">Anthropic doubled rate limits on Claude Code and raised API limits for Claude Opus for developers, startups, and enterprises to build more reliably at scale.</cite>",
       "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "May 4, 2026",
-      "title": "Claude Opus 4.7 released with improved vision and coding",
-      "summary": "<cite index=\"1-16,1-18\">Claude launched Opus 4.7 with stronger coding, better long-running software tasks and higher-resolution vision.</cite>",
-      "url": "https://www.anthropic.com/news"
+      "date": "May 5, 2026",
+      "title": "AI Agents Suite for Financial Services",
+      "summary": "<cite index=\"25-1\">Anthropic launches pre-built AI agents for the world's largest banks alongside Claude Opus 4.7 for financial work.</cite>",
+      "url": "https://fortune.com/2026/05/05/anthropic-wall-street-financial-services-agents-jamie-dimon/"
     }
   ],
-  "lastChecked": "2026-05-27T10:12:20.279Z"
+  "lastChecked": "2026-05-28T10:19:58.919Z"
 }
