@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-29T10:31:07.152Z",
+  "lastUpdated": "2026-05-30T08:36:40.703Z",
   "categories": [
     {
       "id": "llm",
@@ -16654,7 +16654,7 @@
   "totw": {
     "name": "Brew ",
     "tagline": "Like Claude design for email marketing",
-    "votesCount": 761,
+    "votesCount": 790,
     "url": "https://www.producthunt.com/products/brew-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/a805620c-ee33-47e2-973d-5d6ea3f646a3.gif?auto=format",
     "rank": 1,
@@ -16663,46 +16663,46 @@
       "Email Marketing",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-05-29T10:08:10.567Z"
+    "fetchedAt": "2026-05-30T08:36:25.324Z"
   },
   "lastWeeklyUpdate": "2026-05-29T10:26:46.867Z",
   "anthropicNews": [
     {
       "date": "May 28, 2026",
-      "title": "Claude Opus 4.8 Released with Improved Reasoning",
-      "summary": "Anthropic released Claude Opus 4.8 with sharper judgment and improved benchmarks across agentic coding, reasoning, and knowledge work tasks.",
+      "title": "Claude Opus 4.8 released with improved honesty and reliability",
+      "summary": "<cite index=\"2-15,2-16\">Claude Opus 4.8 builds on Opus 4.7 with improvements across benchmarks and is a more effective collaborator.</cite>",
       "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "May 28, 2026",
-      "title": "Claude Managed Agents: Self-Hosted Sandboxes Public Beta",
-      "summary": "Claude Managed Agents now support self-hosted sandboxes and MCP tunnels, allowing agents to run in enterprise environments with stronger security controls.",
+      "date": "May 2026",
+      "title": "Claude Design launched as new Anthropic Labs product",
+      "summary": "<cite index=\"1-3\">Claude Design is a new Anthropic Labs product that lets you collaborate with Claude to create visual outputs like designs, prototypes, slides, and one-pagers.</cite>",
+      "url": "https://releasebot.io/updates/anthropic/claude"
+    },
+    {
+      "date": "May 2026",
+      "title": "Managed Agents self-hosted sandboxes and MCP tunnels now available",
+      "summary": "<cite index=\"1-7,1-8\">Claude Managed Agents can operate in a sandbox you control and connect to your private Model Context Protocol servers.</cite>",
+      "url": "https://releasebot.io/updates/anthropic/claude"
+    },
+    {
+      "date": "May 2026",
+      "title": "Claude Code doubled rate limits with Opus 4.8 launch",
+      "summary": "<cite index=\"1-16\">Anthropic doubled rate limits on Claude Code and raised API limits for Claude Opus.</cite>",
+      "url": "https://releasebot.io/updates/anthropic/claude"
+    },
+    {
+      "date": "May 14, 2026",
+      "title": "PwC deploying Claude for enterprise technology and deal execution",
+      "summary": "PwC announced deployment of Claude to build technology, execute deals, and reinvent enterprise functions for clients.",
       "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "May 22, 2026",
-      "title": "Project Glasswing Expanded: Claude Security Public Beta",
-      "summary": "Anthropic expanded Project Glasswing with Claude Security in public beta for cybersecurity teams, offering vulnerability scanning and fix generation tools.",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "May 18, 2026",
-      "title": "Anthropic Acquires Stainless for API Infrastructure",
-      "summary": "Anthropic acquired Stainless, a company specializing in API infrastructure and SDKs, to strengthen its developer platform capabilities.",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "May 15, 2026",
-      "title": "Claude for Small Business Launches Nationwide Tour",
-      "summary": "Anthropic launched Claude for Small Business with 15 pre-built workflows and a 10-city US tour offering free AI training for small business owners.",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "May 1, 2026",
-      "title": "Anthropic-Goldman Blackstone $1.5B AI Implementation Venture",
-      "summary": "Anthropic partnered with Goldman Sachs, Blackstone, and other PE firms to launch a $1.5 billion venture focused on AI implementation across middle-market companies.",
+      "date": "April 16, 2026",
+      "title": "Claude Opus 4.7 released with new tokenizer and vision improvements",
+      "summary": "<cite index=\"3-20,3-21\">Claude Opus 4.7 was announced on April 16, 2026, and was the frontier Claude model until Claude Opus 4.8 superseded it on May 28.</cite>",
       "url": "https://www.anthropic.com/news"
     }
   ],
-  "lastChecked": "2026-05-29T10:31:07.152Z"
+  "lastChecked": "2026-05-30T08:36:40.704Z"
 }
