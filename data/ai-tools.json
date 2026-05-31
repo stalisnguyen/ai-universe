@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-30T08:36:40.703Z",
+  "lastUpdated": "2026-05-31T09:15:51.367Z",
   "categories": [
     {
       "id": "llm",
@@ -16649,12 +16649,139 @@
         ]
       },
       "link": "https://www.labcorp.com/mylab"
+    },
+    {
+      "id": "antigravity-2-0",
+      "name": "Antigravity 2.0",
+      "company": "Google",
+      "category": "agent",
+      "icon": "🚀",
+      "badge": "hot",
+      "color": "#4285F4",
+      "price": "freemium",
+      "priceLabel": "Free / From $100/mo",
+      "tags": [
+        "agent-first IDE",
+        "autonomous development",
+        "parallel workflows",
+        "Gemini 3.5 Flash"
+      ],
+      "shortDesc": "Agent-first platform for autonomous AI agents to plan, code, test, and deploy full applications.",
+      "fullDesc": "<cite index=\"1-1,1-2\">Antigravity 2.0 is a standalone desktop application for launching, monitoring, and orchestrating AI agents across projects, designed as a central command center for agent-first development.</cite> <cite index=\"7-8\">Google Antigravity is an agent-first development platform for developers to take an idea and turn it into a production-ready app.</cite> <cite index=\"4-2\">The AI is an autonomous actor capable of planning, executing, validating, and iterating on complex engineering tasks with minimal human intervention.</cite>",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Agent-First Development Platform"
+        },
+        {
+          "label": "Released",
+          "value": "May 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Developers building applications with autonomous AI agents"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free during preview; Pro ($100/mo), Ultra ($200/mo)"
+        }
+      ],
+      "features": [
+        "<cite index=\"7-2\">Orchestrate multiple agents to execute tasks in parallel</cite>",
+        "<cite index=\"1-8\">Scheduled Tasks with cron-style scheduling for background automation</cite>",
+        "<cite index=\"7-14\">Dynamic subagents for parallelized workflows and ecosystem integrations across Google AI Studio, Android and Firebase</cite>",
+        "<cite index=\"5-27,5-28,5-29\">Browser Subagent that spins up a real Chrome instance, clicks buttons, fills forms, takes screenshots, and debugs issues</cite>",
+        "<cite index=\"6-1\">Platform includes desktop app, CLI, SDK, Managed Agents API, and enterprise deployment path</cite>",
+        "<cite index=\"1-7\">Powered by Gemini 3.5 Flash with support for additional reasoning models where supported</cite>",
+        "<cite index=\"1-9,1-10\">Project-scoped settings and permission grants for safer control over what each project can access</cite>",
+        "<cite index=\"6-43\">Voice command support for hands-free operation</cite>"
+      ],
+      "demo": [
+        {
+          "title": "Install Antigravity 2.0",
+          "desc": "<cite index=\"5-1\">Download the free standalone desktop application for macOS, Windows, or Linux</cite>",
+          "code": "# Download from https://google.com/antigravity"
+        },
+        {
+          "title": "Describe Your Task",
+          "desc": "<cite index=\"5-42,5-43\">Write a prompt describing what you want to build and the AI will write, test, and ship everything</cite>",
+          "code": "Build a CRM dashboard that pulls customer data from my Google Sheet and displays real-time metrics"
+        },
+        {
+          "title": "Watch Agents Work",
+          "desc": "<cite index=\"5-10\">Multiple AI agents plan the architecture, write the code, spin up a browser to test it live, fix errors, and deploy</cite>",
+          "code": "# Multiple subagents execute simultaneously"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Web Application",
+          "text": "Build a task management app with real-time collaboration, user authentication, and data persistence"
+        },
+        {
+          "label": "Google Workspace Integration",
+          "text": "Create a CRM that pulls lead data from my Google Sheet and sends follow-up reminders via Calendar"
+        },
+        {
+          "label": "Background Automation",
+          "text": "Set up an agent to check build status every morning and generate a project report"
+        },
+        {
+          "label": "Multi-Platform",
+          "text": "Build an Android app that syncs with Firebase and displays real-time data"
+        }
+      ],
+      "pricing": {
+        "note": "<cite index=\"9-1,9-2,9-3\">Antigravity 2.0 uses a compute-based usage model that refreshes every 5 hours, replacing daily prompt limits, with pay-as-you-go AI credits available as top-ups</cite>",
+        "plans": [
+          {
+            "name": "Free",
+            "price": "$0",
+            "per": "forever",
+            "popular": false,
+            "color": "#F3F3F3",
+            "features": [
+              "Desktop application access",
+              "Basic agent orchestration",
+              "Standard compute limits",
+              "macOS, Windows, Linux support"
+            ]
+          },
+          {
+            "name": "Pro",
+            "price": "$100",
+            "per": "per month",
+            "popular": true,
+            "color": "#4285F4",
+            "features": [
+              "<cite index=\"2-3\">5x more usage limit than standard tier</cite>",
+              "Advanced agent management",
+              "Priority execution",
+              "Enterprise support"
+            ]
+          },
+          {
+            "name": "Ultra",
+            "price": "$200",
+            "per": "per month",
+            "popular": false,
+            "color": "#1F2937",
+            "features": [
+              "<cite index=\"6-3,6-4\">20x Pro's limits and unlocks the full Gemini Enterprise Agent Platform via Google Cloud</cite>",
+              "Managed Agents API",
+              "Custom agent deployment",
+              "Enterprise collaboration tools"
+            ]
+          }
+        ]
+      },
+      "link": "https://google.com/antigravity"
     }
   ],
   "totw": {
     "name": "Brew ",
     "tagline": "Like Claude design for email marketing",
-    "votesCount": 790,
+    "votesCount": 800,
     "url": "https://www.producthunt.com/products/brew-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/a805620c-ee33-47e2-973d-5d6ea3f646a3.gif?auto=format",
     "rank": 1,
@@ -16663,46 +16790,46 @@
       "Email Marketing",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-05-30T08:36:25.324Z"
+    "fetchedAt": "2026-05-31T09:15:01.583Z"
   },
   "lastWeeklyUpdate": "2026-05-29T10:26:46.867Z",
   "anthropicNews": [
     {
       "date": "May 28, 2026",
-      "title": "Claude Opus 4.8 released with improved honesty and reliability",
-      "summary": "<cite index=\"2-15,2-16\">Claude Opus 4.8 builds on Opus 4.7 with improvements across benchmarks and is a more effective collaborator.</cite>",
+      "title": "Claude Opus 4.8 released with improved honesty and coding",
+      "summary": "Anthropic releases Claude Opus 4.8 with better benchmarks, dynamic workflows, and 3x cheaper fast mode.",
+      "url": "https://www.anthropic.com/news/claude-opus-4-8"
+    },
+    {
+      "date": "May 28, 2026",
+      "title": "Anthropic raises $65B at $965B valuation, promises Mythos soon",
+      "summary": "Anthropic valued at $965B after $65B funding; Mythos-class models coming in coming weeks.",
+      "url": "https://fortune.com/2026/05/29/anthropic-raises-65-billion"
+    },
+    {
+      "date": "May 27, 2026",
+      "title": "Anthropic opens Milan office to support Italian enterprises",
+      "summary": "Anthropic announces new Milan office for European enterprise support and expansion.",
       "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "May 2026",
-      "title": "Claude Design launched as new Anthropic Labs product",
-      "summary": "<cite index=\"1-3\">Claude Design is a new Anthropic Labs product that lets you collaborate with Claude to create visual outputs like designs, prototypes, slides, and one-pagers.</cite>",
-      "url": "https://releasebot.io/updates/anthropic/claude"
-    },
-    {
-      "date": "May 2026",
-      "title": "Managed Agents self-hosted sandboxes and MCP tunnels now available",
-      "summary": "<cite index=\"1-7,1-8\">Claude Managed Agents can operate in a sandbox you control and connect to your private Model Context Protocol servers.</cite>",
-      "url": "https://releasebot.io/updates/anthropic/claude"
-    },
-    {
-      "date": "May 2026",
-      "title": "Claude Code doubled rate limits with Opus 4.8 launch",
-      "summary": "<cite index=\"1-16\">Anthropic doubled rate limits on Claude Code and raised API limits for Claude Opus.</cite>",
-      "url": "https://releasebot.io/updates/anthropic/claude"
     },
     {
       "date": "May 14, 2026",
-      "title": "PwC deploying Claude for enterprise technology and deal execution",
-      "summary": "PwC announced deployment of Claude to build technology, execute deals, and reinvent enterprise functions for clients.",
-      "url": "https://www.anthropic.com/news"
+      "title": "PwC expands Claude deployment to 300K+ professionals globally",
+      "summary": "PwC launches Office of CFO built on Claude; deploys Claude Code and Cowork enterprise-wide.",
+      "url": "https://www.anthropic.com/news/pwc-expanded-partnership"
     },
     {
-      "date": "April 16, 2026",
-      "title": "Claude Opus 4.7 released with new tokenizer and vision improvements",
-      "summary": "<cite index=\"3-20,3-21\">Claude Opus 4.7 was announced on April 16, 2026, and was the frontier Claude model until Claude Opus 4.8 superseded it on May 28.</cite>",
-      "url": "https://www.anthropic.com/news"
+      "date": "May 14, 2026",
+      "title": "Claude for Small Business launches with integrated tools",
+      "summary": "Anthropic releases Claude for Small Business with connectors to QuickBooks, PayPal, HubSpot.",
+      "url": "https://www.anthropic.com/news/claude-for-small-business"
+    },
+    {
+      "date": "May 20-21, 2026",
+      "title": "Code w/ Claude developer conference features new agent features",
+      "summary": "Anthropic's developer conference showcases Claude Managed Agents, self-hosted sandboxes, dreaming feature.",
+      "url": "https://www.technologyreview.com/2026/05/21/1137735"
     }
   ],
-  "lastChecked": "2026-05-30T08:36:40.704Z"
+  "lastChecked": "2026-05-31T09:15:51.367Z"
 }
