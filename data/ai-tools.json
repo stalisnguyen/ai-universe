@@ -17125,57 +17125,51 @@
     }
   ],
   "totw": {
-    "name": "Pancake",
-    "tagline": "OpenClaw in Slack that makes your company autonomous",
-    "votesCount": 569,
-    "url": "https://www.producthunt.com/products/pancake-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
-    "thumbnail": "https://ph-files.imgix.net/97c3d3e6-3484-4fe5-9a56-bf795d31eaa5.png?auto=format",
+    "name": "Fundraisly",
+    "tagline": "AI fundraising agent that finds investors and books meetings",
+    "votesCount": 971,
+    "url": "https://www.producthunt.com/products/fundraisly?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
+    "thumbnail": "https://ph-files.imgix.net/50c29b3a-45e5-4eb3-82a6-247714b5e6d9.png?auto=format",
     "rank": 1,
     "topics": [
-      "Slack",
+      "Venture Capital",
       "Artificial Intelligence",
-      "Maker Tools"
+      "Fundraising"
     ],
-    "fetchedAt": "2026-06-02T10:49:52.163Z"
+    "fetchedAt": "2026-06-03T11:18:08.583Z"
   },
   "lastWeeklyUpdate": "2026-05-29T10:26:46.867Z",
   "anthropicNews": [
     {
-      "date": "Jun 1, 2026",
-      "title": "Anthropic confidentially files for IPO",
-      "summary": "<cite index=\"2-1,2-2\">Anthropic has confidentially filed for an initial public offering.</cite>",
-      "url": "https://www.cbsnews.com/news/anthropic-ipo-confidential-filing-claude-ai/"
+      "date": "Jun 02, 2026",
+      "title": "Anthropic Expands Project Glasswing to 150 Organizations",
+      "summary": "Project Glasswing expands Claude Mythos access to ~150 new organizations across 15+ countries for cybersecurity research.",
+      "url": "https://www.anthropic.com/news/expanding-project-glasswing"
     },
     {
       "date": "May 28, 2026",
-      "title": "Claude Opus 4.8 released with improved coding",
-      "summary": "<cite index=\"11-1\">Claude Opus 4.8 is an upgrade to Anthropic's flagship AI model with better coding and knowledge work skills, all for the same price as its prior version.</cite>",
-      "url": "https://www.anthropic.com/news"
+      "title": "Claude Opus 4.8 Released with New Features",
+      "summary": "Claude Opus 4.8 launches with improved reasoning, effort control, dynamic workflows, and 3x cheaper fast mode.",
+      "url": "https://www.anthropic.com/"
     },
     {
       "date": "May 28, 2026",
-      "title": "Dynamic Workflows and cheaper fast mode launched",
-      "summary": "<cite index=\"5-2\">Anthropic unveiled a new orchestration capability called Dynamic Workflows alongside improved coding collaborator Claude Opus 4.8.</cite>",
-      "url": "https://aimagazine.com/news/anthropics-claude-code-is-changing-enterprise-workflows"
+      "title": "Anthropic Raises $65B at $965B Valuation",
+      "summary": "Anthropic closes Series H funding round, becoming most valuable AI startup, surpassing OpenAI's valuation.",
+      "url": "https://www.cnbc.com/2026/05/28/anthropic-open-ai-startup-value.html"
     },
     {
-      "date": "May 28, 2026",
-      "title": "Mythos-class models coming in coming weeks",
-      "summary": "<cite index=\"12-3,12-4\">Anthropic plans to widely release new AI models with cybersecurity capabilities comparable to Mythos after developing stronger safety safeguards.</cite>",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-28/anthropic-unveils-new-flagship-ai-model-that-s-better-at-coding"
+      "date": "Jun 01, 2026",
+      "title": "Anthropic Confidentially Files for IPO",
+      "summary": "Anthropic files confidentially for US IPO following $65B funding round and record $965B valuation.",
+      "url": "https://www.aljazeera.com/economy/2026/6/1/ai-giant-anthropic-files-for-us-ipo-as-investors-bet-big-on-ai-future"
     },
     {
-      "date": "May 29, 2026",
-      "title": "Anthropic raises $65B at $965B valuation",
-      "summary": "<cite index=\"13-4\">Anthropic raised $65 billion in a new funding round that valued the company at $965 billion, making it the most valuable AI startup in the world.</cite>",
-      "url": "https://fortune.com/2026/05/29/anthropic-raises-65-billion-at-record-965-billion-valuation-promises-mythos-ai-model-in-wide-release-in-coming-weeks-releases-claude-opus-4-8/"
-    },
-    {
-      "date": "May 11, 2026",
-      "title": "Claude Platform launched on AWS",
-      "summary": "<cite index=\"14-1\">Claude Platform on AWS brings the full Claude API feature set to AWS customers with AWS authentication, billing, and commitment retirement.</cite>",
-      "url": "https://releasebot.io/updates/anthropic"
+      "date": "May 19, 2026",
+      "title": "Anthropic Releases Claude Managed Agents Features",
+      "summary": "Claude Managed Agents introduces dreaming feature enabling agents to learn from past notes and improve over time.",
+      "url": "https://www.technologyreview.com/2026/05/21/1137735/anthropics-code-with-claude-showed-off-codings-future-whether-you-like-it-or-not/"
     }
   ],
-  "lastChecked": "2026-06-02T10:51:29.291Z"
+  "lastChecked": "2026-06-03T11:18:24.603Z"
 }
