@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-02T10:51:29.291Z",
+  "lastUpdated": "2026-06-04T10:08:51.149Z",
   "categories": [
     {
       "id": "llm",
@@ -17122,12 +17122,322 @@
         ]
       },
       "link": "https://www.anthropic.com/mythos"
+    },
+    {
+      "id": "recursive-superintelligence",
+      "name": "Recursive Superintelligence",
+      "company": "Recursive Superintelligence",
+      "category": "research",
+      "icon": "🔄",
+      "badge": "hot",
+      "color": "#2563eb",
+      "price": "free",
+      "priceLabel": "Not yet publicly available",
+      "tags": [
+        "self-improving AI",
+        "recursive learning",
+        "research platform",
+        "autonomous development"
+      ],
+      "shortDesc": "Self-improving AI system that autonomously enhances itself without human intervention.",
+      "fullDesc": "Recursive Superintelligence is a research-stage AI platform designed to automate the full AI development pipeline, enabling systems to autonomously discover knowledge and iteratively improve their own capabilities in accelerating loops. Founded by former leaders from Meta AI, Google DeepMind, OpenAI, and Salesforce, the company aims to achieve recursive self-improvement where AI systems automate parts of their own research and development. The platform targets researchers, AI development teams, and organizations seeking to leverage autonomous AI optimization for scientific discovery and complex problem-solving.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Self-improving AI Research Platform"
+        },
+        {
+          "label": "Released",
+          "value": "May 2026 (planned launch)"
+        },
+        {
+          "label": "Best for",
+          "value": "Automating AI research, scientific discovery, autonomous model optimization"
+        },
+        {
+          "label": "Pricing",
+          "value": "Not yet available; research stage startup"
+        }
+      ],
+      "features": [
+        "Autonomous recursive self-improvement enabling AI systems to enhance their own capabilities without human intervention",
+        "Full AI development pipeline automation including experiment design, data selection, training, and evaluation",
+        "Open-ended knowledge discovery and research automation across multiple scientific domains",
+        "Continuous performance optimization through iterative feedback loops and self-learning processes",
+        "Scalable infrastructure supporting large-scale compute requirements for autonomous training systems",
+        "Research-grade system architecture built by elite AI researchers from DeepMind, Meta, and OpenAI",
+        "Staged roadmap approaching superintelligence through progressive capability levels",
+        "Framework for automating AI-to-AI improvement cycles and accelerating development velocity"
+      ],
+      "demo": [
+        {
+          "title": "System Overview",
+          "desc": "Recursive Superintelligence enables autonomous AI systems that discover and implement improvements to themselves through multi-stage training loops",
+          "code": ""
+        },
+        {
+          "title": "Autonomous Research Automation",
+          "desc": "The platform automates scientific research workflows typically performed by human researchers, using 'Level 1' autonomous systems for AI development",
+          "code": ""
+        },
+        {
+          "title": "Iterative Knowledge Discovery",
+          "desc": "Systems recursively improve by leveraging improvements to make better improvements, creating accelerating development cycles",
+          "code": ""
+        }
+      ],
+      "prompts": [
+        {
+          "label": "AI Research Automation",
+          "text": "Automate the discovery and implementation of improvements to AI model architectures through recursive self-evaluation and optimization"
+        },
+        {
+          "label": "Scientific Pipeline Optimization",
+          "text": "Run autonomous cycles of experiment design, execution, evaluation, and refinement to accelerate scientific discovery"
+        },
+        {
+          "label": "Development Velocity Acceleration",
+          "text": "Enable AI systems to autonomously improve their training processes, reducing human-dependent research workflows"
+        }
+      ],
+      "pricing": {
+        "note": "Recursive Superintelligence is in research and development phase with a planned public launch targeted for mid-May 2026. Pricing structure has not been announced. The company is primarily focused on building foundational technology rather than immediate commercialization.",
+        "plans": [
+          {
+            "name": "Research Access (TBD)",
+            "price": "Contact for details",
+            "per": "TBD",
+            "popular": false,
+            "color": "#3b82f6",
+            "features": [
+              "Access to recursive self-improvement platform (when available)",
+              "Integration with AI development pipelines",
+              "Research collaboration opportunities"
+            ]
+          }
+        ]
+      },
+      "link": "https://recursive.ai"
+    },
+    {
+      "id": "decagon-voice",
+      "name": "Decagon Voice",
+      "company": "Decagon",
+      "category": "agent",
+      "icon": "☎️",
+      "badge": "pro",
+      "color": "#1e40af",
+      "price": "paid",
+      "priceLabel": "Custom enterprise pricing",
+      "tags": [
+        "voice AI",
+        "customer support",
+        "omnichannel",
+        "enterprise"
+      ],
+      "shortDesc": "Enterprise-grade AI voice agents for inbound and outbound customer calls with sub-second latency.",
+      "fullDesc": "Decagon Voice is an AI voice agent platform built for enterprise customer support, enabling businesses to handle inbound phone calls and outbound campaigns using the same intelligent Agent Operating Procedures (AOPs) that govern chat and email channels. With partnerships like ElevenLabs for hyper-realistic voices and sub-second latency performance, it delivers natural conversations while seamlessly integrating with call center infrastructure and maintaining cross-channel memory. It's designed for large enterprises managing high support volumes who need AI-powered phone support alongside other communication channels.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Voice AI Agent / Customer Support Platform"
+        },
+        {
+          "label": "Released",
+          "value": "2025 (Voice 2.0 GA Sept 2025)"
+        },
+        {
+          "label": "Best for",
+          "value": "Enterprise customer service with voice as primary/secondary channel"
+        },
+        {
+          "label": "Pricing",
+          "value": "Custom enterprise contracts, est. $50K-$580K+ annually"
+        }
+      ],
+      "features": [
+        "Inbound and outbound voice call handling with sub-second latency (65% faster with Voice 2.0)",
+        "Agent Operating Procedures (AOPs) for defining complex workflows in natural language",
+        "Cross-channel memory enabling seamless handoffs between voice, chat, email, and SMS",
+        "Brand voice customization: adjust tone, speed, style, pronunciation of company-specific terms",
+        "Warm handoff to human agents with conversation summary for smooth escalation",
+        "Outbound campaigns for appointment reminders, renewals, and proactive customer engagement",
+        "Integrations with telephony infrastructure including Amazon Connect, RingCentral, and SIP trunks",
+        "Real-time analytics and quality monitoring with Watchtower observability tools"
+      ],
+      "demo": [
+        {
+          "title": "Inbound Voice Support",
+          "desc": "Customer calls and describes an issue; Decagon Voice agent understands intent, retrieves relevant knowledge, and resolves or escalates with context."
+        },
+        {
+          "title": "Outbound Proactive Campaign",
+          "desc": "Agent initiates call to customer for appointment reminder or renewal offer; maintains conversation history and updates customer record in real-time."
+        },
+        {
+          "title": "Omnichannel Continuity",
+          "desc": "Customer starts issue in chat, continues via voice call, receives follow-up SMS—all with preserved context and conversation history."
+        }
+      ],
+      "prompts": [
+        {
+          "label": "AOP Workflow Example",
+          "text": "If customer reports payment failed, verify purchase date, check transaction history in database, offer re-attempt with different payment method, or escalate to billing if issue persists."
+        },
+        {
+          "label": "Voice Customization",
+          "text": "Set agent tone to warm and approachable, ensure 'Decagon' and 'ACME Corp' are pronounced correctly, pause briefly before transfer to humans."
+        },
+        {
+          "label": "Escalation Trigger",
+          "text": "If customer sentiment score drops below -0.6 or explicitly requests agent after 3 attempts to resolve, hand off to human with summary of conversation and customer history."
+        }
+      ],
+      "pricing": {
+        "note": "Decagon Voice uses custom enterprise pricing with no public rate card. Typical contracts range $50K–$580K+ annually based on call volume, channel mix (voice costs more than chat), integration complexity, and SLA requirements. Minimum annual commitment typically $50K. No free trial or self-serve signup; enterprise sales process required.",
+        "plans": [
+          {
+            "name": "Custom Enterprise Plan",
+            "price": "Custom",
+            "per": "per year",
+            "popular": true,
+            "color": "#1e40af",
+            "features": [
+              "Inbound and outbound voice AI agents",
+              "Cross-channel memory and omnichannel support",
+              "Custom AOP workflows and integrations",
+              "Dedicated onboarding and customer success manager",
+              "Volume-based pricing with usage analytics"
+            ]
+          }
+        ]
+      },
+      "link": "https://decagon.ai"
+    },
+    {
+      "id": "thinking-machines-lab",
+      "name": "Thinking Machines Lab",
+      "company": "Thinking Machines Lab",
+      "category": "ml-ops",
+      "icon": "🧠",
+      "badge": "hot",
+      "color": "#1a1a1a",
+      "price": "freemium",
+      "priceLabel": "Free tier + usage-based pricing",
+      "tags": [
+        "AI model fine-tuning",
+        "Training API",
+        "Open-source models",
+        "Research tool"
+      ],
+      "shortDesc": "Managed API platform for fine-tuning and training open-source AI models with distributed infrastructure.",
+      "fullDesc": "Thinking Machines Lab's Tinker is a training API platform that provides researchers, developers, and enterprises with managed infrastructure for fine-tuning and customizing open-source AI models. It abstracts away the complexity of distributed training, resource management, and compute orchestration while offering low-level control over the training process. Designed for AI researchers, academic institutions, and developers who need to adapt frontier models to specific use cases.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "ML Training Platform / API"
+        },
+        {
+          "label": "Released",
+          "value": "October 2025"
+        },
+        {
+          "label": "Best for",
+          "value": "Researchers, developers, enterprises fine-tuning open-source models"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free during beta, usage-based pricing by tokens"
+        }
+      ],
+      "features": [
+        "Managed distributed training infrastructure for open-source model fine-tuning",
+        "Low-rank adaptation (LoRA) for efficient parameter updates",
+        "Support for supervised learning and reinforcement learning workflows",
+        "Integration with Meta Llama and Alibaba Qwen models",
+        "Automatic handling of scheduling, resource management, and failure recovery",
+        "Tinker Cookbook with pre-built post-training templates",
+        "Custom model download for deployment on user hardware",
+        "On-policy distillation enabling 9-30x compute efficiency improvements"
+      ],
+      "demo": [
+        {
+          "title": "Setup Tinker API Access",
+          "desc": "Initialize your Tinker API connection with your credentials and select the base model to fine-tune.",
+          "code": "from tinker import TinkerClient\nclient = TinkerClient(api_key='your_key')\nmodel = client.init_model('llama-7b')"
+        },
+        {
+          "title": "Configure Training Loop",
+          "desc": "Define your training process using simple functions for forward pass, backward pass, and optimization steps.",
+          "code": "loss = model.forward(batch)\nloss.backward()\noptimizer.step()"
+        },
+        {
+          "title": "Execute Custom Fine-tuning",
+          "desc": "Run your fine-tuning experiment with your data on Tinker's managed GPU clusters.",
+          "code": "results = client.train(\n  model_id='llama-7b',\n  training_script='train.py',\n  num_gpus=4\n)"
+        },
+        {
+          "title": "Download Trained Model",
+          "desc": "Download the fine-tuned model for deployment on your own infrastructure.",
+          "code": "trained_model = client.download_model('job_id')"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Mathematics Reasoning",
+          "text": "Fine-tune a Llama model on mathematical theorem proving tasks to achieve 70% AIME accuracy"
+        },
+        {
+          "label": "Domain Specialization",
+          "text": "Train a chemistry reasoning model to boost performance from 15% to 50% on specialized domain tasks"
+        },
+        {
+          "label": "RL Training",
+          "text": "Implement custom reinforcement learning feedback loops for multi-agent, multi-turn tool-use scenarios"
+        },
+        {
+          "label": "Continual Learning",
+          "text": "Fine-tune models on proprietary data while preserving instruction-following capabilities"
+        }
+      ],
+      "pricing": {
+        "note": "Tinker launched in private beta with free access. Usage-based pricing (per million tokens) is being introduced for public availability. Pricing reflects compute usage, with mixture-of-experts models offering better cost-effectiveness than dense models.",
+        "plans": [
+          {
+            "name": "Beta Free Tier",
+            "price": "$0",
+            "per": "forever",
+            "popular": true,
+            "color": "#4CAF50",
+            "features": [
+              "Private beta access during rollout",
+              "Free trial period for approved researchers",
+              "Access to managed GPU infrastructure",
+              "Supported models: Llama, Qwen"
+            ]
+          },
+          {
+            "name": "Pay-as-You-Go",
+            "price": "Usage-based",
+            "per": "per million tokens",
+            "popular": false,
+            "color": "#2196F3",
+            "features": [
+              "Per-token pricing for all usage",
+              "Mixture-of-experts cost savings",
+              "Scalable compute resources",
+              "Access to all supported models"
+            ]
+          }
+        ]
+      },
+      "link": "https://thinkingmachineslab.ai"
     }
   ],
   "totw": {
     "name": "Fundraisly",
     "tagline": "AI fundraising agent that finds investors and books meetings",
-    "votesCount": 971,
+    "votesCount": 1044,
     "url": "https://www.producthunt.com/products/fundraisly?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/50c29b3a-45e5-4eb3-82a6-247714b5e6d9.png?auto=format",
     "rank": 1,
@@ -17136,40 +17446,46 @@
       "Artificial Intelligence",
       "Fundraising"
     ],
-    "fetchedAt": "2026-06-03T11:18:08.583Z"
+    "fetchedAt": "2026-06-04T10:07:52.990Z"
   },
   "lastWeeklyUpdate": "2026-05-29T10:26:46.867Z",
   "anthropicNews": [
     {
-      "date": "Jun 02, 2026",
-      "title": "Anthropic Expands Project Glasswing to 150 Organizations",
-      "summary": "Project Glasswing expands Claude Mythos access to ~150 new organizations across 15+ countries for cybersecurity research.",
-      "url": "https://www.anthropic.com/news/expanding-project-glasswing"
+      "date": "Jun 3, 2026",
+      "title": "Claude Partner Network Launches Services Track and Partner Hub",
+      "summary": "<cite index=\"2-1\">Anthropic announced the Services Track and Partner Hub of the Claude Partner Network on June 3, 2026</cite>",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Jun 2, 2026",
+      "title": "Project Glasswing Expands to 150 Additional Organizations",
+      "summary": "<cite index=\"11-1\">Anthropic is expanding Project Glasswing to an additional 150 partners in more than 15 countries</cite>",
+      "url": "https://www.anthropic.com/glasswing"
+    },
+    {
+      "date": "Jun 1, 2026",
+      "title": "Anthropic Confidentially Files IPO with SEC",
+      "summary": "<cite index=\"8-1,8-2\">Anthropic has confidentially filed for an initial public offering, catapulting the company ahead of OpenAI</cite>",
+      "url": "https://www.cbsnews.com/news/anthropic-ipo-confidential-filing-claude-ai/"
     },
     {
       "date": "May 28, 2026",
-      "title": "Claude Opus 4.8 Released with New Features",
-      "summary": "Claude Opus 4.8 launches with improved reasoning, effort control, dynamic workflows, and 3x cheaper fast mode.",
-      "url": "https://www.anthropic.com/"
+      "title": "Claude Opus 4.8 Released with Dynamic Workflows",
+      "summary": "<cite index=\"15-1,15-2,15-3\">Claude Opus 4.8 builds on Opus 4.7 with improvements across benchmarks and is available today for the same price</cite>",
+      "url": "https://www.anthropic.com/news/claude-opus-4-8"
     },
     {
       "date": "May 28, 2026",
-      "title": "Anthropic Raises $65B at $965B Valuation",
-      "summary": "Anthropic closes Series H funding round, becoming most valuable AI startup, surpassing OpenAI's valuation.",
-      "url": "https://www.cnbc.com/2026/05/28/anthropic-open-ai-startup-value.html"
+      "title": "Mythos-Level Models Coming in Weeks with Enhanced Safeguards",
+      "summary": "<cite index=\"15-24\">Anthropic is making swift progress on developing safeguards and expects to bring Mythos-class models to all customers in the coming weeks</cite>",
+      "url": "https://www.anthropic.com/news/claude-opus-4-8"
     },
     {
-      "date": "Jun 01, 2026",
-      "title": "Anthropic Confidentially Files for IPO",
-      "summary": "Anthropic files confidentially for US IPO following $65B funding round and record $965B valuation.",
-      "url": "https://www.aljazeera.com/economy/2026/6/1/ai-giant-anthropic-files-for-us-ipo-as-investors-bet-big-on-ai-future"
-    },
-    {
-      "date": "May 19, 2026",
-      "title": "Anthropic Releases Claude Managed Agents Features",
-      "summary": "Claude Managed Agents introduces dreaming feature enabling agents to learn from past notes and improve over time.",
-      "url": "https://www.technologyreview.com/2026/05/21/1137735/anthropics-code-with-claude-showed-off-codings-future-whether-you-like-it-or-not/"
+      "date": "May 28, 2026",
+      "title": "Anthropic Raises $65B in Series H at $965B Valuation",
+      "summary": "<cite index=\"8-7\">Anthropic raised $65 billion in a recent funding round, bringing its valuation to $965 billion</cite>",
+      "url": "https://www.anthropic.com/news"
     }
   ],
-  "lastChecked": "2026-06-03T11:18:24.603Z"
+  "lastChecked": "2026-06-04T10:08:51.149Z"
 }
