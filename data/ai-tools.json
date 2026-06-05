@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-04T10:08:51.149Z",
+  "lastUpdated": "2026-06-05T10:06:57.894Z",
   "categories": [
     {
       "id": "llm",
@@ -17432,12 +17432,106 @@
         ]
       },
       "link": "https://thinkingmachineslab.ai"
+    },
+    {
+      "id": "itential-flowai",
+      "name": "Itential FlowAI",
+      "company": "Itential",
+      "category": "agent",
+      "icon": "🤖",
+      "badge": "new",
+      "color": "#003D5E",
+      "price": "paid",
+      "priceLabel": "Enterprise pricing (contact sales)",
+      "tags": [
+        "agentic orchestration",
+        "infrastructure automation",
+        "governed AI",
+        "network operations"
+      ],
+      "shortDesc": "Agentic orchestration layer for infrastructure operations with governed AI reasoning and deterministic execution.",
+      "fullDesc": "Itential FlowAI is an agentic framework that enables enterprises to build, deploy, and govern AI agents that reason through infrastructure challenges and execute actions safely within policy-enforced workflows. It separates intelligent reasoning from deterministic execution, ensuring every agent action passes through governance controls, RBAC, and audit logging. Designed for infrastructure teams managing hybrid environments, FlowAI combines LLM capabilities with Itential's trusted automation platform to deliver autonomous operations without compromising security or compliance.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Infrastructure Automation & Agentic Orchestration"
+        },
+        {
+          "label": "Released",
+          "value": "November 2025"
+        },
+        {
+          "label": "Best for",
+          "value": "Enterprise infrastructure, network ops, cloud automation, SRE teams"
+        },
+        {
+          "label": "Pricing",
+          "value": "Enterprise licensing (node-based, contact sales)"
+        }
+      ],
+      "features": [
+        "FlowAgent Builder for creating and governing role-based AI agents with defined reasoning styles and tool access",
+        "FlowAgents that reason through operational goals and execute safely through deterministic workflows with full auditability",
+        "FlowMCP Gateway that securely invokes external infrastructure agents and Model Context Protocol tools like NetBox and Selector",
+        "Integration with external LLMs (Claude, ChatGPT, Gemini) via Itential MCP Server for agent connectivity",
+        "Support for existing automation tools including Ansible, Terraform, Python scripts, and 300+ pre-built integrations",
+        "Granular RBAC and approval gates ensuring agents operate within defined autonomy thresholds",
+        "Pre/post validation, audit logging, and rollback capabilities for every infrastructure change",
+        "ReAct reasoning loop enabling agents to observe state, reason, select tools, and act iteratively"
+      ],
+      "demo": [
+        {
+          "title": "AWS VPC Provisioning with FlowAI",
+          "desc": "Demo showing FlowAgent automating AWS VPC provisioning, IPAM subnet allocation, and Slack notifications through deterministic orchestration",
+          "code": "https://www.itential.com/resource/demo/building-and-running-your-first-flowagent-in-the-itential-platform-with-flowai/"
+        },
+        {
+          "title": "Agent Framework Architecture",
+          "desc": "Overview of FlowAI's separation between intelligent reasoning layer and deterministic execution engine",
+          "code": "Agent reasoning → FlowMCP validation → Platform execution → Audit trail"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Agent Design",
+          "text": "Create a network remediation agent that can detect configuration drift across hybrid infrastructure, reason through compliance implications, and execute corrective workflows with pre/post validation."
+        },
+        {
+          "label": "Multi-Step Orchestration",
+          "text": "Build a cloud provisioning agent that interprets infrastructure intent, coordinates AWS VPC setup with IPAM subnet allocation, and notifies teams via Slack—all within role-based access controls."
+        },
+        {
+          "label": "Governance Enforcement",
+          "text": "Design an agent that can propose multi-step infrastructure changes but requires human approval for operations exceeding specified blast-radius thresholds before deterministic execution."
+        }
+      ],
+      "pricing": {
+        "note": "Itential FlowAI is included in Itential Platform enterprise licensing, which is node-based and requires contacting sales. Pricing scales with infrastructure complexity and automation scope.",
+        "plans": [
+          {
+            "name": "Enterprise Platform",
+            "price": "Custom",
+            "per": "per node/per month",
+            "popular": true,
+            "color": "#003D5E",
+            "features": [
+              "FlowAI agentic orchestration layer",
+              "Unlimited agent creation and deployment",
+              "FlowMCP gateway for external agent integration",
+              "300+ pre-built API integrations",
+              "Itential Automation Gateway for on-premises execution",
+              "Dedicated customer success and enablement"
+            ]
+          }
+        ]
+      },
+      "link": "https://itential.com/"
     }
   ],
   "totw": {
     "name": "Fundraisly",
     "tagline": "AI fundraising agent that finds investors and books meetings",
-    "votesCount": 1044,
+    "votesCount": 1065,
     "url": "https://www.producthunt.com/products/fundraisly?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/50c29b3a-45e5-4eb3-82a6-247714b5e6d9.png?auto=format",
     "rank": 1,
@@ -17446,46 +17540,46 @@
       "Artificial Intelligence",
       "Fundraising"
     ],
-    "fetchedAt": "2026-06-04T10:07:52.990Z"
+    "fetchedAt": "2026-06-05T10:05:25.054Z"
   },
   "lastWeeklyUpdate": "2026-05-29T10:26:46.867Z",
   "anthropicNews": [
     {
       "date": "Jun 3, 2026",
-      "title": "Claude Partner Network Launches Services Track and Partner Hub",
-      "summary": "<cite index=\"2-1\">Anthropic announced the Services Track and Partner Hub of the Claude Partner Network on June 3, 2026</cite>",
+      "title": "Anthropic Announces Services Track and Partner Hub Launch",
+      "summary": "<cite index=\"1-5\">Introducing the Services Track and Partner Hub of the Claude Partner Network</cite>",
       "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Jun 2, 2026",
-      "title": "Project Glasswing Expands to 150 Additional Organizations",
-      "summary": "<cite index=\"11-1\">Anthropic is expanding Project Glasswing to an additional 150 partners in more than 15 countries</cite>",
-      "url": "https://www.anthropic.com/glasswing"
+      "title": "Project Glasswing Expands to 150+ Organizations Across 15 Countries",
+      "summary": "<cite index=\"10-1,10-2\">Anthropic is expanding Project Glasswing to about 150 new organizations across more than 15 countries</cite>",
+      "url": "https://techcrunch.com/2026/06/02/anthropic-scales-claude-mythos-to-critical-infrastructure-in-15-countries/"
     },
     {
       "date": "Jun 1, 2026",
-      "title": "Anthropic Confidentially Files IPO with SEC",
-      "summary": "<cite index=\"8-1,8-2\">Anthropic has confidentially filed for an initial public offering, catapulting the company ahead of OpenAI</cite>",
+      "title": "Anthropic Confidentially Submits S-1 Filing for IPO",
+      "summary": "<cite index=\"7-1\">Anthropic has confidentially filed for an initial public offering</cite>",
       "url": "https://www.cbsnews.com/news/anthropic-ipo-confidential-filing-claude-ai/"
     },
     {
       "date": "May 28, 2026",
-      "title": "Claude Opus 4.8 Released with Dynamic Workflows",
-      "summary": "<cite index=\"15-1,15-2,15-3\">Claude Opus 4.8 builds on Opus 4.7 with improvements across benchmarks and is available today for the same price</cite>",
-      "url": "https://www.anthropic.com/news/claude-opus-4-8"
+      "title": "Claude Opus 4.8 Released with Dynamic Workflows and Better Fast Mode",
+      "summary": "<cite index=\"9-1,9-2\">Claude Opus 4.8 is Anthropic's latest and most capable flagship AI model, with improvements in coding performance, agentic reasoning, honesty, and alignment</cite>",
+      "url": "https://memeburn.com/claude-opus-4-8-anthropic-launches-its-most-capable-ai-model/"
     },
     {
       "date": "May 28, 2026",
-      "title": "Mythos-Level Models Coming in Weeks with Enhanced Safeguards",
-      "summary": "<cite index=\"15-24\">Anthropic is making swift progress on developing safeguards and expects to bring Mythos-class models to all customers in the coming weeks</cite>",
-      "url": "https://www.anthropic.com/news/claude-opus-4-8"
+      "title": "Anthropic Closes $65B Series H Funding Round at $965B Valuation",
+      "summary": "<cite index=\"7-7\">Anthropic raised $65 billion in a recent funding round, bringing its valuation to $965 billion</cite>",
+      "url": "https://www.cbsnews.com/news/anthropic-ipo-confidential-filing-claude-ai/"
     },
     {
-      "date": "May 28, 2026",
-      "title": "Anthropic Raises $65B in Series H at $965B Valuation",
-      "summary": "<cite index=\"8-7\">Anthropic raised $65 billion in a recent funding round, bringing its valuation to $965 billion</cite>",
-      "url": "https://www.anthropic.com/news"
+      "date": "May 19, 2026",
+      "title": "Anthropic Hosts Code with Claude Developer Conference in London",
+      "summary": "<cite index=\"4-3\">Code with Claude, Anthropic's two-day event for software developers in London kicked off on May 19</cite>",
+      "url": "https://www.technologyreview.com/2026/05/21/1137735/anthropics-code-with-claude-showed-off-codings-future-whether-you-like-it-or-not/"
     }
   ],
-  "lastChecked": "2026-06-04T10:08:51.149Z"
+  "lastChecked": "2026-06-05T10:06:57.894Z"
 }
