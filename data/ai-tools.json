@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-05T10:06:57.894Z",
+  "lastUpdated": "2026-07-01T10:24:36.945Z",
   "categories": [
     {
       "id": "llm",
@@ -80,19 +80,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "<cite index=\"6-34\">Claude Opus 4.8 holds the standard tier at $5/$25 per million tokens</cite>; <cite index=\"7-1\">Claude Sonnet 4.6 at $3.00 / $15.00, and Claude Haiku 4.5 at $1.00 input / $5.00 output</cite>"
+          "value": "<cite index=\"4-4,4-7\">Claude Fable 5 (most capable widely released model, generally available June 9, 2026)</cite>; <cite index=\"5-1\">Claude Opus 4.8 (released May 28, 2026)</cite>; <cite index=\"9-6\">Claude Sonnet 4.6</cite>; <cite index=\"9-7\">Claude Haiku 4.5</cite>"
         },
         {
           "label": "Context",
-          "value": "<cite index=\"5-10\">Opus 4.7, Opus 4.6, and Sonnet 4.6 all include 1M context at standard pricing</cite>"
+          "value": "<cite index=\"9-10\">Opus 4.8, Opus 4.7, and Sonnet 4.6 support 1M token context at flat rates with no surcharge</cite>; <cite index=\"4-33\">On the Message Batches API, Claude Opus 4.8, Opus 4.7, Opus 4.6, Sonnet 5, and Sonnet 4.6 support up to 300k output tokens by using the output-300k-2026-03-24 beta header</cite>"
         },
         {
           "label": "Released",
-          "value": "<cite index=\"20-6\">Claude Opus 4.8 was released May 28, 2026</cite>"
+          "value": "<cite index=\"4-7\">Claude Fable 5 generally available June 9, 2026</cite>; <cite index=\"5-1\">Claude Opus 4.8 released May 28, 2026</cite>"
         },
         {
           "label": "Pricing",
-          "value": "<cite index=\"6-36\">Opus 4.8 introduces a Fast mode at $10 input / $50 output per 1M tokens that runs at 2.5x the speed of the standard tier</cite>. <cite index=\"8-8,8-9\">Batch processing is 50% cheaper across all models. Prompt caching cuts cached input cost by 90%</cite>"
+          "value": "<cite index=\"3-32\">Claude Fable 5: $10/$50 per million tokens</cite>; <cite index=\"9-5\">Claude Opus 4.8: $5.00/$25.00 per MTok with Fast Mode at $10/$50 per MTok</cite>; <cite index=\"9-6\">Claude Sonnet 4.6: $3.00/$15.00</cite>; <cite index=\"9-7\">Claude Haiku 4.5: $1.00/$5.00</cite>; <cite index=\"3-23\">Sonnet 5 launches at $2/$10 per million tokens through August 31, 2026 before settling at $3/$15</cite>"
         }
       ],
       "features": [
@@ -197,6 +197,18 @@
       },
       "link": "https://claude.ai",
       "changelog": [
+        {
+          "version": "Sonnet 5 + Multiple June Updates",
+          "date": "June 2026",
+          "changes": [
+            "<cite index=\"13-12,13-13\">Claude Sonnet 5 released as default model with native 1M-token context window and promotional pricing of $2/$10 per Mtok through August 31</cite>",
+            "<cite index=\"12-1,12-2\">Fast mode removed for Claude Opus 4.6; requests now route to standard speed and billing</cite>",
+            "<cite index=\"16-5,16-6\">Fast mode deprecated for Claude Opus 4.7 with removal on July 24, 2026</cite>",
+            "<cite index=\"15-4\">Anthropic paused planned June 15 Agent SDK credit split before it took effect</cite>",
+            "<cite index=\"16-33,16-35\">API rate limits raised; Claude Sonnet and Haiku rate limits now match Opus at every usage tier with consolidated usage tiers (Start, Build, Scale)</cite>",
+            "<cite index=\"11-25\">Claude in Microsoft Foundry became generally available</cite>"
+          ]
+        },
         {
           "version": "Opus 4.8",
           "date": "May 2026",
@@ -349,19 +361,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "<cite index=\"2-5\">GPT-5.5 is the top model on Plus, Pro, Business, and Enterprise</cite>. <cite index=\"18-1\">GPT-5.5 Instant is now ChatGPT's default model</cite>. Also available: GPT-5.5 Thinking and GPT-5.5 Pro for higher tiers."
+          "value": "<cite index=\"2-5\">GPT-5.5 is the top model on Plus, Pro, Business, and Enterprise, launched April 23, 2026</cite>. <cite index=\"20-3\">GPT-5.5 Instant is the new default for all tiers</cite>"
         },
         {
           "label": "Context",
-          "value": "<cite index=\"2-12,2-13\">Free: $0 with ads; Go: $8/month (also with ads in US); Plus: $20/month; Pro $100 is the new middle tier launched April 9; Pro $200 remains the ceiling</cite>. <cite index=\"10-1\">Business is $30 per user per month billed monthly or $25 per user per month billed annually</cite>."
+          "value": "<cite index=\"6-21\">Pro provides a 256K token context window</cite>. <cite index=\"3-22\">Plus includes the latest model generation</cite>"
         },
         {
           "label": "Released",
-          "value": "<cite index=\"2-5\">GPT-5.5 launched on April 23, 2026</cite>. <cite index=\"2-3\">Pro $100 tier launched April 9</cite>."
+          "value": "<cite index=\"2-5\">GPT-5.5 launched on April 23, 2026</cite>"
         },
         {
           "label": "Pricing",
-          "value": "API: <cite index=\"2-20,2-21\">GPT-5.5 went live in the API on April 24, 2026, costing roughly 2x the per-token cost of GPT-5.4 ($5 input vs $2.50, $30 output vs $15)</cite>."
+          "value": "<cite index=\"2-2,2-3\">Free at $0 with ads, Go at $8/month, Plus at $20/month, Pro $100 and Pro $200/month</cite>. <cite index=\"9-6\">Business runs $20/user/month on annual or $25/user/month monthly</cite>"
         }
       ],
       "features": [
@@ -464,6 +476,16 @@
       },
       "link": "https://chatgpt.com",
       "changelog": [
+        {
+          "version": "GPT-5.5 Instant Update",
+          "date": "June 2026",
+          "changes": [
+            "<cite index=\"11-2,11-3,11-4\">New speech-to-text model for dictation with improved transcription accuracy across languages and accents</cite>",
+            "<cite index=\"11-25,11-26,11-27,11-28\">GPT-5.2 models retired June 12; existing conversations auto-migrate to GPT-5.5</cite>",
+            "<cite index=\"11-11,11-13,11-14\">Codex Remote now generally available on all plans for remote Mac/Windows control from mobile</cite>",
+            "<cite index=\"20-1\">New scalable memory system and broader personalization rolled out June 9, 2026</cite>"
+          ]
+        },
         {
           "version": "GPT-5.5 Instant",
           "date": "May 2026",
@@ -597,19 +619,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "<cite index=\"3-1,3-30\">Latest: Gemini 3.5 Flash (released May 19, 2026)</cite>. <cite index=\"5-3\">Current lineup spans: Gemini 3.1 series (3.1 Pro and 3.1 Flash-Lite), Gemini 3 Flash, Gemini 2.5 family (Pro, Flash, Flash-Lite), and legacy 1.5 models</cite>"
+          "value": "<cite index=\"1-1\">Gemini 3.5 Flash (latest, May 2026) - also available: Gemini 3.1 Pro (February 2026), Gemini 2.5 Flash-Lite</cite>"
         },
         {
           "label": "Context",
-          "value": "<cite index=\"7-1\">Gemini 3.5 Flash: 1,048,576 input tokens, 65,536 output tokens</cite>"
+          "value": "<cite index=\"1-29\">Gemini 3.5 Flash: 1M token input window, 64K output</cite>"
         },
         {
           "label": "Released",
-          "value": "<cite index=\"3-1\">Gemini 3.5 Flash launched May 19, 2026</cite>"
+          "value": "<cite index=\"1-3\">May 19, 2026</cite>"
         },
         {
           "label": "Pricing",
-          "value": "API: <cite index=\"3-3,3-4\">Gemini 3.5 Flash costs $1.50 per million input tokens and $9.00 per million output tokens, undercutting Gemini 3.1 Pro ($2.00/$12.00) by about 25%</cite>. Consumer: <cite index=\"13-9,13-10\">Google AI Ultra now starts at $100 per month; the previous $250 plan is now $200</cite>"
+          "value": "<cite index=\"1-3\">API: Gemini 3.5 Flash $1.50 per million input tokens / $9.00 per million output tokens</cite>; <cite index=\"1-19,1-20\">Consumer: Google AI Ultra entry tier $99.99/month (down from $249.99), top tier $200/month</cite>"
         }
       ],
       "features": [
@@ -871,19 +893,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "<cite index=\"8-4\">DeepSeek-V4-Pro and DeepSeek-V4-Flash</cite>, plus <cite index=\"5-6\">R1 (the reasoning specialist)</cite> and <cite index=\"5-6\">DeepSeek-Chat V3.2</cite>"
+          "value": "<cite index=\"9-1\">DeepSeek V4 Flash and V4 Pro</cite>"
         },
         {
           "label": "Context",
-          "value": "<cite index=\"12-8\">V4 Flash and V4 Pro are mixture-of-experts models with context windows of 1 million tokens each</cite>"
+          "value": "<cite index=\"9-14\">1M token context and 384K max output</cite>"
         },
         {
           "label": "Released",
-          "value": "<cite index=\"8-4\">V4-Pro and V4-Flash launched in preview on April 24, 2026</cite>"
+          "value": "<cite index=\"9-15\">April 24, 2026 (Preview)</cite>"
         },
         {
           "label": "Pricing",
-          "value": "<cite index=\"2-1\">DeepSeek V4 Pro prices now range from $0.003625 to $0.87 per one million tokens</cite>; <cite index=\"13-16,13-17\">at standard rates, V4-Pro's per-token cost is approximately 10–15× lower than Claude Opus for input tokens</cite>"
+          "value": "<cite index=\"9-11,9-12\">V4 Flash: $0.14/M input, $0.28/M output. V4 Pro: $1.74/$3.48</cite>"
         }
       ],
       "features": [
@@ -987,6 +1009,14 @@
       },
       "link": "https://chat.deepseek.com",
       "changelog": [
+        {
+          "version": "V4 Official",
+          "date": "July 2026",
+          "changes": [
+            "<cite index=\"10-4,10-5\">Official version of DeepSeek V4 launching mid-July with time-of-day pricing that doubles API costs during peak hours</cite>",
+            "<cite index=\"10-6\">Peak hours defined as 9:00 AM to 12:00 PM and 2:00 PM to 6:00 PM daily with doubled pricing</cite>"
+          ]
+        },
         {
           "version": "V4-Pro permanent pricing",
           "date": "May 2026",
@@ -12868,19 +12898,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "GPT-5 available in Chat. Advanced AI models on Business and Enterprise plans. Uses reasoning models for cross-meeting search."
+          "value": "Granola uses advanced thinking models with Claude and ChatGPT accessible via MCP; GPT-5 now available in Chat"
         },
         {
           "label": "Context",
-          "value": "Unlimited meeting history on Business and Enterprise plans. Free plan limited to 25 lifetime meetings or 30-day window. Personal and Enterprise APIs available."
+          "value": "Up to unlimited meeting history on paid plans; Free plan limited to 25 lifetime meetings or 30-day access"
         },
         {
           "label": "Released",
-          "value": "Latest updates May 2026. MCP server launched February 2026. Series C funding announced March 2026 ($125M at $1.5B valuation)."
+          "value": "Latest pricing restructure: February 2026. Current model/feature updates ongoing through June 2026"
         },
         {
           "label": "Pricing",
-          "value": "Free (Basic): $0 with 25 lifetime meetings cap. Individual: $18/user/month. Business: $14/user/month with unlimited history and integrations. Enterprise: $35/user/month with SSO and org-wide opt-out of model training."
+          "value": "Free (Basic): $0 with 25-meeting cap; Business: $14/user/month; Enterprise: $35/user/month"
         }
       ],
       "features": [
@@ -13051,19 +13081,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "<cite index=\"11-1,11-51\">GPT-5.4, GPT-5.4 Mini, GPT-5.4 Nano, GPT-5.3 Codex, Opus 4.6, and GPT-5.2 Codex</cite>"
+          "value": "GPT-4, Claude 3, Gemini, Llama 3, GPT-5.5, DeepSeek (supports 115+ pre-built nodes)"
         },
         {
           "label": "Context",
-          "value": "<cite index=\"7-3,7-4\">AI-powered workflow automation platform for building and hosting AI-powered business automations across departments including sales, marketing, support, and recruiting</cite>"
+          "value": "AI-native workflow automation platform with visual drag-and-drop node builder, agent builders, and MCP integrations"
         },
         {
           "label": "Released",
-          "value": "<cite index=\"5-9\">Backed by Y Combinator and $50 million in Series B funding led by Benchmark</cite>"
+          "value": "v9.11.0 - June 2, 2026"
         },
         {
           "label": "Pricing",
-          "value": "<cite index=\"6-18,6-20,6-21,6-22\">Free: 2,000 credits with forum support; Solo: $37/month with 10,000 credits; Team: $244/month with 60,000 credits; Enterprise: Custom pricing</cite>"
+          "value": "Free: 2,000 credits/month; Solo: $37/month (10,000 credits); Team: $244/month (60,000 credits); Enterprise: Custom. Credit-based pricing with standard AI calls at 2 credits, advanced AI models at 20 credits."
         }
       ],
       "features": [
@@ -13160,6 +13190,16 @@
       },
       "link": "https://www.gumloop.com/",
       "changelog": [
+        {
+          "version": "9.11.0",
+          "date": "June 2026",
+          "changes": [
+            "Added skill sharing from Shared with Me and Organization tabs for teams to reuse approved skills without duplication",
+            "Skills now support Editor, Viewer, and Use Only access permissions",
+            "Added access request feature for agents, skills, and Flowbooks with one-click owner approval",
+            "Gumloop MCP server expanded to include tools for agents, sessions, skills, files, teams, and MCP resources"
+          ]
+        },
         {
           "version": "May 2026",
           "date": "May 2026",
@@ -13486,19 +13526,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "Gemini-powered evolutionary coding agent (uses Gemini 2.0 Flash and Gemini 2.0 Pro)"
+          "value": "AlphaEvolve is not a versioned model product. It uses Gemini Flash (for breadth) and Gemini Pro (for depth) as underlying components"
         },
         {
           "label": "Context",
-          "value": "Algorithm discovery and optimization system for complex computational problems"
+          "value": "Private preview access through Google Cloud; pricing not publicly disclosed"
         },
         {
           "label": "Released",
-          "value": "May 2025 (announced); private preview on Google Cloud as of December 2025"
+          "value": "Initial announcement May 2025; Production impact update May 7, 2026"
         },
         {
           "label": "Pricing",
-          "value": "Not publicly available - currently in private preview with no disclosed pricing"
+          "value": "Not publicly available - currently in private preview/early access program"
         }
       ],
       "features": [
@@ -13746,19 +13786,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "<cite index=\"19-1\">Kimi K2.6 released April 20, 2026</cite>"
+          "value": "<cite index=\"4-23\">Kimi K2.6 was released on April 20, 2026</cite>. <cite index=\"12-1,12-2\">Kimi K2.7 Code is a code-optimized variant released in June 2026</cite>, making it the latest model in the Kimi lineup."
         },
         {
           "label": "Context",
-          "value": "<cite index=\"1-2\">262,144 token context window, maximum output of 262,142 tokens</cite>"
+          "value": "<cite index=\"2-2\">262,144 token context window, maximum output of 262,144 tokens</cite>"
         },
         {
           "label": "Released",
-          "value": "<cite index=\"4-1\">April 20, 2026</cite>"
+          "value": "<cite index=\"5-1\">Kimi K2.6 was released on April 20, 2026</cite>. <cite index=\"12-1\">Kimi K2.7 Code was released on June 12, 2026</cite>."
         },
         {
           "label": "Pricing",
-          "value": "<cite index=\"8-1\">K2.6 (latest): $0.95/$4.00 per M tokens</cite>"
+          "value": "<cite index=\"5-1\">K2.6 is priced at $0.60 input / $2.50 output per million tokens on the official API</cite>. <cite index=\"12-4\">K2.7 Code has cached input token pricing of $0.19 per M tokens</cite>, with pricing varying by provider."
         }
       ],
       "features": [
@@ -13877,6 +13917,17 @@
       },
       "link": "https://kimi.moonshot.cn",
       "changelog": [
+        {
+          "version": "K2.7 Code",
+          "date": "June 2026",
+          "changes": [
+            "<cite index=\"12-3\">+21.8% on Kimi Code Bench v2</cite>",
+            "<cite index=\"12-3\">+11.0% on Program Bench</cite>",
+            "<cite index=\"12-3\">+31.5% on MLS Bench Lite</cite>",
+            "<cite index=\"12-3\">30% fewer reasoning tokens compared to K2.6</cite>",
+            "<cite index=\"17-3\">5-6× the output speed</cite>"
+          ]
+        },
         {},
         {
           "version": "K2.6",
@@ -14152,20 +14203,20 @@
       "fullDesc": "Ineffable Intelligence is an ambitious AI research lab founded by David Silver, the AlphaGo architect and former head of DeepMind's reinforcement learning team. The company develops 'superlearner' AI systems that discover knowledge and solve complex problems through experience-based learning rather than relying on human-generated data. Their technology aims to create the next generation of intelligent agents capable of breakthroughs in science, medicine, engineering and beyond.",
       "info": [
         {
-          "label": "Type",
-          "value": "AI Research Lab & Agent Technology"
+          "label": "Models",
+          "value": "Superlearner (research phase - no commercial models released yet)"
+        },
+        {
+          "label": "Context",
+          "value": "Early-stage reinforcement learning AI systems that learn from experience without relying on human-generated data"
         },
         {
           "label": "Released",
-          "value": "Late 2025"
-        },
-        {
-          "label": "Best for",
-          "value": "Enterprise AI, Scientific discovery, Complex problem-solving"
+          "value": "Founded late 2025; emerged from stealth April 27, 2026"
         },
         {
           "label": "Pricing",
-          "value": "Enterprise/Custom pricing (Research-stage company)"
+          "value": "Not publicly disclosed. Specific pricing plans are planned but not yet available. Company is still in research phase"
         }
       ],
       "features": [
@@ -14227,7 +14278,28 @@
           }
         ]
       },
-      "link": "https://ineffable.ai"
+      "link": "https://ineffable.ai",
+      "changelog": [
+        {
+          "version": "NVIDIA Partnership Announcement",
+          "date": "May 2026",
+          "changes": [
+            "NVIDIA and Ineffable Intelligence announced engineering-level collaboration to build reinforcement learning infrastructure",
+            "Technical work beginning on NVIDIA Grace Blackwell hardware with exploration of upcoming NVIDIA Vera Rubin platform",
+            "Focus on creating training pipelines for large-scale reinforcement learning systems"
+          ]
+        }
+      ],
+      "i18n": {
+        "vi": {
+          "shortDesc": "Phòng lab nghiên cứu AI xây dựng các hệ thống siêu trí tuệ thông qua học tăng cường mà không cần dữ liệu từ con người.",
+          "fullDesc": "Ineffable Intelligence là một phòng lab nghiên cứu AI野心勃勃được thành lập bởi David Silver, kiến trúc sư của AlphaGo và cựu trưởng nhóm học tăng cường của DeepMind. Công ty phát triển các hệ thống AI 'siêu học' khám phá kiến thức và giải quyết các vấn đề phức tạp thông qua học dựa trên kinh nghiệm thay vì dựa vào dữ liệu do con người tạo ra. Công nghệ của họ nhằm tạo ra thế hệ tiếp theo của các tác nhân thông minh có khả năng đạt được những bước đột phá trong khoa học, y học, kỹ thuật và hơn thế nữa."
+        },
+        "zh": {
+          "shortDesc": "人工智能研究实验室，通过强化学习构建超级智能系统，无需人类数据。",
+          "fullDesc": "Ineffable Intelligence 是一家雄心勃勃的人工智能研究实验室，由 AlphaGo 的架构师、DeepMind 强化学习团队前负责人 David Silver 创立。该公司开发'超级学习者'人工智能系统，通过基于经验的学习发现知识和解决复杂问题，而不是依赖人类生成的数据。他们的技术旨在创造下一代智能代理，能够在科学、医学、工程等领域实现突破。"
+        }
+      }
     },
     {
       "id": "accio-work",
@@ -14250,19 +14322,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "Gemini, GPT-4o, Claude, Qwen (multi-model support with per-agent routing)"
+          "value": "<cite index=\"4-5\">Supports Gemini, GPT-4o, Claude, and Qwen models per agent</cite>"
         },
         {
           "label": "Context",
-          "value": "Enterprise AI agent platform for SMEs and global commerce automation"
+          "value": "<cite index=\"1-7\">Desktop AI agent platform that assembles specialized sub-agents for market analysis, product design, supplier negotiation, VAT compliance, inventory, logistics, and marketing</cite>"
         },
         {
           "label": "Released",
-          "value": "March 2026 (public debut); evolved from Accio B2B sourcing tool launched November 2024"
+          "value": "<cite index=\"1-4\">March 23, 2026</cite>"
         },
         {
           "label": "Pricing",
-          "value": "Freemium model with free tier and paid options for advanced features; specific pricing tiers not publicly detailed"
+          "value": "<cite index=\"2-12\">Core platform costs approximately $539/year (~$45/month)</cite>. <cite index=\"3-23\">Enterprise pricing for larger teams and heavier usage is still settling</cite>"
         }
       ],
       "features": [
@@ -14364,6 +14436,16 @@
       "link": "https://www.accio.com",
       "changelog": [
         {
+          "version": "April 29, 2026",
+          "date": "April 2026",
+          "changes": [
+            "<cite index=\"11-2\">Expanded to serve B2B sellers on Alibaba.com with capability to manage stores, track performance, update product listings</cite>",
+            "<cite index=\"11-3,11-4\">Launched Accio Launchpad program for non-product-focused enterprises like cultural institutions and content creators</cite>",
+            "<cite index=\"17-15\">Added Find Similar Products capability in Sourcing</cite>",
+            "<cite index=\"17-16\">Added canvas capability for Team, improving information organization in multi-person collaboration</cite>"
+          ]
+        },
+        {
           "version": "Late April 2026 Update",
           "date": "April 2026",
           "changes": [
@@ -14404,19 +14486,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "Agent OS (core platform); Agent Studio 2.0; Agent Data Platform; Ghostwriter (agent-building AI)"
+          "value": "<cite index=\"16-32,16-33\">Agent Studio (no-code visual interface) and Agent SDK (developer toolkit)</cite>. <cite index=\"14-2,14-3\">Latest: Ghostwriter (launched April 2026), an agent-building tool where users describe needs in natural language and it autonomously creates and deploys agents</cite>. <cite index=\"11-7\">Sierra Summit unveiled Agent Studio 2.0 and the Agent Data Platform</cite>."
         },
         {
           "label": "Context",
-          "value": "Enterprise AI agent platform for customer experience across chat, voice, email, SMS, WhatsApp. Uses constellation of foundation models from OpenAI, Anthropic, and Meta"
+          "value": "<cite index=\"5-8\">Enterprise AI agent platform (\"Agent OS\") for customer experience across chat, voice, email, SMS, and WhatsApp</cite>. <cite index=\"5-4\">40%+ of Fortune 50 as customers, $150M+ ARR</cite>."
         },
         {
           "label": "Released",
-          "value": "Launched February 2024. Ghostwriter released March 2026"
+          "value": "<cite index=\"1-1\">Founded 2023 by Bret Taylor and Clay Bavor</cite>. <cite index=\"5-9\">Raised $950M Series E at $15.8B valuation (May 2026)</cite>."
         },
         {
           "label": "Pricing",
-          "value": "Outcome-based (pay only when agent successfully resolves interaction, saves cancellation, or completes upsell); sales-led; approximately $150K–$350K+ per year"
+          "value": "<cite index=\"5-1\">Outcome-based, sales-led, approximately $150K–$350K+ per year</cite>. <cite index=\"1-10\">Larger deployments can reach $350,000 to $750,000 or more annually</cite>."
         }
       ],
       "features": [
@@ -15336,19 +15418,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "Alteryx One platform (includes Designer Desktop, Designer Cloud, Server); Agent Studio (new feature within Alteryx One)"
+          "value": "Agent Studio is a feature within Alteryx One, not a standalone product"
         },
         {
           "label": "Context",
-          "value": "Agent Studio is a new feature within Alteryx One that transforms trusted datasets and business logic into autonomous agents for AI-powered automation"
+          "value": "Agent Studio allows teams to package trusted datasets and business logic into reusable agents within Alteryx One platform"
         },
         {
           "label": "Released",
-          "value": "Agent Studio announced at Alteryx Inspire conference (week of May 2026); Alteryx One platform launched May 2025"
+          "value": "Preview released June 2026"
         },
         {
           "label": "Pricing",
-          "value": "Starter Edition ~$960/user/year; Professional Edition available; Enterprise options; Designer starts ~$4,950/user/year; Designer Cloud per-user annual; Server $45,000-$80,000+/year; Custom quotes required for most editions"
+          "value": "Included in Alteryx One platform pricing (not separately priced)"
         }
       ],
       "features": [
@@ -15734,19 +15816,19 @@
       "info": [
         {
           "label": "Models",
-          "value": "Gemini Spark (24/7 personal AI agent built on Gemini 3.5 Flash)"
+          "value": "Gemini Spark is a 24/7 personal AI agent built on Gemini 3.5 Flash"
         },
         {
           "label": "Context",
-          "value": "1M token context window, multimodal (text, image, video, audio), cloud-based agent with persistent memory"
+          "value": "Gemini 3.5 Flash: 1M token context window; Spark is available as part of AI Ultra subscription tiers"
         },
         {
           "label": "Released",
-          "value": "May 19, 2026 (Google I/O 2026)"
+          "value": "May 19, 2026 (I/O 2026 launch)"
         },
         {
           "label": "Pricing",
-          "value": "Google AI Ultra: $99.99/month (includes Spark); Google AI Ultra Premium: $200/month (higher usage limits); US only"
+          "value": "Included with Google AI Ultra at $99.99/month (5x Pro usage limit) or $200/month premium tier (20x Pro usage limit); U.S. only for consumer version"
         }
       ],
       "features": [
@@ -15824,6 +15906,15 @@
       },
       "link": "https://gemini.google.com/",
       "changelog": [
+        {
+          "version": "June 2026 Update",
+          "date": "June 2026",
+          "changes": [
+            "macOS app support - Gemini Spark now available on macOS to automate desktop file tasks",
+            "App integrations expanded - Connected apps now include Canva and Dropbox",
+            "Real-time tracking improved - Enhanced ability to track topics and notifications in real-time"
+          ]
+        },
         {
           "version": "1.0",
           "date": "May 2026",
@@ -16181,7 +16272,17 @@
           }
         ]
       },
-      "link": "https://www.anthropic.com/project/glasswing"
+      "link": "https://www.anthropic.com/project/glasswing",
+      "i18n": {
+        "vi": {
+          "shortDesc": "Sáng kiến được hỗ trợ bởi AI nhằm xác định và khắc phục các lỗ hổng bảo mật nghiêm trọng trong cơ sở hạ tầng phần mềm thiết yếu.",
+          "fullDesc": "Project Glasswing là chương trình truy cập có kiểm soát của Anthropic sử dụng Claude Mythos Preview để tự động phát hiện và khắc phục các lỗ hổng bảo mật chưa được biết đến trong phần mềm quan trọng quy mô lớn. Sáng kiến này cung cấp cho các tổ chức được xác minh quyền truy cập vào các khả năng bảo mật AI tiên tiến thông qua một chương trình đối tác có cấu trúc, giúp các nhà bảo vệ bảo mật cơ sở hạ tầng quan trọng nhất thế giới trước khi các khả năng AI có thể bị sử dụng vũ khí để tấn công."
+        },
+        "zh": {
+          "shortDesc": "由AI驱动的计划，旨在识别和修复关键软件基础设施中的严重漏洞。",
+          "fullDesc": "Project Glasswing是Anthropic的受控访问程序，使用Claude Mythos Preview自主发现和修复关键软件中大规模未发现的漏洞。该计划通过结构化合作伙伴计划为经审核的组织提供先进AI安全能力的访问权限，使防御者能够在AI能力被用于攻击之前保护世界上最��键的基础设施。"
+        }
+      }
     },
     {
       "id": "subq--subquadratic-",
@@ -16203,20 +16304,20 @@
       "fullDesc": "SubQ is the first commercial large language model built on a fully subquadratic sparse-attention architecture that scales linearly with context length instead of quadratically. With up to 12 million token context windows, it enables processing entire codebases, documents, and knowledge bases in a single pass. Built for enterprise teams and developers handling long-context reasoning, code analysis, and research workflows.",
       "info": [
         {
-          "label": "Type",
-          "value": "Large Language Model (LLM)"
+          "label": "Models",
+          "value": "<cite index=\"1-6,12-4\">SubQ 1M-Preview (production, 1M tokens) and SubQ 1.1 Small (second iteration)</cite>. <cite index=\"2-9\">Research model: 12 million tokens (gated to partners)</cite>"
+        },
+        {
+          "label": "Context",
+          "value": "<cite index=\"1-6\">1M tokens production</cite>; <cite index=\"4-2\">12M token context (research)</cite>. <cite index=\"1-3\">Fully sub-quadratic sparse-attention architecture that scales linearly with context length</cite>"
         },
         {
           "label": "Released",
-          "value": "May 2026"
-        },
-        {
-          "label": "Best for",
-          "value": "Long-context reasoning, full-codebase analysis, document review, enterprise workflows"
+          "value": "<cite index=\"2-1\">May 5, 2026</cite>. <cite index=\"12-4,12-5\">SubQ 1.1 Small released recently; broader lineup from 2M to 12M tokens planned later in year</cite>"
         },
         {
           "label": "Pricing",
-          "value": "Early access; API pricing ~1/5 the cost of frontier models"
+          "value": "<cite index=\"2-5\">No public rate card published</cite>. <cite index=\"15-27\">Estimated API pricing: ~$0.50 per million input tokens / $1.50 per million output tokens</cite>. <cite index=\"2-13\">Claimed as roughly 1/5 the cost of Claude Opus or GPT-5.5</cite>"
         }
       ],
       "features": [
@@ -16304,7 +16405,29 @@
           }
         ]
       },
-      "link": "https://www.subquadratic.ai"
+      "link": "https://www.subquadratic.ai",
+      "changelog": [
+        {
+          "version": "1.1 Small",
+          "date": "June 2026",
+          "changes": [
+            "SubQ 1.1 Small released - second iteration of Subquadratic Sparse Attention model at smallest size",
+            "Requires 64.5x less compute than dense attention and runs 56x faster than FlashAttention-2 at 1M tokens",
+            "Model card released with near-perfect long-context retrieval up to 12M tokens",
+            "Broader model lineup ranging from 2M to 12M tokens planned for later in year"
+          ]
+        }
+      ],
+      "i18n": {
+        "vi": {
+          "shortDesc": "LLM biên giới đầu tiên với ngữ cảnh 12M token và kiến trúc scaling tuyến tính.",
+          "fullDesc": "SubQ là mô hình ngôn ngữ lớn thương mại đầu tiên được xây dựng trên kiến trúc sparse-attention hoàn toàn subquadratic, có khả năng scaling tuyến tính theo độ dài ngữ cảnh thay vì bình phương. Với cửa sổ ngữ cảnh lên tới 12 triệu token, nó cho phép xử lý toàn bộ codebase, tài liệu và cơ sở kiến thức trong một lần. Được xây dựng cho các nhóm doanh nghiệp và nhà phát triển xử lý lý luận ngữ cảnh dài, phân tích mã và quy trình công việc nghiên cứu."
+        },
+        "zh": {
+          "shortDesc": "首个具有1200万token上下文和线性扩展架构的前沿LLM。",
+          "fullDesc": "SubQ是首个基于完全次二次稀疏注意力架构的商用大型语言模型，能够以线性而非二次方式随上下文长度扩展。拥有高达1200万token的上下文窗口，可以在单次处理中完成整个代码库、文档和知识库的处理。专为处理长上下文推理、代码分析和研究工作流的企业团队和开发人员而构建。"
+        }
+      }
     },
     {
       "id": "oci-enterprise-ai",
@@ -16427,7 +16550,17 @@
           }
         ]
       },
-      "link": "https://www.oracle.com/ai/enterprise-ai/"
+      "link": "https://www.oracle.com/ai/enterprise-ai/",
+      "i18n": {
+        "vi": {
+          "shortDesc": "Xây dựng và triển khai các agent AI sẵn sàng cho sản xuất với orchestration được quản lý trên các nguồn dữ liệu doanh nghiệp.",
+          "fullDesc": "OCI Enterprise AI là một dịch vụ được quản lý toàn diện để xây dựng, triển khai và quản trị các agent AI trong sản xuất. Nó cung cấp quyền truy cập vào các mô hình nền tảng hàng đầu từ nhiều nhà cung cấp thông qua một API, các công cụ orchestration tích hợp cho RAG và natural language to SQL, hỗ trợ tiêu chuẩn mở và các kiểm soát bảo mật doanh nghiệp cho các môi trường có quy định."
+        },
+        "zh": {
+          "shortDesc": "通过企业数据源上的托管编排，构建和部署生产就绪的AI代理。",
+          "fullDesc": "OCI Enterprise AI是一项端到端的托管服务，用于在生产环境中构建、部署和管理AI代理。它通过单一API提供来自多个供应商的领先基础模型的访问权限，包含用于RAG和自然语言到SQL的内置编排工具、开放标准支持，以及针对受规管环境的企业级安全控制。"
+        }
+      }
     },
     {
       "id": "ask-youtube",
@@ -16546,7 +16679,17 @@
           }
         ]
       },
-      "link": "https://www.youtube.com"
+      "link": "https://www.youtube.com",
+      "i18n": {
+        "vi": {
+          "shortDesc": "Tìm kiếm hội thoại được hỗ trợ bởi AI cho phép bạn đặt những câu hỏi phức tạp để tìm kiếm các video liên quan trên toàn bộ YouTube.",
+          "fullDesc": "Ask YouTube là tính năng tìm kiếm hội thoại được hỗ trợ bởi Gemini, tái tưởng tượng cách người dùng khám phá video. Thay vì gõ từ khóa, người dùng có thể đặt câu hỏi bằng ngôn ngữ tự nhiên và nhận được các phản hồi có cấu trúc kết hợp video dài, Shorts, tóm tắt văn bản và các đoạn video liên quan có dấu thời gian. Công cụ hỗ trợ các câu hỏi theo dõi để tinh chỉnh kết quả và được thiết kế cho các tìm kiếm khám phá với bối cảnh và sắc thái."
+        },
+        "zh": {
+          "shortDesc": "由AI驱动的对话式搜索，让你可以提出复杂问题，在YouTube目录中查找相关视频。",
+          "fullDesc": "Ask YouTube是由Gemini支持的对话式搜索功能，重新定义了用户发现视频的方式。用户无需输入关键词，可以用自然语言提问，获得结构化的搜索结果，包括长视频、Shorts、文本摘要以及带时间戳的相关视频片段。该工具支持后续问题以细化搜索结果，专为具有上下文和细致差别的探索性��索而设计。"
+        }
+      }
     },
     {
       "id": "mylabcorp",
@@ -16648,7 +16791,17 @@
           }
         ]
       },
-      "link": "https://www.labcorp.com/mylab"
+      "link": "https://www.labcorp.com/mylab",
+      "i18n": {
+        "vi": {
+          "shortDesc": "Ứng dụng bệnh nhân do AI hỗ trợ để hiểu kết quả xét nghiệm Labcorp với các thông tin sức khỏe.",
+          "fullDesc": "<cite index=\"11-1\">MyLabcorp là một ứng dụng mới được hỗ trợ bởi AI giúp bạn hiểu kết quả xét nghiệm Labcorp, theo dõi sức khỏe của bạn theo thời gian, và quản lý các cuộc hẹn và hóa đơn, tất cả ở một nơi.</cite> <cite index=\"13-2\">Các khả năng AI của MyLabcorp được hỗ trợ một phần bởi các mô hình suy luận nâng cao của OpenAI, cho phép các tương tác hội thoại tự nhiên hơn được điều chỉnh riêng cho từng người dùng.</cite> Hoàn hảo cho các bệnh nhân tìm kiếm những giải thích rõ ràng hơn về công việc xét nghiệm và xu hướng sức khỏe của họ."
+        },
+        "zh": {
+          "shortDesc": "由AI驱动的患者应用程序，帮助理解Labcorp实验室结果并提供健康见解。",
+          "fullDesc": "<cite index=\"11-1\">MyLabcorp是一款新的AI驱动应用程序，可以帮助您理解Labcorp检查结果、长期追踪健康状况，并在一个平台上管理预约和账单。</cite> <cite index=\"13-2\">MyLabcorp的AI功能部分由OpenAI的先进推理模型提供支持，可实现更自然��更具对话性的交互，针对每个用户进行定制。</cite> 非常适合寻求更清晰实验室检查解释和健康趋势分析的患者。"
+        }
+      }
     },
     {
       "id": "antigravity-2-0",
@@ -16670,20 +16823,20 @@
       "fullDesc": "<cite index=\"1-1,1-2\">Antigravity 2.0 is a standalone desktop application for launching, monitoring, and orchestrating AI agents across projects, designed as a central command center for agent-first development.</cite> <cite index=\"7-8\">Google Antigravity is an agent-first development platform for developers to take an idea and turn it into a production-ready app.</cite> <cite index=\"4-2\">The AI is an autonomous actor capable of planning, executing, validating, and iterating on complex engineering tasks with minimal human intervention.</cite>",
       "info": [
         {
-          "label": "Type",
-          "value": "Agent-First Development Platform"
+          "label": "Models",
+          "value": "Gemini 3.5 Flash (default), Gemini Pro, Gemini 2.0, plus multi-agent orchestration with 5 parallel agents"
+        },
+        {
+          "label": "Context",
+          "value": "Antigravity 2.0 is a developer platform with IDE, desktop app, CLI (Go-based), SDK, and Managed Agents API. Multi-agent orchestration with dynamic subagents, voice commands, IDE integration."
         },
         {
           "label": "Released",
-          "value": "May 2026"
-        },
-        {
-          "label": "Best for",
-          "value": "Developers building applications with autonomous AI agents"
+          "value": "Version 2.2.1 as of June 29, 2026. Antigravity 2.0 launched May 19, 2026 at Google I/O."
         },
         {
           "label": "Pricing",
-          "value": "Free during preview; Pro ($100/mo), Ultra ($200/mo)"
+          "value": "Free tier with rate limits; AI Pro $20/month (baseline); AI Ultra $100/month (5x Pro limits); AI Ultra Max $200/month (20x Pro limits, reduced from $249.99)"
         }
       ],
       "features": [
@@ -16775,7 +16928,34 @@
           }
         ]
       },
-      "link": "https://google.com/antigravity"
+      "link": "https://google.com/antigravity",
+      "changelog": [
+        {
+          "version": "2.2.1",
+          "date": "June 2026",
+          "changes": [
+            "Built-in Antigravity Guide skill added",
+            "Audio file rendering support",
+            "Faster substring search performance",
+            "Unified permissions system for agent actions",
+            "Redesigned quota screen with PDF attachment support",
+            "New /btw slash command",
+            "MCP server loading and workspace-specific settings bug fixes",
+            "Linux sandboxing support",
+            "Improved MCP authentication"
+          ]
+        }
+      ],
+      "i18n": {
+        "vi": {
+          "shortDesc": "Nền tảng hướng tới Agent để các agent AI tự trị lập kế hoạch, viết code, kiểm tra và triển khai các ứng dụng hoàn chỉnh.",
+          "fullDesc": "<cite index=\"1-1,1-2\">Antigravity 2.0 là một ứng dụng desktop độc lập để khởi chạy, giám sát và điều phối các agent AI trên nhiều dự án, được thiết kế như một trung tâm chỉ huy cho phát triển hướng tới agent.</cite> <cite index=\"7-8\">Google Antigravity là một nền tảng phát triển hướng tới agent giúp các nhà phát triển biến ý tưởng thành ứng dụng sẵn sàng triển khai.</cite> <cite index=\"4-2\">AI là một diễn viên tự trị có khả năng lập kế hoạch, thực thi, xác thực và lặp lại các tác vụ kỹ thuật phức tạp với sự can thiệp của con người tối thiểu.</cite>"
+        },
+        "zh": {
+          "shortDesc": "以代理为先的平台，使自主AI代理能够规划、编码、测试和部署完整应用。",
+          "fullDesc": "<cite index=\"1-1,1-2\">Antigravity 2.0是一个独立的桌面应用程序，用于跨项目启动、监控和编排AI代理，设计为代理优先开发的中央控制中心。</cite> <cite index=\"7-8\">Google Antigravity是一个以代理为先的开���平台，帮助开发者将创意转化为生产就绪的应用。</cite> <cite index=\"4-2\">该AI是一个自主行为体，能够以最少的人类干预来规划、执行、验证和迭代复杂的工程任务。</cite>"
+        }
+      }
     },
     {
       "id": "rodeo",
@@ -16909,7 +17089,17 @@
           }
         ]
       },
-      "link": "https://www.twelveLabs.io/rodeo"
+      "link": "https://www.twelveLabs.io/rodeo",
+      "i18n": {
+        "vi": {
+          "shortDesc": "Trợ lý sáng tạo AI cho biên tập viên video để tìm kiếm, chỉnh sửa và ghép nối footage bằng ngôn ngữ tự nhiên.",
+          "fullDesc": "Rodeo là sản phẩm lớp ứng dụng đầu tiên của TwelveLabs đưa AI agents trực tiếp vào quy trình sản xuất video. Nó cho phép các nhà sáng tạo mô tả những gì họ muốn và tức thì tìm kiếm cũng như ghép nối các clip hoàn hảo từ toàn bộ thư viện footage của họ. Được thiết kế cho các nhà sản xuất, biên tập viên, giám đốc sáng tạo và những người làm phim tài liệu, Rodeo loại bỏ các rào cản kỹ thuật và tăng tốc quá trình từ footage thô đến những câu chuyện hoàn chỉnh."
+        },
+        "zh": {
+          "shortDesc": "由AI驱动的创意副驾驶工具，帮助视频编辑人员使用自然语言查找、编辑和组合素材。",
+          "fullDesc": "Rodeo是TwelveLabs的首款应用层产品，将AI代理直接集成到视频制作工作流程中。它使创意人员能够描述他们的需求，然后快速从整个素材库中查找和组合完美的片段。Rodeo专为制片人、编辑、创意总监和纪录片制作人设计，消除了技术障碍，加快了从原始素材到完成故事的制作过程。"
+        }
+      }
     },
     {
       "id": "tax-ai",
@@ -16931,20 +17121,20 @@
       "fullDesc": "<cite index=\"1-1\">OpenAI and Thrive Holdings built a self-improving tax AI using Codex that achieved 97% accuracy, cut prep time by a third, and boosted throughput 50%.</cite> <cite index=\"1-4\">The pilot program ran through Crete Professional Alliance, a network of over 30 accounting firms, and processed 7,000 tax returns focused primarily on 1040 and 1041 filings.</cite>",
       "info": [
         {
-          "label": "Type",
-          "value": "Agentic AI system for tax preparation"
+          "label": "Models",
+          "value": "Tax AI built on OpenAI's Codex technology"
+        },
+        {
+          "label": "Context",
+          "value": "Automates 1040 and 1041 tax return preparation; 97% accuracy; saves 1/3 of preparation time; increases throughput by 50%"
         },
         {
           "label": "Released",
-          "value": "May 2026"
-        },
-        {
-          "label": "Best for",
-          "value": "Accounting firms handling complex tax returns with K-1 and high-complexity filings"
+          "value": "Announced May 27, 2026 (pilot completed with 7,000 tax returns processed)"
         },
         {
           "label": "Pricing",
-          "value": "Enterprise deployment with custom pricing through Thrive Holdings"
+          "value": "Not publicly disclosed"
         }
       ],
       "features": [
@@ -17012,7 +17202,17 @@
           }
         ]
       },
-      "link": "https://www.thriveaccounting.com/tax-ai"
+      "link": "https://www.thriveaccounting.com/tax-ai",
+      "i18n": {
+        "vi": {
+          "shortDesc": "Tác nhân AI tự cải tiến soạn thảo tờ khai thuế với độ chính xác 97%",
+          "fullDesc": "<cite index=\"1-1\">OpenAI và Thrive Holdings xây dựng một AI thuế tự cải tiến sử dụng Codex đạt độ chính xác 97%, giảm thời gian chuẩn bị một phần ba, và tăng thông lượng 50%.</cite> <cite index=\"1-4\">Chương trình thí điểm chạy qua Crete Professional Alliance, một mạng lưới hơn 30 công ty kế toán, và xử lý 7.000 tờ khai thuế tập trung chủ yếu vào các hồ sơ 1040 và 1041.</cite>"
+        },
+        "zh": {
+          "shortDesc": "自我优化AI代理，税表起草准确率达97%",
+          "fullDesc": "<cite index=\"1-1\">OpenAI和Thrive Holdings使用Codex构建了一个自我优化的税务AI，达到97%的准确率，将准备时间减少三分之一，吞吐量提高50%。</cite> <cite index=\"1-4\">试点项目通过拥有30多家会计师事务所的Crete Professional Alliance网络运行，处理了7,000份税表，主要涉及1040和1041表格。</cite>"
+        }
+      }
     },
     {
       "id": "mythos",
@@ -17033,20 +17233,20 @@
       "fullDesc": "Claude Mythos is a general-purpose frontier AI model developed by Anthropic that demonstrates exceptional capabilities in identifying complex software vulnerabilities. Currently available through Project Glasswing to select partner organizations, it can autonomously discover high-severity security flaws and execute multi-step exploit simulations that would typically require months of human security research.",
       "info": [
         {
-          "label": "Type",
-          "value": "Large Language Model (LLM)"
+          "label": "Models",
+          "value": "<cite index=\"12-3,14-4\">Claude Mythos 5 is the latest update for Mythos Preview, with the same capabilities as Mythos Preview but available only in limited release through Project Glasswing. Claude Fable 5 is the publicly available Mythos-class model with safety safeguards.</cite>"
+        },
+        {
+          "label": "Context",
+          "value": "<cite index=\"3-2\">1.0M context window</cite>"
         },
         {
           "label": "Released",
-          "value": "April 2026 (Preview)"
-        },
-        {
-          "label": "Best for",
-          "value": "Enterprise cybersecurity vulnerability discovery and analysis"
+          "value": "<cite index=\"2-32,2-33,2-34\">June 9, 2026 - Mythos 5 (with safeguards lifted) replaces Mythos Preview for Project Glasswing partners, while Claude Fable 5 (publicly available with safeguards) launched on the public API and Claude Code.</cite>"
         },
         {
           "label": "Pricing",
-          "value": "Limited preview access via Project Glasswing; general release planned after safety protocols strengthen"
+          "value": "<cite index=\"12-10\">Claude Mythos 5: $10 per million input tokens and $50 per million output tokens.</cite> <cite index=\"6-47\">Claude Fable 5 uses the same pricing: $10/$50 per million tokens.</cite>"
         }
       ],
       "features": [
@@ -17121,7 +17321,28 @@
           }
         ]
       },
-      "link": "https://www.anthropic.com/mythos"
+      "link": "https://www.anthropic.com/mythos",
+      "changelog": [
+        {
+          "version": "Mythos 5 / Fable 5",
+          "date": "June 2026",
+          "changes": [
+            "<cite index=\"2-32,2-33\">Mythos Preview superseded by Mythos 5 generation with safeguarded Mythos-class model made generally available for the first time</cite>",
+            "<cite index=\"2-34\">Claude Fable 5 launched publicly at $10/$50 per million tokens; Claude Mythos 5 replaces Preview for Project Glasswing partners</cite>",
+            "<cite index=\"4-4\">Pricing reduced to under half the cost of Mythos Preview at $10 per million input tokens</cite>"
+          ]
+        }
+      ],
+      "i18n": {
+        "vi": {
+          "shortDesc": "Mô hình AI tiên phong chuyên môn trong việc phát hiện và phân tích các lỗ hổng phần mềm quy mô lớn.",
+          "fullDesc": "Claude Mythos là một mô hình AI tiên phong đa năng được phát triển bởi Anthropic, thể hiện khả năng đặc biệt trong việc xác định các lỗ hổng phần mềm phức tạp. Hiện có sẵn thông qua Project Glasswing cho các tổ chức đối tác được chọn, nó có thể tự động phát hiện các lỗ hổng bảo mật mức độ cao và thực hiện các mô phỏng khai thác đa bước mà bình thường sẽ cần hàng tháng nghiên cứu bảo mật của con người."
+        },
+        "zh": {
+          "shortDesc": "专门于大规模发现和分析软件漏洞的前沿AI模型。",
+          "fullDesc": "Claude Mythos是由Anthropic开发的通用前沿AI模型，在识别复杂软件漏洞方面表现出卓越的能力。目前通过Project Glasswing向选定的合作伙伴组织提供，它能够自主发现高危安全缺陷并执行多步骤漏洞利用模拟，这通常需要数月的人工安全研究。"
+        }
+      }
     },
     {
       "id": "recursive-superintelligence",
@@ -17239,20 +17460,20 @@
       "fullDesc": "Decagon Voice is an AI voice agent platform built for enterprise customer support, enabling businesses to handle inbound phone calls and outbound campaigns using the same intelligent Agent Operating Procedures (AOPs) that govern chat and email channels. With partnerships like ElevenLabs for hyper-realistic voices and sub-second latency performance, it delivers natural conversations while seamlessly integrating with call center infrastructure and maintaining cross-channel memory. It's designed for large enterprises managing high support volumes who need AI-powered phone support alongside other communication channels.",
       "info": [
         {
-          "label": "Type",
-          "value": "Voice AI Agent / Customer Support Platform"
+          "label": "Models",
+          "value": "Multi-model architecture: GPT-3.5, GPT-4, Claude, Cohere; proprietary fine-tuned models for voice (80% of traffic runs on in-house trained models as of March 2026)"
+        },
+        {
+          "label": "Context",
+          "value": "Enterprise AI customer service platform with chat, email, and voice capabilities; uses Agent Operating Procedures (AOPs) for workflow automation"
         },
         {
           "label": "Released",
-          "value": "2025 (Voice 2.0 GA Sept 2025)"
-        },
-        {
-          "label": "Best for",
-          "value": "Enterprise customer service with voice as primary/secondary channel"
+          "value": "Decagon Voice launched 2025; Voice 2.0 announced November 2025"
         },
         {
           "label": "Pricing",
-          "value": "Custom enterprise contracts, est. $50K-$580K+ annually"
+          "value": "Custom enterprise pricing starting ~$95K/year; per-conversation (~$0.99) or per-resolution (~$0.50) models; no public pricing page; sales-led process required"
         }
       ],
       "features": [
@@ -17312,7 +17533,21 @@
           }
         ]
       },
-      "link": "https://decagon.ai"
+      "link": "https://decagon.ai",
+      "changelog": [
+        {
+          "version": "Voice 2.0 & Spring 2026 Update",
+          "date": "Spring 2026",
+          "changes": [
+            "Added outbound voice capabilities for proactive AI-initiated calls and campaigns",
+            "Added persistent cross-channel memory for context retention across interactions",
+            "65% reduction in generation latency for faster responses",
+            "Improved prosody in streaming generation for more natural speech rhythm and intonation",
+            "Infrastructure enhancements including cloud region optimization to reduce roundtrip times",
+            "Self-serve customization tools for brand voice control without engineering resources"
+          ]
+        }
+      ]
     },
     {
       "id": "thinking-machines-lab",
@@ -17453,20 +17688,20 @@
       "fullDesc": "Itential FlowAI is an agentic framework that enables enterprises to build, deploy, and govern AI agents that reason through infrastructure challenges and execute actions safely within policy-enforced workflows. It separates intelligent reasoning from deterministic execution, ensuring every agent action passes through governance controls, RBAC, and audit logging. Designed for infrastructure teams managing hybrid environments, FlowAI combines LLM capabilities with Itential's trusted automation platform to deliver autonomous operations without compromising security or compliance.",
       "info": [
         {
-          "label": "Type",
-          "value": "Infrastructure Automation & Agentic Orchestration"
+          "label": "Models",
+          "value": "FlowAI is an agentic framework (not a traditional LLM model). It includes: FlowAgents (task-oriented reasoning agents), FlowAgent Builder (interface for creating role-based agents), FlowMCP Gateway (governance extension for external agents), and FlowMCP Server (enterprise-grade MCP management)."
+        },
+        {
+          "label": "Context",
+          "value": "FlowAI is an agentic orchestration platform for infrastructure operations that combines AI reasoning with deterministic, policy-governed execution. It enables enterprises to build, deploy, and run AI agents on infrastructure with enterprise governance, security, and operational controls."
         },
         {
           "label": "Released",
-          "value": "November 2025"
-        },
-        {
-          "label": "Best for",
-          "value": "Enterprise infrastructure, network ops, cloud automation, SRE teams"
+          "value": "Generally available as of July 1, 2026. Previously in Private Customer Preview starting November 2025. Validated through 6-month FlowAI Innovation Program across telecom, financial services, and utilities."
         },
         {
           "label": "Pricing",
-          "value": "Enterprise licensing (node-based, contact sales)"
+          "value": "Pricing information is not publicly disclosed on Itential's website. Contact Itential directly for pricing details, as it is an enterprise platform with custom pricing models."
         }
       ],
       "features": [
@@ -17525,61 +17760,184 @@
           }
         ]
       },
-      "link": "https://itential.com/"
+      "link": "https://itential.com/",
+      "changelog": [
+        {
+          "version": "FlowAI General Availability",
+          "date": "June 2026",
+          "changes": [
+            "FlowAI reached general availability on July 1, 2026 at Cisco Live US 2026",
+            "Three-layer architecture implemented: Agentic Reasoning, Deterministic Execution, and Integration & Connectivity",
+            "FlowMCP Gateway and FlowMCP Server enterprise capabilities launched for governing external agents and MCP tools",
+            "Six-month validation program completed across major enterprises including Lumen, involving incident triage, fault remediation, and firewall policy automation use cases",
+            "451 Research validation report released positioning FlowAI as foundation for autonomous, governed infrastructure operations"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nvidia-nemotron-3-5-content-safety",
+      "name": "NVIDIA Nemotron 3.5 Content Safety",
+      "company": "NVIDIA",
+      "category": "safety",
+      "icon": "🛡️",
+      "badge": "new",
+      "color": "#76B900",
+      "price": "free",
+      "priceLabel": "Free",
+      "tags": [
+        "multimodal safety",
+        "multilingual guardrail",
+        "custom policy",
+        "enterprise AI"
+      ],
+      "shortDesc": "Compact multimodal content safety model with custom policy support and auditable reasoning.",
+      "fullDesc": "NVIDIA Nemotron 3.5 Content Safety is a 4B-parameter multimodal content moderation model that evaluates text and image inputs alongside optional responses. It supports 12 languages, 128K context window, and enables custom enterprise policy enforcement with optional reasoning traces. Designed for LLM/VLM safety pipelines, it unifies multimodal capabilities with reasoning and domain-specific policy adaptation.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Small Language Model (SLM) - Safety"
+        },
+        {
+          "label": "Released",
+          "value": "June 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Content moderation, safety pipelines, enterprise AI guardrails"
+        },
+        {
+          "label": "Pricing",
+          "value": "Open source - Free to use and self-host"
+        }
+      ],
+      "features": [
+        "Multimodal moderation for text and image inputs in single inference call",
+        "128K token context window for comprehensive safety assessment",
+        "12-language support including English, Spanish, Mandarin, German, French, Hindi, Japanese, Arabic, Thai, Dutch, Italian, and Korean",
+        "23 safety categories based on Aegis v2 taxonomy for detailed classification",
+        "Custom policy support enabling domain-specific content rules at inference time",
+        "Auditable reasoning traces explaining safety verdicts with step-by-step rationale",
+        "4B parameters fine-tuned from Google's Gemma-3-4B-it for efficient deployment",
+        "Open weights under NVIDIA Open Model License for commercial use and customization"
+      ],
+      "demo": [
+        {
+          "title": "Basic Safety Classification",
+          "desc": "Load model and classify user prompt and response for safety",
+          "code": "from transformers import Gemma3ForConditionalGeneration\nmodel = Gemma3ForConditionalGeneration.from_pretrained('nvidia/Nemotron-3.5-Content-Safety')"
+        },
+        {
+          "title": "Multimodal Moderation",
+          "desc": "Evaluate text prompt, image, and assistant response together",
+          "code": "# Accepts optional image parameter alongside prompt and response"
+        },
+        {
+          "title": "Custom Policy Mode",
+          "desc": "Enable reasoning traces for policy-specific evaluation",
+          "code": "# Custom policy support for domain-specific content rules with concise reasoning output"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Safety Check",
+          "text": "Evaluate if this user input and response is safe according to safety taxonomy and return classification with categories."
+        },
+        {
+          "label": "Custom Policy",
+          "text": "Determine if the content violates our company's policy on [domain-specific rule] and provide reasoning."
+        },
+        {
+          "label": "Multimodal Assessment",
+          "text": "Analyze this text prompt and image together to classify overall safety risk and explain the decision."
+        }
+      ],
+      "pricing": {
+        "note": "NVIDIA Nemotron 3.5 Content Safety is released as open-weight model under the NVIDIA Open Model License, available free for research and commercial use. No licensing fees required for self-hosted deployment.",
+        "plans": [
+          {
+            "name": "Open Source",
+            "price": "Free",
+            "per": "forever",
+            "popular": true,
+            "color": "#76B900",
+            "features": [
+              "Download and self-host open weights from Hugging Face",
+              "Commercial use permitted under NVIDIA Open Model License",
+              "Full access to training datasets for customization",
+              "Compatible with vLLM, SGLang, and Hugging Face Transformers"
+            ]
+          },
+          {
+            "name": "Managed API",
+            "price": "Pay-as-you-go",
+            "per": "per token",
+            "popular": false,
+            "color": "#76B900",
+            "features": [
+              "API access via multiple providers (Baseten, DeepInfra, Eigen AI, OpenRouter)",
+              "NVIDIA NIM production microservice with GPU optimization",
+              "No infrastructure management required",
+              "Enterprise-grade performance and reliability"
+            ]
+          }
+        ]
+      },
+      "link": "https://huggingface.co/collections/nvidia-nemotron-3.5"
     }
   ],
   "totw": {
-    "name": "Fundraisly",
-    "tagline": "AI fundraising agent that finds investors and books meetings",
-    "votesCount": 1065,
-    "url": "https://www.producthunt.com/products/fundraisly?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
-    "thumbnail": "https://ph-files.imgix.net/50c29b3a-45e5-4eb3-82a6-247714b5e6d9.png?auto=format",
+    "name": "BrowserAct",
+    "tagline": "Web browser automation for AI agents",
+    "votesCount": 622,
+    "url": "https://www.producthunt.com/products/browseract?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
+    "thumbnail": "https://ph-files.imgix.net/c9e555c2-6581-437c-ae70-c96d62b3ee48.jpeg?auto=format",
     "rank": 1,
     "topics": [
-      "Venture Capital",
+      "Productivity",
       "Artificial Intelligence",
-      "Fundraising"
+      "GitHub"
     ],
-    "fetchedAt": "2026-06-05T10:05:25.054Z"
+    "fetchedAt": "2026-07-01T10:03:48.070Z"
   },
-  "lastWeeklyUpdate": "2026-05-29T10:26:46.867Z",
+  "lastWeeklyUpdate": "2026-07-01T10:20:26.408Z",
   "anthropicNews": [
     {
-      "date": "Jun 3, 2026",
-      "title": "Anthropic Announces Services Track and Partner Hub Launch",
-      "summary": "<cite index=\"1-5\">Introducing the Services Track and Partner Hub of the Claude Partner Network</cite>",
+      "date": "Jun 30, 2026",
+      "title": "Claude Science Launches for Scientific Research",
+      "summary": "<cite index=\"23-1,23-5,23-6\">Anthropic announced Claude Science, a major new product to support scientific research like Claude Code supports software engineering, with autonomous work capabilities for computational biology and drug development.</cite>",
       "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Jun 2, 2026",
-      "title": "Project Glasswing Expands to 150+ Organizations Across 15 Countries",
-      "summary": "<cite index=\"10-1,10-2\">Anthropic is expanding Project Glasswing to about 150 new organizations across more than 15 countries</cite>",
-      "url": "https://techcrunch.com/2026/06/02/anthropic-scales-claude-mythos-to-critical-infrastructure-in-15-countries/"
+      "date": "Jun 9, 2026",
+      "title": "Claude Fable 5 and Claude Mythos 5 Released",
+      "summary": "<cite index=\"6-12,6-14,6-15\">Anthropic launched Claude Fable 5, a Mythos-class model made safe for general use with capabilities exceeding any previously released model, showing state-of-the-art performance across software engineering, knowledge work, vision, and research.</cite>",
+      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+    },
+    {
+      "date": "Jun 29, 2026",
+      "title": "Claude Sonnet 5 with Promotional Pricing",
+      "summary": "<cite index=\"7-6,7-7\">Claude Code adds Claude Sonnet 5 as default model with native 1M-token context window and promotional pricing of $2/$10 per million tokens through August 31.</cite>",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Jun 24, 2026",
+      "title": "Claude in Microsoft Foundry Generally Available",
+      "summary": "<cite index=\"3-24,3-20,3-21\">Claude in Microsoft Foundry is now generally available with Claude Opus 4.8 and Claude Haiku 4.5 in Messages API, offering Azure authentication, billing, governance, and optional US data zone.</cite>",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Jun 17, 2026",
+      "title": "Anthropic Opens Seoul Office",
+      "summary": "<cite index=\"4-5\">Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem.</cite>",
+      "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Jun 1, 2026",
-      "title": "Anthropic Confidentially Submits S-1 Filing for IPO",
-      "summary": "<cite index=\"7-1\">Anthropic has confidentially filed for an initial public offering</cite>",
-      "url": "https://www.cbsnews.com/news/anthropic-ipo-confidential-filing-claude-ai/"
-    },
-    {
-      "date": "May 28, 2026",
-      "title": "Claude Opus 4.8 Released with Dynamic Workflows and Better Fast Mode",
-      "summary": "<cite index=\"9-1,9-2\">Claude Opus 4.8 is Anthropic's latest and most capable flagship AI model, with improvements in coding performance, agentic reasoning, honesty, and alignment</cite>",
-      "url": "https://memeburn.com/claude-opus-4-8-anthropic-launches-its-most-capable-ai-model/"
-    },
-    {
-      "date": "May 28, 2026",
-      "title": "Anthropic Closes $65B Series H Funding Round at $965B Valuation",
-      "summary": "<cite index=\"7-7\">Anthropic raised $65 billion in a recent funding round, bringing its valuation to $965 billion</cite>",
-      "url": "https://www.cbsnews.com/news/anthropic-ipo-confidential-filing-claude-ai/"
-    },
-    {
-      "date": "May 19, 2026",
-      "title": "Anthropic Hosts Code with Claude Developer Conference in London",
-      "summary": "<cite index=\"4-3\">Code with Claude, Anthropic's two-day event for software developers in London kicked off on May 19</cite>",
-      "url": "https://www.technologyreview.com/2026/05/21/1137735/anthropics-code-with-claude-showed-off-codings-future-whether-you-like-it-or-not/"
+      "title": "Anthropic Confidentially Files for IPO",
+      "summary": "<cite index=\"27-1,27-4\">Anthropic confidentially submitted a draft Form S-1 registration statement to the SEC for a proposed IPO of its common stock.</cite>",
+      "url": "https://www.investing.com/analysis/anthropic-ipo-everything-you-need-to-know-about-anthropic-200682606"
     }
   ],
-  "lastChecked": "2026-06-05T10:06:57.894Z"
+  "lastChecked": "2026-07-01T10:24:36.945Z"
 }
