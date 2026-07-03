@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T09:27:43.412Z",
+  "lastUpdated": "2026-07-03T09:32:12.943Z",
   "categories": [
     {
       "id": "llm",
@@ -17887,57 +17887,57 @@
     }
   ],
   "totw": {
-    "name": "Cursor for iOS",
-    "tagline": "Build with coding agents from anywhere",
-    "votesCount": 571,
-    "url": "https://www.producthunt.com/products/cursor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
-    "thumbnail": "https://ph-files.imgix.net/cac4f4a7-fb00-42d1-b741-9dfc26e0a56f.png?auto=format",
+    "name": "Context.dev",
+    "tagline": "One API to scrape, enrich, and extract the internet",
+    "votesCount": 730,
+    "url": "https://www.producthunt.com/products/context-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
+    "thumbnail": "https://ph-files.imgix.net/e4e57b87-7bf9-4662-93d2-30c9f778eb68.png?auto=format",
     "rank": 1,
     "topics": [
+      "API",
       "Artificial Intelligence",
-      "Development",
-      "Vibe coding"
+      "Data"
     ],
-    "fetchedAt": "2026-07-02T09:26:37.478Z"
+    "fetchedAt": "2026-07-03T09:30:20.955Z"
   },
   "lastWeeklyUpdate": "2026-07-01T10:20:26.408Z",
   "anthropicNews": [
     {
-      "date": "Jul 1, 2026",
-      "title": "Claude Science launches in beta for all paid subscribers",
-      "summary": "<cite index=\"21-1\">Claude Science launched in beta July 1 for all paid subscribers with no enterprise vetting required.</cite>",
-      "url": "https://www.anthropic.com/news/claude-science"
+      "date": "Jun 30, 2026",
+      "title": "Claude Sonnet 5 Released",
+      "summary": "<cite index=\"12-1\">Claude Sonnet 5 was released with introductory pricing of $2 per million input tokens and $10 per million output tokens through August 31, 2026.</cite>",
+      "url": "https://www.anthropic.com/news/claude-sonnet-5"
     },
     {
       "date": "Jun 30, 2026",
-      "title": "Fable 5 restored globally after export controls lifted",
-      "summary": "<cite index=\"3-14,3-15\">Fable 5 export controls were lifted as of June 30 and will be available starting July 1 globally on the Claude Platform and other products.</cite>",
-      "url": "https://www.anthropic.com/news/fable-5-restored"
+      "title": "Claude Science Product Launch",
+      "summary": "<cite index=\"4-10\">Anthropic announced Claude Science, a platform that integrates over 60 scientific databases and computation tools in a single workplace.</cite>",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Jul 1, 2026",
+      "title": "Claude Fable 5 Returns Globally",
+      "summary": "<cite index=\"22-10\">Anthropic re-deploys Claude Fable 5 globally and adds deeper cyber safeguards, a draft AI jailbreak severity framework, and a HackerOne program for security researchers.</cite>",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Jul 3, 2026",
+      "title": "Claude Enterprise Admin Analytics Update",
+      "summary": "<cite index=\"11-1\">Claude adds richer admin analytics, model-level entitlements, and spend alerts for Claude Enterprise, giving admins deeper visibility into usage and cost.</cite>",
+      "url": "https://releasebot.io/updates/anthropic"
     },
     {
       "date": "Jun 17, 2026",
-      "title": "Anthropic opens Seoul office and announces partnerships",
-      "summary": "<cite index=\"2-4\">Anthropic opened a Seoul office and announced new partnerships across the Korean AI ecosystem.</cite>",
+      "title": "Anthropic Opens Seoul Office",
+      "summary": "<cite index=\"1-4\">Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem.</cite>",
       "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Jun 12, 2026",
-      "title": "TCS and Anthropic partner for regulated industries",
-      "summary": "<cite index=\"2-4\">TCS and Anthropic partnered to bring Claude to regulated industries.</cite>",
+      "title": "TCS and Anthropic Partner",
+      "summary": "<cite index=\"1-4\">TCS and Anthropic partner to bring Claude to regulated industries.</cite>",
       "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "Jun 1, 2026",
-      "title": "Anthropic confidentially submits S-1 for IPO preparation",
-      "summary": "<cite index=\"9-1,9-2\">Anthropic confidentially submitted a draft S-1 registration statement to the SEC for a proposed initial public offering of common stock.</cite>",
-      "url": "https://www.anthropic.com/news/confidential-draft-s1-sec"
-    },
-    {
-      "date": "May 28, 2026",
-      "title": "Claude Opus 4.8 released with enhanced reasoning",
-      "summary": "<cite index=\"11-1,11-2\">Claude Opus 4.8 was released with improvements across benchmarks and as a more effective collaborator.</cite>",
-      "url": "https://www.anthropic.com/news/claude-opus-4-8"
     }
   ],
-  "lastChecked": "2026-07-02T09:27:43.412Z"
+  "lastChecked": "2026-07-03T09:32:12.943Z"
 }
