@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T09:32:12.943Z",
+  "lastUpdated": "2026-07-04T08:48:43.935Z",
   "categories": [
     {
       "id": "llm",
@@ -17884,12 +17884,280 @@
         ]
       },
       "link": "https://huggingface.co/collections/nvidia-nemotron-3.5"
+    },
+    {
+      "id": "opencode",
+      "name": "OpenCode",
+      "company": "Anomaly (SST Community)",
+      "category": "code",
+      "icon": "💻",
+      "badge": "hot",
+      "color": "#000000",
+      "price": "free",
+      "priceLabel": "Free (open source) + optional paid tiers",
+      "tags": [
+        "AI coding agent",
+        "terminal-native",
+        "multi-model",
+        "open source"
+      ],
+      "shortDesc": "Open source AI coding agent for terminal, IDE, and desktop with 75+ LLM provider support.",
+      "fullDesc": "OpenCode is a powerful terminal-based AI coding agent that helps developers write, refactor, debug, and understand code with support for multiple AI providers. Built with open-source principles and used by over 7.5M developers monthly, it enables developers to choose from 75+ LLM providers, maintain data privacy, and run models locally through integrations like Ollama.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "AI Coding Agent (CLI/Terminal/Desktop)"
+        },
+        {
+          "label": "Released",
+          "value": "June 2025"
+        },
+        {
+          "label": "Best for",
+          "value": "Developers wanting flexible, multi-model AI coding without vendor lock-in"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free (open source) + optional Go ($10/mo) and Zen tiers"
+        }
+      ],
+      "features": [
+        "Support for 75+ AI model providers including OpenAI, Anthropic, Google Gemini, AWS Bedrock, Groq, Azure, and local models via Ollama",
+        "Terminal user interface built with Bubble Tea for smooth interaction directly in your command line",
+        "Session management to save and manage multiple conversation threads with persistent SQLite storage",
+        "Tool integration enabling AI to execute commands, search files, modify code, and track changes in real-time",
+        "Language Server Protocol (LSP) integration for context-aware code intelligence and diagnostics",
+        "Multiple built-in agents: Build agent for full development access and Plan agent for read-only analysis",
+        "GitHub integration to triage issues, implement features, and submit pull requests directly from comments",
+        "Model Context Protocol (MCP) support for extending capabilities through external tools and services"
+      ],
+      "demo": [
+        {
+          "title": "Install OpenCode",
+          "desc": "Install the latest version using the quick install script",
+          "code": "curl -fsSL https://opencode.ai/install | bash"
+        },
+        {
+          "title": "Start Terminal Session",
+          "desc": "Launch OpenCode in your terminal to begin an interactive coding session",
+          "code": "opencode"
+        },
+        {
+          "title": "Plan a Feature",
+          "desc": "Switch to Plan mode (Tab key) to ask for implementation suggestions without making changes",
+          "code": "When a user deletes a note, flag it as deleted in the database and create a recovery screen"
+        },
+        {
+          "title": "Build the Feature",
+          "desc": "Switch back to Build mode and ask OpenCode to implement the planned feature",
+          "code": "Implement the soft-delete feature for notes with a recovery UI"
+        },
+        {
+          "title": "GitHub Integration",
+          "desc": "Use OpenCode in GitHub by mentioning /opencode in issues or pull requests",
+          "code": "/opencode explain this issue and suggest a fix"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Code Review",
+          "text": "Review this function for performance issues and suggest optimizations"
+        },
+        {
+          "label": "Bug Debugging",
+          "text": "Why is this test failing? Debug the issue and provide a fix"
+        },
+        {
+          "label": "Feature Implementation",
+          "text": "Add authentication to the /settings route following the pattern in /auth/login"
+        },
+        {
+          "label": "Refactoring",
+          "text": "Refactor this component to use hooks instead of class syntax"
+        }
+      ],
+      "pricing": {
+        "note": "OpenCode core software is free and open source under MIT license. You pay only for AI API calls to your chosen provider. Optional managed tiers (Go and Zen) provide curated models and automated routing.",
+        "plans": [
+          {
+            "name": "Free (Self-Hosted)",
+            "price": "$0",
+            "per": "forever",
+            "popular": true,
+            "color": "#22c55e",
+            "features": [
+              "Full OpenCode CLI and desktop app",
+              "Support for 75+ AI model providers",
+              "Local model support via Ollama",
+              "All core features (sessions, tool integration, LSP, MCP)",
+              "You pay directly to AI provider for API usage"
+            ]
+          },
+          {
+            "name": "OpenCode Go",
+            "price": "$5 first month, $10",
+            "per": "per month",
+            "popular": false,
+            "color": "#3b82f6",
+            "features": [
+              "Curated open-source model access",
+              "No API key management required",
+              "Pre-configured models (Qwen3, Kimi K2, MiniMax, GLM-5)",
+              "Simplified provider integration",
+              "Good for developers avoiding API key complexity"
+            ]
+          },
+          {
+            "name": "OpenCode Zen",
+            "price": "Custom",
+            "per": "per month",
+            "popular": false,
+            "color": "#a855f7",
+            "features": [
+              "Handpicked AI models tested for coding",
+              "Automatic intelligent model routing per task",
+              "Consistent performance and quality across providers",
+              "Premium model selection optimized for coding tasks",
+              "Best for teams requiring maximum reliability"
+            ]
+          }
+        ]
+      },
+      "link": "https://github.com/anomalyco/opencode"
+    },
+    {
+      "id": "aws-agentic-shopping-assistant",
+      "name": "AWS Agentic Shopping Assistant",
+      "company": "Amazon Web Services",
+      "category": "agent",
+      "icon": "🛍️",
+      "badge": "new",
+      "color": "#FF9900",
+      "price": "paid",
+      "priceLabel": "Custom Pricing",
+      "tags": [
+        "conversational shopping",
+        "e-commerce",
+        "AI agents"
+      ],
+      "shortDesc": "Enterprise AI shopping assistant platform for retailers to deploy conversational commerce experiences.",
+      "fullDesc": "The AWS Agentic Shopping Assistant enables retailers and e-commerce brands to build intelligent, conversational shopping assistants powered by the same technology that drives Amazon's Alexa for Shopping. Built on AWS services including Amazon Bedrock AgentCore and OpenSearch, it provides retailers with architecture guidance, starter code, and professional services to deploy AI-powered shopping experiences in approximately 60 days rather than years.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Enterprise AI Agent Platform"
+        },
+        {
+          "label": "Released",
+          "value": "May 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "E-commerce retailers and brands launching conversational shopping experiences"
+        },
+        {
+          "label": "Pricing",
+          "value": "Custom enterprise pricing based on requirements"
+        }
+      ],
+      "features": [
+        "Multi-turn conversational interface with persistent session context for natural shopping discussions",
+        "Semantic product catalog retrieval using Amazon Bedrock Embeddings for intent-based recommendations",
+        "Natural language understanding enabling personalized product discovery and recommendations",
+        "Brand voice and catalog customization with AWS Generative AI Innovation Center support",
+        "Multi-layer content guardrails and safety features to prevent irrelevant or harmful outputs",
+        "Conversation analytics and automated evaluation frameworks for continuous quality improvement",
+        "Cross-session memory and customer profile awareness for personalized shopping experiences",
+        "Rich visual product cards with images, pricing, and specifications for intuitive browsing"
+      ],
+      "demo": [
+        {
+          "title": "Customer Discovery",
+          "desc": "Shopper describes what they're looking for in natural conversation",
+          "code": "Customer: 'I'm looking for a professional gift for someone who loves gadgets, budget around $200'"
+        },
+        {
+          "title": "Contextual Understanding",
+          "desc": "Assistant builds understanding through multi-turn dialogue and asks clarifying questions",
+          "code": "Assistant: 'What type of gadgets interest them? Tech accessories, smart home devices, or portable electronics?'"
+        },
+        {
+          "title": "Personalized Recommendations",
+          "desc": "Assistant retrieves and ranks relevant products from live catalog with visual cards",
+          "code": "Assistant displays: Product image, price, specifications, customer reviews, and availability"
+        },
+        {
+          "title": "Guided Purchase",
+          "desc": "Guide customer through comparison and selection to purchase decision",
+          "code": "Customer: 'Tell me more about the wireless earbuds option' | Assistant compares features and pricing"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Fashion/Apparel",
+          "text": "I'm looking for a professional outfit for job interviews. I prefer navy or gray colors, medium budget, and need something for a corporate law firm environment."
+        },
+        {
+          "label": "Gift Shopping",
+          "text": "Help me find a gift for my mom's birthday. She loves cooking, enjoys Italian cuisine, and I have a $150 budget."
+        },
+        {
+          "label": "Product Comparison",
+          "text": "Compare your premium and standard wireless headphones models. I care about battery life and sound quality for music production."
+        },
+        {
+          "label": "Personalized Discovery",
+          "text": "I have $300 to spend on camping gear. I'm a beginner hiker planning a weekend trip to mountains. What would you recommend?"
+        }
+      ],
+      "pricing": {
+        "note": "AWS Agentic Shopping Assistant uses custom enterprise pricing based on deployment requirements, catalog size, transaction volume, and professional services engagement. Retailers work with AWS Account Representatives for custom quotes through flexible engagement models (AWS-built, advisory-led, or partner-supported).",
+        "plans": [
+          {
+            "name": "AWS-Built",
+            "price": "Contact Sales",
+            "per": "month",
+            "popular": true,
+            "color": "#FF9900",
+            "features": [
+              "Full end-to-end deployment by AWS team",
+              "Custom architecture and brand integration",
+              "Dedicated AWS experts throughout implementation"
+            ]
+          },
+          {
+            "name": "Advisory-Led",
+            "price": "Contact Sales",
+            "per": "month",
+            "popular": false,
+            "color": "#FF9900",
+            "features": [
+              "AWS guidance and best practices",
+              "Retailer builds with AWS advisory support",
+              "Reduced engagement costs vs. full AWS build"
+            ]
+          },
+          {
+            "name": "Partner-Supported",
+            "price": "Contact Sales",
+            "per": "month",
+            "popular": false,
+            "color": "#FF9900",
+            "features": [
+              "AWS system integrator partner handles implementation",
+              "Flexible pricing and customization options",
+              "Access to AWS Generative AI Innovation Center"
+            ]
+          }
+        ]
+      },
+      "link": "https://aws.amazon.com"
     }
   ],
   "totw": {
     "name": "Context.dev",
     "tagline": "One API to scrape, enrich, and extract the internet",
-    "votesCount": 730,
+    "votesCount": 845,
     "url": "https://www.producthunt.com/products/context-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/e4e57b87-7bf9-4662-93d2-30c9f778eb68.png?auto=format",
     "rank": 1,
@@ -17898,46 +18166,46 @@
       "Artificial Intelligence",
       "Data"
     ],
-    "fetchedAt": "2026-07-03T09:30:20.955Z"
+    "fetchedAt": "2026-07-04T08:47:11.554Z"
   },
   "lastWeeklyUpdate": "2026-07-01T10:20:26.408Z",
   "anthropicNews": [
     {
-      "date": "Jun 30, 2026",
-      "title": "Claude Sonnet 5 Released",
-      "summary": "<cite index=\"12-1\">Claude Sonnet 5 was released with introductory pricing of $2 per million input tokens and $10 per million output tokens through August 31, 2026.</cite>",
-      "url": "https://www.anthropic.com/news/claude-sonnet-5"
-    },
-    {
-      "date": "Jun 30, 2026",
-      "title": "Claude Science Product Launch",
-      "summary": "<cite index=\"4-10\">Anthropic announced Claude Science, a platform that integrates over 60 scientific databases and computation tools in a single workplace.</cite>",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "Jul 1, 2026",
-      "title": "Claude Fable 5 Returns Globally",
-      "summary": "<cite index=\"22-10\">Anthropic re-deploys Claude Fable 5 globally and adds deeper cyber safeguards, a draft AI jailbreak severity framework, and a HackerOne program for security researchers.</cite>",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
       "date": "Jul 3, 2026",
-      "title": "Claude Enterprise Admin Analytics Update",
-      "summary": "<cite index=\"11-1\">Claude adds richer admin analytics, model-level entitlements, and spend alerts for Claude Enterprise, giving admins deeper visibility into usage and cost.</cite>",
+      "title": "Claude Enterprise Gets New Analytics & Spend Controls",
+      "summary": "<cite index=\"1-5\">Claude adds richer admin analytics, model-level entitlements, and spend alerts for Claude Enterprise, giving admins deeper visibility into usage, cost, and productivity trends while adding stronger controls to manage model access and avoid surprise overages.</cite>",
       "url": "https://releasebot.io/updates/anthropic"
     },
     {
-      "date": "Jun 17, 2026",
-      "title": "Anthropic Opens Seoul Office",
-      "summary": "<cite index=\"1-4\">Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem.</cite>",
-      "url": "https://www.anthropic.com/news"
+      "date": "Jul 2, 2026",
+      "title": "Claude Code Launches in Chrome, Adds New Agent Features",
+      "summary": "<cite index=\"10-1,10-2\">Claude Code releases Claude in Chrome as generally available and expands agent workflows with background notifications, draft PR handoff, improved failover, and better session handling. It also adds a /dataviz skill for chart and dashboard design guidance and ships a range of reliability fixes.</cite>",
+      "url": "https://releasebot.io/updates/anthropic/claude-code"
     },
     {
-      "date": "Jun 12, 2026",
-      "title": "TCS and Anthropic Partner",
-      "summary": "<cite index=\"1-4\">TCS and Anthropic partner to bring Claude to regulated industries.</cite>",
-      "url": "https://www.anthropic.com/news"
+      "date": "Jul 1, 2026",
+      "title": "Claude Fable 5 Returns Globally With Enhanced Safeguards",
+      "summary": "<cite index=\"1-15\">Anthropic restores access to Claude Fable 5 and reopens it globally after export controls were lifted, while also re-enabling Claude Mythos 5 for select US organizations.</cite>",
+      "url": "https://releasebot.io/updates/anthropic"
+    },
+    {
+      "date": "Jun 30, 2026",
+      "title": "Anthropic Launches Claude Science for Research Automation",
+      "summary": "<cite index=\"6-1\">Anthropic announced Claude Science, a major new product intended to support scientific research in the same way that Claude Code supports software engineering.</cite>",
+      "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/"
+    },
+    {
+      "date": "Jun 30, 2026",
+      "title": "Claude Sonnet 5 Launched With Promotional Pricing",
+      "summary": "<cite index=\"1-16\">Claude Sonnet 5 is now the default model in Claude Code, with a native 1M-token context window and promotional pricing of $2/$10 per Mtok through August 31.</cite>",
+      "url": "https://www.anthropic.com/news/claude-sonnet-5"
+    },
+    {
+      "date": "Jun 23, 2026",
+      "title": "Anthropic Releases Claude Tag for Slack Collaboration",
+      "summary": "<cite index=\"15-2,15-3\">Anthropic released a version of its popular chatbot Claude that operates like a virtual employee. Claude Tag, the new product, works across organizations within Slack to complete various tasks for teams.</cite>",
+      "url": "https://fortune.com/2026/06/23/anthropic-claude-tag-virtual-employee-tool-slack/"
     }
   ],
-  "lastChecked": "2026-07-03T09:32:12.943Z"
+  "lastChecked": "2026-07-04T08:48:43.935Z"
 }
