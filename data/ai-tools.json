@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T08:48:43.935Z",
+  "lastUpdated": "2026-07-05T09:18:32.578Z",
   "categories": [
     {
       "id": "llm",
@@ -18152,12 +18152,280 @@
         ]
       },
       "link": "https://aws.amazon.com"
+    },
+    {
+      "id": "sakana-fugu",
+      "name": "Sakana Fugu",
+      "company": "Sakana AI",
+      "category": "agent",
+      "icon": "🐡",
+      "badge": "new",
+      "color": "#FF6B35",
+      "price": "freemium",
+      "priceLabel": "From $20/mo or Pay-as-you-go",
+      "tags": [
+        "multi-agent",
+        "orchestration",
+        "reasoning",
+        "code-review"
+      ],
+      "shortDesc": "Multi-agent orchestration system routing tasks across frontier LLMs via single API.",
+      "fullDesc": "Sakana Fugu is a learned multi-agent orchestration system that routes tasks across a pool of frontier language models behind a single OpenAI-compatible endpoint. Rather than relying on a monolithic model, it dynamically selects which specialized agents to use, delegates subtasks, verifies results, and synthesizes final answers. Ideal for developers and enterprises seeking frontier-level reasoning with vendor diversity and protection against single-model dependency.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Multi-agent LLM Orchestration"
+        },
+        {
+          "label": "Released",
+          "value": "June 22, 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Code review, research, multi-step reasoning, complex analysis"
+        },
+        {
+          "label": "Pricing",
+          "value": "Subscription ($20–$200/mo) + pay-as-you-go"
+        }
+      ],
+      "features": [
+        "Learned routing that automatically decides which models to delegate to based on task requirements.",
+        "1M token context window supporting long documents and large codebases.",
+        "OpenAI-compatible API for seamless integration with existing tools and workflows.",
+        "Per-request cost and usage reporting for real-time spend visibility.",
+        "Tool use, function calling, and vision input support in single unified model.",
+        "Automatic failover: if one model becomes unavailable, Fugu routes around it.",
+        "Dual model variants: Fugu for latency-sensitive work and Fugu Ultra for complex reasoning.",
+        "No fee stacking: pay only the highest-tier model rate when multiple agents are active."
+      ],
+      "demo": [
+        {
+          "title": "Initialize OpenAI-compatible client",
+          "desc": "Configure your existing OpenAI client to point to Sakana Fugu console.",
+          "code": "from openai import OpenAI\nclient = OpenAI(api_key='YOUR_SAKANA_KEY', base_url='https://api.sakana.ai/v1')"
+        },
+        {
+          "title": "Send request to Fugu",
+          "desc": "Use standard chat completion format; Fugu handles agent orchestration internally.",
+          "code": "response = client.chat.completions.create(\n  model='fugu-ultra-20260615',\n  messages=[{'role': 'user', 'content': 'Review this code for bugs'}]\n)\nprint(response.choices[0].message.content)"
+        },
+        {
+          "title": "Monitor per-request costs",
+          "desc": "Every response includes detailed token usage and cost breakdown for that request.",
+          "code": "print(f\"Input: {response.usage.input_tokens}\")\nprint(f\"Output: {response.usage.output_tokens}\")\nprint(f\"Cost: ${response.usage.cost}\")"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Code Review",
+          "text": "Review this multi-file Python project for bugs, performance issues, and security vulnerabilities. Provide specific line numbers and remediation suggestions."
+        },
+        {
+          "label": "Research Analysis",
+          "text": "Map the patent landscape across 20 papers and 5 patents. Identify trends, key inventors, and connections between works. Prioritize novelty and practical applications."
+        },
+        {
+          "label": "ML Research",
+          "text": "I have a training script that achieves 85% validation accuracy on a custom dataset. Suggest 5 experiments to improve it. For each, explain the hypothesis and expected outcome."
+        },
+        {
+          "label": "Document Analysis",
+          "text": "Extract key findings, limitations, and future directions from this 50-page technical report. Organize by theme and flag statements that contradict each other."
+        }
+      ],
+      "pricing": {
+        "note": "Subscription plans provide predictable monthly cost for regular use; pay-as-you-go bills by token consumption. All tiers include both Fugu and Fugu Ultra variants.",
+        "plans": [
+          {
+            "name": "Standard",
+            "price": "$20",
+            "per": "per month",
+            "popular": false,
+            "color": "#E8F4F8",
+            "features": [
+              "Baseline usage allowance",
+              "Suited for occasional API calls and personal experiments",
+              "Includes both Fugu and Fugu Ultra"
+            ]
+          },
+          {
+            "name": "Pro",
+            "price": "$100",
+            "per": "per month",
+            "popular": true,
+            "color": "#FF6B35",
+            "features": [
+              "10x the Standard usage allowance",
+              "Ideal for regular coding and research sessions",
+              "Per-request cost tracking and reporting"
+            ]
+          },
+          {
+            "name": "Max",
+            "price": "$200",
+            "per": "per month",
+            "popular": false,
+            "color": "#FFB627",
+            "features": [
+              "30x the Standard usage allowance",
+              "Built for heavy, long-running workloads",
+              "Priority support and API access"
+            ]
+          },
+          {
+            "name": "Pay-as-you-go",
+            "price": "$5–$45",
+            "per": "per 1M tokens",
+            "popular": false,
+            "color": "#D4D4D8",
+            "features": [
+              "Fugu Ultra: $5 input / $30 output per 1M tokens",
+              "Elastic capacity for spikes and enterprise workloads",
+              "Per-request cost visibility included"
+            ]
+          }
+        ]
+      },
+      "link": "https://sakana.ai/fugu"
+    },
+    {
+      "id": "superintern",
+      "name": "SuperIntern",
+      "company": "SuperIntern",
+      "category": "agent",
+      "icon": "🤖",
+      "badge": "hot",
+      "color": "#6366f1",
+      "price": "freemium",
+      "priceLabel": "Free / From $20/mo",
+      "tags": [
+        "AI Assistant",
+        "Meetings",
+        "Automation",
+        "Chat Integration"
+      ],
+      "shortDesc": "AI-powered assistant that automates meetings, email, scheduling, and group chat management.",
+      "fullDesc": "SuperIntern is an always-on AI assistant that embeds intelligence directly into your workflows across meetings, email, messaging platforms, and browser tasks. It provides real-time meeting transcription, live note-taking, community management, and automated task execution without requiring bots to join your calls. Designed for teams, founders, and communities seeking to eliminate operational busywork.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Multi-function AI agent (meetings, automation, chat, browser control)"
+        },
+        {
+          "label": "Released",
+          "value": "2025"
+        },
+        {
+          "label": "Best for",
+          "value": "Meetings, email management, community management, task automation"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free trial available; paid plans from $20-30/month"
+        }
+      ],
+      "features": [
+        "Real-time meeting transcription and structured notes without meeting bots",
+        "Live translation in 50+ languages with automatic mixed-language support",
+        "AI-powered email triage with smart inbox management and prioritization",
+        "Community Q&A automation with custom knowledge base training",
+        "Browser operator for automated web tasks and form filling",
+        "Invisible mode for professional screen sharing during meetings",
+        "Group chat integration across Discord, Telegram, Slack, and WeChat",
+        "Automated task creation, reminders, and follow-up organization"
+      ],
+      "demo": [
+        {
+          "title": "Meeting Assistant Setup",
+          "desc": "SuperIntern detects your meeting automatically and provides real-time transcription and structured notes as the conversation unfolds, with speaker attribution and action item tracking."
+        },
+        {
+          "title": "Email Automation",
+          "desc": "The AI processes your inbox with a proprietary 3-Gate system that filters noise and highlights priority work, automatically organizing and routing emails based on your preferences."
+        },
+        {
+          "title": "Community Management",
+          "desc": "Add @SuperIntern to Discord or Telegram channels to provide 24/7 FAQ support, detect spam, generate daily reports, and handle community moderation tasks."
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Meeting Assistant",
+          "text": "Create a structured note with sections for: Progress per member, Decisions needed, Roadmap impact, and Next actions"
+        },
+        {
+          "label": "Email Management",
+          "text": "Triage my inbox and highlight the 3 most urgent items that need my attention today with context"
+        },
+        {
+          "label": "Community Support",
+          "text": "@SuperIntern what does the company do?"
+        }
+      ],
+      "pricing": {
+        "note": "SuperIntern offers both subscription and pay-as-you-go credit-based pricing. Subscriptions include beta access and priority support with monthly billing options.",
+        "plans": [
+          {
+            "name": "Pay-as-You-Go",
+            "price": "$10-80",
+            "per": "per credits package",
+            "popular": false,
+            "color": "#e5e7eb",
+            "features": [
+              "1,000 credits for $10",
+              "No subscription required",
+              "Never expires",
+              "Flexible usage"
+            ]
+          },
+          {
+            "name": "Monthly",
+            "price": "$30",
+            "per": "per month",
+            "popular": false,
+            "color": "#f3f4f6",
+            "features": [
+              "Full platform access",
+              "Beta features access",
+              "Priority support"
+            ]
+          },
+          {
+            "name": "3-Month",
+            "price": "$27",
+            "per": "per month (billed $81 quarterly)",
+            "popular": true,
+            "color": "#6366f1",
+            "features": [
+              "10% discount vs monthly",
+              "Full platform access",
+              "Beta features access",
+              "Priority support"
+            ]
+          },
+          {
+            "name": "Annual",
+            "price": "$24",
+            "per": "per month (billed $288 yearly)",
+            "popular": false,
+            "color": "#f3f4f6",
+            "features": [
+              "20% discount vs monthly",
+              "Full platform access",
+              "Beta features access",
+              "Priority support"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.superintern.ai"
     }
   ],
   "totw": {
     "name": "Context.dev",
     "tagline": "One API to scrape, enrich, and extract the internet",
-    "votesCount": 845,
+    "votesCount": 862,
     "url": "https://www.producthunt.com/products/context-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/e4e57b87-7bf9-4662-93d2-30c9f778eb68.png?auto=format",
     "rank": 1,
@@ -18166,46 +18434,46 @@
       "Artificial Intelligence",
       "Data"
     ],
-    "fetchedAt": "2026-07-04T08:47:11.554Z"
+    "fetchedAt": "2026-07-05T09:17:42.501Z"
   },
   "lastWeeklyUpdate": "2026-07-01T10:20:26.408Z",
   "anthropicNews": [
     {
-      "date": "Jul 3, 2026",
-      "title": "Claude Enterprise Gets New Analytics & Spend Controls",
-      "summary": "<cite index=\"1-5\">Claude adds richer admin analytics, model-level entitlements, and spend alerts for Claude Enterprise, giving admins deeper visibility into usage, cost, and productivity trends while adding stronger controls to manage model access and avoid surprise overages.</cite>",
-      "url": "https://releasebot.io/updates/anthropic"
-    },
-    {
-      "date": "Jul 2, 2026",
-      "title": "Claude Code Launches in Chrome, Adds New Agent Features",
-      "summary": "<cite index=\"10-1,10-2\">Claude Code releases Claude in Chrome as generally available and expands agent workflows with background notifications, draft PR handoff, improved failover, and better session handling. It also adds a /dataviz skill for chart and dashboard design guidance and ships a range of reliability fixes.</cite>",
-      "url": "https://releasebot.io/updates/anthropic/claude-code"
-    },
-    {
-      "date": "Jul 1, 2026",
-      "title": "Claude Fable 5 Returns Globally With Enhanced Safeguards",
-      "summary": "<cite index=\"1-15\">Anthropic restores access to Claude Fable 5 and reopens it globally after export controls were lifted, while also re-enabling Claude Mythos 5 for select US organizations.</cite>",
-      "url": "https://releasebot.io/updates/anthropic"
-    },
-    {
       "date": "Jun 30, 2026",
-      "title": "Anthropic Launches Claude Science for Research Automation",
-      "summary": "<cite index=\"6-1\">Anthropic announced Claude Science, a major new product intended to support scientific research in the same way that Claude Code supports software engineering.</cite>",
-      "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/"
-    },
-    {
-      "date": "Jun 30, 2026",
-      "title": "Claude Sonnet 5 Launched With Promotional Pricing",
-      "summary": "<cite index=\"1-16\">Claude Sonnet 5 is now the default model in Claude Code, with a native 1M-token context window and promotional pricing of $2/$10 per Mtok through August 31.</cite>",
+      "title": "Claude Sonnet 5 launches with frontier performance",
+      "summary": "<cite index=\"15-10\">Claude Sonnet 5 released as most capable Sonnet-tier model with near-Opus intelligence for coding and agentic work</cite>",
       "url": "https://www.anthropic.com/news/claude-sonnet-5"
     },
     {
-      "date": "Jun 23, 2026",
-      "title": "Anthropic Releases Claude Tag for Slack Collaboration",
-      "summary": "<cite index=\"15-2,15-3\">Anthropic released a version of its popular chatbot Claude that operates like a virtual employee. Claude Tag, the new product, works across organizations within Slack to complete various tasks for teams.</cite>",
-      "url": "https://fortune.com/2026/06/23/anthropic-claude-tag-virtual-employee-tool-slack/"
+      "date": "Jun 30, 2026",
+      "title": "Claude Science AI workbench for researchers launched",
+      "summary": "<cite index=\"10-12,10-13\">Claude Science is an AI workbench for scientists that integrates tools researchers commonly use and provides flexible computing access</cite>",
+      "url": "https://www.anthropic.com/news/claude-science-ai-workbench"
+    },
+    {
+      "date": "Jul 1, 2026",
+      "title": "Claude Fable 5 redeploys globally after export controls lifted",
+      "summary": "<cite index=\"4-7,4-8\">Export controls on Fable 5 lifted June 30; model available globally starting July 1 on Claude Platform and other channels</cite>",
+      "url": "https://www.anthropic.com/news/redeploying-fable-5"
+    },
+    {
+      "date": "Jul 2, 2026",
+      "title": "Claude Enterprise adds admin analytics and spend controls",
+      "summary": "<cite index=\"1-10\">Claude adds richer admin analytics, model-level entitlements, and spend alerts for Enterprise customers</cite>",
+      "url": "https://www.anthropic.com"
+    },
+    {
+      "date": "Jun 17, 2026",
+      "title": "Anthropic opens Seoul office and expands Korean partnerships",
+      "summary": "Anthropic establishes new Seoul office with partnerships across Korea's AI ecosystem",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Jun 9, 2026",
+      "title": "Claude Fable 5 launches publicly with cybersecurity safeguards",
+      "summary": "<cite index=\"18-4,18-5\">Claude Fable 5 released to enterprise customers and paid subscribers with safeguards blocking high-risk responses in cybersecurity and biology</cite>",
+      "url": "https://www.anthropic.com"
     }
   ],
-  "lastChecked": "2026-07-04T08:48:43.935Z"
+  "lastChecked": "2026-07-05T09:18:32.578Z"
 }
