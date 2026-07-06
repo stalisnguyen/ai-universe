@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-05T09:18:32.578Z",
+  "lastUpdated": "2026-07-06T10:54:43.582Z",
   "categories": [
     {
       "id": "llm",
@@ -18420,60 +18420,310 @@
         ]
       },
       "link": "https://www.superintern.ai"
+    },
+    {
+      "id": "claude-science",
+      "name": "Claude Science",
+      "company": "Anthropic",
+      "category": "research",
+      "icon": "🧬",
+      "badge": "new",
+      "color": "#000000",
+      "price": "freemium",
+      "priceLabel": "Included with Claude Pro ($20/mo) and above",
+      "tags": [
+        "scientific research",
+        "computational biology",
+        "drug discovery",
+        "reproducible analysis"
+      ],
+      "shortDesc": "AI workbench unifying research databases, code, compute & publication workflows",
+      "fullDesc": "Claude Science is an AI workbench that consolidates fragmented research tools into a single environment for scientists. It provides access to 60+ scientific databases, enables code-driven analysis with full auditability, and helps researchers move from literature review through to manuscript publication. Best for computational biology, drug discovery, genomics, and any workflow requiring reproducible, multi-step analysis.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Desktop AI workbench (macOS/Linux)"
+        },
+        {
+          "label": "Released",
+          "value": "June 30, 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Computational research, drug discovery, genomics, structural biology, cheminformatics"
+        },
+        {
+          "label": "Pricing",
+          "value": "Included with Claude Pro, Max, Team, and Enterprise plans (no separate cost)"
+        }
+      ],
+      "features": [
+        "60+ pre-configured scientific databases (genomics, proteomics, structural biology, cheminformatics)",
+        "Multi-agent orchestration with specialist sub-agents for domain-specific tasks",
+        "Auditable artifacts with full code, environment, and conversation history",
+        "Native rendering of proteins, molecular structures, genome tracks, and PDFs",
+        "Automatic citation and calculation verification by built-in reviewer agent",
+        "Local execution on macOS/Linux or remote HPC cluster integration via SSH",
+        "NVIDIA BioNeMo integration (Evo 2, Boltz-2, OpenFold3 for life sciences)",
+        "Reproducible figures, tables, and notebooks with complete lineage tracking"
+      ],
+      "demo": [
+        {
+          "title": "Connect research databases",
+          "desc": "Enable scientific connectors for genomics, proteomics, or cheminformatics in settings",
+          "code": ""
+        },
+        {
+          "title": "Ask a plain-language research question",
+          "desc": "Describe your research task and Claude Science routes it to specialist agents",
+          "code": "Analyze single-cell RNA-seq data from samples A and B to identify cell-type-specific markers"
+        },
+        {
+          "title": "Review auditable outputs",
+          "desc": "Examine generated figures with linked code, environment details, and full conversation history",
+          "code": ""
+        },
+        {
+          "title": "Run remote compute jobs",
+          "desc": "Submit work to lab servers or HPC clusters while maintaining full data locality",
+          "code": ""
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Genomics",
+          "text": "Design a CRISPR screen targeting these genes and predict off-target effects"
+        },
+        {
+          "label": "Structure Prediction",
+          "text": "Predict the 3D structure of this protein sequence and assess binding pockets"
+        },
+        {
+          "label": "Drug Discovery",
+          "text": "Score these compounds against multiple target proteins and rank by predicted potency"
+        },
+        {
+          "label": "Literature Review",
+          "text": "Summarize recent papers on this pathway and identify gaps in current understanding"
+        }
+      ],
+      "pricing": {
+        "note": "Claude Science is bundled at no extra cost with all paid Claude plans. Usage counts against existing plan limits. Academic discounts available for research institutions.",
+        "plans": [
+          {
+            "name": "Claude Pro",
+            "price": "$20",
+            "per": "per month",
+            "popular": false,
+            "color": "#4A9EFF",
+            "features": [
+              "Access to Claude Science workbench",
+              "Manual reviewer agent for citations and calculations",
+              "5x usage compared to free tier",
+              "Basic scientific database access"
+            ]
+          },
+          {
+            "name": "Claude Max",
+            "price": "From $100",
+            "per": "per month",
+            "popular": true,
+            "color": "#FF6B35",
+            "features": [
+              "Automatic reviewer agent during work",
+              "20x higher usage limits than Pro",
+              "Early access to advanced features",
+              "Priority access at high traffic times"
+            ]
+          },
+          {
+            "name": "Claude Team",
+            "price": "$25",
+            "per": "per seat/month",
+            "popular": false,
+            "color": "#2E7D32",
+            "features": [
+              "Org-wide Claude Science access",
+              "Admin controls for team members",
+              "Shared database connectors and skills",
+              "Collaboration features"
+            ]
+          },
+          {
+            "name": "Claude Enterprise",
+            "price": "Custom",
+            "per": "custom pricing",
+            "popular": false,
+            "color": "#1A1A1A",
+            "features": [
+              "Full Claude Science suite",
+              "Custom model and data agreements",
+              "Dedicated support and training",
+              "Advanced compliance and security"
+            ]
+          }
+        ]
+      },
+      "link": "https://anthropic.com"
+    },
+    {
+      "id": "square-chatgpt---claude-plugins",
+      "name": "Square ChatGPT & Claude Plugins",
+      "company": "Square",
+      "category": "agent",
+      "icon": "🤖",
+      "badge": "new",
+      "color": "#3AB795",
+      "price": "free",
+      "priceLabel": "Free (included with Square Online Ordering)",
+      "tags": [
+        "agentic-commerce",
+        "food-ordering",
+        "AI-discovery",
+        "no-marketplace-fees"
+      ],
+      "shortDesc": "AI-powered discovery and ordering for restaurants via ChatGPT and Claude.",
+      "fullDesc": "<cite index=\"3-3,3-6\">Square announced a new ChatGPT app and Claude plugin helping sellers get discovered and transact at the exact moment customers are making purchasing decisions through AI-powered conversations, helping businesses show up with accurate information and directly order within these channels.</cite> <cite index=\"3-18,3-19,3-20\">Square Food & Beverage sellers in the U.S. with an activated Square Online Ordering profile can have customers discover participating restaurants, browse menus, and place orders using Order by Cash App, which route directly into sellers' existing Square Online Ordering setup, including POS and Kitchen Display System.</cite>",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Agentic Commerce Platform"
+        },
+        {
+          "label": "Released",
+          "value": "July 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Food & Beverage sellers reducing aggregator fees"
+        },
+        {
+          "label": "Pricing",
+          "value": "No marketplace commission; standard processing fees (2.9% + $0.30 per transaction)"
+        }
+      ],
+      "features": [
+        "<cite index=\"3-17\">Sellers manage AI discoverability through their existing Square Dashboard, while Square handles the infrastructure layer – syncing business information, menu data, hours of availability, and ordering information in real time.</cite>",
+        "<cite index=\"3-8,3-10,3-11\">Eligible sellers are opted in with no additional work, setup, or fees required, with no technical resources or onboarding friction.</cite>",
+        "<cite index=\"3-19,3-20\">Customers can discover participating restaurants, browse menus, and place orders using Order by Cash App, with orders routing directly into sellers' existing Square Online Ordering setup including POS and Kitchen Display System.</cite>",
+        "<cite index=\"3-21\">The source of the order is visible in Square's reporting, giving operators clear insight into how the new channels are performing.</cite>",
+        "<cite index=\"3-22,3-23\">Square does not charge additional marketplace commissions on orders placed through these integrations, and is also working with Amazon to bring sellers into Alexa+ experiences.</cite>",
+        "<cite index=\"12-24,12-25\">Square is actively participating in emerging agentic commerce protocol groups including the AAIF Agentic Commerce Working Group, W3C Web Payments Working Group, and Universal Commerce Protocol through partnership with Google.</cite>",
+        "<cite index=\"11-5,11-6,11-7\">When a consumer prompts ChatGPT or Claude with a query, the AI parses real-time data, customers can browse results and finalize purchases using Order by Cash App without leaving the chat interface, then the transaction routes instantly into the seller's POS and Kitchen Display System.</cite>"
+      ],
+      "demo": [
+        {
+          "title": "Customer Discovery & Ordering",
+          "desc": "<cite index=\"11-5,11-6\">A consumer prompts ChatGPT or Claude asking to find a specialty coffee shop nearby with a great pour-over and order a bag of their house roast; the AI parses the real-time data and customers can browse results and finalize the purchase using Order by Cash App without leaving the chat interface.</cite>",
+          "code": "Find me a specialty coffee shop nearby with a great pour-over and order me a bag of their house roast"
+        },
+        {
+          "title": "Merchant Dashboard Management",
+          "desc": "<cite index=\"11-4\">Sellers manage their discoverability and business information—menus, operating hours, stock levels, and pricing—directly through their existing Square Dashboard.</cite>",
+          "code": "Access via existing Square Dashboard > AI Discoverability settings"
+        },
+        {
+          "title": "Order Fulfillment",
+          "desc": "<cite index=\"11-7\">The transaction is routed instantly into the seller's existing operational flow, popping up on their Square Point of Sale (POS) and Kitchen Display System just like an in-store or direct-website order.</cite>",
+          "code": "Automatic routing to Square POS and Kitchen Display System"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Restaurant Discovery",
+          "text": "Find me a Italian restaurant near me that's open now and order a margherita pizza"
+        },
+        {
+          "label": "Specialty Ordering",
+          "text": "Search for sushi restaurants nearby with high ratings and order California rolls for delivery"
+        },
+        {
+          "label": "Coffee Shop Recommendation",
+          "text": "Find a specialty coffee shop near me with the best espresso and order an americano"
+        }
+      ],
+      "pricing": {
+        "note": "<cite index=\"12-3,12-8\">No new contracts, no marketplace commissions, no additional fees on orders placed through AI channels; Square does not charge additional marketplace commissions on orders placed through these integrations.</cite> <cite index=\"11-10\">Instead of surrendering a 30% cut to a delivery aggregator, a restaurant discovered through an AI agent only pays Square's standard online transaction processing fee (typically around 2.9% + 30¢ per transaction on a standard plan, with no monthly marketplace commission attached).</cite>",
+        "plans": [
+          {
+            "name": "Included with Square Online Ordering",
+            "price": "Free",
+            "per": "forever",
+            "popular": true,
+            "color": "#3AB795",
+            "features": [
+              "ChatGPT app integration",
+              "Claude plugin integration",
+              "Zero marketplace commissions on AI-driven orders",
+              "Real-time menu and inventory sync",
+              "Automatic enrollment for eligible F&B sellers",
+              "Order routing to Square POS & Kitchen Display System"
+            ]
+          },
+          {
+            "name": "Processing Fees",
+            "price": "2.9% + $0.30",
+            "per": "per transaction",
+            "popular": false,
+            "color": "#E8E8E8",
+            "features": [
+              "Standard online transaction processing",
+              "Applies to Square Plus and Premium plans",
+              "No additional marketplace fees",
+              "White-label delivery dispatch available at flat courier fee ($7-$10)"
+            ]
+          }
+        ]
+      },
+      "link": "https://square.com"
     }
   ],
   "totw": {
-    "name": "Context.dev",
-    "tagline": "One API to scrape, enrich, and extract the internet",
-    "votesCount": 862,
-    "url": "https://www.producthunt.com/products/context-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
-    "thumbnail": "https://ph-files.imgix.net/e4e57b87-7bf9-4662-93d2-30c9f778eb68.png?auto=format",
+    "name": "Acti",
+    "tagline": "Agentic keyboard for mobile commands and search",
+    "votesCount": 1115,
+    "url": "https://www.producthunt.com/products/acti-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
+    "thumbnail": "https://ph-files.imgix.net/5ccc5e0b-77d9-45f8-bafe-ec081a905348.png?auto=format",
     "rank": 1,
     "topics": [
-      "API",
-      "Artificial Intelligence",
-      "Data"
+      "Productivity",
+      "Custom Keyboards",
+      "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-07-05T09:17:42.501Z"
+    "fetchedAt": "2026-07-06T10:53:51.617Z"
   },
   "lastWeeklyUpdate": "2026-07-01T10:20:26.408Z",
   "anthropicNews": [
     {
       "date": "Jun 30, 2026",
-      "title": "Claude Sonnet 5 launches with frontier performance",
-      "summary": "<cite index=\"15-10\">Claude Sonnet 5 released as most capable Sonnet-tier model with near-Opus intelligence for coding and agentic work</cite>",
-      "url": "https://www.anthropic.com/news/claude-sonnet-5"
+      "title": "Claude Science launched as AI workbench for researchers",
+      "summary": "<cite index=\"21-1\">Anthropic announced Claude Science, a major product for scientific research support similar to Claude Code</cite>.",
+      "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Jun 30, 2026",
-      "title": "Claude Science AI workbench for researchers launched",
-      "summary": "<cite index=\"10-12,10-13\">Claude Science is an AI workbench for scientists that integrates tools researchers commonly use and provides flexible computing access</cite>",
-      "url": "https://www.anthropic.com/news/claude-science-ai-workbench"
+      "title": "Claude Sonnet 5 released with agentic capabilities",
+      "summary": "<cite index=\"1-4\">Claude Sonnet 5 brings near-Opus intelligence to coding and agentic work at Sonnet cost</cite>.",
+      "url": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/"
     },
     {
-      "date": "Jul 1, 2026",
-      "title": "Claude Fable 5 redeploys globally after export controls lifted",
-      "summary": "<cite index=\"4-7,4-8\">Export controls on Fable 5 lifted June 30; model available globally starting July 1 on Claude Platform and other channels</cite>",
-      "url": "https://www.anthropic.com/news/redeploying-fable-5"
-    },
-    {
-      "date": "Jul 2, 2026",
-      "title": "Claude Enterprise adds admin analytics and spend controls",
-      "summary": "<cite index=\"1-10\">Claude adds richer admin analytics, model-level entitlements, and spend alerts for Enterprise customers</cite>",
-      "url": "https://www.anthropic.com"
-    },
-    {
-      "date": "Jun 17, 2026",
-      "title": "Anthropic opens Seoul office and expands Korean partnerships",
-      "summary": "Anthropic establishes new Seoul office with partnerships across Korea's AI ecosystem",
+      "date": "Jun 30, 2026",
+      "title": "Fable 5 and Mythos 5 access restored after export controls lifted",
+      "summary": "<cite index=\"1-3\">Anthropic redeployed Claude Fable 5 globally starting July 1 with cybersecurity safeguards</cite>.",
       "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Jun 9, 2026",
-      "title": "Claude Fable 5 launches publicly with cybersecurity safeguards",
-      "summary": "<cite index=\"18-4,18-5\">Claude Fable 5 released to enterprise customers and paid subscribers with safeguards blocking high-risk responses in cybersecurity and biology</cite>",
-      "url": "https://www.anthropic.com"
+      "title": "Claude Fable 5 announced as Mythos-class public model",
+      "summary": "<cite index=\"9-1,9-8\">Anthropic announced Claude Fable 5 for enterprise customers with safeguards blocking high-risk responses</cite>.",
+      "url": "https://www.cnbc.com/2026/06/09/anthropic-mythos-claude-fable-5.html"
+    },
+    {
+      "date": "Jul 3, 2026",
+      "title": "Claude Enterprise gets richer admin analytics and cost controls",
+      "summary": "<cite index=\"4-16,4-21\">Anthropic introduced model-level entitlements and spend alerts with analytics showing usage by group</cite>.",
+      "url": "https://releasebot.io/updates/anthropic"
     }
   ],
-  "lastChecked": "2026-07-05T09:18:32.578Z"
+  "lastChecked": "2026-07-06T10:54:43.582Z"
 }
