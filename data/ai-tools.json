@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T10:54:43.582Z",
+  "lastUpdated": "2026-07-07T09:56:21.546Z",
   "categories": [
     {
       "id": "llm",
@@ -18676,12 +18676,127 @@
         ]
       },
       "link": "https://square.com"
+    },
+    {
+      "id": "brain2qwerty-v2",
+      "name": "Brain2Qwerty v2",
+      "company": "Meta AI Research",
+      "category": "brain-to-text",
+      "icon": "🧠",
+      "badge": "new",
+      "color": "#0A66C2",
+      "price": "free",
+      "priceLabel": "Free (Open-source Research)",
+      "tags": [
+        "MEG",
+        "brain-computer-interface",
+        "neuroscience",
+        "sentence-decoding"
+      ],
+      "shortDesc": "Non-invasive AI system decoding typed sentences from MEG brain recordings at 61% word accuracy.",
+      "fullDesc": "Brain2Qwerty v2 decodes natural sentences from magnetoencephalography (MEG) brain recordings using deep learning without requiring surgical implants. It combines character, word, and sentence-level neural modules to achieve 61% average word accuracy—significantly outperforming prior non-invasive methods. Designed for neuroscience researchers and AI engineers exploring biosignal decoding and assistive communication technologies.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Brain-to-text decoder using non-invasive MEG"
+        },
+        {
+          "label": "Released",
+          "value": "June 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Neuroscience research, assistive communication technology development"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free open-source code under CC BY-NC 4.0 license"
+        }
+      ],
+      "features": [
+        "Real-time sentence decoding from continuous MEG brain recordings without keystroke timing requirements",
+        "Three-level hierarchical architecture processing character, word, and sentence-level information",
+        "End-to-end deep learning with convolutional encoder and transformer eliminating hand-crafted event detection",
+        "Fine-tuned large language model integration for semantic context and error correction",
+        "61% average word accuracy across participants, up to 78% for best participant",
+        "Trained on approximately 22,000 sentences from nine volunteers with 10 hours per participant",
+        "Autonomous AI agents for pipeline optimization during model development",
+        "Full training code released open-source for reproducible research"
+      ],
+      "demo": [
+        {
+          "title": "Setup",
+          "desc": "Participant wears MEG sensor cap in magnetically shielded room while actively typing sentences",
+          "code": ""
+        },
+        {
+          "title": "Recording",
+          "desc": "MEG device captures magnetic fields from brain activity at high temporal resolution during typing",
+          "code": ""
+        },
+        {
+          "title": "Processing",
+          "desc": "Convolutional encoder extracts character-level features from raw MEG signals",
+          "code": ""
+        },
+        {
+          "title": "Decoding",
+          "desc": "Transformer models longer-range structure; language model generates coherent sentence from decoded tokens",
+          "code": ""
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Research Use",
+          "text": "Retrain Brain2Qwerty v2 on your laboratory's own MEG dataset to establish baseline performance and scaling characteristics"
+        },
+        {
+          "label": "Development",
+          "text": "Use the convolutional-encoder-plus-transformer architecture pattern as a template for other biosignal decoding tasks"
+        },
+        {
+          "label": "Analysis",
+          "text": "Evaluate log-linear scaling relationship between training data volume and decoding accuracy for resource planning"
+        }
+      ],
+      "pricing": {
+        "note": "Brain2Qwerty v2 is a research system released as open-source code under CC BY-NC 4.0 license. Full training code for both v1 and v2 is publicly available. This is not a commercial product and has no pricing tiers.",
+        "plans": [
+          {
+            "name": "Open-Source Code",
+            "price": "Free",
+            "per": "forever",
+            "popular": true,
+            "color": "#0A66C2",
+            "features": [
+              "Full Brain2Qwerty v2 training code and implementation",
+              "Pre-trained model weights",
+              "CC BY-NC 4.0 license (non-commercial use)",
+              "GitHub repository with documentation"
+            ]
+          },
+          {
+            "name": "Research Dataset (v1)",
+            "price": "Free",
+            "per": "forever",
+            "popular": false,
+            "color": "#6B7280",
+            "features": [
+              "Brain2Qwerty v1 training dataset from BCBL",
+              "Approximately 22,000 sentences from nine participants",
+              "MEG recordings with active typing sessions",
+              "Available on HuggingFace"
+            ]
+          }
+        ]
+      },
+      "link": "https://facebookresearch.github.io/brain2qwerty/"
     }
   ],
   "totw": {
     "name": "Acti",
     "tagline": "Agentic keyboard for mobile commands and search",
-    "votesCount": 1115,
+    "votesCount": 1242,
     "url": "https://www.producthunt.com/products/acti-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/5ccc5e0b-77d9-45f8-bafe-ec081a905348.png?auto=format",
     "rank": 1,
@@ -18690,40 +18805,40 @@
       "Custom Keyboards",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-07-06T10:53:51.617Z"
+    "fetchedAt": "2026-07-07T09:55:37.013Z"
   },
   "lastWeeklyUpdate": "2026-07-01T10:20:26.408Z",
   "anthropicNews": [
     {
-      "date": "Jun 30, 2026",
-      "title": "Claude Science launched as AI workbench for researchers",
-      "summary": "<cite index=\"21-1\">Anthropic announced Claude Science, a major product for scientific research support similar to Claude Code</cite>.",
+      "date": "Jul 1, 2026",
+      "title": "Claude Fable 5 returns globally after export controls lifted",
+      "summary": "<cite index=\"1-8\">Claude Fable 5 and Claude Mythos 5 access was restored globally as export-control directive was lifted</cite>.",
       "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Jun 30, 2026",
-      "title": "Claude Sonnet 5 released with agentic capabilities",
-      "summary": "<cite index=\"1-4\">Claude Sonnet 5 brings near-Opus intelligence to coding and agentic work at Sonnet cost</cite>.",
-      "url": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/"
-    },
-    {
-      "date": "Jun 30, 2026",
-      "title": "Fable 5 and Mythos 5 access restored after export controls lifted",
-      "summary": "<cite index=\"1-3\">Anthropic redeployed Claude Fable 5 globally starting July 1 with cybersecurity safeguards</cite>.",
+      "title": "Claude Sonnet 5 released with frontier coding capabilities",
+      "summary": "<cite index=\"1-9\">Claude Sonnet 5, Anthropic's most capable Sonnet-tier model, brings near-Opus intelligence to coding and agentic work at Sonnet cost</cite>.",
       "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Jun 9, 2026",
-      "title": "Claude Fable 5 announced as Mythos-class public model",
-      "summary": "<cite index=\"9-1,9-8\">Anthropic announced Claude Fable 5 for enterprise customers with safeguards blocking high-risk responses</cite>.",
-      "url": "https://www.cnbc.com/2026/06/09/anthropic-mythos-claude-fable-5.html"
+      "date": "Jun 30, 2026",
+      "title": "Claude Science launched for scientific research",
+      "summary": "<cite index=\"12-5,12-6\">Claude Science supports scientific research with autonomous work capability and tools for computational biology and drug development</cite>.",
+      "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Jul 3, 2026",
-      "title": "Claude Enterprise gets richer admin analytics and cost controls",
-      "summary": "<cite index=\"4-16,4-21\">Anthropic introduced model-level entitlements and spend alerts with analytics showing usage by group</cite>.",
-      "url": "https://releasebot.io/updates/anthropic"
+      "date": "Jun 30, 2026",
+      "title": "Claude Enterprise gets new admin analytics and cost controls",
+      "summary": "<cite index=\"3-15,3-17\">Anthropic introduced richer admin analytics, model-level entitlements, and spend alerts for Claude Enterprise to manage costs</cite>.",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Jul 2, 2026",
+      "title": "Anthropic exploring custom AI chip with Samsung",
+      "summary": "<cite index=\"17-3\">Anthropic is in contact with Samsung to explore a collaboration around a pending AI chip</cite>.",
+      "url": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/"
     }
   ],
-  "lastChecked": "2026-07-06T10:54:43.582Z"
+  "lastChecked": "2026-07-07T09:56:21.546Z"
 }
