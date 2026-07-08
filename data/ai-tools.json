@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-07T09:56:21.546Z",
+  "lastUpdated": "2026-07-08T08:40:07.006Z",
   "categories": [
     {
       "id": "llm",
@@ -18794,51 +18794,57 @@
     }
   ],
   "totw": {
-    "name": "Acti",
-    "tagline": "Agentic keyboard for mobile commands and search",
-    "votesCount": 1242,
-    "url": "https://www.producthunt.com/products/acti-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
-    "thumbnail": "https://ph-files.imgix.net/5ccc5e0b-77d9-45f8-bafe-ec081a905348.png?auto=format",
+    "name": "Context.dev",
+    "tagline": "One API to scrape, enrich, and extract the internet",
+    "votesCount": 1056,
+    "url": "https://www.producthunt.com/products/context-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
+    "thumbnail": "https://ph-files.imgix.net/e4e57b87-7bf9-4662-93d2-30c9f778eb68.png?auto=format",
     "rank": 1,
     "topics": [
-      "Productivity",
-      "Custom Keyboards",
-      "Artificial Intelligence"
+      "API",
+      "Artificial Intelligence",
+      "Data"
     ],
-    "fetchedAt": "2026-07-07T09:55:37.013Z"
+    "fetchedAt": "2026-07-08T08:39:49.854Z"
   },
   "lastWeeklyUpdate": "2026-07-01T10:20:26.408Z",
   "anthropicNews": [
     {
+      "date": "Jul 8, 2026",
+      "title": "Claude Science launched as AI workbench for researchers",
+      "summary": "Anthropic introduces Claude Science with integrated tools for scientific research including genomics, structural biology and cheminformatics support.",
+      "url": "https://www.anthropic.com/news/claude-science-ai-workbench"
+    },
+    {
+      "date": "Jul 6, 2026",
+      "title": "Alberta Government uses Claude Code for cybersecurity tasks",
+      "summary": "Government of Alberta scanned 466M lines of code in 20 hours, finding and fixing security vulnerabilities using Claude Code with Opus and Sonnet models.",
+      "url": "https://www.anthropic.com/news/alberta-government-claude-cybersecurity"
+    },
+    {
       "date": "Jul 1, 2026",
-      "title": "Claude Fable 5 returns globally after export controls lifted",
-      "summary": "<cite index=\"1-8\">Claude Fable 5 and Claude Mythos 5 access was restored globally as export-control directive was lifted</cite>.",
-      "url": "https://www.anthropic.com/news"
+      "title": "Claude Fable 5 and Mythos 5 access restored globally",
+      "summary": "Export control restrictions lifted; Fable 5 redeployed to Claude Platform, Claude.ai, Claude Code and Claude Cowork with 50% usage limits through July 7.",
+      "url": "https://www.anthropic.com/news/redeploying-fable-5"
     },
     {
       "date": "Jun 30, 2026",
-      "title": "Claude Sonnet 5 released with frontier coding capabilities",
-      "summary": "<cite index=\"1-9\">Claude Sonnet 5, Anthropic's most capable Sonnet-tier model, brings near-Opus intelligence to coding and agentic work at Sonnet cost</cite>.",
+      "title": "Claude Sonnet 5 released with 1M token context window",
+      "summary": "New Sonnet 5 model becomes default on Free/Pro plans with native 1M-token context and promotional pricing of $2/$10 per Mtok through August 31.",
+      "url": "https://www.anthropic.com/news/claude-sonnet-5"
+    },
+    {
+      "date": "Jun 17, 2026",
+      "title": "Anthropic opens Seoul office, announces Korean partnerships",
+      "summary": "Anthropic establishes Seoul office and announces new partnerships across the Korean AI ecosystem to expand regional presence.",
       "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Jun 30, 2026",
-      "title": "Claude Science launched for scientific research",
-      "summary": "<cite index=\"12-5,12-6\">Claude Science supports scientific research with autonomous work capability and tools for computational biology and drug development</cite>.",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "Jun 30, 2026",
-      "title": "Claude Enterprise gets new admin analytics and cost controls",
-      "summary": "<cite index=\"3-15,3-17\">Anthropic introduced richer admin analytics, model-level entitlements, and spend alerts for Claude Enterprise to manage costs</cite>.",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "Jul 2, 2026",
-      "title": "Anthropic exploring custom AI chip with Samsung",
-      "summary": "<cite index=\"17-3\">Anthropic is in contact with Samsung to explore a collaboration around a pending AI chip</cite>.",
-      "url": "https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/"
+      "date": "Jun 9, 2026",
+      "title": "Claude Fable 5 and Mythos 5 announced as Mythos-class models",
+      "summary": "Anthropic launches Fable 5 (general use) and Mythos 5 (restricted) as new frontier models above the Opus tier with enhanced capabilities.",
+      "url": "https://anthropic.com"
     }
   ],
-  "lastChecked": "2026-07-07T09:56:21.546Z"
+  "lastChecked": "2026-07-08T08:40:07.006Z"
 }
