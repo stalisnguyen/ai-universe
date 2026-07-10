@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-08T08:40:07.006Z",
+  "lastUpdated": "2026-07-10T09:49:50.802Z",
   "categories": [
     {
       "id": "llm",
@@ -19355,60 +19355,200 @@
         ]
       },
       "link": "https://facebookresearch.github.io/brain2qwerty/"
+    },
+    {
+      "id": "google-photos-video-remix",
+      "name": "Google Photos Video Remix",
+      "company": "Google",
+      "category": "video",
+      "icon": "🎬",
+      "badge": "new",
+      "color": "#4285F4",
+      "price": "freemium",
+      "priceLabel": "Free for limited generations / Google AI Plus/Pro/Ultra subscription",
+      "tags": [
+        "AI video editing",
+        "relighting",
+        "background swap",
+        "style transfer"
+      ],
+      "shortDesc": "AI-powered video editing tool that transforms clips with cinematic effects and artistic styles in seconds.",
+      "fullDesc": "Video Remix in Google Photos is an AI-powered feature that transforms ordinary video clips into polished, shareable content using Gemini Omni. It offers cinematic relighting, background swaps, and artistic treatments like watercolor and oil painting effects. Designed for casual content creators who want professional-looking results without video editing expertise.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "AI Video Editing Tool"
+        },
+        {
+          "label": "Released",
+          "value": "July 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Casual video creators, social media content, home videos"
+        },
+        {
+          "label": "Pricing",
+          "value": "Daily limited generations free; unlimited with Google AI subscription"
+        }
+      ],
+      "features": [
+        "Cinematic relighting to brighten dark or poorly lit video clips automatically",
+        "Background replacement to swap plain backgrounds for dynamic, stylized environments",
+        "Artistic style filters including watercolor, raw sketchbook, and oil painting effects",
+        "Template-based editing for quick transformations without manual controls",
+        "Cloud-based processing requiring Google Photos backup",
+        "Support for Instagram Reels, YouTube Shorts, and standard 16:9 formats",
+        "Natural language prompts to describe desired edits and transformations",
+        "Optional sound generation for enhanced audio accompaniment"
+      ],
+      "demo": [
+        {
+          "title": "Apply Cinematic Relighting",
+          "desc": "Open a dark video in Google Photos, access Create tab, select Video Remix, choose relighting template, apply morning glow or evening warmth effect",
+          "code": "Select video → Create → Video Remix → 'Relight my video with morning glow'"
+        },
+        {
+          "title": "Swap Background",
+          "desc": "Select a video with plain background, access Video Remix templates, choose environment replacement option, transform street scene to greenhouse or other setting",
+          "code": "Select video → Create → Video Remix → 'Set my video in a greenhouse'"
+        },
+        {
+          "title": "Apply Artistic Style",
+          "desc": "Choose a standard video, access Video Remix, select artistic filter template, transform video into watercolor, sketch, or oil painting style",
+          "code": "Select video → Create → Video Remix → 'Paint my video in dreamy watercolor'"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Lighting Enhancement",
+          "text": "Relight my video with a morning glow"
+        },
+        {
+          "label": "Background Transformation",
+          "text": "Set my video in a greenhouse"
+        },
+        {
+          "label": "Artistic Style",
+          "text": "Paint my video in dreamy watercolor"
+        },
+        {
+          "label": "Style Transfer",
+          "text": "Transform this video into an oil painting"
+        }
+      ],
+      "pricing": {
+        "note": "Video Remix offers daily limited generations at no charge for all Google Photos users. Higher generation limits available exclusively to Google AI Plus, Pro, and Ultra subscribers.",
+        "plans": [
+          {
+            "name": "Free",
+            "price": "Free",
+            "per": "forever",
+            "popular": false,
+            "color": "#34A853",
+            "features": [
+              "Daily limited video remixes",
+              "Access to template library",
+              "Cloud processing",
+              "Requires Google Photos backup"
+            ]
+          },
+          {
+            "name": "Google AI Plus",
+            "price": "$20",
+            "per": "per month",
+            "popular": true,
+            "color": "#4285F4",
+            "features": [
+              "Unlimited video remixes",
+              "Premium editing templates",
+              "Priority cloud processing",
+              "Advanced AI features"
+            ]
+          },
+          {
+            "name": "Google AI Pro",
+            "price": "$30",
+            "per": "per month",
+            "popular": false,
+            "color": "#4285F4",
+            "features": [
+              "Unlimited video remixes",
+              "All premium templates",
+              "Faster processing",
+              "Advanced creative features"
+            ]
+          },
+          {
+            "name": "Google AI Ultra",
+            "price": "$50",
+            "per": "per month",
+            "popular": false,
+            "color": "#4285F4",
+            "features": [
+              "Unlimited video remixes",
+              "All templates and effects",
+              "Fastest processing speed",
+              "Beta access to new features"
+            ]
+          }
+        ]
+      },
+      "link": "https://photos.google.com"
     }
   ],
   "totw": {
-    "name": "Glaze by Raycast",
-    "tagline": "Create your own Mac apps by chatting with AI",
-    "votesCount": 640,
-    "url": "https://www.producthunt.com/products/glaze-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
-    "thumbnail": "https://ph-files.imgix.net/85150caf-3a40-490f-ad86-32e3e5a88afa.png?auto=format",
+    "name": "AnySearch",
+    "tagline": "Real-time structured search trusted by agents and developers",
+    "votesCount": 678,
+    "url": "https://www.producthunt.com/products/anysearch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
+    "thumbnail": "https://ph-files.imgix.net/d7e5bffe-bacb-4118-a8e4-1bfbdf7c531e.x-icon?auto=format",
     "rank": 1,
     "topics": [
-      "Mac",
-      "Productivity",
-      "Artificial Intelligence"
+      "Developer Tools",
+      "Artificial Intelligence",
+      "Search"
     ],
-    "fetchedAt": "2026-07-09T09:52:51.508Z"
+    "fetchedAt": "2026-07-10T09:48:45.906Z"
   },
   "lastWeeklyUpdate": "2026-07-09T10:15:58.637Z",
   "anthropicNews": [
     {
+      "date": "Jul 9, 2026",
+      "title": "Claude Enterprise Analytics and Cost Controls",
+      "summary": "<cite index=\"1-26,1-28\">Anthropic introduces richer admin analytics, model-level entitlements, and spend alerts for Claude Enterprise to give admins visibility into Claude usage and tools to manage costs.</cite>",
+      "url": "https://www.anthropic.com"
+    },
+    {
       "date": "Jul 1, 2026",
-      "title": "Claude Sonnet 5 goes live as default in Claude Code",
-      "summary": "<cite index=\"4-1,4-2\">Claude Sonnet 5 now available as default in Claude Code with native 1M-token context window and promotional pricing through August 31</cite>.",
+      "title": "Claude Fable 5 Redeployed Globally",
+      "summary": "<cite index=\"5-8,5-9\">Fable 5 became available to users globally on the Claude Platform, Claude.ai, Claude Code, and Claude Cowork after export controls were lifted, included for up to 50% of weekly usage limits through July 7.</cite>",
+      "url": "https://www.anthropic.com/news/redeploying-fable-5"
+    },
+    {
+      "date": "Jun 30, 2026",
+      "title": "Claude Sonnet 5 Launches with Agentic Capabilities",
+      "summary": "<cite index=\"4-2\">Claude Sonnet 5 is now the default model in Claude Code, with a native 1M-token context window and promotional pricing of $2/$10 per Mtok through August 31.</cite>",
       "url": "https://www.anthropic.com/news/claude-sonnet-5"
     },
     {
-      "date": "Jul 2, 2026",
-      "title": "Anthropic publishes Fable 5 cyber safeguards framework",
-      "summary": "<cite index=\"5-27,5-29,5-30\">Anthropic re-deploys Claude Fable 5 globally with deeper cyber safeguards and draft jailbreak framework; safety classifiers detect and block dangerous cybersecurity uses</cite>.",
-      "url": "https://www.anthropic.com/news"
+      "date": "Jun 30, 2026",
+      "title": "Claude Science AI Workbench Launches",
+      "summary": "<cite index=\"9-14,9-15\">Anthropic introduces Claude Science, an AI workbench for scientists that integrates tools and packages researchers commonly use, produces auditable artifacts, and provides flexible access to computing resources.</cite>",
+      "url": "https://www.hpcwire.com/aiwire/2026/06/30/anthropic-launches-claude-science-ai-workbench-for-scientific-research/"
     },
     {
-      "date": "Jun 30, 2026",
-      "title": "Claude Sonnet 5 released for balanced agentic work",
-      "summary": "<cite index=\"1-2\">Claude Sonnet 5 released June 30, 2026 as latest generally available Claude model for agentic coding, tool use, reasoning and knowledge work</cite>.",
+      "date": "Jun 17, 2026",
+      "title": "Anthropic Opens Seoul Office",
+      "summary": "<cite index=\"3-1\">Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem.</cite>",
       "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "Jun 30, 2026",
-      "title": "Claude Science announced for scientific research workflows",
-      "summary": "<cite index=\"14-1,14-4\">Anthropic announced Claude Science for scientific research; can autonomously carry out meaningful work with access to computational biology and drug development tools</cite>.",
-      "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/"
     },
     {
       "date": "Jun 9, 2026",
-      "title": "Claude Fable 5 and Mythos 5 debut new model tier",
-      "summary": "<cite index=\"16-1\">Anthropic announced Claude Fable 5 and Mythos 5, first models in new Mythos-class tier sitting above Opus in capability</cite>.",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "Jun 23, 2026",
-      "title": "Fable 5 shifts from subscription to usage-based billing",
-      "summary": "<cite index=\"25-3,25-4\">Fable 5 access removed from paid subscriptions; now subject to usage-based billing calculated by tokens consumed rather than fixed monthly fee</cite>.",
-      "url": "https://www.anthropic.com/news"
+      "title": "Claude Fable 5 Released (Later Suspended)",
+      "summary": "<cite index=\"16-1\">On June 9, 2026, Anthropic released Fable 5 to the public with new safeguards in place, a new generation of LLMs with significantly higher capability.</cite>",
+      "url": "https://www.anthropic.com"
     }
   ],
-  "lastChecked": "2026-07-09T10:19:00.295Z"
+  "lastChecked": "2026-07-10T09:49:50.802Z"
 }
