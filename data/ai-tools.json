@@ -19500,7 +19500,7 @@
   "totw": {
     "name": "AnySearch",
     "tagline": "Real-time structured search trusted by agents and developers",
-    "votesCount": 678,
+    "votesCount": 797,
     "url": "https://www.producthunt.com/products/anysearch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/d7e5bffe-bacb-4118-a8e4-1bfbdf7c531e.x-icon?auto=format",
     "rank": 1,
@@ -19509,46 +19509,46 @@
       "Artificial Intelligence",
       "Search"
     ],
-    "fetchedAt": "2026-07-10T09:48:45.906Z"
+    "fetchedAt": "2026-07-11T08:06:36.179Z"
   },
   "lastWeeklyUpdate": "2026-07-09T10:15:58.637Z",
   "anthropicNews": [
     {
       "date": "Jul 9, 2026",
-      "title": "Claude Enterprise Analytics and Cost Controls",
-      "summary": "<cite index=\"1-26,1-28\">Anthropic introduces richer admin analytics, model-level entitlements, and spend alerts for Claude Enterprise to give admins visibility into Claude usage and tools to manage costs.</cite>",
-      "url": "https://www.anthropic.com"
+      "title": "Claude adds monthly recap and focus settings",
+      "summary": "New beta feature shows usage patterns, most active day, peak hour, and work insights for Free, Pro, and Max users.",
+      "url": "https://releasebot.io/updates/anthropic"
     },
     {
-      "date": "Jul 1, 2026",
-      "title": "Claude Fable 5 Redeployed Globally",
-      "summary": "<cite index=\"5-8,5-9\">Fable 5 became available to users globally on the Claude Platform, Claude.ai, Claude Code, and Claude Cowork after export controls were lifted, included for up to 50% of weekly usage limits through July 7.</cite>",
-      "url": "https://www.anthropic.com/news/redeploying-fable-5"
+      "date": "Jul 6, 2026",
+      "title": "Claude Science launched for scientific research",
+      "summary": "New flagship product for computational biology and drug development available to all paid Claude subscribers.",
+      "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/"
     },
     {
       "date": "Jun 30, 2026",
-      "title": "Claude Sonnet 5 Launches with Agentic Capabilities",
-      "summary": "<cite index=\"4-2\">Claude Sonnet 5 is now the default model in Claude Code, with a native 1M-token context window and promotional pricing of $2/$10 per Mtok through August 31.</cite>",
+      "title": "Claude Sonnet 5 released with introductory pricing",
+      "summary": "New balanced model offers near-Opus quality for coding and agentic work at $2/$10 per million tokens through August 31.",
       "url": "https://www.anthropic.com/news/claude-sonnet-5"
     },
     {
       "date": "Jun 30, 2026",
-      "title": "Claude Science AI Workbench Launches",
-      "summary": "<cite index=\"9-14,9-15\">Anthropic introduces Claude Science, an AI workbench for scientists that integrates tools and packages researchers commonly use, produces auditable artifacts, and provides flexible access to computing resources.</cite>",
-      "url": "https://www.hpcwire.com/aiwire/2026/06/30/anthropic-launches-claude-science-ai-workbench-for-scientific-research/"
+      "title": "Claude Fable 5 restored globally after export controls lifted",
+      "summary": "Most capable frontier model returns to all platforms with enhanced cybersecurity safeguards at $10/$50 per million tokens.",
+      "url": "https://www.anthropic.com/claude/fable"
     },
     {
-      "date": "Jun 17, 2026",
-      "title": "Anthropic Opens Seoul Office",
-      "summary": "<cite index=\"3-1\">Anthropic opens Seoul office and announces new partnerships across the Korean AI ecosystem.</cite>",
-      "url": "https://www.anthropic.com/news"
+      "date": "Jun 29, 2026",
+      "title": "California partnership grants state agencies 50% Claude discount",
+      "summary": "Anthropic partners with California government to provide discounted Claude access and free training to state agencies and local governments.",
+      "url": "https://www.gov.ca.gov/2026/06/29/governor-newsom-announces-a-first-of-its-kind-partnership-providing-anthropic-tools-to-state-agencies-and-improving-services-for-californians/"
     },
     {
-      "date": "Jun 9, 2026",
-      "title": "Claude Fable 5 Released (Later Suspended)",
-      "summary": "<cite index=\"16-1\">On June 9, 2026, Anthropic released Fable 5 to the public with new safeguards in place, a new generation of LLMs with significantly higher capability.</cite>",
-      "url": "https://www.anthropic.com"
+      "date": "Jul 1, 2026",
+      "title": "Claude Cowork expands to mobile and web with background work",
+      "summary": "Cowork now allows sessions and files to sync across devices with background tasks, scheduled features, and mobile approvals.",
+      "url": "https://releasebot.io/updates/anthropic"
     }
   ],
-  "lastChecked": "2026-07-10T09:49:50.802Z"
+  "lastChecked": "2026-07-11T08:06:51.700Z"
 }
