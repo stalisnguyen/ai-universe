@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10T09:49:50.802Z",
+  "lastUpdated": "2026-07-12T08:29:17.477Z",
   "categories": [
     {
       "id": "llm",
@@ -19495,12 +19495,221 @@
         ]
       },
       "link": "https://photos.google.com"
+    },
+    {
+      "id": "dependency-firewall",
+      "name": "Dependency Firewall",
+      "company": "depthfirst",
+      "category": "security",
+      "icon": "🔒",
+      "badge": "new",
+      "color": "#1a1a1a",
+      "price": "paid",
+      "priceLabel": "Contact for pricing",
+      "tags": [
+        "supply-chain",
+        "malware-detection",
+        "package-security",
+        "ai-powered"
+      ],
+      "shortDesc": "AI-powered security system that blocks malicious open-source packages before installation.",
+      "fullDesc": "Dependency Firewall reviews every open-source package being downloaded in an organization and blocks malicious ones before they reach developers or systems. Using depthfirst's agentic defense platform, it analyzes packages at publish time rather than install time, performing proprietary code analysis, runtime behavior detection, and intent reasoning. Built for enterprises managing AI-era security risks across developers, CI systems, and AI agents.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Supply Chain Security / Package Management"
+        },
+        {
+          "label": "Released",
+          "value": "June 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Enterprise security teams securing AI adoption and developer workflows"
+        },
+        {
+          "label": "Pricing",
+          "value": "Enterprise pricing; contact for details"
+        }
+      ],
+      "features": [
+        "Real-time analysis of packages at publication moment before installation requests",
+        "Proprietary code and install script analysis on every new package version",
+        "Runtime behavior detection to identify malicious package activity",
+        "Programmable enforcement policies for package age, dependency trees, and licenses",
+        "Evidence-backed verdicts that audit decisions to underlying signals",
+        "Integration with existing artifact repositories or standalone registry mode",
+        "Transparent override system with automatic logging of all decisions",
+        "Support for AI agents, developers, and CI systems without changing workflows"
+      ],
+      "demo": [
+        {
+          "title": "Deploy upstream of registry",
+          "desc": "Place Dependency Firewall between your package manager and private repository to intercept all package downloads",
+          "code": ""
+        },
+        {
+          "title": "Receive verdicts instantly",
+          "desc": "Approved packages pass with negligible latency, suspicious packages are quarantined for review, malicious packages are blocked with evidence",
+          "code": ""
+        },
+        {
+          "title": "Set enforcement policies",
+          "desc": "Configure minimum package age requirements, restrict acceptable dependency trees, and enforce license policies across direct and transitive dependencies",
+          "code": ""
+        }
+      ],
+      "prompts": [],
+      "pricing": {
+        "note": "Dependency Firewall is an enterprise product with custom pricing. The product targets large organizations managing open-source security at scale.",
+        "plans": [
+          {
+            "name": "Enterprise",
+            "price": "Custom",
+            "per": "contact",
+            "popular": true,
+            "color": "#1a1a1a",
+            "features": [
+              "Unlimited package analysis and verdicts",
+              "Custom enforcement policies and rules",
+              "Enterprise registry integration",
+              "Dedicated support and SLAs"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.depthfirst.io"
+    },
+    {
+      "id": "daytona",
+      "name": "Daytona",
+      "company": "Daytona Platforms",
+      "category": "infrastructure",
+      "icon": "⚡",
+      "badge": "hot",
+      "color": "#00A3FF",
+      "price": "freemium",
+      "priceLabel": "Free tier + Pay-as-you-go",
+      "tags": [
+        "sandbox",
+        "code execution",
+        "AI agents",
+        "infrastructure"
+      ],
+      "shortDesc": "Secure sandbox infrastructure for running AI-generated code with sub-90ms provisioning.",
+      "fullDesc": "Daytona provides secure, elastic sandbox infrastructure designed for AI agents to execute code safely in isolated environments. The platform enables rapid sandbox creation (under 90 milliseconds), stateful operations with environment snapshots, and programmatic control through SDKs and APIs. Built for teams shipping production-grade AI agent workflows, coding assistants, and developer tools that need reliable code execution without affecting existing infrastructure.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Sandbox Runtime Infrastructure"
+        },
+        {
+          "label": "Released",
+          "value": "2023"
+        },
+        {
+          "label": "Best for",
+          "value": "AI agents, code execution, agent workflows"
+        },
+        {
+          "label": "Pricing",
+          "value": "$200 free credits, then usage-based per vCPU/memory/storage"
+        }
+      ],
+      "features": [
+        "Sub-90ms isolated sandbox provisioning with complete runtime isolation and separate kernels",
+        "Stateful environment snapshots enabling persistent agent operations and state restoration across sessions",
+        "Multi-language SDK support (Python, TypeScript, JavaScript, Go, Java, Ruby) with REST API and CLI",
+        "Composable sandboxes with full CRUD operations, file systems, Git integration, and process execution",
+        "Massive parallelization for concurrent AI workflows and production-scale agent deployments",
+        "Computer-use virtual desktops (Linux, Windows, macOS) with full programmatic access for automation",
+        "Multi-region deployment across US, EU, and Asia with low-latency execution for global agents",
+        "Docker/OCI compatibility with support for custom base images, packages, and toolchain configuration"
+      ],
+      "demo": [
+        {
+          "title": "Create a Sandbox",
+          "desc": "Spin up an isolated sandbox environment in under 90 milliseconds",
+          "code": "from daytona import Daytona\n\nconfig = DaytonaConfig(api_key='YOUR_API_KEY')\nclient = Daytona(config)\nsandbox = client.create()"
+        },
+        {
+          "title": "Execute Code",
+          "desc": "Run AI-generated code safely in the isolated sandbox",
+          "code": "response = sandbox.process.execute_command('python analyze.py')\nprint(response.result)"
+        },
+        {
+          "title": "Save State with Snapshot",
+          "desc": "Create environment snapshots for persistent agent workflows",
+          "code": "snapshot = sandbox.snapshot.create(name='checkpoint_1')\nsandbox.snapshot.restore(snapshot_id=snapshot.id)"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Agent Setup",
+          "text": "Configure a Daytona sandbox for an AI agent that needs to analyze files, write Python scripts, and execute commands in an isolated environment."
+        },
+        {
+          "label": "Workflow Automation",
+          "text": "Build a multi-step agent workflow using Daytona snapshots to checkpoint progress and resume tasks across multiple executions."
+        },
+        {
+          "label": "Developer Tools",
+          "text": "Integrate Daytona sandboxes into a developer tool that allows users to run untrusted code snippets safely without impacting their local machine."
+        }
+      ],
+      "pricing": {
+        "note": "Daytona uses usage-based pricing with $200 in free compute credits included. Billing is per-second for vCPU, memory, and storage consumption. Volume discounts and enterprise plans available for larger deployments.",
+        "plans": [
+          {
+            "name": "Free Tier",
+            "price": "$0",
+            "per": "forever",
+            "popular": false,
+            "color": "#00A3FF",
+            "features": [
+              "$200 free compute credits",
+              "5 GB free storage",
+              "Sub-90ms sandbox creation",
+              "Full SDK and API access"
+            ]
+          },
+          {
+            "name": "Pay-as-you-go",
+            "price": "$0.0504",
+            "per": "per vCPU-hour",
+            "popular": true,
+            "color": "#00A3FF",
+            "features": [
+              "Usage-based vCPU billing ($0.000014/second)",
+              "Memory billing at $0.0162/GiB-hour",
+              "Storage billing at $0.000108/GiB-hour",
+              "GPU options (NVIDIA H100, RTX PRO 6000) available",
+              "Multi-region deployment included"
+            ]
+          },
+          {
+            "name": "Enterprise",
+            "price": "Custom",
+            "per": "custom",
+            "popular": false,
+            "color": "#00A3FF",
+            "features": [
+              "Volume discounts for scale",
+              "Dedicated support and SLA",
+              "Custom limits and security review",
+              "Compliance-ready (HIPAA, SOC 2, GDPR)",
+              "Startup program: up to $50,000 credits"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.daytona.io"
     }
   ],
   "totw": {
     "name": "AnySearch",
     "tagline": "Real-time structured search trusted by agents and developers",
-    "votesCount": 797,
+    "votesCount": 882,
     "url": "https://www.producthunt.com/products/anysearch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/d7e5bffe-bacb-4118-a8e4-1bfbdf7c531e.x-icon?auto=format",
     "rank": 1,
@@ -19509,46 +19718,46 @@
       "Artificial Intelligence",
       "Search"
     ],
-    "fetchedAt": "2026-07-11T08:06:36.179Z"
+    "fetchedAt": "2026-07-12T08:27:46.013Z"
   },
   "lastWeeklyUpdate": "2026-07-09T10:15:58.637Z",
   "anthropicNews": [
     {
       "date": "Jul 9, 2026",
       "title": "Claude adds monthly recap and focus settings",
-      "summary": "New beta feature shows usage patterns, most active day, peak hour, and work insights for Free, Pro, and Max users.",
-      "url": "https://releasebot.io/updates/anthropic"
+      "summary": "<cite index=\"2-2,2-4\">New reflection dashboard showing usage topics and patterns, with break reminders and quiet hours available on web and desktop</cite>.",
+      "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Jul 6, 2026",
-      "title": "Claude Science launched for scientific research",
-      "summary": "New flagship product for computational biology and drug development available to all paid Claude subscribers.",
-      "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/"
+      "date": "Jul 7, 2026",
+      "title": "Claude Cowork expands to web and mobile",
+      "summary": "<cite index=\"12-10,12-12\">Sessions and files now sync across devices with remote storage capability, rolling out to Max users first</cite>.",
+      "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Jun 30, 2026",
-      "title": "Claude Sonnet 5 released with introductory pricing",
-      "summary": "New balanced model offers near-Opus quality for coding and agentic work at $2/$10 per million tokens through August 31.",
+      "date": "Jul 7, 2026",
+      "title": "Claude for Government launches in beta",
+      "summary": "<cite index=\"2-7,2-8\">Government AI offering with Anthropic as contracted party, no separate cloud relationship needed</cite>.",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Jul 1, 2026",
+      "title": "Claude Sonnet 5 becomes default model",
+      "summary": "<cite index=\"5-1,5-2\">New default for Free and Pro plans with agentic capabilities at lower costs through August 31</cite>.",
       "url": "https://www.anthropic.com/news/claude-sonnet-5"
     },
     {
       "date": "Jun 30, 2026",
-      "title": "Claude Fable 5 restored globally after export controls lifted",
-      "summary": "Most capable frontier model returns to all platforms with enhanced cybersecurity safeguards at $10/$50 per million tokens.",
-      "url": "https://www.anthropic.com/claude/fable"
+      "title": "Claude Fable 5 restored globally with safeguards",
+      "summary": "<cite index=\"14-8,14-9\">Export controls lifted; Fable 5 available on all platforms with 50% usage included through July 7</cite>.",
+      "url": "https://www.anthropic.com/news/redeploying-fable-5"
     },
     {
-      "date": "Jun 29, 2026",
-      "title": "California partnership grants state agencies 50% Claude discount",
-      "summary": "Anthropic partners with California government to provide discounted Claude access and free training to state agencies and local governments.",
-      "url": "https://www.gov.ca.gov/2026/06/29/governor-newsom-announces-a-first-of-its-kind-partnership-providing-anthropic-tools-to-state-agencies-and-improving-services-for-californians/"
-    },
-    {
-      "date": "Jul 1, 2026",
-      "title": "Claude Cowork expands to mobile and web with background work",
-      "summary": "Cowork now allows sessions and files to sync across devices with background tasks, scheduled features, and mobile approvals.",
-      "url": "https://releasebot.io/updates/anthropic"
+      "date": "Jun 30, 2026",
+      "title": "Claude Science launches for researchers",
+      "summary": "<cite index=\"11-4\">Customizable research workbench integrating tools, packages, and flexible compute access</cite>.",
+      "url": "https://www.anthropic.com/news"
     }
   ],
-  "lastChecked": "2026-07-11T08:06:51.700Z"
+  "lastChecked": "2026-07-12T08:29:17.477Z"
 }
