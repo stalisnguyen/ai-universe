@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-12T08:29:17.477Z",
+  "lastUpdated": "2026-07-13T09:42:21.230Z",
   "categories": [
     {
       "id": "llm",
@@ -19704,60 +19704,433 @@
         ]
       },
       "link": "https://www.daytona.io"
+    },
+    {
+      "id": "browseract",
+      "name": "BrowserAct",
+      "company": "BrowserAct",
+      "category": "agent",
+      "icon": "🌐",
+      "badge": "hot",
+      "color": "#0055CC",
+      "price": "freemium",
+      "priceLabel": "Free Trial / From $0 / Credit-Based Pricing",
+      "tags": [
+        "browser automation",
+        "AI agents",
+        "web scraping",
+        "no-code"
+      ],
+      "shortDesc": "Browser automation runtime for AI agents with session management and human handoff.",
+      "fullDesc": "BrowserAct is an AI-powered browser automation platform built specifically for autonomous agents to interact with real websites reliably. It handles complex browser tasks including authentication, CAPTCHA solving, session persistence, and dynamic content, enabling agents to navigate and complete work in unpredictable web environments. Designed for developers, teams, and businesses building production AI agents that need dependable web execution.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Browser Automation Runtime"
+        },
+        {
+          "label": "Released",
+          "value": "2026"
+        },
+        {
+          "label": "Best for",
+          "value": "AI agents needing reliable real-web execution with authentication and session management"
+        },
+        {
+          "label": "Pricing",
+          "value": "Credit-based model with free trial and flexible paid plans"
+        }
+      ],
+      "features": [
+        "Real Chrome browser sessions with stealth mode and fingerprint rotation for anti-bot evasion",
+        "Natural language commands to control browser actions without coding",
+        "Automatic CAPTCHA solving with 99%+ success rate built-in",
+        "Session persistence enabling agents to maintain login state across tasks",
+        "Human-in-the-loop handoff with remote assist links for verification steps",
+        "Multi-session isolation for running parallel agent tasks independently",
+        "Clean structured data extraction optimized for LLM consumption",
+        "Reusable skill framework via Skill Forge for packaging repeatable workflows"
+      ],
+      "demo": [
+        {
+          "title": "Install as CLI",
+          "desc": "Install the CLI tool to enable agent environments like Claude Code to control browsers"
+        },
+        {
+          "title": "Set Agent Instruction",
+          "desc": "Send natural language instruction to your agent to perform browser tasks"
+        },
+        {
+          "title": "Browser Automation Runs",
+          "desc": "Agent uses BrowserAct runtime to navigate websites, click, fill forms, and extract data"
+        },
+        {
+          "title": "Handle Verification",
+          "desc": "When authentication needed, BrowserAct generates remote handoff link for human to complete step"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Price Monitoring",
+          "text": "Go to [competitor site], log in with [credentials], extract current prices for [products], return JSON with product name and price"
+        },
+        {
+          "label": "Data Extraction",
+          "text": "Navigate to [URL], scroll through all listings, extract Title, Price, and Rating for each item, save to CSV"
+        },
+        {
+          "label": "Form Automation",
+          "text": "Visit [form URL], fill required fields with [data], handle any CAPTCHAs, submit form, confirm success"
+        },
+        {
+          "label": "Lead Generation",
+          "text": "Scrape all job listings from [job board], filter by [criteria], extract company name and contact info, output to spreadsheet"
+        }
+      ],
+      "pricing": {
+        "note": "BrowserAct uses a credit-based subscription model where credits are consumed per browser session, CAPTCHA solved, and workflow step executed. Users can try free with a 7-day trial.",
+        "plans": [
+          {
+            "name": "Free Trial",
+            "price": "Free",
+            "per": "7 days",
+            "popular": false,
+            "color": "#E8E8E8",
+            "features": [
+              "7-day trial credits",
+              "Basic browser automation",
+              "Community support"
+            ]
+          },
+          {
+            "name": "Pay-As-You-Go",
+            "price": "Variable",
+            "per": "per credit",
+            "popular": false,
+            "color": "#0055CC",
+            "features": [
+              "5 credits per workflow step",
+              "As low as $0.0032 per step",
+              "Flexible scaling",
+              "No minimum commitment"
+            ]
+          },
+          {
+            "name": "Monthly Subscription",
+            "price": "Custom",
+            "per": "per month",
+            "popular": true,
+            "color": "#0055CC",
+            "features": [
+              "Monthly credit allocation",
+              "Residential proxies included",
+              "Dedicated IP support",
+              "Priority support",
+              "API access"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.producthunt.com/products/browseract"
+    },
+    {
+      "id": "fundraisly",
+      "name": "Fundraisly",
+      "company": "Fundraisly",
+      "category": "agent",
+      "icon": "💰",
+      "badge": "new",
+      "color": "#5B21B6",
+      "price": "paid",
+      "priceLabel": "Custom pricing",
+      "tags": [
+        "investor matching",
+        "outreach automation",
+        "founder fundraising",
+        "meeting booking"
+      ],
+      "shortDesc": "AI agent that matches founders with relevant investors and automates investor outreach and meeting booking.",
+      "fullDesc": "Fundraisly is an AI-native fundraising system that identifies relevant investors from a database of 300K+ profiles, maps warm introduction paths through your network, and automates cold outreach campaigns. Built by founders who raised over $1B, it aims to help founders book 10-50 qualified investor meetings in 90 days by handling investor research, networking, and outreach automation.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "AI Fundraising Agent"
+        },
+        {
+          "label": "Released",
+          "value": "2024"
+        },
+        {
+          "label": "Best for",
+          "value": "Founders raising capital who want to automate investor research and outreach"
+        },
+        {
+          "label": "Pricing",
+          "value": "Custom (managed campaign model)"
+        }
+      ],
+      "features": [
+        "AI-powered investor matching from 300K+ profiles based on stage, market, geography, and deal activity",
+        "Automatic warm introduction path mapping through LinkedIn, Gmail, and Outlook connections",
+        "Automated cold outreach campaigns across 40,000+ VC funds and decision-makers",
+        "Direct calendar integration for automated meeting scheduling with qualified investors",
+        "60-70% open rates with targeted, relevant investor matching",
+        "Real-time investor database updates tracking active investment signals",
+        "Natural language processing that ranks investors by fit and deployment velocity",
+        "Network activation for connector introductions to target funds"
+      ],
+      "demo": [
+        {
+          "title": "Step 1: Connect Your Accounts",
+          "desc": "Authenticate your LinkedIn, Gmail/Outlook accounts for warm network mapping",
+          "code": ""
+        },
+        {
+          "title": "Step 2: Input Company Details",
+          "desc": "Provide stage, market, geography, check size, and deal profile for AI investor matching",
+          "code": ""
+        },
+        {
+          "title": "Step 3: AI Identifies Investors",
+          "desc": "System analyzes investor database and scores relevant funds by fit and activity signals",
+          "code": ""
+        },
+        {
+          "title": "Step 4: Launch Outreach",
+          "desc": "Warm intros requested from network and automated cold campaigns launched",
+          "code": ""
+        },
+        {
+          "title": "Step 5: Meetings Booked",
+          "desc": "Qualified investor calls scheduled directly to founder calendar within 90 days",
+          "code": ""
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Investor Research",
+          "text": "Find all active Series A investors in the AI infrastructure space currently writing checks"
+        },
+        {
+          "label": "Warm Introduction Mapping",
+          "text": "Map introduction paths to tier-1 VCs through my LinkedIn and portfolio company network"
+        },
+        {
+          "label": "Outreach Campaign",
+          "text": "Launch targeted outreach to relevant investors matching our stage and market with personalized messaging"
+        },
+        {
+          "label": "Meeting Analysis",
+          "text": "Identify which investors from our database are most likely to move quickly based on recent deal velocity"
+        }
+      ],
+      "pricing": {
+        "note": "Fundraisly uses a custom pricing model based on campaign scope and founder needs. Exact pricing not publicly disclosed but positioned as a premium, managed service for founders with meaningful fundraising budgets.",
+        "plans": [
+          {
+            "name": "Custom Campaign",
+            "price": "Custom",
+            "per": "campaign",
+            "popular": true,
+            "color": "#5B21B6",
+            "features": [
+              "Managed investor matching and outreach campaign",
+              "Access to 300K+ investor database",
+              "Warm introduction mapping through your network",
+              "Automated cold outreach execution",
+              "10-50 qualified meetings targeted in 90 days"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.producthunt.com/products/fundraisly"
+    },
+    {
+      "id": "upstream",
+      "name": "Upstream",
+      "company": "Upstream",
+      "category": "email",
+      "icon": "📧",
+      "badge": "new",
+      "color": "#6366f1",
+      "price": "freemium",
+      "priceLabel": "Free / From $20/mo",
+      "tags": [
+        "AI email",
+        "inbox management",
+        "agent-ready",
+        "collaboration"
+      ],
+      "shortDesc": "AI-native email inbox where agents sort, draft, and follow up for humans and teams.",
+      "fullDesc": "Upstream is a YC-backed AI email inbox built on Gmail that uses agents to sort noise, draft replies in your exact voice, and handle follow-ups automatically. Designed for founders, operators, and small teams who want email triage and drafting handled by AI agents, with support for external agents like Claude via MCP server.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "AI Email Client"
+        },
+        {
+          "label": "Released",
+          "value": "June 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Founders, operators, small teams, AI workflows"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free tier; Pro $20/mo or $24/mo yearly"
+        }
+      ],
+      "features": [
+        "AI drafts replies in your learned voice and tone from your past emails",
+        "Smart follow-ups that track open loops and resurface conversations with ready drafts",
+        "Agent actions to find receipts, schedule meetings, and retrieve information from threads",
+        "MCP server allowing external agents like Claude to use your inbox as a tool",
+        "Team features including shared channels, comments, and split inboxes",
+        "Apps for web, Mac, Windows, and iOS integrated with Gmail",
+        "AI-powered inbox organization and noise filtering",
+        "Agent-ready email surface for reading, writing, and acting on email context"
+      ],
+      "demo": [
+        {
+          "title": "Connect Gmail to Upstream",
+          "desc": "Sign up and authorize your Gmail account to get started with the free tier.",
+          "code": ""
+        },
+        {
+          "title": "Set Your Voice Profile",
+          "desc": "Upload sample emails or write instructions about your communication style for AI to learn your voice.",
+          "code": ""
+        },
+        {
+          "title": "Let AI Sort and Draft",
+          "desc": "Receive AI-drafted replies for incoming emails and let smart follow-ups resurface important conversations.",
+          "code": ""
+        },
+        {
+          "title": "Connect Your Agent",
+          "desc": "Use the MCP server to let external AI agents access your inbox for autonomous email actions.",
+          "code": ""
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Email drafting",
+          "text": "Draft a professional reply to this email in my typical voice and tone"
+        },
+        {
+          "label": "Follow-up detection",
+          "text": "Identify emails that need a follow-up and create a reminder with a draft"
+        },
+        {
+          "label": "Information retrieval",
+          "text": "Find all receipts from vendor X in my past emails and summarize"
+        },
+        {
+          "label": "Meeting scheduling",
+          "text": "Extract meeting request details and suggest 3 available time slots"
+        }
+      ],
+      "pricing": {
+        "note": "Upstream offers a free Core plan for individuals and small teams, with paid plans starting at $20/month per member for unlimited AI features. Billed monthly or annually with discounts for yearly commitment.",
+        "plans": [
+          {
+            "name": "Core",
+            "price": "Free",
+            "per": "forever",
+            "popular": false,
+            "color": "#e0e7ff",
+            "features": [
+              "Basic inbox organization",
+              "Limited AI drafts",
+              "No team features",
+              "Gmail integration only"
+            ]
+          },
+          {
+            "name": "Pro",
+            "price": "$20",
+            "per": "per month",
+            "popular": true,
+            "color": "#6366f1",
+            "features": [
+              "Unlimited AI drafts in your voice",
+              "Smart follow-ups",
+              "Team collaboration features",
+              "Shared channels and comments",
+              "Agent-ready MCP server access"
+            ]
+          },
+          {
+            "name": "Pro Annual",
+            "price": "$24",
+            "per": "per month",
+            "popular": false,
+            "color": "#818cf8",
+            "features": [
+              "All Pro features",
+              "Billed annually",
+              "$72/year savings vs monthly",
+              "Save 20% with yearly commitment"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.producthunt.com/products/upstream"
     }
   ],
   "totw": {
-    "name": "AnySearch",
-    "tagline": "Real-time structured search trusted by agents and developers",
-    "votesCount": 882,
-    "url": "https://www.producthunt.com/products/anysearch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
-    "thumbnail": "https://ph-files.imgix.net/d7e5bffe-bacb-4118-a8e4-1bfbdf7c531e.x-icon?auto=format",
+    "name": "Auriko ",
+    "tagline": "Trading desk for LLM calls",
+    "votesCount": 763,
+    "url": "https://www.producthunt.com/products/auriko?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
+    "thumbnail": "https://ph-files.imgix.net/38ee31cc-b90f-4e48-b1bf-1f7c4194672a.png?auto=format",
     "rank": 1,
     "topics": [
+      "API",
       "Developer Tools",
-      "Artificial Intelligence",
-      "Search"
+      "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-07-12T08:27:46.013Z"
+    "fetchedAt": "2026-07-13T09:40:55.901Z"
   },
   "lastWeeklyUpdate": "2026-07-09T10:15:58.637Z",
   "anthropicNews": [
     {
-      "date": "Jul 9, 2026",
-      "title": "Claude adds monthly recap and focus settings",
-      "summary": "<cite index=\"2-2,2-4\">New reflection dashboard showing usage topics and patterns, with break reminders and quiet hours available on web and desktop</cite>.",
+      "date": "Jul 11, 2026",
+      "title": "Claude Launches Monthly Recap & Focus Settings Beta",
+      "summary": "<cite index=\"3-6,3-7\">New reflection dashboard shows usage topics, active days, and work insights for Free, Pro, and Max users with Memory enabled</cite>",
       "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Jul 7, 2026",
-      "title": "Claude Cowork expands to web and mobile",
-      "summary": "<cite index=\"12-10,12-12\">Sessions and files now sync across devices with remote storage capability, rolling out to Max users first</cite>.",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "Jul 7, 2026",
-      "title": "Claude for Government launches in beta",
-      "summary": "<cite index=\"2-7,2-8\">Government AI offering with Anthropic as contracted party, no separate cloud relationship needed</cite>.",
+      "title": "Claude Cowork Moves to Cloud for Multi-Device Access",
+      "summary": "<cite index=\"9-4\">Cowork agent now accessible from multiple devices and can perform tasks offline with background processing</cite>",
       "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Jul 1, 2026",
-      "title": "Claude Sonnet 5 becomes default model",
-      "summary": "<cite index=\"5-1,5-2\">New default for Free and Pro plans with agentic capabilities at lower costs through August 31</cite>.",
-      "url": "https://www.anthropic.com/news/claude-sonnet-5"
-    },
-    {
-      "date": "Jun 30, 2026",
-      "title": "Claude Fable 5 restored globally with safeguards",
-      "summary": "<cite index=\"14-8,14-9\">Export controls lifted; Fable 5 available on all platforms with 50% usage included through July 7</cite>.",
+      "title": "Claude Fable 5 Access Restored After Export Control Lift",
+      "summary": "<cite index=\"4-8,4-9\">Fable 5 redeployed globally across Claude Platform and included for up to 50% of weekly usage through July 7</cite>",
       "url": "https://www.anthropic.com/news/redeploying-fable-5"
     },
     {
       "date": "Jun 30, 2026",
-      "title": "Claude Science launches for researchers",
-      "summary": "<cite index=\"11-4\">Customizable research workbench integrating tools, packages, and flexible compute access</cite>.",
+      "title": "Claude Sonnet 5 Released with Agentic Capabilities",
+      "summary": "<cite index=\"19-2\">Introductory pricing at $2 input/$10 output per million tokens through August 31, then $3/$15</cite>",
+      "url": "https://www.anthropic.com/news/claude-sonnet-5"
+    },
+    {
+      "date": "Jun 9, 2026",
+      "title": "Claude Fable 5 Launches as Mythos-Class Model",
+      "summary": "<cite index=\"13-1,13-2\">New Mythos-class tier above Opus announced alongside restricted Mythos 5 for cybersecurity work</cite>",
       "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "May 28, 2026",
+      "title": "Claude Opus 4.8 Released with Dynamic Workflows",
+      "summary": "<cite index=\"12-3,12-4\">Improved version of Opus 4.7 with better reasoning; includes Dynamic Workflows for parallel subagents</cite>",
+      "url": "https://www.anthropic.com/news/claude-opus-4-8"
     }
   ],
-  "lastChecked": "2026-07-12T08:29:17.477Z"
+  "lastChecked": "2026-07-13T09:42:21.231Z"
 }
