@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-13T09:42:21.230Z",
+  "lastUpdated": "2026-07-16T08:26:57.016Z",
   "categories": [
     {
       "id": "llm",
@@ -20077,12 +20077,242 @@
         ]
       },
       "link": "https://www.producthunt.com/products/upstream"
+    },
+    {
+      "id": "bond",
+      "name": "Bond",
+      "company": "Unknown",
+      "category": "agent",
+      "icon": "📋",
+      "badge": "hot",
+      "color": "#4A90E2",
+      "price": "freemium",
+      "priceLabel": "Free tier available, paid plans starting from $49/mo",
+      "tags": [
+        "AI chief of staff",
+        "task automation",
+        "executive productivity"
+      ],
+      "shortDesc": "AI Chief of Staff that automatically manages executive to-do lists and surfaces what matters most.",
+      "fullDesc": "Bond is an AI agent that connects to your tools (Slack, Gmail, Jira, Notion, etc.) and builds a unified view of your company's work. It automatically organizes your daily to-do list, tracks pending commitments, flags what's falling behind, and proactively surfaces your highest leverage moves. Designed for founders, executives, and chiefs of staff managing complex coordination across teams.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "AI Agent"
+        },
+        {
+          "label": "Released",
+          "value": "June 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Founders, executives, chiefs of staff, leadership teams"
+        },
+        {
+          "label": "Pricing",
+          "value": "Freemium with paid plans; Beta pricing locked for first year"
+        }
+      ],
+      "features": [
+        "<cite index=\"1-16,1-17\">Structures information from tools to understand who owns what, which project tickets belong to, and cross-references updates across tools against to-dos</cite>",
+        "<cite index=\"1-8\">Connects signals from Slack, Gmail, calendar, and PM tools with source citations for verification</cite>",
+        "<cite index=\"2-5\">Prepares meeting briefings, drafts follow-ups, sends emails, creates action items, identifies blockers, surfaces risks, and delegates tasks</cite>",
+        "<cite index=\"9-16,9-17\">Tracks pending replies and open threads to follow up on commitments automatically</cite>",
+        "<cite index=\"9-75,9-76,9-77\">Ranks tasks by importance, always putting the most important thing at the top</cite>",
+        "<cite index=\"1-6,1-7\">Provides isolated context layers for multiple workspaces with strict tenant boundaries</cite>",
+        "<cite index=\"9-12,9-13,9-14\">Uses zero data retention agreements with AI providers and maintains ISO 27001 controls</cite>"
+      ],
+      "demo": [
+        {
+          "title": "Connect your tools",
+          "desc": "<cite index=\"1-8\">Bond connects to Slack, Gmail, calendar, and PM tools to build unified intelligence</cite>",
+          "code": ""
+        },
+        {
+          "title": "Automatic daily briefing",
+          "desc": "<cite index=\"6-23,6-24\">Bond surfaces a daily updated to-do list each morning and flags items falling behind or needing decisions</cite>",
+          "code": ""
+        },
+        {
+          "title": "Ask Bond for action",
+          "desc": "<cite index=\"2-5\">Request Bond to prepare meeting briefings, draft follow-ups, identify blockers, or delegate tasks to team members</cite>",
+          "code": ""
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Meeting prep",
+          "text": "Prepare me for my next meeting with the latest context from my Slack and calendar"
+        },
+        {
+          "label": "Blocker identification",
+          "text": "What's falling behind in my projects and what's blocking progress?"
+        },
+        {
+          "label": "Delegation",
+          "text": "Identify items from my commitments that I can delegate and draft delegation messages"
+        },
+        {
+          "label": "Follow-up tracking",
+          "text": "What are all the open threads and pending replies I haven't responded to?"
+        }
+      ],
+      "pricing": {
+        "note": "<cite index=\"6-1\">Bond raised a $3M seed round with YC backing</cite>. Pricing is available with beta rates locked for first-year customers.",
+        "plans": [
+          {
+            "name": "Free",
+            "price": "$0",
+            "per": "forever",
+            "popular": false,
+            "color": "#E8E8E8",
+            "features": [
+              "Connect one workspace",
+              "Daily briefings and task prioritization",
+              "Basic integrations"
+            ]
+          },
+          {
+            "name": "Pro",
+            "price": "$49",
+            "per": "per month",
+            "popular": true,
+            "color": "#4A90E2",
+            "features": [
+              "Multiple workspace support with isolated contexts",
+              "Advanced delegation and workflow automation",
+              "Priority support",
+              "Extended integration library"
+            ]
+          }
+        ]
+      },
+      "link": "https://producthunt.com/products/bond-12"
+    },
+    {
+      "id": "tylsemi",
+      "name": "TYLsemi",
+      "company": "TYLsemi Inc.",
+      "category": "hardware",
+      "icon": "🔌",
+      "badge": "new",
+      "color": "#1a73e8",
+      "price": "paid",
+      "priceLabel": "Custom Enterprise Pricing",
+      "tags": [
+        "chiplet platform",
+        "AI silicon",
+        "custom accelerators"
+      ],
+      "shortDesc": "Production-ready chiplet platform for designing custom AI silicon with 50% cost reduction.",
+      "fullDesc": "TYLsemi is a chiplet-first platform company providing reusable, standards-based silicon building blocks for custom AI accelerator design. The platform combines pre-validated connectivity, power delivery, and memory chiplets with end-to-end design, packaging, and manufacturing services. It enables AI infrastructure teams to reduce development costs and timelines by up to 50% compared to traditional monolithic chip design approaches.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Chiplet Platform & Silicon Design Services"
+        },
+        {
+          "label": "Released",
+          "value": "July 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Hyperscalers, cloud providers, and AI companies building custom XPU accelerators"
+        },
+        {
+          "label": "Pricing",
+          "value": "Custom enterprise pricing; samples available 2027"
+        }
+      ],
+      "features": [
+        "TYL.IO: High-bandwidth connectivity chiplets supporting PCIe, ESUN, and UALink standards with co-packaged optics roadmap",
+        "TYL.Power: Intelligent in-package voltage regulation for optimized system-level power efficiency in AI accelerators",
+        "TYL.Mem: Advanced memory connectivity chiplets for next-generation AI platforms",
+        "TYL.Forge: End-to-end custom silicon design platform unifying chiplets, packaging, IP, and manufacturing",
+        "Standards-based UCIe die-to-die interconnect technology for modular multi-die system integration",
+        "Production-ready, pre-validated chiplets designed for direct system integration without proprietary lock-in",
+        "Full supply chain ownership from design through high-volume manufacturing with TSMC partnership",
+        "Up to 50% reduction in custom AI silicon development cost and time versus monolithic approaches"
+      ],
+      "demo": [
+        {
+          "title": "Chiplet-Based System Design",
+          "desc": "Design multi-die AI systems by assembling production-ready chiplets for connectivity, power, and memory",
+          "code": "TYL.IO + TYL.Power + Custom Compute Die = Integrated XPU System"
+        },
+        {
+          "title": "Custom Accelerator Development",
+          "desc": "Use TYL.Forge platform to implement customer-defined XPU, compute, and fabric designs with integrated manufacturing",
+          "code": "TYL.Forge enables architecture → design → packaging → production workflow"
+        },
+        {
+          "title": "Development Timeline Acceleration",
+          "desc": "Reduce development cycles by more than 50% using pre-validated standard building blocks instead of custom design",
+          "code": "Traditional monolithic: 4+ years → Chiplet-based: 2 years (per Meta example)"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Custom XPU Design",
+          "text": "Design a custom AI accelerator for inference workloads using TYLsemi's TYL.IO connectivity and TYL.Power chiplets integrated with our proprietary compute die"
+        },
+        {
+          "label": "Multi-Die Integration",
+          "text": "Build a rack-scale AI infrastructure fabric connecting multiple XPUs using TYL.IO chiplets with UCIe-based die-to-die connectivity"
+        },
+        {
+          "label": "Power Efficiency Optimization",
+          "text": "Optimize system-level power delivery for high-performance AI training systems by integrating TYL.Power intelligent voltage regulation"
+        }
+      ],
+      "pricing": {
+        "note": "TYLsemi operates on a custom enterprise pricing model. Product samples of TYL.IO and TYL.Power will be available to qualified customers in 2027 through TSMC partnership. TYL.Forge platform engagement begins with lead customers immediately.",
+        "plans": [
+          {
+            "name": "TYL.IO Chiplets",
+            "price": "Custom",
+            "per": "custom",
+            "popular": true,
+            "color": "#1a73e8",
+            "features": [
+              "High-bandwidth connectivity (PCIe, ESUN, UALink standards)",
+              "Production-ready samples 2027",
+              "Co-packaged optics roadmap"
+            ]
+          },
+          {
+            "name": "TYL.Power Chiplets",
+            "price": "Custom",
+            "per": "custom",
+            "popular": true,
+            "color": "#1a73e8",
+            "features": [
+              "Intelligent in-package voltage regulation",
+              "XPU power efficiency optimization",
+              "Production-ready samples 2027"
+            ]
+          },
+          {
+            "name": "TYL.Forge Platform",
+            "price": "Custom",
+            "per": "custom",
+            "popular": false,
+            "color": "#1a73e8",
+            "features": [
+              "End-to-end custom silicon design and implementation",
+              "Design, packaging, IP, foundry, and production services",
+              "Available now for lead customers"
+            ]
+          }
+        ]
+      },
+      "link": "https://tylsemi.com"
     }
   ],
   "totw": {
     "name": "ChatCut",
     "tagline": "Your AI video editor in ChatGPT, desktop, and web",
-    "votesCount": 757,
+    "votesCount": 773,
     "url": "https://www.producthunt.com/products/chatcut-ai-video-editor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/1d15a575-7af7-4a02-8a77-6ef871232720.png?auto=format",
     "rank": 1,
@@ -20091,46 +20321,46 @@
       "Artificial Intelligence",
       "Photo & Video"
     ],
-    "fetchedAt": "2026-07-15T08:26:56.970Z"
+    "fetchedAt": "2026-07-16T08:25:35.103Z"
   },
   "lastWeeklyUpdate": "2026-07-09T10:15:58.637Z",
   "anthropicNews": [
     {
-      "date": "Jun 30, 2026",
-      "title": "Claude Sonnet 5 released with agentic capabilities",
-      "summary": "<cite index=\"1-9\">Claude Sonnet 5 is the most capable Sonnet-tier model, bringing near-Opus intelligence to coding and agentic work at Sonnet cost</cite>.",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "Jun 30, 2026",
-      "title": "Claude Science launched for research automation",
-      "summary": "<cite index=\"8-30\">Claude Science aims to support scientists with an emphasis on cell and molecular biology and drug development</cite>.",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "Jun 9, 2026",
-      "title": "Claude Fable 5 and Mythos 5 models released",
-      "summary": "<cite index=\"1-6\">Claude Fable 5 is described by Anthropic as its most capable widely released model with state-of-the-art results on nearly all tested benchmarks</cite>.",
+      "date": "Jul 14, 2026",
+      "title": "Anthropic Launches Claude for Teachers",
+      "summary": "<cite index=\"3-4,3-5\">Free premium Claude access for verified US K-12 educators with teaching skills and AI fluency training</cite>",
       "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Jul 1, 2026",
-      "title": "US lifts export controls on Fable 5 and Mythos 5",
-      "summary": "<cite index=\"13-1\">Anthropic said it would begin restoring access to Claude Fable 5 and Mythos 5 after the US Department of Commerce removed its export controls</cite>.",
+      "title": "Fable 5 & Mythos 5 Export Controls Lifted",
+      "summary": "<cite index=\"2-8\">Claude Fable 5 globally available with enhanced cybersecurity safeguards after government restrictions lifted</cite>",
       "url": "https://www.anthropic.com/news/redeploying-fable-5"
     },
     {
-      "date": "Jul 7, 2026",
-      "title": "Claude Cowork expands to web and mobile platforms",
-      "summary": "<cite index=\"18-8\">Claude expands Cowork to web and mobile, bringing sessions and files across devices with one shared home for Chat and Cowork</cite>.",
+      "date": "Jun 30, 2026",
+      "title": "Claude Sonnet 5 Released",
+      "summary": "<cite index=\"10-11\">Most capable Sonnet model with near-Opus intelligence for coding and agentic work at Sonnet pricing</cite>",
       "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Jul 9, 2026",
-      "title": "Claude launches reflection dashboard in beta",
-      "summary": "<cite index=\"12-14\">Anthropic introduces a beta reflection dashboard for Claude that helps users track, visualize, and review their usage patterns and get insights to use AI more intentionally</cite>.",
+      "date": "Jun 30, 2026",
+      "title": "Claude Science AI Workbench Launches",
+      "summary": "<cite index=\"26-1,26-8\">Beta AI workbench for scientists with 60+ scientific databases and research workflow tools</cite>",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Jun 9, 2026",
+      "title": "Claude Fable 5 & Mythos 5 Models Announced",
+      "summary": "<cite index=\"2-17,2-18,2-19\">New Mythos-class models released; Fable 5 for general use with safeguards, Mythos 5 for trusted partners</cite>",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Jul 7, 2026",
+      "title": "Claude Cowork Available on Mobile and Web",
+      "summary": "<cite index=\"23-1,23-2\">Agentic AI assistant extended to mobile and web beyond desktop, now accessible for Max users</cite>",
       "url": "https://www.anthropic.com/news"
     }
   ],
-  "lastChecked": "2026-07-15T08:27:12.701Z"
+  "lastChecked": "2026-07-16T08:26:57.016Z"
 }
