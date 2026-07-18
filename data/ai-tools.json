@@ -20901,7 +20901,7 @@
   "totw": {
     "name": "ClawTeams",
     "tagline": "The first goal-driven, proactive AI team for e-commerce",
-    "votesCount": 827,
+    "votesCount": 867,
     "url": "https://www.producthunt.com/products/clawteams?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/8cf8434d-e4fd-48c3-8654-af7f9e5bc2d5.png?auto=format",
     "rank": 1,
@@ -20910,46 +20910,46 @@
       "Marketing",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-07-17T08:21:44.428Z"
+    "fetchedAt": "2026-07-18T08:03:29.906Z"
   },
   "lastWeeklyUpdate": "2026-07-17T08:47:14.987Z",
   "anthropicNews": [
     {
       "date": "Jul 14, 2026",
-      "title": "Claude for Teachers launches with free access for US K-12",
-      "summary": "Anthropic debuts free educational tool for verified US educators with curriculum aligned to all 50 state standards.",
+      "title": "Anthropic launches Claude for Teachers",
+      "summary": "Free Claude access for verified US K-12 educators with teaching skills and curriculum aligned to all 50 states.",
       "url": "https://www.edsurge.com/news/anthropic-introduces-claude-for-teachers"
     },
     {
-      "date": "Jul 6, 2026",
-      "title": "Interpretability research reveals Claude's emergent mental workspace",
-      "summary": "New research shows Claude holds internal thoughts that don't appear in its output.",
-      "url": "https://www.anthropic.com/research"
-    },
-    {
-      "date": "Jul 1, 2026",
-      "title": "Claude Fable 5 export controls lifted, access restored globally",
-      "summary": "<cite index=\"4-7,4-8\">Export controls on Fable 5 and Mythos 5 were lifted, with Fable 5 becoming available globally starting July 1</cite>.",
-      "url": "https://www.anthropic.com/news/redeploying-fable-5"
+      "date": "Jun 30, 2026",
+      "title": "Claude Sonnet 5 released with introductory pricing",
+      "summary": "<cite index=\"20-1\">Claude Sonnet 5 launched at $2 input/$10 output per million tokens through August 31 (standard $3/$15 after).</cite>",
+      "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Jun 30, 2026",
-      "title": "Claude Sonnet 5 released for cheaper agentic workflows",
-      "summary": "<cite index=\"22-1,22-2\">Claude Sonnet 5 priced at $2 per million input tokens and $10 per million output tokens through August 31</cite>.",
-      "url": "https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents"
+      "title": "Claude Science product launch for researchers",
+      "summary": "<cite index=\"8-1,8-2\">Anthropic announced Claude Science, a major product for scientific research with autonomous work capabilities and tools for computational biology and drug development.</cite>",
+      "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/"
+    },
+    {
+      "date": "Jun 29, 2026",
+      "title": "California partnership provides Claude to state agencies",
+      "summary": "<cite index=\"6-1,6-6\">Claude became available to all California state agencies with 50% discount and free workforce training.</cite>",
+      "url": "https://www.gov.ca.gov/2026/06/29/governor-newsom-announces-a-first-of-its-kind-partnership-providing-anthropic-tools-to-state-agencies-and-improving-services-for-californians/"
     },
     {
       "date": "Jun 30, 2026",
-      "title": "Claude Science launched for scientific research workflows",
-      "summary": "<cite index=\"26-16\">Anthropic introduced Claude Science, an AI workbench for computational research</cite>.",
-      "url": "https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists"
+      "title": "Fable 5 and Mythos 5 export controls lifted",
+      "summary": "<cite index=\"5-2,5-17\">US Department of Commerce lifted export controls on Claude Fable 5 and Mythos 5, restoring global access starting July 1, 2026.</cite>",
+      "url": "https://www.cnbc.com/2026/06/30/anthropic-says-trump-admin-has-lifted-export-controls-on-claude-fable-5-and-mythos-5.html"
     },
     {
-      "date": "Jun 9, 2026",
-      "title": "Claude Fable 5 released as next-gen Mythos-class model",
-      "summary": "<cite index=\"15-1\">Anthropic released Fable 5 to the public alongside Claude Mythos 5, a new generation of LLMs</cite>.",
-      "url": "https://www.angulararchitects.io/blog/ai-next-gen-model"
+      "date": "Jul 2, 2026",
+      "title": "Fable 5 cyber safeguards and jailbreak framework detailed",
+      "summary": "Anthropic published technical details on Fable 5 cybersecurity safeguards and jailbreak framework.",
+      "url": "https://www.anthropic.com/news"
     }
   ],
-  "lastChecked": "2026-07-17T08:50:18.159Z"
+  "lastChecked": "2026-07-18T08:03:44.887Z"
 }
