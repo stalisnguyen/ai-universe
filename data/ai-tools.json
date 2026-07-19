@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-16T08:26:57.016Z",
+  "lastUpdated": "2026-07-19T08:29:33.955Z",
   "categories": [
     {
       "id": "llm",
@@ -20896,12 +20896,147 @@
           "fullDesc": "TYLsemi是一家芯粒优先的平台公司，为定制AI加速器设计提供可重复使用、基于标准的硅构建模块。该平台结合了预先验证的互连、电源传输和存储芯粒，以及端到端的设计、封装和制造服务。与传统的单片芯片设计方法相比，它使AI基础设施团队能够将开发成本和时间表减少多达50%。"
         }
       }
+    },
+    {
+      "id": "higgsfield",
+      "name": "Higgsfield",
+      "company": "Higgsfield AI",
+      "category": "multimodal",
+      "icon": "🎬",
+      "badge": "hot",
+      "color": "#FF6B35",
+      "price": "freemium",
+      "priceLabel": "Free limited / From $15/mo",
+      "tags": [
+        "AI video",
+        "Cinema studio",
+        "Multi-model",
+        "Content creation"
+      ],
+      "shortDesc": "Multi-model AI video and image generator with professional cinematic controls and integrated editing suite.",
+      "fullDesc": "Higgsfield is a comprehensive AI video and image generation platform that aggregates 15+ frontier models including Sora 2, Kling 3.0, and Veo 3.1 under one unified interface. It combines text-to-video generation with advanced editing tools, character consistency (Soul ID), and cinematic controls through Cinema Studio. Designed for content creators, filmmakers, marketers, and social media producers who need professional-quality assets without managing multiple subscriptions.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Multi-model AI video and image generation platform"
+        },
+        {
+          "label": "Released",
+          "value": "2023"
+        },
+        {
+          "label": "Best for",
+          "value": "Cinematic video ads, social media content, UGC production, commercial filmmaking"
+        },
+        {
+          "label": "Pricing",
+          "value": "Credit-based subscription from $15-99/month, free tier with limited access"
+        }
+      ],
+      "features": [
+        "Multi-model aggregation: Access Sora 2, Kling 3.0, Veo 3.1, Seedance 2.0, and 10+ more models from one interface",
+        "Cinema Studio 3.5: Professional-grade camera controls including dolly, crane, orbit, and FPV drone presets with 1,296 virtual lens options",
+        "Soul ID: Maintain consistent character faces and voices across multiple video clips and scenes",
+        "Text-to-video and multimodal input: Transform prompts, images, videos, and audio into cinematic output",
+        "Integrated video editing: Edit, inpaint, relight, and assemble clips without exporting between tools",
+        "Marketing Studio and UGC Builder: Generate product ads from URLs with one-click video creation",
+        "Lipsync Studio and Face Swap Pro: Create talking heads and face swaps with professional-grade lip synchronization",
+        "Visual effects library: 20+ effects including explosions, morphing, and distortions for cinematic polish"
+      ],
+      "demo": [
+        {
+          "title": "Create text-to-video",
+          "desc": "Enter a descriptive prompt describing your desired scene, then select a video model from the dropdown menu",
+          "code": "Prompt: 'A futuristic cityscape at dusk with flying cars and neon lights, cinematic 4K'"
+        },
+        {
+          "title": "Generate product ads",
+          "desc": "Paste a product URL into Marketing Studio, choose a creative direction (UGC, CGI, cinematic), and let Higgsfield's reasoning engine create a ready-to-export ad",
+          "code": "Input: Product URL → Select preset (UGC style, CGI commercial, cinematic) → Export"
+        },
+        {
+          "title": "Apply camera movements",
+          "desc": "In Cinema Studio, choose from 70+ camera presets including Bullet Time, Crash Zoom, 360 Rotation, and Dolly movements with genre-specific settings",
+          "code": "Select camera preset → Adjust lens and focal length → Generate cinematic video"
+        },
+        {
+          "title": "Maintain character consistency",
+          "desc": "Create a Soul ID with a reference image, then reuse it across multiple video generations to keep the same character throughout your project",
+          "code": "Create Soul ID → Apply to multiple generations → Export consistent character sequence"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Social Media Content",
+          "text": "A vibrant coffee shop scene with warm golden lighting, barista crafting latte art, steam rising from cup, cinematic 4K, trending aesthetic"
+        },
+        {
+          "label": "Product Advertisement",
+          "text": "Premium wireless headphones on marble surface, showcasing design details, hand reaching to pick them up, soft product photography lighting, commercial quality"
+        },
+        {
+          "label": "Cinematic Short Film",
+          "text": "Drone pull-back revealing vast mountain valley at sunrise, mist rolling through pine forest, dramatic lighting with lens flare, epic wide establishing shot"
+        },
+        {
+          "label": "UGC Creator Content",
+          "text": "Person unboxing tech gadget with genuine reaction, natural lighting, casual home setting, hands-on product demonstration, authentic creator vibe"
+        }
+      ],
+      "pricing": {
+        "note": "Higgsfield uses a credit-based system where different models consume different credit amounts. Premium models like Sora 2 and Veo 3.1 cost 40-70 credits per generation, while budget options like Kling 3.0 cost around 6 credits. Annual billing offers discounts compared to monthly plans.",
+        "plans": [
+          {
+            "name": "Starter",
+            "price": "$15",
+            "per": "per month",
+            "popular": false,
+            "color": "#4A90E2",
+            "features": [
+              "200 monthly credits",
+              "Limited model access",
+              "Basic editing tools",
+              "2 concurrent video jobs",
+              "Suitable for testing and light usage"
+            ]
+          },
+          {
+            "name": "Plus",
+            "price": "$39",
+            "per": "per month",
+            "popular": true,
+            "color": "#FF6B35",
+            "features": [
+              "1,000 monthly credits",
+              "Access to premium models (Sora 2, Veo 3.1, Kling 3.0)",
+              "4 concurrent generations",
+              "Cinema Studio with camera controls",
+              "Soul ID character consistency"
+            ]
+          },
+          {
+            "name": "Ultra",
+            "price": "$99",
+            "per": "per month",
+            "popular": false,
+            "color": "#9B59B6",
+            "features": [
+              "3,000 monthly credits (up to 9,000 with packages)",
+              "One 365-day unlimited video model of choice",
+              "8 parallel generations for video and images",
+              "10,000 free Soul V2 generations",
+              "Lowest cost-per-credit (up to 60% discount)"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.higgsfield.ai"
     }
   ],
   "totw": {
     "name": "ClawTeams",
     "tagline": "The first goal-driven, proactive AI team for e-commerce",
-    "votesCount": 867,
+    "votesCount": 898,
     "url": "https://www.producthunt.com/products/clawteams?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/8cf8434d-e4fd-48c3-8654-af7f9e5bc2d5.png?auto=format",
     "rank": 1,
@@ -20910,46 +21045,46 @@
       "Marketing",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-07-18T08:03:29.906Z"
+    "fetchedAt": "2026-07-19T08:28:52.377Z"
   },
   "lastWeeklyUpdate": "2026-07-17T08:47:14.987Z",
   "anthropicNews": [
     {
       "date": "Jul 14, 2026",
-      "title": "Anthropic launches Claude for Teachers",
-      "summary": "Free Claude access for verified US K-12 educators with teaching skills and curriculum aligned to all 50 states.",
+      "title": "Claude for Teachers launches for US K-12 educators",
+      "summary": "Anthropic introduces Claude for Teachers, providing free access to verified US K-12 educators with curriculum standards mapped to all 50 states.",
       "url": "https://www.edsurge.com/news/anthropic-introduces-claude-for-teachers"
     },
     {
-      "date": "Jun 30, 2026",
-      "title": "Claude Sonnet 5 released with introductory pricing",
-      "summary": "<cite index=\"20-1\">Claude Sonnet 5 launched at $2 input/$10 output per million tokens through August 31 (standard $3/$15 after).</cite>",
+      "date": "Jul 7, 2026",
+      "title": "Claude Code and Cowork expand to government sector",
+      "summary": "Anthropic brings Claude Code and Claude Cowork to government agencies with FedRAMP security configuration and penetration testing documentation.",
       "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Jun 30, 2026",
-      "title": "Claude Science product launch for researchers",
-      "summary": "<cite index=\"8-1,8-2\">Anthropic announced Claude Science, a major product for scientific research with autonomous work capabilities and tools for computational biology and drug development.</cite>",
-      "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/"
-    },
-    {
-      "date": "Jun 29, 2026",
-      "title": "California partnership provides Claude to state agencies",
-      "summary": "<cite index=\"6-1,6-6\">Claude became available to all California state agencies with 50% discount and free workforce training.</cite>",
-      "url": "https://www.gov.ca.gov/2026/06/29/governor-newsom-announces-a-first-of-its-kind-partnership-providing-anthropic-tools-to-state-agencies-and-improving-services-for-californians/"
+      "date": "Jul 1, 2026",
+      "title": "Claude Fable 5 access restored after export control suspension",
+      "summary": "Anthropic redeploys Claude Fable 5 globally after US export control directive was lifted, restoring access across all platforms.",
+      "url": "https://www.anthropic.com/news/redeploying-fable-5"
     },
     {
       "date": "Jun 30, 2026",
-      "title": "Fable 5 and Mythos 5 export controls lifted",
-      "summary": "<cite index=\"5-2,5-17\">US Department of Commerce lifted export controls on Claude Fable 5 and Mythos 5, restoring global access starting July 1, 2026.</cite>",
-      "url": "https://www.cnbc.com/2026/06/30/anthropic-says-trump-admin-has-lifted-export-controls-on-claude-fable-5-and-mythos-5.html"
-    },
-    {
-      "date": "Jul 2, 2026",
-      "title": "Fable 5 cyber safeguards and jailbreak framework detailed",
-      "summary": "Anthropic published technical details on Fable 5 cybersecurity safeguards and jailbreak framework.",
+      "title": "Claude Sonnet 5 launches for agentic coding and reasoning",
+      "summary": "Anthropic releases Claude Sonnet 5 for lower-cost agent workflows, tool use, reasoning, and knowledge work across all platforms.",
       "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Jun 9, 2026",
+      "title": "Claude Fable 5 and Mythos 5 announced to public",
+      "summary": "Anthropic announces Claude Fable 5, the new frontier Mythos-class model for advanced coding, agentic tasks, and research workflows.",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "May 28, 2026",
+      "title": "Claude Opus 4.8 released with fast mode and dynamic workflows",
+      "summary": "Anthropic releases Claude Opus 4.8 with same pricing, dynamic workflows feature, fast mode at 3x lower cost, and effort control.",
+      "url": "https://www.anthropic.com/news/claude-opus-4-8"
     }
   ],
-  "lastChecked": "2026-07-18T08:03:44.887Z"
+  "lastChecked": "2026-07-19T08:29:33.955Z"
 }
