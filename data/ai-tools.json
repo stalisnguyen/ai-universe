@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-19T08:29:33.955Z",
+  "lastUpdated": "2026-07-20T09:30:23.474Z",
   "categories": [
     {
       "id": "llm",
@@ -21031,12 +21031,361 @@
         ]
       },
       "link": "https://www.higgsfield.ai"
+    },
+    {
+      "id": "claude-for-teachers",
+      "name": "Claude for Teachers",
+      "company": "Anthropic",
+      "category": "multimodal",
+      "icon": "👨‍🏫",
+      "badge": "new",
+      "color": "#9966FF",
+      "price": "free",
+      "priceLabel": "Free for Verified K-12 Teachers",
+      "tags": [
+        "lesson planning",
+        "education",
+        "standards-aligned",
+        "FERPA compliant"
+      ],
+      "shortDesc": "Free AI assistant for K-12 teachers with standards-aligned lesson planning and differentiation tools.",
+      "fullDesc": "<cite index=\"1-11\">Claude for Teachers provides verified K-12 educators in the US free access to premium Claude capabilities, a library of teaching skills, and a direct connection to evidence-based curricula, mapped to academic standards in all 50 states.</cite> <cite index=\"1-15,1-17\">It is designed to close the gap between educational best practices and what a teacher's week allows, supporting the craft behind great teaching and protecting what teachers value most—time with their students.</cite>",
+      "info": [
+        {
+          "label": "Type",
+          "value": "AI Assistant for Educators"
+        },
+        {
+          "label": "Released",
+          "value": "July 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "K-12 Teachers (US), Lesson Planning, Differentiated Instruction"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free for verified US K-12 educators through June 30, 2027"
+        }
+      ],
+      "features": [
+        "<cite index=\"1-18,1-19\">Connects to Learning Commons to access academic standards across all 50 states, scaffolding and aligning lesson plans to teaching standards.</cite>",
+        "<cite index=\"1-20\">Integrates trusted curricular resources like OpenSciEd and IM v.360 from Illustrative Mathematics.</cite>",
+        "<cite index=\"6-4\">Generates curriculum-aligned lesson plans and differentiated materials, ensuring educational accuracy upfront.</cite>",
+        "<cite index=\"6-26,6-27\">Creates differentiated instruction by altering support around tasks, including sentence starters and scaffolds for multilingual learners with accommodations for students with individualized needs.</cite>",
+        "<cite index=\"6-29,6-30,6-31\">Includes advanced AI tools Claude Code and Cowork for analyzing student data like attendance, assessments and attendance to identify patterns and identify struggling students.</cite>",
+        "<cite index=\"3-19\">Offers free access to Claude Pro features with terms written for K-12, where conversations are not used for training and student information is handled under FERPA-compliant data processing agreements.</cite>",
+        "<cite index=\"1-22,1-23\">Connects to ecosystem tools like ASSISTments for auto-scored math problems and Brisk Teaching for interactive lessons and standards-aligned materials.</cite>",
+        "<cite index=\"2-10\">Teachers can pull in student assessment data and assignment history to ask Claude to build personalized lesson plans.</cite>"
+      ],
+      "demo": [
+        {
+          "title": "Teacher Verification",
+          "desc": "Sign up with a verified school email address to gain access to Claude for Teachers.",
+          "code": "Verify K-12 educator status at claude.com/teachers"
+        },
+        {
+          "title": "Standards-Aligned Lesson Planning",
+          "desc": "Ask Claude to create a lesson plan aligned to specific academic standards from your state.",
+          "code": "Create a 5th grade lesson plan aligned to [State] standards for fractions, with differentiation for struggling learners"
+        },
+        {
+          "title": "Data Analysis",
+          "desc": "Upload student data files and ask Claude to identify patterns and suggest instructional adjustments.",
+          "code": "Analyze this class attendance and assessment data to identify which students need additional support in reading comprehension"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Lesson Planning",
+          "text": "Create a standards-aligned lesson plan for teaching photosynthesis to 7th grade students, including scaffolds for English language learners and extension activities for advanced students."
+        },
+        {
+          "label": "Assessment Creation",
+          "text": "Generate a formative assessment aligned to [State] grade 3 math standards for measuring student understanding of place value."
+        },
+        {
+          "label": "Differentiation",
+          "text": "I'm teaching fractions to my mixed-ability class. Create three versions of this lesson at different complexity levels with specific supports for each group."
+        },
+        {
+          "label": "Student Support",
+          "text": "Review this student's assessment responses and suggest targeted interventions to address their misconceptions about equivalent fractions."
+        }
+      ],
+      "pricing": {
+        "note": "<cite index=\"3-25,3-26\">Teachers can verify and access Claude for Teachers entirely for free, with sign-ups by June 30, 2027 providing a full year of free access.</cite> <cite index=\"1-3\">Claude for Teachers data is not used for model training purposes, and student information is protected by Anthropic's K-12 Data Processing Addendum, written to comply with FERPA.</cite>",
+        "plans": [
+          {
+            "name": "Claude for Teachers (Free)",
+            "price": "$0",
+            "per": "per year",
+            "popular": true,
+            "color": "#9966FF",
+            "features": [
+              "Free access to Claude Pro features",
+              "Standards-aligned lesson planning with Learning Commons",
+              "Teaching skills for differentiation and planning",
+              "FERPA-compliant data handling",
+              "Integration with curriculum resources (OpenSciEd, Illustrative Mathematics)"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.anthropic.com/claude-for-teachers"
+    },
+    {
+      "id": "canva-code-2-0",
+      "name": "Canva Code 2.0",
+      "company": "Canva",
+      "category": "code",
+      "icon": "💻",
+      "badge": "new",
+      "color": "#0ACE7B",
+      "price": "freemium",
+      "priceLabel": "Free / Freemium / From $180/year",
+      "tags": [
+        "vibe coding",
+        "no-code",
+        "interactive design",
+        "AI-powered"
+      ],
+      "shortDesc": "AI-powered no-code platform to build interactive websites, apps, and experiences from text prompts.",
+      "fullDesc": "Canva Code 2.0 is an AI-powered vibe coding platform that lets users create fully interactive websites, apps, and digital experiences without writing code. Simply describe what you want in natural language and the AI generates responsive, editable designs that work across all devices. Built with visual editing tools, HTML import support, and data collection capabilities for forms and analytics.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "No-code AI code generator"
+        },
+        {
+          "label": "Released",
+          "value": "July 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Creating interactive landing pages, dashboards, portfolios, calculators, forms, and web applications"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free (20 messages/day) and Paid (60+ messages/day)"
+        }
+      ],
+      "features": [
+        "Generate complete interactive websites and apps from conversational prompts without coding knowledge",
+        "Import and edit existing HTML files directly in the Canva drag-and-drop editor",
+        "Responsive design automatically adapts to desktop, tablet, and mobile screens",
+        "Collect form responses and data directly into connected Canva Sheets for analysis",
+        "Drag-and-drop visual editing to customize colors, fonts, images, and text elements",
+        "Publish directly to custom domains or free Canva-hosted URLs with SSO protection",
+        "50+ pre-built templates to jumpstart interactive design projects",
+        "Integrate Code elements into presentations, whiteboards, and other Canva designs"
+      ],
+      "demo": [
+        {
+          "title": "Create an Interactive Landing Page",
+          "desc": "Describe the landing page you want to build in the Canva AI Code tab",
+          "code": "Design an interactive pricing page with a toggle between monthly and annual billing, including a calculator that updates the price"
+        },
+        {
+          "title": "Customize Your Creation",
+          "desc": "Use the Canva editor to adjust colors, text, fonts, and images by dragging and dropping from the library",
+          "code": "Change the button color to red, update the heading text to 'My Business Name', and swap in your custom logo"
+        },
+        {
+          "title": "Collect Data with Forms",
+          "desc": "Add form elements that automatically save responses to a connected Canva Sheet for tracking and analysis",
+          "code": "Create a contact form with name, email, and message fields that stores submissions in a Canva Sheet"
+        },
+        {
+          "title": "Publish Your Interactive Experience",
+          "desc": "Publish directly to a custom domain or free Canva URL with optional password protection and privacy settings",
+          "code": "Publish the site as my-business.canva.app with Google indexing enabled and no password protection"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Landing Pages",
+          "text": "Design an interactive product launch landing page with a hero section, feature showcase, testimonials, and an email signup form that captures leads"
+        },
+        {
+          "label": "Business Tools",
+          "text": "Create a cost breakdown calculator for my consulting services that lets customers select services, see the total price update in real-time, and generate a quote"
+        },
+        {
+          "label": "Educational Content",
+          "text": "Build an interactive quiz about US geography with 10 questions, scoring system, and results page that shows the user's performance and learning areas"
+        },
+        {
+          "label": "Personal Projects",
+          "text": "Design an interactive birthday invitation with animated confetti, an RSVP form, and a countdown timer to the party date"
+        },
+        {
+          "label": "Data Collection",
+          "text": "Create a feedback survey form with multiple question types, conditional logic, and automatic export to a Canva Sheet for team review"
+        }
+      ],
+      "pricing": {
+        "note": "Canva Code 2.0 is available to all Canva users across free, pro, business, enterprise, and education plans. Pricing is based on daily message limits for prompting rather than separate subscription tiers.",
+        "plans": [
+          {
+            "name": "Free",
+            "price": "$0",
+            "per": "forever",
+            "popular": false,
+            "color": "#E4E6EB",
+            "features": [
+              "20 messages per day for code generation",
+              "Access to Code templates and basic editing",
+              "Responsive design for all devices",
+              "Limited HTML import support"
+            ]
+          },
+          {
+            "name": "Canva Pro",
+            "price": "$180",
+            "per": "per year",
+            "popular": true,
+            "color": "#0ACE7B",
+            "features": [
+              "60+ messages per day for code generation",
+              "Full visual editing and customization",
+              "HTML import and editing capabilities",
+              "Canva Sheets data collection integration",
+              "Custom domain publishing"
+            ]
+          },
+          {
+            "name": "Canva Teams/Enterprise",
+            "price": "Custom",
+            "per": "contact sales",
+            "popular": false,
+            "color": "#003A70",
+            "features": [
+              "Higher message limits and AI capacity",
+              "Team collaboration and permissions",
+              "Advanced privacy and security controls",
+              "Dedicated support and onboarding",
+              "Organizational brand kit sync"
+            ]
+          }
+        ]
+      },
+      "link": "https://canva.com"
+    },
+    {
+      "id": "etched-ai",
+      "name": "Etched AI",
+      "company": "Etched",
+      "category": "infrastructure",
+      "icon": "🔌",
+      "badge": "hot",
+      "color": "#1a1a1a",
+      "price": "paid",
+      "priceLabel": "Enterprise pricing (custom)",
+      "tags": [
+        "AI chips",
+        "inference acceleration",
+        "transformer ASIC",
+        "enterprise"
+      ],
+      "shortDesc": "Specialized transformer-focused AI chip delivering extreme inference performance with $1B+ in customer contracts.",
+      "fullDesc": "<cite index=\"1-1\">Etched develops frontier inference clusters by co-designing microchips, rack architectures, and system software to handle prefill and decode execution for large-scale computing tasks.</cite> <cite index=\"3-4\">The systems, called \"frontier inference clusters,\" include the chips along with custom-designed racks and software, all built to help frontier models run inference faster, more cheaply, and with better power efficiency than rivals.</cite> Purpose-built for organizations running high-volume transformer inference at scale.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "AI Inference Hardware (Transformer ASIC)"
+        },
+        {
+          "label": "Released",
+          "value": "June 2024 (public launch), 2026 (production racks)"
+        },
+        {
+          "label": "Best for",
+          "value": "Large-scale transformer inference at hyperscaler and enterprise scale"
+        },
+        {
+          "label": "Pricing",
+          "value": "$1B+ in signed customer contracts; enterprise-only licensing"
+        }
+      ],
+      "features": [
+        "<cite index=\"11-8\">Sohu is fabricated on TSMC's 4-nanometre process node and hard-wires the matrix multiplication patterns specific to transformer inference.</cite>",
+        "<cite index=\"2-5\">HBM/SRAM hybrid design solves both memory capacity and mem2mem latency, enabling high throughput and interactivity simultaneously.</cite>",
+        "<cite index=\"13-17\">Low Voltage Inference runs the chip's math blocks at below-half the voltage of conventional AI chips to maximize FLOP density without thermal throttling.</cite>",
+        "<cite index=\"14-10\">Sohu hardcodes the core algorithms of Transformer attention directly into physical silicon circuits.</cite>",
+        "<cite index=\"22-14\">Sohu includes 144 GB of HBM3 memory per chip, enabling it to manage massive transformer models effectively.</cite>",
+        "<cite index=\"23-13\">Achieve > 500,000 tokens/sec for Llama 70B throughput with 8xSohu.</cite>",
+        "<cite index=\"25-9\">An eight-chip Sohu server can generate more than 500,000 tokens per second on Llama-70B, versus roughly 23,000 tokens per second for an eight-GPU Nvidia H100 system.</cite>",
+        "<cite index=\"21-17\">Etched's first racks ship this summer, and they've kicked off production to fulfill over $1B in customer contracts.</cite>"
+      ],
+      "demo": [
+        {
+          "title": "Transformer Inference at Scale",
+          "desc": "Deploy Llama 70B with 8 Sohu chips achieving over 500,000 tokens/sec vs 23,000 tokens/sec on H100 clusters",
+          "code": "# Etched Sohu requires custom compiler\n# Example: Deploying Llama 70B inference\netched-compile --model llama-70b --target sohu8"
+        },
+        {
+          "title": "Real-time Voice Agents",
+          "desc": "Process thousands of words per millisecond for low-latency voice applications",
+          "code": "# Voice processing pipeline\nvoice_input -> sohu_inference -> < 50ms latency response"
+        },
+        {
+          "title": "Speculative Decoding",
+          "desc": "Compare hundreds of response variants in parallel for improved generation quality",
+          "code": "sohu_speculative_decode(model, prompt, num_candidates=256)"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Inference Optimization",
+          "text": "Deploy transformer models to achieve maximum throughput per dollar on production workloads using Sohu's fixed-function transformer architecture."
+        },
+        {
+          "label": "Enterprise Scaling",
+          "text": "Reduce inference infrastructure costs by up to 90% by replacing GPU clusters with specialized transformer ASICs."
+        },
+        {
+          "label": "Real-time AI Services",
+          "text": "Build voice agents and interactive AI systems requiring sub-100ms latency at hyperscale request volumes."
+        }
+      ],
+      "pricing": {
+        "note": "<cite index=\"3-2,3-3\">Etched has already booked $1 billion in contract orders for its product: full systems powered by those chips. Etched is currently in the process of testing that first product with customers.</cite> Enterprise-only licensing with custom pricing based on volume and configuration.",
+        "plans": [
+          {
+            "name": "Frontier Inference Cluster (FIC)",
+            "price": "Custom enterprise pricing",
+            "per": "per system",
+            "popular": true,
+            "color": "#1a1a1a",
+            "features": [
+              "Custom Sohu ASIC chips (1-8+ per rack)",
+              "Integrated rack architecture with proprietary interconnect",
+              "Complete hardware-software co-design optimization",
+              "$1B+ in signed customer contracts for delivery"
+            ]
+          },
+          {
+            "name": "Support & Services",
+            "price": "Included in FIC contract",
+            "per": "per system",
+            "popular": false,
+            "color": "#333333",
+            "features": [
+              "On-site deployment engineering",
+              "Custom compiler optimization",
+              "24/7 production support infrastructure"
+            ]
+          }
+        ]
+      },
+      "link": "https://etched.com"
     }
   ],
   "totw": {
     "name": "ClawTeams",
     "tagline": "The first goal-driven, proactive AI team for e-commerce",
-    "votesCount": 898,
+    "votesCount": 970,
     "url": "https://www.producthunt.com/products/clawteams?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/8cf8434d-e4fd-48c3-8654-af7f9e5bc2d5.png?auto=format",
     "rank": 1,
@@ -21045,46 +21394,46 @@
       "Marketing",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-07-19T08:28:52.377Z"
+    "fetchedAt": "2026-07-20T09:29:02.021Z"
   },
   "lastWeeklyUpdate": "2026-07-17T08:47:14.987Z",
   "anthropicNews": [
     {
       "date": "Jul 14, 2026",
-      "title": "Claude for Teachers launches for US K-12 educators",
-      "summary": "Anthropic introduces Claude for Teachers, providing free access to verified US K-12 educators with curriculum standards mapped to all 50 states.",
-      "url": "https://www.edsurge.com/news/anthropic-introduces-claude-for-teachers"
+      "title": "Claude for Teachers launches free for US K-12 educators",
+      "summary": "<cite index=\"27-2,27-3\">Anthropic launches Claude for Teachers, an AI assistant specifically geared to teachers, free for verified K-12 teachers.</cite>",
+      "url": "https://www.chalkbeat.org/2026/07/14/anthropic-launches-claude-for-teachers-as-ai-companies-battle-for-classrooms/"
     },
     {
-      "date": "Jul 7, 2026",
-      "title": "Claude Code and Cowork expand to government sector",
-      "summary": "Anthropic brings Claude Code and Claude Cowork to government agencies with FedRAMP security configuration and penetration testing documentation.",
-      "url": "https://www.anthropic.com/news"
+      "date": "Jul 6, 2026",
+      "title": "Claude Code adds stability, safety, and collaboration updates",
+      "summary": "<cite index=\"2-9,2-10\">Claude Code releases broad stability and safety update with tighter permission checks, safer Bash handling, improved cleanup, stronger telemetry, and adds EndConversation tool for long-running tasks.</cite>",
+      "url": "https://releasebot.io/updates/anthropic"
     },
     {
       "date": "Jul 1, 2026",
-      "title": "Claude Fable 5 access restored after export control suspension",
-      "summary": "Anthropic redeploys Claude Fable 5 globally after US export control directive was lifted, restoring access across all platforms.",
+      "title": "Claude Fable 5 redeployed globally after export control lift",
+      "summary": "<cite index=\"4-7,4-8\">Export controls on Fable 5 and Mythos 5 have been lifted. Fable 5 available starting July 1 to users globally on Claude Platform, Claude.ai, Claude Code, and Claude Cowork.</cite>",
       "url": "https://www.anthropic.com/news/redeploying-fable-5"
     },
     {
       "date": "Jun 30, 2026",
-      "title": "Claude Sonnet 5 launches for agentic coding and reasoning",
-      "summary": "Anthropic releases Claude Sonnet 5 for lower-cost agent workflows, tool use, reasoning, and knowledge work across all platforms.",
-      "url": "https://www.anthropic.com/news"
+      "title": "Claude Sonnet 5 released as cheaper agentic model",
+      "summary": "<cite index=\"6-1\">Anthropic released Claude Sonnet 5 on June 30, 2026, replacing Sonnet 4.6 as default for Free and Pro plans.</cite>",
+      "url": "https://claudelog.com/claude-news/"
     },
     {
-      "date": "Jun 9, 2026",
-      "title": "Claude Fable 5 and Mythos 5 announced to public",
-      "summary": "Anthropic announces Claude Fable 5, the new frontier Mythos-class model for advanced coding, agentic tasks, and research workflows.",
-      "url": "https://www.anthropic.com/news"
+      "date": "Jun 30, 2026",
+      "title": "Claude Science launched for scientific research",
+      "summary": "<cite index=\"21-1,21-2\">Anthropic announced Claude Science, major product for scientific research support similar to Claude Code for software engineering.</cite>",
+      "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/"
     },
     {
       "date": "May 28, 2026",
-      "title": "Claude Opus 4.8 released with fast mode and dynamic workflows",
-      "summary": "Anthropic releases Claude Opus 4.8 with same pricing, dynamic workflows feature, fast mode at 3x lower cost, and effort control.",
+      "title": "Claude Opus 4.8 released with improved coding and agentic work",
+      "summary": "<cite index=\"17-1,17-2,17-3\">Anthropic upgraded Claude Opus to version 4.8 with improvements across benchmarks, available today for same price.</cite>",
       "url": "https://www.anthropic.com/news/claude-opus-4-8"
     }
   ],
-  "lastChecked": "2026-07-19T08:29:33.955Z"
+  "lastChecked": "2026-07-20T09:30:23.474Z"
 }
