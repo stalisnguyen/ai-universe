@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20T09:30:23.474Z",
+  "lastUpdated": "2026-07-21T08:41:48.707Z",
   "categories": [
     {
       "id": "llm",
@@ -21380,60 +21380,255 @@
         ]
       },
       "link": "https://etched.com"
+    },
+    {
+      "id": "zml-llmd",
+      "name": "ZML/LLMD",
+      "company": "ZML",
+      "category": "infrastructure",
+      "icon": "⚡",
+      "badge": "hot",
+      "color": "#000000",
+      "price": "free",
+      "priceLabel": "Free & Open Source",
+      "tags": [
+        "inference",
+        "llm-serving",
+        "multi-chip",
+        "open-source"
+      ],
+      "shortDesc": "Free LLM inference server running across NVIDIA, AMD, TPU, Intel, and Apple chips.",
+      "fullDesc": "ZML/LLMD is a free, open-source LLM inference server that enables large language models to run at peak performance across diverse hardware platforms including NVIDIA, AMD, Google TPU, Apple Metal, and Intel Arc. Designed to break vendor lock-in and reduce inference costs, it supports modern serving features like continuous batching, paged attention, tensor parallelism, and prefix caching across all platforms.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "LLM Inference Server"
+        },
+        {
+          "label": "Released",
+          "value": "July 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Cost-optimized multi-chip AI inference and deployment"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free and open-source"
+        }
+      ],
+      "features": [
+        "Multi-platform support: NVIDIA CUDA, AMD ROCm, Google TPU, Intel oneAPI, and Apple Metal",
+        "Continuous batching and paged attention for efficient inference throughput",
+        "Tensor-parallel sharding and prefix caching for optimized performance",
+        "OpenAI-compatible API for easy integration into existing workflows",
+        "Zero-copy model loading from HuggingFace, S3, and GCS",
+        "Prometheus metrics for monitoring and observability",
+        "Fast cold start times with explicit ahead-of-time compilation",
+        "Support for popular models including Llama, Qwen, Gemma, and Mistral"
+      ],
+      "demo": [
+        {
+          "title": "Run LLMD with OneAPI Backend",
+          "desc": "Launch ZML/LLMD inference server using Intel oneAPI with Qwen model",
+          "code": "docker run -p 8000:8000 --device=/dev/dri -e HF_TOKEN -it zmlai/llmd:oneapi --model=hf://Qwen/Qwen3.6-27B"
+        },
+        {
+          "title": "Query the OpenAI-Compatible API",
+          "desc": "Send inference requests to the running LLMD server using standard OpenAI API format",
+          "code": "curl http://localhost:8000/v1/chat/completions -X POST -H 'Content-Type: application/json' -d '{\"model\": \"qwen\", \"messages\": [{\"role\": \"user\", \"content\": \"Hello\"}]}'"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Model Loading",
+          "text": "Load a Qwen 27B model from HuggingFace with HF_TOKEN authentication"
+        },
+        {
+          "label": "Performance Testing",
+          "text": "Benchmark LLMD inference latency and throughput on AMD ROCm backend"
+        },
+        {
+          "label": "Cost Optimization",
+          "text": "Evaluate model serving costs across NVIDIA A100, AMD MI300, and Intel Gaudi accelerators"
+        }
+      ],
+      "pricing": {
+        "note": "ZML/LLMD is released as free, open-source software. ZML was founded on a mission to democratize AI inference and break vendor lock-in, with the company backed by $20 million in funding from prominent investors.",
+        "plans": [
+          {
+            "name": "Community Edition",
+            "price": "Free",
+            "per": "forever",
+            "popular": true,
+            "color": "#000000",
+            "features": [
+              "Full multi-platform inference support",
+              "OpenAI-compatible API",
+              "All modern serving features included",
+              "Open-source codebase"
+            ]
+          }
+        ]
+      },
+      "link": "https://zml.ai/posts/llmd/"
+    },
+    {
+      "id": "airjelly",
+      "name": "AirJelly",
+      "company": "AirJelly",
+      "category": "agent",
+      "icon": "🪼",
+      "badge": "new",
+      "color": "#1e40af",
+      "price": "free",
+      "priceLabel": "Free (Beta)",
+      "tags": [
+        "AI Agent",
+        "Task Management",
+        "Privacy-First",
+        "Desktop"
+      ],
+      "shortDesc": "Proactive AI agent that watches your workflow, captures tasks, and acts before you ask.",
+      "fullDesc": "AirJelly is an always-on desktop AI agent that observes your on-screen activities across apps, conversations, and documents to automatically capture tasks, create reminders, and surface insights. Designed for knowledge workers, founders, and researchers who work faster than they can document, it runs entirely locally on macOS with zero data upload, ensuring complete privacy.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Desktop AI Agent"
+        },
+        {
+          "label": "Released",
+          "value": "April 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Professionals juggling multiple projects and missing follow-ups"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free download (early access, paid plans coming)"
+        }
+      ],
+      "features": [
+        "Continuous on-screen observation using Enter-key intent capture across Slack, Zoom, Docs, Calendar, and other apps",
+        "Dual-layer memory system with Entities (static info) and Tasks (dynamic info) for persistent context",
+        "Automatic task extraction from conversations, meetings, and messages with context and due dates",
+        "Daily report summarizing work accomplished, pending items, and upcoming priorities",
+        "Searchable timeline of all observed activities across apps for instant recall",
+        "Proactive triggering with task recommendations and meeting briefs before you ask",
+        "100% local processing with no data upload—all information stored privately on your Mac",
+        "Vector search, keyword search, and time-decay weighting for intelligent information retrieval"
+      ],
+      "demo": [
+        {
+          "title": "Automatic Task Capture",
+          "desc": "AirJelly observes when you mention a task in Slack or email and automatically extracts it with context, assignee, and due date without manual entry."
+        },
+        {
+          "title": "Daily Report Generation",
+          "desc": "At end of day, receive a summary of what happened, what's pending, and what's next based on everything AirJelly observed across your apps."
+        },
+        {
+          "title": "Meeting Brief Preparation",
+          "desc": "Before a scheduled meeting, AirJelly prepares a brief with relevant background, recent work, and talking points pulled from your open tabs and documents."
+        },
+        {
+          "title": "Follow-up Reminders",
+          "desc": "AirJelly tracks promises and commitments made in conversations and surfaces reminders before deadlines are missed."
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Task Extraction",
+          "text": "Extract all tasks and action items from my Slack conversations today with due dates and assignees."
+        },
+        {
+          "label": "Context Recall",
+          "text": "Show me everything I've worked on related to Project X in the past week, including messages, documents, and tasks."
+        },
+        {
+          "label": "Meeting Preparation",
+          "text": "Prepare a brief for my 2pm meeting with context about recent work, relevant documents, and key points."
+        },
+        {
+          "label": "Productivity Summary",
+          "text": "What did I accomplish today and what am I missing follow-ups on?"
+        }
+      ],
+      "pricing": {
+        "note": "AirJelly is currently free to download on macOS as an early-access product. The creator has indicated paid plans are coming in the future, but no pricing structure or timeline has been announced.",
+        "plans": [
+          {
+            "name": "Free (Beta)",
+            "price": "Free",
+            "per": "forever",
+            "popular": true,
+            "color": "#1e40af",
+            "features": [
+              "Unlimited on-screen activity observation on macOS",
+              "Automatic task capture and daily reports",
+              "Searchable timeline of work history",
+              "Local-only processing with zero data upload",
+              "Dual-layer memory system (Entities + Tasks)"
+            ]
+          }
+        ]
+      },
+      "link": "https://airjelly.ai/"
     }
   ],
   "totw": {
-    "name": "ClawTeams",
-    "tagline": "The first goal-driven, proactive AI team for e-commerce",
-    "votesCount": 970,
-    "url": "https://www.producthunt.com/products/clawteams?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
-    "thumbnail": "https://ph-files.imgix.net/8cf8434d-e4fd-48c3-8654-af7f9e5bc2d5.png?auto=format",
+    "name": "V2Fun",
+    "tagline": "Generate 3D character with 8K textures and AI motion capture",
+    "votesCount": 781,
+    "url": "https://www.producthunt.com/products/v2fun?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
+    "thumbnail": "https://ph-files.imgix.net/1ae953dd-1691-4d3d-8eed-f970b24c8131.png?auto=format",
     "rank": 1,
     "topics": [
-      "Productivity",
-      "Marketing",
-      "Artificial Intelligence"
+      "Artificial Intelligence",
+      "3D Modeling",
+      "Animation"
     ],
-    "fetchedAt": "2026-07-20T09:29:02.021Z"
+    "fetchedAt": "2026-07-21T08:39:35.996Z"
   },
   "lastWeeklyUpdate": "2026-07-17T08:47:14.987Z",
   "anthropicNews": [
     {
-      "date": "Jul 14, 2026",
-      "title": "Claude for Teachers launches free for US K-12 educators",
-      "summary": "<cite index=\"27-2,27-3\">Anthropic launches Claude for Teachers, an AI assistant specifically geared to teachers, free for verified K-12 teachers.</cite>",
-      "url": "https://www.chalkbeat.org/2026/07/14/anthropic-launches-claude-for-teachers-as-ai-companies-battle-for-classrooms/"
-    },
-    {
-      "date": "Jul 6, 2026",
-      "title": "Claude Code adds stability, safety, and collaboration updates",
-      "summary": "<cite index=\"2-9,2-10\">Claude Code releases broad stability and safety update with tighter permission checks, safer Bash handling, improved cleanup, stronger telemetry, and adds EndConversation tool for long-running tasks.</cite>",
-      "url": "https://releasebot.io/updates/anthropic"
-    },
-    {
       "date": "Jul 1, 2026",
-      "title": "Claude Fable 5 redeployed globally after export control lift",
-      "summary": "<cite index=\"4-7,4-8\">Export controls on Fable 5 and Mythos 5 have been lifted. Fable 5 available starting July 1 to users globally on Claude Platform, Claude.ai, Claude Code, and Claude Cowork.</cite>",
+      "title": "Claude Fable 5 redeployed globally with enhanced safeguards",
+      "summary": "Export controls lifted; Fable 5 restored across Claude Platform, claude.ai, Claude Code, and Cowork.",
       "url": "https://www.anthropic.com/news/redeploying-fable-5"
     },
     {
       "date": "Jun 30, 2026",
-      "title": "Claude Sonnet 5 released as cheaper agentic model",
-      "summary": "<cite index=\"6-1\">Anthropic released Claude Sonnet 5 on June 30, 2026, replacing Sonnet 4.6 as default for Free and Pro plans.</cite>",
-      "url": "https://claudelog.com/claude-news/"
+      "title": "Claude Sonnet 5 released for agentic workflows",
+      "summary": "<cite index=\"14-1,14-2\">Claude Sonnet 5 introduced for agentic coding, tool use, reasoning, knowledge work, and lower-cost agent workflows, released June 30, 2026.</cite>",
+      "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Jun 30, 2026",
-      "title": "Claude Science launched for scientific research",
-      "summary": "<cite index=\"21-1,21-2\">Anthropic announced Claude Science, major product for scientific research support similar to Claude Code for software engineering.</cite>",
-      "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/"
+      "title": "Claude Science launched for pharma and research",
+      "summary": "<cite index=\"8-17\">Claude Science announced, optimizing Claude for use in scientific laboratories and research operations of pharmaceutical companies.</cite>",
+      "url": "https://www.statnews.com/2026/06/30/anthropic-release-claude-science-ceo-dario-amodei/"
     },
     {
-      "date": "May 28, 2026",
-      "title": "Claude Opus 4.8 released with improved coding and agentic work",
-      "summary": "<cite index=\"17-1,17-2,17-3\">Anthropic upgraded Claude Opus to version 4.8 with improvements across benchmarks, available today for same price.</cite>",
-      "url": "https://www.anthropic.com/news/claude-opus-4-8"
+      "date": "Jul 19, 2026",
+      "title": "Claude for Teachers free program launches",
+      "summary": "<cite index=\"1-18\">Claude for Teachers gives verified US K-12 educators free access to premium Claude tools and teaching skills aligned to standards in all 50 states.</cite>",
+      "url": "https://releasebot.io/updates/anthropic"
+    },
+    {
+      "date": "Jul 15, 2026",
+      "title": "Self-serve HIPAA configuration for Enterprise",
+      "summary": "<cite index=\"2-5\">Claude adds self-serve HIPAA configuration for Enterprise and API orgs with BAA review, guide download, and one-step enablement.</cite>",
+      "url": "https://releasebot.io/updates/anthropic/claude"
+    },
+    {
+      "date": "Jun 30, 2026",
+      "title": "Fable 5 pricing shift to usage-based model",
+      "summary": "<cite index=\"20-4,20-5\">Fable 5 no longer included in paid subscriptions; subject to usage-based billing with charges calculated by tokens consumed.</cite>",
+      "url": "https://cafetechinenglish.substack.com/p/anthropic-shakes-up-its-pricing-strategy"
     }
   ],
-  "lastChecked": "2026-07-20T09:30:23.474Z"
+  "lastChecked": "2026-07-21T08:41:48.707Z"
 }
