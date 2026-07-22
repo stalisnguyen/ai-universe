@@ -21578,57 +21578,56 @@
     }
   ],
   "totw": {
-    "name": "V2Fun",
-    "tagline": "Generate 3D character with 8K textures and AI motion capture",
-    "votesCount": 781,
-    "url": "https://www.producthunt.com/products/v2fun?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
-    "thumbnail": "https://ph-files.imgix.net/1ae953dd-1691-4d3d-8eed-f970b24c8131.png?auto=format",
+    "name": "Unabyss for Claude",
+    "tagline": "Shared memory across all apps and LLMs. In Claude",
+    "votesCount": 647,
+    "url": "https://www.producthunt.com/products/unabyss?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
+    "thumbnail": "https://ph-files.imgix.net/c35d380b-1508-44ae-a273-b0bea7db4969.gif?auto=format",
     "rank": 1,
     "topics": [
-      "Artificial Intelligence",
-      "3D Modeling",
-      "Animation"
+      "Productivity",
+      "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-07-21T08:39:35.996Z"
+    "fetchedAt": "2026-07-22T08:39:15.725Z"
   },
   "lastWeeklyUpdate": "2026-07-17T08:47:14.987Z",
   "anthropicNews": [
     {
-      "date": "Jul 1, 2026",
-      "title": "Claude Fable 5 redeployed globally with enhanced safeguards",
-      "summary": "Export controls lifted; Fable 5 restored across Claude Platform, claude.ai, Claude Code, and Cowork.",
-      "url": "https://www.anthropic.com/news/redeploying-fable-5"
-    },
-    {
-      "date": "Jun 30, 2026",
-      "title": "Claude Sonnet 5 released for agentic workflows",
-      "summary": "<cite index=\"14-1,14-2\">Claude Sonnet 5 introduced for agentic coding, tool use, reasoning, knowledge work, and lower-cost agent workflows, released June 30, 2026.</cite>",
+      "date": "Jul 2, 2026",
+      "title": "Claude Fable 5 Restored with Enhanced Cybersecurity Safeguards",
+      "summary": "Anthropic redeployed Claude Fable 5 globally with updated safeguards after 19-day government-mandated pause.",
       "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Jun 30, 2026",
-      "title": "Claude Science launched for pharma and research",
-      "summary": "<cite index=\"8-17\">Claude Science announced, optimizing Claude for use in scientific laboratories and research operations of pharmaceutical companies.</cite>",
+      "title": "Claude Sonnet 5 Released with 1M Context Window",
+      "summary": "Sonnet 5 offers near-Opus coding quality at Sonnet prices with introductory pricing through August 31, 2026.",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Jun 30, 2026",
+      "title": "Anthropic Launches Claude Science for Life Sciences Research",
+      "summary": "Claude Science optimizes Claude for scientific research and pharmaceutical industry applications.",
       "url": "https://www.statnews.com/2026/06/30/anthropic-release-claude-science-ceo-dario-amodei/"
     },
     {
-      "date": "Jul 19, 2026",
-      "title": "Claude for Teachers free program launches",
-      "summary": "<cite index=\"1-18\">Claude for Teachers gives verified US K-12 educators free access to premium Claude tools and teaching skills aligned to standards in all 50 states.</cite>",
+      "date": "Jul 15, 2026",
+      "title": "Claude Adds Self-Serve HIPAA Configuration for Enterprise",
+      "summary": "Enterprise and API organizations can now enable HIPAA compliance with one-step configuration.",
+      "url": "https://releasebot.io/updates/anthropic/claude"
+    },
+    {
+      "date": "Jul 21, 2026",
+      "title": "Claude for Teachers Launches with Free Premium Access for K-12 Educators",
+      "summary": "Free premium Claude access for verified US K-12 educators with curriculum-aligned teaching skills.",
       "url": "https://releasebot.io/updates/anthropic"
     },
     {
       "date": "Jul 15, 2026",
-      "title": "Self-serve HIPAA configuration for Enterprise",
-      "summary": "<cite index=\"2-5\">Claude adds self-serve HIPAA configuration for Enterprise and API orgs with BAA review, guide download, and one-step enablement.</cite>",
+      "title": "Claude Adds Monthly Recap and Focus Settings Features",
+      "summary": "New Reflect dashboard shows usage patterns and AI fluency insights with break reminders and quiet hours.",
       "url": "https://releasebot.io/updates/anthropic/claude"
-    },
-    {
-      "date": "Jun 30, 2026",
-      "title": "Fable 5 pricing shift to usage-based model",
-      "summary": "<cite index=\"20-4,20-5\">Fable 5 no longer included in paid subscriptions; subject to usage-based billing with charges calculated by tokens consumed.</cite>",
-      "url": "https://cafetechinenglish.substack.com/p/anthropic-shakes-up-its-pricing-strategy"
     }
   ],
-  "lastChecked": "2026-07-21T08:41:48.707Z"
+  "lastChecked": "2026-07-22T08:39:39.636Z"
 }
