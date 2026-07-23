@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-21T08:41:48.707Z",
+  "lastUpdated": "2026-07-23T08:42:39.863Z",
   "categories": [
     {
       "id": "llm",
@@ -21575,12 +21575,278 @@
         ]
       },
       "link": "https://airjelly.ai/"
+    },
+    {
+      "id": "happycapy",
+      "name": "Happycapy",
+      "company": "Happycapy",
+      "category": "agent",
+      "icon": "🦫",
+      "badge": "hot",
+      "color": "#FF6B6B",
+      "price": "freemium",
+      "priceLabel": "Free / From $42/mo",
+      "tags": [
+        "agent",
+        "automation",
+        "browser-based",
+        "no-code"
+      ],
+      "shortDesc": "Agent-native computer in your browser powered by Claude Code.",
+      "fullDesc": "Happycapy transforms your browser into an autonomous agent workspace where AI handles real work like coding, design, document editing, and automation tasks. Built by the original Trickle team, it makes agent-based computing accessible to non-technical users without setup, learning curves, or command-line requirements.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Browser-based AI agent platform"
+        },
+        {
+          "label": "Released",
+          "value": "February 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Creators, solo builders, and teams automating complex workflows"
+        },
+        {
+          "label": "Pricing",
+          "value": "Freemium; Plus ($42/mo), Max ($167-200/mo), Team (custom)"
+        }
+      ],
+      "features": [
+        "AI agents execute tasks autonomously without manual intervention",
+        "Cloud-based sandbox environment with built-in security and sandboxing",
+        "Integrated access to 150+ AI models including Claude Code",
+        "Browser and phone access with no setup or configuration required",
+        "Skill Store with 100+ pre-built workflows for common tasks",
+        "Visual GUI designed for everyday users without technical skills",
+        "Handles coding, design, document editing, web building, and data tasks",
+        "Async task execution with results delivered to your workspace"
+      ],
+      "demo": [
+        {
+          "title": "Basic Task Delegation",
+          "desc": "Open Happycapy, describe what you need, and let the AI agent handle tool integration and execution.",
+          "code": "Build me a landing page with a hero section, features list, and signup form"
+        },
+        {
+          "title": "Complex Workflow Automation",
+          "desc": "Create multi-step workflows where the agent browses, edits documents, crunches numbers, and generates images automatically.",
+          "code": "Generate social media content: 5 Instagram posts with custom visuals about our new product launch"
+        },
+        {
+          "title": "Sequence Instructions for Clarity",
+          "desc": "For complex prompts, list steps sequentially to help AI understand your exact requirements.",
+          "code": "First, add a header with our logo. Below that, place a form with email and name fields. Then add testimonials section with 3 customer quotes."
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Content Creation",
+          "text": "Create 10 LinkedIn posts about AI automation with different angles, each with suggested hashtags"
+        },
+        {
+          "label": "Data Processing",
+          "text": "Take this spreadsheet of customer data, clean it up, remove duplicates, and create a summary dashboard"
+        },
+        {
+          "label": "Web Development",
+          "text": "Build me a personal portfolio website with dark mode, project showcase, and contact form"
+        },
+        {
+          "label": "Document Automation",
+          "text": "Convert this PDF contract into a fillable Google Doc with highlighted sections that need attention"
+        }
+      ],
+      "pricing": {
+        "note": "Happycapy offers flexible plans with unlimited model access and no per-task billing. Enterprise teams can request custom pricing.",
+        "plans": [
+          {
+            "name": "Free",
+            "price": "$0",
+            "per": "forever",
+            "popular": false,
+            "color": "#E8E8E8",
+            "features": [
+              "Basic agent tasks",
+              "Limited compute resources",
+              "Access to core features"
+            ]
+          },
+          {
+            "name": "Plus",
+            "price": "$42",
+            "per": "per month",
+            "popular": true,
+            "color": "#FF6B6B",
+            "features": [
+              "Claude Code and 150+ models",
+              "Increased compute resources",
+              "Skill Store access",
+              "No per-task billing"
+            ]
+          },
+          {
+            "name": "Max",
+            "price": "$167-200",
+            "per": "per month",
+            "popular": false,
+            "color": "#FF9500",
+            "features": [
+              "All Plus features",
+              "Maximum compute allocation",
+              "Priority support",
+              "Team collaboration features"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.producthunt.com/products/happycapy"
+    },
+    {
+      "id": "willow-atlas-1-model",
+      "name": "Willow (Atlas 1 Model)",
+      "company": "Willow Voice",
+      "category": "audio",
+      "icon": "🎙️",
+      "badge": "new",
+      "color": "#6366F1",
+      "price": "freemium",
+      "priceLabel": "Free / From $15/mo",
+      "tags": [
+        "speech-to-text",
+        "AI dictation",
+        "real-time transcription",
+        "productivity"
+      ],
+      "shortDesc": "Advanced speech-to-text model for real-time AI-powered dictation across devices.",
+      "fullDesc": "Atlas 1 is Willow's proprietary speech-to-text model designed for fast, accurate, real-time dictation. It powers the Willow Voice app on Mac, Windows, and iPhone, automatically removing filler words, fixing punctuation, and adapting to your writing style. Built with human-powered transcription infrastructure, it outperforms legacy models and works across any text field.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Speech-to-Text AI Model"
+        },
+        {
+          "label": "Released",
+          "value": "2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Hands-free dictation, email writing, technical documentation"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free (2K words/week) + Paid Plans ($15/mo)"
+        }
+      ],
+      "features": [
+        "Ultra-low 200ms latency for real-time transcription output",
+        "3x more accurate than built-in dictation with multi-speaker support",
+        "Removes filler words and auto-fixes punctuation for polished text",
+        "Learns your writing style and tone across different apps",
+        "Custom dictionary for technical terms, names, and abbreviations",
+        "Works system-wide in any text field (Gmail, Slack, Notion, Cursor, etc.)",
+        "Quiet Mode for whispering in shared spaces without disturbance",
+        "Voice commands for formatting (dash, new line, bullet point)"
+      ],
+      "demo": [
+        {
+          "title": "Basic Dictation",
+          "desc": "Place cursor in any text field and press hotkey to start dictating naturally. Atlas 1 automatically handles punctuation and formatting.",
+          "code": "Press hotkey → Speak naturally → Text appears formatted"
+        },
+        {
+          "title": "Multi-Speaker Transcription",
+          "desc": "Atlas 1 supports overlapping dialogue with speaker labels (S01, S02) across 32 languages with up to 90 minutes of audio.",
+          "code": "Supports 128k context window for long recordings"
+        },
+        {
+          "title": "AI Mode Enhancement",
+          "desc": "Speak rough ideas and Atlas 1 transforms them into polished, well-structured messages matching your voice and style.",
+          "code": "Rough speech → AI refinement → Professional output"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Email drafting",
+          "text": "Draft a professional email to my team about next week's project timeline, fixing any informal language"
+        },
+        {
+          "label": "Meeting notes",
+          "text": "Transcribe this meeting discussion between multiple speakers with speaker labels and timestamps"
+        },
+        {
+          "label": "Code documentation",
+          "text": "Write clear technical documentation for my Kubernetes deployment process with proper formatting"
+        }
+      ],
+      "pricing": {
+        "note": "Atlas 1 is available free (2,000 words/week) or through Willow Voice paid tiers. Free plan includes basic dictation with slower model; paid plans unlock unlimited usage and advanced features.",
+        "plans": [
+          {
+            "name": "Free",
+            "price": "$0",
+            "per": "forever",
+            "popular": false,
+            "color": "#E5E7EB",
+            "features": [
+              "2,000 words per week limit",
+              "Basic Atlas model",
+              "5-minute session limits",
+              "Cross-device sync",
+              "Community support"
+            ]
+          },
+          {
+            "name": "Individual Pro",
+            "price": "$15",
+            "per": "per month",
+            "popular": true,
+            "color": "#6366F1",
+            "features": [
+              "Unlimited dictation",
+              "Atlas 1 full model access",
+              "Longer recording sessions",
+              "Personalized writing style learning",
+              "Priority support"
+            ]
+          },
+          {
+            "name": "Team",
+            "price": "$12",
+            "per": "per user/month",
+            "popular": false,
+            "color": "#8B5CF6",
+            "features": [
+              "Shared team dictionaries",
+              "Centralized management",
+              "3-seat minimum",
+              "All Individual features",
+              "Admin controls"
+            ]
+          },
+          {
+            "name": "Enterprise",
+            "price": "Custom",
+            "per": "custom",
+            "popular": false,
+            "color": "#1F2937",
+            "features": [
+              "SOC 2 Type II compliance",
+              "HIPAA support",
+              "Zero data retention",
+              "SSO/SAML integration",
+              "Dedicated support"
+            ]
+          }
+        ]
+      },
+      "link": "https://willowvoice.com/"
     }
   ],
   "totw": {
     "name": "Unabyss for Claude",
     "tagline": "Shared memory across all apps and LLMs. In Claude",
-    "votesCount": 647,
+    "votesCount": 654,
     "url": "https://www.producthunt.com/products/unabyss?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/c35d380b-1508-44ae-a273-b0bea7db4969.gif?auto=format",
     "rank": 1,
@@ -21588,46 +21854,40 @@
       "Productivity",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-07-22T08:39:15.725Z"
+    "fetchedAt": "2026-07-23T08:40:47.751Z"
   },
   "lastWeeklyUpdate": "2026-07-17T08:47:14.987Z",
   "anthropicNews": [
     {
-      "date": "Jul 2, 2026",
-      "title": "Claude Fable 5 Restored with Enhanced Cybersecurity Safeguards",
-      "summary": "Anthropic redeployed Claude Fable 5 globally with updated safeguards after 19-day government-mandated pause.",
+      "date": "Jul 22, 2026",
+      "title": "Anthropic launches Economic Index connector for Claude",
+      "summary": "<cite index=\"23-15\">Anthropic launches the Anthropic Economic Index connector for Claude</cite>",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Jul 9, 2026",
+      "title": "Anthropic invites public questions on AI challenges",
+      "summary": "<cite index=\"3-3\">Anthropic is asking the public for their hardest questions about AI, and committing to show their work</cite>",
       "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Jun 30, 2026",
-      "title": "Claude Sonnet 5 Released with 1M Context Window",
-      "summary": "Sonnet 5 offers near-Opus coding quality at Sonnet prices with introductory pricing through August 31, 2026.",
+      "title": "Claude Sonnet 5 and Claude Science launched",
+      "summary": "<cite index=\"20-3,20-4\">Sonnet 5 delivers frontier performance across coding, agents, and professional work at scale; Claude Science is a customizable app for scientific research</cite>",
       "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Jun 30, 2026",
-      "title": "Anthropic Launches Claude Science for Life Sciences Research",
-      "summary": "Claude Science optimizes Claude for scientific research and pharmaceutical industry applications.",
-      "url": "https://www.statnews.com/2026/06/30/anthropic-release-claude-science-ceo-dario-amodei/"
+      "title": "Fable 5 returns globally with enhanced safeguards",
+      "summary": "<cite index=\"4-3\">Claude Fable 5 redeploys globally starting July 1, 2026 with updated cybersecurity safeguards</cite>",
+      "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Jul 15, 2026",
-      "title": "Claude Adds Self-Serve HIPAA Configuration for Enterprise",
-      "summary": "Enterprise and API organizations can now enable HIPAA compliance with one-step configuration.",
-      "url": "https://releasebot.io/updates/anthropic/claude"
-    },
-    {
-      "date": "Jul 21, 2026",
-      "title": "Claude for Teachers Launches with Free Premium Access for K-12 Educators",
-      "summary": "Free premium Claude access for verified US K-12 educators with curriculum-aligned teaching skills.",
-      "url": "https://releasebot.io/updates/anthropic"
-    },
-    {
-      "date": "Jul 15, 2026",
-      "title": "Claude Adds Monthly Recap and Focus Settings Features",
-      "summary": "New Reflect dashboard shows usage patterns and AI fluency insights with break reminders and quiet hours.",
-      "url": "https://releasebot.io/updates/anthropic/claude"
+      "date": "Jun 29, 2026",
+      "title": "California government partnership announced",
+      "summary": "<cite index=\"2-3\">California entered partnership with Anthropic to help state agencies responsibly use artificial intelligence</cite>",
+      "url": "https://www.gov.ca.gov/2026/06/29/"
     }
   ],
-  "lastChecked": "2026-07-22T08:39:39.636Z"
+  "lastChecked": "2026-07-23T08:42:39.863Z"
 }
