@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-23T08:42:39.863Z",
+  "lastUpdated": "2026-07-24T08:37:34.972Z",
   "categories": [
     {
       "id": "llm",
@@ -21841,53 +21841,200 @@
         ]
       },
       "link": "https://willowvoice.com/"
+    },
+    {
+      "id": "amazon-quick",
+      "name": "Amazon Quick",
+      "company": "Amazon",
+      "category": "agent",
+      "icon": "⚡",
+      "badge": "hot",
+      "color": "#FF9900",
+      "price": "freemium",
+      "priceLabel": "Free / From $20/user/mo",
+      "tags": [
+        "agentic AI",
+        "enterprise workspace",
+        "automation",
+        "research"
+      ],
+      "shortDesc": "AWS agentic AI workspace for research, automation, analytics, and workflow management.",
+      "fullDesc": "Amazon Quick is an AI assistant that acts as a research assistant, workflow automation tool, and data analytics engine. It connects to enterprise apps like Slack, Teams, and Salesforce, enabling teams to automate tasks, conduct research, create dashboards, and build no-code applications without separate tools.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Agentic AI Workspace"
+        },
+        {
+          "label": "Released",
+          "value": "April 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Enterprise teams needing integrated AI automation and analytics"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free to Enterprise plans with per-user fees plus infrastructure fees"
+        }
+      ],
+      "features": [
+        "AI-powered research across multiple sources with deep integration capabilities.",
+        "No-code workflow automation with AI agents that learn user roles and priorities.",
+        "Native integrations with Slack, Microsoft Teams, Outlook, Salesforce, Google Workspace, and more.",
+        "Interactive BI dashboards and data exploration without separate analytics tools.",
+        "Create documents, presentations, dashboards, and applications through natural language.",
+        "Automatic change detection and action-taking through autonomous agents.",
+        "AWS IAM integration with enterprise compliance and security certifications.",
+        "Multi-step workflow automation connecting your existing business applications."
+      ],
+      "demo": [
+        {
+          "title": "Research Analysis",
+          "desc": "Ask Quick to conduct multi-source research and generate actionable insights.",
+          "code": "Analyze market trends for Q3 2026 across competitors and provide strategic recommendations"
+        },
+        {
+          "title": "Workflow Automation",
+          "desc": "Build automated processes connecting Slack, CRM, and databases without code.",
+          "code": "Create workflow: When lead is added to Salesforce, notify team in Slack and log to database"
+        },
+        {
+          "title": "Dashboard Creation",
+          "desc": "Generate interactive dashboards and visualizations from natural language requests.",
+          "code": "Create a dashboard showing monthly revenue trends by region with forecasting"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Research",
+          "text": "Conduct research on emerging AI regulations globally and summarize impact on enterprise software"
+        },
+        {
+          "label": "Automation",
+          "text": "Build a workflow that reviews GitHub pull requests and posts summaries to our team Slack"
+        },
+        {
+          "label": "Analytics",
+          "text": "Create a dashboard of our Q2 sales pipeline with forecasts for deal closure dates"
+        },
+        {
+          "label": "Data Integration",
+          "text": "Connect our S3 data lake to Quick and generate insights on customer behavior patterns"
+        }
+      ],
+      "pricing": {
+        "note": "Amazon Quick offers four tiers from free to enterprise, with per-user subscriptions plus optional infrastructure fees for advanced plans. Free tier requires no AWS account.",
+        "plans": [
+          {
+            "name": "Free",
+            "price": "$0",
+            "per": "forever",
+            "popular": false,
+            "color": "#E8F4F8",
+            "features": [
+              "AI chat and research capabilities",
+              "Basic automation and flows",
+              "Limited integrations",
+              "Community features and spaces"
+            ]
+          },
+          {
+            "name": "Plus",
+            "price": "$20",
+            "per": "per user/month",
+            "popular": true,
+            "color": "#FF9900",
+            "features": [
+              "All Free features plus advanced AI agents",
+              "Extended integrations with business apps",
+              "Quick Research multi-source capability",
+              "Dashboard and analytics features"
+            ]
+          },
+          {
+            "name": "Professional",
+            "price": "$20 + $250/account",
+            "per": "per user/month",
+            "popular": false,
+            "color": "#146EB4",
+            "features": [
+              "All Plus features",
+              "Quick Automate and advanced workflows",
+              "API access and custom integrations",
+              "$250/month account infrastructure fee"
+            ]
+          },
+          {
+            "name": "Enterprise",
+            "price": "$40 + $250/account",
+            "per": "per user/month",
+            "popular": false,
+            "color": "#232F3E",
+            "features": [
+              "All Professional features",
+              "Priority support and custom SLAs",
+              "Enhanced compliance and governance",
+              "$250/month account infrastructure fee"
+            ]
+          }
+        ]
+      },
+      "link": "https://aws.amazon.com/quick"
     }
   ],
   "totw": {
-    "name": "Unabyss for Claude",
-    "tagline": "Shared memory across all apps and LLMs. In Claude",
-    "votesCount": 654,
-    "url": "https://www.producthunt.com/products/unabyss?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
-    "thumbnail": "https://ph-files.imgix.net/c35d380b-1508-44ae-a273-b0bea7db4969.gif?auto=format",
+    "name": "Fuzzy AI",
+    "tagline": "We warm your prospects before reaching out",
+    "votesCount": 645,
+    "url": "https://www.producthunt.com/products/fuzzy-ai-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
+    "thumbnail": "https://ph-files.imgix.net/2ee5bc35-54be-4e1c-ac23-b791bb72f837.png?auto=format",
     "rank": 1,
     "topics": [
-      "Productivity",
+      "Sales",
+      "Marketing",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-07-23T08:40:47.751Z"
+    "fetchedAt": "2026-07-24T08:36:32.252Z"
   },
   "lastWeeklyUpdate": "2026-07-17T08:47:14.987Z",
   "anthropicNews": [
     {
       "date": "Jul 22, 2026",
-      "title": "Anthropic launches Economic Index connector for Claude",
-      "summary": "<cite index=\"23-15\">Anthropic launches the Anthropic Economic Index connector for Claude</cite>",
+      "title": "Research agenda for Economic Futures Fund announced",
+      "summary": "Anthropic publishes economic research agenda as part of broader AI policy initiatives.",
       "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Jul 9, 2026",
-      "title": "Anthropic invites public questions on AI challenges",
-      "summary": "<cite index=\"3-3\">Anthropic is asking the public for their hardest questions about AI, and committing to show their work</cite>",
+      "date": "Jul 21, 2026",
+      "title": "Anthropic donates $20M to Public First Action",
+      "summary": "Additional $20 million donation to support AI policy and regulation efforts.",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Jul 20, 2026",
+      "title": "AMD invests up to $5B in Anthropic partnership",
+      "summary": "AMD commits to $5 billion investment and chip deployment with Anthropic.",
+      "url": "https://www.bloomberg.com/latest/anthropic"
+    },
+    {
+      "date": "Jul 15, 2026",
+      "title": "Claude adds self-serve HIPAA configuration",
+      "summary": "Enterprise and API users can now enable HIPAA compliance with one-step setup.",
+      "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+    },
+    {
+      "date": "Jul 1, 2026",
+      "title": "Claude Sonnet 5 becomes default; Fable 5 returns",
+      "summary": "Sonnet 5 rolled out at introductory $2/$10 pricing; Fable 5 restored after export controls lifted.",
       "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Jun 30, 2026",
-      "title": "Claude Sonnet 5 and Claude Science launched",
-      "summary": "<cite index=\"20-3,20-4\">Sonnet 5 delivers frontier performance across coding, agents, and professional work at scale; Claude Science is a customizable app for scientific research</cite>",
+      "title": "Claude Science launched for research automation",
+      "summary": "New customizable app integrating research tools with Claude for auditable scientific work.",
       "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "Jun 30, 2026",
-      "title": "Fable 5 returns globally with enhanced safeguards",
-      "summary": "<cite index=\"4-3\">Claude Fable 5 redeploys globally starting July 1, 2026 with updated cybersecurity safeguards</cite>",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "Jun 29, 2026",
-      "title": "California government partnership announced",
-      "summary": "<cite index=\"2-3\">California entered partnership with Anthropic to help state agencies responsibly use artificial intelligence</cite>",
-      "url": "https://www.gov.ca.gov/2026/06/29/"
     }
   ],
-  "lastChecked": "2026-07-23T08:42:39.863Z"
+  "lastChecked": "2026-07-24T08:37:34.972Z"
 }
