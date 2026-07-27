@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-26T09:05:55.274Z",
+  "lastUpdated": "2026-07-27T10:05:44.186Z",
   "categories": [
     {
       "id": "llm",
@@ -22634,48 +22634,281 @@
         ]
       },
       "link": "https://skippr.ai"
+    },
+    {
+      "id": "zoommate",
+      "name": "ZoomMate",
+      "company": "Zoom",
+      "category": "agent",
+      "icon": "🤖",
+      "badge": "new",
+      "color": "#0B5CFF",
+      "price": "paid",
+      "priceLabel": "From $20/user/month",
+      "tags": [
+        "meeting agent",
+        "workflow automation",
+        "agentic AI",
+        "enterprise"
+      ],
+      "shortDesc": "AI-powered agent that transforms meeting decisions into automated tasks and documents.",
+      "fullDesc": "ZoomMate is an agentic AI assistant launched in June 2026 that connects meeting conversations directly to action across enterprise tools. It automatically generates presentations, documents, and task assignments from meeting context, while orchestrating workflows across Salesforce, Jira, Slack, and ServiceNow. Designed for teams that want to eliminate friction between decisions and execution.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Agentic AI Assistant / Meeting Agent"
+        },
+        {
+          "label": "Released",
+          "value": "June 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Enterprise teams, project managers, sales teams automating meeting follow-ups"
+        },
+        {
+          "label": "Pricing",
+          "value": "Hybrid seat + usage-based model with AI credits"
+        }
+      ],
+      "features": [
+        "Meeting summaries and action item extraction from conversations and transcripts",
+        "Agentic orchestration that executes workflows across Salesforce, Jira, Slack, and ServiceNow",
+        "Automatic document, presentation, and spreadsheet generation from meeting context",
+        "Context awareness connecting meetings, documents, chats, and integrated enterprise apps",
+        "AI credit-based system for managing and allocating advanced agentic actions",
+        "Proactive task execution including CRM updates and approval routing",
+        "Memory and learning capabilities that track preferences and project history over time",
+        "Seamless integration with Zoom Workplace and existing Zoom paid plans"
+      ],
+      "demo": [
+        {
+          "title": "Meeting to Task Automation",
+          "desc": "ZoomMate attends your meeting, extracts decisions, and automatically creates tasks in Jira or Salesforce",
+          "code": "Meeting recorded → ZoomMate analyzes → Tasks created in connected systems automatically"
+        },
+        {
+          "title": "Document Generation",
+          "desc": "After a meeting concludes, ZoomMate generates meeting summaries, presentations, or reports in the format needed",
+          "code": "Meeting ends → ZoomMate drafts document → Auto-routes for approval → Pushes to workspace"
+        },
+        {
+          "title": "Workflow Orchestration",
+          "desc": "ZoomMate connects decisions to multiple systems, coordinating actions across your entire tech stack",
+          "code": "Update CRM AND create Jira ticket AND post in Slack AND schedule follow-up - all from one meeting"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Task Creation",
+          "text": "From this meeting, create Jira tickets for each action item and assign them to team members based on discussion"
+        },
+        {
+          "label": "Document Generation",
+          "text": "Generate a slide deck summarizing today's product roadmap decisions with timeline and owner assignments"
+        },
+        {
+          "label": "CRM Update",
+          "text": "Update the Salesforce opportunity record with information discussed about the customer's requirements and timeline"
+        },
+        {
+          "label": "Meeting Summary",
+          "text": "Create a summary with key decisions, action items, and next steps, then email it to all participants"
+        }
+      ],
+      "pricing": {
+        "note": "ZoomMate uses a hybrid seat-based and credit-based pricing model. Priced at $20 per user per month for North American customers with gradual rollout to additional regions. Requires a base Zoom Workplace Pro, Business, or Enterprise license.",
+        "plans": [
+          {
+            "name": "ZoomMate Professional",
+            "price": "$20",
+            "per": "per user per month",
+            "popular": true,
+            "color": "#0B5CFF",
+            "features": [
+              "2,200 AI credits per user per month for agentic actions",
+              "Unlimited meeting summaries and meeting analysis",
+              "Document, presentation, and spreadsheet generation from meeting context",
+              "Workflow orchestration across Salesforce, Jira, Slack, ServiceNow, and 50+ integrations",
+              "Context-aware AI with memory of preferences and project history"
+            ]
+          },
+          {
+            "name": "Enterprise",
+            "price": "Custom",
+            "per": "contact sales",
+            "popular": false,
+            "color": "#4A4A4A",
+            "features": [
+              "Custom AI credit allocation based on deployment size",
+              "Dedicated account management and support",
+              "Advanced integration complexity handling",
+              "Custom workflows and agentic capabilities",
+              "Multi-region and compliance options"
+            ]
+          }
+        ]
+      },
+      "link": "https://zoom.us/pricing/aic"
+    },
+    {
+      "id": "hermes-agent",
+      "name": "Hermes Agent",
+      "company": "Nous Research",
+      "category": "agent",
+      "icon": "🤖",
+      "badge": "hot",
+      "color": "#6366F1",
+      "price": "free",
+      "priceLabel": "Free (Open Source)",
+      "tags": [
+        "self-improving",
+        "persistent-memory",
+        "open-source",
+        "autonomous"
+      ],
+      "shortDesc": "Self-improving AI agent with persistent memory that learns and improves across sessions.",
+      "fullDesc": "<cite index=\"1-1\">Hermes Agent is an open-source AI agent from Nous Research that learns, remembers, and improves itself across sessions automatically.</cite> <cite index=\"8-5\">Hermes lives on your server, remembers what it learns, and gets more capable the longer it runs.</cite> <cite index=\"4-8\">Hermes is the right tool if you work across multiple projects, want an agent on your own infrastructure, and care about persistent memory and async scheduling.</cite>",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Open-Source Autonomous AI Agent"
+        },
+        {
+          "label": "Released",
+          "value": "February 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Multi-project workflows with persistent memory and scheduled tasks"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free (MIT License) - pay only for LLM inference"
+        }
+      ],
+      "features": [
+        "<cite index=\"1-8\">When the agent solves a task, it writes a reusable Markdown skill file, stores the outcome in persistent memory, and adjusts its approach for next time.</cite>",
+        "<cite index=\"3-18\">Agents with 20+ self-created skills complete similar future tasks 40% faster than fresh instances.</cite>",
+        "<cite index=\"6-5\">Hermes runs as one agent with one memory across every surface: a terminal CLI, a native desktop app, and messaging gateways for Telegram, Discord, Slack, WhatsApp, Signal, and email.</cite>",
+        "<cite index=\"7-8,7-9\">Built-in cron system with delivery to any platform - set it and forget it, Hermes handles scheduled tasks autonomously.</cite>",
+        "<cite index=\"1-16\">Built-in safeguards include command approval flows, dangerous-pattern blocking, and memory scanning for injections.</cite>",
+        "<cite index=\"7-6,7-7\">Connect to any MCP server for extended tool capabilities, filter tools, and extend Hermes safely.</cite>",
+        "<cite index=\"8-10,8-11\">Platform for generating training data and running RL experiments with automatic checkpointing.</cite>",
+        "<cite index=\"6-12,6-13\">Windows 10/11 gets a native EXE installer for the desktop app, or a one-line PowerShell install for the CLI, with WSL2 also supported.</cite>"
+      ],
+      "demo": [
+        {
+          "title": "Installation",
+          "desc": "Install Hermes on Linux, macOS, or WSL2 with a single command.",
+          "code": "curl -fsSL https://raw.githubusercontent.com/NousResearch/hermes-agent/main/scripts/install.sh | bash"
+        },
+        {
+          "title": "Setup",
+          "desc": "Configure your LLM provider and initialize Hermes.",
+          "code": "hermes setup"
+        },
+        {
+          "title": "Start Agent",
+          "desc": "Launch the Hermes agent and begin interacting.",
+          "code": "hermes"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Task Automation",
+          "text": "Create a daily report summarizing project progress from my GitHub repos and email it to the team."
+        },
+        {
+          "label": "Scheduled Tasks",
+          "text": "Every Monday at 9am, fetch metrics from our API and update a spreadsheet."
+        },
+        {
+          "label": "Multi-step Workflow",
+          "text": "Download customer feedback from our database, analyze sentiment, and create a summary document."
+        }
+      ],
+      "pricing": {
+        "note": "<cite index=\"6-9,6-10\">MIT-licensed and free to download, self-host, and modify - you pay only for the model inference you use, either via your own API keys or a Nous Portal subscription tier.</cite>",
+        "plans": [
+          {
+            "name": "Open Source (Self-Hosted)",
+            "price": "Free",
+            "per": "forever",
+            "popular": true,
+            "color": "#6366F1",
+            "features": [
+              "MIT License - fully open source",
+              "Persistent memory and skill creation",
+              "Multi-platform support (Linux, macOS, WSL2)",
+              "20+ messaging platform integrations",
+              "Self-hosted on your infrastructure"
+            ]
+          },
+          {
+            "name": "Nous Portal (Optional)",
+            "price": "Variable",
+            "per": "per month",
+            "popular": false,
+            "color": "#818CF8",
+            "features": [
+              "Managed LLM inference",
+              "Nous Research model access",
+              "Cloud backend option",
+              "Advanced monitoring"
+            ]
+          }
+        ]
+      },
+      "link": "https://hermes-agent.com/"
     }
   ],
   "totw": {
-    "name": "Fuzzy AI",
-    "tagline": "We warm your prospects before reaching out",
-    "votesCount": 675,
-    "url": "https://www.producthunt.com/products/fuzzy-ai-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
-    "thumbnail": "https://ph-files.imgix.net/2ee5bc35-54be-4e1c-ac23-b791bb72f837.png?auto=format",
+    "name": "Lev8",
+    "tagline": "Find, research, and reach the right people",
+    "votesCount": 654,
+    "url": "https://www.producthunt.com/products/lev8?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
+    "thumbnail": "https://ph-files.imgix.net/0cd8bb27-735c-48f9-9105-4c7d73fbd348.png?auto=format",
     "rank": 1,
     "topics": [
       "Sales",
-      "Marketing",
-      "Artificial Intelligence"
+      "Artificial Intelligence",
+      "Marketing automation"
     ],
-    "fetchedAt": "2026-07-26T08:35:59.251Z"
+    "fetchedAt": "2026-07-27T10:03:57.887Z"
   },
   "lastWeeklyUpdate": "2026-07-26T09:01:34.675Z",
   "anthropicNews": [
     {
       "date": "Jul 24, 2026",
       "title": "Claude Opus 5 Released",
-      "summary": "<cite index=\"12-2,12-4\">Near-Fable 5 intelligence at half the price</cite>",
-      "url": "https://www.anthropic.com/news/claude-opus-5"
-    },
-    {
-      "date": "Jul 6, 2026",
-      "title": "Claude Code Feature Story Published",
-      "summary": "<cite index=\"1-3\">Inside story of how Claude Code went from CLI to Anthropic's coding agent</cite>",
+      "summary": "New Opus 5 model offers near-frontier intelligence at half the price of Fable 5",
       "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Jul 1, 2026",
-      "title": "Fable 5 Redeployed Globally",
-      "summary": "<cite index=\"38-1\">Fable 5 redeployed with updated cybersecurity safeguards and new jailbreak framework</cite>",
-      "url": "https://www.anthropic.com/news/redeploying-fable-5"
+      "date": "Jul 22, 2026",
+      "title": "Anthropic Economic Index Claude Connector",
+      "summary": "New connector launched allowing Claude users to query AI economy data directly",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Jul 6, 2026",
+      "title": "Claude Code Evolution Story",
+      "summary": "Behind-the-scenes account of how Claude Code evolved from internal CLI tool",
+      "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Jun 30, 2026",
-      "title": "Claude Sonnet 5 Launched",
-      "summary": "<cite index=\"1-6\">Sonnet 5 delivers frontier performance across coding, agents, and professional work</cite>",
-      "url": "https://www.anthropic.com/news/claude-sonnet-5"
+      "title": "Claude Sonnet 5 & Claude Science Launch",
+      "summary": "Sonnet 5 brings frontier performance to coding; Claude Science launches for research",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Jun 30, 2026",
+      "title": "Fable 5 Global Redeployment",
+      "summary": "Fable 5 returns globally July 1 with new safety classifiers and jailbreak framework",
+      "url": "https://www.anthropic.com/news"
     }
   ],
-  "lastChecked": "2026-07-26T09:05:55.274Z"
+  "lastChecked": "2026-07-27T10:05:44.186Z"
 }
