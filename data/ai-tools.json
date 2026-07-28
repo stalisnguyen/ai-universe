@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-27T10:05:44.186Z",
+  "lastUpdated": "2026-07-28T08:47:43.000Z",
   "categories": [
     {
       "id": "llm",
@@ -22861,54 +22861,282 @@
         ]
       },
       "link": "https://hermes-agent.com/"
+    },
+    {
+      "id": "hermex",
+      "name": "Hermex",
+      "company": "Uzair Ansar",
+      "category": "agent",
+      "icon": "📱",
+      "badge": "new",
+      "color": "#6366F1",
+      "price": "free",
+      "priceLabel": "Free",
+      "tags": [
+        "iOS",
+        "self-hosted",
+        "agent-control",
+        "streaming-chat"
+      ],
+      "shortDesc": "Native iPhone client for controlling self-hosted Hermes Agent with streaming responses.",
+      "fullDesc": "Hermex is a native SwiftUI iPhone app that serves as a mobile control plane for self-hosted Hermes Agent instances. It enables users to manage AI agent conversations, attachments, tasks, and workspace files directly from their phone while keeping all computation and data on their own hardware. Designed for developers and power users who want privacy-first mobile access to their autonomous AI agents.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Mobile Client / Agent Controller"
+        },
+        {
+          "label": "Released",
+          "value": "June 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Remote management of self-hosted AI agents with privacy"
+        },
+        {
+          "label": "Pricing",
+          "value": "Completely free, no subscriptions or in-app purchases"
+        }
+      ],
+      "features": [
+        "Live streaming chat with thinking summaries and tool-call details",
+        "Session management with search, browse, and offline caching capabilities",
+        "Model and reasoning effort controls with multiple provider support",
+        "File and photo attachments with workspace file browsing",
+        "Task and skill management directly from the mobile interface",
+        "Real SwiftUI native app for iOS 18+ with no webview wrapper",
+        "Server-side execution ensures agent and data stay on user hardware",
+        "Memory and usage analytics read-only panels for agent insights"
+      ],
+      "demo": [
+        {
+          "title": "Setup Connection",
+          "desc": "Enter your Hermes Web UI server URL and password in Hermex to establish a secure connection to your self-hosted agent.",
+          "code": "hermex://connect?server=https://your-hermes-server.com"
+        },
+        {
+          "title": "Start Streaming Chat",
+          "desc": "Compose a message with optional model and reasoning controls, then watch responses stream in real-time with tool execution details.",
+          "code": "Send: 'Analyze the data in my workspace and generate a report'"
+        },
+        {
+          "title": "Manage Sessions",
+          "desc": "Browse, search, and resume previous conversations from your server; sessions are cached locally for offline viewing.",
+          "code": "Swipe to archive, pin, or duplicate past sessions"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Data Analysis",
+          "text": "Analyze the CSV file in my workspace and create visualizations of the trends"
+        },
+        {
+          "label": "Content Creation",
+          "text": "Generate a marketing email based on the product specs I attached"
+        },
+        {
+          "label": "Code Generation",
+          "text": "Write a Python script that processes the logs and exports results to JSON"
+        },
+        {
+          "label": "Task Management",
+          "text": "Create a task to remind me to review the agent's memory insights tomorrow"
+        }
+      ],
+      "pricing": {
+        "note": "Hermex is completely free with no subscriptions, in-app purchases, or hidden costs. The app requires a self-hosted Hermes Web UI server which is open-source and free to run on your own hardware.",
+        "plans": [
+          {
+            "name": "Free",
+            "price": "$0",
+            "per": "forever",
+            "popular": true,
+            "color": "#6366F1",
+            "features": [
+              "Native iOS app with streaming chat",
+              "Unlimited sessions and conversations",
+              "File attachments and workspace browsing",
+              "No analytics or tracking",
+              "No subscriptions ever"
+            ]
+          }
+        ]
+      },
+      "link": "https://hermex.app"
+    },
+    {
+      "id": "token-diet",
+      "name": "token-diet",
+      "company": "Unknown",
+      "category": "code",
+      "icon": "🥗",
+      "badge": "new",
+      "color": "#10b981",
+      "price": "free",
+      "priceLabel": "Free",
+      "tags": [
+        "prompt optimization",
+        "cost reduction",
+        "token compression",
+        "LLM efficiency"
+      ],
+      "shortDesc": "Compress prompts to use fewer tokens without losing meaning—saves up to 72% on AI costs.",
+      "fullDesc": "token-diet is a CLI tool that rewrites prompts to be maximally compact while preserving intent. It works offline with rule-based compression or via Claude API for intelligent AI-powered optimization. Designed for developers, teams, and enterprises looking to reduce LLM API costs and improve model performance.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "CLI tool & web interface"
+        },
+        {
+          "label": "Released",
+          "value": "2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Reducing LLM token usage and API costs"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free (open-source)"
+        }
+      ],
+      "features": [
+        "Offline rule-based compression works without API keys or internet",
+        "Claude API integration for intelligent AI-powered prompt rewriting",
+        "Three compression levels: gentle, balanced, and aggressive",
+        "Supports multiple input methods: files, stdin, pipes, and direct text",
+        "Unified diff display to compare original vs. compressed prompts",
+        "Quiet mode for seamless pipeline integration",
+        "Multiple tokenizer support including OpenAI and Claude models",
+        "Estimated cost savings reporting based on various model pricing"
+      ],
+      "demo": [
+        {
+          "title": "Basic prompt compression",
+          "desc": "Compress a prompt from a file using default balanced settings",
+          "code": "token-diet prompt.txt"
+        },
+        {
+          "title": "Aggressive compression",
+          "desc": "Maximum compression for maximum cost savings (may reduce nuance)",
+          "code": "token-diet prompt.txt --level aggressive"
+        },
+        {
+          "title": "View differences",
+          "desc": "Display unified diff between original and compressed versions",
+          "code": "token-diet prompt.txt --diff"
+        },
+        {
+          "title": "Pipeline usage",
+          "desc": "Compress from stdin and output only compressed text",
+          "code": "echo 'Your prompt here' | token-diet --quiet"
+        },
+        {
+          "title": "Claude API compression",
+          "desc": "Use Claude API for intelligent compression (requires API key)",
+          "code": "token-diet prompt.txt --api-key sk-ant-..."
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Cost-conscious",
+          "text": "Use aggressive compression level when every token counts and slight quality trade-offs are acceptable"
+        },
+        {
+          "label": "Quality-focused",
+          "text": "Use gentle compression level to preserve full nuance when dealing with complex reasoning tasks"
+        },
+        {
+          "label": "Balanced approach",
+          "text": "Use balanced (default) compression to maintain intent while achieving meaningful cost savings"
+        }
+      ],
+      "pricing": {
+        "note": "token-diet is free and open-source, available via pip. Optional Claude API use for intelligent compression requires your own Anthropic API key (usage-based pricing).",
+        "plans": [
+          {
+            "name": "Free (Open Source)",
+            "price": "$0",
+            "per": "forever",
+            "popular": true,
+            "color": "#10b981",
+            "features": [
+              "Offline rule-based compression",
+              "Support for multiple tokenizers",
+              "CLI and web interface access",
+              "Compression level customization"
+            ]
+          },
+          {
+            "name": "Claude API (Optional)",
+            "price": "Pay-as-you-go",
+            "per": "per request",
+            "popular": false,
+            "color": "#6366f1",
+            "features": [
+              "Intelligent AI-powered compression",
+              "Higher compression ratios",
+              "Claude Haiku model for cost efficiency",
+              "Requires own Anthropic API key"
+            ]
+          }
+        ]
+      },
+      "link": "https://token-diet.dev"
     }
   ],
   "totw": {
-    "name": "Lev8",
-    "tagline": "Find, research, and reach the right people",
-    "votesCount": 654,
-    "url": "https://www.producthunt.com/products/lev8?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
-    "thumbnail": "https://ph-files.imgix.net/0cd8bb27-735c-48f9-9105-4c7d73fbd348.png?auto=format",
+    "name": "Humalike x Hermes",
+    "tagline": "Social intelligence plugin for Hermes Agent",
+    "votesCount": 529,
+    "url": "https://www.producthunt.com/products/humalike-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
+    "thumbnail": "https://ph-files.imgix.net/f99fe9c9-c6a2-497a-b662-fc757f179a17.gif?auto=format",
     "rank": 1,
     "topics": [
-      "Sales",
-      "Artificial Intelligence",
-      "Marketing automation"
+      "API",
+      "Developer Tools",
+      "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-07-27T10:03:57.887Z"
+    "fetchedAt": "2026-07-28T08:46:13.343Z"
   },
   "lastWeeklyUpdate": "2026-07-26T09:01:34.675Z",
   "anthropicNews": [
     {
       "date": "Jul 24, 2026",
-      "title": "Claude Opus 5 Released",
-      "summary": "New Opus 5 model offers near-frontier intelligence at half the price of Fable 5",
+      "title": "Anthropic Releases Claude Opus 5 Model",
+      "summary": "<cite index=\"12-1\">Claude Opus 5 delivers performance close to Fable at half the price</cite>",
       "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Jul 22, 2026",
-      "title": "Anthropic Economic Index Claude Connector",
-      "summary": "New connector launched allowing Claude users to query AI economy data directly",
+      "date": "Jul 23, 2026",
+      "title": "Claude Adds Voice Mode for Problem Solving",
+      "summary": "<cite index=\"8-16,8-17\">Voice mode expanded with Opus and Sonnet, connected tool actions, and more languages in beta</cite>",
+      "url": "https://claude.com/blog-category/announcements"
+    },
+    {
+      "date": "Jul 21, 2026",
+      "title": "Anthropic Donates $20M to Public First Action",
+      "summary": "<cite index=\"2-1\">Anthropic donating $20 million to Public First Action</cite>",
       "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Jul 6, 2026",
-      "title": "Claude Code Evolution Story",
-      "summary": "Behind-the-scenes account of how Claude Code evolved from internal CLI tool",
+      "date": "Jul 20, 2026",
+      "title": "AI for Science Rare Disease Research Grants Open",
+      "summary": "<cite index=\"2-1\">Applications open for Anthropic's AI for Science rare disease research grants</cite>",
       "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Jul 1, 2026",
+      "title": "Claude Fable 5 Restored After Export Controls Lifted",
+      "summary": "<cite index=\"4-2\">Fable 5 restored across Claude API after US export-control directive was lifted</cite>",
+      "url": "https://www.anthropic.com/news/redeploying-fable-5"
     },
     {
       "date": "Jun 30, 2026",
-      "title": "Claude Sonnet 5 & Claude Science Launch",
-      "summary": "Sonnet 5 brings frontier performance to coding; Claude Science launches for research",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "Jun 30, 2026",
-      "title": "Fable 5 Global Redeployment",
-      "summary": "Fable 5 returns globally July 1 with new safety classifiers and jailbreak framework",
-      "url": "https://www.anthropic.com/news"
+      "title": "Anthropic Launches Claude Science for Researchers",
+      "summary": "<cite index=\"18-1\">Claude Science announced as major product to support scientific research similar to Claude Code</cite>",
+      "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/"
     }
   ],
-  "lastChecked": "2026-07-27T10:05:44.186Z"
+  "lastChecked": "2026-07-28T08:47:43.000Z"
 }
