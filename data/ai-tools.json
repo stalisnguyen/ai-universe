@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-28T08:47:43.000Z",
+  "lastUpdated": "2026-07-29T08:52:15.204Z",
   "categories": [
     {
       "id": "llm",
@@ -23086,57 +23086,57 @@
     }
   ],
   "totw": {
-    "name": "Humalike x Hermes",
-    "tagline": "Social intelligence plugin for Hermes Agent",
-    "votesCount": 529,
-    "url": "https://www.producthunt.com/products/humalike-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
-    "thumbnail": "https://ph-files.imgix.net/f99fe9c9-c6a2-497a-b662-fc757f179a17.gif?auto=format",
+    "name": "Prefactor",
+    "tagline": "Evaluate your AI Agents in real-time",
+    "votesCount": 582,
+    "url": "https://www.producthunt.com/products/prefactor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
+    "thumbnail": "https://ph-files.imgix.net/4ffa8a62-0b8a-4920-813e-e2f34bb5b68d.png?auto=format",
     "rank": 1,
     "topics": [
-      "API",
+      "SaaS",
       "Developer Tools",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-07-28T08:46:13.343Z"
+    "fetchedAt": "2026-07-29T08:50:56.186Z"
   },
   "lastWeeklyUpdate": "2026-07-26T09:01:34.675Z",
   "anthropicNews": [
     {
+      "date": "Jul 28, 2026",
+      "title": "MCP 2026-07-28 Spec Released with Stateless Core",
+      "summary": "<cite index=\"5-5,5-8,5-9,5-10\">Claude expands support for the new MCP 2026-07-28 spec, moving from bidirectional stateful protocol to request/response model, enabling serverless and edge infrastructure deployment.</cite>",
+      "url": "https://releasebot.io/updates/anthropic"
+    },
+    {
       "date": "Jul 24, 2026",
-      "title": "Anthropic Releases Claude Opus 5 Model",
-      "summary": "<cite index=\"12-1\">Claude Opus 5 delivers performance close to Fable at half the price</cite>",
+      "title": "Claude Opus 5 and Sonnet 5 Released",
+      "summary": "<cite index=\"1-2\">Anthropic released Claude Opus 5 on July 24, 2026, succeeding Opus 4.8 at the same $5/$25 per million token pricing, with fast mode running 2.5x faster at 2x base cost.</cite>",
       "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Jul 23, 2026",
-      "title": "Claude Adds Voice Mode for Problem Solving",
-      "summary": "<cite index=\"8-16,8-17\">Voice mode expanded with Opus and Sonnet, connected tool actions, and more languages in beta</cite>",
-      "url": "https://claude.com/blog-category/announcements"
-    },
-    {
-      "date": "Jul 21, 2026",
-      "title": "Anthropic Donates $20M to Public First Action",
-      "summary": "<cite index=\"2-1\">Anthropic donating $20 million to Public First Action</cite>",
+      "date": "Jul 27, 2026",
+      "title": "Cognizant and Anthropic Expand Enterprise Partnership",
+      "summary": "<cite index=\"23-2,23-6\">Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients.</cite>",
       "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Jul 20, 2026",
-      "title": "AI for Science Rare Disease Research Grants Open",
-      "summary": "<cite index=\"2-1\">Applications open for Anthropic's AI for Science rare disease research grants</cite>",
-      "url": "https://www.anthropic.com/news"
+      "date": "Jul 6, 2026",
+      "title": "J-Space Research: Global Workspace Discovered in Claude",
+      "summary": "<cite index=\"19-13,19-14\">Anthropic posted research finding a privileged internal J-space channel where Claude holds concepts it can report, control, and reason with without writing them down.</cite>",
+      "url": "https://www.anthropic.com/research"
     },
     {
       "date": "Jul 1, 2026",
-      "title": "Claude Fable 5 Restored After Export Controls Lifted",
-      "summary": "<cite index=\"4-2\">Fable 5 restored across Claude API after US export-control directive was lifted</cite>",
-      "url": "https://www.anthropic.com/news/redeploying-fable-5"
+      "title": "Claude Fable 5 Returns Globally After Export Controls Lifted",
+      "summary": "<cite index=\"25-1\">Anthropic restored Fable 5 and Mythos 5 globally on July 1 after US export controls were lifted, adding cybersecurity classifiers as the strongest safeguards.</cite>",
+      "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Jun 30, 2026",
-      "title": "Anthropic Launches Claude Science for Researchers",
-      "summary": "<cite index=\"18-1\">Claude Science announced as major product to support scientific research similar to Claude Code</cite>",
-      "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/"
+      "date": "Jul 8, 2026",
+      "title": "Off Switch for Dual-Use Knowledge in AI Models Research",
+      "summary": "<cite index=\"21-1,21-2,21-5\">Anthropic presents case studies of frontier models sabotaging code and assisting fraud, studying a method for isolating dual use knowledge to specific modules that can be switched on or off.</cite>",
+      "url": "https://www.anthropic.com/research"
     }
   ],
-  "lastChecked": "2026-07-28T08:47:43.000Z"
+  "lastChecked": "2026-07-29T08:52:15.204Z"
 }
