@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-29T08:52:15.204Z",
+  "lastUpdated": "2026-07-30T08:42:28.804Z",
   "categories": [
     {
       "id": "llm",
@@ -23083,12 +23083,110 @@
         ]
       },
       "link": "https://token-diet.dev"
+    },
+    {
+      "id": "openai-presence",
+      "name": "OpenAI Presence",
+      "company": "OpenAI",
+      "category": "agent",
+      "icon": "🤖",
+      "badge": "new",
+      "color": "#10a37f",
+      "price": "paid",
+      "priceLabel": "Custom Enterprise Pricing",
+      "tags": [
+        "enterprise agents",
+        "voice & chat",
+        "managed deployment",
+        "governance"
+      ],
+      "shortDesc": "Enterprise AI agent platform with managed deployment, policies, and human oversight.",
+      "fullDesc": "OpenAI Presence is a governed enterprise agent platform that combines OpenAI models with policies, permissions, system connections, and monitoring for production agent deployments. Designed for organizations with high-scale, repeatable workflows requiring strong governance and reliability, it supports voice and chat experiences for customer support, sales, and internal workflows. Delivered as a managed service by OpenAI engineers and systems integrators, not self-serve.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Enterprise Agent Platform"
+        },
+        {
+          "label": "Released",
+          "value": "July 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Enterprise voice & chat agents with governance requirements"
+        },
+        {
+          "label": "Pricing",
+          "value": "Custom per-deployment; no public pricing available"
+        }
+      ],
+      "features": [
+        "Real-time voice and chat agent deployment with natural language understanding",
+        "Policy definition and permission controls for agent behavior governance",
+        "System integration and connection to business data and processes",
+        "Agent testing and evaluation with simulations before production",
+        "Production monitoring and analytics dashboard for performance tracking",
+        "Human-in-the-loop escalation when agent judgment is insufficient",
+        "Managed deployment by OpenAI Forward Deployed Engineers and certified systems integrators",
+        "Continuous improvement loop with feedback integration and handoff reduction"
+      ],
+      "demo": [
+        {
+          "title": "Billing Issue Resolution",
+          "desc": "Agent understands customer request, verifies identity, looks up account information, applies company policy, and takes approved action to resolve billing dispute.",
+          "code": ""
+        },
+        {
+          "title": "Policy Definition",
+          "desc": "Organizations define governance rules and permissions that determine how agents behave in specific scenarios.",
+          "code": ""
+        },
+        {
+          "title": "Monitoring & Analytics",
+          "desc": "Dashboard tracks agent performance, resolution rates, escalation patterns, and operational metrics in production.",
+          "code": ""
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Customer Support",
+          "text": "Customer calls with a billing inquiry. Verify their identity, retrieve account details, explain the charges, apply company policy, and either resolve or escalate appropriately."
+        },
+        {
+          "label": "Outbound Sales",
+          "text": "Outreach agent contacts prospects with personalized product information, qualifies leads, books meetings, and logs interactions in CRM."
+        },
+        {
+          "label": "Internal Workflows",
+          "text": "Employee requests IT support. Authenticate user, gather issue details, check knowledge base, provide guidance, or escalate to human technician."
+        }
+      ],
+      "pricing": {
+        "note": "OpenAI Presence is available only through limited general availability with custom pricing per deployment. No self-serve tier or public pricing is available; deployments are scoped individually based on customer use case and implementation needs.",
+        "plans": [
+          {
+            "name": "Custom Enterprise Deployment",
+            "price": "Contact Sales",
+            "per": "custom",
+            "popular": true,
+            "color": "#10a37f",
+            "features": [
+              "Managed deployment by OpenAI Forward Deployed Engineers",
+              "Custom scope based on your specific workflows and use cases",
+              "Integration with business systems and data sources",
+              "Policy definition and governance framework",
+              "Production monitoring and ongoing support"
+            ]
+          }
+        ]
+      },
+      "link": "https://openai.com/presence"
     }
   ],
   "totw": {
     "name": "Prefactor",
     "tagline": "Evaluate your AI Agents in real-time",
-    "votesCount": 582,
+    "votesCount": 600,
     "url": "https://www.producthunt.com/products/prefactor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/4ffa8a62-0b8a-4920-813e-e2f34bb5b68d.png?auto=format",
     "rank": 1,
@@ -23097,46 +23195,40 @@
       "Developer Tools",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-07-29T08:50:56.186Z"
+    "fetchedAt": "2026-07-30T08:41:02.641Z"
   },
   "lastWeeklyUpdate": "2026-07-26T09:01:34.675Z",
   "anthropicNews": [
     {
       "date": "Jul 28, 2026",
-      "title": "MCP 2026-07-28 Spec Released with Stateless Core",
-      "summary": "<cite index=\"5-5,5-8,5-9,5-10\">Claude expands support for the new MCP 2026-07-28 spec, moving from bidirectional stateful protocol to request/response model, enabling serverless and edge infrastructure deployment.</cite>",
+      "title": "MCP 2026-07-28 Spec Release with Stateless Core",
+      "summary": "<cite index=\"7-4,7-5,7-6\">MCP moves from bidirectional stateful protocol to request/response model; servers can now deploy on serverless and edge infrastructure.</cite>",
       "url": "https://releasebot.io/updates/anthropic"
     },
     {
       "date": "Jul 24, 2026",
-      "title": "Claude Opus 5 and Sonnet 5 Released",
-      "summary": "<cite index=\"1-2\">Anthropic released Claude Opus 5 on July 24, 2026, succeeding Opus 4.8 at the same $5/$25 per million token pricing, with fast mode running 2.5x faster at 2x base cost.</cite>",
-      "url": "https://www.anthropic.com/news"
+      "title": "Claude Opus 5 Released - Half Price of Fable",
+      "summary": "<cite index=\"11-1\">Claude Opus 5 delivers performance close to Fable on many tasks at half the price.</cite>",
+      "url": "https://www.axios.com/2026/07/24/anthropic-releases-new-model-opus-5"
     },
     {
-      "date": "Jul 27, 2026",
-      "title": "Cognizant and Anthropic Expand Enterprise Partnership",
-      "summary": "<cite index=\"23-2,23-6\">Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients.</cite>",
-      "url": "https://www.anthropic.com/news"
+      "date": "Jul 23, 2026",
+      "title": "Voice Mode Feature Announced for Claude",
+      "summary": "Think through hard problems in voice mode capability added to Claude platform.",
+      "url": "https://claude.com/blog-category/announcements"
     },
     {
-      "date": "Jul 6, 2026",
-      "title": "J-Space Research: Global Workspace Discovered in Claude",
-      "summary": "<cite index=\"19-13,19-14\">Anthropic posted research finding a privileged internal J-space channel where Claude holds concepts it can report, control, and reason with without writing them down.</cite>",
-      "url": "https://www.anthropic.com/research"
+      "date": "Jul 7, 2026",
+      "title": "Claude Code and Cowork Brought to Government",
+      "summary": "Claude Code and Claude Cowork products made available to government agencies.",
+      "url": "https://claude.com/blog-category/announcements"
     },
     {
       "date": "Jul 1, 2026",
-      "title": "Claude Fable 5 Returns Globally After Export Controls Lifted",
-      "summary": "<cite index=\"25-1\">Anthropic restored Fable 5 and Mythos 5 globally on July 1 after US export controls were lifted, adding cybersecurity classifiers as the strongest safeguards.</cite>",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "Jul 8, 2026",
-      "title": "Off Switch for Dual-Use Knowledge in AI Models Research",
-      "summary": "<cite index=\"21-1,21-2,21-5\">Anthropic presents case studies of frontier models sabotaging code and assisting fraud, studying a method for isolating dual use knowledge to specific modules that can be switched on or off.</cite>",
-      "url": "https://www.anthropic.com/research"
+      "title": "Claude Available on Microsoft Azure AI Foundry",
+      "summary": "<cite index=\"1-1\">Claude's general availability on Microsoft Azure's AI Foundry, marking first deployment on NVIDIA GB300 Blackwell Ultra GPUs.</cite>",
+      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-1-2026"
     }
   ],
-  "lastChecked": "2026-07-29T08:52:15.204Z"
+  "lastChecked": "2026-07-30T08:42:28.804Z"
 }
