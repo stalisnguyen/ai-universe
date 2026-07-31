@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-30T08:42:28.804Z",
+  "lastUpdated": "2026-07-31T09:13:28.019Z",
   "categories": [
     {
       "id": "llm",
@@ -23181,12 +23181,359 @@
         ]
       },
       "link": "https://openai.com/presence"
+    },
+    {
+      "id": "acrab-agent-box",
+      "name": "Acrab Agent Box",
+      "company": "Acrab",
+      "category": "agent",
+      "icon": "🤖",
+      "badge": "new",
+      "color": "#1E3A8A",
+      "price": "paid",
+      "priceLabel": "Contact for pricing",
+      "tags": [
+        "edge AI",
+        "local inference",
+        "agents",
+        "privacy"
+      ],
+      "shortDesc": "Personal edge AI system for running large language models locally with agent orchestration.",
+      "fullDesc": "Acrab Agent Box is a high-performance personal edge AI center powered by the GΞLIX 1 SoC, designed to deploy AI agents with local large model inference, persistent memory, and multimodal interactions. It enables users to run 100-billion parameter models on a desktop-sized device while keeping data private and eliminating cloud token fees. Perfect for organizations and individuals seeking autonomous AI agents with complete data privacy and offline capabilities.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Edge AI Hardware with Agent Orchestration"
+        },
+        {
+          "label": "Released",
+          "value": "July 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Private AI agents, autonomous task execution, enterprises needing offline AI"
+        },
+        {
+          "label": "Pricing",
+          "value": "One-time investment model (no recurring cloud fees)"
+        }
+      ],
+      "features": [
+        "Local large language model inference up to 100 billion parameters without cloud dependency",
+        "Persistent memory system that improves agent customization as context deepens",
+        "Multimodal interactions combining language and vision model processing locally",
+        "Agent orchestration layer that understands goals, breaks tasks into steps, and coordinates across devices",
+        "5-nanometer GΞLIX 1 SoC with 20-core Arm CPU and 273 GB/s unified memory bandwidth",
+        "Complete data privacy with all processing and memories stored locally on device",
+        "Eliminates recurring cloud token fees through one-time hardware investment"
+      ],
+      "demo": [
+        {
+          "title": "Local Model Deployment",
+          "desc": "Deploy open-source models like Gemma 26B directly on Agent Box without cloud connectivity, achieving 1416.8 tokens per second prefill performance.",
+          "code": "agent_box.deploy_model('gemma-26b', local=True)"
+        },
+        {
+          "title": "Multi-Agent Orchestration",
+          "desc": "Define agent workflows that understand complex goals, break them into executable steps, and coordinate actions across connected devices.",
+          "code": "agent_box.orchestrate([agent1, agent2], goal='complete_workflow')"
+        },
+        {
+          "title": "Persistent Memory",
+          "desc": "Build AI agents that remember user preferences and context over time, growing more capable and personalized with each interaction.",
+          "code": "agent_box.memory.store('user_preference', value)"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Task Automation",
+          "text": "Create an AI agent that analyzes daily emails, categorizes by priority, and suggests responses based on my communication history."
+        },
+        {
+          "label": "Content Generation",
+          "text": "Set up a local agent that generates reports from structured data while maintaining company-specific terminology and formatting standards."
+        },
+        {
+          "label": "Device Coordination",
+          "text": "Configure an agent that orchestrates actions across smart home devices, adjusting settings based on time of day and user presence."
+        }
+      ],
+      "pricing": {
+        "note": "Agent Box operates as a one-time hardware investment replacing recurring cloud token fees. Pricing reflects the device cost with no subscription requirements, making it economical for long-term, intensive AI agent usage.",
+        "plans": [
+          {
+            "name": "Agent Box Standard",
+            "price": "Contact sales",
+            "per": "one-time",
+            "popular": true,
+            "color": "#1E3A8A",
+            "features": [
+              "GΞLIX 1 SoC with 20-core Arm CPU",
+              "Local model inference up to 100B parameters",
+              "Agent orchestration and persistent memory",
+              "Multimodal language and vision processing"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.acrab.ai/"
+    },
+    {
+      "id": "seedream-5-0-pro",
+      "name": "Seedream 5.0 Pro",
+      "company": "ByteDance",
+      "category": "image",
+      "icon": "🎨",
+      "badge": "pro",
+      "color": "#1890FF",
+      "price": "freemium",
+      "priceLabel": "Free credits + From $6.99/mo",
+      "tags": [
+        "text-to-image",
+        "layer editing",
+        "multilingual",
+        "4K output"
+      ],
+      "shortDesc": "Professional AI image generator with advanced reasoning, layer editing, and native multilingual text rendering.",
+      "fullDesc": "Seedream 5.0 Pro is ByteDance's flagship multimodal AI image generation and editing model designed for production workflows. It features interactive precision editing with layer separation, complex information visualization for infographics, photorealistic imagery, and native text rendering in 14+ languages, enabling creators and teams to generate publication-ready assets with precise control.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Multimodal image generation & editing"
+        },
+        {
+          "label": "Released",
+          "value": "July 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Production design, marketing, infographics, UI mockups, video workflows"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free daily credits, paid plans from $6.99/mo for 400 images"
+        }
+      ],
+      "features": [
+        "Interactive precision editing with point selection, sketch guidance, and region-specific modifications while preserving the rest of the image",
+        "Layer separation and decomposition with alpha PNG support for easy design tool integration",
+        "Complex information visualization for high-density infographics and structured layouts",
+        "Photorealistic imagery with advanced lighting, material behavior, and authentic skin textures",
+        "Native text rendering in 14+ languages including Chinese, English, French, German, Russian, Japanese, Korean, Spanish, and Arabic",
+        "Multi-image composition supporting up to 14 reference images for character consistency and style matching",
+        "Native 4K output with aspect ratio flexibility (1:1, 4:3, 3:4, 16:9, 9:16, 3:2, 2:3, 21:9)",
+        "Deep-thinking prompt reasoning and real-time web search capabilities"
+      ],
+      "demo": [
+        {
+          "title": "Text-to-Image Generation",
+          "desc": "Generate high-quality images from text descriptions with precise control over composition and style.",
+          "code": "Create a minimalist product mockup with clean UI elements and professional typography"
+        },
+        {
+          "title": "Reference-Guided Generation",
+          "desc": "Use up to 14 reference images to maintain character consistency, style matching, and multi-image composition.",
+          "code": "Generate a scene with character from reference image placed in new environment"
+        },
+        {
+          "title": "Interactive Precision Editing",
+          "desc": "Edit specific regions using point selection, sketches, color swaps, or material modifications.",
+          "code": "Change background color in specific area while keeping subject untouched"
+        },
+        {
+          "title": "Multilingual Text Rendering",
+          "desc": "Add native on-image text in 14+ languages with professional formatting and placement control.",
+          "code": "Generate infographic with Japanese text labels and English title"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Infographics",
+          "text": "Create a professional infographic showing market growth trends with clean typography, data visualization, and company colors"
+        },
+        {
+          "label": "Product Marketing",
+          "text": "Design a product mockup with lifestyle elements, professional lighting, and persuasive composition for social media"
+        },
+        {
+          "label": "UI/UX Design",
+          "text": "Generate a mobile app interface mockup with structured layout, readable text, and modern design elements"
+        },
+        {
+          "label": "Educational Content",
+          "text": "Create an educational poster explaining scientific concepts with clear visuals, labeled diagrams, and multilingual annotations"
+        },
+        {
+          "label": "Video Production",
+          "text": "Generate cinematic portrait with professional lighting, depth of field, and composition suitable for video backgrounds"
+        }
+      ],
+      "pricing": {
+        "note": "Seedream 5.0 Pro uses a credit-based system with free daily credits to start. All paid plans include commercial licensing, no watermarks, private generation, and priority 4K rendering.",
+        "plans": [
+          {
+            "name": "Free",
+            "price": "Free",
+            "per": "forever",
+            "popular": false,
+            "color": "#F5F5F5",
+            "features": [
+              "Daily free credits for generation and editing",
+              "Standard quality output",
+              "Community access"
+            ]
+          },
+          {
+            "name": "Starter",
+            "price": "$6.99",
+            "per": "per month",
+            "popular": false,
+            "color": "#E8F4FD",
+            "features": [
+              "400 images per month",
+              "Commercial license included",
+              "Watermark-free output",
+              "Priority support"
+            ]
+          },
+          {
+            "name": "Professional",
+            "price": "$24.99",
+            "per": "per month",
+            "popular": true,
+            "color": "#1890FF",
+            "features": [
+              "1,000+ images per month",
+              "Commercial license included",
+              "4K priority rendering",
+              "Private generation storage",
+              "Priority support"
+            ]
+          },
+          {
+            "name": "Enterprise",
+            "price": "$49.99",
+            "per": "per month",
+            "popular": false,
+            "color": "#0050B3",
+            "features": [
+              "2,000+ images per month",
+              "Commercial license included",
+              "Dedicated API access",
+              "Custom training available",
+              "Premium support tier"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.volcanoengine.com/"
+    },
+    {
+      "id": "google-tensorflow-lite-micro-3-0",
+      "name": "Google TensorFlow Lite Micro 3.0",
+      "company": "Google",
+      "category": "code",
+      "icon": "⚙️",
+      "badge": null,
+      "color": "#FF6F00",
+      "price": "free",
+      "priceLabel": "Free",
+      "tags": [
+        "ML framework",
+        "microcontrollers",
+        "edge AI",
+        "embedded"
+      ],
+      "shortDesc": "Lightweight machine learning framework for running inference on microcontrollers and resource-constrained devices.",
+      "fullDesc": "TensorFlow Lite Micro is a lightweight ML inference runtime designed specifically for microcontrollers and embedded systems with minimal memory. It enables deployment of trained neural network models on edge devices without requiring an operating system, dynamic memory allocation, or cloud connectivity. Ideal for IoT applications, smart sensors, and embedded AI requiring privacy-first, low-power inference.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "ML Inference Framework"
+        },
+        {
+          "label": "Released",
+          "value": "May 2019"
+        },
+        {
+          "label": "Best for",
+          "value": "Embedded ML deployment, microcontroller inference"
+        },
+        {
+          "label": "Pricing",
+          "value": "Open source, Apache 2.0 license"
+        }
+      ],
+      "features": [
+        "Minimal memory footprint - core runtime fits in just 16KB on ARM Cortex-M3",
+        "No operating system required - runs self-contained executables on microcontrollers",
+        "Hardware acceleration support including CMSIS-NN for optimized kernel implementations",
+        "Support for audio and image classification, gesture recognition, and keyword spotting",
+        "Model optimization tools for reduced binary size and quantization",
+        "Multi-platform support including ARM, RISC-V, and DSP architectures",
+        "Arduino IDE integration for easy prototyping and deployment",
+        "Low-power inference enabling battery-operated edge AI devices"
+      ],
+      "demo": [
+        {
+          "title": "Convert TensorFlow model to TFLite Micro format",
+          "desc": "Convert a trained TensorFlow model to a C header file containing the quantized model as a byte array for microcontroller deployment.",
+          "code": "converter = tf.lite.TFLiteConverter.from_saved_model('model_path')\nconverter.optimizations = [tf.lite.Optimize.DEFAULT]\ntflite_model = converter.convert()"
+        },
+        {
+          "title": "Deploy on Arduino-compatible microcontroller",
+          "desc": "Load the model from the C header file and run inference using the TensorFlow Lite Micro interpreter with minimal setup.",
+          "code": "#include \"model.h\"\n#include \"tensorflow/lite/micro/all_ops_resolver.h\"\nconst tflite::Model* model = tflite::GetModel(model_tflite);\ntflite::MicroInterpreter interpreter(model, resolver, tensor_arena, kTensorArenaSize);"
+        },
+        {
+          "title": "Run inference on sensor data",
+          "desc": "Process input data from sensors (audio, accelerometer, camera) and invoke the interpreter to obtain predictions.",
+          "code": "interpreter.Invoke();\nTfLiteTensor* output = interpreter.output(0);\nfloat* output_data = output->data.f;"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Audio classification",
+          "text": "Deploy a keyword spotting model on ESP32 to recognize 'yes' and 'no' commands locally without cloud connectivity"
+        },
+        {
+          "label": "Motion sensing",
+          "text": "Run a gesture recognition model on Arduino using accelerometer data to detect hand movements (wave, punch, flex)"
+        },
+        {
+          "label": "Object detection",
+          "text": "Use a quantized MobileNet model on a microcontroller with camera module for real-time image classification"
+        },
+        {
+          "label": "Anomaly detection",
+          "text": "Deploy a neural network model on an IoT sensor to detect equipment failures and unusual patterns in real-time"
+        }
+      ],
+      "pricing": {
+        "note": "TensorFlow Lite Micro is fully open-source under the Apache 2.0 license with no licensing restrictions. Development tools, documentation, and community support are freely available.",
+        "plans": [
+          {
+            "name": "Open Source",
+            "price": "Free",
+            "per": "forever",
+            "popular": true,
+            "color": "#FF6F00",
+            "features": [
+              "Complete ML inference framework for microcontrollers",
+              "Full source code access and modification rights",
+              "Hardware acceleration library integrations",
+              "Community support and documentation"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.tensorflow.org/lite/microcontrollers"
     }
   ],
   "totw": {
     "name": "Prefactor",
     "tagline": "Evaluate your AI Agents in real-time",
-    "votesCount": 600,
+    "votesCount": 604,
     "url": "https://www.producthunt.com/products/prefactor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/4ffa8a62-0b8a-4920-813e-e2f34bb5b68d.png?auto=format",
     "rank": 1,
@@ -23195,40 +23542,46 @@
       "Developer Tools",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-07-30T08:41:02.641Z"
+    "fetchedAt": "2026-07-31T09:11:50.932Z"
   },
   "lastWeeklyUpdate": "2026-07-26T09:01:34.675Z",
   "anthropicNews": [
     {
       "date": "Jul 28, 2026",
-      "title": "MCP 2026-07-28 Spec Release with Stateless Core",
-      "summary": "<cite index=\"7-4,7-5,7-6\">MCP moves from bidirectional stateful protocol to request/response model; servers can now deploy on serverless and edge infrastructure.</cite>",
+      "title": "MCP 2026-07-28 Spec Released with Stateless Architecture",
+      "summary": "<cite index=\"8-1\">Claude expands support for new MCP spec with stateless core, stronger authorization, and versioned extensions</cite>",
       "url": "https://releasebot.io/updates/anthropic"
     },
     {
       "date": "Jul 24, 2026",
-      "title": "Claude Opus 5 Released - Half Price of Fable",
-      "summary": "<cite index=\"11-1\">Claude Opus 5 delivers performance close to Fable on many tasks at half the price.</cite>",
-      "url": "https://www.axios.com/2026/07/24/anthropic-releases-new-model-opus-5"
+      "title": "Claude Opus 5 Released as Cost-Efficient Model",
+      "summary": "<cite index=\"12-1\">Opus 5 is step change improvement for Opus tier powering long-running agents with coding and professional work improvements</cite>",
+      "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Jul 23, 2026",
-      "title": "Voice Mode Feature Announced for Claude",
-      "summary": "Think through hard problems in voice mode capability added to Claude platform.",
-      "url": "https://claude.com/blog-category/announcements"
-    },
-    {
-      "date": "Jul 7, 2026",
-      "title": "Claude Code and Cowork Brought to Government",
-      "summary": "Claude Code and Claude Cowork products made available to government agencies.",
-      "url": "https://claude.com/blog-category/announcements"
+      "date": "Jul 9, 2026",
+      "title": "Anthropic Invites Public Questions About AI Safety",
+      "summary": "<cite index=\"12-3\">Anthropic asks public for hardest questions about AI and commits to show work addressing them</cite>",
+      "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Jul 1, 2026",
-      "title": "Claude Available on Microsoft Azure AI Foundry",
-      "summary": "<cite index=\"1-1\">Claude's general availability on Microsoft Azure's AI Foundry, marking first deployment on NVIDIA GB300 Blackwell Ultra GPUs.</cite>",
-      "url": "https://www.buildfastwithai.com/blogs/ai-news-today-july-1-2026"
+      "title": "Claude Fable 5 and Mythos 5 Restored Globally",
+      "summary": "<cite index=\"3-2\">Claude Fable 5 restored across API and subscription plans after export control directive lifting</cite>",
+      "url": "https://www.anthropic.com/news/redeploying-fable-5"
+    },
+    {
+      "date": "Jun 30, 2026",
+      "title": "Claude Sonnet 5 Launched as Default Model",
+      "summary": "<cite index=\"3-3\">Claude Sonnet 5 released as default model for Free and Pro plans across all platforms</cite>",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Jun 30, 2026",
+      "title": "Claude Science Product Announced for Research",
+      "summary": "<cite index=\"13-1\">Claude Science launched for all paid subscribers to support scientific research and drug discovery</cite>",
+      "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/"
     }
   ],
-  "lastChecked": "2026-07-30T08:42:28.804Z"
+  "lastChecked": "2026-07-31T09:13:28.019Z"
 }
