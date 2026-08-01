@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-31T09:13:28.019Z",
+  "lastUpdated": "2026-08-01T08:30:57.151Z",
   "categories": [
     {
       "id": "llm",
@@ -23533,7 +23533,7 @@
   "totw": {
     "name": "Prefactor",
     "tagline": "Evaluate your AI Agents in real-time",
-    "votesCount": 604,
+    "votesCount": 602,
     "url": "https://www.producthunt.com/products/prefactor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/4ffa8a62-0b8a-4920-813e-e2f34bb5b68d.png?auto=format",
     "rank": 1,
@@ -23542,46 +23542,46 @@
       "Developer Tools",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-07-31T09:11:50.932Z"
+    "fetchedAt": "2026-08-01T08:30:15.472Z"
   },
   "lastWeeklyUpdate": "2026-07-26T09:01:34.675Z",
   "anthropicNews": [
     {
       "date": "Jul 28, 2026",
-      "title": "MCP 2026-07-28 Spec Released with Stateless Architecture",
-      "summary": "<cite index=\"8-1\">Claude expands support for new MCP spec with stateless core, stronger authorization, and versioned extensions</cite>",
+      "title": "Claude Expands MCP 2026-07-28 Spec Support",
+      "summary": "<cite index=\"4-11\">Claude expands support for the new MCP 2026-07-28 spec, bringing stateless core, stronger OAuth and OIDC authorization, and versioned extensions</cite>.",
       "url": "https://releasebot.io/updates/anthropic"
     },
     {
       "date": "Jul 24, 2026",
-      "title": "Claude Opus 5 Released as Cost-Efficient Model",
-      "summary": "<cite index=\"12-1\">Opus 5 is step change improvement for Opus tier powering long-running agents with coding and professional work improvements</cite>",
-      "url": "https://www.anthropic.com/news"
+      "title": "Anthropic Releases Claude Opus 5",
+      "summary": "<cite index=\"5-1\">Claude Opus 5 is a step-change improvement over Opus 4.8, coming close to Fable 5's frontier intelligence at half the price</cite>.",
+      "url": "https://www.axios.com/2026/07/24/anthropic-releases-new-model-opus-5"
     },
     {
-      "date": "Jul 9, 2026",
-      "title": "Anthropic Invites Public Questions About AI Safety",
-      "summary": "<cite index=\"12-3\">Anthropic asks public for hardest questions about AI and commits to show work addressing them</cite>",
-      "url": "https://www.anthropic.com/news"
+      "date": "Jul 23, 2026",
+      "title": "Voice Mode Extended Thinking Feature",
+      "summary": "<cite index=\"1-11\">Think through hard problems in voice mode available on Claude</cite>.",
+      "url": "https://claude.com/blog-category/announcements"
     },
     {
-      "date": "Jul 1, 2026",
-      "title": "Claude Fable 5 and Mythos 5 Restored Globally",
-      "summary": "<cite index=\"3-2\">Claude Fable 5 restored across API and subscription plans after export control directive lifting</cite>",
-      "url": "https://www.anthropic.com/news/redeploying-fable-5"
-    },
-    {
-      "date": "Jun 30, 2026",
-      "title": "Claude Sonnet 5 Launched as Default Model",
-      "summary": "<cite index=\"3-3\">Claude Sonnet 5 released as default model for Free and Pro plans across all platforms</cite>",
-      "url": "https://www.anthropic.com/news"
+      "date": "Jul 20, 2026",
+      "title": "Claude Fable 5 Finalized Subscription Availability",
+      "summary": "<cite index=\"2-6\">Anthropic finalized Claude Fable 5's subscription availability: Max and Team Premium plans keep Fable 5 included, while Pro and Team Standard access moves to metered usage</cite>.",
+      "url": "https://claudelog.com/claude-news/"
     },
     {
       "date": "Jun 30, 2026",
-      "title": "Claude Science Product Announced for Research",
-      "summary": "<cite index=\"13-1\">Claude Science launched for all paid subscribers to support scientific research and drug discovery</cite>",
-      "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/"
+      "title": "Claude Sonnet 5 Released",
+      "summary": "<cite index=\"2-4,2-5\">Claude Sonnet 5 replaced Sonnet 4.6 as the default model with substantial gains in multi-step reasoning, tool use, coding, and knowledge work</cite>.",
+      "url": "https://claude.com/blog-category/announcements"
+    },
+    {
+      "date": "Aug 31, 2026",
+      "title": "Sonnet 5 Pricing Change to Standard Rates",
+      "summary": "<cite index=\"2-1\">Claude Sonnet 5's promotional pricing of $2/$10 per million tokens ends August 31, 2026, with standard pricing of $3/$15 taking effect September 1</cite>.",
+      "url": "https://platform.claude.com/docs/en/about-claude/pricing"
     }
   ],
-  "lastChecked": "2026-07-31T09:13:28.019Z"
+  "lastChecked": "2026-08-01T08:30:57.151Z"
 }
