@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-01T08:30:57.151Z",
+  "lastUpdated": "2026-08-02T08:33:29.490Z",
   "categories": [
     {
       "id": "llm",
@@ -23528,60 +23528,144 @@
         ]
       },
       "link": "https://www.tensorflow.org/lite/microcontrollers"
+    },
+    {
+      "id": "walden-robotics",
+      "name": "Walden Robotics",
+      "company": "Walden Robotics",
+      "category": "physical-ai",
+      "icon": "🤖",
+      "badge": "hot",
+      "color": "#FF8A00",
+      "price": "paid",
+      "priceLabel": "Enterprise pricing (contact sales)",
+      "tags": [
+        "general-purpose robots",
+        "physical AI",
+        "manufacturing automation",
+        "humanoid"
+      ],
+      "shortDesc": "General-purpose robots using AI to automate complex manufacturing and logistics tasks.",
+      "fullDesc": "Walden Robotics builds full-stack physical AI robots that continuously learn and improve while performing real work in factories and warehouses. The company deploys humanoid robots with diffusion policy and large behavior models to handle tasks like machine tending, tool setting, parts kitting, and assembly across automotive, aerospace, semiconductors, and logistics.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Physical AI / General-Purpose Robots"
+        },
+        {
+          "label": "Released",
+          "value": "January 2026 (launched from stealth July 2026)"
+        },
+        {
+          "label": "Best for",
+          "value": "Manufacturing, logistics, and production automation across automotive, aerospace, semiconductors, electronics, and life sciences"
+        },
+        {
+          "label": "Pricing",
+          "value": "Enterprise/custom pricing - contact sales"
+        }
+      ],
+      "features": [
+        "Humanoid robot design with two arms and wheeled base for factory safety certification",
+        "Large Behavior Models (LBMs) enabling rapid learning of new complex tasks",
+        "Diffusion Policy technology for dexterous manipulation and continuous improvement",
+        "Imitation learning, simulation, and teleoperation for task training",
+        "Multi-task capability across machine tending, assembly, parts kitting, and tool setting",
+        "Deployed in production environments with active learning from real-world operations",
+        "Full-stack integration of hardware, software, and AI application layers",
+        "Integration with existing production systems and manufacturing workflows"
+      ],
+      "demo": [
+        {
+          "title": "Task Assignment",
+          "desc": "Skilled workers delegate difficult-to-automate tasks to Walden robots while focusing on problem-solving and decision-making.",
+          "code": null
+        },
+        {
+          "title": "Continuous Learning",
+          "desc": "Robots learn new tasks through imitation, simulation, and teleoperation, improving performance in production environments.",
+          "code": null
+        },
+        {
+          "title": "Production Deployment",
+          "desc": "Walden robots move from pilot to productive operations in manufacturing facilities, handling real-world production tasks.",
+          "code": null
+        }
+      ],
+      "prompts": [],
+      "pricing": {
+        "note": "Walden Robotics operates on enterprise deployment model with custom pricing based on specific manufacturing needs and robot configurations. The company values partnerships with industry leaders including Toyota, NVIDIA, and Boeing.",
+        "plans": [
+          {
+            "name": "Enterprise Deployment",
+            "price": "Custom",
+            "per": "custom",
+            "popular": true,
+            "color": "#FF8A00",
+            "features": [
+              "Full-stack physical AI robot deployment",
+              "Custom integration with existing production systems",
+              "Continuous learning and task adaptation",
+              "On-site support and optimization"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.waldenrobotics.com/"
     }
   ],
   "totw": {
-    "name": "Prefactor",
-    "tagline": "Evaluate your AI Agents in real-time",
-    "votesCount": 602,
-    "url": "https://www.producthunt.com/products/prefactor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
-    "thumbnail": "https://ph-files.imgix.net/4ffa8a62-0b8a-4920-813e-e2f34bb5b68d.png?auto=format",
+    "name": "Prelint",
+    "tagline": "Prevent product drift in AI-written code",
+    "votesCount": 610,
+    "url": "https://www.producthunt.com/products/prelint?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
+    "thumbnail": "https://ph-files.imgix.net/2e85ae4d-5d7d-4547-9839-4c8fb5e5e29a.png?auto=format",
     "rank": 1,
     "topics": [
-      "SaaS",
+      "Software Engineering",
       "Developer Tools",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-08-01T08:30:15.472Z"
+    "fetchedAt": "2026-08-02T08:32:57.538Z"
   },
   "lastWeeklyUpdate": "2026-07-26T09:01:34.675Z",
   "anthropicNews": [
     {
       "date": "Jul 28, 2026",
-      "title": "Claude Expands MCP 2026-07-28 Spec Support",
-      "summary": "<cite index=\"4-11\">Claude expands support for the new MCP 2026-07-28 spec, bringing stateless core, stronger OAuth and OIDC authorization, and versioned extensions</cite>.",
-      "url": "https://releasebot.io/updates/anthropic"
+      "title": "Claude Supports New MCP 2026-07-28 Spec",
+      "summary": "<cite index=\"3-9,3-10\">Claude expands MCP support with stateless core, OAuth/OIDC authorization, and new connector features including embedded UI and enterprise auth</cite>.",
+      "url": "https://releasebot.io/updates/anthropic/claude"
+    },
+    {
+      "date": "Jul 27, 2026",
+      "title": "Cognizant Expands Partnership with Anthropic",
+      "summary": "<cite index=\"1-1\">Cognizant and Anthropic expand partnership to bring Claude to enterprise clients</cite>.",
+      "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Jul 24, 2026",
-      "title": "Anthropic Releases Claude Opus 5",
-      "summary": "<cite index=\"5-1\">Claude Opus 5 is a step-change improvement over Opus 4.8, coming close to Fable 5's frontier intelligence at half the price</cite>.",
+      "title": "Claude Opus 5 Released",
+      "summary": "<cite index=\"8-1\">Opus 5 delivers performance close to Fable at half the price with same $5/$25 per million token pricing</cite>.",
       "url": "https://www.axios.com/2026/07/24/anthropic-releases-new-model-opus-5"
     },
     {
       "date": "Jul 23, 2026",
-      "title": "Voice Mode Extended Thinking Feature",
-      "summary": "<cite index=\"1-11\">Think through hard problems in voice mode available on Claude</cite>.",
+      "title": "Voice Mode Thinking Feature Added",
+      "summary": "Claude adds thinking feature to voice mode for solving harder problems with extended reasoning.",
       "url": "https://claude.com/blog-category/announcements"
     },
     {
-      "date": "Jul 20, 2026",
-      "title": "Claude Fable 5 Finalized Subscription Availability",
-      "summary": "<cite index=\"2-6\">Anthropic finalized Claude Fable 5's subscription availability: Max and Team Premium plans keep Fable 5 included, while Pro and Team Standard access moves to metered usage</cite>.",
-      "url": "https://claudelog.com/claude-news/"
+      "date": "Jul 9, 2026",
+      "title": "Anthropic Asks Public for Hardest AI Questions",
+      "summary": "<cite index=\"17-2\">Anthropic requests hardest questions about AI and commits to show its work addressing them</cite>.",
+      "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Jun 30, 2026",
-      "title": "Claude Sonnet 5 Released",
-      "summary": "<cite index=\"2-4,2-5\">Claude Sonnet 5 replaced Sonnet 4.6 as the default model with substantial gains in multi-step reasoning, tool use, coding, and knowledge work</cite>.",
-      "url": "https://claude.com/blog-category/announcements"
-    },
-    {
-      "date": "Aug 31, 2026",
-      "title": "Sonnet 5 Pricing Change to Standard Rates",
-      "summary": "<cite index=\"2-1\">Claude Sonnet 5's promotional pricing of $2/$10 per million tokens ends August 31, 2026, with standard pricing of $3/$15 taking effect September 1</cite>.",
-      "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+      "date": "Jul 1, 2026",
+      "title": "Claude Fable 5 Globally Redeployed",
+      "summary": "<cite index=\"4-1\">Fable 5 redeployed globally with updated cybersecurity safeguards after export-control directive lifted</cite>.",
+      "url": "https://www.anthropic.com/news"
     }
   ],
-  "lastChecked": "2026-08-01T08:30:57.151Z"
+  "lastChecked": "2026-08-02T08:33:29.490Z"
 }
