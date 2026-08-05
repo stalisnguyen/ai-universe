@@ -24180,57 +24180,57 @@
     }
   ],
   "totw": {
-    "name": "Prelint",
-    "tagline": "Prevent product drift in AI-written code",
-    "votesCount": 665,
-    "url": "https://www.producthunt.com/products/prelint?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
-    "thumbnail": "https://ph-files.imgix.net/2e85ae4d-5d7d-4547-9839-4c8fb5e5e29a.png?auto=format",
+    "name": "SKI",
+    "tagline": "Free voice coding for Claude Code, Codex and more",
+    "votesCount": 639,
+    "url": "https://www.producthunt.com/products/ski?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
+    "thumbnail": "https://ph-files.imgix.net/4936ae7e-f021-4b98-860e-a5bc9ade7829.png?auto=format",
     "rank": 1,
     "topics": [
-      "Software Engineering",
+      "Productivity",
       "Developer Tools",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-08-04T08:49:33.562Z"
+    "fetchedAt": "2026-08-05T08:46:33.474Z"
   },
   "lastWeeklyUpdate": "2026-08-04T09:18:07.063Z",
   "anthropicNews": [
     {
-      "date": "Jul 24, 2026",
-      "title": "Anthropic Launches Claude Opus 5",
-      "summary": "<cite index=\"3-1\">Claude Opus 5 is a high-efficiency frontier model designed to deliver near-frontier intelligence comparable to Claude Fable 5 while cutting computational costs in half.</cite>",
+      "date": "Aug 4, 2026",
+      "title": "Mariano-Florentino Cuéllar Named Chief Global Affairs Officer",
+      "summary": "Anthropic appoints Mariano-Florentino Cuéllar as Chief Global Affairs Officer.",
       "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Jul 29, 2026",
-      "title": "Claude Discovers Cryptographic Algorithm Weaknesses",
-      "summary": "<cite index=\"16-1\">Claude Mythos Preview discovered improved mathematical attacks against the HAWK post-quantum digital signature candidate and a reduced-round version of AES.</cite>",
-      "url": "https://thequantuminsider.com/2026/07/29/ai-finds-new-weaknesses-in-cryptographic-algorithms-anthropic-says/"
+      "date": "Jul 30, 2026",
+      "title": "Anthropic Investigates Three Real-World Cybersecurity Incidents",
+      "summary": "Anthropic releases findings from cybersecurity evaluations involving three unauthorized access incidents.",
+      "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Jul 28, 2026",
-      "title": "Claude Supports MCP 2026-07-28 Spec Update",
-      "summary": "<cite index=\"13-1\">Claude expands support for the new MCP 2026-07-28 spec, bringing a stateless core, stronger OAuth and OIDC authorization, and versioned extensions.</cite>",
-      "url": "https://releasebot.io/updates/anthropic/claude"
+      "date": "Jul 24, 2026",
+      "title": "Claude Opus 5 Released",
+      "summary": "Anthropic designed Opus 5 to deliver performance close to its most powerful model, Fable, on many tasks at half the price.",
+      "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Jul 20, 2026",
-      "title": "Anthropic Partners with AMD for Computing",
-      "summary": "<cite index=\"4-1,4-2\">Anthropic announced a massive multi-year strategic partnership with AMD to power the growing compute demands of the Claude ecosystem.</cite>",
-      "url": "https://updatedbulletins.com/ai-news-july-2026-openai-google-anthropic-updates/"
+      "date": "Jul 8, 2026",
+      "title": "Anthropic Launches Four Official Claude Certifications",
+      "summary": "Anthropic introduced four official Claude certifications on July 8, 2026, delivered through Pearson VUE with OnVUE online proctoring.",
+      "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Jul 6, 2026",
-      "title": "Anthropic Discovers Global Workspace in Claude",
-      "summary": "<cite index=\"18-2\">New interpretability research reveals an emergent mental workspace in Claude that holds internal thoughts that don't appear in the model's output.</cite>",
-      "url": "https://www.anthropic.com/research"
+      "date": "Jul 1, 2026",
+      "title": "Claude Fable 5 Restored Globally After Export Control Lift",
+      "summary": "Following the June 30 lifting of the U.S. Commerce Department export-control directive, Anthropic restored Claude Fable 5 on July 1, 2026 across the Claude API and subscription plans.",
+      "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Jun 30, 2026",
-      "title": "Anthropic Launches Claude Science Research Workbench",
-      "summary": "<cite index=\"17-1\">Anthropic launched Claude Science, an AI workbench for scientific research, on June 30, 2026.</cite>",
-      "url": "https://www.forbes.com/sites/johndrake/2026/06/30/anthropics-new-ai-workbench-mapped-my-field-for-26-now-imagine-it-aimed-at-the-rest-of-science/"
+      "date": "Jun 9, 2026",
+      "title": "Claude Fable 5 and Claude Mythos 5 Released",
+      "summary": "Anthropic released Claude Fable 5 on June 9, 2026, superseding Opus 4.8 with state-of-the-art results on Cognition's FrontierCode evaluation.",
+      "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
     }
   ],
-  "lastChecked": "2026-08-04T09:21:20.636Z"
+  "lastChecked": "2026-08-05T08:46:59.405Z"
 }
