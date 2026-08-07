@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-02T08:33:29.490Z",
+  "lastUpdated": "2026-08-07T07:35:49.916Z",
   "categories": [
     {
       "id": "llm",
@@ -24180,57 +24180,57 @@
     }
   ],
   "totw": {
-    "name": "AdAnt AI",
-    "tagline": "Claude for viral, high-converting social ads",
-    "votesCount": 587,
-    "url": "https://www.producthunt.com/products/adant-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
-    "thumbnail": "https://ph-files.imgix.net/6206777f-775d-4ab0-a9c5-72d06df2ee77.png?auto=format",
+    "name": "Hey Noah",
+    "tagline": "A proactive AI executive assistant for founders",
+    "votesCount": 575,
+    "url": "https://www.producthunt.com/products/hey-noah?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
+    "thumbnail": "https://ph-files.imgix.net/683a6add-051e-41db-bdd2-b7f76c07c261.png?auto=format",
     "rank": 1,
     "topics": [
-      "Advertising",
-      "Artificial Intelligence",
-      "Social media marketing"
+      "Productivity",
+      "Calendar",
+      "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-08-06T08:48:15.167Z"
+    "fetchedAt": "2026-08-07T07:34:51.489Z"
   },
   "lastWeeklyUpdate": "2026-08-04T09:18:07.063Z",
   "anthropicNews": [
     {
-      "date": "Aug 5, 2026",
-      "title": "Claude adds inference hooks beta for Enterprise",
-      "summary": "<cite index=\"7-11,7-12\">Claude adds inference hooks in beta for Enterprise, giving compliance teams real-time DLP enforcement across chat, Claude Code, and Cowork</cite>",
+      "date": "Aug 4, 2026",
+      "title": "Mariano-Florentino Cuéllar joins as Chief Global Affairs Officer",
+      "summary": "Anthropic announces new leadership appointment to head global affairs operations.",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Aug 4, 2026",
+      "title": "Inference hooks in beta for Enterprise compliance teams",
+      "summary": "<cite index=\"4-5,4-6\">Claude adds real-time DLP enforcement across chat, Claude Code, Cowork, inspecting prompts and tool calls before they reach the model.</cite>",
       "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Jul 28, 2026",
-      "title": "Anthropic releases Model Context Protocol 2026-07-28",
-      "summary": "<cite index=\"9-3,9-4\">Claude now lists over 950 MCP servers, with the new spec featuring a stateless core and standardized extensions for lower-friction integration</cite>",
+      "title": "MCP 2026-07-28 spec released with stateless core",
+      "summary": "<cite index=\"18-8\">Claude now lists over 950 MCP servers in the connectors directory, used by millions of people daily.</cite>",
       "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Jul 24, 2026",
-      "title": "Claude Opus 5 released with 1M context window",
-      "summary": "<cite index=\"6-1\">Claude Opus 5 released with 1-million-token context window, 128K output tokens, and becomes the new default on Claude Max plan</cite>",
-      "url": "https://www.anthropic.com/news"
+      "title": "Claude Opus 5 launches at half the price of Fable 5",
+      "summary": "<cite index=\"7-1\">Anthropic designed Opus 5 to deliver performance close to Fable at half the price.</cite>",
+      "url": "https://blog.anthropic.com/introducing-claude-opus-5"
+    },
+    {
+      "date": "Aug 3, 2026",
+      "title": "Anthropic signs $10 billion computing deal with CoreWeave",
+      "summary": "Anthropic announces major infrastructure investment to support growing model compute demands.",
+      "url": "https://www.bloomberg.com/latest/anthropic"
     },
     {
       "date": "Jul 20, 2026",
-      "title": "Claude Fable 5 finalized for subscription availability",
-      "summary": "<cite index=\"1-6\">Claude Fable 5 subscription availability finalized with Max and Team Premium keeping it at up to 50% of weekly usage limits</cite>",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "Jul 1, 2026",
-      "title": "Claude Fable 5 restored following export control lift",
-      "summary": "<cite index=\"1-3\">Claude Fable 5 restored across Claude API and subscription plans following June 30 lifting of U.S. export-control directive</cite>",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "Jun 30, 2026",
-      "title": "Claude Sonnet 5 released as new default model",
-      "summary": "<cite index=\"1-4,1-5\">Claude Sonnet 5 released, replacing Sonnet 4.6 with substantial gains in multi-step reasoning, tool use, coding, and knowledge work</cite>",
-      "url": "https://www.anthropic.com/news"
+      "title": "Claude Fable 5 subscription pricing finalized",
+      "summary": "<cite index=\"2-3,2-4\">Max and Team Premium plans keep Fable 5 included; Pro and Team Standard move to metered credits with $100 promotional offer through August 2.</cite>",
+      "url": "https://claudelog.com/claude-news"
     }
   ],
-  "lastChecked": "2026-08-06T08:48:39.518Z"
+  "lastChecked": "2026-08-07T07:35:49.916Z"
 }
