@@ -24180,57 +24180,57 @@
     }
   ],
   "totw": {
-    "name": "Hey Noah",
-    "tagline": "A proactive AI executive assistant for founders",
-    "votesCount": 575,
-    "url": "https://www.producthunt.com/products/hey-noah?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
-    "thumbnail": "https://ph-files.imgix.net/683a6add-051e-41db-bdd2-b7f76c07c261.png?auto=format",
+    "name": "Wispr Flow Notetaker",
+    "tagline": "Meeting notes that get the details right.",
+    "votesCount": 574,
+    "url": "https://www.producthunt.com/products/wisprflow?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
+    "thumbnail": "https://ph-files.imgix.net/4754f10b-0e91-4d5f-9d45-877ef6a06ca2.gif?auto=format",
     "rank": 1,
     "topics": [
-      "Productivity",
-      "Calendar",
+      "Notes",
+      "Meetings",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-08-07T07:34:51.489Z"
+    "fetchedAt": "2026-08-08T07:04:17.079Z"
   },
   "lastWeeklyUpdate": "2026-08-04T09:18:07.063Z",
   "anthropicNews": [
     {
       "date": "Aug 4, 2026",
       "title": "Mariano-Florentino Cuéllar joins as Chief Global Affairs Officer",
-      "summary": "Anthropic announces new leadership appointment to head global affairs operations.",
+      "summary": "Anthropic announces leadership addition of key executive for global affairs.",
       "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Aug 4, 2026",
-      "title": "Inference hooks in beta for Enterprise compliance teams",
-      "summary": "<cite index=\"4-5,4-6\">Claude adds real-time DLP enforcement across chat, Claude Code, Cowork, inspecting prompts and tool calls before they reach the model.</cite>",
+      "date": "Jul 30, 2026",
+      "title": "Research on cybersecurity incidents and jailbreak severity scoring",
+      "summary": "Anthropic investigates three real-world incidents, proposes industry framework.",
       "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Jul 28, 2026",
-      "title": "MCP 2026-07-28 spec released with stateless core",
-      "summary": "<cite index=\"18-8\">Claude now lists over 950 MCP servers in the connectors directory, used by millions of people daily.</cite>",
+      "title": "MCP specification 2026-07-28 release with stateless core",
+      "summary": "New Model Context Protocol spec reduces complexity, improves developer experience.",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Jul 27, 2026",
+      "title": "Cognizant partnership expands Claude to enterprise clients",
+      "summary": "Anthropic and Cognizant deepen partnership for enterprise deployment.",
       "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Jul 24, 2026",
-      "title": "Claude Opus 5 launches at half the price of Fable 5",
-      "summary": "<cite index=\"7-1\">Anthropic designed Opus 5 to deliver performance close to Fable at half the price.</cite>",
-      "url": "https://blog.anthropic.com/introducing-claude-opus-5"
+      "title": "Claude Opus 5 released with faster, cost-efficient performance",
+      "summary": "<cite index=\"9-1\">Designed to deliver performance close to Fable on many tasks at half the price.</cite>",
+      "url": "https://www.axios.com/2026/07/24/anthropic-releases-new-model-opus-5"
     },
     {
-      "date": "Aug 3, 2026",
-      "title": "Anthropic signs $10 billion computing deal with CoreWeave",
-      "summary": "Anthropic announces major infrastructure investment to support growing model compute demands.",
-      "url": "https://www.bloomberg.com/latest/anthropic"
-    },
-    {
-      "date": "Jul 20, 2026",
-      "title": "Claude Fable 5 subscription pricing finalized",
-      "summary": "<cite index=\"2-3,2-4\">Max and Team Premium plans keep Fable 5 included; Pro and Team Standard move to metered credits with $100 promotional offer through August 2.</cite>",
-      "url": "https://claudelog.com/claude-news"
+      "date": "Jul 1, 2026",
+      "title": "Claude Cowork expands to mobile and web platforms",
+      "summary": "<cite index=\"6-12\">Lets sessions and files follow across devices with background work and shared chat.</cite>",
+      "url": "https://www.anthropic.com/news"
     }
   ],
-  "lastChecked": "2026-08-07T07:35:49.916Z"
+  "lastChecked": "2026-08-08T07:04:33.187Z"
 }
