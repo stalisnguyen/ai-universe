@@ -24182,7 +24182,7 @@
   "totw": {
     "name": "Wispr Flow Notetaker",
     "tagline": "Meeting notes that get the details right.",
-    "votesCount": 574,
+    "votesCount": 575,
     "url": "https://www.producthunt.com/products/wisprflow?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/4754f10b-0e91-4d5f-9d45-877ef6a06ca2.gif?auto=format",
     "rank": 1,
@@ -24191,46 +24191,46 @@
       "Meetings",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-08-08T07:04:17.079Z"
+    "fetchedAt": "2026-08-09T07:06:50.075Z"
   },
   "lastWeeklyUpdate": "2026-08-04T09:18:07.063Z",
   "anthropicNews": [
     {
       "date": "Aug 4, 2026",
       "title": "Mariano-Florentino Cuéllar joins as Chief Global Affairs Officer",
-      "summary": "Anthropic announces leadership addition of key executive for global affairs.",
+      "summary": "Anthropic appoints Mariano-Florentino (Tino) Cuéllar to new executive leadership role.",
       "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Jul 30, 2026",
-      "title": "Research on cybersecurity incidents and jailbreak severity scoring",
-      "summary": "Anthropic investigates three real-world incidents, proposes industry framework.",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "Jul 28, 2026",
-      "title": "MCP specification 2026-07-28 release with stateless core",
-      "summary": "New Model Context Protocol spec reduces complexity, improves developer experience.",
+      "title": "Anthropic releases cybersecurity evaluation report",
+      "summary": "Anthropic investigates three real-world incidents in their cybersecurity evaluations.",
       "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Jul 27, 2026",
-      "title": "Cognizant partnership expands Claude to enterprise clients",
-      "summary": "Anthropic and Cognizant deepen partnership for enterprise deployment.",
+      "title": "Cognizant expands partnership with Anthropic for enterprise",
+      "summary": "Cognizant and Anthropic expand partnership to bring Claude to enterprise clients.",
       "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Jul 24, 2026",
-      "title": "Claude Opus 5 released with faster, cost-efficient performance",
-      "summary": "<cite index=\"9-1\">Designed to deliver performance close to Fable on many tasks at half the price.</cite>",
+      "title": "Claude Opus 5 released at half the price of Fable",
+      "summary": "<cite index=\"8-1\">Anthropic releases Claude Opus 5, designed for high performance at half the price of Fable</cite>.",
       "url": "https://www.axios.com/2026/07/24/anthropic-releases-new-model-opus-5"
     },
     {
-      "date": "Jul 1, 2026",
-      "title": "Claude Cowork expands to mobile and web platforms",
-      "summary": "<cite index=\"6-12\">Lets sessions and files follow across devices with background work and shared chat.</cite>",
+      "date": "Jul 28, 2026",
+      "title": "MCP 2026-07-28 specification released with stateless core",
+      "summary": "<cite index=\"12-1\">Updated Model Context Protocol with stateless core and standardized extensions for better developer experience</cite>.",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Early Aug 2026",
+      "title": "Claude for Government enters beta with full deployment support",
+      "summary": "<cite index=\"5-8,5-9\">Claude for Government available in beta with Anthropic as contracted billing party</cite>.",
       "url": "https://www.anthropic.com/news"
     }
   ],
-  "lastChecked": "2026-08-08T07:04:33.187Z"
+  "lastChecked": "2026-08-09T07:07:13.792Z"
 }
