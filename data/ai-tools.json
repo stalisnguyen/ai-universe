@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-07T07:35:49.916Z",
+  "lastUpdated": "2026-08-10T07:55:38.944Z",
   "categories": [
     {
       "id": "llm",
@@ -24180,57 +24180,57 @@
     }
   ],
   "totw": {
-    "name": "Wispr Flow Notetaker",
-    "tagline": "Meeting notes that get the details right.",
-    "votesCount": 575,
-    "url": "https://www.producthunt.com/products/wisprflow?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
-    "thumbnail": "https://ph-files.imgix.net/4754f10b-0e91-4d5f-9d45-877ef6a06ca2.gif?auto=format",
+    "name": "AdAnt AI",
+    "tagline": "Claude for viral, high-converting social ads",
+    "votesCount": 599,
+    "url": "https://www.producthunt.com/products/adant-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
+    "thumbnail": "https://ph-files.imgix.net/6206777f-775d-4ab0-a9c5-72d06df2ee77.png?auto=format",
     "rank": 1,
     "topics": [
-      "Notes",
-      "Meetings",
-      "Artificial Intelligence"
+      "Advertising",
+      "Artificial Intelligence",
+      "Social media marketing"
     ],
-    "fetchedAt": "2026-08-09T07:06:50.075Z"
+    "fetchedAt": "2026-08-10T07:54:43.744Z"
   },
   "lastWeeklyUpdate": "2026-08-04T09:18:07.063Z",
   "anthropicNews": [
     {
-      "date": "Aug 4, 2026",
-      "title": "Mariano-Florentino Cuéllar joins as Chief Global Affairs Officer",
-      "summary": "Anthropic appoints Mariano-Florentino (Tino) Cuéllar to new executive leadership role.",
-      "url": "https://www.anthropic.com/news"
+      "date": "Aug 8, 2026",
+      "title": "Claude Opus 5 becomes new flagship model",
+      "summary": "<cite index=\"2-2,2-3\">Claude Opus 5 released July 24, 2026 for complex agentic coding and enterprise work</cite>",
+      "url": "https://github.com/jqueryscript/anthropic-claude-timeline"
     },
     {
-      "date": "Jul 30, 2026",
-      "title": "Anthropic releases cybersecurity evaluation report",
-      "summary": "Anthropic investigates three real-world incidents in their cybersecurity evaluations.",
-      "url": "https://www.anthropic.com/news"
+      "date": "Aug 8, 2026",
+      "title": "Claude adds inference hooks for enterprise compliance",
+      "summary": "<cite index=\"4-10,4-12\">Enterprise feature enables DLP enforcement across chat, Claude Code, and Cowork in real time</cite>",
+      "url": "https://releasebot.io/updates/anthropic/claude"
     },
     {
-      "date": "Jul 27, 2026",
-      "title": "Cognizant expands partnership with Anthropic for enterprise",
-      "summary": "Cognizant and Anthropic expand partnership to bring Claude to enterprise clients.",
-      "url": "https://www.anthropic.com/news"
+      "date": "Jul 29, 2026",
+      "title": "Claude Mythos discovers cryptographic algorithm weaknesses",
+      "summary": "<cite index=\"24-1,24-2\">Claude found new attacks on HAWK signature algorithm and 7-round AES 200-800x faster</cite>",
+      "url": "https://thequantuminsider.com/2026/07/29/ai-finds-new-weaknesses-in-cryptographic-algorithms-anthropic-says/"
     },
     {
-      "date": "Jul 24, 2026",
-      "title": "Claude Opus 5 released at half the price of Fable",
-      "summary": "<cite index=\"8-1\">Anthropic releases Claude Opus 5, designed for high performance at half the price of Fable</cite>.",
-      "url": "https://www.axios.com/2026/07/24/anthropic-releases-new-model-opus-5"
+      "date": "Jul 20, 2026",
+      "title": "Claude Fable 5 subscription pricing finalized",
+      "summary": "<cite index=\"8-6,8-7\">Max/Team Premium keep 50% included usage; Pro/Standard move to metered credits with $100 promotional offer</cite>",
+      "url": "https://claudelog.com/claude-news/"
     },
     {
-      "date": "Jul 28, 2026",
-      "title": "MCP 2026-07-28 specification released with stateless core",
-      "summary": "<cite index=\"12-1\">Updated Model Context Protocol with stateless core and standardized extensions for better developer experience</cite>.",
-      "url": "https://www.anthropic.com/news"
+      "date": "Jun 30, 2026",
+      "title": "Anthropic launches Claude Science for researchers",
+      "summary": "<cite index=\"19-1,19-2\">New product supports scientific research with tools for computational biology and drug development</cite>",
+      "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/"
     },
     {
-      "date": "Early Aug 2026",
-      "title": "Claude for Government enters beta with full deployment support",
-      "summary": "<cite index=\"5-8,5-9\">Claude for Government available in beta with Anthropic as contracted billing party</cite>.",
-      "url": "https://www.anthropic.com/news"
+      "date": "Aug 1, 2026",
+      "title": "Sonnet 5 pricing increase effective September 1",
+      "summary": "<cite index=\"8-1\">Promotional $2/$10 pricing ends Aug 31; standard $3/$15 per million tokens takes effect Sept 1</cite>",
+      "url": "https://claudelog.com/claude-news/"
     }
   ],
-  "lastChecked": "2026-08-09T07:07:13.792Z"
+  "lastChecked": "2026-08-10T07:55:38.944Z"
 }
