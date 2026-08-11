@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-10T07:55:38.944Z",
+  "lastUpdated": "2026-08-11T07:19:44.194Z",
   "categories": [
     {
       "id": "llm",
@@ -24177,12 +24177,279 @@
           "fullDesc": "Walden Robotics开发全栈物理AI机器人，在工厂和仓库中持续学习、改进并执行实际工作。公司部署搭载diffusion policy和large behavior models的人形机器人，用于处理机器看护、工具设置、零件配套和组装等任务，应用于汽车、航空航天、半导体和物流领域。"
         }
       }
+    },
+    {
+      "id": "muse-code",
+      "name": "Muse Code",
+      "company": "Meta",
+      "category": "code",
+      "icon": "⚙️",
+      "badge": "new",
+      "color": "#0A66C2",
+      "price": "freemium",
+      "priceLabel": "Pay-as-you-go or Contributor tier",
+      "tags": [
+        "AI coding agent",
+        "large codebases",
+        "terminal-based",
+        "multi-agent"
+      ],
+      "shortDesc": "Terminal AI coding agent that automates complex software engineering tasks across large repositories.",
+      "fullDesc": "Muse Code is Meta's terminal-based AI coding agent designed to handle complete software engineering workflows including planning changes, writing code, and validating results. Powered by Muse Spark 1.2, it coordinates multiple persistent background agents to work on complex projects simultaneously. Ideal for developers managing large, complex codebases who need end-to-end task automation.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Terminal-based AI coding agent"
+        },
+        {
+          "label": "Released",
+          "value": "August 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Complex software engineering tasks in large repositories"
+        },
+        {
+          "label": "Pricing",
+          "value": "Pay-as-you-go ($1.25/$4.25 per M tokens) or Contributor ($0.10/$0.20 per M tokens)"
+        }
+      ],
+      "features": [
+        "Handles complete end-to-end software engineering tasks with code planning, writing, and validation",
+        "Coordinates multiple persistent background agents that work in parallel on isolated git worktrees",
+        "Event log records all model calls, tool use, and edits for full auditability and crash recovery",
+        "Works with large repositories using context compaction and goal-directed planning",
+        "Built-in commands including /plan for approval-gated planning and /goal for objective-driven completion",
+        "Single-command installation on macOS and Linux from the terminal",
+        "Co-trained with the Muse Spark 1.2 model for optimized performance",
+        "Stress-testing capabilities via /grill command to validate plans before execution"
+      ],
+      "demo": [
+        {
+          "title": "Installation",
+          "desc": "Install Muse Code with a single shell command on macOS or Linux",
+          "code": "curl -fsSL https://dev.meta.ai/install.sh | bash"
+        },
+        {
+          "title": "Plan a task",
+          "desc": "Create an approval-gated plan for complex engineering tasks",
+          "code": "/plan implement new feature across the codebase"
+        },
+        {
+          "title": "Execute work",
+          "desc": "Run the agent to write code, debug, and validate results automatically",
+          "code": "/goal fix critical performance bottleneck in database layer"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Feature Implementation",
+          "text": "Plan and implement a new authentication module across the entire codebase"
+        },
+        {
+          "label": "Bug Fix",
+          "text": "Debug and fix the memory leak in the rendering pipeline"
+        },
+        {
+          "label": "Refactoring",
+          "text": "Refactor the legacy payment processing system to use async patterns"
+        },
+        {
+          "label": "Testing",
+          "text": "Add comprehensive test coverage for the API layer"
+        }
+      ],
+      "pricing": {
+        "note": "Muse Code offers two pricing tiers: standard API pricing and a contributor tier with significant discounts in exchange for allowing Meta to use prompts and completions for model training. Both tiers are pay-as-you-go with token-based pricing.",
+        "plans": [
+          {
+            "name": "Standard",
+            "price": "$1.25 / $4.25",
+            "per": "per million input/output tokens",
+            "popular": false,
+            "color": "#0A66C2",
+            "features": [
+              "Full access to Muse Code features",
+              "No data sharing with Meta for training",
+              "Standard rate limits (3,000 requests/min, 4M tokens/min)",
+              "Suitable for proprietary codebases"
+            ]
+          },
+          {
+            "name": "Contributor",
+            "price": "$0.10 / $0.20",
+            "per": "per million input/output tokens",
+            "popular": true,
+            "color": "#31A24C",
+            "features": [
+              "~92% discount compared to standard pricing",
+              "Meta uses prompts/completions to improve models",
+              "Rate-limited access (60 requests/min, 2.1M tokens/min)",
+              "Available in select countries only",
+              "Lower rate limit on rolling 5-hour window"
+            ]
+          }
+        ]
+      },
+      "link": "https://dev.meta.ai/"
+    },
+    {
+      "id": "elicit-research-agent",
+      "name": "Elicit Research Agent",
+      "company": "Elicit",
+      "category": "agent",
+      "icon": "📚",
+      "badge": "new",
+      "color": "#2563eb",
+      "price": "freemium",
+      "priceLabel": "Free / From $12/mo",
+      "tags": [
+        "research",
+        "literature-review",
+        "ai-agent",
+        "academic"
+      ],
+      "shortDesc": "AI research agent that automates literature reviews, data extraction, and evidence synthesis across 138M papers.",
+      "fullDesc": "Elicit is an AI-powered research assistant designed to automate time-consuming academic research tasks including literature reviews, systematic reviews, and evidence synthesis. The Research Agent feature enables autonomous, multi-step investigations of research landscapes with customizable reports and structured data extraction. Built for researchers, graduate students, and professionals across all academic disciplines.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "AI Research Agent / Literature Review Automation"
+        },
+        {
+          "label": "Released",
+          "value": "December 2025 (Research Agent feature)"
+        },
+        {
+          "label": "Best for",
+          "value": "Systematic reviews, literature synthesis, evidence-based research"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free tier + paid plans from $12-$169/month"
+        }
+      ],
+      "features": [
+        "Multi-step Research Agent workflows that autonomously map research landscapes and generate curated findings with structured reports",
+        "Semantic search across 138M academic papers, 545K clinical trials, and regulatory documents beyond keyword matching",
+        "Automated data extraction with structured tables enabling comparison of study populations, interventions, outcomes across dozens of papers",
+        "Sentence-level citations backing all AI-generated claims for research integrity and source verification",
+        "Systematic review automation including screening, extraction, and report generation with up to 5,000 paper capacity",
+        "Natural language research question input with AI-generated related questions for hypothesis exploration and seed article discovery",
+        "Customizable research briefs and reports with flexible output formats and multiple export templates",
+        "Team collaboration features and API access for embedding Elicit into existing research workflows (Pro/Scale/Enterprise plans)"
+      ],
+      "demo": [
+        {
+          "title": "Enter Research Question",
+          "desc": "Input a natural language research question to begin autonomous investigation across the literature database.",
+          "code": "What are the effects of remote work on employee productivity and mental health outcomes?"
+        },
+        {
+          "title": "AI Generates Related Questions",
+          "desc": "Elicit's Research Agent suggests related research angles to explore, helping uncover relevant papers and hypotheses.",
+          "code": ""
+        },
+        {
+          "title": "Semantic Search Execution",
+          "desc": "The agent searches across 138M papers using semantic understanding rather than exact keyword matching.",
+          "code": ""
+        },
+        {
+          "title": "Automated Data Extraction",
+          "desc": "Key findings from relevant papers are automatically extracted and organized into structured comparison tables.",
+          "code": ""
+        },
+        {
+          "title": "Generate Research Brief",
+          "desc": "Produces a customizable research report with sentence-level citations backing all AI-generated claims.",
+          "code": ""
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Systematic Review",
+          "text": "What is the effectiveness of cognitive behavioral therapy for treating depression in adolescents?"
+        },
+        {
+          "label": "Clinical Research",
+          "text": "Which biomarkers are predictive of treatment response in patients with advanced melanoma?"
+        },
+        {
+          "label": "Policy Analysis",
+          "text": "What evidence exists regarding the impact of minimum wage increases on employment rates?"
+        },
+        {
+          "label": "Market Research",
+          "text": "What factors influence customer retention in subscription-based SaaS businesses?"
+        }
+      ],
+      "pricing": {
+        "note": "Elicit offers a freemium model with a free Basic tier providing limited monthly research reports and unlimited paper searches. Paid plans range from $12-$169/month with annual billing discounts up to 35% available.",
+        "plans": [
+          {
+            "name": "Basic",
+            "price": "Free",
+            "per": "forever",
+            "popular": false,
+            "color": "#e5e7eb",
+            "features": [
+              "Unlimited search across 138M+ papers",
+              "2 automated research reports per month",
+              "Basic data extraction with 2 columns"
+            ]
+          },
+          {
+            "name": "Plus",
+            "price": "$12",
+            "per": "per month",
+            "popular": false,
+            "color": "#3b82f6",
+            "features": [
+              "Unlimited paper searches and summaries",
+              "4 automated research reports per month",
+              "Advanced data extraction with unlimited columns",
+              "Full systematic review tools"
+            ]
+          },
+          {
+            "name": "Pro",
+            "price": "$49",
+            "per": "per month",
+            "popular": true,
+            "color": "#2563eb",
+            "features": [
+              "Research Agent access with standard usage",
+              "12 reports/systematic reviews monthly (144/year)",
+              "Systematic review screening up to 5,000 papers",
+              "Unlimited search across all data sources",
+              "Custom extractions from uploaded papers",
+              "API access"
+            ]
+          },
+          {
+            "name": "Scale",
+            "price": "$169",
+            "per": "per month",
+            "popular": false,
+            "color": "#1e40af",
+            "features": [
+              "Team collaboration features",
+              "Higher usage limits for Research Agent",
+              "Everything in Pro plan",
+              "Team member management",
+              "Dedicated support"
+            ]
+          }
+        ]
+      },
+      "link": "https://elicit.com/"
     }
   ],
   "totw": {
     "name": "AdAnt AI",
     "tagline": "Claude for viral, high-converting social ads",
-    "votesCount": 599,
+    "votesCount": 608,
     "url": "https://www.producthunt.com/products/adant-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/6206777f-775d-4ab0-a9c5-72d06df2ee77.png?auto=format",
     "rank": 1,
@@ -24191,46 +24458,40 @@
       "Artificial Intelligence",
       "Social media marketing"
     ],
-    "fetchedAt": "2026-08-10T07:54:43.744Z"
+    "fetchedAt": "2026-08-11T07:18:27.859Z"
   },
   "lastWeeklyUpdate": "2026-08-04T09:18:07.063Z",
   "anthropicNews": [
     {
-      "date": "Aug 8, 2026",
-      "title": "Claude Opus 5 becomes new flagship model",
-      "summary": "<cite index=\"2-2,2-3\">Claude Opus 5 released July 24, 2026 for complex agentic coding and enterprise work</cite>",
-      "url": "https://github.com/jqueryscript/anthropic-claude-timeline"
+      "date": "Aug 11, 2026",
+      "title": "Claude Code Auto Mode Default for Most Users",
+      "summary": "<cite index=\"21-4\">Claude Code's auto mode becomes default for Pro, Max, and Team subscribers Aug 14</cite>",
+      "url": "https://www.anthropic.com"
     },
     {
-      "date": "Aug 8, 2026",
-      "title": "Claude adds inference hooks for enterprise compliance",
-      "summary": "<cite index=\"4-10,4-12\">Enterprise feature enables DLP enforcement across chat, Claude Code, and Cowork in real time</cite>",
-      "url": "https://releasebot.io/updates/anthropic/claude"
+      "date": "Aug 4, 2026",
+      "title": "Mariano-Florentino Cuéllar Joins as Chief Global Affairs Officer",
+      "summary": "Anthropic appoints new Chief Global Affairs Officer in major leadership expansion",
+      "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Jul 29, 2026",
-      "title": "Claude Mythos discovers cryptographic algorithm weaknesses",
-      "summary": "<cite index=\"24-1,24-2\">Claude found new attacks on HAWK signature algorithm and 7-round AES 200-800x faster</cite>",
-      "url": "https://thequantuminsider.com/2026/07/29/ai-finds-new-weaknesses-in-cryptographic-algorithms-anthropic-says/"
+      "date": "Jul 28, 2026",
+      "title": "MCP Protocol Update 2026-07-28 Released",
+      "summary": "<cite index=\"13-6,13-7\">MCP moves from stateful bidirectional protocol to request/response model</cite>",
+      "url": "https://releasebot.io/updates/anthropic"
     },
     {
-      "date": "Jul 20, 2026",
-      "title": "Claude Fable 5 subscription pricing finalized",
-      "summary": "<cite index=\"8-6,8-7\">Max/Team Premium keep 50% included usage; Pro/Standard move to metered credits with $100 promotional offer</cite>",
-      "url": "https://claudelog.com/claude-news/"
+      "date": "Jul 24, 2026",
+      "title": "Claude Opus 5 Launches as Default on Claude Max",
+      "summary": "<cite index=\"14-8,14-9\">Claude Opus 5 released for coding and knowledge work, becomes default on Max</cite>",
+      "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Jun 30, 2026",
-      "title": "Anthropic launches Claude Science for researchers",
-      "summary": "<cite index=\"19-1,19-2\">New product supports scientific research with tools for computational biology and drug development</cite>",
-      "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/"
-    },
-    {
-      "date": "Aug 1, 2026",
-      "title": "Sonnet 5 pricing increase effective September 1",
-      "summary": "<cite index=\"8-1\">Promotional $2/$10 pricing ends Aug 31; standard $3/$15 per million tokens takes effect Sept 1</cite>",
-      "url": "https://claudelog.com/claude-news/"
+      "title": "Claude Sonnet 5 Released with Introductory Pricing",
+      "summary": "<cite index=\"19-1\">Sonnet 5 offers near-flagship performance at mid-tier prices with $2/$10 introductory pricing</cite>",
+      "url": "https://venturebeat.com/technology/anthropic-launches-claude-sonnet-5-at-a-steep-discount-to-its-top-model-as-the-company-races-toward-a-blockbuster-ipo"
     }
   ],
-  "lastChecked": "2026-08-10T07:55:38.944Z"
+  "lastChecked": "2026-08-11T07:19:44.194Z"
 }
