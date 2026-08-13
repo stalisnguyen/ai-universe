@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-11T07:19:44.194Z",
+  "lastUpdated": "2026-08-13T07:45:12.343Z",
   "categories": [
     {
       "id": "llm",
@@ -24860,12 +24860,99 @@
           "fullDesc": "Elicit是一款由AI驱动的研究助手，旨在自动化耗时的学术研究任务，包括文献综述、系统综述和证据合成。Research Agent功能支持对研究领域进行自主多步骤调查，具有可定制的报告和结构化数据提取功能。为所有学科领域的研究人员、���究生和专业人士而构建。"
         }
       }
+    },
+    {
+      "id": "astraeus",
+      "name": "Astraeus",
+      "company": "Astraeus",
+      "category": "infrastructure",
+      "icon": "🏛️",
+      "badge": "new",
+      "color": "#1E3A8A",
+      "price": "paid",
+      "priceLabel": "Contact for pricing",
+      "tags": [
+        "wealth management",
+        "AI infrastructure",
+        "regulated finance"
+      ],
+      "shortDesc": "AI-native infrastructure platform providing governed semantic layer for wealth management firms.",
+      "fullDesc": "Astraeus is an AI-native infrastructure platform designed for wealth management firms to unify fragmented technology environments. It provides a semantic layer and ontology that encodes relationships between clients, advisors, accounts, products, fees, policies, and regulatory requirements, enabling AI systems to operate with firm-specific context in regulated advisory settings. The platform integrates with existing systems without requiring wholesale replacement.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Enterprise AI Infrastructure Platform"
+        },
+        {
+          "label": "Released",
+          "value": "August 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Registered investment advisors, wealth management firms, private banks, multi-family offices"
+        },
+        {
+          "label": "Pricing",
+          "value": "Enterprise pricing, contact for details"
+        }
+      ],
+      "features": [
+        "Semantic layer and ontology modeling firm relationships and regulatory requirements",
+        "Model-agnostic architecture supporting multiple AI providers simultaneously",
+        "MCP (Model Context Protocol) integration for agent accessibility",
+        "Audit trail and change tracking for compliance and explainability",
+        "Unified data governance across fragmented legacy systems",
+        "Clean, typed API interfaces for custom application integration",
+        "Contextual AI foundation providing explainable and traceable outputs"
+      ],
+      "demo": [
+        {
+          "title": "Access firm data through MCP",
+          "desc": "Any AI agent can access firm's governed data and digital workers under same controls as existing systems",
+          "code": ""
+        },
+        {
+          "title": "Query in plain English",
+          "desc": "Interact with the semantic model using natural language to explore relationships across clients, accounts, and compliance rules",
+          "code": ""
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Compliance query",
+          "text": "What regulatory restrictions apply to this client's portfolio based on their profile and current rules?"
+        },
+        {
+          "label": "Business intelligence",
+          "text": "Identify all accounts meeting these criteria and their associated advisory fees"
+        }
+      ],
+      "pricing": {
+        "note": "Astraeus offers enterprise-grade infrastructure with custom pricing based on firm size and feature requirements. The company raised over $10 million to support wealth management infrastructure deployment.",
+        "plans": [
+          {
+            "name": "Enterprise",
+            "price": "Custom",
+            "per": "contact",
+            "popular": true,
+            "color": "#1E3A8A",
+            "features": [
+              "Semantic layer and ontology setup",
+              "Integration with existing systems",
+              "MCP protocol access",
+              "Audit trail and governance controls",
+              "Dedicated support"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.astraeuswealth.com"
     }
   ],
   "totw": {
     "name": "Coldtea.ai",
     "tagline": "Make your software self-driving",
-    "votesCount": 518,
+    "votesCount": 522,
     "url": "https://www.producthunt.com/products/coldtea?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/a2d8fc0d-0320-49be-888d-788b36d46c10.png?auto=format",
     "rank": 1,
@@ -24874,46 +24961,46 @@
       "Developer Tools",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-08-12T07:42:26.540Z"
+    "fetchedAt": "2026-08-13T07:44:08.677Z"
   },
   "lastWeeklyUpdate": "2026-08-12T08:10:44.718Z",
   "anthropicNews": [
     {
-      "date": "Aug 5, 2026",
-      "title": "Anthropic Building Custom AI Chip Design Team",
-      "summary": "<cite index=\"2-1,2-2\">Anthropic is building a team to design its own custom AI chips to help its technology run faster and more efficiently.</cite>",
-      "url": "https://techcrunch.com/2026/08/05/anthropic-is-hiring-an-ai-chip-design-team/"
+      "date": "Aug 11, 2026",
+      "title": "Claude adds inference hooks for enterprise DLP enforcement",
+      "summary": "Enterprise now gets real-time compliance controls for prompts and tool calls before model execution.",
+      "url": "https://releasebot.io/updates/anthropic/claude"
     },
     {
-      "date": "Aug 4, 2026",
-      "title": "Mariano-Florentino Cuéllar Joins as Chief Global Affairs Officer",
-      "summary": "Anthropic announces new executive leadership appointment to head global affairs operations.",
-      "url": "https://www.anthropic.com/news"
+      "date": "Aug 6, 2026",
+      "title": "Claude for Government launches in beta",
+      "summary": "New offering brings Claude to U.S. government agencies without requiring separate cloud provider accounts.",
+      "url": "https://releasebot.io/updates/anthropic/claude"
+    },
+    {
+      "date": "Aug 5, 2026",
+      "title": "Anthropic confirms building internal AI chip team",
+      "summary": "Company joins effort to reduce dependence on external semiconductor suppliers for AI model inference.",
+      "url": "https://techstartups.com/2026/08/05/top-tech-news-today-august-5-2026-anthropic-google-microsoft-openai-samsung-spacex-uber-more/"
+    },
+    {
+      "date": "Aug 1, 2026",
+      "title": "Claude Team plan now starts at 2-person minimum",
+      "summary": "<cite index=\"18-6,18-7\">Anthropic reduced Team plan minimum from 5 to 2 seats at unchanged pricing</cite>.",
+      "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+    },
+    {
+      "date": "Jul 28, 2026",
+      "title": "Claude expands MCP spec to 950+ connectors",
+      "summary": "<cite index=\"7-1,7-2\">Claude supports new MCP 2026-07-28 spec with stateless core, stronger auth, and enterprise connector features</cite>.",
+      "url": "https://releasebot.io/updates/anthropic/claude"
     },
     {
       "date": "Jul 24, 2026",
-      "title": "Claude Opus 5 Released with Cost Efficiency Focus",
-      "summary": "<cite index=\"8-4,8-6\">Anthropic released Claude Opus 5, designed to deliver performance close to its most powerful model Fable at half the price, becoming the default for Claude Max subscribers.</cite>",
+      "title": "Claude Opus 5 launches at half the cost of Fable",
+      "summary": "<cite index=\"1-1\">Opus 5 delivers Fable-level performance on many tasks at half the price</cite>.",
       "url": "https://www.axios.com/2026/07/24/anthropic-releases-new-model-opus-5"
-    },
-    {
-      "date": "Jul 27, 2026",
-      "title": "Cognizant and Anthropic Expand Partnership",
-      "summary": "<cite index=\"3-1\">Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients.</cite>",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "Jun 30, 2026",
-      "title": "Claude Science Launched for Scientific Research",
-      "summary": "<cite index=\"16-1\">Anthropic announced Claude Science, a major new product intended to support scientific research in the same way that Claude Code supports software engineering.</cite>",
-      "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/"
-    },
-    {
-      "date": "Jun 30, 2026",
-      "title": "Claude Sonnet 5 Delivers Frontier Performance",
-      "summary": "<cite index=\"17-8\">Sonnet 5 delivers frontier performance across coding, agents, and professional work at scale.</cite>",
-      "url": "https://www.anthropic.com/news"
     }
   ],
-  "lastChecked": "2026-08-12T08:12:59.088Z"
+  "lastChecked": "2026-08-13T07:45:12.343Z"
 }
