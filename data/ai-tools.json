@@ -24952,7 +24952,7 @@
   "totw": {
     "name": "Grok Bot",
     "tagline": "AI teammates that you can give real work to",
-    "votesCount": 502,
+    "votesCount": 504,
     "url": "https://www.producthunt.com/products/grok?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/072140a8-0a6b-4d48-9aaf-62def8c0697d.png?auto=format",
     "rank": 1,
@@ -24961,46 +24961,46 @@
       "Task Management",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-08-14T07:41:46.153Z"
+    "fetchedAt": "2026-08-15T06:49:56.813Z"
   },
   "lastWeeklyUpdate": "2026-08-12T08:10:44.718Z",
   "anthropicNews": [
     {
+      "date": "Aug 9, 2026",
+      "title": "Claude Code auto mode becomes default for Pro, Max, Team",
+      "summary": "Anthropic enables auto mode by default starting August 14, reducing need for human approval at each step.",
+      "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/"
+    },
+    {
       "date": "Aug 4, 2026",
       "title": "Mariano-Florentino Cuéllar joins as Chief Global Affairs Officer",
-      "summary": "Anthropic appoints Mariano-Florentino (Tino) Cuéllar to lead global affairs strategy.",
+      "summary": "Anthropic appoints new executive to lead global affairs and regulatory strategy.",
       "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Jul 30, 2026",
-      "title": "Investigating cybersecurity incidents in evaluations",
-      "summary": "Anthropic discloses investigation into three real-world incidents discovered during internal cybersecurity evaluations.",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "Jul 27, 2026",
-      "title": "Announces position on open-weights models",
-      "summary": "Anthropic publishes official stance on open-weights models and their role in AI development.",
+      "title": "Anthropic publishes cybersecurity evaluation research",
+      "summary": "Anthropic investigates three real-world incidents in its security evaluations.",
       "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Jul 24, 2026",
-      "title": "Claude Opus 5 launches with unchanged pricing",
-      "summary": "Anthropic releases Claude Opus 5 at $5/$25 per million tokens, matching Opus 4.8 pricing with new effort controls.",
-      "url": "https://releasebot.io/updates/anthropic/claude"
+      "title": "Claude Opus 5 and Sonnet 5 released with new capabilities",
+      "summary": "<cite index=\"14-7\">Claude Opus 5 offers near-Fable performance at half the price with 1M token context window and 128K output tokens</cite>.",
+      "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Jul 22, 2026",
-      "title": "AMD invests up to $5B in compute capacity deal",
-      "summary": "Anthropic and AMD announce strategic partnership providing up to 2GW of MI450 compute capacity.",
-      "url": "https://thursdai.news/releases/2026-07"
+      "date": "Jun 30, 2026",
+      "title": "Claude Science launched for scientific research workflows",
+      "summary": "<cite index=\"19-1\">Claude Science supports scientific research similarly to how Claude Code supports software engineering</cite>.",
+      "url": "https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/"
     },
     {
-      "date": "Jul 1, 2026",
-      "title": "Claude Fable 5 redeployed globally with enhanced safeguards",
-      "summary": "Anthropic redeploys Claude Fable 5 worldwide after US government directive lifted, with new cybersecurity classifier.",
-      "url": "https://hidekazu-konishi.com/entry/anthropic_claude_model_release_timeline.html"
+      "date": "Jul 6, 2026",
+      "title": "Anthropic publishes global workspace research paper",
+      "summary": "<cite index=\"18-3\">Paper introduces J-space, a privileged set of internal representations in Claude models functioning like a global workspace</cite>.",
+      "url": "https://transformer-circuits.pub"
     }
   ],
-  "lastChecked": "2026-08-14T07:42:31.550Z"
+  "lastChecked": "2026-08-15T06:50:18.586Z"
 }
