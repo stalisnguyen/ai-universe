@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-14T07:42:31.550Z",
+  "lastUpdated": "2026-08-16T06:51:57.505Z",
   "categories": [
     {
       "id": "llm",
@@ -24947,12 +24947,172 @@
         ]
       },
       "link": "https://www.astraeuswealth.com"
+    },
+    {
+      "id": "framer-3-0-ai-agents",
+      "name": "Framer 3.0 AI Agents",
+      "company": "Framer",
+      "category": "code",
+      "icon": "🤖",
+      "badge": "hot",
+      "color": "#0A0E27",
+      "price": "freemium",
+      "priceLabel": "Free / From $5/mo",
+      "tags": [
+        "AI Agents",
+        "Web Design",
+        "No-Code",
+        "Branching"
+      ],
+      "shortDesc": "AI-powered web design platform with agents that design pages, write code, and manage content.",
+      "fullDesc": "Framer 3.0 brings AI Agents directly to the design canvas, letting them design pages, write components, manage CMS, and audit sites—all with human control and review. It combines autonomous AI execution with Git-style branching for safe team collaboration. Best for design-led teams and solo founders who want to ship polished websites faster without coding.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "No-Code Website Builder with AI Agents"
+        },
+        {
+          "label": "Released",
+          "value": "June 16, 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Web design, landing pages, marketing sites, design-led teams"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free (500 AI credits/day), Basic (~$10/mo, 1000 credits/mo), Pro (~$30/mo, 3000 credits/mo)"
+        }
+      ],
+      "features": [
+        "AI Agents on canvas that design pages, edit layouts, write copy, manage CMS, and fix SEO",
+        "Git-style branching for safe testing and team collaboration without affecting live sites",
+        "Real-time co-editing with visual feedback on which layers agents modify",
+        "External AI agent integration (Claude Code, Cursor, Codex) via MCP without consuming credits",
+        "AI credits pricing system scaled by model choice (Sonnet, GPT, Opus)",
+        "Full undo/redo and Revert feature to roll back entire prompts",
+        "Rebuilt Community marketplace with feed, member profiles, contests, and creator discovery",
+        "Enhanced Basic plan with 2 CMS collections and 50 GB bandwidth"
+      ],
+      "demo": [
+        {
+          "title": "Start with AI Agent",
+          "desc": "Open your project and access the Agent tab in the redesigned right panel",
+          "code": "Open Agent tab → Type your design request"
+        },
+        {
+          "title": "Make Changes with Context",
+          "desc": "Use @ to reference elements or select layers directly on canvas for context",
+          "code": "@[element name] or select layer → describe change"
+        },
+        {
+          "title": "Preview on Branch",
+          "desc": "Agent makes changes on an isolated branch without touching your live site",
+          "code": "View isolated branch → compare with main"
+        },
+        {
+          "title": "Review and Merge",
+          "desc": "Compare versions, review agent output, and merge to main when ready",
+          "code": "One-click merge to publish"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Global brand update",
+          "text": "Change every 'Acme Corp' on the site to 'Nebula Labs' and replace the old orange accent (#FF5733) with the new brand color (#E94560) across the whole site"
+        },
+        {
+          "label": "Content redesign",
+          "text": "Redesign the hero section with a new layout, updated copy, and modern visual effects"
+        },
+        {
+          "label": "CMS management",
+          "text": "Create a new collection for blog posts and set up SEO metadata templates"
+        },
+        {
+          "label": "Component creation",
+          "text": "Build a new testimonial component based on the existing card component style"
+        }
+      ],
+      "pricing": {
+        "note": "Framer 3.0 switched to an AI credits model. Free users get 500 credits daily. Paid plans include monthly credits; additional credits can be purchased as add-on packs starting at 1,000. Editor seat pricing dropped from $40 to $20/month.",
+        "plans": [
+          {
+            "name": "Free",
+            "price": "$0",
+            "per": "forever",
+            "popular": false,
+            "color": "#E0E0E0",
+            "features": [
+              "500 AI credits per day",
+              "All Framer features",
+              "Hosted site",
+              "SEO controls",
+              "Basic CMS (1 collection)"
+            ]
+          },
+          {
+            "name": "Mini",
+            "price": "$5",
+            "per": "per month",
+            "popular": false,
+            "color": "#B8E6F0",
+            "features": [
+              "500 AI credits per month",
+              "Everything in Free",
+              "Add-on credits available",
+              "Standard support"
+            ]
+          },
+          {
+            "name": "Basic",
+            "price": "$10",
+            "per": "per month",
+            "popular": false,
+            "color": "#7DD3FC",
+            "features": [
+              "1,000 AI credits per month",
+              "2 CMS collections",
+              "50 GB bandwidth",
+              "Branching support"
+            ]
+          },
+          {
+            "name": "Pro",
+            "price": "$30",
+            "per": "per month",
+            "popular": true,
+            "color": "#0EA5E9",
+            "features": [
+              "3,000 AI credits per month",
+              "Unlimited CMS collections",
+              "Priority support",
+              "External agent access",
+              "Team collaboration"
+            ]
+          },
+          {
+            "name": "Scale",
+            "price": "$100",
+            "per": "per month",
+            "popular": false,
+            "color": "#0369A1",
+            "features": [
+              "Highest AI credits allocation",
+              "Enterprise support",
+              "Custom integrations",
+              "Team management"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.framer.com/agents/"
     }
   ],
   "totw": {
     "name": "Grok Bot",
     "tagline": "AI teammates that you can give real work to",
-    "votesCount": 504,
+    "votesCount": 495,
     "url": "https://www.producthunt.com/products/grok?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/072140a8-0a6b-4d48-9aaf-62def8c0697d.png?auto=format",
     "rank": 1,
@@ -24961,46 +25121,46 @@
       "Task Management",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-08-15T06:49:56.813Z"
+    "fetchedAt": "2026-08-16T06:51:15.693Z"
   },
   "lastWeeklyUpdate": "2026-08-12T08:10:44.718Z",
   "anthropicNews": [
     {
-      "date": "Aug 9, 2026",
-      "title": "Claude Code auto mode becomes default for Pro, Max, Team",
-      "summary": "Anthropic enables auto mode by default starting August 14, reducing need for human approval at each step.",
-      "url": "https://techcrunch.com/2026/08/09/anthropic-is-turning-claude-codes-auto-mode-on-by-default/"
+      "date": "Aug 14, 2026",
+      "title": "Claude Code Updates: Self-Hosted Runners & Archive Plugins",
+      "summary": "Claude Code adds self-hosted environments, archive plugin source, subagent forking, and enhanced integration support.",
+      "url": "https://releasebot.io/updates/anthropic"
     },
     {
-      "date": "Aug 4, 2026",
-      "title": "Mariano-Florentino Cuéllar joins as Chief Global Affairs Officer",
-      "summary": "Anthropic appoints new executive to lead global affairs and regulatory strategy.",
-      "url": "https://www.anthropic.com/news"
+      "date": "Aug 12, 2026",
+      "title": "Claude Sonnet 5 Pricing Made Permanent",
+      "summary": "<cite index=\"22-2\">The $2/$10 per million input/output token pricing for Claude Sonnet 5 is now the standard price</cite>, with no increase on September 1.",
+      "url": "https://platform.claude.com/docs/en/about-claude/pricing"
     },
     {
-      "date": "Jul 30, 2026",
-      "title": "Anthropic publishes cybersecurity evaluation research",
-      "summary": "Anthropic investigates three real-world incidents in its security evaluations.",
-      "url": "https://www.anthropic.com/news"
+      "date": "Aug 1, 2026",
+      "title": "Claude Compliance API Expanded",
+      "summary": "<cite index=\"6-1,6-2\">Claude expands its Compliance API to cover Cowork and Claude Code with unified session content and metadata for audits and eDiscovery</cite>.",
+      "url": "https://releasebot.io/updates/anthropic/claude"
+    },
+    {
+      "date": "Jul 28, 2026",
+      "title": "MCP 2026-07-28 Spec Released",
+      "summary": "Anthropic releases updated Model Context Protocol spec with stateless core reducing complexity for developers and enterprises.",
+      "url": "https://releasebot.io/updates/anthropic/claude"
     },
     {
       "date": "Jul 24, 2026",
-      "title": "Claude Opus 5 and Sonnet 5 released with new capabilities",
-      "summary": "<cite index=\"14-7\">Claude Opus 5 offers near-Fable performance at half the price with 1M token context window and 128K output tokens</cite>.",
-      "url": "https://www.anthropic.com/news"
+      "title": "Claude Opus 5 Launches",
+      "summary": "<cite index=\"14-2\">Claude Opus 5 comes close to the frontier intelligence of Claude Fable 5 at half the price</cite>, now the default Max model.",
+      "url": "https://www.anthropic.com/news/claude-opus-5"
     },
     {
-      "date": "Jun 30, 2026",
-      "title": "Claude Science launched for scientific research workflows",
-      "summary": "<cite index=\"19-1\">Claude Science supports scientific research similarly to how Claude Code supports software engineering</cite>.",
-      "url": "https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/"
-    },
-    {
-      "date": "Jul 6, 2026",
-      "title": "Anthropic publishes global workspace research paper",
-      "summary": "<cite index=\"18-3\">Paper introduces J-space, a privileged set of internal representations in Claude models functioning like a global workspace</cite>.",
-      "url": "https://transformer-circuits.pub"
+      "date": "Jul 14, 2026",
+      "title": "Claude for Teachers Launches Free",
+      "summary": "<cite index=\"8-1,8-5\">Anthropic launched Claude for Teachers, free for verified K-12 teachers</cite>, entering education AI market.",
+      "url": "https://www.chalkbeat.org/2026/07/14/anthropic-launches-claude-for-teachers-as-ai-companies-battle-for-classrooms/"
     }
   ],
-  "lastChecked": "2026-08-15T06:50:18.586Z"
+  "lastChecked": "2026-08-16T06:51:57.505Z"
 }
