@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-16T06:51:57.505Z",
+  "lastUpdated": "2026-08-17T07:09:13.187Z",
   "categories": [
     {
       "id": "llm",
@@ -25107,12 +25107,150 @@
         ]
       },
       "link": "https://www.framer.com/agents/"
+    },
+    {
+      "id": "wan3-0",
+      "name": "Wan3.0",
+      "company": "Alibaba Tongyi Lab",
+      "category": "video",
+      "icon": "🎬",
+      "badge": "new",
+      "color": "#FF6B35",
+      "price": "paid",
+      "priceLabel": "From $0.05/sec (480p)",
+      "tags": [
+        "30-second generation",
+        "omni-reference",
+        "native audio",
+        "document-to-video"
+      ],
+      "shortDesc": "AI video generation with native 30-second clips, omni-reference inputs, and production-grade character consistency.",
+      "fullDesc": "Wan3.0 is an all-in-one video generation and editing model that creates up to 30 seconds of video in a single continuous shot from text, images, audio, video, and documents. It supports diverse input types including spreadsheets, presentations, and PDFs, with native audio generation and reality-grade visual quality. Designed for marketers, filmmakers, animators, and content creators.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Text/Image/Document-to-Video"
+        },
+        {
+          "label": "Released",
+          "value": "August 6, 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Long-form video generation, marketing, document visualization, character animation"
+        },
+        {
+          "label": "Pricing",
+          "value": "$0.05-$0.20 per second based on resolution"
+        }
+      ],
+      "features": [
+        "Native 30-second single-pass video generation without stitching multiple clips",
+        "Omni-Reference system accepts documents, spreadsheets, PDFs, presentations alongside text, image, audio, and video",
+        "Production-grade character consistency and scene continuity throughout 30-second clips",
+        "Native synchronized audio generation in the same pass as video",
+        "Multiple aspect ratios supported from 16:9 to 9:16 with 1080p maximum resolution",
+        "Intelligent duration feature recommends optimal clip length from prompt",
+        "Video extension tool continues stories beyond initial generation",
+        "Unified workflow combining text-to-video, image-to-video, reference generation, and editing capabilities"
+      ],
+      "demo": [
+        {
+          "title": "Text-to-Video Generation",
+          "desc": "Enter a text prompt describing your scene, Wan3.0 intelligently recommends clip duration and generates synchronized video with audio.",
+          "code": "A cinematic establishing shot of a Tokyo street at sunset, camera panning left to right across neon signs, ambient traffic sounds, 4K resolution"
+        },
+        {
+          "title": "Document-to-Video",
+          "desc": "Upload a product specification document, marketing brief, or presentation slide, and Wan3.0 generates video content visualizing the document contents.",
+          "code": "Upload: product_specs.pdf (max 100MB, 50 pages)"
+        },
+        {
+          "title": "Reference-Guided Generation",
+          "desc": "Provide reference images, brand guidelines, or style references to control visual consistency and creative direction.",
+          "code": "Style: minimalist product photography | Reference: brand_color_palette.png"
+        },
+        {
+          "title": "Video Extension",
+          "desc": "Continue a generated video beyond 30 seconds by extending the narrative with additional prompts.",
+          "code": "Extend previous clip with: 'Camera pulls back to reveal the full product in a warehouse setting'"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Product Marketing",
+          "text": "Cinematic product reveal showing a sleek smartphone rotating on a pedestal, soft lighting, shallow depth of field, modern minimalist background, professional studio lighting setup"
+        },
+        {
+          "label": "Scene Composition",
+          "text": "Dramatic camera push forward through a crowded marketplace, morning light streaming through vendors' awnings, pedestrians moving naturally, vibrant colors, sounds of vendors calling"
+        },
+        {
+          "label": "Character Animation",
+          "text": "Animated character walking through fantasy forest, consistent character design, flowing cape, magical particle effects, mystical ambient soundscape, cinematic lighting"
+        },
+        {
+          "label": "Document Visualization",
+          "text": "Animated data visualization showing quarterly growth metrics from attached spreadsheet, charts transitioning with smooth animations, professional color palette, clear typography"
+        },
+        {
+          "label": "Real Estate Showcase",
+          "text": "Virtual property tour with smooth camera movement through modern apartment, natural light from windows, ambient background music, professional real estate photography style"
+        }
+      ],
+      "pricing": {
+        "note": "Wan3.0 uses per-second pricing based on output resolution. A full 30-second clip costs $1.50 at 480p, $3.00 at 720p, or $6.00 at 1080p. Currently in public beta with invitation-based access on Alibaba Cloud Model Studio and Qwen Cloud.",
+        "plans": [
+          {
+            "name": "480p Standard",
+            "price": "$0.05",
+            "per": "per second",
+            "popular": false,
+            "color": "#A0A0A0",
+            "features": [
+              "480p video quality",
+              "Up to 30-second generation",
+              "Native audio synchronization",
+              "All reference input types supported"
+            ]
+          },
+          {
+            "name": "720p HD",
+            "price": "$0.10",
+            "per": "per second",
+            "popular": true,
+            "color": "#FF6B35",
+            "features": [
+              "720p HD video quality",
+              "Up to 30-second generation",
+              "Native audio with higher quality",
+              "Full omni-reference capabilities",
+              "Video extension tools"
+            ]
+          },
+          {
+            "name": "1080p Full HD",
+            "price": "$0.20",
+            "per": "per second",
+            "popular": false,
+            "color": "#2D3142",
+            "features": [
+              "1080p Full HD video quality",
+              "Up to 30-second generation",
+              "Premium audio quality",
+              "Maximum character consistency",
+              "Production-grade output"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.alibabacloud.com/blog/wan3-0-30-second-ai-video-generation-from-any-input_603452"
     }
   ],
   "totw": {
     "name": "Grok Bot",
     "tagline": "AI teammates that you can give real work to",
-    "votesCount": 495,
+    "votesCount": 496,
     "url": "https://www.producthunt.com/products/grok?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/072140a8-0a6b-4d48-9aaf-62def8c0697d.png?auto=format",
     "rank": 1,
@@ -25121,46 +25259,46 @@
       "Task Management",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-08-16T06:51:15.693Z"
+    "fetchedAt": "2026-08-17T07:08:25.577Z"
   },
   "lastWeeklyUpdate": "2026-08-12T08:10:44.718Z",
   "anthropicNews": [
     {
-      "date": "Aug 14, 2026",
-      "title": "Claude Code Updates: Self-Hosted Runners & Archive Plugins",
-      "summary": "Claude Code adds self-hosted environments, archive plugin source, subagent forking, and enhanced integration support.",
+      "date": "Aug 11, 2026",
+      "title": "Claude for Teachers Launched",
+      "summary": "Anthropic launches education-focused version with academic standards from all 50 states for lesson planning and personalized instruction.",
+      "url": "https://keyt.com/stacker-ai/2026/08/11/anthropic-unveils-claude-for-teachers-joining-openai-and-google-in-race-to-dominate-classroom-ai/"
+    },
+    {
+      "date": "Aug 13, 2026",
+      "title": "Claude Slack Integration Enhanced with Claude Tag",
+      "summary": "Claude adds smarter Slack collaboration feature with channel context, memory, and proactive response capabilities.",
       "url": "https://releasebot.io/updates/anthropic"
     },
     {
-      "date": "Aug 12, 2026",
-      "title": "Claude Sonnet 5 Pricing Made Permanent",
-      "summary": "<cite index=\"22-2\">The $2/$10 per million input/output token pricing for Claude Sonnet 5 is now the standard price</cite>, with no increase on September 1.",
-      "url": "https://platform.claude.com/docs/en/about-claude/pricing"
-    },
-    {
-      "date": "Aug 1, 2026",
-      "title": "Claude Compliance API Expanded",
-      "summary": "<cite index=\"6-1,6-2\">Claude expands its Compliance API to cover Cowork and Claude Code with unified session content and metadata for audits and eDiscovery</cite>.",
-      "url": "https://releasebot.io/updates/anthropic/claude"
+      "date": "Aug 14, 2026",
+      "title": "Claude Code Self-Hosted Environments Public Beta",
+      "summary": "Teams can now run Claude Code on their own infrastructure with internal network access and custom tooling.",
+      "url": "https://releasebot.io/updates/anthropic/claude-code"
     },
     {
       "date": "Jul 28, 2026",
-      "title": "MCP 2026-07-28 Spec Released",
-      "summary": "Anthropic releases updated Model Context Protocol spec with stateless core reducing complexity for developers and enterprises.",
+      "title": "Model Context Protocol 2026-07-28 Released",
+      "summary": "Anthropic updates MCP spec with stateless core design reducing complexity and enabling faster feature deployment.",
       "url": "https://releasebot.io/updates/anthropic/claude"
     },
     {
       "date": "Jul 24, 2026",
-      "title": "Claude Opus 5 Launches",
-      "summary": "<cite index=\"14-2\">Claude Opus 5 comes close to the frontier intelligence of Claude Fable 5 at half the price</cite>, now the default Max model.",
-      "url": "https://www.anthropic.com/news/claude-opus-5"
+      "title": "Claude Opus 5 Released at Half Fable 5 Price",
+      "summary": "<cite index=\"9-4\">Claude Opus 5 delivers performance close to Fable at half the price</cite>, becoming default for Claude Max subscribers.",
+      "url": "https://www.axios.com/2026/07/24/anthropic-releases-new-model-opus-5"
     },
     {
-      "date": "Jul 14, 2026",
-      "title": "Claude for Teachers Launches Free",
-      "summary": "<cite index=\"8-1,8-5\">Anthropic launched Claude for Teachers, free for verified K-12 teachers</cite>, entering education AI market.",
-      "url": "https://www.chalkbeat.org/2026/07/14/anthropic-launches-claude-for-teachers-as-ai-companies-battle-for-classrooms/"
+      "date": "Jul 27, 2026",
+      "title": "Cognizant Partnership Expansion",
+      "summary": "Anthropic and Cognizant expand partnership to bring Claude to more enterprise clients globally.",
+      "url": "https://www.anthropic.com/news"
     }
   ],
-  "lastChecked": "2026-08-16T06:51:57.505Z"
+  "lastChecked": "2026-08-17T07:09:13.187Z"
 }
