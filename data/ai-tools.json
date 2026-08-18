@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-17T07:09:13.187Z",
+  "lastUpdated": "2026-08-18T06:55:41.227Z",
   "categories": [
     {
       "id": "llm",
@@ -25250,7 +25250,7 @@
   "totw": {
     "name": "Grok Bot",
     "tagline": "AI teammates that you can give real work to",
-    "votesCount": 496,
+    "votesCount": 505,
     "url": "https://www.producthunt.com/products/grok?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/072140a8-0a6b-4d48-9aaf-62def8c0697d.png?auto=format",
     "rank": 1,
@@ -25259,46 +25259,46 @@
       "Task Management",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-08-17T07:08:25.577Z"
+    "fetchedAt": "2026-08-18T06:54:58.120Z"
   },
   "lastWeeklyUpdate": "2026-08-12T08:10:44.718Z",
   "anthropicNews": [
     {
-      "date": "Aug 11, 2026",
-      "title": "Claude for Teachers Launched",
-      "summary": "Anthropic launches education-focused version with academic standards from all 50 states for lesson planning and personalized instruction.",
-      "url": "https://keyt.com/stacker-ai/2026/08/11/anthropic-unveils-claude-for-teachers-joining-openai-and-google-in-race-to-dominate-classroom-ai/"
-    },
-    {
-      "date": "Aug 13, 2026",
-      "title": "Claude Slack Integration Enhanced with Claude Tag",
-      "summary": "Claude adds smarter Slack collaboration feature with channel context, memory, and proactive response capabilities.",
-      "url": "https://releasebot.io/updates/anthropic"
+      "date": "Aug 16, 2026",
+      "title": "Claude Watermarking for EU AI Act Compliance",
+      "summary": "<cite index=\"8-1\">Anthropic adds watermarking to future Claude text outputs to support EU AI Act compliance, with no visible impact on quality, speed, or pricing.</cite>",
+      "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Aug 14, 2026",
-      "title": "Claude Code Self-Hosted Environments Public Beta",
-      "summary": "Teams can now run Claude Code on their own infrastructure with internal network access and custom tooling.",
-      "url": "https://releasebot.io/updates/anthropic/claude-code"
+      "title": "Claude Code Self-Hosted Environments & Compliance API",
+      "summary": "<cite index=\"6-1,6-14\">Claude expands Compliance API and adds self-hosted environments for Claude Code with compliance controls.</cite>",
+      "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Jul 28, 2026",
-      "title": "Model Context Protocol 2026-07-28 Released",
-      "summary": "Anthropic updates MCP spec with stateless core design reducing complexity and enabling faster feature deployment.",
-      "url": "https://releasebot.io/updates/anthropic/claude"
+      "date": "Aug 14, 2026",
+      "title": "Claude for Government Beta Launch",
+      "summary": "<cite index=\"6-9,6-10\">Claude for Government is available in beta; Anthropic remains the contracted and billing party.</cite>",
+      "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Jul 24, 2026",
-      "title": "Claude Opus 5 Released at Half Fable 5 Price",
-      "summary": "<cite index=\"9-4\">Claude Opus 5 delivers performance close to Fable at half the price</cite>, becoming default for Claude Max subscribers.",
-      "url": "https://www.axios.com/2026/07/24/anthropic-releases-new-model-opus-5"
+      "date": "Aug 10, 2026",
+      "title": "Claude Breaks Riemann Hypothesis Lower Bound",
+      "summary": "<cite index=\"21-6\">An unreleased research version of Claude improved a lower bound for the Riemann zeta function from 41.6% to 67.2%.</cite>",
+      "url": "https://www.anthropic.com/research"
     },
     {
       "date": "Jul 27, 2026",
-      "title": "Cognizant Partnership Expansion",
-      "summary": "Anthropic and Cognizant expand partnership to bring Claude to more enterprise clients globally.",
+      "title": "Cognizant Partnership Expands Claude to Enterprise",
+      "summary": "Cognizant and Anthropic expand partnership to bring Claude to enterprise clients.",
       "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Jul 06, 2026",
+      "title": "New Global Workspace Research on Claude Reasoning",
+      "summary": "<cite index=\"22-1\">Research reveals a privileged mental workspace in Claude that can be used for deliberate reasoning.</cite>",
+      "url": "https://www.anthropic.com/research/global-workspace"
     }
   ],
-  "lastChecked": "2026-08-17T07:09:13.187Z"
+  "lastChecked": "2026-08-18T06:55:41.227Z"
 }
