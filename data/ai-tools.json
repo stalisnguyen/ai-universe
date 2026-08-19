@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-18T06:55:41.227Z",
+  "lastUpdated": "2026-08-19T06:57:00.498Z",
   "categories": [
     {
       "id": "llm",
@@ -25245,12 +25245,245 @@
         ]
       },
       "link": "https://www.alibabacloud.com/blog/wan3-0-30-second-ai-video-generation-from-any-input_603452"
+    },
+    {
+      "id": "viznow-idea-to-video",
+      "name": "VizNow Idea to Video",
+      "company": "VizNow",
+      "category": "video",
+      "icon": "🎬",
+      "badge": "new",
+      "color": "#FF6B35",
+      "price": "freemium",
+      "priceLabel": "Free / Freemium",
+      "tags": [
+        "AI video creation",
+        "B-roll assembly",
+        "Script generation",
+        "Motion graphics"
+      ],
+      "shortDesc": "Turn ideas, scripts, or voice recordings into publish-ready videos with AI-directed real assets.",
+      "fullDesc": "VizNow Idea to Video is an AI-powered video creation workflow that transforms ideas, finished scripts, or voice recordings into complete videos with B-roll, charts, motion graphics, and visual overlays—without requiring on-camera presenters. The platform directs real assets rather than generating synthetic content, letting users review and refine key creative decisions before final render. Built for creators, educators, marketers, and teams who need structured video production without manual assembly.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "AI Video Creation & Enhancement Platform"
+        },
+        {
+          "label": "Released",
+          "value": "August 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Creators, educators, marketers, and small teams producing explainer videos, educational content, and narrative-driven videos"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free tier available with freemium options"
+        }
+      ],
+      "features": [
+        "Original-Voice Mode: Use your own recording as narration or choose from eight AI voice presets with distinct profiles",
+        "Source Grounding: Evidence cards cite original sources; charts built from verified web-sourced data before rendering",
+        "22 Visual Themes: Adapt production pipeline across Editorial, Cinematic, Minimal, Bold, and other visual identities",
+        "Three-Way Workflow: Start from recorded footage, ideas/scripts/audio, or standalone motion graphics prompts",
+        "Chat-Based Refinement: Review and adjust story angle, outline, script, and visual plan through conversational interface",
+        "Multi-Format Export: MP4 H.264 at 30fps supporting 16:9 and 9:16 formats with durations from 90 seconds to 5+ minutes",
+        "Intelligent B-roll Assembly: Automatically selects and times real footage to match narration without synthetic generation",
+        "Motion Graphics & Charts: Generate transparent motion graphics for numbers, trends, and concepts with data verification"
+      ],
+      "demo": [
+        {
+          "title": "Start with an idea",
+          "desc": "Share a topic or brief concept; VizNow conducts web research, presents story angle options, and develops an outline and script",
+          "code": ""
+        },
+        {
+          "title": "Provide a script or voice recording",
+          "desc": "Upload finished script or voice recording; platform transcribes audio and uses original recording directly as narration track",
+          "code": ""
+        },
+        {
+          "title": "Review visual plan before render",
+          "desc": "Examine and refine story angle, outline, script, and visual composition through chat-based interface before final video generation",
+          "code": ""
+        },
+        {
+          "title": "Export publish-ready video",
+          "desc": "Download MP4 in H.264 at 30fps with assembled B-roll, charts, motion graphics, and visual overlays ready for distribution",
+          "code": ""
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Educational explainer",
+          "text": "Create a 3-minute explainer video about photosynthesis for high school biology students with animated diagrams and real footage"
+        },
+        {
+          "label": "Marketing narrative",
+          "text": "Turn this product launch script into a cinematic 90-second video with relevant B-roll, statistics overlays, and bold visual themes"
+        },
+        {
+          "label": "Training video",
+          "text": "Convert my voice recording about customer service best practices into a complete training video with on-screen callouts and motion graphics"
+        },
+        {
+          "label": "Data visualization",
+          "text": "Generate a standalone motion graphic comparing quarterly revenue trends with transparent background for slide deck integration"
+        }
+      ],
+      "pricing": {
+        "note": "VizNow Idea to Video launched in August 2026 with a free tier providing immediate access to core video creation capabilities.",
+        "plans": [
+          {
+            "name": "Free Tier",
+            "price": "Free",
+            "per": "forever",
+            "popular": true,
+            "color": "#4CAF50",
+            "features": [
+              "Access to Idea to Video workflow",
+              "Free tier credits for video generation",
+              "22 visual themes",
+              "Basic export options"
+            ]
+          },
+          {
+            "name": "Premium",
+            "price": "Contact for pricing",
+            "per": "per month",
+            "popular": false,
+            "color": "#2196F3",
+            "features": [
+              "Unlimited video generation",
+              "Advanced source grounding and verification",
+              "Priority rendering",
+              "Team collaboration features",
+              "Custom visual themes"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.viznow.ai"
+    },
+    {
+      "id": "dimensions-mcp-servers",
+      "name": "Dimensions MCP Servers",
+      "company": "Digital Science",
+      "category": "agent",
+      "icon": "🔬",
+      "badge": "new",
+      "color": "#2E7D32",
+      "price": "freemium",
+      "priceLabel": "Free for existing Dimensions API customers",
+      "tags": [
+        "research-data",
+        "MCP-protocol",
+        "AI-agents",
+        "analytics"
+      ],
+      "shortDesc": "MCP servers connecting AI agents to 430M+ interconnected research records for discovery and analysis.",
+      "fullDesc": "Dimensions MCP Servers enable enterprise AI agents to access one of the world's largest interconnected research databases through the Model Context Protocol standard. The platform comprises two complementary servers: Semantic Search MCP for concept-aware retrieval across 40+ life science domains, and Analytics MCP for accessing 430M+ interconnected records spanning publications, grants, patents, clinical trials, datasets, and policy documents. Designed for R&D teams, pharma and biotech organizations, and competitive intelligence professionals.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Model Context Protocol (MCP) Integration"
+        },
+        {
+          "label": "Released",
+          "value": "August 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Research discovery, life sciences analytics, funding intelligence, competitive landscape analysis"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free for existing Dimensions API customers; license-aligned access required"
+        }
+      ],
+      "features": [
+        "Dimensions Semantic Search MCP with concept-aware retrieval across 40+ life science domains",
+        "Dimensions Analytics MCP accessing 430M+ interconnected research records",
+        "Direct license-aligned access to live research data through MCP standard",
+        "Compatible with Claude, ChatGPT, Gemini and other major AI platforms",
+        "Full-text search across publications, grants, patents, clinical trials, datasets, and policy documents",
+        "Automated research discovery, funding intelligence, and competitive landscape analysis",
+        "AI-assisted analytics for life sciences and R&D teams"
+      ],
+      "demo": [
+        {
+          "title": "Connect AI Agent to Dimensions",
+          "desc": "Integrate Dimensions MCP servers with your AI assistant via Model Context Protocol for instant access to research data.",
+          "code": "# Configure MCP server connection in AI platform settings\n# Server: Dimensions Analytics MCP or Semantic Search MCP\n# Authentication: Use existing Dimensions API credentials"
+        },
+        {
+          "title": "Query Research Data",
+          "desc": "Use natural language to search across 430M+ interconnected records for publications, grants, and patents.",
+          "code": "\"Find all clinical trials related to gene therapy approved in the last 2 years\""
+        },
+        {
+          "title": "Semantic Search",
+          "desc": "Perform concept-based retrieval that understands scientific relationships between drugs, diseases, and compounds.",
+          "code": "\"Show me publications linking CRISPR to cancer immunotherapy\""
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Research Discovery",
+          "text": "What are the latest publications and grants in machine learning for drug discovery? Show me funding trends."
+        },
+        {
+          "label": "Competitive Intelligence",
+          "text": "Which companies are patenting in biodegradable polymers? Who are the key researchers and institutions?"
+        },
+        {
+          "label": "Funding Analysis",
+          "text": "Analyze grant funding patterns for neurodegenerative diseases over the past 5 years by funding agency."
+        },
+        {
+          "label": "Clinical Insights",
+          "text": "Find all ongoing clinical trials for Alzheimer's disease and map the research landscape by institution."
+        }
+      ],
+      "pricing": {
+        "note": "Dimensions MCP Servers are available free to existing Dimensions API customers with no additional license required. Access requires a valid Dimensions subscription or license agreement.",
+        "plans": [
+          {
+            "name": "Free for API Customers",
+            "price": "Free",
+            "per": "forever",
+            "popular": true,
+            "color": "#2E7D32",
+            "features": [
+              "Access for existing Dimensions API customers",
+              "No additional license required",
+              "Full MCP server capabilities",
+              "Integration with major AI platforms"
+            ]
+          },
+          {
+            "name": "Enterprise License Required",
+            "price": "Custom",
+            "per": "per organization",
+            "popular": false,
+            "color": "#1565C0",
+            "features": [
+              "License-aligned access to Dimensions database",
+              "430M+ interconnected research records",
+              "Dedicated support and integration",
+              "Custom configuration options"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.dimensions.ai"
     }
   ],
   "totw": {
     "name": "Grok Bot",
     "tagline": "AI teammates that you can give real work to",
-    "votesCount": 505,
+    "votesCount": 517,
     "url": "https://www.producthunt.com/products/grok?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/072140a8-0a6b-4d48-9aaf-62def8c0697d.png?auto=format",
     "rank": 1,
@@ -25259,46 +25492,46 @@
       "Task Management",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-08-18T06:54:58.120Z"
+    "fetchedAt": "2026-08-19T06:55:53.201Z"
   },
   "lastWeeklyUpdate": "2026-08-12T08:10:44.718Z",
   "anthropicNews": [
     {
-      "date": "Aug 16, 2026",
-      "title": "Claude Watermarking for EU AI Act Compliance",
-      "summary": "<cite index=\"8-1\">Anthropic adds watermarking to future Claude text outputs to support EU AI Act compliance, with no visible impact on quality, speed, or pricing.</cite>",
+      "date": "Aug 13, 2026",
+      "title": "Claude Tag now reads even more of the room",
+      "summary": "<cite index=\"1-1\">Claude Tag product enhancement announced August 13, 2026</cite>",
+      "url": "https://claude.com/blog-category/announcements"
+    },
+    {
+      "date": "Aug 12, 2026",
+      "title": "Claude in Chrome side panel renamed Claude Cowork",
+      "summary": "<cite index=\"1-11\">The Claude in Chrome side panel is now Claude Cowork</cite>",
+      "url": "https://claude.com/blog-category/announcements"
+    },
+    {
+      "date": "Aug 4, 2026",
+      "title": "Mariano-Florentino Cuéllar joins as Chief Global Affairs Officer",
+      "summary": "<cite index=\"4-1\">Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer</cite>",
       "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Aug 14, 2026",
-      "title": "Claude Code Self-Hosted Environments & Compliance API",
-      "summary": "<cite index=\"6-1,6-14\">Claude expands Compliance API and adds self-hosted environments for Claude Code with compliance controls.</cite>",
-      "url": "https://www.anthropic.com/news"
+      "date": "Jul 24, 2026",
+      "title": "Claude Opus 5 launched at half the price of Fable 5",
+      "summary": "<cite index=\"13-4\">Claude Opus 5 designed to deliver performance close to Fable at half the price</cite>",
+      "url": "https://techcrunch.com/2026/07/24/anthropic-launches-opus-5/"
     },
     {
-      "date": "Aug 14, 2026",
-      "title": "Claude for Government Beta Launch",
-      "summary": "<cite index=\"6-9,6-10\">Claude for Government is available in beta; Anthropic remains the contracted and billing party.</cite>",
-      "url": "https://www.anthropic.com/news"
+      "date": "Jul 14, 2026",
+      "title": "Anthropic launches Claude for Teachers",
+      "summary": "<cite index=\"8-1\">Anthropic launched Claude for Teachers, joining tech companies competing to become the go-to classroom AI</cite>",
+      "url": "https://www.chalkbeat.org/2026/07/14/anthropic-launches-claude-for-teachers-as-ai-companies-battle-for-classrooms/"
     },
     {
-      "date": "Aug 10, 2026",
-      "title": "Claude Breaks Riemann Hypothesis Lower Bound",
-      "summary": "<cite index=\"21-6\">An unreleased research version of Claude improved a lower bound for the Riemann zeta function from 41.6% to 67.2%.</cite>",
-      "url": "https://www.anthropic.com/research"
-    },
-    {
-      "date": "Jul 27, 2026",
-      "title": "Cognizant Partnership Expands Claude to Enterprise",
-      "summary": "Cognizant and Anthropic expand partnership to bring Claude to enterprise clients.",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "Jul 06, 2026",
-      "title": "New Global Workspace Research on Claude Reasoning",
-      "summary": "<cite index=\"22-1\">Research reveals a privileged mental workspace in Claude that can be used for deliberate reasoning.</cite>",
-      "url": "https://www.anthropic.com/research/global-workspace"
+      "date": "Jul 15, 2026",
+      "title": "Ode launches as AI implementation venture",
+      "summary": "<cite index=\"11-4\">Ode with Anthropic is the $1.5 billion AI implementation company launched as a joint venture with Blackstone and others</cite>",
+      "url": "https://techcrunch.com/2026/07/15/anthropic-blackstone-bet-the-next-trillion-dollar-ai-business-is-implementation-not-models/"
     }
   ],
-  "lastChecked": "2026-08-18T06:55:41.227Z"
+  "lastChecked": "2026-08-19T06:57:00.498Z"
 }
