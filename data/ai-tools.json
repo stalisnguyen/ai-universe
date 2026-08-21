@@ -25927,7 +25927,7 @@
   "totw": {
     "name": "Astute",
     "tagline": "Automate your B2B brand going viral, with new media creators",
-    "votesCount": 487,
+    "votesCount": 526,
     "url": "https://www.producthunt.com/products/astute-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/d472f0a2-bcd4-42b5-bbc6-d8d86e68b7d7.jpeg?auto=format",
     "rank": 1,
@@ -25936,46 +25936,46 @@
       "Marketing",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-08-20T06:56:55.115Z"
+    "fetchedAt": "2026-08-21T06:58:13.615Z"
   },
   "lastWeeklyUpdate": "2026-08-20T07:26:41.251Z",
   "anthropicNews": [
     {
       "date": "Aug 20, 2026",
-      "title": "Claude Code adds new model settings and macOS protections",
-      "summary": "Claude Code now includes new default model setting, cross-session idle notifications, stronger macOS sandbox protections, and reliability improvements.",
-      "url": "https://releasebot.io/updates/anthropic/claude-code"
+      "title": "Anthropic's approach to teaching and learning AI",
+      "summary": "Anthropic announces educational initiative on AI learning and deployment strategies.",
+      "url": "https://claude.com/blog-category/announcements"
+    },
+    {
+      "date": "Aug 14, 2026",
+      "title": "Claude Code desktop update with auto-continue feature",
+      "summary": "Claude Code adds auto-continue checkbox to resume stalled sessions when usage limits reset.",
+      "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Aug 13, 2026",
-      "title": "Claude Tag now reads even more of the room",
-      "summary": "Claude Tag enhanced with expanded room-reading capabilities for improved contextual understanding.",
+      "title": "Claude Tag reads more of the room",
+      "summary": "Claude Tag improves with enhanced room reading capabilities for better contextual awareness.",
       "url": "https://claude.com/blog-category/announcements"
     },
     {
-      "date": "Aug 12, 2026",
-      "title": "Claude in Chrome side panel renamed to Claude Cowork",
-      "summary": "Chrome extension side panel feature rebranded and enhanced for improved collaborative workflow integration.",
-      "url": "https://claude.com/blog-category/announcements"
-    },
-    {
-      "date": "Aug 3, 2026",
-      "title": "Anthropic signs $10 billion computing deal with CoreWeave",
-      "summary": "Anthropic secures major computing infrastructure partnership to support model training and scaling operations.",
-      "url": "https://www.bloomberg.com/latest/anthropic"
-    },
-    {
-      "date": "Jul 27, 2026",
-      "title": "Cognizant expands partnership to bring Claude to enterprise",
-      "summary": "Cognizant and Anthropic deepen collaboration to deploy Claude solutions across enterprise client base.",
+      "date": "Aug 2, 2026",
+      "title": "Claude models now include watermarks for AI-generated content",
+      "summary": "<cite index=\"10-4,10-6\">All Claude products released from August 2, 2026 onwards include machine readable marking to comply with EU AI Act Article 50(2).</cite>",
       "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Jul 24, 2026",
-      "title": "Claude Opus 5 launched at half the price of Fable 5",
-      "summary": "<cite index=\"10-10\">Claude Opus 5 comes close to Claude Fable 5's frontier intelligence at half the price.</cite>",
-      "url": "https://releasebot.io/updates/anthropic/claude"
+      "title": "Claude Opus 5 released at half the price",
+      "summary": "<cite index=\"1-1\">Claude Opus 5 delivers performance close to Fable on many tasks at half the price.</cite>",
+      "url": "https://www.axios.com/2026/07/24/anthropic-releases-new-model-opus-5"
+    },
+    {
+      "date": "Jul 6, 2026",
+      "title": "Anthropic publishes landmark J-space interpretability research",
+      "summary": "<cite index=\"28-3\">Anthropic introduces the J-space and J-lens technique showing internal representations in Claude models that function like a global workspace.</cite>",
+      "url": "https://alignment.anthropic.com/"
     }
   ],
-  "lastChecked": "2026-08-20T07:30:03.662Z"
+  "lastChecked": "2026-08-21T06:58:34.539Z"
 }
