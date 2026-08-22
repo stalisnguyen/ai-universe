@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T07:30:03.662Z",
+  "lastUpdated": "2026-08-22T06:53:00.631Z",
   "categories": [
     {
       "id": "llm",
@@ -25922,12 +25922,263 @@
           "fullDesc": "Dimensions MCP Servers使企业AI代理能够通过Model Context Protocol标准访问世界上最大的相互关联研究数据库之一。该平台包含两个互补的服务器：Semantic Search MCP用于在40多个生命科学领域进行概念感知检索，Analytics MCP用于访问430M+相互关联的记录，涵盖出版物、资助、专利、临床试验、数据集和政策文件。为研发团队、制药和生物技术组织以及竞争情报专业人员而设计。"
         }
       }
+    },
+    {
+      "id": "pika-audio-models",
+      "name": "Pika Audio Models",
+      "company": "Pika Labs",
+      "category": "audio",
+      "icon": "🎵",
+      "badge": "new",
+      "color": "#FF6B6B",
+      "price": "freemium",
+      "priceLabel": "Freemium / API pricing from $0.617/second",
+      "tags": [
+        "generative audio",
+        "text-to-speech",
+        "music generation",
+        "sound effects"
+      ],
+      "shortDesc": "Four frontier audio foundation models for music, speech, sound effects, and video soundtracks.",
+      "fullDesc": "Pika Audio Models provide a suite of four frontier foundation models covering the full spectrum of generative audio: Pika Music, Pika SFX, Pika Speech, and Pika Soundtrack. These models are optimized for efficiency and cost-effectiveness, offering up to 20x lower pricing than competing audio models. Designed for content creators, filmmakers, and developers who need high-quality audio generation integrated with video production.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Generative AI Audio Foundation Models"
+        },
+        {
+          "label": "Released",
+          "value": "August 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Video production, music creation, speech synthesis, sound design"
+        },
+        {
+          "label": "Pricing",
+          "value": "Up to 20x cheaper than competitors; Pika Soundtrack from $0.617/second"
+        }
+      ],
+      "features": [
+        "Pika Soundtrack turns video into synchronized music, speech, ambience, and motion-aware sound effects",
+        "Pika Music generates complete songs from prompts, lyrics, voices, and reference tracks",
+        "Pika SFX creates clean, prompt-faithful sound effects from text descriptions",
+        "Pika Speech converts text to expressive speech with preset voices or custom voice cloning",
+        "Highly efficient training and inference techniques optimized for speed and cost",
+        "Video-to-audio functionality with automatic sound synchronization",
+        "API-first architecture enabling seamless integration into creative workflows",
+        "Support for multiple audio styles and characteristics including rhythm, tempo, and tone"
+      ],
+      "demo": [
+        {
+          "title": "Generate Sound Effects",
+          "desc": "Create custom sound effects by providing text prompts describing the desired audio",
+          "code": "prompt: 'sizzling bacon frying in cast iron pan'"
+        },
+        {
+          "title": "Create Expressive Speech",
+          "desc": "Convert text to natural speech with emotional expression and voice cloning options",
+          "code": "text: 'Welcome to our product launch' with custom voice clone"
+        },
+        {
+          "title": "Generate Background Music",
+          "desc": "Produce complete musical compositions from prompts or reference tracks",
+          "code": "prompt: 'upbeat indie pop track with electronic elements'"
+        },
+        {
+          "title": "Auto-Soundtrack Video",
+          "desc": "Automatically generate synchronized audio for video content including music and effects",
+          "code": "input: video file -> output: video with generated soundtrack"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Sound Effects",
+          "text": "Generate a realistic forest ambience with birds chirping, wind rustling through leaves, and distant rain"
+        },
+        {
+          "label": "Music Generation",
+          "text": "Create a cinematic orchestral theme in the style of epic fantasy movies with dramatic strings and horns"
+        },
+        {
+          "label": "Speech Generation",
+          "text": "Convert the following script to expressive speech with emphasis on emotional delivery: 'This changes everything'"
+        },
+        {
+          "label": "Video Soundtrack",
+          "text": "Generate background music and ambient sound effects for a 30-second product demo video"
+        }
+      ],
+      "pricing": {
+        "note": "Pika Audio Models are available exclusively through the Pika API Club with the lowest pricing in the market. All models are optimized for cost-efficiency with transparent per-second or per-generation pricing.",
+        "plans": [
+          {
+            "name": "Pika Soundtrack",
+            "price": "$0.617",
+            "per": "per second",
+            "popular": true,
+            "color": "#FF6B6B",
+            "features": [
+              "Video-to-audio synchronization",
+              "Motion-aware sound effects",
+              "2x more cost-efficient than alternatives",
+              "Full ambient and music generation"
+            ]
+          },
+          {
+            "name": "Pika SFX",
+            "price": "Up to 20x cheaper",
+            "per": "per generation",
+            "popular": false,
+            "color": "#FF8C8C",
+            "features": [
+              "Text-to-sound effect generation",
+              "Clean, prompt-faithful outputs",
+              "Significantly reduced cost vs. competitors"
+            ]
+          },
+          {
+            "name": "Pika Speech",
+            "price": "9x cheaper than ElevenLabs",
+            "per": "per generation",
+            "popular": false,
+            "color": "#FF8C8C",
+            "features": [
+              "Text-to-speech conversion",
+              "Custom voice cloning",
+              "Expressive speech generation",
+              "Preset and custom voices available"
+            ]
+          },
+          {
+            "name": "Pika Music",
+            "price": "Competitive API pricing",
+            "per": "per generation",
+            "popular": false,
+            "color": "#FF8C8C",
+            "features": [
+              "Text-to-music generation",
+              "Lyrics and reference track support",
+              "Complete song production",
+              "Multiple genre and style options"
+            ]
+          }
+        ]
+      },
+      "link": "https://experiment.pika.art/blog/pika-audio-models"
+    },
+    {
+      "id": "grok-build",
+      "name": "Grok Build",
+      "company": "xAI/SpaceX",
+      "category": "code",
+      "icon": "🛠️",
+      "badge": "new",
+      "color": "#1a1a1a",
+      "price": "free",
+      "priceLabel": "Free / Open Source",
+      "tags": [
+        "AI coding agent",
+        "open source",
+        "terminal UI",
+        "code generation"
+      ],
+      "shortDesc": "Open-source AI coding agent with terminal UI for reading, editing, and executing code",
+      "fullDesc": "Grok Build is SpaceXAI's terminal-based AI coding agent powered by the Grok 4.5 model. It understands your codebase, edits files, executes shell commands, searches the web, and manages long-running tasks. Recently open-sourced under Apache 2.0 for local-first development and full code transparency.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "AI Coding Agent / TUI"
+        },
+        {
+          "label": "Released",
+          "value": "May 2026 (beta), July 2026 (open source)"
+        },
+        {
+          "label": "Best for",
+          "value": "Software development, code generation, complex programming tasks"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free and open source under Apache 2.0"
+        }
+      ],
+      "features": [
+        "Interactive terminal UI with mouse support for code editing and plan review",
+        "Context assembly and tool-call dispatch for autonomous code operations",
+        "Built-in shell command execution for running tests and deployments",
+        "Full local-first capability with custom model endpoints and config.toml",
+        "Extension system supporting skills, plugins, MCP servers, and subagents",
+        "Headless mode for scripting, CI/CD, and programmatic invocation",
+        "Agent Client Protocol (ACP) support for IDE integration",
+        "Inline diff viewer for reviewing generated code changes"
+      ],
+      "demo": [
+        {
+          "title": "Basic Setup",
+          "desc": "Clone the repository and compile locally with Rust",
+          "code": "git clone https://github.com/xai-org/grok-build\ncd grok-build\ncargo build --release"
+        },
+        {
+          "title": "Configure Model",
+          "desc": "Point to local inference or custom API via config.toml",
+          "code": "[model.my-model]\nmodel = \"model-id\"\nbase_url = \"https://api.example.com/v1\"\nname = \"Display Name\"\nenv_key = \"API_KEY\""
+        },
+        {
+          "title": "Run Interactive CLI",
+          "desc": "Start Grok Build in interactive terminal mode for code tasks",
+          "code": "grok --config ~/.grok/config.toml"
+        },
+        {
+          "title": "Inspect Harness",
+          "desc": "Validate configuration and loaded extensions",
+          "code": "grok inspect"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Code Generation",
+          "text": "Create a Python FastAPI endpoint that accepts user authentication and returns a JWT token with proper error handling"
+        },
+        {
+          "label": "Debugging",
+          "text": "Debug this failing test case and suggest optimizations to improve execution time"
+        },
+        {
+          "label": "Refactoring",
+          "text": "Refactor this legacy JavaScript code into modern TypeScript with proper type safety"
+        },
+        {
+          "label": "Integration",
+          "text": "Implement a database migration system that tracks schema changes and supports rollbacks"
+        }
+      ],
+      "pricing": {
+        "note": "Grok Build is free and open-source under Apache 2.0 license. Source code is publicly available on GitHub for inspection, modification, and local deployment. No external pull requests are accepted; it remains internally developed by SpaceXAI.",
+        "plans": [
+          {
+            "name": "Open Source",
+            "price": "Free",
+            "per": "forever",
+            "popular": true,
+            "color": "#1a1a1a",
+            "features": [
+              "Full source code access under Apache 2.0",
+              "Local-first compilation and deployment",
+              "Compatible with custom model endpoints",
+              "Extension system with skills and plugins",
+              "No usage limits or data retention"
+            ]
+          }
+        ]
+      },
+      "link": "https://x.ai/news/grok-build-open-source"
     }
   ],
   "totw": {
     "name": "Astute",
     "tagline": "Automate your B2B brand going viral, with new media creators",
-    "votesCount": 526,
+    "votesCount": 533,
     "url": "https://www.producthunt.com/products/astute-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/d472f0a2-bcd4-42b5-bbc6-d8d86e68b7d7.jpeg?auto=format",
     "rank": 1,
@@ -25936,46 +26187,46 @@
       "Marketing",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-08-21T06:58:13.615Z"
+    "fetchedAt": "2026-08-22T06:51:49.736Z"
   },
   "lastWeeklyUpdate": "2026-08-20T07:26:41.251Z",
   "anthropicNews": [
     {
       "date": "Aug 20, 2026",
-      "title": "Anthropic's approach to teaching and learning AI",
-      "summary": "Anthropic announces educational initiative on AI learning and deployment strategies.",
+      "title": "Claude Academy & AI Education Initiative Launch",
+      "summary": "Anthropic launches Claude Academy with educational materials on AI fluency and Claude usage.",
       "url": "https://claude.com/blog-category/announcements"
     },
     {
       "date": "Aug 14, 2026",
-      "title": "Claude Code desktop update with auto-continue feature",
-      "summary": "Claude Code adds auto-continue checkbox to resume stalled sessions when usage limits reset.",
-      "url": "https://www.anthropic.com/news"
+      "title": "Claude Code Desktop Auto-Continue Feature",
+      "summary": "Claude Code adds auto-continue checkbox to resume sessions after usage limit window resets.",
+      "url": "https://explainx.ai/blog/claude-usage-limits-2026-timeline-explained"
     },
     {
-      "date": "Aug 13, 2026",
-      "title": "Claude Tag reads more of the room",
-      "summary": "Claude Tag improves with enhanced room reading capabilities for better contextual awareness.",
+      "date": "Aug 11, 2026",
+      "title": "Compliance API Extends to Cowork and Code",
+      "summary": "Claude expands Compliance API coverage to Claude Cowork and Claude Code products.",
       "url": "https://claude.com/blog-category/announcements"
     },
     {
       "date": "Aug 2, 2026",
-      "title": "Claude models now include watermarks for AI-generated content",
-      "summary": "<cite index=\"10-4,10-6\">All Claude products released from August 2, 2026 onwards include machine readable marking to comply with EU AI Act Article 50(2).</cite>",
-      "url": "https://www.anthropic.com/news"
+      "title": "Watermark Implementation for AI-Generated Content",
+      "summary": "<cite index=\"11-4\">Anthropic announced machine-readable marking in all AI-generated content from Claude products released from August 2, 2026</cite>.",
+      "url": "https://www.artificiallawyer.com/2026/08/13/anthropic-will-embed-watermarks-in-ai-outputs/"
     },
     {
       "date": "Jul 24, 2026",
-      "title": "Claude Opus 5 released at half the price",
-      "summary": "<cite index=\"1-1\">Claude Opus 5 delivers performance close to Fable on many tasks at half the price.</cite>",
+      "title": "Claude Opus 5 Released with 50% Price Reduction",
+      "summary": "<cite index=\"1-1\">Claude Opus 5 delivers performance close to Fable at half the price of the previous flagship</cite>.",
       "url": "https://www.axios.com/2026/07/24/anthropic-releases-new-model-opus-5"
     },
     {
-      "date": "Jul 6, 2026",
-      "title": "Anthropic publishes landmark J-space interpretability research",
-      "summary": "<cite index=\"28-3\">Anthropic introduces the J-space and J-lens technique showing internal representations in Claude models that function like a global workspace.</cite>",
-      "url": "https://alignment.anthropic.com/"
+      "date": "Jul 28, 2026",
+      "title": "MCP 2026-07-28 Spec Update with 950+ Servers",
+      "summary": "<cite index=\"16-8\">Claude now lists over 950 MCP servers in the connectors directory, used by millions of people</cite>.",
+      "url": "https://releasebot.io/updates/anthropic/claude"
     }
   ],
-  "lastChecked": "2026-08-21T06:58:34.539Z"
+  "lastChecked": "2026-08-22T06:53:00.631Z"
 }
