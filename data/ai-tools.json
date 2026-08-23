@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22T06:53:00.631Z",
+  "lastUpdated": "2026-08-23T06:53:24.175Z",
   "categories": [
     {
       "id": "llm",
@@ -26173,12 +26173,130 @@
         ]
       },
       "link": "https://x.ai/news/grok-build-open-source"
+    },
+    {
+      "id": "colloqio",
+      "name": "Colloqio",
+      "company": "Colloqio",
+      "category": "AI companion",
+      "icon": "🤖",
+      "badge": "new",
+      "color": "#6B5FFF",
+      "price": "freemium",
+      "priceLabel": "Free with Premium",
+      "tags": [
+        "private AI",
+        "on-device",
+        "offline",
+        "privacy-first"
+      ],
+      "shortDesc": "Private AI companion that runs 100% locally on your device with zero data collection.",
+      "fullDesc": "Colloqio is a revolutionary on-device AI companion designed with privacy at its core. It runs entirely on your device with no cloud servers, no data collection, and works completely offline. The AI remembers your preferences, interests, and goals while keeping all conversations completely private.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "AI Companion / Chat"
+        },
+        {
+          "label": "Released",
+          "value": "2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Users seeking private, offline AI conversations with memory capabilities"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free with optional Premium in-app purchase"
+        }
+      ],
+      "features": [
+        "100% on-device AI processing with no cloud connectivity required",
+        "Complete privacy with zero data collection and no tracking whatsoever",
+        "AI memory system that learns and remembers your preferences, interests, and goals",
+        "Works completely offline without requiring internet connection",
+        "Integrated journaling feature with mood tracking and emotional analysis",
+        "Automatic chat summarization to handle long conversations without context loss",
+        "Multi-modal journaling with photo support and calendar-based history view"
+      ],
+      "demo": [
+        {
+          "title": "Install and Initialize",
+          "desc": "Download Colloqio from App Store, launch the app, and allow it to load the local AI model on your device",
+          "code": ""
+        },
+        {
+          "title": "Start Private Chat",
+          "desc": "Begin chatting with your AI companion immediately. The AI processes all responses locally without sending data anywhere",
+          "code": ""
+        },
+        {
+          "title": "Create Journal Entry",
+          "desc": "Use the new Journal feature to reflect on your day, add photos, and track your mood with AI analysis",
+          "code": ""
+        },
+        {
+          "title": "Build Memory",
+          "desc": "The AI automatically identifies and stores important details from conversations to remember you better over time",
+          "code": ""
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Daily Reflection",
+          "text": "How did today go? Help me reflect on what went well and what I can improve tomorrow."
+        },
+        {
+          "label": "Goal Planning",
+          "text": "I want to work towards [goal]. Can you help me create a plan and check in on my progress?"
+        },
+        {
+          "label": "Mood Tracking",
+          "text": "I'm feeling [emotion]. Can you help me understand what's causing this and suggest ways to feel better?"
+        },
+        {
+          "label": "Memory Recall",
+          "text": "Remember when I told you about [topic]? Can we continue that conversation?"
+        }
+      ],
+      "pricing": {
+        "note": "Colloqio offers a free version with core features and optional Premium in-app purchase for enhanced capabilities. No cloud subscriptions or ongoing costs required.",
+        "plans": [
+          {
+            "name": "Free",
+            "price": "0",
+            "per": "forever",
+            "popular": true,
+            "color": "#6B5FFF",
+            "features": [
+              "Full on-device AI chat with privacy",
+              "AI memory and conversation learning",
+              "Journal feature with mood tracking",
+              "Works completely offline"
+            ]
+          },
+          {
+            "name": "Premium",
+            "price": "Variable",
+            "per": "in-app purchase",
+            "popular": false,
+            "color": "#8B7FFF",
+            "features": [
+              "Enhanced AI capabilities",
+              "Advanced journal features",
+              "Priority app updates",
+              "Exclusive conversation themes"
+            ]
+          }
+        ]
+      },
+      "link": "https://colloqio.app/"
     }
   ],
   "totw": {
     "name": "Astute",
     "tagline": "Automate your B2B brand going viral, with new media creators",
-    "votesCount": 533,
+    "votesCount": 535,
     "url": "https://www.producthunt.com/products/astute-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/d472f0a2-bcd4-42b5-bbc6-d8d86e68b7d7.jpeg?auto=format",
     "rank": 1,
@@ -26187,46 +26305,46 @@
       "Marketing",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-08-22T06:51:49.736Z"
+    "fetchedAt": "2026-08-23T06:52:32.487Z"
   },
   "lastWeeklyUpdate": "2026-08-20T07:26:41.251Z",
   "anthropicNews": [
     {
+      "date": "Aug 22, 2026",
+      "title": "Claude Code Updates: Cost Estimates and IDE Improvements",
+      "summary": "Claude Code improves cost estimates, cloud sessions, remote control, and IDE workflows with reliability fixes and new platform support.",
+      "url": "https://releasebot.io/updates/anthropic/claude-code"
+    },
+    {
       "date": "Aug 20, 2026",
-      "title": "Claude Academy & AI Education Initiative Launch",
-      "summary": "Anthropic launches Claude Academy with educational materials on AI fluency and Claude usage.",
-      "url": "https://claude.com/blog-category/announcements"
+      "title": "Claude Launches Academy Learning Hub for AI Fluency",
+      "summary": "Claude Academy launches with courses, tutorials, badges, and personalized recommendations for safe and effective AI use.",
+      "url": "https://releasebot.io/updates/anthropic/claude"
     },
     {
-      "date": "Aug 14, 2026",
-      "title": "Claude Code Desktop Auto-Continue Feature",
-      "summary": "Claude Code adds auto-continue checkbox to resume sessions after usage limit window resets.",
-      "url": "https://explainx.ai/blog/claude-usage-limits-2026-timeline-explained"
+      "date": "Aug 19, 2026",
+      "title": "Claude Code Usage Boost Extended and New Features Released",
+      "summary": "<cite index=\"3-1\">Anthropic extended the temporary 50% weekly usage boost for Claude Code subscribers through August 19, 2026</cite>, with new output styling and gateway improvements.",
+      "url": "https://releasebot.io/updates/anthropic"
     },
     {
-      "date": "Aug 11, 2026",
-      "title": "Compliance API Extends to Cowork and Code",
-      "summary": "Claude expands Compliance API coverage to Claude Cowork and Claude Code products.",
-      "url": "https://claude.com/blog-category/announcements"
+      "date": "Aug 16, 2026",
+      "title": "Claude Services Experience Major Outage",
+      "summary": "<cite index=\"2-2,2-3\">Claude experienced a major outage beginning August 16 affecting Claude.ai, Claude Code, and Claude Cowork</cite> with login and performance issues.",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services/"
     },
     {
       "date": "Aug 2, 2026",
-      "title": "Watermark Implementation for AI-Generated Content",
-      "summary": "<cite index=\"11-4\">Anthropic announced machine-readable marking in all AI-generated content from Claude products released from August 2, 2026</cite>.",
-      "url": "https://www.artificiallawyer.com/2026/08/13/anthropic-will-embed-watermarks-in-ai-outputs/"
-    },
-    {
-      "date": "Jul 24, 2026",
-      "title": "Claude Opus 5 Released with 50% Price Reduction",
-      "summary": "<cite index=\"1-1\">Claude Opus 5 delivers performance close to Fable at half the price of the previous flagship</cite>.",
-      "url": "https://www.axios.com/2026/07/24/anthropic-releases-new-model-opus-5"
+      "title": "Claude Sonnet 5 Promotional Pricing Ends August 31",
+      "summary": "<cite index=\"3-6\">Claude Sonnet 5's promotional pricing of $2/$10 per million tokens ends August 31, 2026, with standard pricing of $3/$15 taking effect September 1</cite>.",
+      "url": "https://claudelog.com/claude-news/"
     },
     {
       "date": "Jul 28, 2026",
-      "title": "MCP 2026-07-28 Spec Update with 950+ Servers",
-      "summary": "<cite index=\"16-8\">Claude now lists over 950 MCP servers in the connectors directory, used by millions of people</cite>.",
-      "url": "https://releasebot.io/updates/anthropic/claude"
+      "title": "Claude Opus 5 Released at Opus 4.8 Pricing",
+      "summary": "<cite index=\"10-1\">Anthropic released Claude Opus 5, designed to deliver performance close to its most powerful model, Fable, on many tasks at half the price</cite>.",
+      "url": "https://www.axios.com/2026/07/24/anthropic-releases-new-model-opus-5"
     }
   ],
-  "lastChecked": "2026-08-22T06:53:00.631Z"
+  "lastChecked": "2026-08-23T06:53:24.175Z"
 }
