@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23T06:53:24.175Z",
+  "lastUpdated": "2026-08-24T07:12:35.329Z",
   "categories": [
     {
       "id": "llm",
@@ -26291,12 +26291,139 @@
         ]
       },
       "link": "https://colloqio.app/"
+    },
+    {
+      "id": "grok-bot",
+      "name": "Grok Bot",
+      "company": "xAI",
+      "category": "agent",
+      "icon": "🤖",
+      "badge": "new",
+      "color": "#000000",
+      "price": "paid",
+      "priceLabel": "From $300/mo (SuperGrok Heavy)",
+      "tags": [
+        "autonomous agents",
+        "multi-step tasks",
+        "cloud computing",
+        "workflow automation"
+      ],
+      "shortDesc": "AI teammates with persistent cloud computers that automate multi-step work across your apps 24/7.",
+      "fullDesc": "Grok Bot is xAI's always-on AI agent product that gives each bot its own persistent cloud computer, browser, and file access to sign into your existing tools and complete multi-step tasks autonomously. Each bot works around the clock, returning only when it needs human approval. Built as an autonomous workflow tool rather than a conversational chatbot, it's designed for teams handling complex knowledge work like research, outreach automation, CRM hygiene, and scheduled routine execution.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Autonomous AI Agent"
+        },
+        {
+          "label": "Released",
+          "value": "August 11, 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Multi-step automation, enterprise workflows, scheduled tasks"
+        },
+        {
+          "label": "Pricing",
+          "value": "Bundled with SuperGrok Heavy ($300/mo) or Cursor subscriptions"
+        }
+      ],
+      "features": [
+        "Each bot runs on its own persistent cloud virtual machine with browser, terminal, and file access.",
+        "Bots sign into your existing apps and tools to execute tasks autonomously without interruption.",
+        "Learn workflows by demonstration—show a bot a task once and it saves it as a routine to repeat on schedule.",
+        "Multiple bots can coordinate in group chats, share context, and work in parallel on different tasks.",
+        "Works 24/7 and returns only when human approval or decision is needed on a task.",
+        "Supports messaging interface for natural language commands and task assignment.",
+        "Available on desktop (macOS, Windows, Linux) and iOS; Android support coming soon.",
+        "Includes weekly usage allowance with optional on-demand billing for heavy use."
+      ],
+      "demo": [
+        {
+          "title": "Sales Outreach Bot",
+          "desc": "Bot researches target accounts overnight, scores contacts by intent signals, drafts personalized emails and LinkedIn messages in each seller's voice, and queues them for review.",
+          "code": "Set bot to run nightly: research [company name], score contacts, draft outreach"
+        },
+        {
+          "title": "CRM Hygiene Bot",
+          "desc": "Bot maintains customer relationship data, flags stalled deals and commitment risk, and generates a Monday morning scorecard so your team starts the week aligned.",
+          "code": "Create routine: audit CRM daily, flag stale records, flag overdue actions"
+        },
+        {
+          "title": "Demo Environment Bot",
+          "desc": "Bot spins up test environments, fixes broken test data and outdated UI elements, and drops a ready checklist before scheduled demos.",
+          "code": "Schedule: reset demo environment, verify all fields, generate readiness checklist"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Research & Analysis",
+          "text": "Research these 10 companies, score decision-maker contacts by seniority and intent signals, and draft personalized outreach for each."
+        },
+        {
+          "label": "Subscription Management",
+          "text": "Scan all my SaaS subscriptions, flag any billed yearly or at unusual rates, and draft cancellation requests for anything unused in the last 30 days."
+        },
+        {
+          "label": "Data Hygiene",
+          "text": "Audit our CRM nightly: find duplicate records, flag stalled deals over 90 days, update owner assignments, and email the team a weekly summary."
+        },
+        {
+          "label": "Support Automation",
+          "text": "Monitor support tickets, categorize by type, draft responses for common issues, and escalate complex ones with full context."
+        }
+      ],
+      "pricing": {
+        "note": "Grok Bot is currently in beta and available only through premium subscription tiers with no standalone free trial. Access is bundled into SuperGrok Heavy, Cursor Ultra, or Cursor Teams Premium plans; xAI does not publish the weekly usage allowance publicly but allows on-demand usage for overages.",
+        "plans": [
+          {
+            "name": "SuperGrok Heavy",
+            "price": "$300",
+            "per": "per month",
+            "popular": true,
+            "color": "#1C1C1C",
+            "features": [
+              "Grok Bot beta access with weekly usage allowance",
+              "Grok 4.5 and 4 Heavy multi-agent model access",
+              "Unlimited standard Grok queries",
+              "On-demand usage for Bot overages"
+            ]
+          },
+          {
+            "name": "Cursor Ultra",
+            "price": "$200",
+            "per": "per month",
+            "popular": false,
+            "color": "#1C1C1C",
+            "features": [
+              "Grok Bot beta access (via distribution partnership)",
+              "Full Cursor IDE features with unlimited requests",
+              "Claude and GPT-4 Turbo integration",
+              "On-demand usage for Bot overages"
+            ]
+          },
+          {
+            "name": "Cursor Teams Premium",
+            "price": "$120",
+            "per": "per seat per month",
+            "popular": false,
+            "color": "#1C1C1C",
+            "features": [
+              "Grok Bot beta access for team members",
+              "Team admin controls and workspace management",
+              "Shared context and collaborative workflows",
+              "On-demand usage for Bot overages"
+            ]
+          }
+        ]
+      },
+      "link": "https://grok.com/bot"
     }
   ],
   "totw": {
     "name": "Astute",
     "tagline": "Automate your B2B brand going viral, with new media creators",
-    "votesCount": 535,
+    "votesCount": 561,
     "url": "https://www.producthunt.com/products/astute-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/d472f0a2-bcd4-42b5-bbc6-d8d86e68b7d7.jpeg?auto=format",
     "rank": 1,
@@ -26305,46 +26432,46 @@
       "Marketing",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-08-23T06:52:32.487Z"
+    "fetchedAt": "2026-08-24T07:11:25.270Z"
   },
   "lastWeeklyUpdate": "2026-08-20T07:26:41.251Z",
   "anthropicNews": [
     {
       "date": "Aug 22, 2026",
-      "title": "Claude Code Updates: Cost Estimates and IDE Improvements",
-      "summary": "Claude Code improves cost estimates, cloud sessions, remote control, and IDE workflows with reliability fixes and new platform support.",
-      "url": "https://releasebot.io/updates/anthropic/claude-code"
-    },
-    {
-      "date": "Aug 20, 2026",
-      "title": "Claude Launches Academy Learning Hub for AI Fluency",
-      "summary": "Claude Academy launches with courses, tutorials, badges, and personalized recommendations for safe and effective AI use.",
-      "url": "https://releasebot.io/updates/anthropic/claude"
-    },
-    {
-      "date": "Aug 19, 2026",
-      "title": "Claude Code Usage Boost Extended and New Features Released",
-      "summary": "<cite index=\"3-1\">Anthropic extended the temporary 50% weekly usage boost for Claude Code subscribers through August 19, 2026</cite>, with new output styling and gateway improvements.",
+      "title": "Claude Code improves cost, cloud sessions, remote control",
+      "summary": "<cite index=\"7-4\">Claude Code improves cost estimates, cloud sessions, remote control, and IDE and terminal workflows with broad bug fixes, new Bedrock and Alpine support, a Python 1.x upgrade helper, better `/resume` and `/goal` behavior, and smoother fullscreen, proxy, and messaging experiences.</cite>",
       "url": "https://releasebot.io/updates/anthropic"
     },
     {
-      "date": "Aug 16, 2026",
-      "title": "Claude Services Experience Major Outage",
-      "summary": "<cite index=\"2-2,2-3\">Claude experienced a major outage beginning August 16 affecting Claude.ai, Claude Code, and Claude Cowork</cite> with login and performance issues.",
-      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-major-outage-affecting-multiple-services/"
+      "date": "Aug 21, 2026",
+      "title": "Claude Mythos 5 added to Claude Security for Enterprise",
+      "summary": "<cite index=\"16-12,16-13\">Claude Mythos 5 added to Claude Security for Enterprise customers with codebase scans and vulnerability findings. Launches the Defender Advantage Fund and begins widening its Cyber Verification Program.</cite>",
+      "url": "https://releasebot.io/updates/anthropic/claude"
     },
     {
-      "date": "Aug 2, 2026",
-      "title": "Claude Sonnet 5 Promotional Pricing Ends August 31",
-      "summary": "<cite index=\"3-6\">Claude Sonnet 5's promotional pricing of $2/$10 per million tokens ends August 31, 2026, with standard pricing of $3/$15 taking effect September 1</cite>.",
-      "url": "https://claudelog.com/claude-news/"
+      "date": "Aug 20, 2026",
+      "title": "Anthropic expects to match or top SpaceX's IPO size",
+      "summary": "<cite index=\"1-1\">Anthropic expects to match or top SpaceX's record IPO size and set to add Citigroup to top IPO banks on mega-listing.</cite>",
+      "url": "https://www.bloomberg.com/latest/anthropic"
     },
     {
-      "date": "Jul 28, 2026",
-      "title": "Claude Opus 5 Released at Opus 4.8 Pricing",
-      "summary": "<cite index=\"10-1\">Anthropic released Claude Opus 5, designed to deliver performance close to its most powerful model, Fable, on many tasks at half the price</cite>.",
-      "url": "https://www.axios.com/2026/07/24/anthropic-releases-new-model-opus-5"
+      "date": "Aug 19, 2026",
+      "title": "Anthropic plans data retention policy change for advanced AI",
+      "summary": "<cite index=\"1-1\">Anthropic plans to change data retention policy for advanced AI.</cite>",
+      "url": "https://www.bloomberg.com/latest/anthropic"
+    },
+    {
+      "date": "Aug 14, 2026",
+      "title": "Anthropic cuts Claude prices amid Chinese competition",
+      "summary": "<cite index=\"4-1\">OpenAI and Anthropic are lowering prices on some models as lower-cost Chinese competitors including DeepSeek and Moonshot AI gain users.</cite>",
+      "url": "https://techstartups.com/2026/08/14/top-tech-news-today-august-14-2026-apple-anthropic-deepseek-google-ibm-pony-ai-openai-spacex-uber-more/"
+    },
+    {
+      "date": "Aug 4, 2026",
+      "title": "Mariano-Florentino Cuéllar joins as Chief Global Affairs Officer",
+      "summary": "Anthropic appoints Mariano-Florentino (Tino) Cuéllar to join as Chief Global Affairs Officer.",
+      "url": "https://www.anthropic.com/news"
     }
   ],
-  "lastChecked": "2026-08-23T06:53:24.175Z"
+  "lastChecked": "2026-08-24T07:12:35.329Z"
 }
