@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T07:12:35.329Z",
+  "lastUpdated": "2026-08-25T06:59:20.278Z",
   "categories": [
     {
       "id": "llm",
@@ -26418,12 +26418,113 @@
         ]
       },
       "link": "https://grok.com/bot"
+    },
+    {
+      "id": "kitesurf",
+      "name": "Kitesurf",
+      "company": "Cloudflare",
+      "category": "agent",
+      "icon": "🪁",
+      "badge": "new",
+      "color": "#F38020",
+      "price": "free",
+      "priceLabel": "Free (Beta)",
+      "tags": [
+        "headless browser",
+        "web automation",
+        "AI agents",
+        "low-resource"
+      ],
+      "shortDesc": "Stateless, agent-first browser running on Cloudflare Workers with 3-7x less CPU/memory than Chromium.",
+      "fullDesc": "Kitesurf is Cloudflare's lightweight, stateless browser purpose-built for AI agents and automated web tasks. It runs entirely on Cloudflare Workers using Rust-compiled WebAssembly, eliminating human-focused features like tabs and extensions while optimizing for token efficiency, scalability, and cost. Ideal for AI engineers building browser-using agents, data extraction pipelines, and bursty automation workloads that need fast provisioning and low resource overhead.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Headless browser engine"
+        },
+        {
+          "label": "Released",
+          "value": "August 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "AI agents, web scraping, screenshots, HTML extraction"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free during beta, per-account limits"
+        }
+      ],
+      "features": [
+        "Runs entirely on Cloudflare Workers with V8 isolates and WebAssembly for minimal resource overhead",
+        "Uses 3-7x less CPU and memory than Chromium for common agent tasks like screenshots and HTML extraction",
+        "Chrome DevTools Protocol (CDP) compatible, works with Puppeteer, Playwright, and MCP clients",
+        "Passes 215,000+ Web Platform Tests with strong DOM, HTML, CSS, JavaScript, and SVG support",
+        "Isolated, stateless execution model with automatic cleanup for secure, burst workload processing",
+        "Structured content extraction and machine-readable output optimized for AI token efficiency",
+        "Quick one-parameter integration via browser=kitesurf for existing automation scripts"
+      ],
+      "demo": [
+        {
+          "title": "Screenshot with Kitesurf",
+          "desc": "Capture a page screenshot by adding the browser=kitesurf parameter to Browser Run's CDP endpoint",
+          "code": "curl -X POST 'https://api.cloudflare.com/client/v4/accounts/<ACCOUNT_ID>/browser-run/screenshot?browser=kitesurf' \\\n-H 'Authorization: Bearer <API_TOKEN>' \\\n-H 'Content-Type: application/json' \\\n-d '{\"url\": \"https://example.com\"}' \\\n--output \"screenshot.png\""
+        },
+        {
+          "title": "Extract HTML Content",
+          "desc": "Use Kitesurf with Puppeteer or Playwright by setting the browser parameter in your CDP connection string",
+          "code": "browser=kitesurf parameter added to any Browser Run CDP or Quick Action endpoint"
+        },
+        {
+          "title": "Interactive Playground",
+          "desc": "Test Kitesurf capabilities in the public playground without writing code, with Chrome DevTools inspection built-in",
+          "code": "Visit https://kitesurf.cloudflare.app/"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Web Scraping",
+          "text": "Extract product information including name, price, and availability from an e-commerce page using Kitesurf"
+        },
+        {
+          "label": "Content Extraction",
+          "text": "Parse HTML structure and extract article text, metadata, and links from a news website for RAG ingestion"
+        },
+        {
+          "label": "Automation",
+          "text": "Generate a screenshot of a webpage for monitoring or competitive intelligence purposes with minimal overhead"
+        },
+        {
+          "label": "Data Processing",
+          "text": "Run 500 concurrent page captures for a batch data extraction job using Kitesurf's isolated, stateless model"
+        }
+      ],
+      "pricing": {
+        "note": "Kitesurf is currently free during its beta phase with per-account limits. Cloudflare has not announced post-beta pricing. Browser Run's underlying service has both free tier and paid plans with higher usage ceilings.",
+        "plans": [
+          {
+            "name": "Beta (Free)",
+            "price": "Free",
+            "per": "forever",
+            "popular": true,
+            "color": "#F38020",
+            "features": [
+              "Free access to Kitesurf browser engine",
+              "Per-account usage limits apply",
+              "Compatible with all Browser Run endpoints",
+              "Chrome DevTools Protocol support",
+              "Public playground access"
+            ]
+          }
+        ]
+      },
+      "link": "https://developers.cloudflare.com/browser-run/kitesurf/"
     }
   ],
   "totw": {
     "name": "Astute",
     "tagline": "Automate your B2B brand going viral, with new media creators",
-    "votesCount": 561,
+    "votesCount": 569,
     "url": "https://www.producthunt.com/products/astute-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/d472f0a2-bcd4-42b5-bbc6-d8d86e68b7d7.jpeg?auto=format",
     "rank": 1,
@@ -26432,46 +26533,46 @@
       "Marketing",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-08-24T07:11:25.270Z"
+    "fetchedAt": "2026-08-25T06:58:42.608Z"
   },
   "lastWeeklyUpdate": "2026-08-20T07:26:41.251Z",
   "anthropicNews": [
     {
-      "date": "Aug 22, 2026",
-      "title": "Claude Code improves cost, cloud sessions, remote control",
-      "summary": "<cite index=\"7-4\">Claude Code improves cost estimates, cloud sessions, remote control, and IDE and terminal workflows with broad bug fixes, new Bedrock and Alpine support, a Python 1.x upgrade helper, better `/resume` and `/goal` behavior, and smoother fullscreen, proxy, and messaging experiences.</cite>",
-      "url": "https://releasebot.io/updates/anthropic"
-    },
-    {
-      "date": "Aug 21, 2026",
-      "title": "Claude Mythos 5 added to Claude Security for Enterprise",
-      "summary": "<cite index=\"16-12,16-13\">Claude Mythos 5 added to Claude Security for Enterprise customers with codebase scans and vulnerability findings. Launches the Defender Advantage Fund and begins widening its Cyber Verification Program.</cite>",
-      "url": "https://releasebot.io/updates/anthropic/claude"
-    },
-    {
-      "date": "Aug 20, 2026",
-      "title": "Anthropic expects to match or top SpaceX's IPO size",
-      "summary": "<cite index=\"1-1\">Anthropic expects to match or top SpaceX's record IPO size and set to add Citigroup to top IPO banks on mega-listing.</cite>",
-      "url": "https://www.bloomberg.com/latest/anthropic"
-    },
-    {
-      "date": "Aug 19, 2026",
-      "title": "Anthropic plans data retention policy change for advanced AI",
-      "summary": "<cite index=\"1-1\">Anthropic plans to change data retention policy for advanced AI.</cite>",
-      "url": "https://www.bloomberg.com/latest/anthropic"
-    },
-    {
-      "date": "Aug 14, 2026",
-      "title": "Anthropic cuts Claude prices amid Chinese competition",
-      "summary": "<cite index=\"4-1\">OpenAI and Anthropic are lowering prices on some models as lower-cost Chinese competitors including DeepSeek and Moonshot AI gain users.</cite>",
-      "url": "https://techstartups.com/2026/08/14/top-tech-news-today-august-14-2026-apple-anthropic-deepseek-google-ibm-pony-ai-openai-spacex-uber-more/"
-    },
-    {
       "date": "Aug 4, 2026",
-      "title": "Mariano-Florentino Cuéllar joins as Chief Global Affairs Officer",
-      "summary": "Anthropic appoints Mariano-Florentino (Tino) Cuéllar to join as Chief Global Affairs Officer.",
+      "title": "Claude Academy Learning Hub Launches",
+      "summary": "Anthropic launches Claude Academy with courses, tutorials, badges for safe AI use.",
       "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Jul 30, 2026",
+      "title": "Cybersecurity Evaluation Report Published",
+      "summary": "Anthropic discloses three real-world security incidents from internal evaluations.",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Jul 28, 2026",
+      "title": "Claude Opus 5 Released at Unchanged Pricing",
+      "summary": "<cite index=\"1-1\">Claude Opus 5 delivers performance close to Fable at half the price</cite>.",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Jul 6, 2026",
+      "title": "Global Workspace Interpretability Research",
+      "summary": "<cite index=\"28-7\">Reveals an emergent mental workspace in Claude holding internal thoughts</cite>.",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "date": "Jul 27, 2026",
+      "title": "Cognizant Partnership Expansion Announced",
+      "summary": "Cognizant and Anthropic expand partnership to bring Claude to enterprise clients.",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Aug 18, 2026",
+      "title": "Claude Advances Protein Design and Chemistry",
+      "summary": "Research shows Claude accelerating progress in protein design and analytical chemistry.",
+      "url": "https://www.anthropic.com/research"
     }
   ],
-  "lastChecked": "2026-08-24T07:12:35.329Z"
+  "lastChecked": "2026-08-25T06:59:20.278Z"
 }
