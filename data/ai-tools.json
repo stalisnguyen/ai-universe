@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-25T06:59:20.278Z",
+  "lastUpdated": "2026-08-26T07:01:20.962Z",
   "categories": [
     {
       "id": "llm",
@@ -26519,12 +26519,443 @@
         ]
       },
       "link": "https://developers.cloudflare.com/browser-run/kitesurf/"
+    },
+    {
+      "id": "grok-build-cli",
+      "name": "Grok Build CLI",
+      "company": "xAI",
+      "category": "agent",
+      "icon": "⚙️",
+      "badge": "new",
+      "color": "#000000",
+      "price": "freemium",
+      "priceLabel": "Free trial / From $30/mo",
+      "tags": [
+        "ai-coding",
+        "terminal-agent",
+        "real-time-search",
+        "agentic"
+      ],
+      "shortDesc": "Terminal-based AI coding agent with real-time web search and agentic tool calling capabilities.",
+      "fullDesc": "Grok Build CLI is xAI's official command-line interface for terminal-based AI development. It provides an interactive TUI with live context metering, markdown planning, image generation, and Model Context Protocol (MCP) support. Designed for developers who want AI-assisted coding workflows directly in their terminal with access to Grok's latest models and real-time X/web search integration.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Terminal AI Agent / CLI"
+        },
+        {
+          "label": "Released",
+          "value": "May 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Terminal-based AI coding, agentic workflows, real-time data integration"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free with trials; SuperGrok $30/mo or API pay-per-token"
+        }
+      ],
+      "features": [
+        "Interactive TUI with real-time context meter and turn completion timing",
+        "Multi-modal support including code editing, image generation via /imagine, and markdown planning",
+        "Model Context Protocol (MCP) integration for extending tool functionality",
+        "Real-time web and X search integration for current information access",
+        "File-level permissions and secure sandbox execution environment",
+        "Plugin marketplace for community-built extensions and integrations",
+        "Session management with disk usage monitoring and worktree organization",
+        "Self-verification loop for autonomous quality assurance on generated code"
+      ],
+      "demo": [
+        {
+          "title": "Interactive Coding Session",
+          "desc": "Start an interactive session where Grok Build helps refactor code with real-time context tracking.",
+          "code": "grok --model grok-4-latest"
+        },
+        {
+          "title": "Targeted Model Selection",
+          "desc": "Use a specialized coding model for specific development tasks.",
+          "code": "grok --prompt \"refactor this function\" --model grok-build-0.1"
+        },
+        {
+          "title": "Generate Images",
+          "desc": "Create images inline within the terminal interface during development.",
+          "code": "/imagine a dark mode dashboard wireframe"
+        },
+        {
+          "title": "Plan Mode",
+          "desc": "Create detailed markdown design documents before implementation.",
+          "code": "/plan"
+        },
+        {
+          "title": "MCP Integration",
+          "desc": "Extend functionality with Model Context Protocol servers.",
+          "code": "grok mcp add <server-name>"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Code Refactoring",
+          "text": "Refactor this function for clarity and performance while maintaining backward compatibility"
+        },
+        {
+          "label": "Real-time Research",
+          "text": "Search for recent updates on [topic] and summarize the latest developments"
+        },
+        {
+          "label": "Architecture Planning",
+          "text": "/plan: Create a detailed architecture document for a scalable microservices system"
+        },
+        {
+          "label": "Debug & Fix",
+          "text": "Analyze this error stack trace and provide step-by-step debugging instructions"
+        }
+      ],
+      "pricing": {
+        "note": "Grok Build CLI offers free access with trials. Paid plans scale from SuperGrok at $30/month to enterprise options. API-based usage follows per-token pricing with separate tool invocation fees.",
+        "plans": [
+          {
+            "name": "Free Trial",
+            "price": "$0",
+            "per": "forever",
+            "popular": false,
+            "color": "#666666",
+            "features": [
+              "Limited daily queries",
+              "Basic Grok model access",
+              "Interactive TUI interface",
+              "7-day extended trial available"
+            ]
+          },
+          {
+            "name": "SuperGrok",
+            "price": "$30",
+            "per": "per month",
+            "popular": true,
+            "color": "#000000",
+            "features": [
+              "Full Grok 4.6 and Build access",
+              "Increased usage limits",
+              "Advanced reasoning modes",
+              "Image and video generation",
+              "Priority access to new features"
+            ]
+          },
+          {
+            "name": "SuperGrok Plus",
+            "price": "$100",
+            "per": "per month",
+            "popular": false,
+            "color": "#1a1a1a",
+            "features": [
+              "Significantly higher usage across Build",
+              "Extended context windows",
+              "Priority processing",
+              "Enterprise-grade support",
+              "Advanced tool integrations"
+            ]
+          },
+          {
+            "name": "API (Pay-per-Token)",
+            "price": "$1-2",
+            "per": "per million input tokens",
+            "popular": false,
+            "color": "#333333",
+            "features": [
+              "Grok Build 0.1 starts at $1/M input",
+              "Grok 4.6 at $2/M input and $6/M output",
+              "Cached input tokens at $0.20-0.50/M",
+              "Web search and tool invocations billed separately"
+            ]
+          }
+        ]
+      },
+      "link": "https://x.ai/cli"
+    },
+    {
+      "id": "octane-ai-operating-system",
+      "name": "Octane AI",
+      "company": "Octane AI",
+      "category": "agent",
+      "icon": "🧠",
+      "badge": null,
+      "color": "#4F46E5",
+      "price": "freemium",
+      "priceLabel": "Free trial / From $50/mo",
+      "tags": [
+        "ecommerce",
+        "quiz builder",
+        "personalization",
+        "AI recommendations"
+      ],
+      "shortDesc": "AI-powered product quiz platform for Shopify stores with personalized recommendations.",
+      "fullDesc": "Octane AI is a conversational AI platform that helps Shopify merchants create personalized product recommendation quizzes and customer experiences. It enables zero-party data collection, AI-powered product recommendations, and multi-channel marketing automation through email, SMS, and Facebook Messenger to increase conversions and customer lifetime value.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Ecommerce AI Platform"
+        },
+        {
+          "label": "Released",
+          "value": "2016"
+        },
+        {
+          "label": "Best for",
+          "value": "Shopify stores seeking personalized product recommendations and data-driven customer engagement"
+        },
+        {
+          "label": "Pricing",
+          "value": "Freemium with plans from $50/month, credit-based system"
+        }
+      ],
+      "features": [
+        "AI-powered product recommendation quizzes with no-code builder for creating engaging customer experiences",
+        "Smart Products feature using AI to dynamically recommend items based on quiz responses",
+        "Zero-party data collection through interactive quizzes and personalized pop-ups",
+        "Multi-channel integration with Shopify, Klaviyo, Attentive, SMS, and Facebook Messenger",
+        "Abandoned cart recovery and automated email/SMS flows for customer retention",
+        "Real-time analytics dashboard tracking quiz performance, revenue, and customer engagement metrics",
+        "CORE-1 proprietary AI engine that learns from interactions to improve recommendations over time",
+        "A/B testing capabilities for optimizing quiz questions, CTAs, images, and discount offers"
+      ],
+      "demo": [
+        {
+          "title": "Create a Product Quiz",
+          "desc": "Use the no-code builder to create a personalized product recommendation quiz without technical skills",
+          "code": null
+        },
+        {
+          "title": "Collect Customer Data",
+          "desc": "Quiz takers provide preferences and answers that generate zero-party data for personalization",
+          "code": null
+        },
+        {
+          "title": "AI Recommendations",
+          "desc": "CORE-1 AI analyzes responses and recommends the most relevant products on quiz results",
+          "code": null
+        },
+        {
+          "title": "Sync to Marketing Tools",
+          "desc": "Customer data automatically syncs with Klaviyo, email, SMS, and Facebook Messenger for follow-up campaigns",
+          "code": null
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Quiz Design",
+          "text": "Create a 5-question product quiz for a skincare brand that asks about skin type, concerns, and preferences, then recommends personalized products"
+        },
+        {
+          "label": "AI Personalization",
+          "text": "Generate smart product recommendations based on customer quiz answers about their hair type and styling preferences"
+        },
+        {
+          "label": "Customer Journey",
+          "text": "Build an automated SMS and email flow that follows up with quiz takers, offering discounts on recommended products"
+        }
+      ],
+      "pricing": {
+        "note": "Octane AI uses a credit-based system where quiz starts and AI features consume credits. All plans include a 14-day free trial with 300 trial credits. Yearly billing saves 15% compared to monthly pricing.",
+        "plans": [
+          {
+            "name": "Octane Basic",
+            "price": "$50",
+            "per": "per month",
+            "popular": false,
+            "color": "#E5E7EB",
+            "features": [
+              "Basic quiz and pop-up builder",
+              "Included monthly credits for quiz starts",
+              "AI features (Smart Products, Smart Copy) included",
+              "Core integrations with Shopify and marketing tools"
+            ]
+          },
+          {
+            "name": "Octane Plus",
+            "price": "$200",
+            "per": "per month",
+            "popular": true,
+            "color": "#4F46E5",
+            "features": [
+              "Advanced logic branching for dynamic quiz flows",
+              "Higher monthly credit allowance",
+              "Premium AI features and capabilities",
+              "Priority customer support"
+            ]
+          },
+          {
+            "name": "Octane Enterprise",
+            "price": "$500+",
+            "per": "per month",
+            "popular": false,
+            "color": "#1E1B4B",
+            "features": [
+              "Dedicated Account Manager with strategy guidance",
+              "Custom integrations and development support",
+              "Unlimited credits and features",
+              "Email flow blueprints and optimization consultation"
+            ]
+          }
+        ]
+      },
+      "link": "https://octane.ai"
+    },
+    {
+      "id": "claude-cowork",
+      "name": "Claude Cowork",
+      "company": "Anthropic",
+      "category": "agent",
+      "icon": "🤝",
+      "badge": "new",
+      "color": "#9C7D54",
+      "price": "freemium",
+      "priceLabel": "Free / From $17/mo",
+      "tags": [
+        "agent",
+        "automation",
+        "productivity",
+        "knowledge work"
+      ],
+      "shortDesc": "AI agent that automates everyday workplace tasks through natural conversation.",
+      "fullDesc": "<cite index=\"3-1\">Claude Cowork is Anthropic's agent-based tool that gives Claude direct access to your filesystem.</cite> <cite index=\"5-6\">It is built for non-coding knowledge work — research, analysis, document creation, and other multi-step tasks.</cite> <cite index=\"1-3\">Companies can connect Claude Cowork to Google Drive, Gmail, DocuSign and FactSet.</cite>",
+      "info": [
+        {
+          "label": "Type",
+          "value": "AI Agent for Knowledge Work"
+        },
+        {
+          "label": "Released",
+          "value": "January 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Automating research, analysis, document creation, and multi-step tasks"
+        },
+        {
+          "label": "Pricing",
+          "value": "<cite index=\"5-11,5-12\">Available in Pro, Max, and Team plans automatically. Enterprise plans can opt in.</cite>"
+        }
+      ],
+      "features": [
+        "<cite index=\"2-1\">Claude can read, edit, create, rename and organize files inside designated folders.</cite>",
+        "<cite index=\"1-3\">Connectors available for Google Drive, Gmail, DocuSign and FactSet.</cite>",
+        "<cite index=\"5-3,5-4\">Claude shows each step: the files it opens, tools it uses, and choices it makes. Follow along from anywhere, and redirect it if you need to.</cite>",
+        "<cite index=\"2-4\">Automated workflow plugins for legal, sales, marketing and data analysis tasks.</cite>",
+        "<cite index=\"5-5\">Runs on web, desktop, and mobile with consistent experience across platforms.</cite>",
+        "<cite index=\"5-9,5-10\">Start a task from your phone, and Claude keeps working in the cloud even when your laptop is closed. Check in, redirect, or review the result from anywhere.</cite>",
+        "<cite index=\"6-9,6-10\">Queue multiple tasks and let Claude work through them. The experience feels like leaving notes for a colleague, not back-and-forth chat.</cite>",
+        "<cite index=\"2-12,2-13\">Plugins are customizable and easy to build, even without deep technical skills. Anthropic has open-sourced 11 internal plugins.</cite>"
+      ],
+      "demo": [
+        {
+          "title": "Grant Folder Access",
+          "desc": "Select a specific folder where Claude will have read and write permissions for file operations.",
+          "code": ""
+        },
+        {
+          "title": "Describe Your Task",
+          "desc": "Use natural language to describe what you need done - organize files, extract data, create content, etc.",
+          "code": "Organize all receipt images in my Downloads folder by vendor name and calculate total expenses."
+        },
+        {
+          "title": "Claude Executes",
+          "desc": "Claude plans and executes the multi-step task, showing each action it takes.",
+          "code": ""
+        },
+        {
+          "title": "Review and Redirect",
+          "desc": "Monitor progress from any device and redirect Claude if needed before it completes.",
+          "code": ""
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Data Organization",
+          "text": "Organize all files in my Documents folder by creating subdirectories for each project and moving corresponding files accordingly."
+        },
+        {
+          "label": "Research & Analysis",
+          "text": "Compile quarterly sales data from my CSV files and create a summary report with key metrics and trends."
+        },
+        {
+          "label": "Content Creation",
+          "text": "Use my brand guidelines and past marketing emails to draft three new promotional emails for our upcoming product launch."
+        },
+        {
+          "label": "Document Processing",
+          "text": "Extract all contact information from PDFs in this folder and compile them into a single spreadsheet."
+        },
+        {
+          "label": "Workflow Automation",
+          "text": "Monitor my email folder for expense receipts, organize them by date, and generate a monthly expense report."
+        }
+      ],
+      "pricing": {
+        "note": "<cite index=\"3-2\">Cowork ships with every paid Claude plan now: Pro ($17-$20/month), Max, and Team plans.</cite> <cite index=\"2-5\">Cowork is currently available as a research preview for Claude Max subscribers on macOS.</cite>",
+        "plans": [
+          {
+            "name": "Free",
+            "price": "$0",
+            "per": "forever",
+            "popular": false,
+            "color": "#E5E5E5",
+            "features": [
+              "Basic Claude chat",
+              "Limited file access",
+              "No Cowork agent features"
+            ]
+          },
+          {
+            "name": "Pro",
+            "price": "$17-20",
+            "per": "per month",
+            "popular": true,
+            "color": "#9C7D54",
+            "features": [
+              "Full Cowork access",
+              "Folder automation",
+              "File read/edit/create operations",
+              "Plugin ecosystem",
+              "Multiple task queuing"
+            ]
+          },
+          {
+            "name": "Max",
+            "price": "Contact sales",
+            "per": "per month",
+            "popular": false,
+            "color": "#7C3AED",
+            "features": [
+              "All Pro features",
+              "Priority processing",
+              "Enterprise connectors",
+              "Advanced plugins",
+              "Dedicated support"
+            ]
+          },
+          {
+            "name": "Team/Enterprise",
+            "price": "Contact sales",
+            "per": "per month",
+            "popular": false,
+            "color": "#1F2937",
+            "features": [
+              "All Max features",
+              "Custom plugin development",
+              "Advanced security controls",
+              "Team workspace management",
+              "SSO and compliance"
+            ]
+          }
+        ]
+      },
+      "link": "https://cowork.claude.ai"
     }
   ],
   "totw": {
     "name": "Astute",
     "tagline": "Automate your B2B brand going viral, with new media creators",
-    "votesCount": 569,
+    "votesCount": 580,
     "url": "https://www.producthunt.com/products/astute-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/d472f0a2-bcd4-42b5-bbc6-d8d86e68b7d7.jpeg?auto=format",
     "rank": 1,
@@ -26533,46 +26964,46 @@
       "Marketing",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-08-25T06:58:42.608Z"
+    "fetchedAt": "2026-08-26T06:59:50.983Z"
   },
   "lastWeeklyUpdate": "2026-08-20T07:26:41.251Z",
   "anthropicNews": [
     {
-      "date": "Aug 4, 2026",
-      "title": "Claude Academy Learning Hub Launches",
-      "summary": "Anthropic launches Claude Academy with courses, tutorials, badges for safe AI use.",
-      "url": "https://www.anthropic.com/news"
+      "date": "Aug 25, 2026",
+      "title": "Claude Mythos 5 Added to Claude Security Suite",
+      "summary": "Anthropic expanded Claude Security with Mythos 5 for enterprise cybersecurity, offering codebase scans and vulnerability detection.",
+      "url": "https://releasebot.io/updates/anthropic/claude"
     },
     {
-      "date": "Jul 30, 2026",
-      "title": "Cybersecurity Evaluation Report Published",
-      "summary": "Anthropic discloses three real-world security incidents from internal evaluations.",
-      "url": "https://www.anthropic.com/news"
+      "date": "Aug 11, 2026",
+      "title": "Claude Sonnet 5 Pricing Locked at $2/$10 Permanently",
+      "summary": "<cite index=\"12-2\">Anthropic made $2/$10 permanent on August 11, 2026 and cancelled the September 1 increase to $3/$15.</cite>",
+      "url": "https://www.cloudzero.com/blog/claude-pricing/"
     },
     {
-      "date": "Jul 28, 2026",
-      "title": "Claude Opus 5 Released at Unchanged Pricing",
-      "summary": "<cite index=\"1-1\">Claude Opus 5 delivers performance close to Fable at half the price</cite>.",
-      "url": "https://www.anthropic.com/news"
+      "date": "Jul 24, 2026",
+      "title": "Claude Opus 5 Released at Half Fable Price",
+      "summary": "<cite index=\"6-1\">Claude Opus 5 is designed to deliver performance close to Fable on many tasks at half the price.</cite>",
+      "url": "https://www.axios.com/2026/07/24/anthropic-releases-new-model-opus-5"
     },
     {
       "date": "Jul 6, 2026",
-      "title": "Global Workspace Interpretability Research",
-      "summary": "<cite index=\"28-7\">Reveals an emergent mental workspace in Claude holding internal thoughts</cite>.",
-      "url": "https://www.anthropic.com/research"
+      "title": "Anthropic Publishes Global Workspace Research Paper",
+      "summary": "<cite index=\"20-1,20-2\">Anthropic published \"A global workspace in language models\" introducing the J-space, an emergent set of internal representations in Claude models.</cite>",
+      "url": "https://x.com/BrianRoemmele/article/2074289052996829671"
     },
     {
-      "date": "Jul 27, 2026",
-      "title": "Cognizant Partnership Expansion Announced",
-      "summary": "Cognizant and Anthropic expand partnership to bring Claude to enterprise clients.",
-      "url": "https://www.anthropic.com/news"
+      "date": "Jun 30, 2026",
+      "title": "Claude Science Launched for Researchers",
+      "summary": "<cite index=\"21-1,21-3\">Anthropic announced Claude Science, a major product for scientific research with tools for computational biology and drug development.</cite>",
+      "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/"
     },
     {
-      "date": "Aug 18, 2026",
-      "title": "Claude Advances Protein Design and Chemistry",
-      "summary": "Research shows Claude accelerating progress in protein design and analytical chemistry.",
-      "url": "https://www.anthropic.com/research"
+      "date": "Jun 30, 2026",
+      "title": "Claude Fable 5 and Sonnet 5 Released",
+      "summary": "<cite index=\"7-1,7-4\">Claude Fable 5 released with state-of-the-art benchmarks and safety classifiers; Claude Sonnet 5 launched with near-Opus intelligence at Sonnet pricing.</cite>",
+      "url": "https://hidekazu-konishi.com/entry/anthropic_claude_model_release_timeline.html"
     }
   ],
-  "lastChecked": "2026-08-25T06:59:20.278Z"
+  "lastChecked": "2026-08-26T07:01:20.962Z"
 }
