@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T18:08:21.862Z",
+  "lastUpdated": "2026-08-28T18:31:38.237Z",
   "categories": [
     {
       "id": "llm",
@@ -27438,12 +27438,362 @@
           "fullDesc": "(cite index=\"3-1\">Claude Cowork 是 Anthropic 基于代理的工具，让 Claude 可以直接访问您的文件系统。</cite> (cite index=\"5-6\">它为非代码知识工作而构建——研究、分析、文档创建和其他多步骤任务。</cite> (cite index=\"1-3\">企业可以将 Claude Cowork 连接到 Google Drive、Gmail、DocuSign 和 FactSet。</cite>"
         }
       }
+    },
+    {
+      "id": "agentz",
+      "name": "AgentZ",
+      "company": "AccuKnox",
+      "category": "agent",
+      "icon": "🤖",
+      "badge": "new",
+      "color": "#1a5490",
+      "price": "freemium",
+      "priceLabel": "Free / Custom Enterprise",
+      "tags": [
+        "AI agents",
+        "zero-trust",
+        "enterprise",
+        "governance"
+      ],
+      "shortDesc": "Build, run, and govern production AI agents with zero-trust sandbox security.",
+      "fullDesc": "AgentZ is a model-agnostic platform for building, running, and governing AI agents across teams and workflows. It consolidates agent execution, tools, workflows, permissions, and governance into a single platform, enabling organizations to move agents from experiment to production with built-in security, zero-trust controls, and multi-deployment options (SaaS, on-prem, air-gapped).",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Agentic AI Platform"
+        },
+        {
+          "label": "Released",
+          "value": "August 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Enterprise teams building secure, governed AI agents at scale"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free tier available; custom enterprise pricing"
+        }
+      ],
+      "features": [
+        "Model-agnostic support for OpenAI, Claude, Grok, and other LLMs",
+        "Zero-trust sandbox execution with kernel-enforced runtime controls",
+        "Visual workflow graphs with live execution tracing and audit logs",
+        "Role-based access control with centralized administration across organizations",
+        "Runtime credential injection and tool-level permissions",
+        "Multi-deployment support: SaaS, on-premises, and air-gapped instances",
+        "Reusable agent skills and workflow triggers for automation",
+        "Comprehensive execution traces for debugging and compliance review"
+      ],
+      "demo": [
+        {
+          "title": "Create a Workflow",
+          "desc": "Define a workflow using agents, sandboxes, skills, and triggers to automate tasks across your organization.",
+          "code": ""
+        },
+        {
+          "title": "Monitor Execution",
+          "desc": "View live workflow graphs and execution traces to see agent decisions, tool calls, and execution paths in real-time.",
+          "code": ""
+        },
+        {
+          "title": "Review Audit Logs",
+          "desc": "Access comprehensive audit logs and execution traces to debug issues and verify compliance.",
+          "code": ""
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Security Investigation",
+          "text": "Automate security threat analysis and incident response using AgentZ with zero-trust controls"
+        },
+        {
+          "label": "Sales Intelligence",
+          "text": "Build agents that gather competitive intelligence and sales insights using secure, governed workflows"
+        },
+        {
+          "label": "Engineering Automation",
+          "text": "Create automation workflows for CI/CD pipelines, code review, and deployment with full audit trails"
+        }
+      ],
+      "pricing": {
+        "note": "AgentZ offers a free tier with a hosted platform at agentzharness.ai. Enterprise customers with on-premises or air-gapped deployment requirements can request custom pricing.",
+        "plans": [
+          {
+            "name": "Free",
+            "price": "$0",
+            "per": "forever",
+            "popular": true,
+            "color": "#5B9DD9",
+            "features": [
+              "SaaS-hosted AgentZ platform",
+              "Model-agnostic agent support",
+              "Basic workflow creation and execution",
+              "Community support"
+            ]
+          },
+          {
+            "name": "Enterprise",
+            "price": "Custom",
+            "per": "per year",
+            "popular": false,
+            "color": "#1a5490",
+            "features": [
+              "On-premises and air-gapped deployment",
+              "Bring-your-own-LLM support",
+              "Advanced role-based access control",
+              "Dedicated support and SLA"
+            ]
+          }
+        ]
+      },
+      "link": "https://accuknox.com/"
+    },
+    {
+      "id": "ktx-skills-kit",
+      "name": "KTX Skills Kit",
+      "company": "KTX",
+      "category": "agent",
+      "icon": "🤖",
+      "badge": "new",
+      "color": "#1F41B3",
+      "price": "free",
+      "priceLabel": "Free",
+      "tags": [
+        "agent-trading",
+        "crypto-api",
+        "automated-trading"
+      ],
+      "shortDesc": "AI agent skills kit for crypto trading with market data, execution, and portfolio management.",
+      "fullDesc": "KTX Skills Kit is a standardized capability set that connects AI agents to KTX's market data, trading, and asset management capabilities through a unified interface. It enables agents running on Claude, ChatGPT, Codex, and Cursor to access real-time market data, execute trades, and manage portfolios without requiring API keys for market data access.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "API/Skills Kit for AI Agents"
+        },
+        {
+          "label": "Released",
+          "value": "August 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "AI agents, automated trading, strategy execution, market data integration"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free for market data; optional API key for trading"
+        }
+      ],
+      "features": [
+        "Real-time market data access including prices, order books, and candlestick charts",
+        "WebSocket public data stream subscriptions for continuous market monitoring",
+        "Order placement, cancellation, and order management for trade execution",
+        "Account balance and position tracking with fund operations management",
+        "No API key required for market data capabilities",
+        "Full private trading APIs available with API key configuration",
+        "Integration with major AI models: Claude, ChatGPT, Codex, Cursor",
+        "Unified interface for market analysis, trade execution, and asset management"
+      ],
+      "demo": [
+        {
+          "title": "Access Market Data",
+          "desc": "Query real-time cryptocurrency prices and order books without authentication",
+          "code": "GET /api/market/prices"
+        },
+        {
+          "title": "Execute Trade with Agent",
+          "desc": "Agent receives market signal and autonomously executes a trade order",
+          "code": "POST /api/orders/place (requires API key)"
+        },
+        {
+          "title": "Monitor Portfolio",
+          "desc": "Track account balances and positions through the unified asset management interface",
+          "code": "GET /api/account/positions"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Market Analysis",
+          "text": "Check the current BTC price, analyze the 4-hour chart trend, and provide trading recommendation"
+        },
+        {
+          "label": "Automated Trading",
+          "text": "If ETH/USDT exceeds $2,500, automatically place a limit sell order at $2,550 for 1 ETH"
+        },
+        {
+          "label": "Portfolio Management",
+          "text": "Query my account balances, calculate my current P&L, and suggest rebalancing strategy"
+        }
+      ],
+      "pricing": {
+        "note": "KTX Skills Kit is completely free for market data access. Trading and asset management features require configuring an API key but incur no additional fees beyond standard exchange trading fees.",
+        "plans": [
+          {
+            "name": "Free Tier",
+            "price": "Free",
+            "per": "forever",
+            "popular": true,
+            "color": "#1F41B3",
+            "features": [
+              "Real-time market data access",
+              "Order book and candlestick data",
+              "WebSocket public data streams",
+              "No API key required"
+            ]
+          },
+          {
+            "name": "Trading Access",
+            "price": "Free",
+            "per": "forever",
+            "popular": false,
+            "color": "#4A5BCC",
+            "features": [
+              "All Free Tier features",
+              "Order placement and cancellation",
+              "Portfolio tracking and management",
+              "Requires API key configuration"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.ktx.com/en/trade-skills"
+    },
+    {
+      "id": "octane",
+      "name": "Octane",
+      "company": "Octane",
+      "category": "agent",
+      "icon": "⚡",
+      "badge": null,
+      "color": "#FF6B35",
+      "price": "freemium",
+      "priceLabel": "Free / From $50/mo",
+      "tags": [
+        "eCommerce",
+        "quizzes",
+        "personalization",
+        "Shopify"
+      ],
+      "shortDesc": "AI-powered quiz and agent platform for Shopify stores to boost sales and engagement.",
+      "fullDesc": "Octane is an AI platform designed for eCommerce brands on Shopify that uses AI agents, interactive quizzes, and personalization to drive customer engagement and sales. The platform enables businesses to collect zero-party data through product recommendation quizzes, run conversational marketing campaigns via SMS and email, and automate customer interactions. It's ideal for DTC brands and eCommerce store owners looking to increase conversions and gather customer insights.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "AI Agent / Conversational Marketing Platform"
+        },
+        {
+          "label": "Released",
+          "value": "Not specified"
+        },
+        {
+          "label": "Best for",
+          "value": "Shopify store owners, DTC brands, eCommerce growth teams"
+        },
+        {
+          "label": "Pricing",
+          "value": "Freemium with paid plans from $50/month"
+        }
+      ],
+      "features": [
+        "AI agents powered by GPT-4 that optimize customer engagement and drive growth decisions",
+        "Interactive product recommendation quizzes to collect zero-party customer data",
+        "Shopify integration with built-in product catalog and add-to-cart functionality",
+        "Conversational marketing via Facebook Messenger, SMS, and email automation",
+        "Abandoned cart recovery with automated reminders across multiple channels",
+        "AI-powered features including Smart Products, Smart Copy, and Image Analyzer",
+        "A/B testing for quiz elements to optimize conversion metrics",
+        "Advanced analytics and performance tracking with customer behavior insights"
+      ],
+      "demo": [
+        {
+          "title": "Create a product recommendation quiz",
+          "desc": "Build an interactive quiz to help customers find the right products based on their preferences",
+          "code": ""
+        },
+        {
+          "title": "Set up personalized recommendations",
+          "desc": "Map quiz answers to specific products and variants for tailored shopping experiences",
+          "code": ""
+        },
+        {
+          "title": "Enable SMS cart recovery",
+          "desc": "Automatically send personalized SMS messages to customers who abandon their carts",
+          "code": ""
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Quiz creation",
+          "text": "Create a quiz that helps customers find their ideal skincare routine based on skin type and concerns"
+        },
+        {
+          "label": "Email automation",
+          "text": "Write a personalized email to customers who didn't complete their quiz encouraging them to try again"
+        }
+      ],
+      "pricing": {
+        "note": "Octane uses a credit-based system where 1 credit equals 1 quiz engagement. Free tier available for core features with paid plans starting at $50/month.",
+        "plans": [
+          {
+            "name": "Free",
+            "price": "$0",
+            "per": "forever",
+            "popular": false,
+            "color": "#E0E0E0",
+            "features": [
+              "Core quiz builder",
+              "Basic templates",
+              "Limited monthly engagements"
+            ]
+          },
+          {
+            "name": "Octane",
+            "price": "$50",
+            "per": "per month",
+            "popular": false,
+            "color": "#FF6B35",
+            "features": [
+              "200 engagements per month",
+              "Quizzes and pop-ups",
+              "Customer data collection",
+              "All AI features included"
+            ]
+          },
+          {
+            "name": "Octane Plus",
+            "price": "Custom",
+            "per": "per month",
+            "popular": true,
+            "color": "#FF6B35",
+            "features": [
+              "Higher engagement limits",
+              "Advanced personalization",
+              "Priority support",
+              "Dedicated optimization"
+            ]
+          },
+          {
+            "name": "Enterprise",
+            "price": "$500+",
+            "per": "per month",
+            "popular": false,
+            "color": "#FF6B35",
+            "features": [
+              "Unlimited engagements",
+              "Dedicated Account Manager",
+              "Strategic guidance and best practices",
+              "Custom email flow blueprints"
+            ]
+          }
+        ]
+      },
+      "link": "https://getoctane.ai/"
     }
   ],
   "totw": {
     "name": "akta.pro",
     "tagline": "Private company data and signals API for the agent economy",
-    "votesCount": 424,
+    "votesCount": 427,
     "url": "https://www.producthunt.com/products/akta-pro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/d096a90c-a4f0-414d-992a-d1803381c3f8.x-icon?auto=format",
     "rank": 1,
@@ -27452,46 +27802,46 @@
       "Developer Tools",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-08-27T17:33:37.569Z"
+    "fetchedAt": "2026-08-28T18:30:35.348Z"
   },
   "lastWeeklyUpdate": "2026-08-27T18:05:14.639Z",
   "anthropicNews": [
     {
-      "date": "Aug 26, 2026",
-      "title": "Claude Academy AI Education Platform Launches",
-      "summary": "<cite index=\"4-2,4-8\">Anthropic launched Claude Academy to scale AI instruction to millions of learners worldwide</cite>.",
-      "url": "https://releasebot.io/updates/anthropic/claude"
+      "date": "Aug 27, 2026",
+      "title": "Anthropic Releases Model Hardware Standard (MHS)",
+      "summary": "<cite index=\"4-1\">Anthropic announced a new software standard allowing AI assistants like Claude to work better with robots and science and manufacturing hardware.</cite>",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-27/anthropic-tests-new-way-for-claude-to-work-with-robots-and-scientific-lab-tools"
     },
     {
-      "date": "Aug 25, 2026",
-      "title": "Claude Memory Now Works Everywhere",
-      "summary": "<cite index=\"7-1,7-2,7-3\">Claude's memory feature now syncs across chat and Claude Cowork, allowing users to view, edit, delete, pause, or reset saved memories</cite>.",
+      "date": "Aug 26, 2026",
+      "title": "Claude Gets Own Browser in Cowork; Chrome Extension GA",
+      "summary": "<cite index=\"1-1\">Claude in Chrome is generally available and Claude gets its own browser in Cowork.</cite>",
       "url": "https://claude.com/blog-category/announcements"
     },
     {
+      "date": "Aug 15, 2026",
+      "title": "Anthropic Launches Claude Academy",
+      "summary": "<cite index=\"5-8\">Anthropic shares its approach to designing and scaling AI instruction to millions of learners worldwide via Claude Academy.</cite>",
+      "url": "https://releasebot.io/updates/anthropic/claude"
+    },
+    {
       "date": "Aug 4, 2026",
-      "title": "Mariano-Florentino Cuéllar Joins Anthropic",
-      "summary": "<cite index=\"3-1\">Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer</cite>.",
+      "title": "Mariano-Florentino Cuéllar Joins as Chief Global Affairs Officer",
+      "summary": "<cite index=\"3-1\">Mariano-Florentino (Tino) Cuéllar joins Anthropic as Chief Global Affairs Officer.</cite>",
       "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Jul 24, 2026",
-      "title": "Claude Opus 5 Released with New Pricing",
-      "summary": "<cite index=\"11-1\">Anthropic released Claude Opus 5, designed to deliver performance close to Fable on many tasks at half the price</cite>.",
+      "title": "Claude Opus 5 Released with Half Fable Performance at Same Price",
+      "summary": "<cite index=\"11-1\">Anthropic released Claude Opus 5, designed to deliver performance close to Fable on many tasks at half the price.</cite>",
       "url": "https://www.axios.com/2026/07/24/anthropic-releases-new-model-opus-5"
     },
     {
-      "date": "Jul 21, 2026",
-      "title": "Claude Developer Platform Adds Managed Agent Controls",
-      "summary": "<cite index=\"5-1\">Platform adds managed agent controls for session budgets, advisor models, inference geo pinning, and GitHub-hosted skills</cite>.",
-      "url": "https://releasebot.io/updates/anthropic/claude-developer-platform"
-    },
-    {
       "date": "Jun 30, 2026",
-      "title": "Claude Sonnet 5 Released with Introductory Pricing",
-      "summary": "<cite index=\"22-8\">Sonnet 5 launched with introductory $2/$10 pricing through August 31, 2026</cite>.",
-      "url": "https://www.usagepricing.com/blueprint/anthropic"
+      "title": "Claude Sonnet 5 Launches with Introductory Pricing",
+      "summary": "<cite index=\"26-7,26-9\">Claude Sonnet 5 launched on June 30, 2026 with introductory pricing at $2.00 input / $10.00 output.</cite>",
+      "url": "https://www.anthropic.com/news"
     }
   ],
-  "lastChecked": "2026-08-27T18:08:21.862Z"
+  "lastChecked": "2026-08-28T18:31:38.237Z"
 }
