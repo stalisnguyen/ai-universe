@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-28T18:31:38.237Z",
+  "lastUpdated": "2026-08-29T12:36:42.435Z",
   "categories": [
     {
       "id": "llm",
@@ -27788,12 +27788,164 @@
         ]
       },
       "link": "https://getoctane.ai/"
+    },
+    {
+      "id": "lindy-build",
+      "name": "Lindy Build",
+      "company": "Lindy",
+      "category": "code",
+      "icon": "🚀",
+      "badge": "hot",
+      "color": "#FF6B35",
+      "price": "freemium",
+      "priceLabel": "Free / From $49.99/mo",
+      "tags": [
+        "no-code",
+        "AI agents",
+        "workflow automation",
+        "app builder"
+      ],
+      "shortDesc": "No-code app builder for creating AI agents and workflows with natural language.",
+      "fullDesc": "Lindy Build is a component of the Lindy AI platform that enables users to create custom applications and AI agents through a visual, no-code interface powered by natural language prompts. With access to 5,000+ integrations and advanced AI capabilities, Lindy Build lets teams automate business workflows, manage data, and build intelligent applications without writing code—making enterprise automation accessible to non-technical users.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "No-Code AI Application Builder"
+        },
+        {
+          "label": "Released",
+          "value": "2024"
+        },
+        {
+          "label": "Best for",
+          "value": "Teams automating workflows, building AI agents, and creating applications without code"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free plan available; paid plans from $49.99/month with credit-based system"
+        }
+      ],
+      "features": [
+        "Build AI agents using plain English prompts without any coding knowledge",
+        "Connect 5,000+ apps and services through native integrations and Pipedream",
+        "Automated testing and deployment for applications built with Lindy Build",
+        "Visual workflow builder with drag-and-drop interface and code editing options",
+        "Computer Use capabilities for browser automation beyond traditional APIs",
+        "Natural language configuration and management of complex multi-step workflows",
+        "Embed AI agents directly into web pages or share securely across teams",
+        "Knowledge base creation for building searchable, up-to-date information repositories"
+      ],
+      "demo": [
+        {
+          "title": "Describe Your Workflow",
+          "desc": "Tell Lindy what you want to automate using plain English",
+          "code": "Create an agent that monitors my email inbox, summarizes important messages, and sends a daily digest to my Slack"
+        },
+        {
+          "title": "Choose Integrations",
+          "desc": "Connect the apps and services you want your agent to use",
+          "code": "Select Gmail, Slack, Google Calendar, and HubSpot"
+        },
+        {
+          "title": "Deploy & Test",
+          "desc": "Lindy builds and automatically tests your agent before deployment",
+          "code": "Agent deployed and running 24/7 with automated testing"
+        },
+        {
+          "title": "Monitor & Refine",
+          "desc": "Track performance and adjust your agent's instructions as needed",
+          "code": "View usage analytics and update prompt instructions"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Sales Automation",
+          "text": "Build an agent that enriches leads from my CRM with public data, creates personalized outreach emails, and logs results back to Salesforce"
+        },
+        {
+          "label": "Support Automation",
+          "text": "Create an agent that monitors support tickets, suggests knowledge-base responses, and escalates complex issues to the right team member"
+        },
+        {
+          "label": "Meeting Management",
+          "text": "Develop an agent that records meetings, generates transcripts and summaries, extracts action items, and distributes them to relevant team members"
+        },
+        {
+          "label": "Research & Analysis",
+          "text": "Build an agent that performs web research on topics, compiles findings into structured reports, and delivers results to my dashboard"
+        },
+        {
+          "label": "Data Processing",
+          "text": "Create an agent that monitors a spreadsheet for new entries, processes data, generates insights, and updates a knowledge base automatically"
+        }
+      ],
+      "pricing": {
+        "note": "Lindy uses a credit-based system where simple tasks consume 1 credit while complex operations use more. A free plan with 400 credits is available, allowing users to test core features before upgrading to paid plans.",
+        "plans": [
+          {
+            "name": "Free",
+            "price": "$0",
+            "per": "forever",
+            "popular": false,
+            "color": "#E0E0E0",
+            "features": [
+              "400 monthly credits",
+              "Up to 2 AI agents",
+              "Basic integrations",
+              "Community support"
+            ]
+          },
+          {
+            "name": "Pro",
+            "price": "$49.99",
+            "per": "per month",
+            "popular": true,
+            "color": "#FF6B35",
+            "features": [
+              "5,000+ monthly credits",
+              "Unlimited AI agents",
+              "5,000+ app integrations",
+              "Priority support",
+              "Computer Use capabilities"
+            ]
+          },
+          {
+            "name": "Business",
+            "price": "$299.99",
+            "per": "per month",
+            "popular": false,
+            "color": "#FF8C5A",
+            "features": [
+              "30,000+ monthly credits",
+              "Unlimited everything",
+              "Advanced analytics",
+              "Dedicated account manager",
+              "Enterprise security & compliance"
+            ]
+          },
+          {
+            "name": "Enterprise",
+            "price": "Custom",
+            "per": "per month",
+            "popular": false,
+            "color": "#2C3E50",
+            "features": [
+              "Custom credit allocation",
+              "SSO & SCIM provisioning",
+              "HIPAA & SOC 2 compliance",
+              "White-label options",
+              "Dedicated onboarding & support"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.lindy.ai/app-builder"
     }
   ],
   "totw": {
     "name": "akta.pro",
     "tagline": "Private company data and signals API for the agent economy",
-    "votesCount": 427,
+    "votesCount": 429,
     "url": "https://www.producthunt.com/products/akta-pro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/d096a90c-a4f0-414d-992a-d1803381c3f8.x-icon?auto=format",
     "rank": 1,
@@ -27802,46 +27954,46 @@
       "Developer Tools",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-08-28T18:30:35.348Z"
+    "fetchedAt": "2026-08-29T12:35:59.548Z"
   },
   "lastWeeklyUpdate": "2026-08-27T18:05:14.639Z",
   "anthropicNews": [
     {
-      "date": "Aug 27, 2026",
-      "title": "Anthropic Releases Model Hardware Standard (MHS)",
-      "summary": "<cite index=\"4-1\">Anthropic announced a new software standard allowing AI assistants like Claude to work better with robots and science and manufacturing hardware.</cite>",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-27/anthropic-tests-new-way-for-claude-to-work-with-robots-and-scientific-lab-tools"
-    },
-    {
-      "date": "Aug 26, 2026",
-      "title": "Claude Gets Own Browser in Cowork; Chrome Extension GA",
-      "summary": "<cite index=\"1-1\">Claude in Chrome is generally available and Claude gets its own browser in Cowork.</cite>",
+      "date": "Aug 28, 2026",
+      "title": "Claude for Teachers launches for U.S. K-12 schools",
+      "summary": "<cite index=\"1-1\">Claude for Teachers is now available for U.S. K-12 schools and districts</cite>.",
       "url": "https://claude.com/blog-category/announcements"
     },
     {
-      "date": "Aug 15, 2026",
-      "title": "Anthropic Launches Claude Academy",
-      "summary": "<cite index=\"5-8\">Anthropic shares its approach to designing and scaling AI instruction to millions of learners worldwide via Claude Academy.</cite>",
-      "url": "https://releasebot.io/updates/anthropic/claude"
+      "date": "Aug 27, 2026",
+      "title": "Anthropic releases Model Hardware Standard (MHS)",
+      "summary": "<cite index=\"3-1\">Anthropic announced a new software standard allowing AI assistants like Claude to work better with robots and science and manufacturing hardware</cite>.",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-27/anthropic-tests-new-way-for-claude-to-work-with-robots-and-scientific-lab-tools"
     },
     {
-      "date": "Aug 4, 2026",
-      "title": "Mariano-Florentino Cuéllar Joins as Chief Global Affairs Officer",
-      "summary": "<cite index=\"3-1\">Mariano-Florentino (Tino) Cuéllar joins Anthropic as Chief Global Affairs Officer.</cite>",
-      "url": "https://www.anthropic.com/news"
+      "date": "Aug 11, 2026",
+      "title": "Claude Sonnet 5 pricing made permanent at $2/$10",
+      "summary": "<cite index=\"17-1\">Anthropic made $2/$10 permanent on August 11, 2026 and cancelled the September 1 increase to $3/$15</cite>.",
+      "url": "https://www.cloudzero.com/blog/claude-pricing/"
     },
     {
       "date": "Jul 24, 2026",
-      "title": "Claude Opus 5 Released with Half Fable Performance at Same Price",
-      "summary": "<cite index=\"11-1\">Anthropic released Claude Opus 5, designed to deliver performance close to Fable on many tasks at half the price.</cite>",
+      "title": "Claude Opus 5 launched as new general-purpose flagship",
+      "summary": "<cite index=\"9-1\">Anthropic designed Opus 5 to deliver performance close to its most powerful model, Fable, on many tasks at half the price</cite>.",
       "url": "https://www.axios.com/2026/07/24/anthropic-releases-new-model-opus-5"
     },
     {
-      "date": "Jun 30, 2026",
-      "title": "Claude Sonnet 5 Launches with Introductory Pricing",
-      "summary": "<cite index=\"26-7,26-9\">Claude Sonnet 5 launched on June 30, 2026 with introductory pricing at $2.00 input / $10.00 output.</cite>",
-      "url": "https://www.anthropic.com/news"
+      "date": "Aug 18, 2026",
+      "title": "Claude Code adds spellcheck and improved UI features",
+      "summary": "<cite index=\"4-2\">Claude Code adds optional spellcheck in the prompt, improves terminal UI readability and list rendering, and fixes various session, permission, and slash-command bugs</cite>.",
+      "url": "https://releasebot.io/updates/anthropic/claude-code"
+    },
+    {
+      "date": "Aug 28, 2026",
+      "title": "Claude Academy launches for AI education at scale",
+      "summary": "<cite index=\"5-2,5-8\">Anthropic is sharing its approach to designing and scaling AI instruction to millions of learners worldwide via Claude Academy</cite>.",
+      "url": "https://releasebot.io/updates/anthropic"
     }
   ],
-  "lastChecked": "2026-08-28T18:31:38.237Z"
+  "lastChecked": "2026-08-29T12:36:42.435Z"
 }
