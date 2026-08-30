@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T12:36:42.435Z",
+  "lastUpdated": "2026-08-30T11:46:36.170Z",
   "categories": [
     {
       "id": "llm",
@@ -27940,12 +27940,410 @@
         ]
       },
       "link": "https://www.lindy.ai/app-builder"
+    },
+    {
+      "id": "construct-computer",
+      "name": "Construct Computer",
+      "company": "Construct Computer",
+      "category": "agent",
+      "icon": "🤖",
+      "badge": "new",
+      "color": "#1e40af",
+      "price": "freemium",
+      "priceLabel": "From $7.50/month",
+      "tags": [
+        "AI workforce",
+        "automation",
+        "agents",
+        "small teams"
+      ],
+      "shortDesc": "AI employee platform that executes work with scheduled tasks and reusable workflows.",
+      "fullDesc": "Construct Computer is an AI workforce platform built for solo founders and small teams that need more than a chatbot. It gives you an AI employee with a real Linux computer that can actually execute work, install tools like apps, build custom internal tools through plain language descriptions, and turn agent actions into reusable workflows. Everything runs in a managed cloud desktop with shared workspaces, scheduled jobs, and memory that teams can inspect and edit.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "AI Agent Platform"
+        },
+        {
+          "label": "Released",
+          "value": "2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Solo founders and small teams needing work execution beyond chat"
+        },
+        {
+          "label": "Pricing",
+          "value": "Freemium model starting at $7.50/month"
+        }
+      ],
+      "features": [
+        "Real Linux computer per user with isolated workspaces and secure data enclaves",
+        "Model Context Protocol (MCP) skill installation like apps with built-in tools",
+        "Plain language tool creation that builds and publishes working internal applications",
+        "Reusable workflow engine that locks in successful agent actions for team reuse",
+        "Scheduled task execution with resumable runs to handle multi-step workflows that complete fully",
+        "Multi-channel messaging via web, Slack, Telegram, Discord, and native email inbox",
+        "Team collaboration with roles, permissions, and shared conversation context",
+        "Bring-your-own-model support on Pro plan for custom AI model integration"
+      ],
+      "demo": [
+        {
+          "title": "Create an Internal Tool",
+          "desc": "Describe the tool your team needs in plain language and Construct writes, validates, and publishes a working app directly into your cloud desktop.",
+          "code": "\"Create a tool that monitors my competitor's pricing daily and alerts me of changes over 5%\""
+        },
+        {
+          "title": "Schedule a Workflow",
+          "desc": "Turn any successful agent action into a scheduled workflow that runs once or repeatedly with result history.",
+          "code": "\"Schedule this research task to run every Monday morning and send results to Slack\""
+        },
+        {
+          "title": "Collaborate with Team",
+          "desc": "Bring people, your AI employee, files, and apps together with role-based access and shared conversations.",
+          "code": "\"Invite alice@company.com to the customer research workspace with editor permissions\""
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Research & Analysis",
+          "text": "Research the top 5 competitors in my market, compare their pricing, features, and recent product launches, then compile a structured analysis document"
+        },
+        {
+          "label": "Task Automation",
+          "text": "Every weekday morning, pull unread emails from my inbox, summarize them by priority and sender, and create a calendar reminder for urgent items"
+        },
+        {
+          "label": "Tool Building",
+          "text": "Create an internal CRM tool that lets me log customer interactions, track follow-ups, and generate monthly pipeline reports"
+        },
+        {
+          "label": "Content Generation",
+          "text": "Generate 10 LinkedIn post ideas based on my latest product updates, write two full versions, and schedule them for the next two weeks"
+        }
+      ],
+      "pricing": {
+        "note": "Construct Computer uses a tiered pricing model optimized for solopreneurs and small teams. All plans include a personal Linux computer, shared workspaces, and email/Slack integration. Enterprise plans offer isolated data workspaces where user data isn't used as training material.",
+        "plans": [
+          {
+            "name": "Lite",
+            "price": "$7.50",
+            "per": "per month",
+            "popular": false,
+            "color": "#e0e7ff",
+            "features": [
+              "Basic AI agent with Linux computer",
+              "Up to 3 shared team members",
+              "Email and chat integration",
+              "Standard model support"
+            ]
+          },
+          {
+            "name": "Pro",
+            "price": "$199",
+            "per": "per month",
+            "popular": true,
+            "color": "#1e40af",
+            "features": [
+              "Full workforce with scheduled jobs",
+              "Bring-your-own-model API keys",
+              "Unlimited team members",
+              "Reusable workflow engine",
+              "Advanced scheduling and automation"
+            ]
+          },
+          {
+            "name": "Enterprise",
+            "price": "Custom",
+            "per": "per month",
+            "popular": false,
+            "color": "#164e63",
+            "features": [
+              "All Pro features",
+              "Isolated workspaces",
+              "Data not used for training",
+              "Priority support",
+              "Custom integrations"
+            ]
+          }
+        ]
+      },
+      "link": "https://constructcomputer.com"
+    },
+    {
+      "id": "oppora-ai",
+      "name": "Oppora AI",
+      "company": "Oppora AI",
+      "category": "agent",
+      "icon": "🤖",
+      "badge": "hot",
+      "color": "#0052CC",
+      "price": "freemium",
+      "priceLabel": "Free / From $34/mo",
+      "tags": [
+        "B2B sales",
+        "outreach automation",
+        "AI agents",
+        "lead generation"
+      ],
+      "shortDesc": "AI-powered agentic sales platform automating end-to-end outbound workflows.",
+      "fullDesc": "Oppora AI is an agentic sales platform that automates the entire B2B outbound process—from prospect discovery and enrichment to email campaigns and reply handling. It uses coordinated AI agents to eliminate manual work across prospecting, outreach, and CRM sync. Designed for sales teams, agencies, and recruiters seeking an all-in-one solution with transparent, scalable pricing.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "AI Sales Agent Platform"
+        },
+        {
+          "label": "Released",
+          "value": "2024"
+        },
+        {
+          "label": "Best for",
+          "value": "B2B sales teams and outbound prospecting"
+        },
+        {
+          "label": "Pricing",
+          "value": "Freemium model with $34–$79/mo plans"
+        }
+      ],
+      "features": [
+        "Multi-agent workflow system handling discovery, enrichment, verification, and outreach automation.",
+        "700M+ B2B lead database with AI-powered prospecting and company filtering.",
+        "Drag-and-drop or AI chat-based workflow builder for custom outreach sequences.",
+        "Automated AI email generation with personalization and 24/7 reply handling.",
+        "Multi-mailbox infrastructure supporting up to 50 inboxes with warmup and rotation.",
+        "Built-in CRM with pipeline management and real-time activity sync.",
+        "Email verification, domain warmup, and deliverability protection.",
+        "Claude MCP and REST API integrations for extended automation."
+      ],
+      "demo": [
+        {
+          "title": "Set Up Your ICP",
+          "desc": "Define your ideal customer profile through the interface or chat with AI.",
+          "code": ""
+        },
+        {
+          "title": "Discover Companies",
+          "desc": "Oppora's Company Discovery Agent finds matching companies from the 700M+ database.",
+          "code": ""
+        },
+        {
+          "title": "Find Decision-Makers",
+          "desc": "Automatically identify and enrich contact information for key stakeholders.",
+          "code": ""
+        },
+        {
+          "title": "Launch Campaigns",
+          "desc": "AI generates personalized emails and sends through verified mailboxes.",
+          "code": ""
+        },
+        {
+          "title": "Handle Replies",
+          "desc": "AI Reply Agent analyzes responses and sends follow-ups automatically.",
+          "code": ""
+        },
+        {
+          "title": "Sync to CRM",
+          "desc": "Qualified leads convert to meetings and sync with your CRM in real-time.",
+          "code": ""
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Campaign Setup",
+          "text": "Find all B2B SaaS companies with 50-200 employees in the US hiring engineers, then send them a personalized outreach about our platform."
+        },
+        {
+          "label": "Lead Discovery",
+          "text": "Search for marketing directors at e-commerce companies in California, verify their emails, and add them to my outreach list."
+        },
+        {
+          "label": "Workflow Automation",
+          "text": "Every Monday, find companies that recently hired and send them a staffing inquiry, then sync interested responses to my CRM."
+        },
+        {
+          "label": "Personalized Outreach",
+          "text": "Generate a 3-email sequence targeting tech founders about our sales automation tool, then schedule the campaigns across my mailboxes."
+        }
+      ],
+      "pricing": {
+        "note": "Oppora offers an all-in-one pricing model covering lead generation, enrichment, outreach, and automation. No hidden setup fees; unused credits carry over monthly.",
+        "plans": [
+          {
+            "name": "Free",
+            "price": "$0",
+            "per": "forever",
+            "popular": false,
+            "color": "#E8E8E8",
+            "features": [
+              "Access to 700M+ B2B database",
+              "Limited AI workflows",
+              "Basic lead search and enrichment",
+              "Email verification basics"
+            ]
+          },
+          {
+            "name": "Pro",
+            "price": "$34",
+            "per": "per month",
+            "popular": true,
+            "color": "#0052CC",
+            "features": [
+              "Full workflow automation",
+              "Outreach and reply handling",
+              "Multi-mailbox sending",
+              "CRM integration and sync",
+              "Email warmup included"
+            ]
+          },
+          {
+            "name": "Max",
+            "price": "$79",
+            "per": "per month",
+            "popular": false,
+            "color": "#003DA5",
+            "features": [
+              "All Pro features",
+              "Expanded campaign capacity",
+              "Advanced analytics",
+              "Priority support",
+              "Flexible credit add-ons"
+            ]
+          },
+          {
+            "name": "Enterprise",
+            "price": "Custom",
+            "per": "per month",
+            "popular": false,
+            "color": "#001A4D",
+            "features": [
+              "Custom workflows and configurations",
+              "Dedicated account management",
+              "Advanced integrations",
+              "Custom SLA and support"
+            ]
+          }
+        ]
+      },
+      "link": "https://oppora.ai"
+    },
+    {
+      "id": "crescendo",
+      "name": "Crescendo",
+      "company": "Crescendo",
+      "category": "agent",
+      "icon": "🎵",
+      "badge": "hot",
+      "color": "#6366F1",
+      "price": "paid",
+      "priceLabel": "From $2,900/month",
+      "tags": [
+        "AI agents",
+        "Customer service",
+        "Omnichannel",
+        "Voice & Chat"
+      ],
+      "shortDesc": "AI-native customer experience platform replacing entire CX stacks with unified AI agents.",
+      "fullDesc": "Crescendo is an AI-native customer experience platform that combines advanced AI agents with human expertise to automate customer support across chat, email, voice, and SMS. Built on 7 billion real customer conversations, it replaces traditional chatbots, CCaaS, ticketing, and QA tools with a single unified system that learns and improves with every interaction.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "AI Customer Service Platform"
+        },
+        {
+          "label": "Released",
+          "value": "2024"
+        },
+        {
+          "label": "Best for",
+          "value": "Enterprise customer support and service operations"
+        },
+        {
+          "label": "Pricing",
+          "value": "From $2,900/month plus per-ticket billing (~$1.25/ticket)"
+        }
+      ],
+      "features": [
+        "AI voice agents delivering natural conversations in 50+ languages with native fluency",
+        "Omnichannel support across live chat, voice, email, SMS, and messaging platforms",
+        "Automates 70-90% of support tickets with 99.8% accuracy while routing complex cases to humans",
+        "Conversational AI trained on 7 billion real customer interactions for contextual understanding",
+        "Native integrations with Shopify, Salesforce, Stripe, Zendesk, and enterprise systems",
+        "Quality assurance with automated conversation scoring and performance guarantees",
+        "Safe Action Framework determining autonomous AI actions versus human approval requirements",
+        "Managed deployment with engineer support and go-live in 2-4 weeks"
+      ],
+      "demo": [
+        {
+          "title": "Voice Agent Setup",
+          "desc": "Configure AI voice agent for 24/7 customer support with automatic call routing",
+          "code": "crescendo.voice.deploy({language: 'en', timezone: 'UTC', routing: 'intelligent'})"
+        },
+        {
+          "title": "Live Chat Integration",
+          "desc": "Deploy AI chat agent on website with Shopify order data context",
+          "code": "crescendo.chat.connect({platform: 'shopify', features: ['order-lookup', 'refunds']})"
+        },
+        {
+          "title": "Quality Monitoring",
+          "desc": "Review AI conversation quality scores and receive performance credits",
+          "code": "crescendo.quality.monitor({threshold: 0.95, auto_credits: true})"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Customer Support",
+          "text": "Help me resolve a customer's billing inquiry about an unexpected charge on their account, checking order history and offering refund options."
+        },
+        {
+          "label": "Product Guidance",
+          "text": "Assist a user troubleshooting connectivity issues with their software, guiding them through diagnostic steps and escalating if needed."
+        },
+        {
+          "label": "Order Management",
+          "text": "Process a customer's shipping update request and handle a potential return, checking inventory and authorization policies."
+        }
+      ],
+      "pricing": {
+        "note": "Crescendo operates on an enterprise managed-service model with monthly base fees plus per-ticket billing. Pricing starts at $2,900/month with full platform access and dedicated deployment support included.",
+        "plans": [
+          {
+            "name": "Managed AI Service",
+            "price": "$2,900",
+            "per": "per month",
+            "popular": false,
+            "color": "#6366F1",
+            "features": [
+              "Omnichannel AI support (chat, voice, email)",
+              "50+ language support",
+              "Per-ticket billing (~$1.25/resolved ticket)",
+              "Operations optimization",
+              "Managed implementation and deployment"
+            ]
+          },
+          {
+            "name": "Managed AI + Professional Support",
+            "price": "$2,900",
+            "per": "per month",
+            "popular": true,
+            "color": "#EC4899",
+            "features": [
+              "All Managed AI Service features",
+              "24/7 human agent support (Superhuman agents)",
+              "Full quality assurance",
+              "Brand-aligned customer handling",
+              "Performance guarantees with credits"
+            ]
+          }
+        ]
+      },
+      "link": "https://crescendo.ai"
     }
   ],
   "totw": {
     "name": "akta.pro",
     "tagline": "Private company data and signals API for the agent economy",
-    "votesCount": 429,
+    "votesCount": 431,
     "url": "https://www.producthunt.com/products/akta-pro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/d096a90c-a4f0-414d-992a-d1803381c3f8.x-icon?auto=format",
     "rank": 1,
@@ -27954,46 +28352,46 @@
       "Developer Tools",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-08-29T12:35:59.548Z"
+    "fetchedAt": "2026-08-30T11:44:51.633Z"
   },
   "lastWeeklyUpdate": "2026-08-27T18:05:14.639Z",
   "anthropicNews": [
     {
-      "date": "Aug 28, 2026",
-      "title": "Claude for Teachers launches for U.S. K-12 schools",
-      "summary": "<cite index=\"1-1\">Claude for Teachers is now available for U.S. K-12 schools and districts</cite>.",
-      "url": "https://claude.com/blog-category/announcements"
+      "date": "Aug 27, 2026",
+      "title": "Anthropic Previews Model Hardware Standard",
+      "summary": "<cite index=\"8-7,8-8\">Anthropic announced the Model Hardware Standard, a new interface enabling AI agents to operate machinery, initially available in research preview with plans to open source it.</cite>",
+      "url": "https://www.cnbc.com/amp/2026/08/27/anthropic-pushes-into-physical-world-with-new-standard-to-help-ai-agents-operate-machines.html"
     },
     {
       "date": "Aug 27, 2026",
-      "title": "Anthropic releases Model Hardware Standard (MHS)",
-      "summary": "<cite index=\"3-1\">Anthropic announced a new software standard allowing AI assistants like Claude to work better with robots and science and manufacturing hardware</cite>.",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-27/anthropic-tests-new-way-for-claude-to-work-with-robots-and-scientific-lab-tools"
-    },
-    {
-      "date": "Aug 11, 2026",
-      "title": "Claude Sonnet 5 pricing made permanent at $2/$10",
-      "summary": "<cite index=\"17-1\">Anthropic made $2/$10 permanent on August 11, 2026 and cancelled the September 1 increase to $3/$15</cite>.",
-      "url": "https://www.cloudzero.com/blog/claude-pricing/"
-    },
-    {
-      "date": "Jul 24, 2026",
-      "title": "Claude Opus 5 launched as new general-purpose flagship",
-      "summary": "<cite index=\"9-1\">Anthropic designed Opus 5 to deliver performance close to its most powerful model, Fable, on many tasks at half the price</cite>.",
-      "url": "https://www.axios.com/2026/07/24/anthropic-releases-new-model-opus-5"
-    },
-    {
-      "date": "Aug 18, 2026",
-      "title": "Claude Code adds spellcheck and improved UI features",
-      "summary": "<cite index=\"4-2\">Claude Code adds optional spellcheck in the prompt, improves terminal UI readability and list rendering, and fixes various session, permission, and slash-command bugs</cite>.",
-      "url": "https://releasebot.io/updates/anthropic/claude-code"
-    },
-    {
-      "date": "Aug 28, 2026",
-      "title": "Claude Academy launches for AI education at scale",
-      "summary": "<cite index=\"5-2,5-8\">Anthropic is sharing its approach to designing and scaling AI instruction to millions of learners worldwide via Claude Academy</cite>.",
+      "title": "Anthropic Expands Support for Scientists",
+      "summary": "<cite index=\"13-7,13-12\">Anthropic is offering 10,000 free and discounted team seats for scientists to access Claude subscriptions for one year through a new team plan for scientists.</cite>",
       "url": "https://releasebot.io/updates/anthropic"
+    },
+    {
+      "date": "Aug 25, 2026",
+      "title": "Funding Better AI Wellbeing Evaluations",
+      "summary": "Anthropic announced funding to support better evaluations of AI's impact on wellbeing.",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Aug 14, 2026",
+      "title": "Watermarking Method Q&A Published",
+      "summary": "<cite index=\"10-1\">Anthropic shared answers about how its watermarking method works, whether it affects Claude outputs, and why the change was made.</cite>",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Aug 4, 2026",
+      "title": "Mariano-Florentino Cuéllar Joins Anthropic",
+      "summary": "<cite index=\"3-1\">Mariano-Florentino (Tino) Cuéllar will join Anthropic as Chief Global Affairs Officer.</cite>",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Aug 2, 2026",
+      "title": "Claude AI Outputs Now Include Watermarks",
+      "summary": "<cite index=\"4-2\">Anthropic announced that all Claude products released from August 2 onward will include machine-readable marking in AI-generated content.</cite>",
+      "url": "https://www.artificiallawyer.com/2026/08/13/anthropic-will-embed-watermarks-in-ai-outputs/"
     }
   ],
-  "lastChecked": "2026-08-29T12:36:42.435Z"
+  "lastChecked": "2026-08-30T11:46:36.170Z"
 }
