@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T11:46:36.170Z",
+  "lastUpdated": "2026-08-31T13:27:25.390Z",
   "categories": [
     {
       "id": "llm",
@@ -28338,12 +28338,153 @@
         ]
       },
       "link": "https://crescendo.ai"
+    },
+    {
+      "id": "ambient-ai-physical-security-agents",
+      "name": "Ambient.ai Physical Security Agents",
+      "company": "Ambient.ai",
+      "category": "agent",
+      "icon": "🛡️",
+      "badge": "hot",
+      "color": "#1e3a8a",
+      "price": "paid",
+      "priceLabel": "Custom Enterprise Pricing",
+      "tags": [
+        "physical-security",
+        "threat-detection",
+        "computer-vision",
+        "ai-agents"
+      ],
+      "shortDesc": "AI-powered physical security platform detecting 150+ threats in real-time with autonomous agents.",
+      "fullDesc": "Ambient.ai is the category leader in Agentic Physical Security, using Ambient Pulsar—a purpose-built Vision-Language Model—to autonomously detect, assess, and respond to threats across video, access, and sensor data. Designed for Fortune 500 enterprises and government organizations, it reduces false alarms by over 90% and accelerates investigations from hours to minutes with natural language search and automated case management.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Agentic Physical Security Platform"
+        },
+        {
+          "label": "Released",
+          "value": "2022 (Public Launch)"
+        },
+        {
+          "label": "Best for",
+          "value": "Enterprise security operations centers managing 100+ cameras"
+        },
+        {
+          "label": "Pricing",
+          "value": "Custom per-deployment, based on camera count and AI modules"
+        }
+      ],
+      "features": [
+        "Detects 150+ threat signatures including loitering, weapons, intrusions, and behavioral anomalies with contextual reasoning",
+        "Agentic Video Walls continuously monitor all cameras and surface the most relevant events every 60 seconds",
+        "Natural language forensic search finds footage in minutes instead of hours by describing events",
+        "Auto-validates access control alarms and clears 95% of false door sensor alerts",
+        "Real-time alerts with AI-generated scene descriptions delivered via email, SMS, and mobile push",
+        "Case Management turns scattered clips into connected incident stories automatically",
+        "Processes 200+ million video hours daily with 50× better cost efficiency than GPT-5",
+        "Integrates with 200+ ONVIF-compatible cameras and existing security infrastructure"
+      ],
+      "demo": [
+        {
+          "title": "Real-Time Threat Detection",
+          "desc": "Platform monitors live camera feeds and surfaces relevant security events with AI context to operators",
+          "code": ""
+        },
+        {
+          "title": "Natural Language Search",
+          "desc": "Security teams query video archives by describing what they're looking for instead of scrubbing footage",
+          "code": "Query: 'Person running through the lobby between 2-3pm wearing red jacket'"
+        },
+        {
+          "title": "Access Control Validation",
+          "desc": "Correlates video with door sensor alerts to automatically validate genuine threats and dismiss false alarms",
+          "code": ""
+        },
+        {
+          "title": "Case Management Workflow",
+          "desc": "Operators collect clips and AI automatically generates a complete incident narrative with timeline",
+          "code": ""
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Threat Investigation",
+          "text": "Find all instances of unauthorized tailgating at the main entrance on Monday between 8am-5pm"
+        },
+        {
+          "label": "Behavioral Analysis",
+          "text": "Alert me to anyone loitering in the server room for more than 5 minutes"
+        },
+        {
+          "label": "Multi-Camera Search",
+          "text": "Track the person wearing a blue backpack across all building cameras from 10am today"
+        },
+        {
+          "label": "Incident Root Cause",
+          "text": "What triggered the fire alarm in Building B at 2:47pm and was there actual smoke or flame?"
+        }
+      ],
+      "pricing": {
+        "note": "Ambient.ai does not publish public pricing. All quotes are custom per deployment, based on camera count, edge appliance hardware, and selected AI modules. Positioned at the premium end of the market for large-scale enterprise deployments.",
+        "plans": [
+          {
+            "name": "Agentic Monitoring",
+            "price": "Custom",
+            "per": "per deployment",
+            "popular": true,
+            "color": "#1e3a8a",
+            "features": [
+              "Real-time threat detection across 150+ signatures",
+              "Live alert delivery via email, SMS, mobile",
+              "24/7 camera monitoring"
+            ]
+          },
+          {
+            "name": "Agentic Investigations",
+            "price": "Custom",
+            "per": "per deployment",
+            "popular": true,
+            "color": "#1e3a8a",
+            "features": [
+              "Natural language forensic video search",
+              "Semantic search across thousands of cameras",
+              "Case management automation"
+            ]
+          },
+          {
+            "name": "Agentic Access Intelligence",
+            "price": "Custom",
+            "per": "per deployment",
+            "popular": false,
+            "color": "#1e3a8a",
+            "features": [
+              "95% false alarm reduction",
+              "Video-validated access alerts",
+              "PACS system integration"
+            ]
+          },
+          {
+            "name": "Agentic Threat Analysis & Response",
+            "price": "Custom",
+            "per": "per deployment",
+            "popular": false,
+            "color": "#1e3a8a",
+            "features": [
+              "Automated deterrence workflows",
+              "Emergency dispatch integration",
+              "Lockdown procedure orchestration"
+            ]
+          }
+        ]
+      },
+      "link": "https://ambient.ai"
     }
   ],
   "totw": {
     "name": "akta.pro",
     "tagline": "Private company data and signals API for the agent economy",
-    "votesCount": 431,
+    "votesCount": 429,
     "url": "https://www.producthunt.com/products/akta-pro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/d096a90c-a4f0-414d-992a-d1803381c3f8.x-icon?auto=format",
     "rank": 1,
@@ -28352,46 +28493,46 @@
       "Developer Tools",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-08-30T11:44:51.633Z"
+    "fetchedAt": "2026-08-31T13:26:10.734Z"
   },
   "lastWeeklyUpdate": "2026-08-27T18:05:14.639Z",
   "anthropicNews": [
     {
-      "date": "Aug 27, 2026",
-      "title": "Anthropic Previews Model Hardware Standard",
-      "summary": "<cite index=\"8-7,8-8\">Anthropic announced the Model Hardware Standard, a new interface enabling AI agents to operate machinery, initially available in research preview with plans to open source it.</cite>",
-      "url": "https://www.cnbc.com/amp/2026/08/27/anthropic-pushes-into-physical-world-with-new-standard-to-help-ai-agents-operate-machines.html"
+      "date": "Aug 28, 2026",
+      "title": "Model Hardware Standard Released for AI-Hardware Integration",
+      "summary": "Anthropic announces MHS research preview allowing Claude to work with robots and scientific equipment.",
+      "url": "https://www.japantimes.co.jp/business/2026/08/28/tech/anthropic-claude-ai-robots/"
     },
     {
-      "date": "Aug 27, 2026",
-      "title": "Anthropic Expands Support for Scientists",
-      "summary": "<cite index=\"13-7,13-12\">Anthropic is offering 10,000 free and discounted team seats for scientists to access Claude subscriptions for one year through a new team plan for scientists.</cite>",
-      "url": "https://releasebot.io/updates/anthropic"
+      "date": "Aug 28, 2026",
+      "title": "Claude Team Plan for Scientists Expands AI Access",
+      "summary": "10,000 researcher seats launched with free and discounted subscriptions ($15/mo premium at 80% discount).",
+      "url": "https://www.explainx.ai/blog/claude-team-plan-for-scientists-10000-seats-august-2026"
     },
     {
-      "date": "Aug 25, 2026",
-      "title": "Funding Better AI Wellbeing Evaluations",
-      "summary": "Anthropic announced funding to support better evaluations of AI's impact on wellbeing.",
-      "url": "https://www.anthropic.com/news"
+      "date": "Aug 28, 2026",
+      "title": "Claude for Teachers Now Available for U.S. K-12 Schools",
+      "summary": "Free enterprise offering with centrally managed access and standards-aligned teaching tools for educators.",
+      "url": "https://claude.com/blog-category/announcements"
+    },
+    {
+      "date": "Aug 26, 2026",
+      "title": "Salesforce and Anthropic Launch Claudeforce Partnership",
+      "summary": "Strategic partnership integrating Claude with Salesforce CRM; Salesforce in Claude launches beta September 2026.",
+      "url": "https://www.salesforce.com/news/press-releases/2026/08/26/salesforce-and-anthropic-announce-claudeforce/"
     },
     {
       "date": "Aug 14, 2026",
-      "title": "Watermarking Method Q&A Published",
-      "summary": "<cite index=\"10-1\">Anthropic shared answers about how its watermarking method works, whether it affects Claude outputs, and why the change was made.</cite>",
+      "title": "Anthropic Publishes Text Watermark Research",
+      "summary": "Anthropic releases research explaining how Claude's text watermark works for AI-generated content detection.",
       "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Aug 4, 2026",
-      "title": "Mariano-Florentino Cuéllar Joins Anthropic",
-      "summary": "<cite index=\"3-1\">Mariano-Florentino (Tino) Cuéllar will join Anthropic as Chief Global Affairs Officer.</cite>",
+      "date": "Jul 24, 2026",
+      "title": "Claude Opus 5 Model Released",
+      "summary": "New flagship model delivering improvements for long-running agents, coding, and professional work.",
       "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "Aug 2, 2026",
-      "title": "Claude AI Outputs Now Include Watermarks",
-      "summary": "<cite index=\"4-2\">Anthropic announced that all Claude products released from August 2 onward will include machine-readable marking in AI-generated content.</cite>",
-      "url": "https://www.artificiallawyer.com/2026/08/13/anthropic-will-embed-watermarks-in-ai-outputs/"
     }
   ],
-  "lastChecked": "2026-08-30T11:46:36.170Z"
+  "lastChecked": "2026-08-31T13:27:25.390Z"
 }
