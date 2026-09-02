@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-01T11:32:19.090Z",
+  "lastUpdated": "2026-09-02T11:07:56.495Z",
   "categories": [
     {
       "id": "llm",
@@ -28611,58 +28611,420 @@
         ]
       },
       "link": "https://oxalpha.io"
+    },
+    {
+      "id": "fal-live",
+      "name": "fal.live",
+      "company": "fal",
+      "category": "video",
+      "icon": "🎬",
+      "badge": "hot",
+      "color": "#1a1a2e",
+      "price": "freemium",
+      "priceLabel": "Free credits + Pay-as-you-go",
+      "tags": [
+        "video-generation",
+        "serverless-inference",
+        "generative-ai",
+        "real-time"
+      ],
+      "shortDesc": "Serverless GPU infrastructure for fast AI video, image, and media generation with 600+ production models.",
+      "fullDesc": "fal.live is a serverless platform providing developers access to over 600 AI models for generating images, video, audio, and 3D content without managing GPU infrastructure. Built for sub-second inference speeds with pay-as-you-go pricing, it powers production applications at companies like Canva, HeyGen, and Adobe. Ideal for developers building generative media features requiring low latency and automatic scaling.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Serverless AI Inference Platform"
+        },
+        {
+          "label": "Released",
+          "value": "2021"
+        },
+        {
+          "label": "Best for",
+          "value": "Developers building video, image, and media generation at scale"
+        },
+        {
+          "label": "Pricing",
+          "value": "Pay-per-inference with starter credits; no subscriptions"
+        }
+      ],
+      "features": [
+        "Sub-second inference with optimized diffusion model acceleration up to 10x faster than standard GPU setups",
+        "Access to 600+ production-ready models including FLUX, Stable Diffusion, Kling, and Wan video generation",
+        "Serverless GPU provisioning with H100, H200, and B200 infrastructure—no cold start management needed",
+        "Real-time streaming endpoints and WebSocket support for interactive, live preview applications",
+        "Queue management system for handling burst demand and long-running workflows efficiently",
+        "Multi-language SDKs and REST APIs for JavaScript, Python, and other languages with ComfyUI integration",
+        "Global edge deployment with 99.99% uptime SLA and enterprise compliance including SOC 2",
+        "Pay-per-output billing: typically $0.025–$0.4 per image/video depending on model and resolution"
+      ],
+      "demo": [
+        {
+          "title": "Initialize fal API with credentials",
+          "desc": "Set up your fal API key to authenticate requests for model inference.",
+          "code": "import * as fal from '@fal-ai/serverless-client';\nfal.config({credentials: 'YOUR_API_KEY'});"
+        },
+        {
+          "title": "Generate an image using FLUX",
+          "desc": "Call a text-to-image model to generate a high-quality image from a prompt.",
+          "code": "const result = await fal.subscribe('fal-ai/flux/schnell', {\n  input: {prompt: 'A serene mountain landscape at sunset'},\n});\nconsole.log(result.images);"
+        },
+        {
+          "title": "Generate video from static image",
+          "desc": "Animate a static image into video using Kling or Wan model with queue management.",
+          "code": "const videoJob = await fal.queue.submit('fal-ai/kling-video/v1', {\n  input: {image_url: 'https://example.com/image.jpg'},\n});\nconst videoResult = await fal.queue.result(videoJob.request_id);"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Text-to-Image",
+          "text": "A professional product photography shot of a minimalist wooden desk lamp, soft warm lighting, neutral background, studio quality"
+        },
+        {
+          "label": "Text-to-Video",
+          "text": "Camera pans across a bustling Tokyo street at night, neon signs reflecting in wet pavement, cinematic 24fps"
+        },
+        {
+          "label": "Image-to-Video Animation",
+          "text": "Transform a portrait photo into a slow head turn with natural lighting and subtle facial expression changes"
+        },
+        {
+          "label": "Audio Generation",
+          "text": "Generate a 10-second ambient background music track in lo-fi hip hop style with subtle vinyl crackle"
+        }
+      ],
+      "pricing": {
+        "note": "fal uses transparent pay-per-inference pricing with no subscriptions or monthly minimums. New users receive free starter credits to test models before committing to production usage.",
+        "plans": [
+          {
+            "name": "Free Starter",
+            "price": "Free",
+            "per": "forever",
+            "popular": false,
+            "color": "#e0e0e0",
+            "features": [
+              "Starter credits for testing models",
+              "Access to full model catalog",
+              "REST APIs and SDKs"
+            ]
+          },
+          {
+            "name": "Pay-as-You-Go",
+            "price": "$0.025–$0.4",
+            "per": "per image/video",
+            "popular": true,
+            "color": "#1a1a2e",
+            "features": [
+              "Image generation from $0.025 (FLUX Schnell) to $0.15 (flagship models)",
+              "Video generation from $0.05/sec (Wan 2.5) to $0.4/sec (Veo 3)",
+              "Batch inference at 50% discount",
+              "Enterprise SLA and dedicated support available"
+            ]
+          },
+          {
+            "name": "GPU Compute Rental",
+            "price": "$1.89–$4.49",
+            "per": "per hour",
+            "popular": false,
+            "color": "#666666",
+            "features": [
+              "H100 GPU at $1.89/h (discounted from $3.99 list)",
+              "H200 at $2.10/h | B200 at $3.49/h | B300 at $4.49/h",
+              "Multi-GPU execution support",
+              "Custom model deployment and fine-tuning"
+            ]
+          }
+        ]
+      },
+      "link": "https://fal.live"
+    },
+    {
+      "id": "conscioussai",
+      "name": "ConscioussAI",
+      "company": "ConscioussAI Inc",
+      "category": "agent",
+      "icon": "🤖",
+      "badge": "new",
+      "color": "#0066FF",
+      "price": "free",
+      "priceLabel": "Free (Beta)",
+      "tags": [
+        "OS integration",
+        "Task automation",
+        "Desktop AI",
+        "Agent"
+      ],
+      "shortDesc": "OS-integrated AI agent that understands screen context and automates tasks across desktop and mobile.",
+      "fullDesc": "ConscioussAI is an AI operating system integration that runs on macOS, Windows, iOS, and Android to automate complex workflows by understanding on-screen context. The platform executes real work across apps, files, and web browsers with user permission, reducing manual coordination between tools. Designed for knowledge workers and individuals who want intuitive agentic AI without learning prompt engineering.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "AI Agent / Operating System Integration"
+        },
+        {
+          "label": "Released",
+          "value": "February 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Desktop and mobile task automation, workflow execution, knowledge workers"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free beta version available"
+        }
+      ],
+      "features": [
+        "OS-level integration on macOS, Windows, iOS, and Android for seamless operation",
+        "Screen context awareness that monitors on-screen activity to understand user intent and workflow",
+        "Multi-application execution spanning apps, files, browser navigation, and web tasks",
+        "Built-in lightweight browser for web-based task completion within the AI execution flow",
+        "Screen Share feature on mobile for real-time visual communication and guided task execution",
+        "SOL messaging interface enabling task automation through regular text messages",
+        "Scheduled workflow automation that completes recurring tasks before user intervention needed",
+        "Cross-device coordination between desktop and mobile for unified task management"
+      ],
+      "demo": [
+        {
+          "title": "Task Understanding",
+          "desc": "Ask ConscioussAI to complete a task in natural language and it interprets context from your screen",
+          "code": "I'm hungry but I don't know what I want. Suggest a few dinner options near me, then help me order through DoorDash or Uber Eats after I choose."
+        },
+        {
+          "title": "Scheduled Workflows",
+          "desc": "Set up recurring tasks to execute automatically at specific times before you need them",
+          "code": "Run recurring workflow to prepare morning brief before 7 AM"
+        },
+        {
+          "title": "Multi-App Automation",
+          "desc": "Complete workflows spanning multiple applications by providing the desired outcome",
+          "code": "Update my CRM with today's meeting notes and send follow-up emails to all attendees"
+        },
+        {
+          "title": "Mobile Voice Integration",
+          "desc": "Control device actions through text messaging via the SOL interface",
+          "code": "Text: 'Get me a ride to the airport tomorrow at 7 AM and compare Uber and Lyft before booking'"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Productivity",
+          "text": "Prepare my daily summary report by 9 AM with key metrics from my dashboards, emails, and projects"
+        },
+        {
+          "label": "Personal Tasks",
+          "text": "Order my usual Chipotle bowl through DoorDash and show me the total before placing the order"
+        },
+        {
+          "label": "Scheduling",
+          "text": "Schedule my weekly meetings, find conflicts, and send calendar updates to my team"
+        },
+        {
+          "label": "Document Work",
+          "text": "Extract key points from all PDFs in my downloads folder and create a summary document"
+        }
+      ],
+      "pricing": {
+        "note": "ConscioussAI is currently in free beta (v2026.1.33). Pricing structure for future commercial plans has not been announced.",
+        "plans": [
+          {
+            "name": "Beta Access",
+            "price": "Free",
+            "per": "forever",
+            "popular": true,
+            "color": "#0066FF",
+            "features": [
+              "OS integration on macOS, Windows, iOS, Android",
+              "Screen context understanding and automation",
+              "Multi-app task execution",
+              "Screen Share feature",
+              "SOL text messaging interface"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.conscioussai.com"
+    },
+    {
+      "id": "video-agent-by-fotor",
+      "name": "Video Agent by Fotor",
+      "company": "Fotor",
+      "category": "video",
+      "icon": "🎬",
+      "badge": "hot",
+      "color": "#2E5BFF",
+      "price": "freemium",
+      "priceLabel": "Free / From $3.33/mo",
+      "tags": [
+        "AI video generation",
+        "Image to video",
+        "Text to video"
+      ],
+      "shortDesc": "AI-powered video creation from text prompts and images with multiple styles.",
+      "fullDesc": "Video Agent by Fotor converts text descriptions and static images into professional video content across multiple styles including realistic, 3D animation, anime, and cinematic formats. Designed for content creators, marketers, and business owners, it enables rapid video production for social media platforms like TikTok, Instagram Reels, and YouTube without requiring video editing experience.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "AI Video Generator"
+        },
+        {
+          "label": "Released",
+          "value": "August 2025"
+        },
+        {
+          "label": "Best for",
+          "value": "Content creators, social media marketers, e-commerce businesses"
+        },
+        {
+          "label": "Pricing",
+          "value": "Freemium with Pro plans from $3.33/month"
+        }
+      ],
+      "features": [
+        "Generates videos from text prompts or static images with AI",
+        "Multiple output styles including realistic, 3D, anime, and cinematic formats",
+        "Video duration adjustable from 3 to 15 seconds for optimal social media use",
+        "Supports multiple aspect ratios including 16:9, 9:16, and 1:1 for various platforms",
+        "AI-powered background removal using advanced chroma key technology",
+        "Object removal and video enhancement capabilities for professional output",
+        "Video editing through natural language commands rather than complex software",
+        "Available on desktop and mobile platforms with cloud-based processing"
+      ],
+      "demo": [
+        {
+          "title": "Generate from Text Prompt",
+          "desc": "Type a descriptive prompt with creative details, select your preferred style and aspect ratio, then let AI generate the video in seconds",
+          "code": "Create a 10-second video of a sunset beach scene with cinematic style and 16:9 aspect ratio"
+        },
+        {
+          "title": "Convert Image to Video",
+          "desc": "Upload a static image, add camera motion settings, choose animation style, and generate a dynamic video clip",
+          "code": "Upload product photo → Enable motion → Select style → Generate 5-second video"
+        },
+        {
+          "title": "Natural Language Video Editing",
+          "desc": "Use text commands to modify existing videos by adjusting colors, lighting, scene pacing without technical editing knowledge",
+          "code": "Make this video brighter, add cinematic color grading, speed up the transitions"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Product Marketing",
+          "text": "Create a 10-second promotional video showing a luxury watch rotating on a white background with cinematic lighting and cool blue color grading"
+        },
+        {
+          "label": "Social Media Content",
+          "text": "Generate a 15-second TikTok video of a woman applying makeup with trendy transitions and upbeat animation style"
+        },
+        {
+          "label": "E-commerce",
+          "text": "Make a 5-second video of a fashion dress from a still image with 9:16 vertical format and glamorous anime-style effects"
+        },
+        {
+          "label": "Brand Content",
+          "text": "Create a 10-second corporate video showing a tech office environment with 3D animation style and modern aesthetic"
+        }
+      ],
+      "pricing": {
+        "note": "Fotor offers a freemium model with limited free credits and three paid tiers that unlock unlimited AI video generation with expanded credit pools and faster processing.",
+        "plans": [
+          {
+            "name": "Free",
+            "price": "$0",
+            "per": "forever",
+            "popular": false,
+            "color": "#F0F2F5",
+            "features": [
+              "Limited free credits for video generation",
+              "1 concurrent generation",
+              "Watermarked video exports",
+              "Basic style selection"
+            ]
+          },
+          {
+            "name": "Pro",
+            "price": "$3.33",
+            "per": "per month (annual billing)",
+            "popular": true,
+            "color": "#2E5BFF",
+            "features": [
+              "Expanded AI video generation credits",
+              "Remove watermarks from exports",
+              "Multiple concurrent generations",
+              "All video styles and effects included",
+              "Desktop and mobile access"
+            ]
+          },
+          {
+            "name": "Pro+",
+            "price": "$7.49",
+            "per": "per month (annual billing)",
+            "popular": false,
+            "color": "#1E3A8A",
+            "features": [
+              "Priority video generation processing",
+              "Extended video duration support (up to 10 minutes)",
+              "Premium AI models and effects",
+              "Batch video creation",
+              "Advanced video editing features",
+              "Team collaboration options"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.fotor.com/video"
     }
   ],
   "totw": {
     "name": "Skydive",
     "tagline": "Build cloud agents that work across your tools",
-    "votesCount": 433,
+    "votesCount": 435,
     "url": "https://www.producthunt.com/products/skydive?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/c20d7d46-fdf8-4764-9105-ef07d8e034ef.png?auto=format",
     "rank": 1,
     "topics": [
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-09-01T11:30:47.315Z"
+    "fetchedAt": "2026-09-02T11:05:48.305Z"
   },
   "lastWeeklyUpdate": "2026-08-27T18:05:14.639Z",
   "anthropicNews": [
     {
-      "date": "Aug 28, 2026",
-      "title": "Claude for Teachers & Scientists Programs Expand",
-      "summary": "Anthropic expands Claude offerings for educators and researchers with free team seats and AI for Science credits.",
-      "url": "https://releasebot.io/updates/anthropic"
-    },
-    {
-      "date": "Aug 4, 2026",
-      "title": "Mariano-Florentino Cuéllar Joins as Chief Global Affairs Officer",
-      "summary": "Anthropic announces new executive leadership appointment focused on global affairs and policy.",
+      "date": "Sep 1, 2026",
+      "title": "Claude Fable 5.1 and Mythos 5.1 launched",
+      "summary": "<cite index=\"13-2\">Most advanced models for coding and knowledge work.</cite>",
       "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Jul 30, 2026",
-      "title": "Cybersecurity Incidents Analysis Published",
-      "summary": "Anthropic releases investigation findings on three real-world incidents in its cybersecurity evaluations.",
-      "url": "https://www.anthropic.com/news"
+      "date": "Aug 27, 2026",
+      "title": "Model Hardware Standard (MHS) research preview opens",
+      "summary": "<cite index=\"4-2\">New interface for AI agents to operate and communicate with physical machinery.</cite>",
+      "url": "https://www.cnbc.com/2026/08/27/anthropic-pushes-into-physical-world-with-new-standard-to-help-ai-agents-operate-machines.html"
+    },
+    {
+      "date": "Aug 25, 2026",
+      "title": "Anthropic launches $5M wellbeing research grant program",
+      "summary": "<cite index=\"7-3,7-4\">Funding independent research into AI's impact on users' wellbeing with direct funding, model access, and technical support.</cite>",
+      "url": "https://www.anthropic.com/news/wellbeing-research-grants"
+    },
+    {
+      "date": "Aug 18, 2026",
+      "title": "Claude accelerating protein design and analytical chemistry",
+      "summary": "<cite index=\"16-4\">Claude helping life scientists increase pace of research with protein design and analytical chemistry results.</cite>",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "date": "Aug 10, 2026",
+      "title": "Claude makes progress on Riemann hypothesis mathematics",
+      "summary": "<cite index=\"16-2,16-3\">Unreleased research version improved lower bound for Riemann zeta function from 41.6% to 67.2%.</cite>",
+      "url": "https://www.anthropic.com/research"
     },
     {
       "date": "Jul 24, 2026",
-      "title": "Claude Opus 5 Released with Half the Cost",
-      "summary": "Anthropic releases Claude Opus 5, delivering Fable-level performance at half the price ($5/$25 per 1M tokens).",
-      "url": "https://www.axios.com/2026/07/24/anthropic-releases-new-model-opus-5"
-    },
-    {
-      "date": "Jul 27, 2026",
-      "title": "Cognizant and Anthropic Expand Enterprise Partnership",
-      "summary": "Anthropic and Cognizant expand partnership to bring Claude to enterprise clients at scale.",
+      "title": "Claude Opus 5 released for enterprise and complex coding",
+      "summary": "<cite index=\"11-1,11-2\">Latest general availability model designed for complex agentic coding and enterprise work.</cite>",
       "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "Jun 9, 2026",
-      "title": "Claude Fable 5 & Mythos-Class Tier Announced",
-      "summary": "Anthropic announces Claude Fable 5 frontier model and introduces new Mythos-class tier above Opus.",
-      "url": "https://hidekazu-konishi.com/entry/anthropic_claude_model_release_timeline.html"
     }
   ],
-  "lastChecked": "2026-09-01T11:32:19.090Z"
+  "lastChecked": "2026-09-02T11:07:56.495Z"
 }
