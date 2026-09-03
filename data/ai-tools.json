@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-02T11:07:56.495Z",
+  "lastUpdated": "2026-09-03T11:04:20.462Z",
   "categories": [
     {
       "id": "llm",
@@ -28973,58 +28973,195 @@
         ]
       },
       "link": "https://www.fotor.com/video"
+    },
+    {
+      "id": "fuzzy-ai",
+      "name": "Fuzzy AI",
+      "company": "Fuzzy",
+      "category": "agent",
+      "icon": "🤝",
+      "badge": "hot",
+      "color": "#6366f1",
+      "price": "paid",
+      "priceLabel": "From $149/mo",
+      "tags": [
+        "LinkedIn",
+        "Sales Automation",
+        "AI SDR",
+        "B2B Outreach"
+      ],
+      "shortDesc": "LinkedIn-first AI SDR that warms prospects through engagement before personalized outreach.",
+      "fullDesc": "Fuzzy AI is a LinkedIn-native sales automation platform that engages prospects through posts, comments, and content before drafting personalized outreach messages for human approval. It handles research, brand-voice messaging, and multi-step sequencing across LinkedIn and email. Built for B2B sales teams and founders who want to convert LinkedIn engagement into booked meetings without traditional cold outreach.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "LinkedIn-First AI Sales Agent"
+        },
+        {
+          "label": "Released",
+          "value": "2024"
+        },
+        {
+          "label": "Best for",
+          "value": "B2B sales teams, founders, solopreneurs running warm outreach"
+        },
+        {
+          "label": "Pricing",
+          "value": "Paid plans from $149/mo with credit-based system"
+        }
+      ],
+      "features": [
+        "AI-powered LinkedIn engagement and prospect warming before outreach",
+        "Hyper-personalized message generation in your brand voice",
+        "Sales Navigator integration for unlimited lead discovery",
+        "Multi-step campaign sequencing with human-in-the-loop approval workflows",
+        "Automated profile research and content engagement across LinkedIn",
+        "Brand-building content generation for posts, comments, and InMails",
+        "ROI calculator and ready-made content hook library",
+        "4x higher reply rates compared to cold-only outreach tools"
+      ],
+      "demo": [
+        {
+          "title": "Set Your Outreach Target",
+          "desc": "Define your ideal customer profile (ICP) and let Fuzzy research prospects in your target accounts."
+        },
+        {
+          "title": "Warm Prospects with Engagement",
+          "desc": "Fuzzy automatically engages with prospect posts and content to build relationship authority before any pitch."
+        },
+        {
+          "title": "Review and Approve Messaging",
+          "desc": "AI drafts personalized LinkedIn messages and emails in your voice. You approve before they're sent."
+        },
+        {
+          "title": "Track Campaign Performance",
+          "desc": "Monitor replies, bookings, and ROI through built-in analytics and conversion tracking."
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Prospect Research",
+          "text": "Research this LinkedIn profile and find 3 meaningful insights I can engage with before reaching out."
+        },
+        {
+          "label": "Message Personalization",
+          "text": "Draft a personalized LinkedIn message to this founder that references their recent post about product-market fit."
+        },
+        {
+          "label": "Content Engagement",
+          "text": "Generate 2-3 authentic comment ideas for this prospect's latest LinkedIn post that showcase industry knowledge."
+        },
+        {
+          "label": "Follow-up Sequence",
+          "text": "Create a 5-step email follow-up sequence for prospects who engaged but didn't reply to the first message."
+        }
+      ],
+      "pricing": {
+        "note": "Fuzzy offers transparent, credit-based pricing with Starter, Growth, Scale, and Enterprise plans. Flexible billing: monthly, quarterly (10% off), or annual (20% off).",
+        "plans": [
+          {
+            "name": "Starter",
+            "price": "$149",
+            "per": "per month",
+            "popular": false,
+            "color": "#818cf8",
+            "features": [
+              "Solo founders and early-stage teams",
+              "Limited credit allowance per month",
+              "LinkedIn engagement and outreach",
+              "Basic sequencing and approval workflows"
+            ]
+          },
+          {
+            "name": "Growth",
+            "price": "$239",
+            "per": "per month",
+            "popular": true,
+            "color": "#6366f1",
+            "features": [
+              "Sales teams scaling outreach",
+              "Higher credit allocation",
+              "Multi-user collaboration",
+              "Advanced sequencing and analytics"
+            ]
+          },
+          {
+            "name": "Scale",
+            "price": "Custom",
+            "per": "per month",
+            "popular": false,
+            "color": "#4f46e5",
+            "features": [
+              "Power users and high-volume outreach",
+              "Maximum credit allocation",
+              "Full feature access from day one",
+              "Priority support and custom workflows"
+            ]
+          },
+          {
+            "name": "Enterprise",
+            "price": "Custom",
+            "per": "per month",
+            "popular": false,
+            "color": "#4338ca",
+            "features": [
+              "Large teams and custom requirements",
+              "Dedicated account management",
+              "Custom integrations and workflows",
+              "SLA and priority support"
+            ]
+          }
+        ]
+      },
+      "link": "https://getfuzzy.ai"
     }
   ],
   "totw": {
-    "name": "Skydive",
-    "tagline": "Build cloud agents that work across your tools",
+    "name": "Monid",
+    "tagline": "OpenRouter for agent tools",
     "votesCount": 435,
-    "url": "https://www.producthunt.com/products/skydive?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
-    "thumbnail": "https://ph-files.imgix.net/c20d7d46-fdf8-4764-9105-ef07d8e034ef.png?auto=format",
+    "url": "https://www.producthunt.com/products/monid?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
+    "thumbnail": "https://ph-files.imgix.net/0c2727aa-84c0-4edb-a0ef-670f31d2e58a.jpeg?auto=format",
     "rank": 1,
     "topics": [
+      "API",
+      "Developer Tools",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-09-02T11:05:48.305Z"
+    "fetchedAt": "2026-09-03T11:02:58.074Z"
   },
   "lastWeeklyUpdate": "2026-08-27T18:05:14.639Z",
   "anthropicNews": [
     {
       "date": "Sep 1, 2026",
-      "title": "Claude Fable 5.1 and Mythos 5.1 launched",
-      "summary": "<cite index=\"13-2\">Most advanced models for coding and knowledge work.</cite>",
-      "url": "https://www.anthropic.com/news"
+      "title": "Claude Fable 5.1 & Mythos 5.1 Launch",
+      "summary": "<cite index=\"6-1,6-2\">Claude launches Fable 5.1 and Mythos 5.1, its most advanced models for coding and knowledge work</cite>.",
+      "url": "https://releasebot.io/updates/anthropic"
     },
     {
-      "date": "Aug 27, 2026",
-      "title": "Model Hardware Standard (MHS) research preview opens",
-      "summary": "<cite index=\"4-2\">New interface for AI agents to operate and communicate with physical machinery.</cite>",
-      "url": "https://www.cnbc.com/2026/08/27/anthropic-pushes-into-physical-world-with-new-standard-to-help-ai-agents-operate-machines.html"
+      "date": "Sep 1, 2026",
+      "title": "Claude Sonnet 5 Pricing Locked Permanently",
+      "summary": "<cite index=\"9-10\">The $2/$10 per million input/output token pricing for Claude Sonnet 5 is now the standard price</cite>.",
+      "url": "https://platform.claude.com/docs/en/about-claude/pricing"
     },
     {
-      "date": "Aug 25, 2026",
-      "title": "Anthropic launches $5M wellbeing research grant program",
-      "summary": "<cite index=\"7-3,7-4\">Funding independent research into AI's impact on users' wellbeing with direct funding, model access, and technical support.</cite>",
-      "url": "https://www.anthropic.com/news/wellbeing-research-grants"
+      "date": "Aug 11, 2026",
+      "title": "Anthropic Watermarks Claude Output Globally",
+      "summary": "<cite index=\"2-6\">All new Claude models automatically embed machine-readable watermarks into every text response worldwide</cite>.",
+      "url": "https://www.trendingtopics.eu/anthropic-plans-watermarks-for-ai-generated-content-from-august-2026/"
     },
     {
-      "date": "Aug 18, 2026",
-      "title": "Claude accelerating protein design and analytical chemistry",
-      "summary": "<cite index=\"16-4\">Claude helping life scientists increase pace of research with protein design and analytical chemistry results.</cite>",
-      "url": "https://www.anthropic.com/research"
+      "date": "Jun 30, 2026",
+      "title": "Claude Science Product Launch",
+      "summary": "<cite index=\"19-1\">Anthropic announced Claude Science, a major new product intended to support scientific research in the same way that Claude Code supports software engineering</cite>.",
+      "url": "https://www.technologyreview.com/2026/06/30/1139987/claude-science-is-anthropics-newest-flagship-product/"
     },
     {
-      "date": "Aug 10, 2026",
-      "title": "Claude makes progress on Riemann hypothesis mathematics",
-      "summary": "<cite index=\"16-2,16-3\">Unreleased research version improved lower bound for Riemann zeta function from 41.6% to 67.2%.</cite>",
-      "url": "https://www.anthropic.com/research"
-    },
-    {
-      "date": "Jul 24, 2026",
-      "title": "Claude Opus 5 released for enterprise and complex coding",
-      "summary": "<cite index=\"11-1,11-2\">Latest general availability model designed for complex agentic coding and enterprise work.</cite>",
-      "url": "https://www.anthropic.com/news"
+      "date": "May 28, 2026",
+      "title": "Claude Opus 4.8 Released",
+      "summary": "<cite index=\"3-1\">Claude Opus 4.8 released on May 28, 2026</cite> with improved capabilities.",
+      "url": "https://en.wikipedia.org/wiki/Claude_(language_model)"
     }
   ],
-  "lastChecked": "2026-09-02T11:07:56.495Z"
+  "lastChecked": "2026-09-03T11:04:20.462Z"
 }
