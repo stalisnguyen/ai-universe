@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-04T11:47:41.244Z",
+  "lastUpdated": "2026-09-05T10:26:54.517Z",
   "categories": [
     {
       "id": "llm",
@@ -29706,12 +29706,120 @@
         ]
       },
       "link": "https://getfuzzy.ai"
+    },
+    {
+      "id": "crowdstrike-falcon-guardian",
+      "name": "CrowdStrike Falcon Guardian",
+      "company": "CrowdStrike",
+      "category": "agent",
+      "icon": "🛡️",
+      "badge": "new",
+      "color": "#1F2937",
+      "price": "paid",
+      "priceLabel": "Contact for pricing",
+      "tags": [
+        "AI security",
+        "Runtime protection",
+        "Agent monitoring",
+        "Endpoint security"
+      ],
+      "shortDesc": "AI Detection and Response platform for securing agents at runtime.",
+      "fullDesc": "CrowdStrike Falcon Guardian is an AI Detection and Response (AIDR) solution that delivers visibility and runtime enforcement for AI agents across endpoints, cloud, and SaaS environments. It helps organizations discover shadow AI, govern AI use, secure autonomous agents, protect data, and detect AI threats in real-time. Designed for enterprises managing AI agent deployment and security.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "AI Detection and Response (AIDR) Platform"
+        },
+        {
+          "label": "Released",
+          "value": "September 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Enterprise AI agent security and threat detection"
+        },
+        {
+          "label": "Pricing",
+          "value": "Enterprise contact-based pricing"
+        }
+      ],
+      "features": [
+        "Runtime detection and response for AI agent threats and malicious behavior",
+        "AI visibility discovery including shadow AI detection across endpoints",
+        "AI governance policies to control agent execution and user interactions",
+        "Correlates agent activity with endpoint telemetry for full execution chain reconstruction",
+        "AI Gateway for centralized control of enterprise AI traffic across models and services",
+        "Sensitive data protection for AI interactions without disrupting workflows",
+        "Native Falcon Next-Gen SIEM integration for correlated detection and response",
+        "24/7 managed detection and response services with Falcon Complete for Guardian"
+      ],
+      "demo": [
+        {
+          "title": "Discovery",
+          "desc": "Falcon sensor inventories known and shadow agents across Windows and macOS machines, logging deployment details and security status.",
+          "code": ""
+        },
+        {
+          "title": "Detection",
+          "desc": "Guardian flags attacks targeting agents and detects misbehaving agents while reconstructing the execution chain in real-time.",
+          "code": ""
+        },
+        {
+          "title": "Response",
+          "desc": "Platform determines blast radius and contains AI threats before they spread across enterprise systems.",
+          "code": ""
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Governance Query",
+          "text": "Which AI agents are permitted to run in my organization and who deployed them?"
+        },
+        {
+          "label": "Security Investigation",
+          "text": "Reconstruct the full execution chain of an AI agent incident and determine its blast radius."
+        },
+        {
+          "label": "Threat Detection",
+          "text": "Identify malicious AI agent behavior or attacks targeting autonomous agents."
+        }
+      ],
+      "pricing": {
+        "note": "CrowdStrike offers enterprise-level pricing for Falcon Guardian. Services include Falcon Guardian platform, optional Falcon Complete for Guardian (24/7 MDR), and Falcon Adversary OverWatch for threat hunting.",
+        "plans": [
+          {
+            "name": "Falcon Guardian",
+            "price": "Custom",
+            "per": "contact",
+            "popular": true,
+            "color": "#1F2937",
+            "features": [
+              "AI agent discovery and inventory",
+              "Runtime detection and response",
+              "AI governance and policy controls"
+            ]
+          },
+          {
+            "name": "Falcon Complete for Guardian",
+            "price": "Custom",
+            "per": "contact",
+            "popular": false,
+            "color": "#1F2937",
+            "features": [
+              "24/7 expert-led detection and response",
+              "Threat assessment and intent analysis",
+              "Real-time threat containment"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.crowdstrike.com/en-us/platform/falcon-aidr-ai-detection-and-response/"
     }
   ],
   "totw": {
     "name": "Monid",
     "tagline": "OpenRouter for agent tools",
-    "votesCount": 467,
+    "votesCount": 470,
     "url": "https://www.producthunt.com/products/monid?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/0c2727aa-84c0-4edb-a0ef-670f31d2e58a.jpeg?auto=format",
     "rank": 1,
@@ -29720,46 +29828,46 @@
       "Developer Tools",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-09-04T11:04:08.013Z"
+    "fetchedAt": "2026-09-05T10:25:55.559Z"
   },
   "lastWeeklyUpdate": "2026-09-04T11:42:21.436Z",
   "anthropicNews": [
     {
+      "date": "Sep 2, 2026",
+      "title": "Building commerce agents with Claude",
+      "summary": "<cite index=\"1-10\">Anthropic announced building commerce agents with Claude</cite> to help companies serve shoppers, travelers, and merchants.",
+      "url": "https://claude.com/blog-category/announcements"
+    },
+    {
       "date": "Sep 1, 2026",
-      "title": "Claude Fable 5.1 & Mythos 5.1 released with improved coding",
-      "summary": "<cite index=\"17-2\">Claude Fable 5.1 and Claude Mythos 5.1 bring stronger coding, knowledge work, and scientific research capabilities with lower pricing and improved safeguards</cite>",
+      "title": "Claude Fable 5.1 and Mythos 5.1 released",
+      "summary": "<cite index=\"14-2\">Anthropic released Claude Fable 5.1 and Claude Mythos 5.1 with stronger coding and knowledge work capabilities at lower pricing</cite>.",
       "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Aug 28, 2026",
-      "title": "Claude for Teachers available for U.S. K-12 schools",
-      "summary": "<cite index=\"3-11\">Claude for Teachers is now available for U.S. K-12 schools and districts</cite>",
+      "title": "Claude for Teachers now available for K-12",
+      "summary": "<cite index=\"1-10\">Claude for Teachers is now available for U.S. K-12 schools and districts with enterprise features</cite>.",
       "url": "https://claude.com/blog-category/announcements"
     },
     {
-      "date": "Aug 27, 2026",
-      "title": "Anthropic unveils Model Hardware Standard for robotics",
-      "summary": "<cite index=\"4-4\">Anthropic is releasing its Model Hardware Standard under research preview so developers in scientific, robotics and manufacturing fields can test how Claude interacts with the physical world</cite>",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-27/anthropic-tests-new-way-for-claude-to-work-with-robots-and-scientific-lab-tools"
+      "date": "Aug 28, 2026",
+      "title": "Claude Code adds major hooks and Remote Control",
+      "summary": "<cite index=\"6-2\">Claude Code adds major hooks, Remote Control streaming, and new usage and cost visibility with stability and security fixes</cite>.",
+      "url": "https://releasebot.io/updates/anthropic/claude-code"
     },
     {
       "date": "Aug 26, 2026",
-      "title": "Salesforce and Anthropic announce Claudeforce partnership",
-      "summary": "<cite index=\"5-1\">Salesforce and Anthropic are announcing Claudeforce, bringing Claude's intelligence together with Salesforce's enterprise harness for agentic experiences</cite>",
+      "title": "Salesforce and Anthropic announce Claudeforce",
+      "summary": "<cite index=\"3-1\">Salesforce and Anthropic announced Claudeforce integration with Claude as the default model for Slack, launching in open beta September 2026</cite>.",
       "url": "https://www.salesforce.com/news/press-releases/2026/08/26/salesforce-and-anthropic-announce-claudeforce/"
     },
     {
-      "date": "Aug 4, 2026",
-      "title": "Mariano-Florentino Cuéllar joins as Chief Global Affairs Officer",
-      "summary": "<cite index=\"2-1,2-2\">Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer</cite>",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "Jul 24, 2026",
-      "title": "Claude Opus 5 released with performance at half the cost",
-      "summary": "<cite index=\"11-1\">Claude Opus 5 is designed to deliver performance close to Anthropic's most powerful model, Fable, on many tasks at half the price</cite>",
-      "url": "https://www.axios.com/2026/07/24/anthropic-releases-new-model-opus-5"
+      "date": "Aug 1, 2026",
+      "title": "Claude Sonnet 5 pricing locked at intro rates",
+      "summary": "<cite index=\"8-2\">Anthropic kept Claude Sonnet 5 at introductory pricing of $2/$10 per MTok as the new standard price</cite>.",
+      "url": "https://releasebot.io/updates/anthropic/claude-developer-platform"
     }
   ],
-  "lastChecked": "2026-09-04T11:47:41.244Z"
+  "lastChecked": "2026-09-05T10:26:54.517Z"
 }
