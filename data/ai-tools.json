@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T10:26:54.517Z",
+  "lastUpdated": "2026-09-06T10:45:22.106Z",
   "categories": [
     {
       "id": "llm",
@@ -29819,7 +29819,7 @@
   "totw": {
     "name": "Monid",
     "tagline": "OpenRouter for agent tools",
-    "votesCount": 470,
+    "votesCount": 474,
     "url": "https://www.producthunt.com/products/monid?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/0c2727aa-84c0-4edb-a0ef-670f31d2e58a.jpeg?auto=format",
     "rank": 1,
@@ -29828,46 +29828,46 @@
       "Developer Tools",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-09-05T10:25:55.559Z"
+    "fetchedAt": "2026-09-06T10:44:32.310Z"
   },
   "lastWeeklyUpdate": "2026-09-04T11:42:21.436Z",
   "anthropicNews": [
     {
       "date": "Sep 2, 2026",
-      "title": "Building commerce agents with Claude",
-      "summary": "<cite index=\"1-10\">Anthropic announced building commerce agents with Claude</cite> to help companies serve shoppers, travelers, and merchants.",
-      "url": "https://claude.com/blog-category/announcements"
-    },
-    {
-      "date": "Sep 1, 2026",
-      "title": "Claude Fable 5.1 and Mythos 5.1 released",
-      "summary": "<cite index=\"14-2\">Anthropic released Claude Fable 5.1 and Claude Mythos 5.1 with stronger coding and knowledge work capabilities at lower pricing</cite>.",
-      "url": "https://www.anthropic.com/news"
+      "title": "Claude launches Fable 5.1 and Mythos 5.1 models",
+      "summary": "Anthropic released Claude Fable 5.1 and Mythos 5.1 with 1M context, 128K output tokens, and advanced reasoning capabilities.",
+      "url": "https://releasebot.io/updates/anthropic/claude-developer-platform"
     },
     {
       "date": "Aug 28, 2026",
-      "title": "Claude for Teachers now available for K-12",
-      "summary": "<cite index=\"1-10\">Claude for Teachers is now available for U.S. K-12 schools and districts with enterprise features</cite>.",
+      "title": "Claude for Teachers available for U.S. K-12 schools",
+      "summary": "Anthropic launched free enterprise offering for schools with centrally managed access and standards-aligned teaching tools.",
       "url": "https://claude.com/blog-category/announcements"
     },
     {
-      "date": "Aug 28, 2026",
-      "title": "Claude Code adds major hooks and Remote Control",
-      "summary": "<cite index=\"6-2\">Claude Code adds major hooks, Remote Control streaming, and new usage and cost visibility with stability and security fixes</cite>.",
-      "url": "https://releasebot.io/updates/anthropic/claude-code"
+      "date": "Aug 27, 2026",
+      "title": "Anthropic releases Model Hardware Standard (MHS)",
+      "summary": "New software standard allows Claude to work with robots and manufacturing hardware in research preview mode.",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-27/anthropic-tests-new-way-for-claude-to-work-with-robots-and-scientific-lab-tools"
     },
     {
       "date": "Aug 26, 2026",
-      "title": "Salesforce and Anthropic announce Claudeforce",
-      "summary": "<cite index=\"3-1\">Salesforce and Anthropic announced Claudeforce integration with Claude as the default model for Slack, launching in open beta September 2026</cite>.",
+      "title": "Salesforce and Anthropic announce Claudeforce partnership",
+      "summary": "Strategic partnership bringing Claude's intelligence to Salesforce for agentic enterprise experiences, launching in open beta September 2026.",
       "url": "https://www.salesforce.com/news/press-releases/2026/08/26/salesforce-and-anthropic-announce-claudeforce/"
     },
     {
-      "date": "Aug 1, 2026",
-      "title": "Claude Sonnet 5 pricing locked at intro rates",
-      "summary": "<cite index=\"8-2\">Anthropic kept Claude Sonnet 5 at introductory pricing of $2/$10 per MTok as the new standard price</cite>.",
-      "url": "https://releasebot.io/updates/anthropic/claude-developer-platform"
+      "date": "Jul 24, 2026",
+      "title": "Claude Opus 5 released with improved long-running agents",
+      "summary": "New Opus 5 model provides step change improvements for agent work with enhancements in coding and professional applications.",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Aug 30, 2026",
+      "title": "Claude Code pricing adjustment: 25% permanent limit increase",
+      "summary": "50% weekly promotion ends Sept 14, replaced with permanent 25% raise to usage limits for Claude Code.",
+      "url": "https://explainx.ai/blog/claude-usage-limits-2026-timeline-explained"
     }
   ],
-  "lastChecked": "2026-09-05T10:26:54.517Z"
+  "lastChecked": "2026-09-06T10:45:22.106Z"
 }
