@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-06T10:45:22.106Z",
+  "lastUpdated": "2026-09-07T12:16:54.494Z",
   "categories": [
     {
       "id": "llm",
@@ -29814,12 +29814,274 @@
         ]
       },
       "link": "https://www.crowdstrike.com/en-us/platform/falcon-aidr-ai-detection-and-response/"
+    },
+    {
+      "id": "accuknox-agentz",
+      "name": "AccuKnox AgentZ",
+      "company": "AccuKnox",
+      "category": "agent",
+      "icon": "🤖",
+      "badge": "new",
+      "color": "#1a73e8",
+      "price": "freemium",
+      "priceLabel": "Free / Freemium",
+      "tags": [
+        "AI agents",
+        "workflow automation",
+        "enterprise governance",
+        "security-first"
+      ],
+      "shortDesc": "Enterprise platform for building, running, and governing AI agents at scale with built-in security.",
+      "fullDesc": "AccuKnox AgentZ is a platform for building, running, and governing AI agents across teams and workflows with centralized administration and access control. It consolidates agents, execution environments, tools, workflows, permissions, and governance into a single integrated platform, enabling organizations to move agents from experiment to production securely. The platform is designed for enterprise teams across security, sales, engineering, HR, finance, and operations who need model-agnostic agents with zero-trust controls and sandboxed execution.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Agentic AI Platform"
+        },
+        {
+          "label": "Released",
+          "value": "August 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Enterprises building and governing AI agents across teams"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free plan available, on-prem and air-gapped deployments supported"
+        }
+      ],
+      "features": [
+        "Visual workflow graphs and execution traces for debugging agent runs with complete audit logs and step-by-step activity tracking.",
+        "Model-agnostic architecture supporting OpenAI, Claude, Grok, and other LLMs with no lock-in constraints.",
+        "Centralized administration with Organizations, Workspaces, Agents, Workflows, and Sandboxes for managing multiple teams.",
+        "Zero-trust controls with tool-level permissions and sandboxed execution built into the platform design.",
+        "Flexible deployment options including SaaS, on-premises, and air-gapped environments with bring-your-own-LLM support.",
+        "Reusable skills and runtime credential injection for secure workflow configuration and automation.",
+        "Multi-workspace isolation with role-based access control for enterprise-scale governance.",
+        "Support for diverse workflows spanning security investigations, sales intelligence, engineering automation, and business operations."
+      ],
+      "demo": [
+        {
+          "title": "Create an Organization",
+          "desc": "Set up a new organization with centralized administration and access control.",
+          "code": ""
+        },
+        {
+          "title": "Build a Workflow",
+          "desc": "Define a workflow using agents for computation, sandboxes for isolation, and skills for reusable capabilities.",
+          "code": ""
+        },
+        {
+          "title": "Deploy with Your LLM",
+          "desc": "Select your preferred model (OpenAI, Claude, Grok) and deploy without vendor lock-in.",
+          "code": ""
+        },
+        {
+          "title": "Monitor Execution",
+          "desc": "View visual workflow graphs, execution traces, and audit logs to debug and review agent runs.",
+          "code": ""
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Security Investigation",
+          "text": "Build an agent workflow for automated security incident investigation with audit trail and sandbox isolation."
+        },
+        {
+          "label": "Sales Intelligence",
+          "text": "Create a multi-step workflow agent to gather competitive intelligence and prepare sales insights."
+        },
+        {
+          "label": "Engineering Automation",
+          "text": "Configure an agent with tool-level permissions to automate engineering processes and deployments."
+        },
+        {
+          "label": "HR Operations",
+          "text": "Design a workflow for recurring HR tasks with proper access controls and approval workflows."
+        }
+      ],
+      "pricing": {
+        "note": "AgentZ offers a free plan to get started at agentzharness.ai with support for on-premises and air-gapped deployments available for enterprise customers with infrastructure requirements.",
+        "plans": [
+          {
+            "name": "Free",
+            "price": "$0",
+            "per": "forever",
+            "popular": true,
+            "color": "#4285f4",
+            "features": [
+              "Single workspace for teams",
+              "Model-agnostic agent support",
+              "Basic workflow execution",
+              "Audit logs and execution traces",
+              "Community support"
+            ]
+          },
+          {
+            "name": "Pro",
+            "price": "Custom",
+            "per": "per month",
+            "popular": false,
+            "color": "#1a73e8",
+            "features": [
+              "Multiple workspaces and organizations",
+              "Advanced role-based access control",
+              "On-premises deployment option",
+              "Priority support and SLA",
+              "Custom skill development"
+            ]
+          },
+          {
+            "name": "Enterprise",
+            "price": "Custom",
+            "per": "per month",
+            "popular": false,
+            "color": "#0d47a1",
+            "features": [
+              "Air-gapped deployment",
+              "Bring-your-own-LLM infrastructure",
+              "Dedicated administration and workspace delegation",
+              "24/7 enterprise support",
+              "Custom security and compliance configurations"
+            ]
+          }
+        ]
+      },
+      "link": "https://accuknox.com"
+    },
+    {
+      "id": "glm-5-3-flash",
+      "name": "GLM-5.3-Flash",
+      "company": "Z.ai",
+      "category": "llm",
+      "icon": "⚡",
+      "badge": "hot",
+      "color": "#00B0F0",
+      "price": "freemium",
+      "priceLabel": "Free / From $0.15/M input tokens",
+      "tags": [
+        "multimodal",
+        "coding",
+        "agentic",
+        "efficient"
+      ],
+      "shortDesc": "Efficient multimodal MoE with 1M context for coding and agentic tasks",
+      "fullDesc": "GLM-5.3-Flash is Z.ai's first natively multimodal model in the GLM-5 series, featuring 320B parameters with only 18B active per token and a 1M-token context window. It excels at coding, agentic work, and visual understanding tasks, processing text, images, and video while maintaining significantly lower compute overhead than previous versions. Ideal for developers, AI-native startups, and enterprises building coding agents, UI automation, and document analysis systems.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Mixture-of-Experts (MoE) Multimodal LLM"
+        },
+        {
+          "label": "Released",
+          "value": "August 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Coding agents, frontend development, visual task automation, financial analysis"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free chat / API from $0.15 per M input tokens"
+        }
+      ],
+      "features": [
+        "Natively multimodal with text, image, and video input support",
+        "1M-token context window for processing long documents and codebases",
+        "Hybrid sparse and linear attention for efficient long-context processing",
+        "Forced thinking mode with three reasoning effort levels (low, high, max)",
+        "Visual understanding for screenshots, interfaces, documents, and charts",
+        "Function calling and tool integration for external system connections",
+        "Context caching to optimize conversational performance",
+        "Structured output support including JSON for system integration"
+      ],
+      "demo": [
+        {
+          "title": "Start free chat",
+          "desc": "Access GLM-5.3-Flash via Z.ai's free web chat without authentication",
+          "code": "Visit chat.z.ai"
+        },
+        {
+          "title": "Visual code fixing",
+          "desc": "Upload a screenshot of broken UI and model reads layout to fix matching code",
+          "code": "Upload screenshot → Model analyzes visual structure → Generates fixes"
+        },
+        {
+          "title": "Long context processing",
+          "desc": "Analyze entire codebases or long documents within single conversation",
+          "code": "Paste 1M tokens of context → Model maintains accuracy while reducing compute"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Frontend Development",
+          "text": "Build a React dashboard component based on this screenshot and requirements"
+        },
+        {
+          "label": "Code Analysis",
+          "text": "Review this entire repository and suggest optimizations for performance"
+        },
+        {
+          "label": "Visual Understanding",
+          "text": "Extract the data table from this spreadsheet image and convert to JSON"
+        },
+        {
+          "label": "Agentic Tasks",
+          "text": "Autonomously browse this website and extract all pricing information"
+        }
+      ],
+      "pricing": {
+        "note": "GLM-5.3-Flash offers free web-based access via Z.ai Chat and competitive API pricing. A 50% launch discount was available during the initial release week. Coding plans use a points-based quota system with off-peak hours consuming 50% fewer points.",
+        "plans": [
+          {
+            "name": "Free Chat",
+            "price": "Free",
+            "per": "forever",
+            "popular": true,
+            "color": "#00B0F0",
+            "features": [
+              "Access to GLM-5.3-Flash chat interface",
+              "No credit card required",
+              "Limited daily usage",
+              "Suitable for individual testing"
+            ]
+          },
+          {
+            "name": "API Pricing",
+            "price": "$0.15",
+            "per": "per million input tokens",
+            "popular": false,
+            "color": "#0078D4",
+            "features": [
+              "Input tokens: $0.15/M",
+              "Output tokens: $0.50/M",
+              "Cached input: $0.03/M",
+              "Full API access with function calling"
+            ]
+          },
+          {
+            "name": "Coding Plan",
+            "price": "Varies",
+            "per": "per month",
+            "popular": false,
+            "color": "#106EBE",
+            "features": [
+              "Points-based quota system",
+              "3x quota compared to standard",
+              "Off-peak discounts (50% during weekends)",
+              "Priority for coding tasks"
+            ]
+          }
+        ]
+      },
+      "link": "https://z-ai.com"
     }
   ],
   "totw": {
     "name": "Monid",
     "tagline": "OpenRouter for agent tools",
-    "votesCount": 474,
+    "votesCount": 476,
     "url": "https://www.producthunt.com/products/monid?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/0c2727aa-84c0-4edb-a0ef-670f31d2e58a.jpeg?auto=format",
     "rank": 1,
@@ -29828,46 +30090,46 @@
       "Developer Tools",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-09-06T10:44:32.310Z"
+    "fetchedAt": "2026-09-07T12:14:42.489Z"
   },
   "lastWeeklyUpdate": "2026-09-04T11:42:21.436Z",
   "anthropicNews": [
     {
-      "date": "Sep 2, 2026",
-      "title": "Claude launches Fable 5.1 and Mythos 5.1 models",
-      "summary": "Anthropic released Claude Fable 5.1 and Mythos 5.1 with 1M context, 128K output tokens, and advanced reasoning capabilities.",
-      "url": "https://releasebot.io/updates/anthropic/claude-developer-platform"
-    },
-    {
-      "date": "Aug 28, 2026",
-      "title": "Claude for Teachers available for U.S. K-12 schools",
-      "summary": "Anthropic launched free enterprise offering for schools with centrally managed access and standards-aligned teaching tools.",
-      "url": "https://claude.com/blog-category/announcements"
+      "date": "Sep 1, 2026",
+      "title": "Fable 5.1 and Mythos 5.1 Released with 75% Cache Cost Cut",
+      "summary": "<cite index=\"24-1\">Anthropic launched Claude Fable 5.1 and Mythos 5.1 on Sept. 1, cutting cache pricing 75% and adding new safeguards after June export controls.</cite>",
+      "url": "https://tech-insider.org/anthropic-claude-fable-5-1-mythos-5-1-launch-2026/"
     },
     {
       "date": "Aug 27, 2026",
-      "title": "Anthropic releases Model Hardware Standard (MHS)",
-      "summary": "New software standard allows Claude to work with robots and manufacturing hardware in research preview mode.",
+      "title": "Anthropic Announces Model Hardware Standard for Robots",
+      "summary": "<cite index=\"5-1,5-4\">Anthropic announced a new software standard that will allow AI assistants like Claude to work better with robots and science and manufacturing hardware, releasing its Model Hardware Standard under a research preview.</cite>",
       "url": "https://www.bloomberg.com/news/articles/2026-08-27/anthropic-tests-new-way-for-claude-to-work-with-robots-and-scientific-lab-tools"
     },
     {
       "date": "Aug 26, 2026",
-      "title": "Salesforce and Anthropic announce Claudeforce partnership",
-      "summary": "Strategic partnership bringing Claude's intelligence to Salesforce for agentic enterprise experiences, launching in open beta September 2026.",
+      "title": "Salesforce and Anthropic Announce Claudeforce Partnership",
+      "summary": "<cite index=\"3-1,3-2\">Salesforce and Anthropic announced Claudeforce, an expanded partnership bringing Claude's intelligence together with Salesforce's enterprise platform, with Salesforce in Claude launching in open beta in September 2026.</cite>",
       "url": "https://www.salesforce.com/news/press-releases/2026/08/26/salesforce-and-anthropic-announce-claudeforce/"
     },
     {
-      "date": "Jul 24, 2026",
-      "title": "Claude Opus 5 released with improved long-running agents",
-      "summary": "New Opus 5 model provides step change improvements for agent work with enhancements in coding and professional applications.",
-      "url": "https://www.anthropic.com/news"
+      "date": "Aug 28, 2026",
+      "title": "Claude for Teachers Available for U.S. K-12 Schools",
+      "summary": "<cite index=\"2-1,2-11\">Anthropic made Claude for Teachers available to U.S. K-12 schools and districts on August 28, 2026.</cite>",
+      "url": "https://claude.com/blog-category/announcements"
     },
     {
-      "date": "Aug 30, 2026",
-      "title": "Claude Code pricing adjustment: 25% permanent limit increase",
-      "summary": "50% weekly promotion ends Sept 14, replaced with permanent 25% raise to usage limits for Claude Code.",
-      "url": "https://explainx.ai/blog/claude-usage-limits-2026-timeline-explained"
+      "date": "Jul 24, 2026",
+      "title": "Claude Opus 5 Released at Half the Cost of Fable",
+      "summary": "<cite index=\"11-1,11-5\">Anthropic released Claude Opus 5, designed to deliver performance close to its most powerful model Fable at half the price, marking the fourth Claude 5 model release in less than two months.</cite>",
+      "url": "https://www.axios.com/2026/07/24/anthropic-releases-new-model-opus-5"
+    },
+    {
+      "date": "Sep 2, 2026",
+      "title": "Building Commerce Agents with Claude",
+      "summary": "<cite index=\"2-1,2-11\">Anthropic released guidance on building commerce agents with Claude on September 2, 2026.</cite>",
+      "url": "https://claude.com/blog-category/announcements"
     }
   ],
-  "lastChecked": "2026-09-06T10:45:22.106Z"
+  "lastChecked": "2026-09-07T12:16:54.494Z"
 }
