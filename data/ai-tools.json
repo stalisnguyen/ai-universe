@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-07T12:16:54.494Z",
+  "lastUpdated": "2026-09-08T11:05:40.944Z",
   "categories": [
     {
       "id": "llm",
@@ -30076,12 +30076,359 @@
         ]
       },
       "link": "https://z-ai.com"
+    },
+    {
+      "id": "tovel-ai",
+      "name": "Tovel AI",
+      "company": "Tovel",
+      "category": "agent",
+      "icon": "🎙️",
+      "badge": "new",
+      "color": "#1A73E8",
+      "price": "paid",
+      "priceLabel": "From $99 (pre-launch), $159 after launch",
+      "tags": [
+        "meeting recorder",
+        "AI follow-ups",
+        "wearable device"
+      ],
+      "shortDesc": "Portable AI recorder that converts calls and meetings into summaries, actions, and CRM updates.",
+      "fullDesc": "Tovel is a pocket-sized AI recording device that captures calls, meetings, and conversations, then automatically generates transcripts, summaries, and actionable next steps. The accompanying app transforms recordings into organized actions like calendar events, CRM records, and task lists—all pending user approval. Designed for sales teams, consultants, project managers, and professionals who need to convert conversations into structured follow-ups.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "AI Recording Agent + Companion App"
+        },
+        {
+          "label": "Released",
+          "value": "September 2026 (pre-launch)"
+        },
+        {
+          "label": "Best for",
+          "value": "Sales, client calls, consultations, property showings, legal workflows, project discussions"
+        },
+        {
+          "label": "Pricing",
+          "value": "$99 pre-launch (saves $60 off $159 launch price)"
+        }
+      ],
+      "features": [
+        "Records conversations on portable device without requiring call bots or apps installed on participants' phones",
+        "Automatically transcribes recordings and generates AI summaries identifying decisions and risks",
+        "Detects action items and next steps from conversations with user approval workflow",
+        "Integrates with HubSpot, GoHighLevel, Google Calendar, and OpenAI for CRM and calendar automation",
+        "Supports multiple AI providers including OpenAI, Claude, Gemini, and DeepSeek",
+        "Team licensing with read-only management accounts for employee supervision",
+        "Verbal consent prompts when enabled to announce recording and capture participant names",
+        "Local storage with optional cloud sync for privacy-focused users"
+      ],
+      "demo": [
+        {
+          "title": "Capture Call",
+          "desc": "Start recording with the portable Tovel device during meetings or calls.",
+          "code": ""
+        },
+        {
+          "title": "Generate Summary",
+          "desc": "Tovel automatically transcribes and summarizes the conversation, extracting decisions and next steps.",
+          "code": ""
+        },
+        {
+          "title": "Approve & Action",
+          "desc": "Review and approve generated actions before they're sent to CRM, calendar, or other tools.",
+          "code": ""
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Meeting Summary",
+          "text": "Summarize the key decisions, action items, and risks discussed in this call."
+        },
+        {
+          "label": "Task Extraction",
+          "text": "Extract all next steps and assignments from this conversation with owners and due dates."
+        },
+        {
+          "label": "CRM Update",
+          "text": "Generate a CRM note capturing the conversation context, decisions, and follow-up requirements."
+        }
+      ],
+      "pricing": {
+        "note": "Tovel is currently in pre-launch with device pricing. Ongoing app and team subscription costs will be announced at full launch.",
+        "plans": [
+          {
+            "name": "Pre-Launch Device",
+            "price": "$99",
+            "per": "forever",
+            "popular": true,
+            "color": "#1A73E8",
+            "features": [
+              "Portable recording device",
+              "Companion AI app",
+              "AI transcription and summaries",
+              "Action item detection",
+              "CRM and calendar integrations (Ready: HubSpot, GoHighLevel, Google Calendar)"
+            ]
+          },
+          {
+            "name": "Full Launch Price",
+            "price": "$159",
+            "per": "forever",
+            "popular": false,
+            "color": "#4285F4",
+            "features": [
+              "All pre-launch features",
+              "Extended integrations",
+              "Team management features",
+              "Priority support"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.producthunt.com/products/tovel-ai"
+    },
+    {
+      "id": "nori-robotics-a3",
+      "name": "Nori Robotics A3",
+      "company": "Nori Robotics",
+      "category": "robotics",
+      "icon": "🤖",
+      "badge": "new",
+      "color": "#2563eb",
+      "price": "paid",
+      "priceLabel": "$1,688",
+      "tags": [
+        "home automation",
+        "bimanual robot",
+        "task learning",
+        "embodied AI"
+      ],
+      "shortDesc": "Affordable bimanual mobile robot for home and office tasks with user-trainable skills.",
+      "fullDesc": "The Nori A3 is a wheeled bimanual robot designed for everyday household and office automation tasks. Featuring 19 degrees of freedom and equipped with dual arms, cameras, and LiDAR, it enables users to train custom skills at home and share them via a Skills Marketplace. Ideal for developers, researchers, and homeowners seeking affordable embodied AI experimentation.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Bimanual Mobile Manipulator Robot"
+        },
+        {
+          "label": "Released",
+          "value": "July 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Home automation, task learning, embodied AI research"
+        },
+        {
+          "label": "Pricing",
+          "value": "$1,688 (US-assembled, limited batches)"
+        }
+      ],
+      "features": [
+        "19 degrees of freedom with dual 7+1 DOF arms carrying up to 1.5kg each",
+        "Four 720p RGB cameras on grippers, head, and neck for visual perception",
+        "12-meter LiDAR scanning range for navigation and obstacle avoidance",
+        "User-trainable skills via Nori Lab laptop application interface",
+        "Skills Marketplace for sharing and reusing learned behaviors across robots",
+        "Voice interaction with microphone and speaker for spoken commands",
+        "Wheeled mobility base for indoor movement through homes and offices",
+        "LLM integration for multimodal instruction following and embodied AI tasks"
+      ],
+      "demo": [
+        {
+          "title": "Training a Simple Task",
+          "desc": "Use Nori Lab to demonstrate fetching items from the refrigerator by manually guiding the robot arms through the motion sequence",
+          "code": ""
+        },
+        {
+          "title": "Running a Learned Skill",
+          "desc": "Execute a pre-trained household routine such as loading the dishwasher by voice command or app interface",
+          "code": "fetch_item from:fridge"
+        },
+        {
+          "title": "Sharing Skills via Marketplace",
+          "desc": "Package a successfully trained task and upload it to the Skills Marketplace for other A3 owners to use",
+          "code": ""
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Household Tasks",
+          "text": "Teach the robot to fetch a specific item from the kitchen and place it on the counter"
+        },
+        {
+          "label": "Daily Routines",
+          "text": "Train A3 to follow a room-tidying sequence including picking up items and organizing them"
+        },
+        {
+          "label": "Assistance Tasks",
+          "text": "Guide the robot to pour a drink into a cup and place it on a designated surface"
+        },
+        {
+          "label": "Skill Sharing",
+          "text": "Package and upload a learned skill to the marketplace for other users"
+        }
+      ],
+      "pricing": {
+        "note": "Nori A3 is available as a limited-batch release priced at $1,688 per unit. Units are US-assembled and shipped during designated batches starting fall 2026.",
+        "plans": [
+          {
+            "name": "Nori A3 Hardware",
+            "price": "$1,688",
+            "per": "forever",
+            "popular": true,
+            "color": "#2563eb",
+            "features": [
+              "Bimanual robot with 19 degrees of freedom",
+              "Dual RGB cameras and LiDAR sensor suite",
+              "Nori Lab training and management software",
+              "Access to Skills Marketplace",
+              "Voice interaction and LLM integration"
+            ]
+          }
+        ]
+      },
+      "link": "https://nori.ai"
+    },
+    {
+      "id": "mureka-v9-5",
+      "name": "Mureka V9.5",
+      "company": "Kunlun Tech (Mureka)",
+      "category": "audio",
+      "icon": "🎵",
+      "badge": "hot",
+      "color": "#FF6B6B",
+      "price": "freemium",
+      "priceLabel": "Free / From $8/mo",
+      "tags": [
+        "AI music generation",
+        "lyrics-first composition",
+        "commercial rights",
+        "reasoning model"
+      ],
+      "shortDesc": "Lyrics-first AI music platform generating full songs with vocals, arrangement, and production.",
+      "fullDesc": "Mureka V9.5 is an AI music generation platform by Kunlun Tech that turns lyrics, style prompts, or reference tracks into complete, production-grade songs. Using reflective reasoning and MusiCoT chain-of-thought planning, it generates vocals, melody, and arrangement shaped to fit your creative direction. It's designed for content creators, producers, and musicians seeking fast, high-quality music with full commercial rights included on paid plans.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "AI Music Generation Platform"
+        },
+        {
+          "label": "Released",
+          "value": "July 2026 (V9.5)"
+        },
+        {
+          "label": "Best for",
+          "value": "Content creators, video producers, indie musicians, commercial music projects"
+        },
+        {
+          "label": "Pricing",
+          "value": "Freemium: Free tier (10 songs/month), Pro $8-$10/mo (400 songs), Premier $24-$27/mo (1,600+ songs)"
+        }
+      ],
+      "features": [
+        "Lyrics-first music generation: compose songs around your lyrics rather than adapting lyrics to instrumental",
+        "Reflective reasoning engine (O3) with chain-of-thought planning for production-grade output",
+        "Multilingual vocal generation supporting 10+ vocal languages and 200+ music styles",
+        "Dual song output: generates two complete variations per generation with vocals, melody, and arrangement",
+        "Advanced editing: timeline editing, 12-stem separation, voice cloning, and remixing capabilities",
+        "Instrumental-only generation as first-class endpoint for background music and production needs",
+        "Commercial licensing included on paid plans with full copyright and unlimited usage rights",
+        "API access available with pay-as-you-go pricing starting at $30 for developers"
+      ],
+      "demo": [
+        {
+          "title": "Generate from Lyrics",
+          "desc": "Input or import lyrics and select a musical style; V9.5 composes melody, arrangement, and vocals to match",
+          "code": "Enter lyrics + select genre/mood + click Generate"
+        },
+        {
+          "title": "Use Reference Tracks",
+          "desc": "Upload a reference song or melody for the model to learn style from at generation time",
+          "code": "Upload audio file + describe desired changes + Generate"
+        },
+        {
+          "title": "Instrumental Generation",
+          "desc": "Generate background music for videos, games, and podcasts without vocals",
+          "code": "Select Mureka 9 Instrumental endpoint + provide style prompt"
+        },
+        {
+          "title": "Voice Cloning",
+          "desc": "Clone your voice or create custom vocal textures for generated tracks (Premier plan)",
+          "code": "Upload vocal sample + apply to generated track"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Style Direction",
+          "text": "Generate a pop song with upbeat energy, bright synths, and positive lyrics about new beginnings"
+        },
+        {
+          "label": "Lyric-Based",
+          "text": "Compose a folk ballad with acoustic guitar and emotional vocals using these provided lyrics"
+        },
+        {
+          "label": "Production",
+          "text": "Create royalty-free background music for a corporate video: minimal, professional, instrumental jazz"
+        },
+        {
+          "label": "Multilingual",
+          "text": "Generate a Mandarin pop track with K-pop influences, modern production, and energetic vocals"
+        }
+      ],
+      "pricing": {
+        "note": "Freemium model with free tier offering limited generations. All paid plans include commercial licensing and full usage rights. Pricing shown is monthly subscription; annual billing offers discounts (e.g., $8/mo billed annually vs $10/mo monthly).",
+        "plans": [
+          {
+            "name": "Free",
+            "price": "$0",
+            "per": "forever",
+            "popular": false,
+            "color": "#E0E0E0",
+            "features": [
+              "~10 songs per month (4 per day)",
+              "MP3 downloads only",
+              "No commercial rights",
+              "Community access"
+            ]
+          },
+          {
+            "name": "Pro",
+            "price": "$8–$10",
+            "per": "per month",
+            "popular": true,
+            "color": "#4CAF50",
+            "features": [
+              "400 songs per month",
+              "MP3 and WAV downloads",
+              "Full commercial rights & licensing",
+              "Priority generation queue",
+              "Access to V9.5 and latest models"
+            ]
+          },
+          {
+            "name": "Premier",
+            "price": "$24–$27",
+            "per": "per month",
+            "popular": false,
+            "color": "#FFD700",
+            "features": [
+              "1,600+ songs per month",
+              "WAV and stem downloads (up to 12 stems)",
+              "Voice cloning & voice-to-singer conversion",
+              "MIDI export",
+              "Music Agent Studio (chat-based creation)",
+              "Full commercial rights"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.mureka.ai/mureka-9-5"
     }
   ],
   "totw": {
     "name": "Monid",
     "tagline": "OpenRouter for agent tools",
-    "votesCount": 476,
+    "votesCount": 480,
     "url": "https://www.producthunt.com/products/monid?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/0c2727aa-84c0-4edb-a0ef-670f31d2e58a.jpeg?auto=format",
     "rank": 1,
@@ -30090,46 +30437,46 @@
       "Developer Tools",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-09-07T12:14:42.489Z"
+    "fetchedAt": "2026-09-08T11:04:12.469Z"
   },
   "lastWeeklyUpdate": "2026-09-04T11:42:21.436Z",
   "anthropicNews": [
     {
       "date": "Sep 1, 2026",
-      "title": "Fable 5.1 and Mythos 5.1 Released with 75% Cache Cost Cut",
-      "summary": "<cite index=\"24-1\">Anthropic launched Claude Fable 5.1 and Mythos 5.1 on Sept. 1, cutting cache pricing 75% and adding new safeguards after June export controls.</cite>",
-      "url": "https://tech-insider.org/anthropic-claude-fable-5-1-mythos-5-1-launch-2026/"
+      "title": "Claude Fable 5.1 Released - Better Coding, Lower Costs",
+      "summary": "<cite index=\"5-1,5-2\">Fable 5.1 is GA at $10/$50 with cache reads dropping to $0.25</cite>",
+      "url": "https://anthropic.com/news"
     },
     {
-      "date": "Aug 27, 2026",
-      "title": "Anthropic Announces Model Hardware Standard for Robots",
-      "summary": "<cite index=\"5-1,5-4\">Anthropic announced a new software standard that will allow AI assistants like Claude to work better with robots and science and manufacturing hardware, releasing its Model Hardware Standard under a research preview.</cite>",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-27/anthropic-tests-new-way-for-claude-to-work-with-robots-and-scientific-lab-tools"
-    },
-    {
-      "date": "Aug 26, 2026",
-      "title": "Salesforce and Anthropic Announce Claudeforce Partnership",
-      "summary": "<cite index=\"3-1,3-2\">Salesforce and Anthropic announced Claudeforce, an expanded partnership bringing Claude's intelligence together with Salesforce's enterprise platform, with Salesforce in Claude launching in open beta in September 2026.</cite>",
-      "url": "https://www.salesforce.com/news/press-releases/2026/08/26/salesforce-and-anthropic-announce-claudeforce/"
+      "date": "Sep 2, 2026",
+      "title": "Building Commerce Agents with Claude Announced",
+      "summary": "New product announcement for commerce agents built on Claude platform",
+      "url": "https://claude.com/blog-category/announcements"
     },
     {
       "date": "Aug 28, 2026",
       "title": "Claude for Teachers Available for U.S. K-12 Schools",
-      "summary": "<cite index=\"2-1,2-11\">Anthropic made Claude for Teachers available to U.S. K-12 schools and districts on August 28, 2026.</cite>",
+      "summary": "<cite index=\"6-4,6-5\">U.S. K-12 school leaders can verify and get started; qualifying organizations get free access through June 30, 2027</cite>",
       "url": "https://claude.com/blog-category/announcements"
     },
     {
-      "date": "Jul 24, 2026",
-      "title": "Claude Opus 5 Released at Half the Cost of Fable",
-      "summary": "<cite index=\"11-1,11-5\">Anthropic released Claude Opus 5, designed to deliver performance close to its most powerful model Fable at half the price, marking the fourth Claude 5 model release in less than two months.</cite>",
-      "url": "https://www.axios.com/2026/07/24/anthropic-releases-new-model-opus-5"
+      "date": "Aug 26, 2026",
+      "title": "Claude Tests New Integration with Robots and Lab Tools",
+      "summary": "Anthropic tests Claude for working with robots and scientific laboratory equipment",
+      "url": "https://www.bloomberg.com/latest/anthropic"
     },
     {
-      "date": "Sep 2, 2026",
-      "title": "Building Commerce Agents with Claude",
-      "summary": "<cite index=\"2-1,2-11\">Anthropic released guidance on building commerce agents with Claude on September 2, 2026.</cite>",
-      "url": "https://claude.com/blog-category/announcements"
+      "date": "Aug 31, 2026",
+      "title": "Anthropic Signs $35 Billion Pact with Nvidia-Backed Lambda",
+      "summary": "Major infrastructure partnership announced to support Claude deployment",
+      "url": "https://www.bloomberg.com/latest/anthropic"
+    },
+    {
+      "date": "Sep 5, 2026",
+      "title": "Enterprise Frontier Safeguards (EFS) Announced",
+      "summary": "<cite index=\"7-8,7-10\">EFS combines privacy with misuse detection in customer-controlled infrastructure, rolling out later this fall</cite>",
+      "url": "https://anthropic.com/news"
     }
   ],
-  "lastChecked": "2026-09-07T12:16:54.494Z"
+  "lastChecked": "2026-09-08T11:05:40.944Z"
 }
