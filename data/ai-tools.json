@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-08T11:05:40.944Z",
+  "lastUpdated": "2026-09-09T11:09:51.759Z",
   "categories": [
     {
       "id": "llm",
@@ -30426,57 +30426,57 @@
     }
   ],
   "totw": {
-    "name": "Monid",
-    "tagline": "OpenRouter for agent tools",
-    "votesCount": 480,
-    "url": "https://www.producthunt.com/products/monid?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
-    "thumbnail": "https://ph-files.imgix.net/0c2727aa-84c0-4edb-a0ef-670f31d2e58a.jpeg?auto=format",
+    "name": "Switch",
+    "tagline": "Bring any AI agent into Slack, Teams & Discord",
+    "votesCount": 505,
+    "url": "https://www.producthunt.com/products/switch-11?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
+    "thumbnail": "https://ph-files.imgix.net/01af9350-0e27-4e2e-90d0-3bf6bca3e340.png?auto=format",
     "rank": 1,
     "topics": [
-      "API",
+      "Open Source",
       "Developer Tools",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-09-08T11:04:12.469Z"
+    "fetchedAt": "2026-09-09T11:09:04.591Z"
   },
   "lastWeeklyUpdate": "2026-09-04T11:42:21.436Z",
   "anthropicNews": [
     {
       "date": "Sep 1, 2026",
-      "title": "Claude Fable 5.1 Released - Better Coding, Lower Costs",
-      "summary": "<cite index=\"5-1,5-2\">Fable 5.1 is GA at $10/$50 with cache reads dropping to $0.25</cite>",
-      "url": "https://anthropic.com/news"
+      "title": "Claude Fable 5.1 and Mythos 5.1 Released",
+      "summary": "Advanced models with improved coding, knowledge work, and research capabilities; Fable 5.1 generally available with lower pricing.",
+      "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Sep 2, 2026",
-      "title": "Building Commerce Agents with Claude Announced",
-      "summary": "New product announcement for commerce agents built on Claude platform",
-      "url": "https://claude.com/blog-category/announcements"
+      "title": "Building Commerce Agents with Claude",
+      "summary": "Anthropic launches commerce blueprint for merchants to build AI agents with Claude for improved customer experiences.",
+      "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Aug 28, 2026",
-      "title": "Claude for Teachers Available for U.S. K-12 Schools",
-      "summary": "<cite index=\"6-4,6-5\">U.S. K-12 school leaders can verify and get started; qualifying organizations get free access through June 30, 2027</cite>",
-      "url": "https://claude.com/blog-category/announcements"
+      "title": "Claude for Teachers Available for K-12 Schools",
+      "summary": "Free Enterprise offering for U.S. schools and districts with centrally managed access, SSO, and learning science-based tools.",
+      "url": "https://www.anthropic.com/news"
     },
     {
       "date": "Aug 26, 2026",
-      "title": "Claude Tests New Integration with Robots and Lab Tools",
-      "summary": "Anthropic tests Claude for working with robots and scientific laboratory equipment",
-      "url": "https://www.bloomberg.com/latest/anthropic"
+      "title": "Salesforce and Anthropic Announce Claudeforce",
+      "summary": "Partnership integrating Claude across Slack; available to select pilots with open beta expected September 2026.",
+      "url": "https://www.salesforce.com/news/press-releases/2026/08/26/salesforce-and-anthropic-announce-claudeforce/"
     },
     {
-      "date": "Aug 31, 2026",
-      "title": "Anthropic Signs $35 Billion Pact with Nvidia-Backed Lambda",
-      "summary": "Major infrastructure partnership announced to support Claude deployment",
-      "url": "https://www.bloomberg.com/latest/anthropic"
+      "date": "Aug 10, 2026",
+      "title": "Claude Sonnet 5 Pricing Reduced and Made Permanent",
+      "summary": "<cite index=\"18-2\">Anthropic cancelled the scheduled $3/$15 increase and made $2/$10 the standard, ongoing rate.</cite>",
+      "url": "https://www.anthropic.com/news"
     },
     {
-      "date": "Sep 5, 2026",
-      "title": "Enterprise Frontier Safeguards (EFS) Announced",
-      "summary": "<cite index=\"7-8,7-10\">EFS combines privacy with misuse detection in customer-controlled infrastructure, rolling out later this fall</cite>",
-      "url": "https://anthropic.com/news"
+      "date": "Sep 1, 2026",
+      "title": "Fable 5.1 Cache Read Pricing Reduced to $0.25/M",
+      "summary": "<cite index=\"22-8,22-9\">Cache reads cut from $1/M to $0.25/M, reducing typical usage-based Fable workloads by about 25%.</cite>",
+      "url": "https://www.anthropic.com/news"
     }
   ],
-  "lastChecked": "2026-09-08T11:05:40.944Z"
+  "lastChecked": "2026-09-09T11:09:51.759Z"
 }
