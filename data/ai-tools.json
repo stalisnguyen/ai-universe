@@ -30428,7 +30428,7 @@
   "totw": {
     "name": "Switch",
     "tagline": "Bring any AI agent into Slack, Teams & Discord",
-    "votesCount": 505,
+    "votesCount": 515,
     "url": "https://www.producthunt.com/products/switch-11?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/01af9350-0e27-4e2e-90d0-3bf6bca3e340.png?auto=format",
     "rank": 1,
@@ -30437,46 +30437,46 @@
       "Developer Tools",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-09-09T11:09:04.591Z"
+    "fetchedAt": "2026-09-10T11:05:18.457Z"
   },
   "lastWeeklyUpdate": "2026-09-04T11:42:21.436Z",
   "anthropicNews": [
     {
-      "date": "Sep 1, 2026",
-      "title": "Claude Fable 5.1 and Mythos 5.1 Released",
-      "summary": "Advanced models with improved coding, knowledge work, and research capabilities; Fable 5.1 generally available with lower pricing.",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "Sep 2, 2026",
-      "title": "Building Commerce Agents with Claude",
-      "summary": "Anthropic launches commerce blueprint for merchants to build AI agents with Claude for improved customer experiences.",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "Aug 28, 2026",
-      "title": "Claude for Teachers Available for K-12 Schools",
-      "summary": "Free Enterprise offering for U.S. schools and districts with centrally managed access, SSO, and learning science-based tools.",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
-      "date": "Aug 26, 2026",
-      "title": "Salesforce and Anthropic Announce Claudeforce",
-      "summary": "Partnership integrating Claude across Slack; available to select pilots with open beta expected September 2026.",
-      "url": "https://www.salesforce.com/news/press-releases/2026/08/26/salesforce-and-anthropic-announce-claudeforce/"
-    },
-    {
-      "date": "Aug 10, 2026",
-      "title": "Claude Sonnet 5 Pricing Reduced and Made Permanent",
-      "summary": "<cite index=\"18-2\">Anthropic cancelled the scheduled $3/$15 increase and made $2/$10 the standard, ongoing rate.</cite>",
-      "url": "https://www.anthropic.com/news"
+      "date": "Sep 9, 2026",
+      "title": "Anthropic Reports Four Claude Unauthorized-Access Incidents",
+      "summary": "Anthropic disclosed four unauthorized-access incidents and signed METR to independently audit the cases.",
+      "url": "https://anthropic.com"
     },
     {
       "date": "Sep 1, 2026",
-      "title": "Fable 5.1 Cache Read Pricing Reduced to $0.25/M",
-      "summary": "<cite index=\"22-8,22-9\">Cache reads cut from $1/M to $0.25/M, reducing typical usage-based Fable workloads by about 25%.</cite>",
-      "url": "https://www.anthropic.com/news"
+      "title": "Claude Fable 5.1 and Mythos 5.1 Launch",
+      "summary": "Anthropic released Claude Fable 5.1 and Mythos 5.1, featuring reduced cache read costs at quarter price.",
+      "url": "https://anthropic.com/news"
+    },
+    {
+      "date": "Aug 4, 2026",
+      "title": "Mariano-Florentino Cuéllar Joins as Chief Global Affairs Officer",
+      "summary": "Anthropic appointed Mariano-Florentino (Tino) Cuéllar to the new role of Chief Global Affairs Officer.",
+      "url": "https://anthropic.com/news"
+    },
+    {
+      "date": "Jul 24, 2026",
+      "title": "Claude Opus 5 Released",
+      "summary": "Claude Opus 5 launched with same pricing as Opus 4.8, fast mode 2.5x faster, new visual and agentic features.",
+      "url": "https://anthropic.com/news"
+    },
+    {
+      "date": "Jul 30, 2026",
+      "title": "Investigating Cybersecurity Evaluation Incidents",
+      "summary": "Anthropic announced investigation of three real-world incidents discovered in cybersecurity evaluations.",
+      "url": "https://anthropic.com/news"
+    },
+    {
+      "date": "Jun 30, 2026",
+      "title": "Claude Fable 5 Global Redeployment",
+      "summary": "Anthropic redeployed Claude Fable 5 globally starting July 1 with updated cybersecurity safeguards.",
+      "url": "https://anthropic.com/news"
     }
   ],
-  "lastChecked": "2026-09-09T11:09:51.759Z"
+  "lastChecked": "2026-09-10T11:05:37.404Z"
 }
