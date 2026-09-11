@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-09T11:09:51.759Z",
+  "lastUpdated": "2026-09-11T11:05:24.012Z",
   "categories": [
     {
       "id": "llm",
@@ -30423,12 +30423,154 @@
         ]
       },
       "link": "https://www.mureka.ai/mureka-9-5"
+    },
+    {
+      "id": "pheedloop",
+      "name": "PheedLoop",
+      "company": "PheedLoop",
+      "category": "Event Management",
+      "icon": "🎯",
+      "badge": null,
+      "color": "#0066CC",
+      "price": "paid",
+      "priceLabel": "From $1/user/module",
+      "tags": [
+        "event management",
+        "virtual events",
+        "hybrid events",
+        "registration"
+      ],
+      "shortDesc": "All-in-one event management platform for virtual, hybrid, and in-person conferences.",
+      "fullDesc": "PheedLoop is an end-to-end event management platform designed for organizing conferences, trade shows, and corporate events. It provides registration, ticketing, mobile apps, speaker/exhibitor management, and on-site operations from a single dashboard. Best suited for organizations managing complex hybrid events with 100+ attendees.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Event Management Platform"
+        },
+        {
+          "label": "Released",
+          "value": "2015"
+        },
+        {
+          "label": "Best for",
+          "value": "Hybrid and in-person events, associations, conferences"
+        },
+        {
+          "label": "Pricing",
+          "value": "Modular, starts at $950 for Core Dashboard + per-module fees"
+        }
+      ],
+      "features": [
+        "Event registration and ticketing with unlimited events per year",
+        "Real-time content management and data analytics",
+        "Speaker, exhibitor, and sponsor management portals",
+        "Mobile event app with QR code check-in and badge scanning",
+        "Virtual event portal with live streaming and networking",
+        "Advanced networking with badge scanning and contact details storage",
+        "API access and Zapier integrations",
+        "Multilingual support covering 14+ languages"
+      ],
+      "demo": [
+        {
+          "title": "Setup Core Dashboard",
+          "desc": "Start with PheedLoop's required Core Event Dashboard module to access the backend system",
+          "code": ""
+        },
+        {
+          "title": "Add Event Modules",
+          "desc": "Bundle Core Dashboard with Registration & Ticketing, Speaker Management, or Virtual Portal",
+          "code": ""
+        },
+        {
+          "title": "Configure Attendee Registration",
+          "desc": "Customize registration forms and set up ticketing with payment gateway integration",
+          "code": ""
+        },
+        {
+          "title": "Enable Mobile App Features",
+          "desc": "Activate check-in software and badge printing for on-site attendee tracking",
+          "code": ""
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Event Setup",
+          "text": "Create a hybrid event registration system with 500 attendees, speaker portals, and virtual networking"
+        },
+        {
+          "label": "Attendee Management",
+          "text": "Set up automated welcome emails, session tracking, and post-event surveys"
+        },
+        {
+          "label": "Exhibitor Operations",
+          "text": "Configure exhibitor portals with lead retrieval, booth management, and real-time analytics"
+        }
+      ],
+      "pricing": {
+        "note": "PheedLoop uses modular pricing with per-user fees starting at $1/user/module for larger events. The Core Event Dashboard is required and starts at $950 for up to 499 users.",
+        "plans": [
+          {
+            "name": "Core Event Dashboard",
+            "price": "$950+",
+            "per": "per year",
+            "popular": true,
+            "color": "#0066CC",
+            "features": [
+              "Unlimited events per year",
+              "Real-time content management",
+              "Data analytics and reporting",
+              "API access",
+              "Zapier integrations"
+            ]
+          },
+          {
+            "name": "Registration & Ticketing Module",
+            "price": "$1/user+",
+            "per": "per user per module",
+            "popular": false,
+            "color": "#0052A3",
+            "features": [
+              "Custom registration forms",
+              "Multiple ticket types",
+              "Payment processing",
+              "Ticket delivery"
+            ]
+          },
+          {
+            "name": "Virtual Event Portal",
+            "price": "$5.25/user+",
+            "per": "per user",
+            "popular": false,
+            "color": "#0052A3",
+            "features": [
+              "Live streaming",
+              "Video networking",
+              "Exhibit hall",
+              "Session access control"
+            ]
+          },
+          {
+            "name": "Enterprise Custom",
+            "price": "Custom",
+            "per": "per year",
+            "popular": false,
+            "color": "#003D7A",
+            "features": [
+              "Bulk discounts",
+              "Custom integrations",
+              "Dedicated support",
+              "Advanced features"
+            ]
+          }
+        ]
+      },
+      "link": "https://pheedloop.com"
     }
   ],
   "totw": {
     "name": "Switch",
     "tagline": "Bring any AI agent into Slack, Teams & Discord",
-    "votesCount": 515,
+    "votesCount": 518,
     "url": "https://www.producthunt.com/products/switch-11?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/01af9350-0e27-4e2e-90d0-3bf6bca3e340.png?auto=format",
     "rank": 1,
@@ -30437,46 +30579,46 @@
       "Developer Tools",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-09-10T11:05:18.457Z"
+    "fetchedAt": "2026-09-11T11:04:07.541Z"
   },
   "lastWeeklyUpdate": "2026-09-04T11:42:21.436Z",
   "anthropicNews": [
     {
-      "date": "Sep 9, 2026",
-      "title": "Anthropic Reports Four Claude Unauthorized-Access Incidents",
-      "summary": "Anthropic disclosed four unauthorized-access incidents and signed METR to independently audit the cases.",
-      "url": "https://anthropic.com"
+      "date": "Sep 1, 2026",
+      "title": "Claude Fable 5.1 and Mythos 5.1 Released",
+      "summary": "<cite index=\"12-1\">Anthropic releases Claude Fable 5.1 and Claude Mythos 5.1, bringing stronger coding, knowledge work, and scientific research capabilities with lower pricing.</cite>",
+      "url": "https://anthropic.com/news/"
     },
     {
       "date": "Sep 1, 2026",
-      "title": "Claude Fable 5.1 and Mythos 5.1 Launch",
-      "summary": "Anthropic released Claude Fable 5.1 and Mythos 5.1, featuring reduced cache read costs at quarter price.",
-      "url": "https://anthropic.com/news"
+      "title": "75% Cache Read Pricing Cut",
+      "summary": "<cite index=\"18-1\">Anthropic shipped Claude Fable 5.1 and its trusted-access twin Mythos 5.1 on September 1 and cut cache-read pricing by 75%.</cite>",
+      "url": "https://anthropic.com/pricing"
     },
     {
-      "date": "Aug 4, 2026",
-      "title": "Mariano-Florentino Cuéllar Joins as Chief Global Affairs Officer",
-      "summary": "Anthropic appointed Mariano-Florentino (Tino) Cuéllar to the new role of Chief Global Affairs Officer.",
-      "url": "https://anthropic.com/news"
+      "date": "Aug 31, 2026",
+      "title": "Claude for Teachers Education Program Launches",
+      "summary": "<cite index=\"13-12,13-14\">Claude adds a free Enterprise offering for schools and districts through Claude for Teachers. Claude for Teachers is now available to schools and districts as a free Enterprise offering.</cite>",
+      "url": "https://anthropic.com/news/"
     },
     {
       "date": "Jul 24, 2026",
       "title": "Claude Opus 5 Released",
-      "summary": "Claude Opus 5 launched with same pricing as Opus 4.8, fast mode 2.5x faster, new visual and agentic features.",
-      "url": "https://anthropic.com/news"
+      "summary": "<cite index=\"4-1\">Anthropic is releasing Claude Opus 5, a new AI model designed to deliver performance close to its most powerful model, Fable, on many tasks at half the price.</cite>",
+      "url": "https://anthropic.com/news/"
     },
     {
-      "date": "Jul 30, 2026",
-      "title": "Investigating Cybersecurity Evaluation Incidents",
-      "summary": "Anthropic announced investigation of three real-world incidents discovered in cybersecurity evaluations.",
-      "url": "https://anthropic.com/news"
+      "date": "Sep 5, 2026",
+      "title": "Claude Code Platform Updates",
+      "summary": "<cite index=\"16-2,16-3\">Claude Code ships a broad update with new policy and skill diagnostics and improves VS Code workflows, model selection, and startup reliability.</cite>",
+      "url": "https://anthropic.com/news/"
     },
     {
-      "date": "Jun 30, 2026",
-      "title": "Claude Fable 5 Global Redeployment",
-      "summary": "Anthropic redeployed Claude Fable 5 globally starting July 1 with updated cybersecurity safeguards.",
-      "url": "https://anthropic.com/news"
+      "date": "Sep 3, 2026",
+      "title": "Anthropic Finalizing $15B Pre-IPO Credit Facility",
+      "summary": "Anthropic announces major financing round to support growing demand for Claude AI services.",
+      "url": "https://bloomberg.com/news/"
     }
   ],
-  "lastChecked": "2026-09-10T11:05:37.404Z"
+  "lastChecked": "2026-09-11T11:05:24.012Z"
 }
