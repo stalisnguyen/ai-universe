@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-12T11:14:16.840Z",
+  "lastUpdated": "2026-09-13T11:38:07.354Z",
   "categories": [
     {
       "id": "llm",
@@ -31260,60 +31260,166 @@
         ]
       },
       "link": "https://www.sequel.io"
+    },
+    {
+      "id": "hflow",
+      "name": "HFlow",
+      "company": "Hebbian Robotics (YC S26)",
+      "category": "data-pipeline",
+      "icon": "🤖",
+      "badge": "new",
+      "color": "#1f2937",
+      "price": "free",
+      "priceLabel": "Free (Open Source)",
+      "tags": [
+        "robotics",
+        "data-pipeline",
+        "quality-control",
+        "physical-ai"
+      ],
+      "shortDesc": "Open source SDK for scalable multimodal data pipelines in robotics and physical AI.",
+      "fullDesc": "HFlow is an open source SDK that helps robotics teams build production-grade data pipelines for collecting, validating, and curating multimodal sensor data. It handles orchestration, storage, versioning, provenance tracking, and quality control across video, state, actions, and metadata. Designed for teams of any size working with physical AI and robot training datasets.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Open Source SDK"
+        },
+        {
+          "label": "Released",
+          "value": "September 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Robotics teams scaling data pipelines and quality control"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free, Apache-2.0 licensed, open source"
+        }
+      ],
+      "features": [
+        "Define custom transforms, checks, labels, and enrichments for robotics data",
+        "Orchestrate multimodal data pipelines across video, state, actions, and timestamps",
+        "Record data provenance and quality evidence in queryable Parquet catalogs",
+        "Version-pinned manifests with DuckDB for reproducible dataset builds",
+        "Built-in quality checks for camera freezes, timing drift, and missing topics",
+        "Integrates with MCAP format, Airflow, Foxglove, Rerun, and DuckDB",
+        "Run entirely offline or with hosted vision model checks via OpenAI-compatible endpoints",
+        "No robot hardware required; works with egocentric, teleoperation, and autonomous recordings"
+      ],
+      "demo": [
+        {
+          "title": "Local Quickstart",
+          "desc": "Run HFlow entirely offline without Docker, Airflow, or external services",
+          "code": "pip install hflow\nhflow quickstart"
+        },
+        {
+          "title": "Quality Checks",
+          "desc": "Run built-in deterministic checks and integrate hosted model checks for data quality validation",
+          "code": "hflow run --pipeline my_pipeline.yaml --input episodes/"
+        },
+        {
+          "title": "Catalog Query",
+          "desc": "Query results stored in Parquet format using plain SQL without HFlow in the loop",
+          "code": "import duckdb\nresults = duckdb.sql('SELECT * FROM catalog.parquet WHERE check_id = \"frozen_camera\"').fetchall()"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Setup",
+          "text": "How do I set up HFlow for my robotics data pipeline?"
+        },
+        {
+          "label": "Quality Control",
+          "text": "What quality checks should I run on my egocentric video recordings before training?"
+        },
+        {
+          "label": "Integration",
+          "text": "How do I integrate HFlow with my existing Airflow or ROS-based data workflow?"
+        }
+      ],
+      "pricing": {
+        "note": "HFlow is fully open source under Apache-2.0 license. Hebbian Robotics also offers hosted checks and models for advanced quality control at corpus scale, available through enterprise agreements.",
+        "plans": [
+          {
+            "name": "HFlow Open Source",
+            "price": "Free",
+            "per": "forever",
+            "popular": true,
+            "color": "#10b981",
+            "features": [
+              "Full SDK with transforms, checks, labels, enrichments",
+              "Local pipeline orchestration and execution",
+              "MCAP input/output with provenance tracking",
+              "Parquet catalog and DuckDB manifest generation",
+              "Community support via GitHub"
+            ]
+          },
+          {
+            "name": "Hosted Checks & Models",
+            "price": "Custom",
+            "per": "enterprise",
+            "popular": false,
+            "color": "#3b82f6",
+            "features": [
+              "Vision model checks via OpenAI-compatible endpoints",
+              "Corpus-scale infrastructure and execution",
+              "Task-specific and embodiment-specific models",
+              "Direct data team support",
+              "Enterprise SLA and deployment terms"
+            ]
+          }
+        ]
+      },
+      "link": "https://github.com/Hebbian-Robotics/hflow"
     }
   ],
   "totw": {
-    "name": "Switch",
-    "tagline": "Bring any AI agent into Slack, Teams & Discord",
-    "votesCount": 519,
-    "url": "https://www.producthunt.com/products/switch-11?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
-    "thumbnail": "https://ph-files.imgix.net/01af9350-0e27-4e2e-90d0-3bf6bca3e340.png?auto=format",
+    "name": "Mastra Factory",
+    "tagline": "From issue to production, run by agents.",
+    "votesCount": 527,
+    "url": "https://www.producthunt.com/products/mastra?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
+    "thumbnail": "https://ph-files.imgix.net/c9e766dc-8051-45d9-a3b9-69949ac62716.jpeg?auto=format",
     "rank": 1,
     "topics": [
       "Open Source",
       "Developer Tools",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-09-12T10:33:18.225Z"
+    "fetchedAt": "2026-09-13T11:36:19.860Z"
   },
   "lastWeeklyUpdate": "2026-09-12T11:10:54.062Z",
   "anthropicNews": [
     {
-      "date": "Sep 10, 2026",
-      "title": "Claude in Chrome now generally available",
-      "summary": "Claude can access websites and take browser actions with prompt injection defenses.",
-      "url": "https://www.anthropic.com/news"
-    },
-    {
       "date": "Sep 1, 2026",
-      "title": "Claude Fable 5.1 and Mythos 5.1 released",
-      "summary": "New Mythos-tier models with reduced cache read costs from $1.00 to $0.25 per 1M tokens.",
-      "url": "https://claudelog.com/claude-news/"
-    },
-    {
-      "date": "Aug 28, 2026",
-      "title": "Automated researchers reliably mitigate alignment failures",
-      "summary": "New Anthropic research on using automated systems to detect and prevent AI alignment problems.",
-      "url": "https://www.anthropic.com/research"
-    },
-    {
-      "date": "Aug 18, 2026",
-      "title": "Claude accelerating protein design and chemistry research",
-      "summary": "Research published showing Claude's capabilities in protein design and analytical chemistry.",
-      "url": "https://www.anthropic.com/research"
-    },
-    {
-      "date": "Aug 4, 2026",
-      "title": "Mariano-Florentino Cuéllar joins as Chief Global Affairs Officer",
-      "summary": "Tino Cuéllar appointed to lead Anthropic's global affairs and policy initiatives.",
+      "title": "Claude Fable 5.1 and Mythos 5.1 Launch",
+      "summary": "Anthropic released Fable 5.1 and Mythos 5.1, its most advanced models for coding and knowledge work.",
       "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Aug 10, 2026",
+      "title": "Sonnet 5 Pricing Made Permanent at $2/$10",
+      "summary": "Anthropic cancelled planned September price increase and made Sonnet 5's introductory $2/$10 rate permanent.",
+      "url": "https://platform.claude.com/docs/en/about-claude/pricing"
     },
     {
       "date": "Jul 24, 2026",
-      "title": "Claude Opus 5 launched",
-      "summary": "<cite index=\"11-6\">Step-change improvement over Opus 4.8 described as close to Fable 5's frontier intelligence at half the price.</cite>",
+      "title": "Claude Opus 5 Released with 1M Token Context",
+      "summary": "Anthropic released Claude Opus 5, a step-change improvement delivering frontier intelligence at half Fable 5's price.",
+      "url": "https://www.anthropic.com/news"
+    },
+    {
+      "date": "Jul 6, 2026",
+      "title": "Anthropic Publishes Global Workspace Research Paper",
+      "summary": "Anthropic released landmark interpretability paper on J-space, an emergent workspace in Claude model internals.",
+      "url": "https://transformer-circuits.pub"
+    },
+    {
+      "date": "Jun 30, 2026",
+      "title": "Claude Science Launched for Pharma Research",
+      "summary": "<cite index=\"20-1,20-3\">Anthropic unveiled Claude Science, an AI workbench designed to run pharma research</cite>, going beyond assistance.",
       "url": "https://www.anthropic.com/news"
     }
   ],
-  "lastChecked": "2026-09-12T11:14:16.840Z"
+  "lastChecked": "2026-09-13T11:38:07.354Z"
 }
