@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T11:38:07.354Z",
+  "lastUpdated": "2026-09-14T12:32:00.050Z",
   "categories": [
     {
       "id": "llm",
@@ -31372,12 +31372,140 @@
         ]
       },
       "link": "https://github.com/Hebbian-Robotics/hflow"
+    },
+    {
+      "id": "outmind",
+      "name": "Outmind",
+      "company": "Outmind",
+      "category": "enterprise-search",
+      "icon": "🔍",
+      "badge": null,
+      "color": "#2563eb",
+      "price": "freemium",
+      "priceLabel": "From €390/mo",
+      "tags": [
+        "enterprise search",
+        "AI assistant",
+        "knowledge management",
+        "document discovery"
+      ],
+      "shortDesc": "Enterprise search engine connecting to all workplace tools with AI-powered answers.",
+      "fullDesc": "Outmind is an enterprise search infrastructure that indexes and makes knowledge actionable across all your workplace tools including SharePoint, email, file servers, and document management systems. Built for teams that need powerful internal search coupled with generative AI, it helps employees find information instantly while respecting access rights and maintaining data security.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Enterprise Search Engine with AI Assistant"
+        },
+        {
+          "label": "Released",
+          "value": "2019"
+        },
+        {
+          "label": "Best for",
+          "value": "Large enterprises, law firms, design firms, engineering firms seeking unified search across dispersed data"
+        },
+        {
+          "label": "Pricing",
+          "value": "Usage-based on indexed data volume and activity, not per-seat licenses"
+        }
+      ],
+      "features": [
+        "Search across all workplace tools: Office 365, Google Suite, SharePoint, email, file servers, CRM systems",
+        "AI-powered assistant that answers questions based on indexed documents with source citations",
+        "Machine learning algorithms automatically identify relevant subject matter experts by expertise",
+        "Custom tagging and data classification with automated categorization capabilities",
+        "Respects and enforces existing access rights and permissions across all data sources",
+        "ISO 27001 and SOC 2 Type II certified with encrypted indexing and dedicated client instances",
+        "Supports complex file formats including scanned PDFs, ZIP archives, and PST email files",
+        "Analytics dashboard tracking search metrics, assistant usage, and productivity insights"
+      ],
+      "demo": [
+        {
+          "title": "Setup and Indexing",
+          "desc": "Connect Outmind to your workplace tools and let it automatically index documents and emails within weeks, no migration required"
+        },
+        {
+          "title": "Search Documents",
+          "desc": "Type natural language queries to find relevant documents across all connected systems instantly"
+        },
+        {
+          "title": "Get AI Answers",
+          "desc": "Ask questions in your own words and receive synthesized answers based on your indexed documents with source citations"
+        },
+        {
+          "title": "Find Experts",
+          "desc": "Discover subject matter experts within your organization based on their contributions and expertise"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Document Discovery",
+          "text": "Find all project specifications and client emails from the 2023 proposal that was approved in March"
+        },
+        {
+          "label": "Expert Finding",
+          "text": "Who in our organization has the most experience with our legacy database systems?"
+        },
+        {
+          "label": "Knowledge Synthesis",
+          "text": "Summarize all the changes we've made to our API documentation over the last year"
+        },
+        {
+          "label": "Compliance Search",
+          "text": "Show me all documents related to project X that mention data handling procedures"
+        }
+      ],
+      "pricing": {
+        "note": "Outmind pricing is based on indexed data volume and usage rather than per-seat licenses, allowing deployment across entire organizations without proportional cost increases. A free trial is available.",
+        "plans": [
+          {
+            "name": "Starter",
+            "price": "€390",
+            "per": "per month",
+            "popular": false,
+            "color": "#3b82f6",
+            "features": [
+              "Search across main workplace tools",
+              "Basic AI assistant",
+              "Up to standard data volume",
+              "Standard support"
+            ]
+          },
+          {
+            "name": "Professional",
+            "price": "Custom",
+            "per": "per month",
+            "popular": true,
+            "color": "#2563eb",
+            "features": [
+              "Unlimited data volume",
+              "Advanced AI features",
+              "Multiple tool integrations",
+              "Priority support"
+            ]
+          },
+          {
+            "name": "Enterprise",
+            "price": "Custom",
+            "per": "per month",
+            "popular": false,
+            "color": "#1e40af",
+            "features": [
+              "Dedicated instance",
+              "Custom connectors",
+              "Advanced customization",
+              "Dedicated account management"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.outmind.ai"
     }
   ],
   "totw": {
     "name": "Mastra Factory",
     "tagline": "From issue to production, run by agents.",
-    "votesCount": 527,
+    "votesCount": 531,
     "url": "https://www.producthunt.com/products/mastra?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/c9e766dc-8051-45d9-a3b9-69949ac62716.jpeg?auto=format",
     "rank": 1,
@@ -31386,40 +31514,46 @@
       "Developer Tools",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-09-13T11:36:19.860Z"
+    "fetchedAt": "2026-09-14T12:30:03.204Z"
   },
   "lastWeeklyUpdate": "2026-09-12T11:10:54.062Z",
   "anthropicNews": [
     {
       "date": "Sep 1, 2026",
-      "title": "Claude Fable 5.1 and Mythos 5.1 Launch",
-      "summary": "Anthropic released Fable 5.1 and Mythos 5.1, its most advanced models for coding and knowledge work.",
-      "url": "https://www.anthropic.com/news"
+      "title": "Claude Fable 5.1 and Mythos 5.1 launched",
+      "summary": "<cite index=\"14-3,14-4\">Claude Fable 5.1 succeeds Fable 5 with 1M token context and 128K output, pricing at $10/$50 with cache reads cut to $0.25 per MTok</cite>",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview"
     },
     {
-      "date": "Aug 10, 2026",
-      "title": "Sonnet 5 Pricing Made Permanent at $2/$10",
-      "summary": "Anthropic cancelled planned September price increase and made Sonnet 5's introductory $2/$10 rate permanent.",
+      "date": "Sep 1, 2026",
+      "title": "Claude Sonnet 5 pricing made permanent",
+      "summary": "<cite index=\"14-1\">Introductory $2/$10 per MTok pricing for Claude Sonnet 5 is now standard; September 1 increase to $3/$15 will not occur</cite>",
       "url": "https://platform.claude.com/docs/en/about-claude/pricing"
     },
     {
+      "date": "Sep 1, 2026",
+      "title": "Enterprise Frontier Safeguards announced",
+      "summary": "<cite index=\"2-2,2-5\">Anthropic announced Enterprise Frontier Safeguards combining zero data retention with misuse detection, with phased rollout beginning fall 2026 at no charge</cite>",
+      "url": "https://claudelog.com/claude-news/"
+    },
+    {
       "date": "Jul 24, 2026",
-      "title": "Claude Opus 5 Released with 1M Token Context",
-      "summary": "Anthropic released Claude Opus 5, a step-change improvement delivering frontier intelligence at half Fable 5's price.",
-      "url": "https://www.anthropic.com/news"
+      "title": "Claude Opus 5 released",
+      "summary": "<cite index=\"2-1\">Claude Opus 5 released with fast mode running 2.5x faster at 2x base cost, same $5/$25 per million token pricing as Opus 4.8</cite>",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview"
     },
     {
-      "date": "Jul 6, 2026",
-      "title": "Anthropic Publishes Global Workspace Research Paper",
-      "summary": "Anthropic released landmark interpretability paper on J-space, an emergent workspace in Claude model internals.",
-      "url": "https://transformer-circuits.pub"
+      "date": "Sep 9, 2026",
+      "title": "Claude for Teachers free enterprise launch",
+      "summary": "<cite index=\"8-15,8-17\">Claude for Teachers launched as free Enterprise offering for K-12 educators with centrally managed access and single sign-on</cite>",
+      "url": "https://releasebot.io/updates/anthropic/claude"
     },
     {
-      "date": "Jun 30, 2026",
-      "title": "Claude Science Launched for Pharma Research",
-      "summary": "<cite index=\"20-1,20-3\">Anthropic unveiled Claude Science, an AI workbench designed to run pharma research</cite>, going beyond assistance.",
-      "url": "https://www.anthropic.com/news"
+      "date": "Aug 11, 2026",
+      "title": "Claude Sonnet 5 introductory pricing extended",
+      "summary": "<cite index=\"16-1\">Anthropic made $2/$10 permanent on August 11 and cancelled the September 1 increase to $3/$15 for Sonnet 5</cite>",
+      "url": "https://www.cloudzero.com/blog/claude-pricing/"
     }
   ],
-  "lastChecked": "2026-09-13T11:38:07.354Z"
+  "lastChecked": "2026-09-14T12:32:00.050Z"
 }
