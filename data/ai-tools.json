@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T12:32:00.050Z",
+  "lastUpdated": "2026-09-15T11:34:28.194Z",
   "categories": [
     {
       "id": "llm",
@@ -31500,12 +31500,132 @@
         ]
       },
       "link": "https://www.outmind.ai"
+    },
+    {
+      "id": "almanac",
+      "name": "Almanac",
+      "company": "Almanac (YC S26)",
+      "category": "agent",
+      "icon": "🧠",
+      "badge": "new",
+      "color": "#4F46E5",
+      "price": "freemium",
+      "priceLabel": "From $30/user/mo",
+      "tags": [
+        "company context",
+        "autonomous agent",
+        "knowledge management",
+        "operations"
+      ],
+      "shortDesc": "AI agent that knows your company and gets work done via Slack or iMessage.",
+      "fullDesc": "Almanac is an autonomous AI agent with its own cloud computer that learns your company's internal knowledge by connecting to your tools. It compiles information from Slack, Gmail, GitHub, and other sources into a self-updating wiki that it consults before executing tasks. Built for operations teams, founders, and customer success leaders to delegate repetitive coordination work.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "AI Agent with persistent cloud computer"
+        },
+        {
+          "label": "Released",
+          "value": "August 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Teams needing autonomous ops work with company context"
+        },
+        {
+          "label": "Pricing",
+          "value": "Starting at $30/user/month on usage-based ladder model"
+        }
+      ],
+      "features": [
+        "Cloud computer with browser, terminal, and file system access signed into your accounts",
+        "Self-updating wiki that compiles data from connected tools and stays current automatically",
+        "Slack and iMessage integration for natural language task delegation",
+        "Shared company wiki and personal wikis with permission boundaries",
+        "Proactive task identification and execution without manual prompting",
+        "Browser automation via Browserbase with human handoff at logins and payments",
+        "Multi-tool integrations including Gmail, Calendar, GitHub, Slack, and more",
+        "Source citations for all wiki information with editable knowledge base"
+      ],
+      "demo": [
+        {
+          "title": "Connect Your Tools",
+          "desc": "OAuth integrations automatically begin streaming data from Slack, Gmail, GitHub, and other tools to build the company knowledge base.",
+          "code": null
+        },
+        {
+          "title": "Wiki Auto-Compilation",
+          "desc": "Almanac learns your people, customers, projects, and priorities by analyzing connected tools and compiling a shared wiki.",
+          "code": null
+        },
+        {
+          "title": "Delegate via Chat",
+          "desc": "Text Almanac a task in Slack or iMessage and it executes using the wiki context to understand company decisions and current state.",
+          "code": "Hey Almanac, gather customer feedback from #support and file GitHub issues with screenshots"
+        },
+        {
+          "title": "Autonomous Execution",
+          "desc": "Agent works continuously on your behalf, using browser automation and account access to complete tasks, then notifies you when done.",
+          "code": null
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Support Operations",
+          "text": "Gather feedback from our customer Slack channels and file GitHub issues with screenshots and reproduction steps"
+        },
+        {
+          "label": "Account Management",
+          "text": "Review my recurring charges and cancel subscriptions I don't use anymore"
+        },
+        {
+          "label": "Meeting Preparation",
+          "text": "Send me a brief for my 2pm meeting built from my past emails and calendar before it starts"
+        },
+        {
+          "label": "Production Monitoring",
+          "text": "Watch our production environment and alert me to any critical issues"
+        }
+      ],
+      "pricing": {
+        "note": "Almanac uses a usage-based seat pricing model where customers start at a list price but move up the ladder based on API calls and browser minutes consumed. Early stage product in alpha, currently primarily available via waitlist.",
+        "plans": [
+          {
+            "name": "Starter",
+            "price": "$30",
+            "per": "per user per month",
+            "popular": false,
+            "color": "#4F46E5",
+            "features": [
+              "Unlimited connected accounts",
+              "Shared company wiki",
+              "Access via Slack and iMessage",
+              "Personal and company knowledge base"
+            ]
+          },
+          {
+            "name": "Growth",
+            "price": "Custom",
+            "per": "per month",
+            "popular": true,
+            "color": "#7C3AED",
+            "features": [
+              "Increased API usage allocation",
+              "Extended browser automation minutes",
+              "Team wiki collaboration",
+              "Shared account connections",
+              "Priority support"
+            ]
+          }
+        ]
+      },
+      "link": "https://usealmanac.com"
     }
   ],
   "totw": {
     "name": "Mastra Factory",
     "tagline": "From issue to production, run by agents.",
-    "votesCount": 531,
+    "votesCount": 535,
     "url": "https://www.producthunt.com/products/mastra?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/c9e766dc-8051-45d9-a3b9-69949ac62716.jpeg?auto=format",
     "rank": 1,
@@ -31514,46 +31634,46 @@
       "Developer Tools",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-09-14T12:30:03.204Z"
+    "fetchedAt": "2026-09-15T11:33:13.741Z"
   },
   "lastWeeklyUpdate": "2026-09-12T11:10:54.062Z",
   "anthropicNews": [
     {
-      "date": "Sep 1, 2026",
-      "title": "Claude Fable 5.1 and Mythos 5.1 launched",
-      "summary": "<cite index=\"14-3,14-4\">Claude Fable 5.1 succeeds Fable 5 with 1M token context and 128K output, pricing at $10/$50 with cache reads cut to $0.25 per MTok</cite>",
-      "url": "https://platform.claude.com/docs/en/release-notes/overview"
-    },
-    {
-      "date": "Sep 1, 2026",
-      "title": "Claude Sonnet 5 pricing made permanent",
-      "summary": "<cite index=\"14-1\">Introductory $2/$10 per MTok pricing for Claude Sonnet 5 is now standard; September 1 increase to $3/$15 will not occur</cite>",
-      "url": "https://platform.claude.com/docs/en/about-claude/pricing"
-    },
-    {
-      "date": "Sep 1, 2026",
-      "title": "Enterprise Frontier Safeguards announced",
-      "summary": "<cite index=\"2-2,2-5\">Anthropic announced Enterprise Frontier Safeguards combining zero data retention with misuse detection, with phased rollout beginning fall 2026 at no charge</cite>",
-      "url": "https://claudelog.com/claude-news/"
-    },
-    {
-      "date": "Jul 24, 2026",
-      "title": "Claude Opus 5 released",
-      "summary": "<cite index=\"2-1\">Claude Opus 5 released with fast mode running 2.5x faster at 2x base cost, same $5/$25 per million token pricing as Opus 4.8</cite>",
-      "url": "https://platform.claude.com/docs/en/release-notes/overview"
+      "date": "Sep 13, 2026",
+      "title": "Anthropic Selects Nasdaq for Much-Anticipated IPO",
+      "summary": "Anthropic chose Nasdaq for its upcoming IPO, marking major milestone.",
+      "url": "https://bloomberg.com/latest/anthropic"
     },
     {
       "date": "Sep 9, 2026",
-      "title": "Claude for Teachers free enterprise launch",
-      "summary": "<cite index=\"8-15,8-17\">Claude for Teachers launched as free Enterprise offering for K-12 educators with centrally managed access and single sign-on</cite>",
-      "url": "https://releasebot.io/updates/anthropic/claude"
+      "title": "Claude Fable 5.1 & Mythos 5.1 Released with 75% Cache Pricing Cut",
+      "summary": "<cite index=\"14-1\">Anthropic shipped Claude Fable 5.1 and its trusted-access twin Mythos 5.1 on September 1 and cut cache-read pricing by 75%.</cite>",
+      "url": "https://anthropic.com/news"
     },
     {
-      "date": "Aug 11, 2026",
-      "title": "Claude Sonnet 5 introductory pricing extended",
-      "summary": "<cite index=\"16-1\">Anthropic made $2/$10 permanent on August 11 and cancelled the September 1 increase to $3/$15 for Sonnet 5</cite>",
-      "url": "https://www.cloudzero.com/blog/claude-pricing/"
+      "date": "Sep 13, 2026",
+      "title": "Enterprise Frontier Safeguards (EFS) Announced",
+      "summary": "<cite index=\"3-2,3-5\">Anthropic announced Enterprise Frontier Safeguards (EFS), combining zero data retention with misuse detection. Phased rollout begins fall 2026.</cite>",
+      "url": "https://anthropic.com/news"
+    },
+    {
+      "date": "Sep 9, 2026",
+      "title": "Claude Code Adds Fullscreen Diff, Headless Support",
+      "summary": "Claude Code ships broad release with plugin evals, output-style switching, and reliability improvements across CLI, VS Code, web, and Slack.",
+      "url": "https://releasebot.io/updates/anthropic/claude-code"
+    },
+    {
+      "date": "Sep 9, 2026",
+      "title": "Claude Commerce Agent Blueprint Launched",
+      "summary": "<cite index=\"7-9\">Claude launches a commerce agent blueprint with reference shopping and merchant agents, guardrails, and live demos.</cite>",
+      "url": "https://anthropic.com/news"
+    },
+    {
+      "date": "Sep 9, 2026",
+      "title": "Smart Reports Beta for Enterprise Customers",
+      "summary": "<cite index=\"8-7,8-8,8-9\">Claude launches smart reports in beta for Enterprise, analyzing team usage, costs, friction, and reusable shared skills.</cite>",
+      "url": "https://anthropic.com/news"
     }
   ],
-  "lastChecked": "2026-09-14T12:32:00.050Z"
+  "lastChecked": "2026-09-15T11:34:28.194Z"
 }
