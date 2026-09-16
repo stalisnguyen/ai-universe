@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T11:34:28.194Z",
+  "lastUpdated": "2026-09-16T11:20:38.571Z",
   "categories": [
     {
       "id": "llm",
@@ -31620,60 +31620,156 @@
         ]
       },
       "link": "https://usealmanac.com"
+    },
+    {
+      "id": "weathernext-3",
+      "name": "WeatherNext 3",
+      "company": "Google DeepMind & Google Research",
+      "category": "weather",
+      "icon": "🌦️",
+      "badge": "new",
+      "color": "#4285F4",
+      "price": "free",
+      "priceLabel": "Free (with Google Cloud integration options)",
+      "tags": [
+        "weather forecasting",
+        "AI",
+        "real-time",
+        "high-resolution"
+      ],
+      "shortDesc": "Advanced AI weather forecasting with hourly 5km resolution forecasts integrated into Google products.",
+      "fullDesc": "WeatherNext 3 is an advanced global AI weather forecasting model that generates hourly forecasts at up to 5-kilometer resolution by directly processing satellite imagery. It delivers significantly improved accuracy for precipitation, temperature, and moisture prediction. The model is integrated into Google Search, Gemini, Maps, and Earth Engine, with enterprise access available through Google Cloud platforms.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "AI Weather Forecasting Model"
+        },
+        {
+          "label": "Released",
+          "value": "September 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Real-time weather forecasting, renewable energy operations, severe weather prediction"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free via Google products; enterprise access through Google Cloud"
+        }
+      ],
+      "features": [
+        "Hourly weather forecasts updated continuously throughout the day",
+        "5-kilometer resolution for surface temperature and moisture variables",
+        "Direct satellite data ingestion for real-time atmospheric information",
+        "60% improved precipitation accuracy over previous generation models",
+        "Specialized renewable energy forecasting with wind and solar irradiance predictions",
+        "Ensemble model with 64-member, 15-day forecast capability",
+        "Accessible through Google Search, Maps, Gemini, and BigQuery"
+      ],
+      "demo": [
+        {
+          "title": "Access via Google Search",
+          "desc": "Weather forecasts powered by WeatherNext 3 appear directly in Google Search results for any location worldwide.",
+          "code": "Search any location followed by 'weather' or 'forecast'"
+        },
+        {
+          "title": "Explore with Weather Lab",
+          "desc": "Interactive visualization platform to explore live global forecast layers and track tropical cyclones in near real-time.",
+          "code": "Visit Weather Lab at Google DeepMind for interactive forecasts"
+        },
+        {
+          "title": "Enterprise Integration",
+          "desc": "Developers can integrate WeatherNext 3 forecasts through Google Cloud APIs for custom applications.",
+          "code": "Use BigQuery, Earth Engine, or Google Maps Platform Weather API"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "General Weather Query",
+          "text": "What's the hourly weather forecast for San Francisco over the next 24 hours with 5km precision?"
+        },
+        {
+          "label": "Severe Weather",
+          "text": "Show me the precipitation forecast for the next 6 hours in this region with high resolution detail"
+        },
+        {
+          "label": "Energy Operations",
+          "text": "Provide wind speed, solar irradiance, and cloud cover forecasts for renewable energy grid management"
+        }
+      ],
+      "pricing": {
+        "note": "WeatherNext 3 is available free through Google consumer products and via enterprise Google Cloud services with tiered pricing based on API usage and data access levels.",
+        "plans": [
+          {
+            "name": "Consumer Free",
+            "price": "Free",
+            "per": "forever",
+            "popular": true,
+            "color": "#4285F4",
+            "features": [
+              "Access through Google Search, Maps, and Gemini",
+              "Hourly forecasts at 5km resolution",
+              "Global coverage with live updates"
+            ]
+          },
+          {
+            "name": "Enterprise Cloud",
+            "price": "Custom",
+            "per": "month",
+            "popular": false,
+            "color": "#1E88E5",
+            "features": [
+              "BigQuery, Earth Engine, and Cloud Storage access",
+              "Google Maps Platform Weather API integration",
+              "Historical forecast archives",
+              "Custom query and bulk dataset capabilities"
+            ]
+          }
+        ]
+      },
+      "link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/"
     }
   ],
   "totw": {
-    "name": "Mastra Factory",
-    "tagline": "From issue to production, run by agents.",
-    "votesCount": 535,
-    "url": "https://www.producthunt.com/products/mastra?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
-    "thumbnail": "https://ph-files.imgix.net/c9e766dc-8051-45d9-a3b9-69949ac62716.jpeg?auto=format",
+    "name": "tiun.",
+    "tagline": "Auth, billing, and payments for AI builders",
+    "votesCount": 534,
+    "url": "https://www.producthunt.com/products/tiun-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
+    "thumbnail": "https://ph-files.imgix.net/86831409-94db-4f42-a2a6-651c9c669161.png?auto=format",
     "rank": 1,
     "topics": [
-      "Open Source",
+      "Payments",
       "Developer Tools",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-09-15T11:33:13.741Z"
+    "fetchedAt": "2026-09-16T11:19:34.702Z"
   },
   "lastWeeklyUpdate": "2026-09-12T11:10:54.062Z",
   "anthropicNews": [
     {
-      "date": "Sep 13, 2026",
-      "title": "Anthropic Selects Nasdaq for Much-Anticipated IPO",
-      "summary": "Anthropic chose Nasdaq for its upcoming IPO, marking major milestone.",
-      "url": "https://bloomberg.com/latest/anthropic"
+      "date": "Sep 10, 2026",
+      "title": "Anthropic releases September threat intelligence report",
+      "summary": "<cite index=\"8-1\">Anthropic released its September 2026 threat report detailing how it identified and disrupted AI abuse across seven harm areas from December 2025 to August 2026</cite>.",
+      "url": "https://www.anthropic.com/threat-intelligence-report-september-2026"
     },
     {
-      "date": "Sep 9, 2026",
-      "title": "Claude Fable 5.1 & Mythos 5.1 Released with 75% Cache Pricing Cut",
-      "summary": "<cite index=\"14-1\">Anthropic shipped Claude Fable 5.1 and its trusted-access twin Mythos 5.1 on September 1 and cut cache-read pricing by 75%.</cite>",
-      "url": "https://anthropic.com/news"
+      "date": "Sep 01, 2026",
+      "title": "Claude Fable/Mythos 5.1 model released",
+      "summary": "<cite index=\"13-1\">The most recent Claude model launch is Claude Fable/Mythos 5.1, released on September 1, 2026</cite>.",
+      "url": "https://claude.ai"
     },
     {
-      "date": "Sep 13, 2026",
-      "title": "Enterprise Frontier Safeguards (EFS) Announced",
-      "summary": "<cite index=\"3-2,3-5\">Anthropic announced Enterprise Frontier Safeguards (EFS), combining zero data retention with misuse detection. Phased rollout begins fall 2026.</cite>",
-      "url": "https://anthropic.com/news"
+      "date": "Sep 01, 2026",
+      "title": "Claude Sonnet 5 pricing maintained at introductory rate",
+      "summary": "<cite index=\"23-8,23-9\">The $2/$10 per million input/output token pricing for Claude Sonnet 5 is now the standard price; the previously scheduled increase on September 1, 2026 will not occur</cite>.",
+      "url": "https://platform.claude.com/docs/en/about-claude/pricing"
     },
     {
-      "date": "Sep 9, 2026",
-      "title": "Claude Code Adds Fullscreen Diff, Headless Support",
-      "summary": "Claude Code ships broad release with plugin evals, output-style switching, and reliability improvements across CLI, VS Code, web, and Slack.",
-      "url": "https://releasebot.io/updates/anthropic/claude-code"
-    },
-    {
-      "date": "Sep 9, 2026",
-      "title": "Claude Commerce Agent Blueprint Launched",
-      "summary": "<cite index=\"7-9\">Claude launches a commerce agent blueprint with reference shopping and merchant agents, guardrails, and live demos.</cite>",
-      "url": "https://anthropic.com/news"
-    },
-    {
-      "date": "Sep 9, 2026",
-      "title": "Smart Reports Beta for Enterprise Customers",
-      "summary": "<cite index=\"8-7,8-8,8-9\">Claude launches smart reports in beta for Enterprise, analyzing team usage, costs, friction, and reusable shared skills.</cite>",
-      "url": "https://anthropic.com/news"
+      "date": "Aug 04, 2026",
+      "title": "Mariano-Florentino Cuéllar joins Anthropic as Chief Global Affairs Officer",
+      "summary": "Anthropic announces appointment of Mariano-Florentino (Tino) Cuéllar to leadership position overseeing global affairs.",
+      "url": "https://www.anthropic.com/news"
     }
   ],
-  "lastChecked": "2026-09-15T11:34:28.194Z"
+  "lastChecked": "2026-09-16T11:20:38.571Z"
 }
