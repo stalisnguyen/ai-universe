@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T11:20:38.571Z",
+  "lastUpdated": "2026-09-17T11:29:24.203Z",
   "categories": [
     {
       "id": "llm",
@@ -31733,7 +31733,7 @@
   "totw": {
     "name": "tiun.",
     "tagline": "Auth, billing, and payments for AI builders",
-    "votesCount": 534,
+    "votesCount": 552,
     "url": "https://www.producthunt.com/products/tiun-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/86831409-94db-4f42-a2a6-651c9c669161.png?auto=format",
     "rank": 1,
@@ -31742,34 +31742,46 @@
       "Developer Tools",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-09-16T11:19:34.702Z"
+    "fetchedAt": "2026-09-17T11:27:59.077Z"
   },
   "lastWeeklyUpdate": "2026-09-12T11:10:54.062Z",
   "anthropicNews": [
     {
-      "date": "Sep 10, 2026",
-      "title": "Anthropic releases September threat intelligence report",
-      "summary": "<cite index=\"8-1\">Anthropic released its September 2026 threat report detailing how it identified and disrupted AI abuse across seven harm areas from December 2025 to August 2026</cite>.",
-      "url": "https://www.anthropic.com/threat-intelligence-report-september-2026"
+      "date": "Sep 16, 2026",
+      "title": "Claude Cowork merges with chat, new docs and slides",
+      "summary": "<cite index=\"11-1,11-3\">Anthropic merged Claude Cowork with chat into two unified modes: Claude Chat and Claude Code.</cite> <cite index=\"12-1,12-2\">Added dedicated features for making presentations and documents with ability to create, edit and download presentations.</cite>",
+      "url": "https://9to5mac.com/2026/09/16/anthropic-merging-claude-cowork-with-chat/"
     },
     {
-      "date": "Sep 01, 2026",
-      "title": "Claude Fable/Mythos 5.1 model released",
-      "summary": "<cite index=\"13-1\">The most recent Claude model launch is Claude Fable/Mythos 5.1, released on September 1, 2026</cite>.",
-      "url": "https://claude.ai"
+      "date": "Sep 1, 2026",
+      "title": "Claude Fable 5.1 released with improved cache pricing",
+      "summary": "<cite index=\"6-1,6-4\">Claude Fable 5.1 released for reasoning, agents, coding, and document-heavy work.</cite> <cite index=\"24-1,24-2\">Cache reads cut from $1M to $0.25M, reducing typical usage-based workloads by about 25%.</cite>",
+      "url": "https://github.com/jqueryscript/anthropic-claude-timeline"
     },
     {
-      "date": "Sep 01, 2026",
-      "title": "Claude Sonnet 5 pricing maintained at introductory rate",
-      "summary": "<cite index=\"23-8,23-9\">The $2/$10 per million input/output token pricing for Claude Sonnet 5 is now the standard price; the previously scheduled increase on September 1, 2026 will not occur</cite>.",
+      "date": "Aug 11, 2026",
+      "title": "Claude Sonnet 5 pricing locked at introductory rate",
+      "summary": "<cite index=\"20-1\">Anthropic made Claude Sonnet 5's introductory pricing of $2/$10 per million tokens permanent, canceling the increase to $3/$15 scheduled for September 1.</cite>",
       "url": "https://platform.claude.com/docs/en/about-claude/pricing"
     },
     {
-      "date": "Aug 04, 2026",
-      "title": "Mariano-Florentino Cuéllar joins Anthropic as Chief Global Affairs Officer",
-      "summary": "Anthropic announces appointment of Mariano-Florentino (Tino) Cuéllar to leadership position overseeing global affairs.",
-      "url": "https://www.anthropic.com/news"
+      "date": "Aug 28, 2026",
+      "title": "Research paper: AI systems can mitigate alignment failures",
+      "summary": "<cite index=\"31-1,31-2\">Anthropic published 'Automated Researchers Can Reliably Mitigate Alignment Failures,' showing AI systems could improve model performance on alignment benchmarks without degradation.</cite>",
+      "url": "https://www.anthropic.com/research"
+    },
+    {
+      "date": "Jul 24, 2026",
+      "title": "Claude Opus 5 launched at half price of Fable",
+      "summary": "<cite index=\"4-1\">Claude Opus 5 released as high-performance model close to Fable on many tasks at half the price.</cite> <cite index=\"20-5\">Launched at $5/$25 per million tokens, matching Opus 4.8 rates.</cite>",
+      "url": "https://www.axios.com/2026/07/24/anthropic-releases-new-model-opus-5"
+    },
+    {
+      "date": "Jul 6, 2026",
+      "title": "Anthropic publishes landmark interpretability paper",
+      "summary": "<cite index=\"29-1\">Anthropic published 'A global workspace in language models' paper introducing the J-space through their new Jacobian lens approach.</cite>",
+      "url": "https://transformer-circuits.pub"
     }
   ],
-  "lastChecked": "2026-09-16T11:20:38.571Z"
+  "lastChecked": "2026-09-17T11:29:24.203Z"
 }
