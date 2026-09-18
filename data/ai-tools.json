@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-17T11:29:24.203Z",
+  "lastUpdated": "2026-09-18T11:02:19.554Z",
   "categories": [
     {
       "id": "llm",
@@ -31728,12 +31728,117 @@
         ]
       },
       "link": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/"
+    },
+    {
+      "id": "voiskey",
+      "name": "Voiskey",
+      "company": "Voiskey",
+      "category": "audio",
+      "icon": "🎤",
+      "badge": "new",
+      "color": "#6366f1",
+      "price": "freemium",
+      "priceLabel": "Free to start / Pro upgrades available",
+      "tags": [
+        "voice typing",
+        "AI dictation",
+        "productivity",
+        "cross-platform"
+      ],
+      "shortDesc": "AI voice typing that converts speech to polished text in 100+ languages.",
+      "fullDesc": "Voiskey is an AI-powered voice typing tool that transcribes spoken thoughts while intelligently refining them for context, audience, and intent. It adapts tone from casual to professional, integrates directly into any app across iOS, macOS, Android, and Windows, and delivers text up to 5x faster than typing while preserving your authentic voice.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "AI Voice Typing"
+        },
+        {
+          "label": "Released",
+          "value": "2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Professionals, remote workers, content creators, mobile users"
+        },
+        {
+          "label": "Pricing",
+          "value": "Free with optional Pro upgrades"
+        }
+      ],
+      "features": [
+        "Context-aware text refinement adapts to casual, professional, or technical tones",
+        "Universal integration works across iOS, macOS, Android, and Windows platforms",
+        "Supports 100+ languages with intelligent language detection",
+        "Real-time transcription cleans up filler words, pauses, and grammar automatically",
+        "Learns your preferred names, terminology, and spelling over time",
+        "Voice-to-text conversion 5x faster than manual typing",
+        "Preserves authentic voice while polishing communication for any recipient"
+      ],
+      "demo": [
+        {
+          "title": "Quick Voice Note",
+          "desc": "Activate Voiskey in any app text field and speak naturally about your thoughts",
+          "code": "Speak: 'uh so I need to grab coffee and then meet with the team about the quarterly numbers'"
+        },
+        {
+          "title": "Auto-Polish Output",
+          "desc": "AI automatically cleans and adapts the text to match the context",
+          "code": "Output: 'I need to grab coffee, then meet with the team about the quarterly results.'"
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Professional Email",
+          "text": "Thanks for the great discussion earlier I wanted to follow up on the action items we talked about"
+        },
+        {
+          "label": "Quick Reminder",
+          "text": "Remember to pick up milk and bread on the way home"
+        },
+        {
+          "label": "Technical Note",
+          "text": "Initialize the API endpoint with the authentication credentials and implement error handling"
+        }
+      ],
+      "pricing": {
+        "note": "Voiskey offers a free tier with limited voice input usage per week, plus optional Pro upgrades for additional features and higher usage limits.",
+        "plans": [
+          {
+            "name": "Free",
+            "price": "$0",
+            "per": "forever",
+            "popular": false,
+            "color": "#e5e7eb",
+            "features": [
+              "Limited voice input per week",
+              "100+ languages support",
+              "Cross-platform access (iOS, macOS, Android, Windows)",
+              "Basic context-aware refinement"
+            ]
+          },
+          {
+            "name": "Pro",
+            "price": "Custom pricing",
+            "per": "per month",
+            "popular": true,
+            "color": "#6366f1",
+            "features": [
+              "Unlimited voice input",
+              "Advanced tone adaptation",
+              "Priority support",
+              "Enhanced personalization",
+              "Free month during launch"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.producthunt.com/products/voiskey"
     }
   ],
   "totw": {
     "name": "tiun.",
     "tagline": "Auth, billing, and payments for AI builders",
-    "votesCount": 552,
+    "votesCount": 559,
     "url": "https://www.producthunt.com/products/tiun-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/86831409-94db-4f42-a2a6-651c9c669161.png?auto=format",
     "rank": 1,
@@ -31742,46 +31847,46 @@
       "Developer Tools",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-09-17T11:27:59.077Z"
+    "fetchedAt": "2026-09-18T11:01:09.033Z"
   },
   "lastWeeklyUpdate": "2026-09-12T11:10:54.062Z",
   "anthropicNews": [
     {
-      "date": "Sep 16, 2026",
-      "title": "Claude Cowork merges with chat, new docs and slides",
-      "summary": "<cite index=\"11-1,11-3\">Anthropic merged Claude Cowork with chat into two unified modes: Claude Chat and Claude Code.</cite> <cite index=\"12-1,12-2\">Added dedicated features for making presentations and documents with ability to create, edit and download presentations.</cite>",
-      "url": "https://9to5mac.com/2026/09/16/anthropic-merging-claude-cowork-with-chat/"
+      "date": "Sep 13, 2026",
+      "title": "Claude for Financial Advisors launched with connectors",
+      "summary": "New plugin with workflow skills for financial advisors to streamline research, prep, and documentation.",
+      "url": "https://claude.com/blog"
     },
     {
       "date": "Sep 1, 2026",
-      "title": "Claude Fable 5.1 released with improved cache pricing",
-      "summary": "<cite index=\"6-1,6-4\">Claude Fable 5.1 released for reasoning, agents, coding, and document-heavy work.</cite> <cite index=\"24-1,24-2\">Cache reads cut from $1M to $0.25M, reducing typical usage-based workloads by about 25%.</cite>",
-      "url": "https://github.com/jqueryscript/anthropic-claude-timeline"
+      "title": "Claude Fable 5.1 and Mythos 5.1 released",
+      "summary": "<cite index=\"19-1\">Cache-read pricing cut 75% from $1.00 to $0.25 per million tokens</cite>; models hold existing token rates.",
+      "url": "https://claude.com/blog"
+    },
+    {
+      "date": "Aug 26, 2026",
+      "title": "Salesforce and Anthropic announce Claudeforce partnership",
+      "summary": "<cite index=\"1-1\">Expanded partnership bringing Claude with Salesforce data, workflows, and governance accessible via agentic experiences</cite>.",
+      "url": "https://www.salesforce.com/news/press-releases/2026/08/26/salesforce-and-anthropic-announce-claudeforce/"
+    },
+    {
+      "date": "Aug 20, 2026",
+      "title": "Production agents with computer use and APIs",
+      "summary": "New capabilities for building production agents using computer use, Skills API, and Files API.",
+      "url": "https://claude.com/blog-category/announcements"
     },
     {
       "date": "Aug 11, 2026",
-      "title": "Claude Sonnet 5 pricing locked at introductory rate",
-      "summary": "<cite index=\"20-1\">Anthropic made Claude Sonnet 5's introductory pricing of $2/$10 per million tokens permanent, canceling the increase to $3/$15 scheduled for September 1.</cite>",
-      "url": "https://platform.claude.com/docs/en/about-claude/pricing"
+      "title": "Claude Sonnet 5 pricing made permanent",
+      "summary": "<cite index=\"19-1\">Introductory pricing of $2 per million input and $10 per million output tokens made permanent</cite>.",
+      "url": "https://anthropic.com/news"
     },
     {
-      "date": "Aug 28, 2026",
-      "title": "Research paper: AI systems can mitigate alignment failures",
-      "summary": "<cite index=\"31-1,31-2\">Anthropic published 'Automated Researchers Can Reliably Mitigate Alignment Failures,' showing AI systems could improve model performance on alignment benchmarks without degradation.</cite>",
-      "url": "https://www.anthropic.com/research"
-    },
-    {
-      "date": "Jul 24, 2026",
-      "title": "Claude Opus 5 launched at half price of Fable",
-      "summary": "<cite index=\"4-1\">Claude Opus 5 released as high-performance model close to Fable on many tasks at half the price.</cite> <cite index=\"20-5\">Launched at $5/$25 per million tokens, matching Opus 4.8 rates.</cite>",
-      "url": "https://www.axios.com/2026/07/24/anthropic-releases-new-model-opus-5"
-    },
-    {
-      "date": "Jul 6, 2026",
-      "title": "Anthropic publishes landmark interpretability paper",
-      "summary": "<cite index=\"29-1\">Anthropic published 'A global workspace in language models' paper introducing the J-space through their new Jacobian lens approach.</cite>",
-      "url": "https://transformer-circuits.pub"
+      "date": "Aug 4, 2026",
+      "title": "Mariano-Florentino Cuéllar joins as Chief Global Affairs Officer",
+      "summary": "Senior leadership addition from Stanford to head Anthropic's global affairs and policy initiatives.",
+      "url": "https://www.anthropic.com/news"
     }
   ],
-  "lastChecked": "2026-09-17T11:29:24.203Z"
+  "lastChecked": "2026-09-18T11:02:19.554Z"
 }
