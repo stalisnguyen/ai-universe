@@ -31838,7 +31838,7 @@
   "totw": {
     "name": "tiun.",
     "tagline": "Auth, billing, and payments for AI builders",
-    "votesCount": 559,
+    "votesCount": 563,
     "url": "https://www.producthunt.com/products/tiun-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/86831409-94db-4f42-a2a6-651c9c669161.png?auto=format",
     "rank": 1,
@@ -31847,46 +31847,46 @@
       "Developer Tools",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-09-18T11:01:09.033Z"
+    "fetchedAt": "2026-09-19T10:44:47.338Z"
   },
   "lastWeeklyUpdate": "2026-09-12T11:10:54.062Z",
   "anthropicNews": [
     {
-      "date": "Sep 13, 2026",
-      "title": "Claude for Financial Advisors launched with connectors",
-      "summary": "New plugin with workflow skills for financial advisors to streamline research, prep, and documentation.",
-      "url": "https://claude.com/blog"
+      "date": "Sep 18, 2026",
+      "title": "Claude helping to build next version of itself",
+      "summary": "<cite index=\"2-4\">Claude is leading 26% of Anthropic's model research and development</cite>.",
+      "url": "https://www.nbcnews.com/tech/tech-news/anthropic-says-model-claude-helping-build-next-version-rcna598494"
+    },
+    {
+      "date": "Sep 15, 2026",
+      "title": "Claude for Small Business launches workflows",
+      "summary": "Claude for Small Business launches new workflows, integrations, and training programs.",
+      "url": "https://claude.com/blog-category/announcements"
     },
     {
       "date": "Sep 1, 2026",
       "title": "Claude Fable 5.1 and Mythos 5.1 released",
-      "summary": "<cite index=\"19-1\">Cache-read pricing cut 75% from $1.00 to $0.25 per million tokens</cite>; models hold existing token rates.",
-      "url": "https://claude.com/blog"
+      "summary": "<cite index=\"1-2,1-3\">Claude Fable 5.1 and Claude Mythos 5.1 released with cache read pricing dropping 75% to $0.25 per million tokens</cite>.",
+      "url": "https://claudelog.com/claude-news/"
     },
     {
-      "date": "Aug 26, 2026",
-      "title": "Salesforce and Anthropic announce Claudeforce partnership",
-      "summary": "<cite index=\"1-1\">Expanded partnership bringing Claude with Salesforce data, workflows, and governance accessible via agentic experiences</cite>.",
-      "url": "https://www.salesforce.com/news/press-releases/2026/08/26/salesforce-and-anthropic-announce-claudeforce/"
-    },
-    {
-      "date": "Aug 20, 2026",
-      "title": "Production agents with computer use and APIs",
-      "summary": "New capabilities for building production agents using computer use, Skills API, and Files API.",
-      "url": "https://claude.com/blog-category/announcements"
-    },
-    {
-      "date": "Aug 11, 2026",
+      "date": "Aug 10, 2026",
       "title": "Claude Sonnet 5 pricing made permanent",
-      "summary": "<cite index=\"19-1\">Introductory pricing of $2 per million input and $10 per million output tokens made permanent</cite>.",
-      "url": "https://anthropic.com/news"
+      "summary": "<cite index=\"19-18\">Anthropic cancelled planned price increase and made $2/$10 pricing standard for Claude Sonnet 5</cite>.",
+      "url": "https://mem0.ai/blog/anthropic-claude-pricing"
     },
     {
-      "date": "Aug 4, 2026",
-      "title": "Mariano-Florentino Cuéllar joins as Chief Global Affairs Officer",
-      "summary": "Senior leadership addition from Stanford to head Anthropic's global affairs and policy initiatives.",
-      "url": "https://www.anthropic.com/news"
+      "date": "Jul 24, 2026",
+      "title": "Claude Opus 5 released",
+      "summary": "<cite index=\"9-5\">Claude Opus 5 released with 1-million-token context window and 128K output tokens at half Fable 5 price</cite>.",
+      "url": "https://hidekazu-konishi.com/entry/anthropic_claude_model_release_timeline.html"
+    },
+    {
+      "date": "Jun 30, 2026",
+      "title": "Claude Fable 5 globally redeployed after export ban",
+      "summary": "<cite index=\"9-3\">Anthropic announced redeployment of Claude Fable 5 globally with updated cybersecurity safeguards</cite>.",
+      "url": "https://hidekazu-konishi.com/entry/anthropic_claude_model_release_timeline.html"
     }
   ],
-  "lastChecked": "2026-09-18T11:02:19.554Z"
+  "lastChecked": "2026-09-19T10:45:02.486Z"
 }
