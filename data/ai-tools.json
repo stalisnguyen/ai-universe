@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T11:48:19.550Z",
+  "lastUpdated": "2026-09-21T12:37:31.693Z",
   "categories": [
     {
       "id": "llm",
@@ -32558,12 +32558,136 @@
         ]
       },
       "link": "https://sentient-os.ai"
+    },
+    {
+      "id": "pipedrive-nova",
+      "name": "Pipedrive Nova",
+      "company": "Pipedrive",
+      "category": "agent",
+      "icon": "🤖",
+      "badge": "new",
+      "color": "#2DBE60",
+      "price": "freemium",
+      "priceLabel": "Included in all Pipedrive plans",
+      "tags": [
+        "sales intelligence",
+        "meeting automation",
+        "CRM",
+        "sales agent"
+      ],
+      "shortDesc": "AI meeting intelligence tool that briefs salespeople, records calls, and drafts CRM updates.",
+      "fullDesc": "Pipedrive Nova is a built-in AI meeting intelligence tool that supports salespeople throughout the meeting lifecycle. It generates pre-meeting briefings using CRM context, records and transcribes conversations during calls, and drafts post-meeting CRM updates for human review and approval. Designed for sales teams using Pipedrive who want to reduce administrative work while maintaining control over AI-generated changes.",
+      "info": [
+        {
+          "label": "Type",
+          "value": "Meeting Intelligence Agent"
+        },
+        {
+          "label": "Released",
+          "value": "September 2026"
+        },
+        {
+          "label": "Best for",
+          "value": "Sales teams reducing admin work and keeping pipeline data current"
+        },
+        {
+          "label": "Pricing",
+          "value": "Included in all Pipedrive plans at no additional cost"
+        }
+      ],
+      "features": [
+        "Pre-meeting AI briefings using deal history, emails, and past conversations from Pipedrive",
+        "Call recording and transcription via desktop app or visible notetaker in Google Meet, Zoom, and Microsoft Teams",
+        "Automatic post-meeting transcript and summary generation with key decisions and next steps",
+        "Suggested CRM updates including deal stage, value, and expected close date",
+        "Human review and approval workflow for all AI-generated changes before applying to CRM",
+        "Configurable consent and notification controls for meeting participants",
+        "Admin user-access controls and governance settings",
+        "Integrated directly into Pipedrive infrastructure with no separate deployment required"
+      ],
+      "demo": [
+        {
+          "title": "Pre-meeting Preparation",
+          "desc": "Nova assembles context from deal history, recent activity, and linked emails to help you arrive prepared without searching through records."
+        },
+        {
+          "title": "During the Call",
+          "desc": "Record conversations using the desktop app or Nova's visible notetaker bot. Nova automatically transcribes while you focus on the customer."
+        },
+        {
+          "title": "Post-meeting Review",
+          "desc": "Nova generates transcript, summary, and suggested CRM updates. Review and approve changes with one click before they touch your pipeline."
+        }
+      ],
+      "prompts": [
+        {
+          "label": "Meeting Prep",
+          "text": "Show me the deal history and recent communications with this prospect so I'm prepared for the call."
+        },
+        {
+          "label": "CRM Update",
+          "text": "Based on this call transcript, what should I update in the deal record regarding stage, value, and close date?"
+        },
+        {
+          "label": "Next Steps",
+          "text": "Identify the key action items and next steps from this meeting transcript."
+        },
+        {
+          "label": "Call Summary",
+          "text": "Generate a concise summary of this sales call highlighting key discussion points and decisions."
+        }
+      ],
+      "pricing": {
+        "note": "Nova is included in all Pipedrive plans at no additional cost. Pipedrive offers tiered pricing starting from the Lite plan at €14 per seat monthly with annual billing.",
+        "plans": [
+          {
+            "name": "Lite",
+            "price": "€14",
+            "per": "per month",
+            "popular": false,
+            "color": "#B3E5FC",
+            "features": [
+              "Nova meeting intelligence included",
+              "Call recording and transcription",
+              "Pre-meeting briefings",
+              "CRM update suggestions"
+            ]
+          },
+          {
+            "name": "Professional",
+            "price": "Custom",
+            "per": "per month",
+            "popular": true,
+            "color": "#2DBE60",
+            "features": [
+              "All Lite features",
+              "Advanced CRM workflows",
+              "Enhanced admin controls",
+              "Priority support"
+            ]
+          },
+          {
+            "name": "Advanced",
+            "price": "Custom",
+            "per": "per month",
+            "popular": false,
+            "color": "#90CAF9",
+            "features": [
+              "All Professional features",
+              "Custom integrations",
+              "Enterprise-grade security",
+              "Dedicated account management"
+            ]
+          }
+        ]
+      },
+      "link": "https://www.pipedrive.com/en/newsroom/pipedrive-launches-nova-to-turn-sales-meetings-into-crm-intelligence"
     }
   ],
   "totw": {
     "name": "tiun.",
     "tagline": "Auth, billing, and payments for AI builders",
-    "votesCount": 572,
+    "votesCount": 596,
     "url": "https://www.producthunt.com/products/tiun-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+AI+Universe+%28ID%3A+278448%29",
     "thumbnail": "https://ph-files.imgix.net/86831409-94db-4f42-a2a6-651c9c669161.png?auto=format",
     "rank": 1,
@@ -32572,46 +32696,46 @@
       "Developer Tools",
       "Artificial Intelligence"
     ],
-    "fetchedAt": "2026-09-20T11:07:39.811Z"
+    "fetchedAt": "2026-09-21T12:36:12.538Z"
   },
   "lastWeeklyUpdate": "2026-09-20T11:44:53.987Z",
   "anthropicNews": [
     {
-      "date": "Sep 17, 2026",
-      "title": "Projects redesigned: folder to conversation",
-      "summary": "Claude projects restructured for improved conversation-based workflow management.",
-      "url": "https://claude.com/blog-category/announcements"
-    },
-    {
-      "date": "Sep 16, 2026",
-      "title": "Claude Cowork and chat are now one Claude",
-      "summary": "Anthropic unified Claude Cowork and chat interfaces into a single integrated platform.",
-      "url": "https://claude.com/blog-category/announcements"
-    },
-    {
       "date": "Sep 1, 2026",
-      "title": "Claude Fable 5.1 released with cache pricing cuts",
-      "summary": "<cite index=\"16-1\">Anthropic released Claude Fable 5.1 with 75% cache-read pricing reduction, from $1.00 to $0.25 per million tokens</cite>.",
-      "url": "https://anthropic.com"
+      "title": "Claude Fable/Mythos 5.1 Released with Cache Pricing Cut",
+      "summary": "Anthropic released Claude Fable 5.1 and Mythos 5.1 with 75% reduction in cache-read pricing from $1.00 to $0.25 per million tokens.",
+      "url": "https://softwarepricing.com/pricing-observatory/anthropic/"
     },
     {
-      "date": "Sep 1, 2026",
-      "title": "Claude Mythos 5.1 release announced",
-      "summary": "<cite index=\"1-1\">Claude Fable 5.1 is the latest generally available Claude model released on September 1, 2026</cite>.",
-      "url": "https://anthropic.com/glasswing"
+      "date": "Aug 10, 2026",
+      "title": "Sonnet 5 Pricing Made Permanent at $2/$10",
+      "summary": "Anthropic cancelled planned September 1 price increase and locked in Sonnet 5 pricing permanently at $2/$10 per million input/output tokens.",
+      "url": "https://platform.claude.com/docs/en/about-claude/pricing"
     },
     {
-      "date": "Aug 28, 2026",
-      "title": "Research paper: automated researchers & alignment",
-      "summary": "Anthropic published research on automated researchers mitigating alignment failures.",
-      "url": "https://www.anthropic.com/research"
+      "date": "Jul 24, 2026",
+      "title": "Claude Opus 5 Released at Half Fable 5's Price",
+      "summary": "Anthropic released Claude Opus 5 with performance close to Fable 5 on many tasks at half the price, supporting 1M-token context.",
+      "url": "https://www.axios.com/2026/07/24/anthropic-releases-new-model-opus-5"
     },
     {
-      "date": "Aug 26, 2026",
-      "title": "Claude Science impact study published",
-      "summary": "Research showing Claude accelerating protein design and analytical chemistry applications.",
-      "url": "https://www.anthropic.com/research"
+      "date": "Jul 6, 2026",
+      "title": "Anthropic Publishes Global Workspace Interpretability Paper",
+      "summary": "Anthropic released landmark paper on J-space interpretability showing a small set of internal representations functioning as a global workspace in Claude models.",
+      "url": "https://transformer-circuits.pub"
+    },
+    {
+      "date": "Jun 30, 2026",
+      "title": "Claude Science AI Workbench Launched for Researchers",
+      "summary": "Anthropic introduced Claude Science, an AI workbench optimized for scientists and pharmaceutical research with integrated scientific tools.",
+      "url": "https://www.statnews.com/2026/06/30/anthropic-release-claude-science-ceo-dario-amodei/"
+    },
+    {
+      "date": "Jun 9, 2026",
+      "title": "Claude Fable 5 and Mythos 5 Released via Project Glasswing",
+      "summary": "Anthropic released Claude Mythos 5 as restricted preview and Fable 5 with safeguards, sitting above Opus tier with frontier capabilities.",
+      "url": "https://en.wikipedia.org/wiki/Claude_Mythos"
     }
   ],
-  "lastChecked": "2026-09-20T11:48:19.551Z"
+  "lastChecked": "2026-09-21T12:37:31.693Z"
 }
